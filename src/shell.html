@@ -76,6 +76,21 @@ svg .chs{font:600 13px Georgia,serif;fill:#8a3b12}.dbox .big{font:700 44px Georg
 h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-bottom:1px solid var(--line);padding-bottom:4px}h3.gh small{color:var(--dim);font:12px sans-serif}
 .mx.pup select{font:inherit;font-size:13px;padding:3px 6px;border-radius:8px;background:var(--bg);color:var(--txt);border:1px solid var(--line)}
 .wk small b.pref{color:var(--txt);font-weight:600}
+#pjHud{display:none;position:sticky;top:6px;float:right;margin:6px 8px -110px 0;z-index:5;background:#1e1a17ee;color:var(--txt);border-radius:12px;padding:6px 10px;min-width:118px;text-align:center;box-shadow:0 4px 14px #0006}#pjHud.on{display:block}
+#pjHud .n{font:700 24px Georgia,serif;color:var(--or)}#pjHud .t{font-size:11px;color:var(--dim)}#pjHud .c{font:600 13px sans-serif;min-height:16px}
+#pjHud .k{position:relative;height:8px;border-radius:4px;background:linear-gradient(90deg,#c0392b 0,#c98a12 20%,#2f8f4e 35%,#2f8f4e 65%,#c98a12 80%,#c0392b 100%);margin-top:4px}#pjHud .k i{position:absolute;top:-3px;width:4px;height:14px;margin-left:-2px;background:#fff;border-radius:2px;transition:left .06s}
+.pjg{color:#3fbf6b;stroke:#2f8f4e}.pjo{color:#e0a020;stroke:#c98a12}.pjr{color:#e05a4a;stroke:#c0392b}.pjn{color:var(--dim);stroke:#9a8d7c}
+svg .pjl{stroke-width:3.2;stroke-linecap:round;opacity:.85}
+svg .nh.pj-ok{fill:#2f8f4e}svg .nh.pj-mid{fill:#c98a12}svg .nh.pj-bad{fill:#c0392b}svg .nh.hol.pj-ok{fill:none;stroke:#2f8f4e}svg .nh.hol.pj-mid{fill:none;stroke:#c98a12}svg .nh.hol.pj-bad{fill:none;stroke:#c0392b}
+#lyr2{padding:0 14px 4px;font-size:13px;color:var(--dim);min-height:0}#lyr2 .ipa{font-family:"Charis SIL","Doulos SIL","Gentium Plus",serif;color:#cdb98a}#lyr2 .fr{font-style:italic}
+#txp{display:none}body.txmode #txp{display:flex;flex-direction:column;position:fixed;z-index:9;background:var(--bg2);border-left:1px solid var(--line);right:0;top:0;bottom:0;width:min(420px,100vw);box-shadow:-6px 0 24px #0007}
+@media (max-width:700px){body.txmode #txp{top:auto;left:0;width:auto;height:58vh;border-left:0;border-top:1px solid var(--or);border-radius:16px 16px 0 0}}
+.txh{display:flex;align-items:center;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}.txh b{flex:1;color:var(--or);font:600 16px Georgia,serif}.txh button{padding:4px 8px;font-size:13px}
+.txb{overflow:auto;padding:8px 12px 30px}.ctx{background:var(--card);border-radius:10px;padding:6px 10px;margin:6px 0;font-size:13.5px;color:var(--txt)}.ctx summary{cursor:pointer;color:var(--or);font-weight:600}.ctx ul{padding-left:18px;margin:6px 0}
+.txl{padding:10px 8px;border-bottom:1px solid var(--line);cursor:pointer;border-radius:8px}.txl:hover{background:#ffffff08}.txl.cur{background:#e8b04b1c;outline:1px solid #e8b04b55}
+.txl .it{font:600 17px Georgia,serif}.txl .it small{float:right;font:11px sans-serif;color:var(--dim)}.txl .ipa{font-family:"Charis SIL","Doulos SIL","Gentium Plus",serif;color:#cdb98a;font-size:15px;margin:2px 0}
+.wb{display:flex;flex-wrap:wrap;gap:4px 12px;margin:4px 0}.wb span{display:flex;flex-direction:column;line-height:1.15}.wb b{font-weight:500;font-size:13.5px}.wb i{font-size:11.5px;color:var(--dim)}.txl .fr{font-style:italic;color:#e9dcc6;font-size:14px}
+.dq2{margin-top:12px;font-size:12px}#bText:not(.has){opacity:.55}
 </style></head><body>
 <div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div>
  <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><button onclick="ptSafe.exportFile()" title="Sauvegarder bibliothèque, programmes et réglages">💾</button><button onclick="ptSafe.importFile()" title="Restaurer une sauvegarde">📂</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
@@ -89,12 +104,13 @@ h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-botto
   <div class="grp"><label>Tempo</label><button id="tm">−</button><output id="tmp">100 %</output><button id="tp">+</button></div>
   <button id="bLoop" title="Boucle">🔁</button><button id="bWait" title="Attendre aux points d’orgue">𝄐<span class="lb"> attendre</span></button>
   <button id="follow" class="on" title="Suivre la lecture">👁<span class="lb"> suivre</span></button><button id="bClef" title="Clé du chant">𝄞/𝄢</button>
-  <button id="bPiano" title="Mode piano : clavier, MIDI, piano maître">🎹</button><button id="bProg" title="Ajouter au programme">🎭➕</button><button id="bMeta" title="Fiche de la pièce">✏️</button>
+  <button id="bText" title="Texte : mot à mot, traduction, prononciation">📖</button><button id="bPitch" title="Micro : justesse de ta voix">🎤</button><button id="bPiano" title="Mode piano : clavier, MIDI, piano maître">🎹</button><button id="bProg" title="Ajouter au programme">🎭➕</button><button id="bMeta" title="Fiche de la pièce">✏️</button>
   <span id="mnum"></span>
  </div>
  <div id="conc"></div>
- <div id="title"></div><div id="vbadge"></div><div id="mixer"></div><div id="lyr"></div>
- <div id="scorew"><div id="score"></div></div>
+ <div id="title"></div><div id="vbadge"></div><div id="mixer"></div><div id="lyr"></div><div id="lyr2"></div>
+ <div id="scorew"><div id="pjHud"><div class="n">—</div><div class="t">chante…</div><div class="c"></div><div class="k"><i></i></div></div><div id="score"></div></div>
+ <div id="txp"></div>
  <div id="pno"><div id="pbar" class="bar"></div><div id="pkb"></div></div>
 </div>
 <button id="wait">𝄐 Point d’orgue — touche pour continuer</button>
@@ -117,6 +133,12 @@ __NAV__
 </script>
 <script>
 __PIANO__
+</script>
+<script>
+__PITCH__
+</script>
+<script>
+__TEXT__
 </script>
 <script>
 window.PT_SAFE={app:'Le partiteur',file:'partiteur-sauvegarde.json',match:function(k){return k.indexOf('partiteur_')===0;},

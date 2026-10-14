@@ -1,0 +1,20 @@
+{"lang":"it",
+"ctx":"Acte I — Rome, juin 1800, église Sant’Andrea della Valle. Le peintre Mario Cavaradossi travaille à une Marie-Madeleine. Il a pris pour modèle, sans qu’elle le sache, une inconnue blonde aux yeux bleus venue prier dans l’église (la marquise Attavanti). Il sort de sa poche le médaillon de Floria Tosca, la cantatrice qu’il aime, brune aux yeux noirs, et compare les deux beautés : l’art mêle les deux visages, mais sa seule pensée, c’est Tosca. Dans la partition complète, le sacristain bougonne entre les phrases (« Scherza coi fanti e lascia stare i santi » — plaisante avec les valets, mais laisse les saints tranquilles).",
+"diction":["Doubles consonnes bien tenues : bel-lez-ze, az-zur-ro, oc-chio (on s’arrête un instant sur la consonne).","Voyelles fermées : recòndita [o], Tosca [o], bionde [o], nero [e] — ouvertes : diverse [ɛ], ardente [ɛ], mistero [ɛ], sei [ɛ], chiome [ɔ], ignota [ɔ], occhio [ɔ].","Liaisons de voyelles (‿) : on enchaîne sans coup de glotte — recondita‿armonia, beltade‿ignota, azzurro‿hai, Tosca‿ha.","gn = [ɲ] (ignota), chi = [kj] (chiome), ci = [tʃ] (cinta), zz = [ddz] dans azzurro."],
+"lines":[
+{"m":12,"it":"Recondita armonia","ipa":"reˈkondita‿armoˈniːa","w":[["Recondita","cachée, secrète"],["armonia","harmonie"]],"fr":"Mystérieuse harmonie"},
+{"m":15,"it":"di bellezze diverse!…","ipa":"di belˈlettse diˈvɛrse","w":[["di","de"],["bellezze","beautés"],["diverse","diverses"]],"fr":"de beautés si différentes !…"},
+{"m":17,"it":"È bruna Floria,","ipa":"ɛ ˈbruːna ˈflɔːrja","w":[["È","est"],["bruna","brune"],["Floria","Floria"]],"fr":"Floria est brune,"},
+{"m":18,"it":"l’ardente amante mia,","ipa":"larˈdɛnte‿aˈmante ˈmiːa","w":[["l’ardente","l’ardente"],["amante","amante"],["mia","mienne"]],"fr":"mon ardente amante,"},
+{"m":21,"it":"e te, beltade ignota,","ipa":"e ˈte belˈtaːde‿iɲˈɲɔːta","w":[["e","et"],["te","toi"],["beltade","beauté"],["ignota","inconnue"]],"fr":"et toi, beauté inconnue,"},
+{"m":24,"it":"cinta di chiome bionde!…","ipa":"ˈtʃinta di ˈkjɔːme ˈbjonde","w":[["cinta","ceinte, couronnée"],["di","de"],["chiome","chevelure"],["bionde","blonde"]],"fr":"couronnée de cheveux blonds !…"},
+{"m":26,"it":"Tu azzurro hai l’occhio,","ipa":"tu‿adˈdzurro‿ˈai ˈlɔkkjo","w":[["Tu","toi"],["azzurro","bleu"],["hai","(tu) as"],["l’occhio","l’œil"]],"fr":"Toi, tu as les yeux bleus,"},
+{"m":28,"it":"Tosca ha l’occhio nero!","ipa":"ˈtoska‿a ˈlɔkkjo ˈneːro","w":[["Tosca","Tosca"],["ha","a"],["l’occhio","l’œil"],["nero","noir"]],"fr":"Tosca a les yeux noirs !"},
+{"m":31,"it":"L’arte nel suo mistero","ipa":"ˈlarte nel ˈsuːo misˈtɛːro","w":[["L’arte","l’art"],["nel","dans"],["suo","son"],["mistero","mystère"]],"fr":"L’art, dans son mystère,"},
+{"m":32,"it":"le diverse bellezze insiem confonde:","ipa":"le diˈvɛrse belˈlettse inˈsjɛm konˈfonde","w":[["le","les"],["diverse","diverses"],["bellezze","beautés"],["insiem","ensemble"],["confonde","mêle, confond"]],"fr":"mêle ensemble les beautés diverses :"},
+{"m":34,"it":"ma nel ritrar costei…","ipa":"ma nel riˈtrar kosˈtɛi","w":[["ma","mais"],["nel","en"],["ritrar","peignant (le portrait de)"],["costei","celle-ci"]],"fr":"mais en peignant celle-ci…"},
+{"m":37,"it":"il mio solo pensiero,","ipa":"il ˈmiːo ˈsoːlo penˈsjɛːro","w":[["il","la"],["mio","mienne"],["solo","seule"],["pensiero","pensée"]],"fr":"ma seule pensée,"},
+{"m":39,"it":"ah! il mio sol pensier sei tu!","ipa":"a‿il ˈmiːo sol penˈsjɛr ˈsɛi ˈtu","w":[["ah!","ah !"],["il mio","ma"],["sol","seule"],["pensier","pensée"],["sei","es"],["tu","toi"]],"fr":"ah ! ma seule pensée, c’est toi !"},
+{"m":41,"it":"Tosca, sei tu!","ipa":"ˈtoska ˈsɛi ˈtu","w":[["Tosca","Tosca"],["sei","es"],["tu","toi"]],"fr":"Tosca, c’est toi !"}
+],
+"doubts":["Floria : [ˈflɔːrja] (o ouvert) selon l’usage le plus courant — certains chanteurs ferment le o.","Transcription phonétique et traductions rédigées par Claude d’après le texte de la partition — à valider avec ton coach de diction."]}

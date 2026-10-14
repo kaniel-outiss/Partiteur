@@ -63,7 +63,7 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
       ksSVG(KM,ks,cl,SP*3.6,t).forEach(function(s){svg+=s;});
       svg+='<text x="'+(width-4)+'" y="'+(t-SP*.8)+'" text-anchor="end" class="pn">'+(r[0]===0||true?R.P.short||R.P.name:'')+'</text>';});
     let x=head;
-    r.forEach(function(i){const m=M[i],w=mw[i]*scale;ST.geo[i]={x0:x,x1:x+w,y0:sysTop,y1:sysBot};
+    r.forEach(function(i){const m=M[i],w=mw[i]*scale;ST.geo[i]={x0:x,x1:x+w,y0:sysTop,y1:sysBot,top:top};
       svg+='<rect class="mzone" data-m="'+i+'" x="'+x+'" y="'+sysTop+'" width="'+w+'" height="'+(sysBot-sysTop)+'"/>';
       if(m.meterShow)rows.forEach(function(R){const t=top[R.P.id],a=m.meter.split('/');svg+='<text x="'+(x+8)+'" y="'+(t+SP*1.9)+'" class="ts">'+a[0]+'</text><text x="'+(x+8)+'" y="'+(t+SP*3.9)+'" class="ts">'+a[1]+'</text>';});
       const xs=x+(m.meterShow?SP*2.6:SP*1.2),xe=x+w-SP*.8;
@@ -85,7 +85,7 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
             const hol=e.d*(e.tri?1.5:1)>=2-1e-6||e.base==='h'||e.base==='w';
             N.forEach(function(q){const cy=ey0-q.s*SP/2,hx=ex+q.dx;const key=q.sp.L+q.sp.oct,want=q.sp.acc,have=accState[key]!=null?accState[key]:(KM[q.sp.L]||0);
               if(want!==have){svg+='<text x="'+(hx-SP*1.6)+'" y="'+(cy+SP*.45)+'" class="acc">'+(want===1?'♯':(want===-1?'♭':(want===2?'𝄪':(want===-2?'𝄫':'♮'))))+'</text>';accState[key]=want;}
-              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+(q.out?' out':'')+(typeof pnHandCls==='function'?pnHandCls(P):'')+'" data-ev="1"/>'+(typeof pnNameSVG==='function'?pnNameSVG(q.sp,hx,cy,hol):'');
+              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+(q.out?' out':'')+(typeof pnHandCls==='function'?pnHandCls(P):'')+(typeof pjCls==='function'?pjCls(e,P):'')+'" data-ev="1"/>'+(typeof pnNameSVG==='function'?pnNameSVG(q.sp,hx,cy,hol):'');
               if(e.dot)svg+='<circle cx="'+(ex+SP*1.15)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>'+(e.dot==='dd'?'<circle cx="'+(ex+SP*1.6)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>':'');});
             if(e.base!=='w'){const lo=N[0],hi=N[N.length-1],sx=up?ex+SP*.58:ex-SP*.58,y1=up?ey0-lo.s*SP/2:ey0-hi.s*SP/2,y2=up?ey0-hi.s*SP/2-SP*3.2:ey0-lo.s*SP/2+SP*3.2;
               svg+='<line x1="'+sx+'" x2="'+sx+'" y1="'+y1+'" y2="'+y2+'" class="stem"/>';
@@ -178,7 +178,7 @@ function show(ev){const i=ev.m;if(i!==ST.cur){ST.cur=i;const g=ST.geo[i];const p
 function lyLine(i,cur){/* la phrase en cours, la syllabe chantée en or */const M=ST.M,P=lyPart();if(!P)return '';let out=[];
   for(let k=Math.max(0,i-1);k<=Math.min(M.length-1,i+2);k++)(M[k].parts[P.id][0]||[]).forEach(function(e){if(e.ly)out.push(e===cur?'<b>'+esc(e.ly.replace(/‿/g,' '))+'</b>':esc(e.ly.replace(/‿/g,' ')));});
   return out.join(' ').replace(/- /g,'').replace(/_/g,'');}
-function seek(i){ST.cur=i;const g=ST.geo[i];const ph=$('#ph');if(g&&ph){ph.setAttribute('x',g.x0+4);ph.setAttribute('y',g.y0);ph.setAttribute('height',g.y1-g.y0);}$('#mnum').textContent='mesure '+(i+1)+' / '+ST.M.length;if(PLAY){stop();play();}}
+function seek(i){ST.cur=i;const g=ST.geo[i];const ph=$('#ph');if(g&&ph){ph.setAttribute('x',g.x0+4);ph.setAttribute('y',g.y0);ph.setAttribute('height',g.y1-g.y0);}if(g){const box=$('#scorew'),sc=ST.scale||1;if(g.y0*sc<box.scrollTop||g.y1*sc>box.scrollTop+box.clientHeight)box.scrollTo({top:Math.max(0,g.y0*sc-40),behavior:'smooth'});}$('#mnum').textContent='mesure '+(i+1)+' / '+ST.M.length;if(PLAY){stop();play();}}
 /* ── interface ── */
 function mixerHTML(){return ST.W.parts.map(function(P){const x=ST.mix[P.id]||{};return '<div class="mx"><span class="mxn">'+(P.kind==='voice'?'🎤 ':'🎹 ')+esc(P.name)+'</span>'
   +'<button data-mx="mute" data-p="'+P.id+'" class="'+(x.mute?'on':'')+'">'+(x.mute?'🔇':'🔊')+'</button><button data-mx="solo" data-p="'+P.id+'" class="'+(x.solo?'on':'')+'">solo</button>'
