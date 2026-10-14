@@ -3,3 +3,4 @@ scan/*.png
 node_modules/
 www/
 android/
+*.mxl

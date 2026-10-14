@@ -10,10 +10,10 @@ const STEP={C:0,D:1,E:2,F:3,G:4,A:5,B:6},SEMI=[0,2,4,5,7,9,11];
 function parseNote(n){const m=/^([A-G])(bb|##|b|#)?(-?\d)$/.exec(n);if(!m)return null;const acc={'':0,'#':1,'##':2,b:-1,bb:-2}[m[2]||''];const oct=+m[3];
   return {L:m[1],acc:acc,oct:oct,midi:12*(oct+1)+SEMI[STEP[m[1]]]+acc,step:oct*7+STEP[m[1]]};}
 function parseTok(tok){const g=tok.charAt(0)==='g'&&/^g[A-G]/.test(tok);if(g)tok=tok.slice(1);
-  const parts=tok.split('+'),last=parts[parts.length-1];const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whest]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)$/.exec(last);if(!m)return null;
+  const parts=tok.split('+'),last=parts[parts.length-1];const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whest]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)(@[\d,]+)?$/.exec(last);if(!m)return null;
   let d=DUR[m[2]];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;if(m[4]==='3')d*=2/3;else if(m[4]){const q=m[4].slice(1).split(':');d*=+q[1]/+q[0];}const fl=m[5]||'';
-  const rest=m[1]==='r';const notes=rest?[]:parts.map(function(p,i){return parseNote(i===parts.length-1?m[1]:p.replace(/[whest]?(dd|d)?(3|%\d+:\d+)?[~*!^]*$/,''));}).filter(Boolean);
-  return {rest:rest,notes:notes,d:g?0:d,grace:g,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,base:m[2]||'q',dot:m[3]||'',tri:m[4]==='3',tup:m[4]&&m[4]!=='3'?m[4].slice(1).split(':')[0]:''};}
+  const rest=m[1]==='r';const notes=rest?[]:parts.map(function(p,i){return parseNote(i===parts.length-1?m[1]:p.replace(/[whest]?(dd|d)?(3|%\d+:\d+)?[~*!^]*(@[\d,]+)?$/,''));}).filter(Boolean);
+  return {rest:rest,notes:notes,d:g?0:d,grace:g,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,base:m[2]||'q',dot:m[3]||'',tri:m[4]==='3',tup:m[4]&&m[4]!=='3'?m[4].slice(1).split(':')[0]:'',fg:m[6]?m[6].slice(1):''};}
 function parseVoice(str){let t=0;return str.trim().split(/\s+/).filter(Boolean).map(function(x){const e=parseTok(x);if(!e)return null;e.t=t;t+=e.d;return e;}).filter(Boolean);}
 function meterLen(m){const a=m.split('/');return +a[0]*4/+a[1];}
 /* ── la pièce : temps absolus, paroles, tempo ── */
@@ -69,6 +69,7 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
       const xs=x+(m.meterShow?SP*2.6:SP*1.2),xe=x+w-SP*.8;
       /* textes de tempo / nuances au-dessus de la première portée */
       const tx=[m.tempo].concat(m.marks).filter(Boolean);if(tx.length)svg+='<text x="'+(x+4)+'" y="'+(top[rows[0].P.id]-rows[0].top+SP*1.4)+'" class="mk" dx="14">'+tx.join(' · ')+'</text>';
+      if(typeof pnChordSVG==='function')svg+=pnChordSVG(m,i,xs,xe,top,rows,ks);
       if(m.doubt)svg+='<text x="'+(x+w-6)+'" y="'+(sysTop+12)+'" text-anchor="end" class="dq" data-doubt="'+i+'">?</text>';
       rows.forEach(function(R){const P=R.P,t=top[P.id],cl=clefOf(P,m,ks),B=cl==='F'?18:30;const accState={};
         m.parts[P.id].forEach(function(V,vi){const multi=m.parts[P.id].length>1;
@@ -84,13 +85,14 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
             const hol=e.d*(e.tri?1.5:1)>=2-1e-6||e.base==='h'||e.base==='w';
             N.forEach(function(q){const cy=ey0-q.s*SP/2,hx=ex+q.dx;const key=q.sp.L+q.sp.oct,want=q.sp.acc,have=accState[key]!=null?accState[key]:(KM[q.sp.L]||0);
               if(want!==have){svg+='<text x="'+(hx-SP*1.6)+'" y="'+(cy+SP*.45)+'" class="acc">'+(want===1?'♯':(want===-1?'♭':(want===2?'𝄪':(want===-2?'𝄫':'♮'))))+'</text>';accState[key]=want;}
-              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+(q.out?' out':'')+'" data-ev="1"/>';
+              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+(q.out?' out':'')+(typeof pnHandCls==='function'?pnHandCls(P):'')+'" data-ev="1"/>'+(typeof pnNameSVG==='function'?pnNameSVG(q.sp,hx,cy,hol):'');
               if(e.dot)svg+='<circle cx="'+(ex+SP*1.15)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>'+(e.dot==='dd'?'<circle cx="'+(ex+SP*1.6)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>':'');});
             if(e.base!=='w'){const lo=N[0],hi=N[N.length-1],sx=up?ex+SP*.58:ex-SP*.58,y1=up?ey0-lo.s*SP/2:ey0-hi.s*SP/2,y2=up?ey0-hi.s*SP/2-SP*3.2:ey0-lo.s*SP/2+SP*3.2;
               svg+='<line x1="'+sx+'" x2="'+sx+'" y1="'+y1+'" y2="'+y2+'" class="stem"/>';
               const fl={e:1,s:2,t:3}[e.base]||0;for(let k=0;k<fl;k++){const fy=y2+(up?k*SP*.75:-k*SP*.75);svg+='<path d="M'+sx+','+fy+' q'+(SP*.8)+','+(up?SP*.7:-SP*.7)+' '+(SP*.45)+','+(up?SP*1.8:-SP*1.8)+'" class="flag"/>';}
               if(e.trem)for(let k=0;k<3;k++){const ty=(y1+y2)/2+(k-1)*SP*.55;svg+='<line x1="'+(sx-SP*.6)+'" x2="'+(sx+SP*.6)+'" y1="'+(ty+SP*.25)+'" y2="'+(ty-SP*.25)+'" class="trem"/>';}
               if(e.tri||e.tup)svg+='<text x="'+ex+'" y="'+(up?y2-3:y2+11)+'" class="tri">'+(e.tup||3)+'</text>';}
+            if(e.fg&&typeof pnFingSVG==='function')svg+=pnFingSVG(e,P,ex,ey0,N,up);
             if(e.arp)svg+='<path d="M'+(ex-SP*1.4)+','+(ey0-N[N.length-1].s*SP/2-SP*.6)+' l0,'+((N[N.length-1].s-N[0].s)*SP/2+SP*1.2)+'" class="arp"/>';
             if(e.ferm)svg+='<text x="'+ex+'" y="'+(t-SP*.6)+'" class="ferm">𝄐</text>';
             if(e.tie)svg+='<path d="M'+(ex+SP*.8)+','+(ey0-N[0].s*SP/2+(up?SP*.9:-SP*.9))+' q'+(SP*1.6)+','+(up?SP*1.1:-SP*1.1)+' '+(SP*3.2)+',0" class="tie"/>';
@@ -152,7 +154,8 @@ function play(){if(PLAY){stop();return;}const A=ac();const M=ST.M;const from=ST.
       const rel=end-clock.b,ral=m.rall?(1+.35*((clock.b-m.t0)+rel/2)/m.len):1;clock.t+=rel*s*ral;clock.b=end;clock.mi++;}return clock.t;};
   const tick=function(){if(!PLAY)return;const now=A.currentTime;
     PLAY.btt=beatToTime;if(PLAY.waiting)return;
-    while(PLAY.k<EV.length){const ev=EV[PLAY.k];if(PLAY.hold!=null&&ev.beat>=PLAY.hold-1e-6){const ht=beatToTime(PLAY.hold);if(now>=ht){PLAY.waiting=true;PLAY.holdT=ht;$('#wait').classList.add('on');}break;}const t=beatToTime(ev.beat);if(t>now+.25)break;PLAY.k++;
+    if(PLAY.hold==null&&typeof pnGate==='function'){const hb=pnGate();if(hb!=null){PLAY.hold=hb;PLAY.holdMaster=true;}}
+    while(PLAY.k<EV.length){const ev=EV[PLAY.k];if(PLAY.hold!=null&&ev.beat>=PLAY.hold-1e-6){const ht=beatToTime(PLAY.hold);if(now>=ht){PLAY.waiting=true;PLAY.holdT=ht;if(!PLAY.holdMaster)$('#wait').classList.add('on');else if(typeof pnWaiting==='function')pnWaiting();}break;}const t=beatToTime(ev.beat);if(t>now+.25)break;PLAY.k++;
       const vol=partVol(ev.P);const tEnd=beatToTime(ev.beat+ev.d);const dur=Math.max(.08,tEnd-t);
       
       if(vol>0)ev.e.notes.forEach(function(n,ni){let midi=n.midi+ST.tr;if(ev.P.kind==='voice'&&ev.P.oct)midi+=ev.P.oct;
@@ -160,11 +163,11 @@ function play(){if(PLAY){stop();return;}const A=ac();const M=ST.M;const from=ST.
         if(ev.e.trem&&ev.P.kind==='piano'){const step=.09;for(let x=0;x<dur-.02;x+=step)pianoNote(midi,tt+x,step*1.2,vol*.55);}
         else if(ev.P.kind==='voice')voiceNote(midi,tt,dur,vol,true);else pianoNote(midi,tt,dur,vol*(ev.e.grace?.6:1));});
       /* point d'orgue : on attend que tu touches l'écran */
-      if(ev.e.ferm&&ST.wait&&ev.m<=to&&!ev.e.grace){const hb=ev.beat+ev.d;if(PLAY.hold==null||hb>PLAY.hold)PLAY.hold=hb;}
+      if(ev.e.ferm&&ST.wait&&ev.m<=to&&!ev.e.grace&&!PLAY.holdMaster){const hb=ev.beat+ev.d;if(PLAY.hold==null||hb>PLAY.hold)PLAY.hold=hb;}
       scheduleUI(ev,t);}
-    if(PLAY.k>=EV.length&&now>beatToTime(M[to].t0+M[to].len)){if(ST.loop){stop(true);play();}else{stop();if(typeof onPieceEnd==='function')onPieceEnd();}}};
+    if(PLAY.k>=EV.length&&now>beatToTime(M[to].t0+M[to].len)){if(ST.loop){stop(true);if(typeof onLoopEnd==='function')onLoopEnd();play();}else{stop();if(typeof onPieceEnd==='function')onPieceEnd();}}};
   PLAY.id=setInterval(tick,40);tick();uiLoop();}
-function resume(){if(!PLAY||!PLAY.waiting)return;const d=AC.currentTime-PLAY.holdT;PLAY.clock.t+=d;PLAY.hold=null;PLAY.waiting=false;$('#wait').classList.remove('on');}
+function resume(){if(!PLAY||!PLAY.waiting)return;const d=AC.currentTime-PLAY.holdT;PLAY.clock.t+=d;PLAY.hold=null;PLAY.holdMaster=false;PLAY.waiting=false;$('#wait').classList.remove('on');}
 function stop(keep){$('#wait').classList.remove('on');if(!PLAY)return;clearInterval(PLAY.id);PLAY=null;ST.playing=false;$('#bPlay').textContent='▶';try{MASTER.gain.setTargetAtTime(0,AC.currentTime,.03);setTimeout(function(){MASTER.gain.setTargetAtTime(.8,AC.currentTime,.01);},250);}catch(e){}}
 const UIQ=[];function scheduleUI(ev,t){UIQ.push({t:t,ev:ev});}
 function uiLoop(){if(!PLAY&&!UIQ.length)return;const now=AC.currentTime;while(UIQ.length&&UIQ[0].t<=now){const u=UIQ.shift();show(u.ev);}if(PLAY||UIQ.length)requestAnimationFrame(uiLoop);}
