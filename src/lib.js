@@ -1,7 +1,7 @@
 /* ═══════════ 📚 BIBLIOTHÈQUE · 🎤 MA VOIX · 🎭 PROGRAMMES & CONCERT ═══════════ */
 'use strict';
 /* — stockage des partitions importées (IndexedDB, secours localStorage) — */
-const IDB={db:null,open:function(){return new Promise(function(ok,ko){try{const r=indexedDB.open('partiteur',1);r.onupgradeneeded=function(){r.result.createObjectStore('works',{keyPath:'id'});};r.onsuccess=function(){IDB.db=r.result;ok();};r.onerror=function(){ko(r.error);};}catch(e){ko(e);}});},
+const IDB={db:null,open:function(){return new Promise(function(ok,ko){try{const r=indexedDB.open('partiteur',2);r.onupgradeneeded=function(){const d=r.result;if(!d.objectStoreNames.contains('works'))d.createObjectStore('works',{keyPath:'id'});if(!d.objectStoreNames.contains('takes'))d.createObjectStore('takes',{keyPath:'id'});};r.onsuccess=function(){IDB.db=r.result;ok();};r.onerror=function(){ko(r.error);};}catch(e){ko(e);}});},
   all:function(){return new Promise(function(ok){if(!IDB.db)return ok(LS.get('works',[]));const q=IDB.db.transaction('works').objectStore('works').getAll();q.onsuccess=function(){ok(q.result||[]);};q.onerror=function(){ok([]);};});},
   put:function(W){return new Promise(function(ok){const c=JSON.parse(JSON.stringify(W,function(k,v){return k.charAt(0)==='_'?undefined:v;}));if(!IDB.db){const a=LS.get('works',[]).filter(function(x){return x.id!==W.id;});a.push(c);LS.set('works',a);return ok();}
     const t=IDB.db.transaction('works','readwrite');t.objectStore('works').put(c);t.oncomplete=ok;t.onerror=ok;});},

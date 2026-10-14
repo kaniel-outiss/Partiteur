@@ -91,6 +91,12 @@ svg .nh.pj-ok{fill:#2f8f4e}svg .nh.pj-mid{fill:#c98a12}svg .nh.pj-bad{fill:#c039
 .txl .it{font:600 17px Georgia,serif}.txl .it small{float:right;font:11px sans-serif;color:var(--dim)}.txl .ipa{font-family:"Charis SIL","Doulos SIL","Gentium Plus",serif;color:#cdb98a;font-size:15px;margin:2px 0}
 .wb{display:flex;flex-wrap:wrap;gap:4px 12px;margin:4px 0}.wb span{display:flex;flex-direction:column;line-height:1.15}.wb b{font-weight:500;font-size:13.5px}.wb i{font-size:11.5px;color:var(--dim)}.txl .fr{font-style:italic;color:#e9dcc6;font-size:14px}
 .dq2{margin-top:12px;font-size:12px}#bText:not(.has){opacity:.55}
+#vbar{padding:5px 10px;gap:5px}#vbar button{padding:4px 9px;font-size:13px}#vfHint{display:none;font-size:13px;color:var(--or);font-weight:600}#vfHint.on{display:inline;animation:pul 1.4s infinite}
+body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animation:pul 1.2s infinite}
+svg .brm{font:bold 22px Georgia,serif;fill:#1d6fb8}body.bredit #score svg{cursor:crosshair;outline:2px dashed #1d6fb8;outline-offset:-4px}
+.tk{display:flex;align-items:center;gap:6px;background:var(--card);border-radius:10px;padding:6px 8px;margin:5px 0}.tk>div{flex:1}.tk small{display:block;color:var(--dim);font-size:11.5px}.tk button{padding:4px 8px}
+@media (max-width:640px){#vbar button{padding:3px 7px;font-size:12px}}
+#mixer{display:none}body.mixopen #mixer{display:flex}body.mixopen #bMix{background:var(--or);color:var(--ink)}
 </style></head><body>
 <div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div>
  <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><button onclick="ptSafe.exportFile()" title="Sauvegarder bibliothèque, programmes et réglages">💾</button><button onclick="ptSafe.importFile()" title="Restaurer une sauvegarde">📂</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
@@ -104,10 +110,11 @@ svg .nh.pj-ok{fill:#2f8f4e}svg .nh.pj-mid{fill:#c98a12}svg .nh.pj-bad{fill:#c039
   <div class="grp"><label>Tempo</label><button id="tm">−</button><output id="tmp">100 %</output><button id="tp">+</button></div>
   <button id="bLoop" title="Boucle">🔁</button><button id="bWait" title="Attendre aux points d’orgue">𝄐<span class="lb"> attendre</span></button>
   <button id="follow" class="on" title="Suivre la lecture">👁<span class="lb"> suivre</span></button><button id="bClef" title="Clé du chant">𝄞/𝄢</button>
-  <button id="bText" title="Texte : mot à mot, traduction, prononciation">📖</button><button id="bPitch" title="Micro : justesse de ta voix">🎤</button><button id="bPiano" title="Mode piano : clavier, MIDI, piano maître">🎹</button><button id="bProg" title="Ajouter au programme">🎭➕</button><button id="bMeta" title="Fiche de la pièce">✏️</button>
+  <button id="bMix" title="Mixeur : volumes, je chante, pupitre">🎚</button><button id="bText" title="Texte : mot à mot, traduction, prononciation">📖</button><button id="bPitch" title="Micro : justesse de ta voix">🎤</button><button id="bPiano" title="Mode piano : clavier, MIDI, piano maître">🎹</button><button id="bProg" title="Ajouter au programme">🎭➕</button><button id="bMeta" title="Fiche de la pièce">✏️</button>
   <span id="mnum"></span>
  </div>
  <div id="conc"></div>
+ <div id="vbar" class="bar"></div>
  <div id="title"></div><div id="vbadge"></div><div id="mixer"></div><div id="lyr"></div><div id="lyr2"></div>
  <div id="scorew"><div id="pjHud"><div class="n">—</div><div class="t">chante…</div><div class="c"></div><div class="k"><i></i></div></div><div id="score"></div></div>
  <div id="txp"></div>
@@ -139,6 +146,12 @@ __PITCH__
 </script>
 <script>
 __TEXT__
+</script>
+<script>
+__VOICE__
+</script>
+<script>
+document.addEventListener('click',function(e){if(e.target.closest('#bMix')){document.body.classList.toggle('mixopen');LS.set('mixopen',document.body.classList.contains('mixopen'));}});if(LS.get('mixopen',false))document.body.classList.add('mixopen');
 </script>
 <script>
 window.PT_SAFE={app:'Le partiteur',file:'partiteur-sauvegarde.json',match:function(k){return k.indexOf('partiteur_')===0;},
