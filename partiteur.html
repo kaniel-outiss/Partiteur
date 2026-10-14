@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Le partiteur 0.1</title>
+<title>Le partiteur 0.2</title>
 <style>
 :root{--bg:#14110f;--bg2:#1e1a17;--card:#262019;--or:#E8B04B;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf6ec;--line:#3a322a;--rouge:#e06a5a}
 *{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -45,8 +45,28 @@ svg #ph{fill:#e8b04b55;pointer-events:none;transition:x .08s linear}
 @media (max-width:640px){.lb{display:none}.bar{gap:4px;padding:6px}.bar button{padding:5px 8px;font-size:14px}#bPlay{min-width:44px;font-size:18px}
 .grp label{display:none}.grp output{min-width:30px;font-size:14px}#keyname{font-size:11px;max-width:84px;line-height:1.1}#mnum{width:100%;text-align:right;margin-top:-2px}
 #title{padding:6px 10px 0}#title b{font-size:17px}#title span{font-size:12px}#mixer{padding:4px 8px;gap:4px}.mx{padding:2px 4px}.mx input{width:44px}.mxn{font-size:12px}#lyr{font-size:16px;min-height:26px}}
+.hbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}h2.sec{font:600 17px Georgia,serif;color:var(--dim);margin:20px 0 8px}
+.wk{position:relative}.wk .amb{font-size:12.5px;color:var(--dim);margin-top:6px}.wk .amb i{opacity:.8}.wdel{position:absolute;top:8px;right:8px;padding:3px 7px;background:transparent;border-color:transparent;opacity:.5}
+.vb{display:inline-block;font-style:normal;font-size:12px;padding:2px 8px;border-radius:10px;margin-left:4px}.vb.ok{background:#2f6b3a;color:#dff5e3}.vb.tr{background:#6b5a1f;color:#fff2c8}.vb.ko{background:#7a2e26;color:#ffd9d3}
+#vbadge{padding:0 14px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}#vbadge:empty{display:none}#vbadge .vb{font-size:13px;margin:0}#vbadge button{padding:3px 9px;font-size:13px}
+svg .nh.out{fill:#c0392b}svg .nh.hol.out{fill:none;stroke:#c0392b}
+#progs{display:grid;gap:8px}.pg{display:flex;align-items:center;gap:8px;background:var(--card);border-radius:12px;padding:10px 12px}.pg>div{flex:1;min-width:0}.pg small{display:block;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+button.pri{background:var(--or);color:var(--ink);border-color:var(--or)}button:disabled{opacity:.4}
+#dlg{position:fixed;inset:0;background:#000a;display:none;align-items:flex-start;justify-content:center;z-index:20;overflow:auto;padding:24px 10px}#dlg.on{display:flex}
+.dbox{background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:16px;max-width:560px;width:100%}.dbox h2{margin:0 0 8px;font:600 20px Georgia,serif;color:var(--or)}.dbox h3{font-size:14px;color:var(--dim);margin:14px 0 6px}
+.dbox label{display:block;font-size:12px;color:var(--dim);margin:8px 0}.dbox input,.dbox select{display:block;width:100%;margin-top:3px;font:inherit;padding:8px;border-radius:9px;background:var(--bg);color:var(--txt);border:1px solid var(--line)}
+.dbox .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}.dbox .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.dbox .hint{color:var(--dim);font-size:13px;margin-bottom:8px}
+.pr{display:grid;grid-template-columns:1fr auto auto;gap:6px;margin:4px 0}.pr input,.pr select{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.rng{display:flex;align-items:center;gap:6px;flex-wrap:wrap}.rng span{color:var(--dim);font-size:12px}.rng output{min-width:38px;text-align:center;font-weight:600}
+.pil{display:grid;gap:5px;margin:8px 0}.pit{display:flex;align-items:center;gap:5px;background:var(--card);border-radius:10px;padding:5px 8px}.pit b{flex:1;font-weight:500}.pno{color:var(--or);font-weight:700;width:18px}.ptr{display:flex;align-items:center;gap:3px;font-size:13px}.pit button{padding:3px 7px}
+.pgb{display:block;width:100%;text-align:left;margin:5px 0}
+#conc{display:none}body.concert #conc{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:6px 12px;background:#3a2a10;border-bottom:1px solid var(--or)}#conc b{color:var(--or)}#conc .nx{color:var(--dim);font-size:13px;flex:1}
+body.concert #mixer,body.concert #bProg,body.concert #bMeta,body.concert #bBack{display:none}body.concert #title span{display:none}
 </style></head><body>
-<div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div><div id="lib"></div></div>
+<div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div>
+ <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
+ <h2 class="sec">📚 Bibliothèque</h2><div id="lib"></div>
+ <h2 class="sec">🎭 Programmes</h2><div id="progs"></div></div>
 <div id="app" style="display:none">
  <div class="bar">
   <button id="bBack" title="Bibliothèque">←</button>
@@ -55,15 +75,18 @@ svg #ph{fill:#e8b04b55;pointer-events:none;transition:x .08s linear}
   <div class="grp"><label>Tempo</label><button id="tm">−</button><output id="tmp">100 %</output><button id="tp">+</button></div>
   <button id="bLoop" title="Boucle">🔁</button><button id="bWait" title="Attendre aux points d’orgue">𝄐<span class="lb"> attendre</span></button>
   <button id="follow" class="on" title="Suivre la lecture">👁<span class="lb"> suivre</span></button><button id="bClef" title="Clé du chant">𝄞/𝄢</button>
+  <button id="bProg" title="Ajouter au programme">🎭➕</button><button id="bMeta" title="Fiche de la pièce">✏️</button>
   <span id="mnum"></span>
  </div>
- <div id="title"></div><div id="mixer"></div><div id="lyr"></div>
+ <div id="conc"></div>
+ <div id="title"></div><div id="vbadge"></div><div id="mixer"></div><div id="lyr"></div>
  <div id="scorew"><div id="score"></div></div>
 </div>
 <button id="wait">𝄐 Point d’orgue — touche pour continuer</button>
 <div id="toast"></div>
+<div id="dlg"></div>
 <script>
-const WORKS=[{"id": "tosca-recondita", "title": "Recondita armonia", "composer": "Giacomo Puccini", "work": "Tosca, acte I", "role": "Cavaradossi", "voice": "ténor", "ks": -1, "bpm": 48, "parts": [{"id": "v", "name": "Cavaradossi (ténor)", "short": "Canto", "kind": "voice", "clef": "G", "oct": -12}, {"id": "rh", "name": "Piano MD", "kind": "piano"}, {"id": "lh", "name": "Piano MG", "kind": "piano"}], "measures": [{"meter": "3/4", "tempo": "Andante lento", "bpm": 48, "marks": ["p"], "v": "rhd", "rh": "r r re C#4e", "lh": "C4 C4 C4", "doubt": "Portée inférieure : clé de FA à l'armure puis clé de SOL immédiatement (LH en clé de sol jusqu'à la m. 9). C#4 : ligne supplémentaire peu visible sur le scan. Liaison C#4 → D4 (m. 2). Tenutos sur les C4 de la MG."}, {"v": "rhd", "rh": "r re D#4s E4s rs F#4s G4s A4s // D4 D4 D4+F4", "lh": "C4 C4 C4", "doubt": "D4 du 3e temps (voix inf.) précédé d'un bécarre (annule le D#4)."}, {"marks": ["p"], "v": "rhd", "rh": "D4+F4+Bb4 r3 G5+D6e3 Bb5+F6e3 G5+D6e3 F5+Bb5e3", "lh": "C4 C4+D4+F4+Bb4 C4+D4+F4+Bb4", "doubt": "1er temps : Bb4 (hampe haut) + D4/F4 (hampe bas) même rythme, fusionnés ; bécarre de précaution sur F4. Triolet : soupir + croche sous crochet 3, puis triolet de croches ; F5+Bb5 final : tête de F5 lue sur la 5e ligne."}, {"v": "rhd", "rh": "D5+G5dd E5+A5s F5+Bb5s G5+C6s F5+Bb5s E5+A5s", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 re C4+D4+F4+Bb4e", "doubt": "D5+G5 : noire doublement pointée (deux points visibles). MG 3e temps : soupir de croche + accord croche (crochet peu visible)."}, {"marks": ["pp"], "v": "rhd", "rh": "gBb5 E5+A5s D5+G5s gA5 D5+G5s C5+F5s D5+G5 C5+E5+G5+C6!", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+E4+G4+Bb4!", "doubt": "Petites notes barrées (acciaccatures) Bb5 et A5. Arpèges au 3e temps aux deux mains."}, {"v": "rhd", "rh": "F5+A5+C6e C5+F5+A5e A4+C5+F5 G4+B4+D5ed G5s", "lh": "C4+D4+F4+A4 C4+D4+F4 C4+D4+F4", "doubt": "Staccatos sur les deux croches, tenuto sur A4+C5+F5. Accord G4+B4(bécarre)+D5 : croche pointée liée par la ligature à G5 double croche, mais l'accord porte aussi une hampe vers le bas (pointillée) — possible voix inférieure G4+B4 en noire."}, {"v": "rhd", "rh": "G4+C5+G5h~ G4+C5+G5e re", "lh": "C4+E4 C4 C4 // rh re B3e", "doubt": "MG voix inférieure : seuls le soupir de croche et B3 (bécarre) sont imprimés au 3e temps ; silences des temps 1-2 ajoutés. B3 lié (liaison) vers Bb3 m. 8."}, {"v": "rhd", "rh": "r re D#4s E4s rs F#4s G4s A4s // re C#4e D4 D4+F4", "lh": "Bb3+C4 Bb3+C4 A3+C4", "doubt": "Bémol de précaution sur Bb3. A3 du 3e temps : tête sur la ligne supplémentaire, légèrement basse (G3 peu probable)."}, {"v": "rhd", "rh": "D4+F4+D5 r3 D5+G5+D6e3 F5+Bb5+F6e3 D5+G5+D6e3 Bb4+F5+Bb5e3", "lh": "G3+C4 G3+Bb3+D4+F4 G3+Bb3+D4+F4", "doubt": "Bécarre de précaution sur F4 (1er temps). Clé de FA réintroduite à la fin de la mesure à la MG."}, {"marks": ["Ped.", "*"], "v": "rhd", "rh": "G4+D5+G5dd A4+E5+A5s Bb4+F5+Bb5s C5+G5+C6s Bb4+F5+Bb5s A4+E5+A5s", "lh": "re G3+Bb3+E4e Bb3+D4+G4e re D4+F4e re // C2+G2h~ C2+G2e re", "doubt": "MG désormais en clé de FA. Têtes très serrées au-dessus de la portée (lignes supplémentaires) : G3+Bb3+E4 et Bb3+D4+G4 lus au pixel. Ped. sous la blanche, * sous la croche C2+G2."}, {"v": "rhd", "rh": "gBb5 A4+E5+A5s G4+D5+G5s gA5 G4+D5+G5s F4+C5+F5s G4+D5+G5 A4+C#5+E5+A5!", "lh": "Bb1+Bb2 Bb3+D4 A3+C#4+E4+G4!", "doubt": "Altération devant l'arpège MD : signe confus (dièse ou bécarre) centré sur C5 → lu C#5 (accord de La, cohérent avec C#4 de la MG). MG arpège : accidents serrés, C#4 retenu ; petite note Bb5 incertaine (Bb5 vs C6)."}, {"marks": ["pp"], "v": "rhd", "rh": "A4+D5+F5+A5e A4+D5+F5e F4+A4+D5 D4+F4+A4e D4+F4+Bb4e", "lh": "D2+D3d A3+D4+F4e! C2+C3e Bb1+Bb2e", "doubt": "Staccatos sur les croches, tenuto sur F4+A4+D5. MG : bécarres de précaution sur C3/C2 (après C# de la m. 11) ; accord A3+D4+F4 arpégé."}, {"v": "r r re D5e", "ly": "Re-", "rh": "C4+F4+C5e C4+F4+A4e A3+C4+F4e re re D4+F4+Bb4+D5e!", "lh": "A1+A2e re r G1+G2s A1+A2s Bb1+Bb2s D2+D3s", "doubt": "Dernier accord MD arpégé avec accent (>). Dernière double croche MG lue D2+D3 (attendu peut-être C) — têtes nettement sur la ligne D3 / sous la ligne E2 sans ligne C2."}, {"meter": "6/8", "tempo": "Più lento", "marks": ["pp", "dolciss."], "v": "F5 F5e F5 F5e", "ly": "con- di- ta‿ar- mo-", "rh": "F4 G4e A4 C5e // A3+C4d~ A3+C4d", "lh": "rh re A3+F4e // C2+C3hd~", "doubt": "Double barre avant le 6/8. MD voix inf. : 2e A3+C4 sans point visible (complété en noire pointée). MG voix sup. : seule la croche A3+F4 est imprimée (silences ajoutés). Soufflets < > sous la MG."}, {"v": "E5d E5d", "ly": "ni- a", "rh": "D5d C5d", "lh": "Bb3+E4hd // C2+C3d~ C2+C3~ C2+C3e~", "doubt": "Arcs entre les C2+C3 répétés lus comme liaisons de prolongation (pourraient être des liaisons d'expression). Bb3+E4 blanche pointée (têtes creuses)."}, {"v": "re F5e F5e F5e D5e F5e", "ly": "di bel- lez- ze di-", "rh": "F4 G4e A4 C5e // A3+C4d~ A3+C4d", "lh": "rh re A3+F4e // C2+C3hd~", "doubt": "Tenutos sur toutes les croches du chant. Identique à la m. 14 au piano ; 2e A3+C4 sans point visible."}, {"meter": "6/8", "marks": ["f"], "v": "E5d E5d", "ly": "ver- se!…", "rh": "D5d C5d", "lh": "Bb3+E4hd // C2+C3d C2+C3 C2+C3e~", "doubt": "1re syllabe = fin de « di-ver-se » (p. 1). M.d. : soufflet decrescendo. M.g. : accord Bb3+E4 (blanche pointée) au-dessus de la portée ; octaves de do (C2 sur 2e ligne suppl.) : 2e avec accent, f sous la 3e (croche liée à la mesure suivante)."}, {"marks": ["Sostenendo"], "v": "r C5e G5 C5e", "ly": "È bru- na", "rh": "A4+C5+F5+A5 C5e Bb4+D5+E5+G5 C5e", "lh": "r re Bb3+D4+E4+G4e! re re // C2+C3hd~", "doubt": "Sostenendo imprimé au chant et au piano. Tenuto sur le 1er accord m.d. Accord arpégé m.g. au-dessus de la portée (lignes suppl.)."}, {"marks": ["pp"], "v": "F5 A4e C5 C5e", "ly": "Flo- ri- a, l'ar-", "rh": "A4+C5+D5+F5 A4e C4+F4+C5 re", "lh": "A3+C4+D4+F4e! re re r re // C2+C3d A2+F3+A3d", "doubt": "pp imprimé au-dessus du chant (vers « l'ar- »)."}, {"marks": ["rall.", "pp"], "v": "D5 F4e G4 A4e", "ly": "den- te‿a- man- te", "rh": "D4+F4+D5 Bb3+D4+F4e G4 E4+A4e // rd Bb3+D4d", "lh": "Bb1+Bb2 A1+A2e G1+G2 C2+C3e", "doubt": "« te a » élidé sous une seule note (F4). M.d. 2e moitié : Bb3+D4 noire pointée en voix inférieure (silence de complément non imprimé). pp à la m.g."}, {"marks": ["a tempo", "m.d.", "Ped."], "v": "F4d F4 re", "ly": "mi- a,", "rh": "A3+C4+F4hd~", "lh": "r C3e F3e A3e C4e // F1+F2hd*", "doubt": "M.g. : trémolo mesuré alterné F1↔F2 (deux blanches pointées reliées par 3 barres) ; croches C3-F3-A3-C4 marquées « m.d. » (jouées par la main droite) ; Ped. au début."}, {"marks": ["p", "✻"], "v": "r re r E5e", "ly": "e", "rh": "r A4e C5 E5e // A3+C4+F4d~ A3+C4+F4 re", "lh": "F4 re r re // F1+F2d*~ F1+F2e re re", "doubt": "M.d. : tenuto sur C5 ; accord A3+C4+F4 lié depuis m.5 puis répété. M.g. : F4 (lignes suppl. en clé de fa) prolonge le phrasé de l'arpège m.d. ; trémolo F1↔F2 (3 barres) sur une noire pointée lié à l'octave F1+F2 croche ; ✻ (lever la pédale). p au chant et à la m.d."}, {"marks": ["pp"], "v": "A5 E5e G5 E5e", "ly": "te, bel- ta de‿i-", "rh": "gA4 A5 E5e gG4 G5 E5e", "lh": "C2s G2s C3s E3s G3s C4s E4s G4s C5s G4s E4t C4t G3t E3t", "doubt": "« bel-ta » imprimé sans accent visible sur ta (beltà) ; « de i » sous une seule croche. M.g. : passage en clé de sol pour G4-C5-G4 puis retour en clé de fa ; 4 dernières notes en triples croches (3 barres), accent sur E4."}, {"v": "D5ed E5s F5e D5d~", "ly": "gno- _ _ ta,", "rh": "gF4 gBb4 D5ed E5s F5e D5d~", "lh": "G2s D3s G3s Bb3s D4s F4s Bb4s F4s D4s Bb3s A3t B3t D4t F4t", "doubt": "M.g. : un ♮ est imprimé devant la 1re triple croche (A3) — lu comme s'appliquant au si suivant (B3 bécarre) ; accent sur ce groupe. Petit signe isolé au-dessus de la portée du chant vers la fin de la mesure (respiration ou trace d'impression ?)."}, {"v": "D5e E5e F5e gG5 F5e E5e D5e", "ly": "cin- ta di chio- me", "rh": "D5e E5e F5e gG5 F5e E5e D5e // Bb4hd", "lh": "G3s Bb3s E4s Bb3s F4s Bb3s C2s G2s C3s G3s D4t Bb3t G3t E3t // G3d rd", "doubt": "Chant : 1re croche liée depuis m.8 (pas de syllabe), signe de respiration (ᵛ) après elle. M.g. : le G3 initial a aussi une hampe propre avec point (noire pointée tenue ; silence de complément non imprimé) ; dernier groupe en triples croches avec accent sur D4 (D4 lu posé sur la ligne suppl. du do, pas E4)."}, {"v": "gE5 D5e C5e A4e A4 re", "ly": "bion- _ _ de!…", "rh": "gF4 gA4 D5e C5e A4e~ A4e re C5e", "lh": "F2s C3s F3s A3s C4s A3s F4s C4s A3s F3s C4t A3t F3t C3t", "doubt": "Chant : A4 croche puis A4 noire sans liaison visible (« de » sous la noire). M.g. : accent sur le groupe de triples croches."}, {"v": "F5 C5e E5 C5e", "ly": "Tu az- zur- ro‿hai", "rh": "gF4 gA4 F5 C5e gF4 gA4 E5 C5e", "lh": "D2s A2s D3s F3s A3s C4s E4s C4s A4s E4s C4s A3s", "doubt": "« ro hai » élidé sous une seule croche. M.g. : D2 sous la 1re ligne suppl. ; A4 sur lignes suppl. (clé de fa)."}, {"v": "A4d A4d~", "ly": "l'oc- chio,", "rh": "C4+F4+A4ed D4+F4+B4s E4+F4+C5e gC4 F4+A4d~", "lh": "G2t D3t F3t A3t C4s rs re rs D4s A3s F3s D3t A2t F2t D2t", "doubt": "M.d. : ♮ sur le si (B4) ; petite note C4 avant l'accord F4+A4 (lié à la mesure suivante). M.g. : C4 double croche (hampe barrée) ; soufflet crescendo en fin de mesure."}, {"v": "A4e B4e C5e D5 E5e", "ly": "To- sca‿ha l'oc- chio", "rh": "A4e B4e C5e D5 E5e // F4d F4e F4+G4", "lh": "G1s D3s B3s F3s C4s A3s D4s D3s F3s G3s Bb3s rs", "doubt": "♮ sur le si au chant, à la m.d. et à la m.g. (B3). « sca ha » élidé sous une croche ; 1re croche du chant liée depuis m.12. M.d. : F4+A4 lié depuis m.12 ; courbe de F4+G4 vers l'accord E4+G4+C5 suivant (G4 probablement lié)."}, {"marks": ["p"], "v": "C5d C5e re re", "ly": "ne- ro!", "rh": "E4+G4+C5d~ E4+G4+C5e re re", "lh": "C2s G2s C3s E3s G3s E3s C4e re re", "doubt": "Fin de système imprimée : double barre + chiffrage 3/4 (changement de mesure vers 3/4 à la page suivante) et clé de sol de précaution à la m.g. (la m.g. passe en clé de sol). p et soufflet crescendo à la m.g. ; staccato sur C4 m.g."}, {"meter": "3/4", "tempo": "Lo stesso movimento", "marks": ["Lo stesso movimento", "p"], "v": "rhd", "ly": "", "rh": "r r3 G5+D6e3 Bb5+F6e3 G5+D6e3 F5+Bb5e3", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+D4+F4+Bb4", "doubt": "MG en clé de SOL (accord do-ré-fa-sib avec seconde do/ré décalée). MD : 1er triolet = soupir de triolet + croche ; accords lus à partir des lignes supplémentaires (sol5+ré6, sib5+fa6, sol5+ré6, fa5+sib5)."}, {"v": "Bb4 Bb4e Bb4e Bb4e Bb4e", "ly": "L'ar- te nel suo mi-", "rh": "D5+G5dd E5+A5s F5+Bb5s G5+C6s F5+Bb5s E5+A5s", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+D4+F4+Bb4", "doubt": "Noire doublement pointée (deux paires de points) suivie d'une double croche isolée puis 4 doubles croches liées."}, {"v": "Bb4 Bb4 re A4s A4s", "ly": "ste- ro le di-", "rh": "gBb5 E5+A5s D5+G5s gA5 D5+G5s C5+F5s D5+G5 A4+C#5+E5+A5!", "lh": "C4+D4+F4+Bb4 Bb3+D4+G4 A3+C#4+E4+G4!", "doubt": "Petites notes barrées (acciacatures) sib5 et la5. Accords arpégés au 3e temps (do# aux deux mains). Changement de clé MG -> FA à la fin de la mesure."}, {"v": "A4e A4s A4s A4e A4e A4e Bb4e", "ly": "ver- se bel- lez- ze insiem con-", "rh": "A4+D5+A5e A4+D5+F5e F4+A4+D5e re D4+F4+A4e D4+F4+Bb4e", "lh": "D3+A3+F4!~ D3+A3+F4e re C2+C3e Bb1+Bb2e", "doubt": "Paroles imprimées « bel-lezze insiem con- » : « insiem » est imprimé sous UNE seule note (pas « in-sie-me »). Bécarres de précaution sur les do (C2/C3) de la MG. Accords MD piqués."}, {"marks": ["rall.", "col canto"], "v": "C5 C5 D5", "ly": "fon- de: ma", "rh": "C4+F4+C5e C4+F4+A4e A3+C4+F4e re D4+F4+Bb4+D5e re", "lh": "A1+A2e re r G1+G2s A1+A2s Bb1+Bb2s D2+D3s", "doubt": "Signe de respiration (V) dans le chant avant « ma ». Un trait oblique « / » imprimé dans la portée MG entre le soupir et les doubles croches (sens incertain, ignoré). Octaves graves lues aux lignes supplémentaires (sol1, la1, sib1, ré2)."}, {"meter": "6/8", "tempo": "I. Tempo", "marks": ["I. Tempo", "p"], "v": "F5 F5e F5 F5e", "ly": "nel ri- trar co-", "rh": "F5+A5+F6hd* // gF3 F4 gG3 G4e gA3 A4 gC4 C5e", "lh": "gC2+gC3 C2+C3hd~", "doubt": "MD haut : trémolo ALTERNÉ (3 barres) entre l'accord la5+fa6 et fa5, blanches pointées -> codé en un seul accord F5+A5+F6hd*. Voix inférieure : chaque note précédée d'une acciacature à l'octave inférieure. MG : petites notes do2 et do3 (même hauteur que la note réelle) avant l'octave do2+do3 ; accolade reliant les deux portées."}, {"v": "E5d E5 re", "ly": "ste- i...", "rh": "E5+G5+Bb5+E6hd* // gD4 gBb4 D5d C5d", "lh": "C2+C3d~ C2+C3~ C2+C3e~", "doubt": "MD haut : trémolo alterné (3 barres) entre sol5+sib5+mi6 et mi5 -> codé en un accord hd*. Voix inf. : deux petites notes ré4-sib4 (liées, barrées) avant ré5 ; pas de petite note devant do5. MG : pédale de do liée."}, {"v": "re F5e F5e F5e D5e F5e", "ly": "il mio so- lo pen-", "rh": "re F5+A5+F6e F5+F6e F5+F6e D5+D6e F5+A5+F6e // gF3 F4 gG3 G4e gA3 A4 gC4 C5e", "lh": "C2+C3hd~", "doubt": "Accords MD avec tenutos. Voix inférieure : acciacatures à l'octave inférieure (fa3, sol3, la3, do4) comme mes. 6. Liaison de phrasé so-lo (pas une liaison de tenue)."}, {"marks": ["f"], "v": "E5d E5d", "ly": "sie- ro,", "rh": "E5+G5+Bb5+E6hd* // gD4 D5d gC4 C5d", "lh": "C2+C3d~ C2+C3~ C2+C3e~", "doubt": "MD haut : trémolo alterné (3 barres) sol5+sib5+mi6 / mi5 codé en accord hd*. Ici une seule petite note (ré4) devant ré5, et do4 devant do5. « f » + accent sur la dernière croche de la MG."}, {"marks": ["f"], "v": "A5 C5e G5 C5e", "ly": "ah!‿il mio sol pen-", "rh": "A5+F6+A6 C5+C6e G5+D6+G6 C5+C6e", "lh": "C4+F4+A4d* D4+E4+G4* C4+E4t G4t C4+E4t G4t // C2+C3d gBb1+gBb2 Bb1+Bb2d", "doubt": "Chant : « ah! il » imprimé sous une seule note (la5) -> élision « ah!‿il ». MG haut : trémolos alternés (4 puis 3 barres) do4+fa4/la4 (noires pointées) et ré4+mi4/sol4 (noires) codés en accords *, puis 4 triples croches réelles (do4+mi4, sol4, do4+mi4, sol4). Seconde ré4/mi4 décalée (lue ré4+mi4, pourrait être do4+mi4). Petites notes sib1/sib2 de même hauteur."}, {"v": "F5 A4e C5d", "ly": "sier sei tu!", "rh": "F5+A5+F6 A4+A5e C5+E5+C6d", "lh": "A3+D4+F4d* A3+C4+E4+F4d* // gD2+gD3 D2+D3d gA1+gA2 A1+A2d", "doubt": "Chant : liaison en pointillés (portamento) fa5 -> la4 ; point de do5 partiellement masqué par la liaison pointillée. Trait vertical (barre) dans la portée du chant après « tu! » sans barre correspondante au piano — interprété comme césure. MG haut : trémolos alternés la3+ré4/fa4 et la3+do4+mi4/fa4 (4 barres) codés en accords *."}, {"marks": ["allarg.", "rit.", "col canto"], "v": "D5ed Bb5ed gG5 gA5 G5 F5e", "ly": "To- _ sca, sei", "rh": "D5+F5+D6ed Bb5+D6+F6+Bb6ed G5+Bb5+D6+G6e re re", "lh": "Bb1+Bb2ed G1+G2ed C2+C3e re re", "doubt": "Duolets notés « 2 » (chant, MD, MG) codés en deux croches pointées. Chant : sib5 = mélisme sur « To- » ; deux petites notes (doubles croches) sol5-la5 avant « sca ». Accents sur tous les accords. « allarg. » au chant et au piano, « rit. » au chant."}, {"marks": ["p"], "v": "F5e re re r re", "ly": "tu!", "rh": "A5+C6+F6d~ A5+C6+F6e re re // F5hd~", "lh": "F2 C3e F3e A3e C4e // F1hd~", "doubt": "MD : fa5 blanche pointée (voix inf.) liée à la mesure suivante. MG : fa1 blanche pointée (voix inf.) liée."}, {"marks": ["ppp"], "v": "rhd", "ly": "", "rh": "F5e re A4e C5e F5e G5e", "lh": "F4 re r re // F1+F3d~ F1e re re", "doubt": "Pause (mesure entière) au chant. MG : fa4 (noire, hampe en haut) puis silences ; fa3 rattaché à la hampe descendante de fa1 (point visible seulement sur fa1)."}, {"marks": ["dolciss."], "v": "rhd", "ly": "", "rh": "Bb5hd~ // r re A3+F4d", "lh": "r re F2+C3d", "doubt": "Longue liaison sib5 (mes. 15) -> sib5 (mes. 16) interprétée comme liaison de tenue (pourrait être une liaison de phrasé). Voix inf. MD la3+fa4 sous la portée."}, {"v": "rhd^", "ly": "", "rh": "Bb5d^~ Bb5 re // A3+F4d^~ A3+F4 re", "lh": "F2+C3d^~ F2+C3 re", "doubt": "Points d'orgue sur la pause du chant et sur les premiers accords (MD haut, MD bas, MG). Double barre finale."}]}];
+const WORKS=[{"id": "tosca-recondita", "title": "Recondita armonia", "composer": "Giacomo Puccini", "work": "Tosca, acte I", "role": "Cavaradossi", "voice": "ténor", "style": "Air d’opéra", "period": "Post-romantique", "ks": -1, "bpm": 48, "parts": [{"id": "v", "name": "Cavaradossi (ténor)", "short": "Canto", "kind": "voice", "clef": "G", "oct": -12, "vt": "T"}, {"id": "rh", "name": "Piano MD", "kind": "piano"}, {"id": "lh", "name": "Piano MG", "kind": "piano"}], "measures": [{"meter": "3/4", "tempo": "Andante lento", "bpm": 48, "marks": ["p"], "v": "rhd", "rh": "r r re C#4e", "lh": "C4 C4 C4", "doubt": "Portée inférieure : clé de FA à l'armure puis clé de SOL immédiatement (LH en clé de sol jusqu'à la m. 9). C#4 : ligne supplémentaire peu visible sur le scan. Liaison C#4 → D4 (m. 2). Tenutos sur les C4 de la MG."}, {"v": "rhd", "rh": "r re D#4s E4s rs F#4s G4s A4s // D4 D4 D4+F4", "lh": "C4 C4 C4", "doubt": "D4 du 3e temps (voix inf.) précédé d'un bécarre (annule le D#4)."}, {"marks": ["p"], "v": "rhd", "rh": "D4+F4+Bb4 r3 G5+D6e3 Bb5+F6e3 G5+D6e3 F5+Bb5e3", "lh": "C4 C4+D4+F4+Bb4 C4+D4+F4+Bb4", "doubt": "1er temps : Bb4 (hampe haut) + D4/F4 (hampe bas) même rythme, fusionnés ; bécarre de précaution sur F4. Triolet : soupir + croche sous crochet 3, puis triolet de croches ; F5+Bb5 final : tête de F5 lue sur la 5e ligne."}, {"v": "rhd", "rh": "D5+G5dd E5+A5s F5+Bb5s G5+C6s F5+Bb5s E5+A5s", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 re C4+D4+F4+Bb4e", "doubt": "D5+G5 : noire doublement pointée (deux points visibles). MG 3e temps : soupir de croche + accord croche (crochet peu visible)."}, {"marks": ["pp"], "v": "rhd", "rh": "gBb5 E5+A5s D5+G5s gA5 D5+G5s C5+F5s D5+G5 C5+E5+G5+C6!", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+E4+G4+Bb4!", "doubt": "Petites notes barrées (acciaccatures) Bb5 et A5. Arpèges au 3e temps aux deux mains."}, {"v": "rhd", "rh": "F5+A5+C6e C5+F5+A5e A4+C5+F5 G4+B4+D5ed G5s", "lh": "C4+D4+F4+A4 C4+D4+F4 C4+D4+F4", "doubt": "Staccatos sur les deux croches, tenuto sur A4+C5+F5. Accord G4+B4(bécarre)+D5 : croche pointée liée par la ligature à G5 double croche, mais l'accord porte aussi une hampe vers le bas (pointillée) — possible voix inférieure G4+B4 en noire."}, {"v": "rhd", "rh": "G4+C5+G5h~ G4+C5+G5e re", "lh": "C4+E4 C4 C4 // rh re B3e", "doubt": "MG voix inférieure : seuls le soupir de croche et B3 (bécarre) sont imprimés au 3e temps ; silences des temps 1-2 ajoutés. B3 lié (liaison) vers Bb3 m. 8."}, {"v": "rhd", "rh": "r re D#4s E4s rs F#4s G4s A4s // re C#4e D4 D4+F4", "lh": "Bb3+C4 Bb3+C4 A3+C4", "doubt": "Bémol de précaution sur Bb3. A3 du 3e temps : tête sur la ligne supplémentaire, légèrement basse (G3 peu probable)."}, {"v": "rhd", "rh": "D4+F4+D5 r3 D5+G5+D6e3 F5+Bb5+F6e3 D5+G5+D6e3 Bb4+F5+Bb5e3", "lh": "G3+C4 G3+Bb3+D4+F4 G3+Bb3+D4+F4", "doubt": "Bécarre de précaution sur F4 (1er temps). Clé de FA réintroduite à la fin de la mesure à la MG."}, {"marks": ["Ped.", "*"], "v": "rhd", "rh": "G4+D5+G5dd A4+E5+A5s Bb4+F5+Bb5s C5+G5+C6s Bb4+F5+Bb5s A4+E5+A5s", "lh": "re G3+Bb3+E4e Bb3+D4+G4e re D4+F4e re // C2+G2h~ C2+G2e re", "doubt": "MG désormais en clé de FA. Têtes très serrées au-dessus de la portée (lignes supplémentaires) : G3+Bb3+E4 et Bb3+D4+G4 lus au pixel. Ped. sous la blanche, * sous la croche C2+G2."}, {"v": "rhd", "rh": "gBb5 A4+E5+A5s G4+D5+G5s gA5 G4+D5+G5s F4+C5+F5s G4+D5+G5 A4+C#5+E5+A5!", "lh": "Bb1+Bb2 Bb3+D4 A3+C#4+E4+G4!", "doubt": "Altération devant l'arpège MD : signe confus (dièse ou bécarre) centré sur C5 → lu C#5 (accord de La, cohérent avec C#4 de la MG). MG arpège : accidents serrés, C#4 retenu ; petite note Bb5 incertaine (Bb5 vs C6)."}, {"marks": ["pp"], "v": "rhd", "rh": "A4+D5+F5+A5e A4+D5+F5e F4+A4+D5 D4+F4+A4e D4+F4+Bb4e", "lh": "D2+D3d A3+D4+F4e! C2+C3e Bb1+Bb2e", "doubt": "Staccatos sur les croches, tenuto sur F4+A4+D5. MG : bécarres de précaution sur C3/C2 (après C# de la m. 11) ; accord A3+D4+F4 arpégé."}, {"v": "r r re D5e", "ly": "Re-", "rh": "C4+F4+C5e C4+F4+A4e A3+C4+F4e re re D4+F4+Bb4+D5e!", "lh": "A1+A2e re r G1+G2s A1+A2s Bb1+Bb2s D2+D3s", "doubt": "Dernier accord MD arpégé avec accent (>). Dernière double croche MG lue D2+D3 (attendu peut-être C) — têtes nettement sur la ligne D3 / sous la ligne E2 sans ligne C2."}, {"meter": "6/8", "tempo": "Più lento", "marks": ["pp", "dolciss."], "v": "F5 F5e F5 F5e", "ly": "con- di- ta‿ar- mo-", "rh": "F4 G4e A4 C5e // A3+C4d~ A3+C4d", "lh": "rh re A3+F4e // C2+C3hd~", "doubt": "Double barre avant le 6/8. MD voix inf. : 2e A3+C4 sans point visible (complété en noire pointée). MG voix sup. : seule la croche A3+F4 est imprimée (silences ajoutés). Soufflets < > sous la MG."}, {"v": "E5d E5d", "ly": "ni- a", "rh": "D5d C5d", "lh": "Bb3+E4hd // C2+C3d~ C2+C3~ C2+C3e~", "doubt": "Arcs entre les C2+C3 répétés lus comme liaisons de prolongation (pourraient être des liaisons d'expression). Bb3+E4 blanche pointée (têtes creuses)."}, {"v": "re F5e F5e F5e D5e F5e", "ly": "di bel- lez- ze di-", "rh": "F4 G4e A4 C5e // A3+C4d~ A3+C4d", "lh": "rh re A3+F4e // C2+C3hd~", "doubt": "Tenutos sur toutes les croches du chant. Identique à la m. 14 au piano ; 2e A3+C4 sans point visible."}, {"meter": "6/8", "marks": ["f"], "v": "E5d E5d", "ly": "ver- se!…", "rh": "D5d C5d", "lh": "Bb3+E4hd // C2+C3d C2+C3 C2+C3e~", "doubt": "1re syllabe = fin de « di-ver-se » (p. 1). M.d. : soufflet decrescendo. M.g. : accord Bb3+E4 (blanche pointée) au-dessus de la portée ; octaves de do (C2 sur 2e ligne suppl.) : 2e avec accent, f sous la 3e (croche liée à la mesure suivante)."}, {"marks": ["Sostenendo"], "v": "r C5e G5 C5e", "ly": "È bru- na", "rh": "A4+C5+F5+A5 C5e Bb4+D5+E5+G5 C5e", "lh": "r re Bb3+D4+E4+G4e! re re // C2+C3hd~", "doubt": "Sostenendo imprimé au chant et au piano. Tenuto sur le 1er accord m.d. Accord arpégé m.g. au-dessus de la portée (lignes suppl.)."}, {"marks": ["pp"], "v": "F5 A4e C5 C5e", "ly": "Flo- ri- a, l'ar-", "rh": "A4+C5+D5+F5 A4e C4+F4+C5 re", "lh": "A3+C4+D4+F4e! re re r re // C2+C3d A2+F3+A3d", "doubt": "pp imprimé au-dessus du chant (vers « l'ar- »)."}, {"marks": ["rall.", "pp"], "v": "D5 F4e G4 A4e", "ly": "den- te‿a- man- te", "rh": "D4+F4+D5 Bb3+D4+F4e G4 E4+A4e // rd Bb3+D4d", "lh": "Bb1+Bb2 A1+A2e G1+G2 C2+C3e", "doubt": "« te a » élidé sous une seule note (F4). M.d. 2e moitié : Bb3+D4 noire pointée en voix inférieure (silence de complément non imprimé). pp à la m.g."}, {"marks": ["a tempo", "m.d.", "Ped."], "v": "F4d F4 re", "ly": "mi- a,", "rh": "A3+C4+F4hd~", "lh": "r C3e F3e A3e C4e // F1+F2hd*", "doubt": "M.g. : trémolo mesuré alterné F1↔F2 (deux blanches pointées reliées par 3 barres) ; croches C3-F3-A3-C4 marquées « m.d. » (jouées par la main droite) ; Ped. au début."}, {"marks": ["p", "✻"], "v": "r re r E5e", "ly": "e", "rh": "r A4e C5 E5e // A3+C4+F4d~ A3+C4+F4 re", "lh": "F4 re r re // F1+F2d*~ F1+F2e re re", "doubt": "M.d. : tenuto sur C5 ; accord A3+C4+F4 lié depuis m.5 puis répété. M.g. : F4 (lignes suppl. en clé de fa) prolonge le phrasé de l'arpège m.d. ; trémolo F1↔F2 (3 barres) sur une noire pointée lié à l'octave F1+F2 croche ; ✻ (lever la pédale). p au chant et à la m.d."}, {"marks": ["pp"], "v": "A5 E5e G5 E5e", "ly": "te, bel- ta de‿i-", "rh": "gA4 A5 E5e gG4 G5 E5e", "lh": "C2s G2s C3s E3s G3s C4s E4s G4s C5s G4s E4t C4t G3t E3t", "doubt": "« bel-ta » imprimé sans accent visible sur ta (beltà) ; « de i » sous une seule croche. M.g. : passage en clé de sol pour G4-C5-G4 puis retour en clé de fa ; 4 dernières notes en triples croches (3 barres), accent sur E4."}, {"v": "D5ed E5s F5e D5d~", "ly": "gno- _ _ ta,", "rh": "gF4 gBb4 D5ed E5s F5e D5d~", "lh": "G2s D3s G3s Bb3s D4s F4s Bb4s F4s D4s Bb3s A3t B3t D4t F4t", "doubt": "M.g. : un ♮ est imprimé devant la 1re triple croche (A3) — lu comme s'appliquant au si suivant (B3 bécarre) ; accent sur ce groupe. Petit signe isolé au-dessus de la portée du chant vers la fin de la mesure (respiration ou trace d'impression ?)."}, {"v": "D5e E5e F5e gG5 F5e E5e D5e", "ly": "cin- ta di chio- me", "rh": "D5e E5e F5e gG5 F5e E5e D5e // Bb4hd", "lh": "G3s Bb3s E4s Bb3s F4s Bb3s C2s G2s C3s G3s D4t Bb3t G3t E3t // G3d rd", "doubt": "Chant : 1re croche liée depuis m.8 (pas de syllabe), signe de respiration (ᵛ) après elle. M.g. : le G3 initial a aussi une hampe propre avec point (noire pointée tenue ; silence de complément non imprimé) ; dernier groupe en triples croches avec accent sur D4 (D4 lu posé sur la ligne suppl. du do, pas E4)."}, {"v": "gE5 D5e C5e A4e A4 re", "ly": "bion- _ _ de!…", "rh": "gF4 gA4 D5e C5e A4e~ A4e re C5e", "lh": "F2s C3s F3s A3s C4s A3s F4s C4s A3s F3s C4t A3t F3t C3t", "doubt": "Chant : A4 croche puis A4 noire sans liaison visible (« de » sous la noire). M.g. : accent sur le groupe de triples croches."}, {"v": "F5 C5e E5 C5e", "ly": "Tu az- zur- ro‿hai", "rh": "gF4 gA4 F5 C5e gF4 gA4 E5 C5e", "lh": "D2s A2s D3s F3s A3s C4s E4s C4s A4s E4s C4s A3s", "doubt": "« ro hai » élidé sous une seule croche. M.g. : D2 sous la 1re ligne suppl. ; A4 sur lignes suppl. (clé de fa)."}, {"v": "A4d A4d~", "ly": "l'oc- chio,", "rh": "C4+F4+A4ed D4+F4+B4s E4+F4+C5e gC4 F4+A4d~", "lh": "G2t D3t F3t A3t C4s rs re rs D4s A3s F3s D3t A2t F2t D2t", "doubt": "M.d. : ♮ sur le si (B4) ; petite note C4 avant l'accord F4+A4 (lié à la mesure suivante). M.g. : C4 double croche (hampe barrée) ; soufflet crescendo en fin de mesure."}, {"v": "A4e B4e C5e D5 E5e", "ly": "To- sca‿ha l'oc- chio", "rh": "A4e B4e C5e D5 E5e // F4d F4e F4+G4", "lh": "G1s D3s B3s F3s C4s A3s D4s D3s F3s G3s Bb3s rs", "doubt": "♮ sur le si au chant, à la m.d. et à la m.g. (B3). « sca ha » élidé sous une croche ; 1re croche du chant liée depuis m.12. M.d. : F4+A4 lié depuis m.12 ; courbe de F4+G4 vers l'accord E4+G4+C5 suivant (G4 probablement lié)."}, {"marks": ["p"], "v": "C5d C5e re re", "ly": "ne- ro!", "rh": "E4+G4+C5d~ E4+G4+C5e re re", "lh": "C2s G2s C3s E3s G3s E3s C4e re re", "doubt": "Fin de système imprimée : double barre + chiffrage 3/4 (changement de mesure vers 3/4 à la page suivante) et clé de sol de précaution à la m.g. (la m.g. passe en clé de sol). p et soufflet crescendo à la m.g. ; staccato sur C4 m.g."}, {"meter": "3/4", "tempo": "Lo stesso movimento", "marks": ["Lo stesso movimento", "p"], "v": "rhd", "ly": "", "rh": "r r3 G5+D6e3 Bb5+F6e3 G5+D6e3 F5+Bb5e3", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+D4+F4+Bb4", "doubt": "MG en clé de SOL (accord do-ré-fa-sib avec seconde do/ré décalée). MD : 1er triolet = soupir de triolet + croche ; accords lus à partir des lignes supplémentaires (sol5+ré6, sib5+fa6, sol5+ré6, fa5+sib5)."}, {"v": "Bb4 Bb4e Bb4e Bb4e Bb4e", "ly": "L'ar- te nel suo mi-", "rh": "D5+G5dd E5+A5s F5+Bb5s G5+C6s F5+Bb5s E5+A5s", "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+D4+F4+Bb4", "doubt": "Noire doublement pointée (deux paires de points) suivie d'une double croche isolée puis 4 doubles croches liées."}, {"v": "Bb4 Bb4 re A4s A4s", "ly": "ste- ro le di-", "rh": "gBb5 E5+A5s D5+G5s gA5 D5+G5s C5+F5s D5+G5 A4+C#5+E5+A5!", "lh": "C4+D4+F4+Bb4 Bb3+D4+G4 A3+C#4+E4+G4!", "doubt": "Petites notes barrées (acciacatures) sib5 et la5. Accords arpégés au 3e temps (do# aux deux mains). Changement de clé MG -> FA à la fin de la mesure."}, {"v": "A4e A4s A4s A4e A4e A4e Bb4e", "ly": "ver- se bel- lez- ze insiem con-", "rh": "A4+D5+A5e A4+D5+F5e F4+A4+D5e re D4+F4+A4e D4+F4+Bb4e", "lh": "D3+A3+F4!~ D3+A3+F4e re C2+C3e Bb1+Bb2e", "doubt": "Paroles imprimées « bel-lezze insiem con- » : « insiem » est imprimé sous UNE seule note (pas « in-sie-me »). Bécarres de précaution sur les do (C2/C3) de la MG. Accords MD piqués."}, {"marks": ["rall.", "col canto"], "v": "C5 C5 D5", "ly": "fon- de: ma", "rh": "C4+F4+C5e C4+F4+A4e A3+C4+F4e re D4+F4+Bb4+D5e re", "lh": "A1+A2e re r G1+G2s A1+A2s Bb1+Bb2s D2+D3s", "doubt": "Signe de respiration (V) dans le chant avant « ma ». Un trait oblique « / » imprimé dans la portée MG entre le soupir et les doubles croches (sens incertain, ignoré). Octaves graves lues aux lignes supplémentaires (sol1, la1, sib1, ré2)."}, {"meter": "6/8", "tempo": "I. Tempo", "marks": ["I. Tempo", "p"], "v": "F5 F5e F5 F5e", "ly": "nel ri- trar co-", "rh": "F5+A5+F6hd* // gF3 F4 gG3 G4e gA3 A4 gC4 C5e", "lh": "gC2+gC3 C2+C3hd~", "doubt": "MD haut : trémolo ALTERNÉ (3 barres) entre l'accord la5+fa6 et fa5, blanches pointées -> codé en un seul accord F5+A5+F6hd*. Voix inférieure : chaque note précédée d'une acciacature à l'octave inférieure. MG : petites notes do2 et do3 (même hauteur que la note réelle) avant l'octave do2+do3 ; accolade reliant les deux portées."}, {"v": "E5d E5 re", "ly": "ste- i...", "rh": "E5+G5+Bb5+E6hd* // gD4 gBb4 D5d C5d", "lh": "C2+C3d~ C2+C3~ C2+C3e~", "doubt": "MD haut : trémolo alterné (3 barres) entre sol5+sib5+mi6 et mi5 -> codé en un accord hd*. Voix inf. : deux petites notes ré4-sib4 (liées, barrées) avant ré5 ; pas de petite note devant do5. MG : pédale de do liée."}, {"v": "re F5e F5e F5e D5e F5e", "ly": "il mio so- lo pen-", "rh": "re F5+A5+F6e F5+F6e F5+F6e D5+D6e F5+A5+F6e // gF3 F4 gG3 G4e gA3 A4 gC4 C5e", "lh": "C2+C3hd~", "doubt": "Accords MD avec tenutos. Voix inférieure : acciacatures à l'octave inférieure (fa3, sol3, la3, do4) comme mes. 6. Liaison de phrasé so-lo (pas une liaison de tenue)."}, {"marks": ["f"], "v": "E5d E5d", "ly": "sie- ro,", "rh": "E5+G5+Bb5+E6hd* // gD4 D5d gC4 C5d", "lh": "C2+C3d~ C2+C3~ C2+C3e~", "doubt": "MD haut : trémolo alterné (3 barres) sol5+sib5+mi6 / mi5 codé en accord hd*. Ici une seule petite note (ré4) devant ré5, et do4 devant do5. « f » + accent sur la dernière croche de la MG."}, {"marks": ["f"], "v": "A5 C5e G5 C5e", "ly": "ah!‿il mio sol pen-", "rh": "A5+F6+A6 C5+C6e G5+D6+G6 C5+C6e", "lh": "C4+F4+A4d* D4+E4+G4* C4+E4t G4t C4+E4t G4t // C2+C3d gBb1+gBb2 Bb1+Bb2d", "doubt": "Chant : « ah! il » imprimé sous une seule note (la5) -> élision « ah!‿il ». MG haut : trémolos alternés (4 puis 3 barres) do4+fa4/la4 (noires pointées) et ré4+mi4/sol4 (noires) codés en accords *, puis 4 triples croches réelles (do4+mi4, sol4, do4+mi4, sol4). Seconde ré4/mi4 décalée (lue ré4+mi4, pourrait être do4+mi4). Petites notes sib1/sib2 de même hauteur."}, {"v": "F5 A4e C5d", "ly": "sier sei tu!", "rh": "F5+A5+F6 A4+A5e C5+E5+C6d", "lh": "A3+D4+F4d* A3+C4+E4+F4d* // gD2+gD3 D2+D3d gA1+gA2 A1+A2d", "doubt": "Chant : liaison en pointillés (portamento) fa5 -> la4 ; point de do5 partiellement masqué par la liaison pointillée. Trait vertical (barre) dans la portée du chant après « tu! » sans barre correspondante au piano — interprété comme césure. MG haut : trémolos alternés la3+ré4/fa4 et la3+do4+mi4/fa4 (4 barres) codés en accords *."}, {"marks": ["allarg.", "rit.", "col canto"], "v": "D5ed Bb5ed gG5 gA5 G5 F5e", "ly": "To- _ sca, sei", "rh": "D5+F5+D6ed Bb5+D6+F6+Bb6ed G5+Bb5+D6+G6e re re", "lh": "Bb1+Bb2ed G1+G2ed C2+C3e re re", "doubt": "Duolets notés « 2 » (chant, MD, MG) codés en deux croches pointées. Chant : sib5 = mélisme sur « To- » ; deux petites notes (doubles croches) sol5-la5 avant « sca ». Accents sur tous les accords. « allarg. » au chant et au piano, « rit. » au chant."}, {"marks": ["p"], "v": "F5e re re r re", "ly": "tu!", "rh": "A5+C6+F6d~ A5+C6+F6e re re // F5hd~", "lh": "F2 C3e F3e A3e C4e // F1hd~", "doubt": "MD : fa5 blanche pointée (voix inf.) liée à la mesure suivante. MG : fa1 blanche pointée (voix inf.) liée."}, {"marks": ["ppp"], "v": "rhd", "ly": "", "rh": "F5e re A4e C5e F5e G5e", "lh": "F4 re r re // F1+F3d~ F1e re re", "doubt": "Pause (mesure entière) au chant. MG : fa4 (noire, hampe en haut) puis silences ; fa3 rattaché à la hampe descendante de fa1 (point visible seulement sur fa1)."}, {"marks": ["dolciss."], "v": "rhd", "ly": "", "rh": "Bb5hd~ // r re A3+F4d", "lh": "r re F2+C3d", "doubt": "Longue liaison sib5 (mes. 15) -> sib5 (mes. 16) interprétée comme liaison de tenue (pourrait être une liaison de phrasé). Voix inf. MD la3+fa4 sous la portée."}, {"v": "rhd^", "ly": "", "rh": "Bb5d^~ Bb5 re // A3+F4d^~ A3+F4 re", "lh": "F2+C3d^~ F2+C3 re", "doubt": "Points d'orgue sur la pause du chant et sur les premiers accords (MD haut, MD bas, MG). Double barre finale."}]}];
 </script>
 <script>
 /* ═══════════ 🎼 LE PARTITEUR — bibliothèque de partitions chantées (airs, chœurs SATB) ═══════════
@@ -78,15 +101,15 @@ const STEP={C:0,D:1,E:2,F:3,G:4,A:5,B:6},SEMI=[0,2,4,5,7,9,11];
 function parseNote(n){const m=/^([A-G])(bb|##|b|#)?(-?\d)$/.exec(n);if(!m)return null;const acc={'':0,'#':1,'##':2,b:-1,bb:-2}[m[2]||''];const oct=+m[3];
   return {L:m[1],acc:acc,oct:oct,midi:12*(oct+1)+SEMI[STEP[m[1]]]+acc,step:oct*7+STEP[m[1]]};}
 function parseTok(tok){const g=tok.charAt(0)==='g'&&/^g[A-G]/.test(tok);if(g)tok=tok.slice(1);
-  const parts=tok.split('+'),last=parts[parts.length-1];const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whest]?)(dd|d)?(3)?([~*!^]*)$/.exec(last);if(!m)return null;
-  let d=DUR[m[2]];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;if(m[4])d*=2/3;const fl=m[5]||'';
-  const rest=m[1]==='r';const notes=rest?[]:parts.map(function(p,i){return parseNote(i===parts.length-1?m[1]:p.replace(/[whest]?(dd|d)?3?[~*!^]*$/,''));}).filter(Boolean);
-  return {rest:rest,notes:notes,d:g?0:d,grace:g,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,base:m[2]||'q',dot:m[3]||'',tri:!!m[4]};}
+  const parts=tok.split('+'),last=parts[parts.length-1];const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whest]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)$/.exec(last);if(!m)return null;
+  let d=DUR[m[2]];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;if(m[4]==='3')d*=2/3;else if(m[4]){const q=m[4].slice(1).split(':');d*=+q[1]/+q[0];}const fl=m[5]||'';
+  const rest=m[1]==='r';const notes=rest?[]:parts.map(function(p,i){return parseNote(i===parts.length-1?m[1]:p.replace(/[whest]?(dd|d)?(3|%\d+:\d+)?[~*!^]*$/,''));}).filter(Boolean);
+  return {rest:rest,notes:notes,d:g?0:d,grace:g,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,base:m[2]||'q',dot:m[3]||'',tri:m[4]==='3',tup:m[4]&&m[4]!=='3'?m[4].slice(1).split(':')[0]:''};}
 function parseVoice(str){let t=0;return str.trim().split(/\s+/).filter(Boolean).map(function(x){const e=parseTok(x);if(!e)return null;e.t=t;t+=e.d;return e;}).filter(Boolean);}
 function meterLen(m){const a=m.split('/');return +a[0]*4/+a[1];}
 /* ── la pièce : temps absolus, paroles, tempo ── */
 function build(W){let meter='4/4',t=0,bpm=W.bpm||60,tf=1;const M=[];
-  W.measures.forEach(function(m,i){const chg=!!m.meter&&(m.meter!==meter||i===0);if(m.meter)meter=m.meter;const L=meterLen(meter);
+  W.measures.forEach(function(m,i){const chg=!!m.meter&&(m.meter!==meter||i===0);if(m.meter)meter=m.meter;const L=m.len||meterLen(meter);
     const mm={i:i,n:i+1,meter:meter,meterShow:chg,t0:t,len:L,marks:m.marks||[],tempo:m.tempo||null,doubt:m.doubt||'',parts:{}};
     if(m.bpm)bpm=m.bpm;const T=(m.tempo||'')+' '+(m.marks||[]).join(' ');
     if(/Più lento/i.test(T))tf=.9;if(/a tempo|I\. ?Tempo|stesso movimento/i.test(T))tf=1;
@@ -120,14 +143,14 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
   let svg='',y=10;const staffH=SP*4,gap=SP*7.5,lyH=SP*3;ST.geo=[];
   sys.forEach(function(r){const used=r.reduce(function(a,i){return a+mw[i];},0),scale=(width-head)/used;const sysTop=y;
     /* hauteur de chaque portée selon l'ambitus de la ligne */
-    const rows=parts.map(function(P){let hi=0,lo=0;const cl=P.kind==='piano'&&P.id==='lh'?'F':'G';r.forEach(function(i){M[i].parts[P.id].forEach(function(v){v.forEach(function(e){e.notes.forEach(function(n){const sp=spellTr(n,P,ks);const s=sp.step-(clefOf(P,M[i],ks)==='F'?18:30);hi=Math.max(hi,s);lo=Math.min(lo,s);});});});});
+    const rows=parts.map(function(P){let hi=0,lo=0;r.forEach(function(i){M[i].parts[P.id].forEach(function(v){v.forEach(function(e){e.notes.forEach(function(n){const sp=spellTr(n,P,ks);const s=sp.step-(clefOf(P,M[i],ks)==='F'?18:30);hi=Math.max(hi,s);lo=Math.min(lo,s);});});});});
       return {P:P,top:Math.max(SP*2.6,(hi-8)*SP/2+SP*2.4),bot:Math.max(SP*2.2,-lo*SP/2+SP*1.6)+(P.kind==='voice'?lyH:0)};});
     const top={};rows.forEach(function(R){y+=R.top;top[R.P.id]=y;y+=staffH+R.bot;});const sysBot=y;
     /* portées, clés, armures, noms */
     rows.forEach(function(R){const t=top[R.P.id];for(let k=0;k<5;k++)svg+='<line x1="4" x2="'+width+'" y1="'+(t+k*SP)+'" y2="'+(t+k*SP)+'" class="sl"/>';});
     svg+='<line x1="4" x2="4" y1="'+top[rows[0].P.id]+'" y2="'+(top[rows[rows.length-1].P.id]+staffH)+'" class="bl"/>';
     const pianoRows=rows.filter(function(R){return R.P.kind==='piano';});if(pianoRows.length>1)svg+='<path d="M2,'+top[pianoRows[0].P.id]+' q-8,'+((top[pianoRows[1].P.id]+staffH-top[pianoRows[0].P.id])/2)+' 0,'+(top[pianoRows[1].P.id]+staffH-top[pianoRows[0].P.id])+'" class="brace"/>';
-    rows.forEach(function(R){const t=top[R.P.id],cl=clefOf(R.P,M[r[0]],ks);svg+=clefSVG(cl,10,t,R.P.kind==='voice'&&!R.P.sounding);
+    rows.forEach(function(R){const t=top[R.P.id],cl=clefOf(R.P,M[r[0]],ks);svg+=clefSVG(cl,10,t,R.P.kind==='voice'&&R.P.oct===-12&&cl===(R.P.clef||'G'));
       ksSVG(KM,ks,cl,SP*3.6,t).forEach(function(s){svg+=s;});
       svg+='<text x="'+(width-4)+'" y="'+(t-SP*.8)+'" text-anchor="end" class="pn">'+(r[0]===0||true?R.P.short||R.P.name:'')+'</text>';});
     let x=head;
@@ -143,7 +166,7 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
           V.forEach(function(e){if(e.grace)return;const ex=xs+(e.t/m.len)*(xe-xs),ey0=t+SP*4;
             e._x=ex;e._P=P.id;
             if(e.rest){if(V.length===1&&Math.abs(e.d-m.len)<1e-6){svg+=restSVG({base:'w',dot:''},(xs+xe)/2,t+SP*2);return;}svg+=restSVG(e,ex,t+(multi?(vi?SP*3:SP):SP*2));return;}
-            const N=e.notes.map(function(n){const sp=spellTr(n,P,ks);return {sp:sp,s:sp.step-B};}).sort(function(a,b){return a.s-b.s;});
+            const N=e.notes.map(function(n){const sp=spellTr(n,P,ks);return {sp:sp,s:sp.step-B,out:isOut(P,n.midi)};}).sort(function(a,b){return a.s-b.s;});
             const up=multi?vi===0:((N[0].s+N[N.length-1].s)/2<4);
             /* lignes supplémentaires */
             N.forEach(function(q){if(q.s<=-2)for(let k=-2;k>=q.s;k-=2)svg+='<line x1="'+(ex-SP*.9)+'" x2="'+(ex+SP*.9)+'" y1="'+(ey0-k*SP/2)+'" y2="'+(ey0-k*SP/2)+'" class="sl"/>';
@@ -152,13 +175,13 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
             const hol=e.d*(e.tri?1.5:1)>=2-1e-6||e.base==='h'||e.base==='w';
             N.forEach(function(q){const cy=ey0-q.s*SP/2,hx=ex+q.dx;const key=q.sp.L+q.sp.oct,want=q.sp.acc,have=accState[key]!=null?accState[key]:(KM[q.sp.L]||0);
               if(want!==have){svg+='<text x="'+(hx-SP*1.6)+'" y="'+(cy+SP*.45)+'" class="acc">'+(want===1?'♯':(want===-1?'♭':(want===2?'𝄪':(want===-2?'𝄫':'♮'))))+'</text>';accState[key]=want;}
-              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+'" data-ev="1"/>';
+              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+(q.out?' out':'')+'" data-ev="1"/>';
               if(e.dot)svg+='<circle cx="'+(ex+SP*1.15)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>'+(e.dot==='dd'?'<circle cx="'+(ex+SP*1.6)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>':'');});
             if(e.base!=='w'){const lo=N[0],hi=N[N.length-1],sx=up?ex+SP*.58:ex-SP*.58,y1=up?ey0-lo.s*SP/2:ey0-hi.s*SP/2,y2=up?ey0-hi.s*SP/2-SP*3.2:ey0-lo.s*SP/2+SP*3.2;
               svg+='<line x1="'+sx+'" x2="'+sx+'" y1="'+y1+'" y2="'+y2+'" class="stem"/>';
               const fl={e:1,s:2,t:3}[e.base]||0;for(let k=0;k<fl;k++){const fy=y2+(up?k*SP*.75:-k*SP*.75);svg+='<path d="M'+sx+','+fy+' q'+(SP*.8)+','+(up?SP*.7:-SP*.7)+' '+(SP*.45)+','+(up?SP*1.8:-SP*1.8)+'" class="flag"/>';}
               if(e.trem)for(let k=0;k<3;k++){const ty=(y1+y2)/2+(k-1)*SP*.55;svg+='<line x1="'+(sx-SP*.6)+'" x2="'+(sx+SP*.6)+'" y1="'+(ty+SP*.25)+'" y2="'+(ty-SP*.25)+'" class="trem"/>';}
-              if(e.tri)svg+='<text x="'+ex+'" y="'+(up?y2-3:y2+11)+'" class="tri">3</text>';}
+              if(e.tri||e.tup)svg+='<text x="'+ex+'" y="'+(up?y2-3:y2+11)+'" class="tri">'+(e.tup||3)+'</text>';}
             if(e.arp)svg+='<path d="M'+(ex-SP*1.4)+','+(ey0-N[N.length-1].s*SP/2-SP*.6)+' l0,'+((N[N.length-1].s-N[0].s)*SP/2+SP*1.2)+'" class="arp"/>';
             if(e.ferm)svg+='<text x="'+ex+'" y="'+(t-SP*.6)+'" class="ferm">𝄐</text>';
             if(e.tie)svg+='<path d="M'+(ex+SP*.8)+','+(ey0-N[0].s*SP/2+(up?SP*.9:-SP*.9))+' q'+(SP*1.6)+','+(up?SP*1.1:-SP*1.1)+' '+(SP*3.2)+',0" class="tie"/>';
@@ -176,9 +199,9 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
   box.querySelectorAll('[data-doubt]').forEach(function(q){q.addEventListener('click',function(ev){ev.stopPropagation();const m=ST.M[+q.dataset.doubt];toast('Mesure '+m.n+' — à vérifier : '+m.doubt);});});
   box.querySelectorAll('.mzone').forEach(function(z){z.addEventListener('click',function(){const i=+z.dataset.m;if(ST.loopSel!=null){const a=Math.min(ST.loopSel,i),b=Math.max(ST.loopSel,i);ST.loop=[a,b];ST.loopSel=null;toast('🔁 Boucle mesures '+(a+1)+' → '+(b+1));markLoop();return;}seek(i);});});
   markLoop();}
-function clefOf(P,m,ks){if(P.kind==='voice')return ST.voiceClef&&ST.voiceClef[P.id]||P.clef||'G';return P.id==='lh'?'F':'G';}
+function clefOf(P,m,ks){if(P.kind==='voice')return ST.voiceClef&&ST.voiceClef[P.id]||P.clef||'G';return P.clef||(P.id==='lh'?'F':'G');}
 /* hauteur écrite affichée : transposition + octave du chant si on passe en clé de fa */
-function spellTr(n,P,ks){let midi=n.midi+ST.tr;if(P.kind==='voice'&&clefOf(P,null,ks)==='F')midi-=12;return spell(midi,ks);}
+function spellTr(n,P,ks){let midi=n.midi+ST.tr;if(P.kind==='voice'&&clefOf(P,null,ks)!==(P.clef||'G'))midi+=(P.oct||0);return spell(midi,ks);}
 function clefSVG(cl,x,t,oct8){if(cl==='F')return '<text x="'+x+'" y="'+(t+SP*3.1)+'" class="clef f">𝄢</text>';return '<text x="'+x+'" y="'+(t+SP*4.1)+'" class="clef">𝄞</text>'+(oct8?'<text x="'+(x+SP*1.1)+'" y="'+(t+SP*6.4)+'" class="o8">8</text>':'');}
 function ksSVG(KM,ks,cl,x,t){const out=[];const ST_={'♯':{F:8,C:5,G:9,D:6,A:3,E:7,B:4},'♭':{B:4,E:7,A:3,D:6,G:2,C:5,F:1}};const sym=ks>0?'♯':'♭',ord=(ks>0?'FCGDAEB':'BEADGCF').slice(0,Math.abs(ks));
   for(let k=0;k<ord.length;k++){const st=ST_[sym][ord[k]]-(cl==='F'?2:0);out.push('<text x="'+(x+k*SP*.9)+'" y="'+(t+SP*4-st*SP/2+SP*.45)+'" class="acc">'+sym+'</text>');}return out;}
@@ -230,7 +253,7 @@ function play(){if(PLAY){stop();return;}const A=ac();const M=ST.M;const from=ST.
       /* point d'orgue : on attend que tu touches l'écran */
       if(ev.e.ferm&&ST.wait&&ev.m<=to&&!ev.e.grace){const hb=ev.beat+ev.d;if(PLAY.hold==null||hb>PLAY.hold)PLAY.hold=hb;}
       scheduleUI(ev,t);}
-    if(PLAY.k>=EV.length&&now>beatToTime(M[to].t0+M[to].len)){if(ST.loop){stop(true);play();}else stop();}};
+    if(PLAY.k>=EV.length&&now>beatToTime(M[to].t0+M[to].len)){if(ST.loop){stop(true);play();}else{stop();if(typeof onPieceEnd==='function')onPieceEnd();}}};
   PLAY.id=setInterval(tick,40);tick();uiLoop();}
 function resume(){if(!PLAY||!PLAY.waiting)return;const d=AC.currentTime-PLAY.holdT;PLAY.clock.t+=d;PLAY.hold=null;PLAY.waiting=false;$('#wait').classList.remove('on');}
 function stop(keep){$('#wait').classList.remove('on');if(!PLAY)return;clearInterval(PLAY.id);PLAY=null;ST.playing=false;$('#bPlay').textContent='▶';try{MASTER.gain.setTargetAtTime(0,AC.currentTime,.03);setTimeout(function(){MASTER.gain.setTargetAtTime(.8,AC.currentTime,.01);},250);}catch(e){}}
@@ -239,8 +262,8 @@ function uiLoop(){if(!PLAY&&!UIQ.length)return;const now=AC.currentTime;while(UI
 function show(ev){const i=ev.m;if(i!==ST.cur){ST.cur=i;const g=ST.geo[i];const ph=$('#ph');if(g&&ph){ph.setAttribute('y',g.y0);ph.setAttribute('height',g.y1-g.y0);}
     if(g&&$('#follow').classList.contains('on')){const box=$('#scorew');const sc=ST.scale||1,top=g.y0*sc-40;if(top<box.scrollTop||g.y1*sc>box.scrollTop+box.clientHeight)box.scrollTo({top:top,behavior:'smooth'});}$('#mnum').textContent='mesure '+(i+1)+' / '+ST.M.length;}
   const ph=$('#ph');if(ph&&ev.e._x!=null)ph.setAttribute('x',ev.e._x-1.5);
-  if(ev.e.ly&&ev.P.kind==='voice'){$('#lyr').innerHTML=lyLine(i,ev.e);}}
-function lyLine(i,cur){/* la phrase en cours, la syllabe chantée en or */const M=ST.M,P=ST.W.parts.filter(function(p){return p.kind==='voice';})[0];let out=[];
+  if(ev.e.ly&&lyPart()&&ev.P.id===lyPart().id){$('#lyr').innerHTML=lyLine(i,ev.e);}}
+function lyLine(i,cur){/* la phrase en cours, la syllabe chantée en or */const M=ST.M,P=lyPart();if(!P)return '';let out=[];
   for(let k=Math.max(0,i-1);k<=Math.min(M.length-1,i+2);k++)(M[k].parts[P.id][0]||[]).forEach(function(e){if(e.ly)out.push(e===cur?'<b>'+esc(e.ly.replace(/‿/g,' '))+'</b>':esc(e.ly.replace(/‿/g,' ')));});
   return out.join(' ').replace(/- /g,'').replace(/_/g,'');}
 function seek(i){ST.cur=i;const g=ST.geo[i];const ph=$('#ph');if(g&&ph){ph.setAttribute('x',g.x0+4);ph.setAttribute('y',g.y0);ph.setAttribute('height',g.y1-g.y0);}$('#mnum').textContent='mesure '+(i+1)+' / '+ST.M.length;if(PLAY){stop();play();}}
@@ -255,14 +278,14 @@ function render(){const W=ST.W;$('#title').innerHTML='<b>'+esc(W.title)+'</b><sp
 function keyName(ks){const n=KEYS_MAJ[String(ks)]||'?';return {C:'do',G:'sol',D:'ré',A:'la',E:'mi',B:'si',F:'fa'}[n.charAt(0)]+(n.length>1?(n.charAt(1)==='b'?'♭':'♯'):'')+' majeur / '+({C:'la',G:'mi',D:'si',A:'fa♯',E:'do♯',B:'sol♯','F#':'ré♯','C#':'la♯',F:'ré',Bb:'sol',Eb:'do',Ab:'fa',Db:'si♭',Gb:'mi♭',Cb:'la♭'}[n])+' mineur';}
 function library(){$('#lib').innerHTML=WORKS.map(function(W){return '<button class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer)+' — '+esc(W.work)+'</span><small>'+esc(W.voice)+' · '+W.measures.length+' mesures</small></button>';}).join('')+'<div class="wk soon"><b>➕ Bientôt</b><span>Tes airs de basse, des chœurs SATB, des classiques…</span></div>';
   document.querySelectorAll('[data-w]').forEach(function(b){b.onclick=function(){open(b.dataset.w);};});}
-function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);
+function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);ST.tr=LS.get('tr:'+id,0);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.an=null;
   $('#home').style.display='none';$('#app').style.display='';render();}
 document.addEventListener('click',function(e){const b=e.target.closest('[data-mx]');if(b&&b.tagName==='BUTTON'){const id=b.dataset.p,k=b.dataset.mx;const x=ST.mix[id]=ST.mix[id]||{};
-    if(k==='sing')ST.sing=ST.sing===id?null:id;else x[k]=!x[k];LS.set('mix',ST.mix);LS.set('sing',ST.sing);$('#mixer').innerHTML=mixerHTML();}});
-document.addEventListener('input',function(e){const b=e.target;if(b.dataset&&b.dataset.mx==='vol'){const x=ST.mix[b.dataset.p]=ST.mix[b.dataset.p]||{};x.vol=+b.value;LS.set('mix',ST.mix);}});
-window.addEventListener('DOMContentLoaded',function(){library();
+    if(k==='sing')ST.sing=ST.sing===id?null:id;else x[k]=!x[k];LS.set('mix:'+ST.W.id,ST.mix);LS.set('sing:'+ST.W.id,ST.sing);render();$('#mixer').innerHTML=mixerHTML();}});
+document.addEventListener('input',function(e){const b=e.target;if(b.dataset&&b.dataset.mx==='vol'){const x=ST.mix[b.dataset.p]=ST.mix[b.dataset.p]||{};x.vol=+b.value;LS.set('mix:'+ST.W.id,ST.mix);}});
+window.addEventListener('DOMContentLoaded',function(){const boot=function(){library();
   $('#bPlay').onclick=play;$('#bStop').onclick=function(){stop();seek(0);};
-  $('#trm').onclick=function(){ST.tr--;LS.set('tr',ST.tr);render();};$('#trp').onclick=function(){ST.tr++;LS.set('tr',ST.tr);render();};
+  $('#trm').onclick=function(){ST.tr--;LS.set('tr:'+ST.W.id,ST.tr);render();};$('#trp').onclick=function(){ST.tr++;LS.set('tr:'+ST.W.id,ST.tr);render();};
   $('#tm').onclick=function(){ST.tempo=Math.max(40,ST.tempo-10);LS.set('tempo',ST.tempo);render();};$('#tp').onclick=function(){ST.tempo=Math.min(160,ST.tempo+10);LS.set('tempo',ST.tempo);render();};
   $('#bLoop').onclick=function(){if(ST.loop){ST.loop=null;markLoop();toast('Boucle supprimée');return;}ST.loopSel=ST.cur<0?0:ST.cur;toast('🔁 Touche la dernière mesure de la boucle (début : mesure '+(ST.loopSel+1)+')');};
   $('#bWait').onclick=function(){ST.wait=!ST.wait;LS.set('wait',ST.wait);$('#bWait').classList.toggle('on',ST.wait);};
@@ -271,7 +294,294 @@ window.addEventListener('DOMContentLoaded',function(){library();
   $('#wait').onclick=resume;document.addEventListener('keydown',function(e){if(e.code==='Space'&&ST.W){e.preventDefault();if(PLAY&&PLAY.waiting)resume();else play();}});
   $('#bBack').onclick=function(){stop();$('#app').style.display='none';$('#home').style.display='';};
   window.addEventListener('resize',function(){if(ST.W)drawScore();});
-  const last=LS.get('last',null);if(last&&WORKS.some(function(w){return w.id===last;}))open(last);});
+  const last=LS.get('last',null);if(last&&WORKS.some(function(w){return w.id===last;}))open(last);};
+  if(typeof libLoad==='function')libLoad().then(boot,boot);else boot();});
+
+</script>
+<script>
+/* ═══════════ 📥 IMPORT MUSICXML (.musicxml, .xml, .mxl) → format du partiteur ═══════════
+   Chaque partie vocale est éclatée par (portée, voix) : un chœur SATB sur deux portées donne 4 pupitres.
+   Les parties instrumentales gardent une ligne par portée (voix multiples séparées par //). */
+'use strict';
+/* — .mxl = zip : on lit le répertoire central et on décompresse avec DecompressionStream — */
+async function mxlUnzip(buf){const dv=new DataView(buf),u8=new Uint8Array(buf);let e=-1;
+  for(let i=buf.byteLength-22;i>=Math.max(0,buf.byteLength-66000);i--)if(dv.getUint32(i,true)===0x06054b50){e=i;break;}
+  if(e<0)throw new Error('fichier .mxl illisible');
+  const n=dv.getUint16(e+10,true);let p=dv.getUint32(e+16,true);const files={};
+  for(let k=0;k<n;k++){const meth=dv.getUint16(p+10,true),csz=dv.getUint32(p+20,true),nl=dv.getUint16(p+28,true),xl=dv.getUint16(p+30,true),cl=dv.getUint16(p+32,true),off=dv.getUint32(p+42,true);
+    const name=new TextDecoder().decode(u8.subarray(p+46,p+46+nl));files[name]={meth:meth,csz:csz,off:off};p+=46+nl+xl+cl;}
+  const read=async function(name){const f=files[name];if(!f)return null;const lnl=dv.getUint16(f.off+26,true),lxl=dv.getUint16(f.off+28,true),st=f.off+30+lnl+lxl;
+    const data=u8.slice(st,st+f.csz);if(f.meth===0)return new TextDecoder().decode(data);
+    const ds=new DecompressionStream('deflate-raw');const out=await new Response(new Blob([data]).stream().pipeThrough(ds)).arrayBuffer();return new TextDecoder().decode(out);};
+  let root=null;const cont=await read('META-INF/container.xml');
+  if(cont){const m=/full-path="([^"]+)"/.exec(cont);if(m)root=m[1];}
+  if(!root)root=Object.keys(files).filter(function(f){return /\.(xml|musicxml)$/i.test(f)&&f.indexOf('META-INF')<0;})[0];
+  return read(root);}
+async function mxmlFromFile(file){const buf=await file.arrayBuffer();const u=new Uint8Array(buf);
+  if(u[0]===0x50&&u[1]===0x4b)return mxlUnzip(buf);return new TextDecoder().decode(buf);}
+
+const MX_VAL=[['wdd',7],['wd',6],['w',4],['hdd',3.5],['hd',3],['h',2],['dd',1.75],['d',1.5],['',1],['edd',.875],['ed',.75],['e',.5],['sd',.375],['s',.25],['td',.1875],['t',.125]];
+function mxSingle(q){for(let i=0;i<MX_VAL.length;i++)if(Math.abs(MX_VAL[i][1]-q)<1e-4)return MX_VAL[i][0];return null;}
+/* durée en noires → suite de suffixes (liés si note, juxtaposés si silence) */
+function mxSplit(q){const out=[];let r=q,g=0;while(r>1/64&&g++<16){let hit=null;for(let i=0;i<MX_VAL.length;i++)if(MX_VAL[i][1]<=r+1e-4&&!/dd/.test(MX_VAL[i][0])){hit=MX_VAL[i];break;}if(!hit)break;out.push(hit[0]);r-=hit[1];}return out;}
+function mxDurTok(q,tm){/* tm = [actual,normal] du triolet éventuel */
+  if(tm&&tm[0]!==tm[1]){const b=q*tm[0]/tm[1],s=mxSingle(b);if(s!=null)return [s+(tm[0]===3&&tm[1]===2?'3':'%'+tm[0]+':'+tm[1])];}
+  const s=mxSingle(q);if(s!=null)return [s];
+  const t=mxSingle(q*1.5);if(t!=null)return [t+'3'];
+  return mxSplit(q);}
+const MX_ALT={'-2':'bb','-1':'b','0':'','1':'#','2':'##'};
+function mxTxt(el,sel){const x=el.querySelector(sel);return x?x.textContent.trim():'';}
+
+function mxmlParse(xml,fname){
+  const doc=new DOMParser().parseFromString(xml,'application/xml');
+  if(doc.querySelector('parsererror'))throw new Error('XML invalide');
+  if(doc.querySelector('score-timewise'))throw new Error('format « timewise » non pris en charge — réexporte en MusicXML standard');
+  const sp=doc.querySelector('score-partwise');if(!sp)throw new Error('ce fichier n’est pas une partition MusicXML');
+  const title=mxTxt(sp,'work > work-title')||mxTxt(sp,'movement-title')||(function(){const c=[].slice.call(sp.querySelectorAll('credit credit-words'));return c.length?c[0].textContent.trim():'';})()||(fname||'Sans titre').replace(/\.[^.]+$/,'');
+  const composer=(function(){const c=sp.querySelector('identification creator[type="composer"]');return c?c.textContent.trim():'';})();
+  const names={};[].slice.call(sp.querySelectorAll('part-list score-part')).forEach(function(s){names[s.getAttribute('id')]=mxTxt(s,'part-name')||mxTxt(s,'part-abbreviation')||mxTxt(s,'instrument-name')||'';});
+  const parts=[].slice.call(sp.querySelectorAll(':scope > part'));if(!parts.length)throw new Error('aucune partie');
+  const nM=Math.max.apply(null,parts.map(function(p){return p.querySelectorAll(':scope > measure').length;}));
+  const MEAS=[];for(let i=0;i<nM;i++)MEAS.push({marks:[]});
+  let ks0=null,mode='major';const OUT=[];/* {pid,name,staves,lyr,clefs,meas:[{key:{start,dur,...ev}}]} */
+  parts.forEach(function(part,pi){const pid=part.getAttribute('id');let div=1,staves=1;const clefs={};let curMeter=null;
+    const P={pid:pid,name:names[pid]||'',cnt:{},staves:1,lyr:false,clefs:clefs,meas:[]};
+    [].slice.call(part.querySelectorAll(':scope > measure')).forEach(function(me,mi){const MM=MEAS[mi];let pos=0,maxEnd=0;const evs={};let last=null;
+      [].slice.call(me.children).forEach(function(el){const tg=el.tagName;
+        if(tg==='attributes'){const d=mxTxt(el,'divisions');if(d)div=+d;const st=mxTxt(el,'staves');if(st){staves=+st;P.staves=staves;}
+          const f=el.querySelector('key fifths');if(f&&ks0==null){ks0=+f.textContent;const md=mxTxt(el,'key mode');if(md)mode=md;}
+          const tm=el.querySelector('time');if(tm&&pi===0){const b=mxTxt(tm,'beats'),bt=mxTxt(tm,'beat-type');if(b&&bt){const mt=b.split('+').reduce(function(a,x){return a+ +x;},0)+'/'+bt;MM.meter=mt;}}
+          [].slice.call(el.querySelectorAll('clef')).forEach(function(c){const n=c.getAttribute('number')||'1';if(clefs[n]==null)clefs[n]={sign:mxTxt(c,'sign'),oct:+(mxTxt(c,'clef-octave-change')||0)};});}
+        else if(tg==='backup'){pos-=+mxTxt(el,'duration');}
+        else if(tg==='forward'){pos+=+mxTxt(el,'duration');}
+        else if(tg==='direction'&&pi===0){const w=[].slice.call(el.querySelectorAll('words')).map(function(x){return x.textContent.trim();}).filter(Boolean);
+          const dy=el.querySelector('dynamics');if(dy&&dy.firstElementChild)w.push(dy.firstElementChild.tagName);
+          w.forEach(function(x){if(MM.marks.indexOf(x)<0&&MM.marks.length<4)MM.marks.push(x);});
+          const snd=el.querySelector('sound[tempo]');if(snd&&MM.bpm==null)MM.bpm=Math.round(+snd.getAttribute('tempo'));
+          const pm=el.querySelector('metronome per-minute');if(pm&&MM.bpm==null){const bu=mxTxt(el,'metronome beat-unit');const f={half:2,quarter:1,eighth:.5}[bu]||1;MM.bpm=Math.round(+pm.textContent*f*(el.querySelector('metronome beat-unit-dot')?1.5:1));}}
+        else if(tg==='sound'&&el.getAttribute('tempo')&&MM.bpm==null)MM.bpm=Math.round(+el.getAttribute('tempo'));
+        else if(tg==='note'){const chord=!!el.querySelector(':scope > chord'),grace=!!el.querySelector(':scope > grace'),rest=!!el.querySelector(':scope > rest'),cue=!!el.querySelector(':scope > cue');
+          if(cue)return;
+          const dur=+(mxTxt(el,':scope > duration')||0);const staff=mxTxt(el,':scope > staff')||'1',voice=mxTxt(el,':scope > voice')||'1';const key=staff+'|'+voice;
+          let nm=null;if(!rest){const pt=el.querySelector('pitch');if(!pt){const un=el.querySelector('unpitched');if(!un)return;nm=mxTxt(un,'display-step')+mxTxt(un,'display-octave');}
+            else nm=mxTxt(pt,'step')+(MX_ALT[String(Math.round(+(mxTxt(pt,'alter')||0)))]||'')+mxTxt(pt,'octave');}
+          const ties=[].slice.call(el.querySelectorAll(':scope > tie')).map(function(t){return t.getAttribute('type');});
+          const N=el.querySelector('notations');const tm=el.querySelector('time-modification');
+          const lyE=[].slice.call(el.querySelectorAll(':scope > lyric')).filter(function(l){return (l.getAttribute('number')||'1')==='1';})[0]||el.querySelector(':scope > lyric');
+          let ly=null;if(lyE){const tx=[].slice.call(lyE.querySelectorAll('text')).map(function(t){return t.textContent;}).join('‿').trim().replace(/\s+/g,'‿');const sy=mxTxt(lyE,'syllabic');
+            if(tx)ly=tx+((sy==='begin'||sy==='middle')?'-':'');if(lyE.querySelector('extend')&&!tx)ly=null;}
+          if(ly)P.lyr=true;
+          if(chord&&last&&evs[key]&&evs[key].length){const L=evs[key][evs[key].length-1];if(nm)L.notes.push(nm);if(ties.indexOf('start')>=0)L.tie=true;if(ly&&!L.ly)L.ly=ly;return;}
+          const ev={start:pos,q:grace?0:dur/div,grace:grace,rest:rest,notes:nm?[nm]:[],tie:ties.indexOf('start')>=0,tieStop:ties.indexOf('stop')>=0,
+            ferm:!!(N&&N.querySelector('fermata')),arp:!!(N&&N.querySelector('arpeggiate')),trem:!!(N&&N.querySelector('tremolo')),
+            tm:tm?[+mxTxt(tm,'actual-notes'),+mxTxt(tm,'normal-notes')]:null,ly:ly,whole:rest&&el.querySelector('rest').getAttribute('measure')==='yes'};
+          (evs[key]=evs[key]||[]).push(ev);last=ev;if(!rest&&!grace)P.cnt[key]=(P.cnt[key]||0)+1;if(!grace){pos+=dur;maxEnd=Math.max(maxEnd,pos);}}});
+      P.meas[mi]={evs:evs,len:maxEnd/div};});
+    OUT.push(P);});
+  /* longueur de chaque mesure (levée, mesures incomplètes) */
+  let meter='4/4';const mlen=MEAS.map(function(MM,i){if(MM.meter)meter=MM.meter;const a=meter.split('/'),L=+a[0]*4/+a[1];
+    const real=Math.max.apply(null,OUT.map(function(P){return P.meas[i]?P.meas[i].len:0;}));return {L:L,real:real};});
+  /* une voix (liste d'événements d'une clé) → jetons, avec silences pour les trous */
+  const voiceStr=function(list,div,L,lyOn,tieIn){let t=0;const tok=[],sy=[];let tied=tieIn;
+    (list||[]).forEach(function(e){const st=e.start/div;
+      if(!e.grace&&st>t+1e-4){mxSplit(st-t).forEach(function(s){tok.push('r'+s);});t=st;}
+      if(e.grace){if(e.notes.length)tok.push('g'+e.notes.join('+')+'e');return;}
+      if(e.rest){if(e.whole){mxSplit(L-t).forEach(function(s){tok.push('r'+s);});t=L;}else{mxDurTok(e.q,e.tm).forEach(function(s){tok.push('r'+s+(e.ferm?'^':''));});t+=e.q;}tied=false;return;}
+      const ds=mxDurTok(e.q,e.tm);const fl=(e.trem?'*':'')+(e.arp?'!':'')+(e.ferm?'^':'');
+      ds.forEach(function(s,k){const lastPiece=k===ds.length-1;const head=e.notes.slice(0,-1).join('+');
+        tok.push((head?head+'+':'')+e.notes[e.notes.length-1]+s+((!lastPiece||e.tie)?'~':'')+(lastPiece?fl:''));
+        if(lyOn&&!(k===0&&tied)&&k===0)sy.push(e.ly||'_');});
+      tied=e.tie;t+=e.q;});
+    if(list&&list.length&&t<L-1e-4)mxSplit(L-t).forEach(function(s){tok.push('r'+s);});
+    return {s:tok.join(' '),sy:sy,tied:tied};};
+  /* répartition en pupitres / portées */
+  const W={id:'imp-'+Date.now().toString(36),title:title,composer:composer,work:'',role:'',voice:'',ks:Math.max(-7,Math.min(7,ks0||0)),mode:mode,bpm:MEAS[0].bpm||72,parts:[],measures:[],imported:true,src:fname||''};
+  const VT=[['sopr','S','Soprano'],['mezzo','Mz','Mezzo'],['alt','A','Alto'],['contr','A','Alto'],['ten','T','Ténor'],['bari','Bar','Baryton'],['bass','B','Basse'],['basse','B','Basse']];
+  const vtOf=function(n){n=(n||'').toLowerCase();for(let i=0;i<VT.length;i++)if(n.indexOf(VT[i][0])>=0)return VT[i][1];const m=/^\s*([satb])\.?\s*$/i.exec(n);return m?m[1].toUpperCase():'';};
+  const VOC=/sopr|alt|ten|bass|bari|mezzo|contr|voice|voix|chant|canto|choir|ch(œ|oe)ur|chorus|^\s*[satb]\.?\s*$/i;
+  const SPEC={};/* id → {P,keys:[...]} */
+  OUT.forEach(function(P,pi){const keys={};P.meas.forEach(function(m){if(m)Object.keys(m.evs).forEach(function(k){keys[k]=1;});});const K=Object.keys(keys).sort();
+    const vocal=P.lyr||VOC.test(P.name);if(!P.name)P.name=vocal?'Voix':'Instrument';
+    const pitchMed=function(st){const a=[];P.meas.forEach(function(m){if(m)Object.keys(m.evs).forEach(function(k){if(k.split('|')[0]===st)m.evs[k].forEach(function(e){e.notes.forEach(function(n){const q=/^([A-G])(bb|##|b|#)?(-?\d)$/.exec(n);if(q)a.push(12*(+q[3]+1)+[0,2,4,5,7,9,11]['CDEFGAB'.indexOf(q[1])]);});});});});a.sort(function(x,y){return x-y;});return a.length?a[a.length>>1]:60;};
+    const clefOfStaff=function(st){const c=P.clefs[st]||{sign:'G',oct:0};if(c.sign==='F')return {clef:'F',oct:0};if(c.oct===-1)return {clef:'G',oct:-12};return {clef:'G',oct:0};};
+    if(vocal){const tot=K.reduce(function(a,k){return a+(P.cnt[k]||0);},0);
+      const nmL=P.name.split(/[\s,\/&+]+|-(?=\s)/).map(vtOf).filter(Boolean);
+      /* voix secondaires minuscules sur une même portée : on les garde dans la ligne principale (//) */
+      const groups=[];K.forEach(function(k){const st=k.split('|')[0];const big=(P.cnt[k]||0)>=tot*.25||nmL.length>1;const g=groups.filter(function(x){return x.st===st;})[0];if(big||!g)groups.push({st:st,keys:[k],main:big});else g.keys.push(k);});
+      const G=groups.filter(function(g){return (P.cnt[g.keys[0]]||0)>0;}).length?groups.filter(function(g){return (P.cnt[g.keys[0]]||0)>0;}):groups;
+      const nm=P.name.split(/[\s,\/&+]+|-(?=\s)/).map(vtOf).filter(Boolean);const gen=G.length===4?['Soprano','Alto','Ténor','Basse']:null;
+      G.forEach(function(g,ki){const k=g.keys[0],st=g.st;const c=clefOfStaff(st);let name=P.name,vt=vtOf(P.name);
+        if(G.length>1){if(nm.length===G.length){vt=nm[ki];name=VT.filter(function(x){return x[1]===vt;})[0][2];}else if(gen){name=gen[ki];vt=['S','A','T','B'][ki];}else name=P.name+' '+(ki+1);}
+        const id='v'+pi+'_'+ki;W.parts.push({id:id,name:name,kind:'voice',clef:c.clef,oct:c.oct,vt:vt,lyKey:'ly_'+id});SPEC[id]={P:P,keys:g.keys,voice:true};});}
+    else{const st=[];K.forEach(function(k){const s=k.split('|')[0];if(st.indexOf(s)<0)st.push(s);});st.sort();
+      st.forEach(function(s,si){const c={clef:pitchMed(s)>=57?'G':'F'};const id='i'+pi+'_'+si;const base=P.name;
+        W.parts.push({id:id,name:st.length>1?base+(si===0?' MD':' MG'):base,kind:'piano',clef:c.clef});SPEC[id]={P:P,keys:K.filter(function(k){return k.split('|')[0]===s;}),voice:false};});}});
+  if(!W.parts.length)throw new Error('aucune note trouvée');
+  /* division propre à chaque partie */
+  const DIVS={};parts.forEach(function(part){let d=1;const pid=part.getAttribute('id');DIVS[pid]=[];[].slice.call(part.querySelectorAll(':scope > measure')).forEach(function(me,mi){const x=me.querySelector('attributes divisions');if(x)d=+x.textContent;DIVS[pid][mi]=d;});});
+  const tieState={};
+  MEAS.forEach(function(MM,i){const L=mlen[i].real>0?mlen[i].real:mlen[i].L;const m={};if(MM.meter)m.meter=MM.meter;if(MM.bpm)m.bpm=MM.bpm;if(MM.marks.length)m.marks=MM.marks;
+    if(Math.abs(L-mlen[i].L)>1e-4)m.len=L;
+    W.parts.forEach(function(Q){const S=SPEC[Q.id],PM=S.P.meas[i];const div=DIVS[S.P.pid][i]||1;
+      if(!PM){m[Q.id]=mxSplit(L).map(function(s){return 'r'+s;}).join(' ');return;}
+      const strs=S.keys.map(function(k){const r=voiceStr(PM.evs[k],div,L,S.voice,tieState[Q.id+k]);tieState[Q.id+k]=r.tied;return r;}).filter(function(r,j){return r.s||j===0;});
+      m[Q.id]=strs.map(function(r){return r.s||mxSplit(L).map(function(s){return 'r'+s;}).join(' ');}).join(' // ');
+      if(S.voice){const sy=strs[0]?strs[0].sy:[];m[Q.lyKey]=sy.join(' ');}});
+    W.measures.push(m);});
+  /* pupitre sans paroles : emprunter celles de sa voisine de portée quand le rythme est le même */
+  W.parts.filter(function(Q){return Q.kind==='voice';}).forEach(function(Q){if(W.measures.some(function(m){return /[^_\s]/.test(m[Q.lyKey]||'');}))return;
+    const sib=W.parts.filter(function(R){return R.kind==='voice'&&R!==Q&&SPEC[R.id].P===SPEC[Q.id].P&&SPEC[R.id].keys[0].split('|')[0]===SPEC[Q.id].keys[0].split('|')[0];})[0]||W.parts.filter(function(R){return R.kind==='voice'&&R!==Q&&W.measures.some(function(m){return /[^_\s]/.test(m[R.lyKey]||'');});})[0];
+    if(!sib)return;W.measures.forEach(function(m){const a=(m[Q.lyKey]||'').split(/\s+/).filter(Boolean),b=(m[sib.lyKey]||'').split(/\s+/).filter(Boolean);if(a.length===b.length)m[Q.lyKey]=b.join(' ');});});
+  W.voice=W.parts.filter(function(Q){return Q.kind==='voice';}).map(function(Q){return Q.name;}).join(', ')||'instrumental';
+  return W;}
+
+</script>
+<script>
+/* ═══════════ 📚 BIBLIOTHÈQUE · 🎤 MA VOIX · 🎭 PROGRAMMES & CONCERT ═══════════ */
+'use strict';
+/* — stockage des partitions importées (IndexedDB, secours localStorage) — */
+const IDB={db:null,open:function(){return new Promise(function(ok,ko){try{const r=indexedDB.open('partiteur',1);r.onupgradeneeded=function(){r.result.createObjectStore('works',{keyPath:'id'});};r.onsuccess=function(){IDB.db=r.result;ok();};r.onerror=function(){ko(r.error);};}catch(e){ko(e);}});},
+  all:function(){return new Promise(function(ok){if(!IDB.db)return ok(LS.get('works',[]));const q=IDB.db.transaction('works').objectStore('works').getAll();q.onsuccess=function(){ok(q.result||[]);};q.onerror=function(){ok([]);};});},
+  put:function(W){return new Promise(function(ok){const c=JSON.parse(JSON.stringify(W,function(k,v){return k.charAt(0)==='_'?undefined:v;}));if(!IDB.db){const a=LS.get('works',[]).filter(function(x){return x.id!==W.id;});a.push(c);LS.set('works',a);return ok();}
+    const t=IDB.db.transaction('works','readwrite');t.objectStore('works').put(c);t.oncomplete=ok;t.onerror=ok;});},
+  del:function(id){return new Promise(function(ok){if(!IDB.db){LS.set('works',LS.get('works',[]).filter(function(x){return x.id!==id;}));return ok();}const t=IDB.db.transaction('works','readwrite');t.objectStore('works').delete(id);t.oncomplete=ok;t.onerror=ok;});}};
+function libLoad(){return IDB.open().catch(function(){}).then(IDB.all).then(function(a){a.forEach(function(W){if(!WORKS.some(function(x){return x.id===W.id;}))WORKS.push(W);});});}
+
+/* — ma voix — zones confortables (hauteur réelle) — */
+const VPRE=[['S','Soprano',60,81],['Mz','Mezzo',57,77],['A','Alto',53,74],['T','Ténor',48,69],['Bar','Baryton',45,65],['B','Basse',41,62]];
+function myVoice(){return LS.get('voice',null);}
+function pName(m){return SH[(m%12+12)%12].replace('#','♯')+(Math.floor(m/12)-1);}
+function vName(v){const p=VPRE.filter(function(x){return x[0]===v.vt;})[0];return p?p[1]:'Ma voix';}
+/* — analyse d'une partie : ambitus, tessiture, meilleure transposition — */
+function partNotes(W,P){const M=W._M||(W._M=build(W));const out=[];M.forEach(function(m,i){(m.parts[P.id]||[]).forEach(function(V){V.forEach(function(e,j){if(e.rest||e.grace||!e.notes.length)return;
+  const prev=j>0?V[j-1]:null;if(prev&&prev.tie&&!prev.rest)return;out.push({m:e.notes[e.notes.length-1].midi+(P.oct||0),d:Math.max(.25,e.d),i:i});});});});return out;}
+function costAt(N,t,lo,hi){let c=0,tot=0,mean=0;N.forEach(function(n){const s=n.m+t;c+=n.d*Math.max(0,lo-s,s-hi)*4;tot+=n.d;mean+=n.d*s;});return c+(tot?Math.abs(mean/tot-(lo+hi)/2)*.15*tot:0)+Math.abs(t)*.01;}
+function outAt(N,t,lo,hi){const o=N.filter(function(n){return n.m+t<lo||n.m+t>hi;});const ms=[];o.forEach(function(n){if(ms.indexOf(n.i+1)<0)ms.push(n.i+1);});return {n:o.length,ms:ms,hi:o.filter(function(n){return n.m+t>hi;}).length};}
+function anOf(W){const v=myVoice();const VP=W.parts.filter(function(P){return P.kind==='voice';});if(!v||!VP.length)return null;
+  const key=v.vt+v.lo+v.hi+'|'+(LS.get('sing:'+W.id,null)||'');if(W._an&&W._ank===key)return W._an;
+  const sing=LS.get('sing:'+W.id,null);let cand=VP.filter(function(P){return P.id===sing;});if(!cand.length)cand=VP.filter(function(P){return P.vt&&P.vt===v.vt;});if(!cand.length)cand=VP;
+  let best=null;cand.forEach(function(P){const N=partNotes(W,P);if(!N.length)return;let bt=0,bo=0,bc=1e18;[0,-12,12].forEach(function(o){for(let t=-7;t<=7;t++){const c=costAt(N,t+o,v.lo,v.hi)+(o?.5:0);if(c<bc-1e-9){bc=c;bt=t;bo=o;}}});if(!best||bc<best.c)best={P:P,N:N,c:bc,t:bt,o:bo};});
+  if(!best)return null;const N=best.N;let lo=999,hi=-999;N.forEach(function(n){lo=Math.min(lo,n.m);hi=Math.max(hi,n.m);});
+  const srt=N.slice().sort(function(a,b){return a.m-b.m;}),tot=N.reduce(function(a,n){return a+n.d;},0);let acc=0,tlo=null,thi=null;srt.forEach(function(n){acc+=n.d;if(tlo==null&&acc>=tot*.1)tlo=n.m;if(thi==null&&acc>=tot*.9)thi=n.m;});
+  const r={pid:best.P.id,pname:best.P.name,lo:lo,hi:hi,tlo:tlo,thi:thi,best:best.t,oct:best.o,N:N,v:v};W._an=r;W._ank=key;return r;}
+function anBadge(an,t){if(!an)return null;const O=an.oct||0,o=outAt(an.N,t+O,an.v.lo,an.v.hi),ob=outAt(an.N,an.best+O,an.v.lo,an.v.hi);const oc=O<0?' · une octave plus bas':(O>0?' · une octave plus haut':'');
+  if(!o.n)return {cls:'ok',txt:'✅ confortable'+(t?' (en '+(t>0?'+':'')+t+')':'')+oc};
+  if(!ob.n)return {cls:'tr',txt:'↕ confortable en '+(an.best>0?'+':'')+an.best+oc,best:an.best};
+  return {cls:'ko',txt:'⚠ '+o.n+' note'+(o.n>1?'s':'')+' hors zone'+oc+(an.best!==t?' · mieux en '+(an.best>0?'+':'')+an.best:''),best:an.best!==t?an.best:null,ms:o.ms};}
+function isOut(P,midi){const an=ST.an;if(!an||P.id!==an.pid)return false;const s=midi+(P.oct||0)+ST.tr+(an.oct||0);return s<an.v.lo||s>an.v.hi;}
+function lyPart(){const W=ST.W;if(!W)return null;const VP=W.parts.filter(function(P){return P.kind==='voice';});
+  return VP.filter(function(P){return P.id===ST.sing;})[0]||(ST.an&&VP.filter(function(P){return P.id===ST.an.pid;})[0])||VP[0]||null;}
+
+/* — écran d'accueil — */
+const STYLES=['Air d’opéra','Oratorio','Messe','Motet','Cantique','Negro spiritual','Lied','Mélodie','Chœur','Autre'];
+const PERIODS=['Renaissance','Baroque','Classique','Romantique','Post-romantique','XXᵉ siècle','Traditionnel'];
+function wkCard(W){const an=anOf(W),b=anBadge(an,LS.get('tr:'+W.id,0));
+  return '<div class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer||'?')+(W.work?' — '+esc(W.work):'')+'</span>'
+    +'<small>'+[W.style,W.period,W.voice].filter(Boolean).map(esc).join(' · ')+' · '+W.measures.length+' mes.</small>'
+    +(an?'<div class="amb">'+esc(an.pname)+' : '+pName(an.lo)+'–'+pName(an.hi)+' <i>(tessiture '+pName(an.tlo)+'–'+pName(an.thi)+')</i> <em class="vb '+b.cls+'">'+b.txt+'</em></div>':'')
+    +(W.imported?'<button class="wdel" data-del="'+W.id+'" title="Supprimer">🗑</button>':'')+'</div>';}
+library=function(){const v=myVoice();
+  $('#vme').innerHTML=v?'🎤 '+vName(v)+' · '+pName(v.lo)+'–'+pName(v.hi):'🎤 Ma voix';
+  $('#lib').innerHTML=WORKS.map(wkCard).join('')+'<div class="wk soon"><b>📥 Ajouter une partition</b><span>Fichier MusicXML (.musicxml, .mxl) — exporté de MuseScore, ou téléchargé sur CPDL / IMSLP.</span></div>';
+  progList();};
+document.addEventListener('click',function(e){const d=e.target.closest('[data-del]');if(d){e.stopPropagation();const W=WORKS.filter(function(x){return x.id===d.dataset.del;})[0];
+    if(W&&confirm('Supprimer « '+W.title+' » ?')){IDB.del(W.id).then(function(){WORKS.splice(WORKS.indexOf(W),1);library();});}return;}
+  const w=e.target.closest('#lib [data-w]');if(w){open(w.dataset.w);return;}
+  if(e.target.closest('#lib .soon'))$('#fimp').click();},true);
+
+/* — ma voix (fenêtre) — */
+function voiceDlg(){const v=myVoice()||{vt:'B',lo:41,hi:62};let cur=JSON.parse(JSON.stringify(v));
+  const draw=function(){dlg('<h2>🎤 Ma voix</h2><div class="hint">La zone où tu chantes à l’aise (hauteur réelle). Le partiteur s’en sert pour te dire si un air te va, et dans quelle tonalité.</div>'
+    +'<div class="chips">'+VPRE.map(function(p){return '<button data-vp="'+p[0]+'" class="'+(cur.vt===p[0]?'on':'')+'">'+p[1]+'</button>';}).join('')+'</div>'
+    +'<div class="rng"><span>grave</span><button data-vr="lo-">−</button><output>'+pName(cur.lo)+'</output><button data-vr="lo+">+</button><span>aigu</span><button data-vr="hi-">−</button><output>'+pName(cur.hi)+'</output><button data-vr="hi+">+</button></div>'
+    +'<div class="row"><button id="vok" class="pri">Enregistrer</button><button data-close="1">Annuler</button></div>');
+    $('#dlg').querySelectorAll('[data-vp]').forEach(function(b){b.onclick=function(){const p=VPRE.filter(function(x){return x[0]===b.dataset.vp;})[0];cur={vt:p[0],lo:p[2],hi:p[3]};draw();};});
+    $('#dlg').querySelectorAll('[data-vr]').forEach(function(b){b.onclick=function(){const k=b.dataset.vr;if(k==='lo-')cur.lo--;if(k==='lo+')cur.lo=Math.min(cur.hi-5,cur.lo+1);if(k==='hi-')cur.hi=Math.max(cur.lo+5,cur.hi-1);if(k==='hi+')cur.hi++;draw();};});
+    $('#vok').onclick=function(){LS.set('voice',cur);dlgClose();library();if(ST.W&&$('#app').style.display!=='none')render();toast('🎤 '+vName(cur)+' : '+pName(cur.lo)+' – '+pName(cur.hi));};};
+  draw();}
+function dlg(html){const d=$('#dlg');d.innerHTML='<div class="dbox">'+html+'</div>';d.classList.add('on');d.querySelectorAll('[data-close]').forEach(function(b){b.onclick=dlgClose;});}
+function dlgClose(){$('#dlg').classList.remove('on');}
+
+/* — import — */
+async function importFile(f){try{toast('📥 Lecture de '+f.name+'…');const xml=await mxmlFromFile(f);const W=mxmlParse(xml,f.name);W._M=null;metaDlg(W,true);}
+  catch(err){toast('⚠ Import impossible : '+(err.message||err));console.error(err);}}
+function metaDlg(W,isNew){const opt=function(list,v){return '<option value=""></option>'+list.map(function(x){return '<option'+(x===v?' selected':'')+'>'+x+'</option>';}).join('');};
+  dlg('<h2>'+(isNew?'📥 Nouvelle partition':'✏️ Fiche')+'</h2>'
+    +'<label>Titre<input id="mTitle" value="'+esc(W.title)+'"></label><label>Compositeur<input id="mComp" value="'+esc(W.composer||'')+'"></label>'
+    +'<label>Œuvre qui la contient<input id="mWork" placeholder="ex. Les Noces de Figaro, acte I" value="'+esc(W.work||'')+'"></label><label>Rôle<input id="mRole" value="'+esc(W.role||'')+'"></label>'
+    +'<div class="two"><label>Style<select id="mStyle">'+opt(STYLES,W.style)+'</select></label><label>Période<select id="mPer">'+opt(PERIODS,W.period)+'</select></label></div>'
+    +'<h3>Parties ('+W.measures.length+' mesures, tonalité '+keyName(W.ks)+')</h3>'
+    +W.parts.map(function(P,i){return '<div class="pr"><input data-pn="'+i+'" value="'+esc(P.name)+'"><select data-pk="'+i+'"><option value="voice"'+(P.kind==='voice'?' selected':'')+'>🎤 voix</option><option value="piano"'+(P.kind!=='voice'?' selected':'')+'>🎹 instrument</option></select>'
+      +'<select data-pv="'+i+'">'+'<option value=""></option>'+VPRE.map(function(p){return '<option value="'+p[0]+'"'+(P.vt===p[0]?' selected':'')+'>'+p[1]+'</option>';}).join('')+'</select></div>';}).join('')
+    +'<div class="row"><button id="mok" class="pri">'+(isNew?'Ajouter à la bibliothèque':'Enregistrer')+'</button><button data-close="1">Annuler</button></div>');
+  $('#mok').onclick=function(){W.title=$('#mTitle').value.trim()||W.title;W.composer=$('#mComp').value.trim();W.work=$('#mWork').value.trim();W.role=$('#mRole').value.trim();W.style=$('#mStyle').value;W.period=$('#mPer').value;
+    W.parts.forEach(function(P,i){P.name=$('[data-pn="'+i+'"]').value.trim()||P.name;P.kind=$('[data-pk="'+i+'"]').value;P.vt=$('[data-pv="'+i+'"]').value;if(P.kind==='voice'&&!P.lyKey)P.lyKey='ly_'+P.id;});
+    W.voice=W.parts.filter(function(P){return P.kind==='voice';}).map(function(P){return P.name;}).join(', ')||'instrumental';W._an=null;W._M=null;
+    IDB.put(W).then(function(){if(WORKS.indexOf(W)<0)WORKS.push(W);dlgClose();library();toast('✅ « '+W.title+' » ajouté');});};}
+
+/* — badge de voix dans la partition — */
+const _render=render;render=function(){ST.an=anOf(ST.W);_render.apply(this,arguments);const el=$('#vbadge');if(!el)return;const an=ST.an,b=anBadge(an,ST.tr);
+  if(!an){el.innerHTML=myVoice()?'':'<button data-vme="1">🎤 Indique ta voix</button>';return;}
+  el.innerHTML='<span class="vb '+b.cls+'" title="'+esc(an.pname)+' : '+pName(an.lo)+'–'+pName(an.hi)+'">'+esc(vName(an.v))+' · '+b.txt+'</span>'+(b.best!=null&&b.best!==ST.tr?'<button data-adapt="'+b.best+'">Adapter</button>':'');};
+document.addEventListener('click',function(e){const a=e.target.closest('[data-adapt]');if(a){ST.tr=+a.dataset.adapt;LS.set('tr:'+ST.W.id,ST.tr);render();toast('↕ Transposé en '+(ST.tr>0?'+':'')+ST.tr+' pour ta voix');}
+  if(e.target.closest('[data-vme]'))voiceDlg();});
+
+/* — 🎭 programmes — */
+function progs(){return LS.get('progs',[]);}
+function progSave(a){LS.set('progs',a);}
+function wById(id){return WORKS.filter(function(x){return x.id===id;})[0];}
+function progList(){const el=$('#progs');if(!el)return;const P=progs();
+  el.innerHTML=P.map(function(p,pi){return '<div class="pg"><div><b>'+esc(p.name)+'</b><small>'+p.items.length+' pièce'+(p.items.length>1?'s':'')+' · '+p.items.map(function(it){const W=wById(it.w);return W?esc(W.title):'?';}).join(' · ')+'</small></div>'
+    +'<button data-pc="'+pi+'" class="pri"'+(p.items.length?'':' disabled')+'>▶ Concert</button><button data-pe="'+pi+'">✏️</button></div>';}).join('')
+    +'<button id="pnew">➕ Nouveau programme</button>';}
+function progEdit(pi){const A=progs();const p=A[pi];
+  const draw=function(){dlg('<h2>🎭 Programme</h2><label>Nom<input id="pName" value="'+esc(p.name)+'"></label>'
+    +'<div class="pil">'+p.items.map(function(it,i){const W=wById(it.w);return '<div class="pit"><span class="pno">'+(i+1)+'</span><b>'+(W?esc(W.title):'?')+'</b>'
+      +'<span class="ptr"><button data-it="tr-" data-i="'+i+'">−</button>'+(it.tr>0?'+':'')+it.tr+'<button data-it="tr+" data-i="'+i+'">+</button></span>'
+      +'<button data-it="up" data-i="'+i+'">↑</button><button data-it="dn" data-i="'+i+'">↓</button><button data-it="x" data-i="'+i+'">✕</button></div>';}).join('')+'</div>'
+    +'<label>Ajouter<select id="pAdd"><option value="">— choisir une pièce —</option>'+WORKS.map(function(W){return '<option value="'+W.id+'">'+esc(W.title)+' — '+esc(W.composer||'')+'</option>';}).join('')+'</select></label>'
+    +'<div class="row"><button id="pok" class="pri">Enregistrer</button><button id="pdel">Supprimer le programme</button><button data-close="1">Fermer</button></div>');
+    $('#pName').oninput=function(){p.name=this.value;};
+    $('#pAdd').onchange=function(){if(this.value){p.items.push({w:this.value,tr:LS.get('tr:'+this.value,0)});draw();}};
+    $('#dlg').querySelectorAll('[data-it]').forEach(function(b){b.onclick=function(){const i=+b.dataset.i,k=b.dataset.it,a=p.items;
+      if(k==='tr-')a[i].tr--;if(k==='tr+')a[i].tr++;if(k==='up'&&i>0){const t=a[i];a[i]=a[i-1];a[i-1]=t;}if(k==='dn'&&i<a.length-1){const t=a[i];a[i]=a[i+1];a[i+1]=t;}if(k==='x')a.splice(i,1);draw();};});
+    $('#pok').onclick=function(){A[pi]=p;progSave(A);dlgClose();progList();};
+    $('#pdel').onclick=function(){if(confirm('Supprimer « '+p.name+' » ?')){A.splice(pi,1);progSave(A);dlgClose();progList();}};};
+  draw();}
+document.addEventListener('click',function(e){
+  if(e.target.closest('#pnew')){const A=progs();A.push({name:'Programme '+(A.length+1),items:[]});progSave(A);progEdit(A.length-1);return;}
+  const pe=e.target.closest('[data-pe]');if(pe){progEdit(+pe.dataset.pe);return;}
+  const pc=e.target.closest('[data-pc]');if(pc){concertStart(+pc.dataset.pc,0);return;}
+  if(e.target.closest('#bProg')){const A=progs();if(!ST.W)return;
+    dlg('<h2>➕ Ajouter « '+esc(ST.W.title)+' »</h2><div class="hint">Avec la transposition actuelle ('+(ST.tr>0?'+':'')+ST.tr+').</div>'
+      +A.map(function(p,i){return '<button class="pgb" data-pa="'+i+'">🎭 '+esc(p.name)+' <small>('+p.items.length+')</small></button>';}).join('')
+      +'<button class="pgb" data-pa="new">➕ Nouveau programme</button><div class="row"><button data-close="1">Annuler</button></div>');
+    $('#dlg').querySelectorAll('[data-pa]').forEach(function(b){b.onclick=function(){const A2=progs();let i=b.dataset.pa;if(i==='new'){A2.push({name:'Programme '+(A2.length+1),items:[]});i=A2.length-1;}else i=+i;
+      A2[i].items.push({w:ST.W.id,tr:ST.tr});progSave(A2);dlgClose();toast('🎭 Ajouté à « '+A2[i].name+' » ('+A2[i].items.length+'ᵉ pièce)');};});}
+  if(e.target.closest('#vme'))voiceDlg();
+  if(e.target.closest('#bMeta')&&ST.W){metaDlg(ST.W,false);}
+});
+
+/* — mode concert — */
+let CONC=null;
+function concertStart(pi,i){const p=progs()[pi];if(!p||!p.items[i])return;const it=p.items[i];if(!wById(it.w)){toast('Pièce introuvable');return;}
+  CONC={pi:pi,i:i,p:p,pending:false};document.body.classList.add('concert');stop();open(it.w);ST.tr=it.tr;render();seek(0);concBar();
+  const ph=$('#scorew');if(ph)ph.scrollTop=0;}
+function concBar(){const c=$('#conc');if(!CONC){c.innerHTML='';return;}const p=CONC.p,n=p.items[CONC.i+1],W=n&&wById(n.w);
+  c.innerHTML='<b>🎭 '+esc(p.name)+'</b><span>'+(CONC.i+1)+' / '+p.items.length+'</span><button data-cg="-1"'+(CONC.i?'':' disabled')+'>⏮</button><button data-cg="1"'+(n?'':' disabled')+'>⏭</button>'
+    +'<span class="nx">'+(W?'ensuite : '+esc(W.title):'dernière pièce')+'</span><button data-cg="x">✕ Quitter</button>';}
+function concertEnd(){CONC=null;document.body.classList.remove('concert');$('#wait').classList.remove('on');concBar();}
+function onPieceEnd(){if(!CONC)return;const n=CONC.p.items[CONC.i+1];const w=$('#wait');
+  if(!n){w.textContent='👏 Fin du programme';w.classList.add('on');CONC.pending='end';return;}
+  CONC.pending=true;w.textContent='▶ Suivant : '+(wById(n.w)||{}).title+' — touche quand tu es prêt';w.classList.add('on');}
+document.addEventListener('click',function(e){
+  const g=e.target.closest('[data-cg]');if(g){const k=g.dataset.cg;if(k==='x'){stop();concertEnd();return;}const j=CONC.i+ +k;$('#wait').classList.remove('on');concertStart(CONC.pi,j);return;}
+  if(e.target.closest('#wait')&&CONC&&CONC.pending){e.stopPropagation();const w=$('#wait');w.classList.remove('on');w.textContent='𝄐 Point d’orgue — touche pour continuer';
+    if(CONC.pending==='end'){concertEnd();return;}concertStart(CONC.pi,CONC.i+1);setTimeout(play,400);}},true);
+const _back=function(){if(CONC)concertEnd();};
+document.addEventListener('click',function(e){if(e.target.closest('#bBack'))_back();},true);
+window.addEventListener('DOMContentLoaded',function(){const f=$('#fimp');f.onchange=function(){if(f.files[0])importFile(f.files[0]);f.value='';};
+  $('#bImp').onclick=function(){f.click();};});
 
 </script>
 </body></html>

@@ -10,15 +10,15 @@ const STEP={C:0,D:1,E:2,F:3,G:4,A:5,B:6},SEMI=[0,2,4,5,7,9,11];
 function parseNote(n){const m=/^([A-G])(bb|##|b|#)?(-?\d)$/.exec(n);if(!m)return null;const acc={'':0,'#':1,'##':2,b:-1,bb:-2}[m[2]||''];const oct=+m[3];
   return {L:m[1],acc:acc,oct:oct,midi:12*(oct+1)+SEMI[STEP[m[1]]]+acc,step:oct*7+STEP[m[1]]};}
 function parseTok(tok){const g=tok.charAt(0)==='g'&&/^g[A-G]/.test(tok);if(g)tok=tok.slice(1);
-  const parts=tok.split('+'),last=parts[parts.length-1];const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whest]?)(dd|d)?(3)?([~*!^]*)$/.exec(last);if(!m)return null;
-  let d=DUR[m[2]];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;if(m[4])d*=2/3;const fl=m[5]||'';
-  const rest=m[1]==='r';const notes=rest?[]:parts.map(function(p,i){return parseNote(i===parts.length-1?m[1]:p.replace(/[whest]?(dd|d)?3?[~*!^]*$/,''));}).filter(Boolean);
-  return {rest:rest,notes:notes,d:g?0:d,grace:g,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,base:m[2]||'q',dot:m[3]||'',tri:!!m[4]};}
+  const parts=tok.split('+'),last=parts[parts.length-1];const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whest]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)$/.exec(last);if(!m)return null;
+  let d=DUR[m[2]];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;if(m[4]==='3')d*=2/3;else if(m[4]){const q=m[4].slice(1).split(':');d*=+q[1]/+q[0];}const fl=m[5]||'';
+  const rest=m[1]==='r';const notes=rest?[]:parts.map(function(p,i){return parseNote(i===parts.length-1?m[1]:p.replace(/[whest]?(dd|d)?(3|%\d+:\d+)?[~*!^]*$/,''));}).filter(Boolean);
+  return {rest:rest,notes:notes,d:g?0:d,grace:g,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,base:m[2]||'q',dot:m[3]||'',tri:m[4]==='3',tup:m[4]&&m[4]!=='3'?m[4].slice(1).split(':')[0]:''};}
 function parseVoice(str){let t=0;return str.trim().split(/\s+/).filter(Boolean).map(function(x){const e=parseTok(x);if(!e)return null;e.t=t;t+=e.d;return e;}).filter(Boolean);}
 function meterLen(m){const a=m.split('/');return +a[0]*4/+a[1];}
 /* ── la pièce : temps absolus, paroles, tempo ── */
 function build(W){let meter='4/4',t=0,bpm=W.bpm||60,tf=1;const M=[];
-  W.measures.forEach(function(m,i){const chg=!!m.meter&&(m.meter!==meter||i===0);if(m.meter)meter=m.meter;const L=meterLen(meter);
+  W.measures.forEach(function(m,i){const chg=!!m.meter&&(m.meter!==meter||i===0);if(m.meter)meter=m.meter;const L=m.len||meterLen(meter);
     const mm={i:i,n:i+1,meter:meter,meterShow:chg,t0:t,len:L,marks:m.marks||[],tempo:m.tempo||null,doubt:m.doubt||'',parts:{}};
     if(m.bpm)bpm=m.bpm;const T=(m.tempo||'')+' '+(m.marks||[]).join(' ');
     if(/Più lento/i.test(T))tf=.9;if(/a tempo|I\. ?Tempo|stesso movimento/i.test(T))tf=1;
@@ -52,14 +52,14 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
   let svg='',y=10;const staffH=SP*4,gap=SP*7.5,lyH=SP*3;ST.geo=[];
   sys.forEach(function(r){const used=r.reduce(function(a,i){return a+mw[i];},0),scale=(width-head)/used;const sysTop=y;
     /* hauteur de chaque portée selon l'ambitus de la ligne */
-    const rows=parts.map(function(P){let hi=0,lo=0;const cl=P.kind==='piano'&&P.id==='lh'?'F':'G';r.forEach(function(i){M[i].parts[P.id].forEach(function(v){v.forEach(function(e){e.notes.forEach(function(n){const sp=spellTr(n,P,ks);const s=sp.step-(clefOf(P,M[i],ks)==='F'?18:30);hi=Math.max(hi,s);lo=Math.min(lo,s);});});});});
+    const rows=parts.map(function(P){let hi=0,lo=0;r.forEach(function(i){M[i].parts[P.id].forEach(function(v){v.forEach(function(e){e.notes.forEach(function(n){const sp=spellTr(n,P,ks);const s=sp.step-(clefOf(P,M[i],ks)==='F'?18:30);hi=Math.max(hi,s);lo=Math.min(lo,s);});});});});
       return {P:P,top:Math.max(SP*2.6,(hi-8)*SP/2+SP*2.4),bot:Math.max(SP*2.2,-lo*SP/2+SP*1.6)+(P.kind==='voice'?lyH:0)};});
     const top={};rows.forEach(function(R){y+=R.top;top[R.P.id]=y;y+=staffH+R.bot;});const sysBot=y;
     /* portées, clés, armures, noms */
     rows.forEach(function(R){const t=top[R.P.id];for(let k=0;k<5;k++)svg+='<line x1="4" x2="'+width+'" y1="'+(t+k*SP)+'" y2="'+(t+k*SP)+'" class="sl"/>';});
     svg+='<line x1="4" x2="4" y1="'+top[rows[0].P.id]+'" y2="'+(top[rows[rows.length-1].P.id]+staffH)+'" class="bl"/>';
     const pianoRows=rows.filter(function(R){return R.P.kind==='piano';});if(pianoRows.length>1)svg+='<path d="M2,'+top[pianoRows[0].P.id]+' q-8,'+((top[pianoRows[1].P.id]+staffH-top[pianoRows[0].P.id])/2)+' 0,'+(top[pianoRows[1].P.id]+staffH-top[pianoRows[0].P.id])+'" class="brace"/>';
-    rows.forEach(function(R){const t=top[R.P.id],cl=clefOf(R.P,M[r[0]],ks);svg+=clefSVG(cl,10,t,R.P.kind==='voice'&&!R.P.sounding);
+    rows.forEach(function(R){const t=top[R.P.id],cl=clefOf(R.P,M[r[0]],ks);svg+=clefSVG(cl,10,t,R.P.kind==='voice'&&R.P.oct===-12&&cl===(R.P.clef||'G'));
       ksSVG(KM,ks,cl,SP*3.6,t).forEach(function(s){svg+=s;});
       svg+='<text x="'+(width-4)+'" y="'+(t-SP*.8)+'" text-anchor="end" class="pn">'+(r[0]===0||true?R.P.short||R.P.name:'')+'</text>';});
     let x=head;
@@ -75,7 +75,7 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
           V.forEach(function(e){if(e.grace)return;const ex=xs+(e.t/m.len)*(xe-xs),ey0=t+SP*4;
             e._x=ex;e._P=P.id;
             if(e.rest){if(V.length===1&&Math.abs(e.d-m.len)<1e-6){svg+=restSVG({base:'w',dot:''},(xs+xe)/2,t+SP*2);return;}svg+=restSVG(e,ex,t+(multi?(vi?SP*3:SP):SP*2));return;}
-            const N=e.notes.map(function(n){const sp=spellTr(n,P,ks);return {sp:sp,s:sp.step-B};}).sort(function(a,b){return a.s-b.s;});
+            const N=e.notes.map(function(n){const sp=spellTr(n,P,ks);return {sp:sp,s:sp.step-B,out:isOut(P,n.midi)};}).sort(function(a,b){return a.s-b.s;});
             const up=multi?vi===0:((N[0].s+N[N.length-1].s)/2<4);
             /* lignes supplémentaires */
             N.forEach(function(q){if(q.s<=-2)for(let k=-2;k>=q.s;k-=2)svg+='<line x1="'+(ex-SP*.9)+'" x2="'+(ex+SP*.9)+'" y1="'+(ey0-k*SP/2)+'" y2="'+(ey0-k*SP/2)+'" class="sl"/>';
@@ -84,13 +84,13 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
             const hol=e.d*(e.tri?1.5:1)>=2-1e-6||e.base==='h'||e.base==='w';
             N.forEach(function(q){const cy=ey0-q.s*SP/2,hx=ex+q.dx;const key=q.sp.L+q.sp.oct,want=q.sp.acc,have=accState[key]!=null?accState[key]:(KM[q.sp.L]||0);
               if(want!==have){svg+='<text x="'+(hx-SP*1.6)+'" y="'+(cy+SP*.45)+'" class="acc">'+(want===1?'♯':(want===-1?'♭':(want===2?'𝄪':(want===-2?'𝄫':'♮'))))+'</text>';accState[key]=want;}
-              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+'" data-ev="1"/>';
+              svg+='<ellipse cx="'+hx+'" cy="'+cy+'" rx="'+(SP*.62)+'" ry="'+(SP*.45)+'" transform="rotate(-20 '+hx+' '+cy+')" class="nh'+(hol?' hol':'')+(q.out?' out':'')+'" data-ev="1"/>';
               if(e.dot)svg+='<circle cx="'+(ex+SP*1.15)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>'+(e.dot==='dd'?'<circle cx="'+(ex+SP*1.6)+'" cy="'+(cy-(q.s%2===0?SP*.25:0))+'" r="1.6" class="dot"/>':'');});
             if(e.base!=='w'){const lo=N[0],hi=N[N.length-1],sx=up?ex+SP*.58:ex-SP*.58,y1=up?ey0-lo.s*SP/2:ey0-hi.s*SP/2,y2=up?ey0-hi.s*SP/2-SP*3.2:ey0-lo.s*SP/2+SP*3.2;
               svg+='<line x1="'+sx+'" x2="'+sx+'" y1="'+y1+'" y2="'+y2+'" class="stem"/>';
               const fl={e:1,s:2,t:3}[e.base]||0;for(let k=0;k<fl;k++){const fy=y2+(up?k*SP*.75:-k*SP*.75);svg+='<path d="M'+sx+','+fy+' q'+(SP*.8)+','+(up?SP*.7:-SP*.7)+' '+(SP*.45)+','+(up?SP*1.8:-SP*1.8)+'" class="flag"/>';}
               if(e.trem)for(let k=0;k<3;k++){const ty=(y1+y2)/2+(k-1)*SP*.55;svg+='<line x1="'+(sx-SP*.6)+'" x2="'+(sx+SP*.6)+'" y1="'+(ty+SP*.25)+'" y2="'+(ty-SP*.25)+'" class="trem"/>';}
-              if(e.tri)svg+='<text x="'+ex+'" y="'+(up?y2-3:y2+11)+'" class="tri">3</text>';}
+              if(e.tri||e.tup)svg+='<text x="'+ex+'" y="'+(up?y2-3:y2+11)+'" class="tri">'+(e.tup||3)+'</text>';}
             if(e.arp)svg+='<path d="M'+(ex-SP*1.4)+','+(ey0-N[N.length-1].s*SP/2-SP*.6)+' l0,'+((N[N.length-1].s-N[0].s)*SP/2+SP*1.2)+'" class="arp"/>';
             if(e.ferm)svg+='<text x="'+ex+'" y="'+(t-SP*.6)+'" class="ferm">𝄐</text>';
             if(e.tie)svg+='<path d="M'+(ex+SP*.8)+','+(ey0-N[0].s*SP/2+(up?SP*.9:-SP*.9))+' q'+(SP*1.6)+','+(up?SP*1.1:-SP*1.1)+' '+(SP*3.2)+',0" class="tie"/>';
@@ -108,9 +108,9 @@ function drawScore(){const W=ST.W,M=ST.M,box=$('#score');const real=Math.max(300
   box.querySelectorAll('[data-doubt]').forEach(function(q){q.addEventListener('click',function(ev){ev.stopPropagation();const m=ST.M[+q.dataset.doubt];toast('Mesure '+m.n+' — à vérifier : '+m.doubt);});});
   box.querySelectorAll('.mzone').forEach(function(z){z.addEventListener('click',function(){const i=+z.dataset.m;if(ST.loopSel!=null){const a=Math.min(ST.loopSel,i),b=Math.max(ST.loopSel,i);ST.loop=[a,b];ST.loopSel=null;toast('🔁 Boucle mesures '+(a+1)+' → '+(b+1));markLoop();return;}seek(i);});});
   markLoop();}
-function clefOf(P,m,ks){if(P.kind==='voice')return ST.voiceClef&&ST.voiceClef[P.id]||P.clef||'G';return P.id==='lh'?'F':'G';}
+function clefOf(P,m,ks){if(P.kind==='voice')return ST.voiceClef&&ST.voiceClef[P.id]||P.clef||'G';return P.clef||(P.id==='lh'?'F':'G');}
 /* hauteur écrite affichée : transposition + octave du chant si on passe en clé de fa */
-function spellTr(n,P,ks){let midi=n.midi+ST.tr;if(P.kind==='voice'&&clefOf(P,null,ks)==='F')midi-=12;return spell(midi,ks);}
+function spellTr(n,P,ks){let midi=n.midi+ST.tr;if(P.kind==='voice'&&clefOf(P,null,ks)!==(P.clef||'G'))midi+=(P.oct||0);return spell(midi,ks);}
 function clefSVG(cl,x,t,oct8){if(cl==='F')return '<text x="'+x+'" y="'+(t+SP*3.1)+'" class="clef f">𝄢</text>';return '<text x="'+x+'" y="'+(t+SP*4.1)+'" class="clef">𝄞</text>'+(oct8?'<text x="'+(x+SP*1.1)+'" y="'+(t+SP*6.4)+'" class="o8">8</text>':'');}
 function ksSVG(KM,ks,cl,x,t){const out=[];const ST_={'♯':{F:8,C:5,G:9,D:6,A:3,E:7,B:4},'♭':{B:4,E:7,A:3,D:6,G:2,C:5,F:1}};const sym=ks>0?'♯':'♭',ord=(ks>0?'FCGDAEB':'BEADGCF').slice(0,Math.abs(ks));
   for(let k=0;k<ord.length;k++){const st=ST_[sym][ord[k]]-(cl==='F'?2:0);out.push('<text x="'+(x+k*SP*.9)+'" y="'+(t+SP*4-st*SP/2+SP*.45)+'" class="acc">'+sym+'</text>');}return out;}
@@ -162,7 +162,7 @@ function play(){if(PLAY){stop();return;}const A=ac();const M=ST.M;const from=ST.
       /* point d'orgue : on attend que tu touches l'écran */
       if(ev.e.ferm&&ST.wait&&ev.m<=to&&!ev.e.grace){const hb=ev.beat+ev.d;if(PLAY.hold==null||hb>PLAY.hold)PLAY.hold=hb;}
       scheduleUI(ev,t);}
-    if(PLAY.k>=EV.length&&now>beatToTime(M[to].t0+M[to].len)){if(ST.loop){stop(true);play();}else stop();}};
+    if(PLAY.k>=EV.length&&now>beatToTime(M[to].t0+M[to].len)){if(ST.loop){stop(true);play();}else{stop();if(typeof onPieceEnd==='function')onPieceEnd();}}};
   PLAY.id=setInterval(tick,40);tick();uiLoop();}
 function resume(){if(!PLAY||!PLAY.waiting)return;const d=AC.currentTime-PLAY.holdT;PLAY.clock.t+=d;PLAY.hold=null;PLAY.waiting=false;$('#wait').classList.remove('on');}
 function stop(keep){$('#wait').classList.remove('on');if(!PLAY)return;clearInterval(PLAY.id);PLAY=null;ST.playing=false;$('#bPlay').textContent='▶';try{MASTER.gain.setTargetAtTime(0,AC.currentTime,.03);setTimeout(function(){MASTER.gain.setTargetAtTime(.8,AC.currentTime,.01);},250);}catch(e){}}
@@ -171,8 +171,8 @@ function uiLoop(){if(!PLAY&&!UIQ.length)return;const now=AC.currentTime;while(UI
 function show(ev){const i=ev.m;if(i!==ST.cur){ST.cur=i;const g=ST.geo[i];const ph=$('#ph');if(g&&ph){ph.setAttribute('y',g.y0);ph.setAttribute('height',g.y1-g.y0);}
     if(g&&$('#follow').classList.contains('on')){const box=$('#scorew');const sc=ST.scale||1,top=g.y0*sc-40;if(top<box.scrollTop||g.y1*sc>box.scrollTop+box.clientHeight)box.scrollTo({top:top,behavior:'smooth'});}$('#mnum').textContent='mesure '+(i+1)+' / '+ST.M.length;}
   const ph=$('#ph');if(ph&&ev.e._x!=null)ph.setAttribute('x',ev.e._x-1.5);
-  if(ev.e.ly&&ev.P.kind==='voice'){$('#lyr').innerHTML=lyLine(i,ev.e);}}
-function lyLine(i,cur){/* la phrase en cours, la syllabe chantée en or */const M=ST.M,P=ST.W.parts.filter(function(p){return p.kind==='voice';})[0];let out=[];
+  if(ev.e.ly&&lyPart()&&ev.P.id===lyPart().id){$('#lyr').innerHTML=lyLine(i,ev.e);}}
+function lyLine(i,cur){/* la phrase en cours, la syllabe chantée en or */const M=ST.M,P=lyPart();if(!P)return '';let out=[];
   for(let k=Math.max(0,i-1);k<=Math.min(M.length-1,i+2);k++)(M[k].parts[P.id][0]||[]).forEach(function(e){if(e.ly)out.push(e===cur?'<b>'+esc(e.ly.replace(/‿/g,' '))+'</b>':esc(e.ly.replace(/‿/g,' ')));});
   return out.join(' ').replace(/- /g,'').replace(/_/g,'');}
 function seek(i){ST.cur=i;const g=ST.geo[i];const ph=$('#ph');if(g&&ph){ph.setAttribute('x',g.x0+4);ph.setAttribute('y',g.y0);ph.setAttribute('height',g.y1-g.y0);}$('#mnum').textContent='mesure '+(i+1)+' / '+ST.M.length;if(PLAY){stop();play();}}
@@ -187,14 +187,14 @@ function render(){const W=ST.W;$('#title').innerHTML='<b>'+esc(W.title)+'</b><sp
 function keyName(ks){const n=KEYS_MAJ[String(ks)]||'?';return {C:'do',G:'sol',D:'ré',A:'la',E:'mi',B:'si',F:'fa'}[n.charAt(0)]+(n.length>1?(n.charAt(1)==='b'?'♭':'♯'):'')+' majeur / '+({C:'la',G:'mi',D:'si',A:'fa♯',E:'do♯',B:'sol♯','F#':'ré♯','C#':'la♯',F:'ré',Bb:'sol',Eb:'do',Ab:'fa',Db:'si♭',Gb:'mi♭',Cb:'la♭'}[n])+' mineur';}
 function library(){$('#lib').innerHTML=WORKS.map(function(W){return '<button class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer)+' — '+esc(W.work)+'</span><small>'+esc(W.voice)+' · '+W.measures.length+' mesures</small></button>';}).join('')+'<div class="wk soon"><b>➕ Bientôt</b><span>Tes airs de basse, des chœurs SATB, des classiques…</span></div>';
   document.querySelectorAll('[data-w]').forEach(function(b){b.onclick=function(){open(b.dataset.w);};});}
-function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);
+function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);ST.tr=LS.get('tr:'+id,0);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.an=null;
   $('#home').style.display='none';$('#app').style.display='';render();}
 document.addEventListener('click',function(e){const b=e.target.closest('[data-mx]');if(b&&b.tagName==='BUTTON'){const id=b.dataset.p,k=b.dataset.mx;const x=ST.mix[id]=ST.mix[id]||{};
-    if(k==='sing')ST.sing=ST.sing===id?null:id;else x[k]=!x[k];LS.set('mix',ST.mix);LS.set('sing',ST.sing);$('#mixer').innerHTML=mixerHTML();}});
-document.addEventListener('input',function(e){const b=e.target;if(b.dataset&&b.dataset.mx==='vol'){const x=ST.mix[b.dataset.p]=ST.mix[b.dataset.p]||{};x.vol=+b.value;LS.set('mix',ST.mix);}});
-window.addEventListener('DOMContentLoaded',function(){library();
+    if(k==='sing')ST.sing=ST.sing===id?null:id;else x[k]=!x[k];LS.set('mix:'+ST.W.id,ST.mix);LS.set('sing:'+ST.W.id,ST.sing);render();$('#mixer').innerHTML=mixerHTML();}});
+document.addEventListener('input',function(e){const b=e.target;if(b.dataset&&b.dataset.mx==='vol'){const x=ST.mix[b.dataset.p]=ST.mix[b.dataset.p]||{};x.vol=+b.value;LS.set('mix:'+ST.W.id,ST.mix);}});
+window.addEventListener('DOMContentLoaded',function(){const boot=function(){library();
   $('#bPlay').onclick=play;$('#bStop').onclick=function(){stop();seek(0);};
-  $('#trm').onclick=function(){ST.tr--;LS.set('tr',ST.tr);render();};$('#trp').onclick=function(){ST.tr++;LS.set('tr',ST.tr);render();};
+  $('#trm').onclick=function(){ST.tr--;LS.set('tr:'+ST.W.id,ST.tr);render();};$('#trp').onclick=function(){ST.tr++;LS.set('tr:'+ST.W.id,ST.tr);render();};
   $('#tm').onclick=function(){ST.tempo=Math.max(40,ST.tempo-10);LS.set('tempo',ST.tempo);render();};$('#tp').onclick=function(){ST.tempo=Math.min(160,ST.tempo+10);LS.set('tempo',ST.tempo);render();};
   $('#bLoop').onclick=function(){if(ST.loop){ST.loop=null;markLoop();toast('Boucle supprimée');return;}ST.loopSel=ST.cur<0?0:ST.cur;toast('🔁 Touche la dernière mesure de la boucle (début : mesure '+(ST.loopSel+1)+')');};
   $('#bWait').onclick=function(){ST.wait=!ST.wait;LS.set('wait',ST.wait);$('#bWait').classList.toggle('on',ST.wait);};
@@ -203,4 +203,5 @@ window.addEventListener('DOMContentLoaded',function(){library();
   $('#wait').onclick=resume;document.addEventListener('keydown',function(e){if(e.code==='Space'&&ST.W){e.preventDefault();if(PLAY&&PLAY.waiting)resume();else play();}});
   $('#bBack').onclick=function(){stop();$('#app').style.display='none';$('#home').style.display='';};
   window.addEventListener('resize',function(){if(ST.W)drawScore();});
-  const last=LS.get('last',null);if(last&&WORKS.some(function(w){return w.id===last;}))open(last);});
+  const last=LS.get('last',null);if(last&&WORKS.some(function(w){return w.id===last;}))open(last);};
+  if(typeof libLoad==='function')libLoad().then(boot,boot);else boot();});
