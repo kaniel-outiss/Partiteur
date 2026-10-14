@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Le partiteur __VER__</title>
+<style>
+:root{--bg:#14110f;--bg2:#1e1a17;--card:#262019;--or:#E8B04B;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf6ec;--line:#3a322a;--rouge:#e06a5a}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+button{font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:7px 11px;cursor:pointer}
+button.on{background:var(--or);color:var(--ink);border-color:var(--or)}
+#home{max-width:720px;margin:0 auto;padding:22px 16px}
+#home h1{font:600 30px Georgia,serif;margin:6px 0 2px;color:var(--or)}#home .sub{color:var(--dim);margin-bottom:18px}
+#lib{display:grid;gap:10px}
+.wk{display:flex;flex-direction:column;align-items:flex-start;text-align:left;padding:14px 16px;border-radius:14px;background:var(--card)}
+.wk b{font:600 19px Georgia,serif}.wk span{color:var(--dim)}.wk small{color:var(--or);margin-top:4px}.wk.soon{opacity:.55;border-style:dashed}
+#app{display:flex;flex-direction:column;height:100vh;height:100dvh}
+.bar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;background:var(--bg2);border-bottom:1px solid var(--line)}
+.grp{display:flex;align-items:center;gap:4px;padding:2px 6px;border-radius:10px;background:#00000030}
+.grp label{color:var(--dim);font-size:12px;margin-right:2px}.grp output{min-width:42px;text-align:center;font-variant-numeric:tabular-nums}
+#bPlay{font-size:20px;min-width:52px;background:var(--or);color:var(--ink);border-color:var(--or)}
+#keyname{color:var(--dim);font-size:12px}#mnum{margin-left:auto;color:var(--dim);font-size:12px}
+#title{padding:8px 14px 2px}#title b{font:600 20px Georgia,serif;color:var(--or);display:block}#title span{color:var(--dim);font-size:13px}
+#mixer{display:flex;flex-wrap:wrap;gap:6px;padding:6px 10px}
+.mx{display:flex;align-items:center;gap:4px;background:var(--card);border-radius:10px;padding:3px 6px}.mx button{padding:3px 7px;font-size:13px}.mx input{width:70px;accent-color:var(--or)}
+.mxn{font-size:13px;margin-right:2px}
+#lyr{min-height:34px;padding:4px 14px;font:18px Georgia,serif;color:var(--dim)}#lyr .cur{color:var(--or);font-weight:600}
+#scorew{flex:1;overflow:auto;background:var(--paper);border-radius:12px 12px 0 0;margin:0 6px;position:relative}
+#score{padding:4px}#score svg{display:block}
+svg .sl{stroke:#2b241c;stroke-width:1}svg .bl{stroke:#2b241c;stroke-width:1.2}svg .brace{fill:none;stroke:#2b241c;stroke-width:2.4}
+svg .clef{font:38px "Noto Music","Bravura",serif;fill:var(--ink)}svg .clef.f{font-size:30px}
+svg .o8{font:italic 10px serif;fill:var(--ink)}svg .acc{font:17px serif;fill:var(--ink)}svg .ts{font:bold 19px Georgia,serif;fill:var(--ink)}
+svg .mk{font:italic 12px Georgia,serif;fill:#6b4a1a}svg .dq{font:bold 12px sans-serif;fill:var(--rouge);opacity:.5;cursor:pointer}svg .dq:hover{opacity:1}
+svg .pn{font:600 11px sans-serif;fill:#7a6e60}svg .mn{font:10px sans-serif;fill:#9a8d7c}
+svg .nh{fill:var(--ink)}svg .nh.hol{fill:none;stroke:var(--ink);stroke-width:1.5}svg .nh.gr{opacity:.85}
+svg .dot{fill:var(--ink)}svg .stem{stroke:var(--ink);stroke-width:1.2}svg .stem.gr{stroke-width:.9}
+svg .flag{fill:none;stroke:var(--ink);stroke-width:1.6}svg .trem{stroke:var(--ink);stroke-width:2.6}
+svg .tri{font:italic bold 10px serif;fill:var(--ink)}svg .arp{fill:none;stroke:var(--ink);stroke-width:1.1}
+svg .ferm{font:16px serif;fill:var(--ink)}svg .tie{fill:none;stroke:var(--ink);stroke-width:1.1}
+svg .ly{font:13px Georgia,serif;fill:#3a2d1c}svg .rest{font:20px serif;fill:var(--ink)}svg .restg{fill:var(--ink)}
+svg .mzone{fill:transparent;cursor:pointer}svg .mzone:hover{fill:#e8b04b18}svg .mzone.inloop{fill:#e8b04b30}
+svg #ph{fill:#e8b04b55;pointer-events:none;transition:x .08s linear}
+#toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(30px);opacity:0;background:#000d;color:#fff;padding:10px 16px;border-radius:12px;max-width:92vw;transition:.25s;pointer-events:none;z-index:9}
+#toast.on{opacity:1;transform:translateX(-50%)}
+#wait{position:fixed;inset:auto 0 0 0;margin:auto;bottom:70px;width:max-content;max-width:90vw;display:none;background:var(--or);color:var(--ink);font-weight:600;font-size:17px;padding:14px 22px;border-radius:30px;box-shadow:0 6px 24px #0008;z-index:8;animation:pul 1.4s ease-in-out infinite}
+#wait.on{display:block}@keyframes pul{50%{transform:scale(1.05)}}
+@media (max-width:640px){.lb{display:none}.bar{gap:4px;padding:6px}.bar button{padding:5px 8px;font-size:14px}#bPlay{min-width:44px;font-size:18px}
+.grp label{display:none}.grp output{min-width:30px;font-size:14px}#keyname{font-size:11px;max-width:84px;line-height:1.1}#mnum{width:100%;text-align:right;margin-top:-2px}
+#title{padding:6px 10px 0}#title b{font-size:17px}#title span{font-size:12px}#mixer{padding:4px 8px;gap:4px}.mx{padding:2px 4px}.mx input{width:44px}.mxn{font-size:12px}#lyr{font-size:16px;min-height:26px}}
+</style></head><body>
+<div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div><div id="lib"></div></div>
+<div id="app" style="display:none">
+ <div class="bar">
+  <button id="bBack" title="Bibliothèque">←</button>
+  <button id="bPlay" title="Lecture (espace)">▶</button><button id="bStop" title="Retour au début">⏮</button>
+  <div class="grp"><label>Ton</label><button id="trm">−</button><output id="tr">0</output><button id="trp">+</button><span id="keyname"></span></div>
+  <div class="grp"><label>Tempo</label><button id="tm">−</button><output id="tmp">100 %</output><button id="tp">+</button></div>
+  <button id="bLoop" title="Boucle">🔁</button><button id="bWait" title="Attendre aux points d’orgue">𝄐<span class="lb"> attendre</span></button>
+  <button id="follow" class="on" title="Suivre la lecture">👁<span class="lb"> suivre</span></button><button id="bClef" title="Clé du chant">𝄞/𝄢</button>
+  <span id="mnum"></span>
+ </div>
+ <div id="title"></div><div id="mixer"></div><div id="lyr"></div>
+ <div id="scorew"><div id="score"></div></div>
+</div>
+<button id="wait">𝄐 Point d’orgue — touche pour continuer</button>
+<div id="toast"></div>
+<script>
+const WORKS=__WORKS__;
+</script>
+<script>
+__APP__
+</script>
+</body></html>

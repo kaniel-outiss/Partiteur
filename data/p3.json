@@ -1,0 +1,153 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "3/4",
+   "tempo": "Lo stesso movimento",
+   "marks": [
+    "Lo stesso movimento",
+    "p"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "r r3 G5+D6e3 Bb5+F6e3 G5+D6e3 F5+Bb5e3",
+   "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+D4+F4+Bb4",
+   "doubt": "MG en clé de SOL (accord do-ré-fa-sib avec seconde do/ré décalée). MD : 1er triolet = soupir de triolet + croche ; accords lus à partir des lignes supplémentaires (sol5+ré6, sib5+fa6, sol5+ré6, fa5+sib5)."
+  },
+  {
+   "v": "Bb4 Bb4e Bb4e Bb4e Bb4e",
+   "ly": "L'ar- te nel suo mi-",
+   "rh": "D5+G5dd E5+A5s F5+Bb5s G5+C6s F5+Bb5s E5+A5s",
+   "lh": "C4+D4+F4+Bb4 C4+D4+F4+Bb4 C4+D4+F4+Bb4",
+   "doubt": "Noire doublement pointée (deux paires de points) suivie d'une double croche isolée puis 4 doubles croches liées."
+  },
+  {
+   "v": "Bb4 Bb4 re A4s A4s",
+   "ly": "ste- ro le di-",
+   "rh": "gBb5 E5+A5s D5+G5s gA5 D5+G5s C5+F5s D5+G5 A4+C#5+E5+A5!",
+   "lh": "C4+D4+F4+Bb4 Bb3+D4+G4 A3+C#4+E4+G4!",
+   "doubt": "Petites notes barrées (acciacatures) sib5 et la5. Accords arpégés au 3e temps (do# aux deux mains). Changement de clé MG -> FA à la fin de la mesure."
+  },
+  {
+   "v": "A4e A4s A4s A4e A4e A4e Bb4e",
+   "ly": "ver- se bel- lez- ze insiem con-",
+   "rh": "A4+D5+A5e A4+D5+F5e F4+A4+D5e re D4+F4+A4e D4+F4+Bb4e",
+   "lh": "D3+A3+F4!~ D3+A3+F4e re C2+C3e Bb1+Bb2e",
+   "doubt": "Paroles imprimées « bel-lezze insiem con- » : « insiem » est imprimé sous UNE seule note (pas « in-sie-me »). Bécarres de précaution sur les do (C2/C3) de la MG. Accords MD piqués."
+  },
+  {
+   "marks": [
+    "rall.",
+    "col canto"
+   ],
+   "v": "C5 C5 D5",
+   "ly": "fon- de: ma",
+   "rh": "C4+F4+C5e C4+F4+A4e A3+C4+F4e re D4+F4+Bb4+D5e re",
+   "lh": "A1+A2e re r G1+G2s A1+A2s Bb1+Bb2s D2+D3s",
+   "doubt": "Signe de respiration (V) dans le chant avant « ma ». Un trait oblique « / » imprimé dans la portée MG entre le soupir et les doubles croches (sens incertain, ignoré). Octaves graves lues aux lignes supplémentaires (sol1, la1, sib1, ré2)."
+  },
+  {
+   "meter": "6/8",
+   "tempo": "I. Tempo",
+   "marks": [
+    "I. Tempo",
+    "p"
+   ],
+   "v": "F5 F5e F5 F5e",
+   "ly": "nel ri- trar co-",
+   "rh": "F5+A5+F6hd* // gF3 F4 gG3 G4e gA3 A4 gC4 C5e",
+   "lh": "gC2+gC3 C2+C3hd~",
+   "doubt": "MD haut : trémolo ALTERNÉ (3 barres) entre l'accord la5+fa6 et fa5, blanches pointées -> codé en un seul accord F5+A5+F6hd*. Voix inférieure : chaque note précédée d'une acciacature à l'octave inférieure. MG : petites notes do2 et do3 (même hauteur que la note réelle) avant l'octave do2+do3 ; accolade reliant les deux portées."
+  },
+  {
+   "v": "E5d E5 re",
+   "ly": "ste- i...",
+   "rh": "E5+G5+Bb5+E6hd* // gD4 gBb4 D5d C5d",
+   "lh": "C2+C3d~ C2+C3~ C2+C3e~",
+   "doubt": "MD haut : trémolo alterné (3 barres) entre sol5+sib5+mi6 et mi5 -> codé en un accord hd*. Voix inf. : deux petites notes ré4-sib4 (liées, barrées) avant ré5 ; pas de petite note devant do5. MG : pédale de do liée."
+  },
+  {
+   "v": "re F5e F5e F5e D5e F5e",
+   "ly": "il mio so- lo pen-",
+   "rh": "re F5+A5+F6e F5+F6e F5+F6e D5+D6e F5+A5+F6e // gF3 F4 gG3 G4e gA3 A4 gC4 C5e",
+   "lh": "C2+C3hd~",
+   "doubt": "Accords MD avec tenutos. Voix inférieure : acciacatures à l'octave inférieure (fa3, sol3, la3, do4) comme mes. 6. Liaison de phrasé so-lo (pas une liaison de tenue)."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "E5d E5d",
+   "ly": "sie- ro,",
+   "rh": "E5+G5+Bb5+E6hd* // gD4 D5d gC4 C5d",
+   "lh": "C2+C3d~ C2+C3~ C2+C3e~",
+   "doubt": "MD haut : trémolo alterné (3 barres) sol5+sib5+mi6 / mi5 codé en accord hd*. Ici une seule petite note (ré4) devant ré5, et do4 devant do5. « f » + accent sur la dernière croche de la MG."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "A5 C5e G5 C5e",
+   "ly": "ah!‿il mio sol pen-",
+   "rh": "A5+F6+A6 C5+C6e G5+D6+G6 C5+C6e",
+   "lh": "C4+F4+A4d* D4+E4+G4* C4+E4t G4t C4+E4t G4t // C2+C3d gBb1+gBb2 Bb1+Bb2d",
+   "doubt": "Chant : « ah! il » imprimé sous une seule note (la5) -> élision « ah!‿il ». MG haut : trémolos alternés (4 puis 3 barres) do4+fa4/la4 (noires pointées) et ré4+mi4/sol4 (noires) codés en accords *, puis 4 triples croches réelles (do4+mi4, sol4, do4+mi4, sol4). Seconde ré4/mi4 décalée (lue ré4+mi4, pourrait être do4+mi4). Petites notes sib1/sib2 de même hauteur."
+  },
+  {
+   "v": "F5 A4e C5d",
+   "ly": "sier sei tu!",
+   "rh": "F5+A5+F6 A4+A5e C5+E5+C6d",
+   "lh": "A3+D4+F4d* A3+C4+E4+F4d* // gD2+gD3 D2+D3d gA1+gA2 A1+A2d",
+   "doubt": "Chant : liaison en pointillés (portamento) fa5 -> la4 ; point de do5 partiellement masqué par la liaison pointillée. Trait vertical (barre) dans la portée du chant après « tu! » sans barre correspondante au piano — interprété comme césure. MG haut : trémolos alternés la3+ré4/fa4 et la3+do4+mi4/fa4 (4 barres) codés en accords *."
+  },
+  {
+   "marks": [
+    "allarg.",
+    "rit.",
+    "col canto"
+   ],
+   "v": "D5ed Bb5ed gG5 gA5 G5 F5e",
+   "ly": "To- _ sca, sei",
+   "rh": "D5+F5+D6ed Bb5+D6+F6+Bb6ed G5+Bb5+D6+G6e re re",
+   "lh": "Bb1+Bb2ed G1+G2ed C2+C3e re re",
+   "doubt": "Duolets notés « 2 » (chant, MD, MG) codés en deux croches pointées. Chant : sib5 = mélisme sur « To- » ; deux petites notes (doubles croches) sol5-la5 avant « sca ». Accents sur tous les accords. « allarg. » au chant et au piano, « rit. » au chant."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F5e re re r re",
+   "ly": "tu!",
+   "rh": "A5+C6+F6d~ A5+C6+F6e re re // F5hd~",
+   "lh": "F2 C3e F3e A3e C4e // F1hd~",
+   "doubt": "MD : fa5 blanche pointée (voix inf.) liée à la mesure suivante. MG : fa1 blanche pointée (voix inf.) liée."
+  },
+  {
+   "marks": [
+    "ppp"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5e re A4e C5e F5e G5e",
+   "lh": "F4 re r re // F1+F3d~ F1e re re",
+   "doubt": "Pause (mesure entière) au chant. MG : fa4 (noire, hampe en haut) puis silences ; fa3 rattaché à la hampe descendante de fa1 (point visible seulement sur fa1)."
+  },
+  {
+   "marks": [
+    "dolciss."
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb5hd~ // r re A3+F4d",
+   "lh": "r re F2+C3d",
+   "doubt": "Longue liaison sib5 (mes. 15) -> sib5 (mes. 16) interprétée comme liaison de tenue (pourrait être une liaison de phrasé). Voix inf. MD la3+fa4 sous la portée."
+  },
+  {
+   "v": "rhd^",
+   "ly": "",
+   "rh": "Bb5d^~ Bb5 re // A3+F4d^~ A3+F4 re",
+   "lh": "F2+C3d^~ F2+C3 re",
+   "doubt": "Points d'orgue sur la pause du chant et sur les premiers accords (MD haut, MD bas, MG). Double barre finale."
+  }
+ ]
+}
