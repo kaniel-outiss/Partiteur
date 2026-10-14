@@ -124,7 +124,7 @@ function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('on');clea
 function markLoop(){document.querySelectorAll('.mzone').forEach(function(z){const i=+z.dataset.m;z.classList.toggle('inloop',!!(ST.loop&&i>=ST.loop[0]&&i<=ST.loop[1]));});$('#bLoop').classList.toggle('on',!!ST.loop);}
 /* ── son : piano (corde frappée) et voix (« a » chanté, formants + vibrato) ── */
 let AC=null,MASTER=null;
-function ac(){if(!AC){AC=new (window.AudioContext||window.webkitAudioContext)();MASTER=AC.createGain();MASTER.gain.value=.8;const comp=AC.createDynamicsCompressor();MASTER.connect(comp);comp.connect(AC.destination);}if(AC.state==='suspended')AC.resume();return AC;}
+function ac(){if(!AC){AC=new (window.AudioContext||window.webkitAudioContext)();MASTER=AC.createGain();MASTER.gain.value=.8;const comp=AC.createDynamicsCompressor();MASTER.connect(comp);comp.connect(AC.destination);}if(AC.state==='suspended'&&!AC.startRendering)AC.resume();return AC;}
 function hz(m){return 440*Math.pow(2,(m-69)/12);}
 function pianoNote(m,t,dur,vol){const A=ac(),f=hz(m);const g=A.createGain();g.connect(MASTER);const v=(vol||.5)*(m>84?.6:1)*.22;
   [[1,1],[2,.35],[3,.12],[4,.06]].forEach(function(h){const o=A.createOscillator();o.type=h[0]===1?'triangle':'sine';o.frequency.value=f*h[0]*(1+(h[0]-1)*.0007);const gg=A.createGain();gg.gain.value=h[1];o.connect(gg);gg.connect(g);o.start(t);o.stop(t+dur+1.6);});
