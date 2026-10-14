@@ -190,7 +190,7 @@ function render(){const W=ST.W;$('#title').innerHTML='<b>'+esc(W.title)+'</b><sp
 function keyName(ks){const n=KEYS_MAJ[String(ks)]||'?';return {C:'do',G:'sol',D:'ré',A:'la',E:'mi',B:'si',F:'fa'}[n.charAt(0)]+(n.length>1?(n.charAt(1)==='b'?'♭':'♯'):'')+' majeur / '+({C:'la',G:'mi',D:'si',A:'fa♯',E:'do♯',B:'sol♯','F#':'ré♯','C#':'la♯',F:'ré',Bb:'sol',Eb:'do',Ab:'fa',Db:'si♭',Gb:'mi♭',Cb:'la♭'}[n])+' mineur';}
 function library(){$('#lib').innerHTML=WORKS.map(function(W){return '<button class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer)+' — '+esc(W.work)+'</span><small>'+esc(W.voice)+' · '+W.measures.length+' mesures</small></button>';}).join('')+'<div class="wk soon"><b>➕ Bientôt</b><span>Tes airs de basse, des chœurs SATB, des classiques…</span></div>';
   document.querySelectorAll('[data-w]').forEach(function(b){b.onclick=function(){open(b.dataset.w);};});}
-function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);ST.tr=LS.get('tr:'+id,0);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.an=null;
+function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);ST.tr=LS.get('tr:'+id,0);ST.tempo=LS.get('tempo:'+id,100);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.an=null;
   $('#home').style.display='none';$('#app').style.display='';render();}
 document.addEventListener('click',function(e){const b=e.target.closest('[data-mx]');if(b&&b.tagName==='BUTTON'){const id=b.dataset.p,k=b.dataset.mx;const x=ST.mix[id]=ST.mix[id]||{};
     if(k==='sing')ST.sing=ST.sing===id?null:id;else x[k]=!x[k];LS.set('mix:'+ST.W.id,ST.mix);LS.set('sing:'+ST.W.id,ST.sing);render();$('#mixer').innerHTML=mixerHTML();}});
@@ -198,7 +198,7 @@ document.addEventListener('input',function(e){const b=e.target;if(b.dataset&&b.d
 window.addEventListener('DOMContentLoaded',function(){const boot=function(){library();
   $('#bPlay').onclick=play;$('#bStop').onclick=function(){stop();seek(0);};
   $('#trm').onclick=function(){ST.tr--;LS.set('tr:'+ST.W.id,ST.tr);render();};$('#trp').onclick=function(){ST.tr++;LS.set('tr:'+ST.W.id,ST.tr);render();};
-  $('#tm').onclick=function(){ST.tempo=Math.max(40,ST.tempo-10);LS.set('tempo',ST.tempo);render();};$('#tp').onclick=function(){ST.tempo=Math.min(160,ST.tempo+10);LS.set('tempo',ST.tempo);render();};
+  $('#tm').onclick=function(){ST.tempo=Math.max(40,ST.tempo-10);LS.set('tempo:'+ST.W.id,ST.tempo);render();};$('#tp').onclick=function(){ST.tempo=Math.min(160,ST.tempo+10);LS.set('tempo:'+ST.W.id,ST.tempo);render();};
   $('#bLoop').onclick=function(){if(ST.loop){ST.loop=null;markLoop();toast('Boucle supprimée');return;}ST.loopSel=ST.cur<0?0:ST.cur;toast('🔁 Touche la dernière mesure de la boucle (début : mesure '+(ST.loopSel+1)+')');};
   $('#bWait').onclick=function(){ST.wait=!ST.wait;LS.set('wait',ST.wait);$('#bWait').classList.toggle('on',ST.wait);};
   $('#follow').onclick=function(){this.classList.toggle('on');};

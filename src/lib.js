@@ -38,7 +38,7 @@ const STYLES=['Air d’opéra','Oratorio','Messe','Motet','Cantique','Negro spir
 const PERIODS=['Renaissance','Baroque','Classique','Romantique','Post-romantique','XXᵉ siècle','Traditionnel'];
 function wkCard(W){const an=anOf(W),b=anBadge(an,LS.get('tr:'+W.id,0));
   return '<div class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer||'?')+(W.work?' — '+esc(W.work):'')+'</span>'
-    +'<small>'+[W.style,W.period,W.voice].filter(Boolean).map(esc).join(' · ')+' · '+W.measures.length+' mes.</small>'
+    +'<small>'+[W.style,W.period,W.voice].filter(Boolean).map(esc).join(' · ')+' · '+W.measures.length+' mes.'+(prefTxt(W.id)?' · <b class="pref">'+prefTxt(W.id)+'</b>':'')+'</small>'
     +(an?'<div class="amb">'+esc(an.pname)+' : '+pName(an.lo)+'–'+pName(an.hi)+' <i>(tessiture '+pName(an.tlo)+'–'+pName(an.thi)+')</i> <em class="vb '+b.cls+'">'+b.txt+'</em></div>':'')
     +(W.imported?'<button class="wdel" data-del="'+W.id+'" title="Supprimer">🗑</button>':'')+'</div>';}
 library=function(){const v=myVoice();
@@ -89,6 +89,9 @@ document.addEventListener('click',function(e){const a=e.target.closest('[data-ad
 
 /* — 🎭 programmes — */
 function progs(){return LS.get('progs',[]);}
+/* ton et tempo d'une pièce dans un programme : ceux du programme s'ils ont été changés, sinon les préférés de l'œuvre */
+function itTr(it){return it.tr!=null?it.tr:LS.get('tr:'+it.w,0);}function itTempo(it){return it.tempo!=null?it.tempo:LS.get('tempo:'+it.w,100);}
+function prefTxt(id){const t=LS.get('tr:'+id,0),v=LS.get('tempo:'+id,100);return (t||v!==100)?'★ '+(t?(t>0?'+':'')+t+' ':'')+(v!==100?v+' %':''):'';}
 function progSave(a){LS.set('progs',a);}
 function wById(id){return WORKS.filter(function(x){return x.id===id;})[0];}
 function progList(){const el=$('#progs');if(!el)return;const P=progs();
@@ -98,14 +101,15 @@ function progList(){const el=$('#progs');if(!el)return;const P=progs();
 function progEdit(pi){const A=progs();const p=A[pi];
   const draw=function(){dlg('<h2>🎭 Programme</h2><label>Nom<input id="pName" value="'+esc(p.name)+'"></label>'
     +'<div class="pil">'+p.items.map(function(it,i){const W=wById(it.w);return '<div class="pit"><span class="pno">'+(i+1)+'</span><b>'+(W?esc(W.title):'?')+'</b>'
-      +'<span class="ptr"><button data-it="tr-" data-i="'+i+'">−</button>'+(it.tr>0?'+':'')+it.tr+'<button data-it="tr+" data-i="'+i+'">+</button></span>'
+      +'<span class="ptr" title="Ton"><button data-it="tr-" data-i="'+i+'">−</button>'+(itTr(it)>0?'+':'')+itTr(it)+'<button data-it="tr+" data-i="'+i+'">+</button></span>'
+      +'<span class="ptr" title="Tempo"><button data-it="tp-" data-i="'+i+'">−</button>'+itTempo(it)+'%<button data-it="tp+" data-i="'+i+'">+</button></span>'+((it.tr!=null||it.tempo!=null)?'<button data-it="pref" data-i="'+i+'" title="Revenir aux préférences de l’œuvre">★</button>':'')
       +'<button data-it="up" data-i="'+i+'">↑</button><button data-it="dn" data-i="'+i+'">↓</button><button data-it="x" data-i="'+i+'">✕</button></div>';}).join('')+'</div>'
     +'<label>Ajouter<select id="pAdd"><option value="">— choisir une pièce —</option>'+WORKS.map(function(W){return '<option value="'+W.id+'">'+esc(W.title)+' — '+esc(W.composer||'')+'</option>';}).join('')+'</select></label>'
     +'<div class="row"><button id="pok" class="pri">Enregistrer</button><button id="pdel">Supprimer le programme</button><button data-close="1">Fermer</button></div>');
     $('#pName').oninput=function(){p.name=this.value;};
-    $('#pAdd').onchange=function(){if(this.value){p.items.push({w:this.value,tr:LS.get('tr:'+this.value,0)});draw();}};
+    $('#pAdd').onchange=function(){if(this.value){p.items.push({w:this.value});draw();}};
     $('#dlg').querySelectorAll('[data-it]').forEach(function(b){b.onclick=function(){const i=+b.dataset.i,k=b.dataset.it,a=p.items;
-      if(k==='tr-')a[i].tr--;if(k==='tr+')a[i].tr++;if(k==='up'&&i>0){const t=a[i];a[i]=a[i-1];a[i-1]=t;}if(k==='dn'&&i<a.length-1){const t=a[i];a[i]=a[i+1];a[i+1]=t;}if(k==='x')a.splice(i,1);draw();};});
+      if(k==='tr-')a[i].tr=itTr(a[i])-1;if(k==='tr+')a[i].tr=itTr(a[i])+1;if(k==='tp-')a[i].tempo=Math.max(40,itTempo(a[i])-5);if(k==='tp+')a[i].tempo=Math.min(160,itTempo(a[i])+5);if(k==='pref'){delete a[i].tr;delete a[i].tempo;}if(k==='up'&&i>0){const t=a[i];a[i]=a[i-1];a[i-1]=t;}if(k==='dn'&&i<a.length-1){const t=a[i];a[i]=a[i+1];a[i+1]=t;}if(k==='x')a.splice(i,1);draw();};});
     $('#pok').onclick=function(){A[pi]=p;progSave(A);dlgClose();progList();};
     $('#pdel').onclick=function(){if(confirm('Supprimer « '+p.name+' » ?')){A.splice(pi,1);progSave(A);dlgClose();progList();}};};
   draw();}
@@ -114,11 +118,11 @@ document.addEventListener('click',function(e){
   const pe=e.target.closest('[data-pe]');if(pe){progEdit(+pe.dataset.pe);return;}
   const pc=e.target.closest('[data-pc]');if(pc){concertStart(+pc.dataset.pc,0);return;}
   if(e.target.closest('#bProg')){const A=progs();if(!ST.W)return;
-    dlg('<h2>➕ Ajouter « '+esc(ST.W.title)+' »</h2><div class="hint">Avec la transposition actuelle ('+(ST.tr>0?'+':'')+ST.tr+').</div>'
+    dlg('<h2>➕ Ajouter « '+esc(ST.W.title)+' »</h2><div class="hint">Avec ton ton et ton tempo préférés pour cette œuvre ('+(ST.tr>0?'+':'')+ST.tr+' · '+ST.tempo+' %) — tu pourras les changer pour ce programme seulement.</div>'
       +A.map(function(p,i){return '<button class="pgb" data-pa="'+i+'">🎭 '+esc(p.name)+' <small>('+p.items.length+')</small></button>';}).join('')
       +'<button class="pgb" data-pa="new">➕ Nouveau programme</button><div class="row"><button data-close="1">Annuler</button></div>');
     $('#dlg').querySelectorAll('[data-pa]').forEach(function(b){b.onclick=function(){const A2=progs();let i=b.dataset.pa;if(i==='new'){A2.push({name:'Programme '+(A2.length+1),items:[]});i=A2.length-1;}else i=+i;
-      A2[i].items.push({w:ST.W.id,tr:ST.tr});progSave(A2);dlgClose();toast('🎭 Ajouté à « '+A2[i].name+' » ('+A2[i].items.length+'ᵉ pièce)');};});}
+      A2[i].items.push({w:ST.W.id});progSave(A2);dlgClose();toast('🎭 Ajouté à « '+A2[i].name+' » ('+A2[i].items.length+'ᵉ pièce)');};});}
   if(e.target.closest('#vme'))voiceDlg();
   if(e.target.closest('#bMeta')&&ST.W){metaDlg(ST.W,false);}
 });
@@ -126,7 +130,7 @@ document.addEventListener('click',function(e){
 /* — mode concert — */
 let CONC=null;
 function concertStart(pi,i){const p=progs()[pi];if(!p||!p.items[i])return;const it=p.items[i];if(!wById(it.w)){toast('Pièce introuvable');return;}
-  CONC={pi:pi,i:i,p:p,pending:false};document.body.classList.add('concert');stop();open(it.w);ST.tr=it.tr;render();seek(0);concBar();
+  CONC={pi:pi,i:i,p:p,pending:false};document.body.classList.add('concert');stop();open(it.w);ST.tr=itTr(it);ST.tempo=itTempo(it);render();seek(0);concBar();
   const ph=$('#scorew');if(ph)ph.scrollTop=0;}
 function concBar(){const c=$('#conc');if(!CONC){c.innerHTML='';return;}const p=CONC.p,n=p.items[CONC.i+1],W=n&&wById(n.w);
   c.innerHTML='<b>🎭 '+esc(p.name)+'</b><span>'+(CONC.i+1)+' / '+p.items.length+'</span><button data-cg="-1"'+(CONC.i?'':' disabled')+'>⏮</button><button data-cg="1"'+(n?'':' disabled')+'>⏭</button>'
@@ -140,6 +144,6 @@ document.addEventListener('click',function(e){
   if(e.target.closest('#wait')&&CONC&&CONC.pending){e.stopPropagation();const w=$('#wait');w.classList.remove('on');w.textContent='𝄐 Point d’orgue — touche pour continuer';
     if(CONC.pending==='end'){concertEnd();return;}concertStart(CONC.pi,CONC.i+1);setTimeout(play,400);}},true);
 const _back=function(){if(CONC)concertEnd();};
-document.addEventListener('click',function(e){if(e.target.closest('#bBack'))_back();},true);
+document.addEventListener('click',function(e){if(e.target.closest('#bBack')){_back();setTimeout(library,0);}},true);
 window.addEventListener('DOMContentLoaded',function(){const f=$('#fimp');f.onchange=function(){if(f.files[0])importFile(f.files[0]);f.value='';};
   $('#bImp').onclick=function(){f.click();};});

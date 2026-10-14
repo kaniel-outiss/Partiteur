@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Le partiteur 0.4</title>
+<title>Le partiteur 0.5</title>
 <style>
 :root{--bg:#14110f;--bg2:#1e1a17;--card:#262019;--or:#E8B04B;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf6ec;--line:#3a322a;--rouge:#e06a5a}
 *{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
@@ -75,9 +75,10 @@ svg .chs{font:600 13px Georgia,serif;fill:#8a3b12}.dbox .big{font:700 44px Georg
 .fl{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.fl select{font:inherit;font-size:13px;padding:6px 8px;border-radius:10px;background:var(--card);color:var(--txt);border:1px solid var(--line);max-width:46vw}.fl select.on{border-color:var(--or);color:var(--or)}.fl button{font-size:13px;padding:6px 10px}
 h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-bottom:1px solid var(--line);padding-bottom:4px}h3.gh small{color:var(--dim);font:12px sans-serif}
 .mx.pup select{font:inherit;font-size:13px;padding:3px 6px;border-radius:8px;background:var(--bg);color:var(--txt);border:1px solid var(--line)}
+.wk small b.pref{color:var(--txt);font-weight:600}
 </style></head><body>
 <div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div>
- <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
+ <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><button onclick="ptSafe.exportFile()" title="Sauvegarder bibliothèque, programmes et réglages">💾</button><button onclick="ptSafe.importFile()" title="Restaurer une sauvegarde">📂</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div></div>
 <div id="app" style="display:none">
@@ -295,7 +296,7 @@ function render(){const W=ST.W;$('#title').innerHTML='<b>'+esc(W.title)+'</b><sp
 function keyName(ks){const n=KEYS_MAJ[String(ks)]||'?';return {C:'do',G:'sol',D:'ré',A:'la',E:'mi',B:'si',F:'fa'}[n.charAt(0)]+(n.length>1?(n.charAt(1)==='b'?'♭':'♯'):'')+' majeur / '+({C:'la',G:'mi',D:'si',A:'fa♯',E:'do♯',B:'sol♯','F#':'ré♯','C#':'la♯',F:'ré',Bb:'sol',Eb:'do',Ab:'fa',Db:'si♭',Gb:'mi♭',Cb:'la♭'}[n])+' mineur';}
 function library(){$('#lib').innerHTML=WORKS.map(function(W){return '<button class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer)+' — '+esc(W.work)+'</span><small>'+esc(W.voice)+' · '+W.measures.length+' mesures</small></button>';}).join('')+'<div class="wk soon"><b>➕ Bientôt</b><span>Tes airs de basse, des chœurs SATB, des classiques…</span></div>';
   document.querySelectorAll('[data-w]').forEach(function(b){b.onclick=function(){open(b.dataset.w);};});}
-function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);ST.tr=LS.get('tr:'+id,0);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.an=null;
+function open(id){const W=WORKS.filter(function(x){return x.id===id;})[0];ST.W=W;ST.M=build(W);ST.cur=-1;ST.loop=null;ST.voiceClef={};LS.set('last',id);ST.tr=LS.get('tr:'+id,0);ST.tempo=LS.get('tempo:'+id,100);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.an=null;
   $('#home').style.display='none';$('#app').style.display='';render();}
 document.addEventListener('click',function(e){const b=e.target.closest('[data-mx]');if(b&&b.tagName==='BUTTON'){const id=b.dataset.p,k=b.dataset.mx;const x=ST.mix[id]=ST.mix[id]||{};
     if(k==='sing')ST.sing=ST.sing===id?null:id;else x[k]=!x[k];LS.set('mix:'+ST.W.id,ST.mix);LS.set('sing:'+ST.W.id,ST.sing);render();$('#mixer').innerHTML=mixerHTML();}});
@@ -303,7 +304,7 @@ document.addEventListener('input',function(e){const b=e.target;if(b.dataset&&b.d
 window.addEventListener('DOMContentLoaded',function(){const boot=function(){library();
   $('#bPlay').onclick=play;$('#bStop').onclick=function(){stop();seek(0);};
   $('#trm').onclick=function(){ST.tr--;LS.set('tr:'+ST.W.id,ST.tr);render();};$('#trp').onclick=function(){ST.tr++;LS.set('tr:'+ST.W.id,ST.tr);render();};
-  $('#tm').onclick=function(){ST.tempo=Math.max(40,ST.tempo-10);LS.set('tempo',ST.tempo);render();};$('#tp').onclick=function(){ST.tempo=Math.min(160,ST.tempo+10);LS.set('tempo',ST.tempo);render();};
+  $('#tm').onclick=function(){ST.tempo=Math.max(40,ST.tempo-10);LS.set('tempo:'+ST.W.id,ST.tempo);render();};$('#tp').onclick=function(){ST.tempo=Math.min(160,ST.tempo+10);LS.set('tempo:'+ST.W.id,ST.tempo);render();};
   $('#bLoop').onclick=function(){if(ST.loop){ST.loop=null;markLoop();toast('Boucle supprimée');return;}ST.loopSel=ST.cur<0?0:ST.cur;toast('🔁 Touche la dernière mesure de la boucle (début : mesure '+(ST.loopSel+1)+')');};
   $('#bWait').onclick=function(){ST.wait=!ST.wait;LS.set('wait',ST.wait);$('#bWait').classList.toggle('on',ST.wait);};
   $('#follow').onclick=function(){this.classList.toggle('on');};
@@ -496,7 +497,7 @@ const STYLES=['Air d’opéra','Oratorio','Messe','Motet','Cantique','Negro spir
 const PERIODS=['Renaissance','Baroque','Classique','Romantique','Post-romantique','XXᵉ siècle','Traditionnel'];
 function wkCard(W){const an=anOf(W),b=anBadge(an,LS.get('tr:'+W.id,0));
   return '<div class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer||'?')+(W.work?' — '+esc(W.work):'')+'</span>'
-    +'<small>'+[W.style,W.period,W.voice].filter(Boolean).map(esc).join(' · ')+' · '+W.measures.length+' mes.</small>'
+    +'<small>'+[W.style,W.period,W.voice].filter(Boolean).map(esc).join(' · ')+' · '+W.measures.length+' mes.'+(prefTxt(W.id)?' · <b class="pref">'+prefTxt(W.id)+'</b>':'')+'</small>'
     +(an?'<div class="amb">'+esc(an.pname)+' : '+pName(an.lo)+'–'+pName(an.hi)+' <i>(tessiture '+pName(an.tlo)+'–'+pName(an.thi)+')</i> <em class="vb '+b.cls+'">'+b.txt+'</em></div>':'')
     +(W.imported?'<button class="wdel" data-del="'+W.id+'" title="Supprimer">🗑</button>':'')+'</div>';}
 library=function(){const v=myVoice();
@@ -547,6 +548,9 @@ document.addEventListener('click',function(e){const a=e.target.closest('[data-ad
 
 /* — 🎭 programmes — */
 function progs(){return LS.get('progs',[]);}
+/* ton et tempo d'une pièce dans un programme : ceux du programme s'ils ont été changés, sinon les préférés de l'œuvre */
+function itTr(it){return it.tr!=null?it.tr:LS.get('tr:'+it.w,0);}function itTempo(it){return it.tempo!=null?it.tempo:LS.get('tempo:'+it.w,100);}
+function prefTxt(id){const t=LS.get('tr:'+id,0),v=LS.get('tempo:'+id,100);return (t||v!==100)?'★ '+(t?(t>0?'+':'')+t+' ':'')+(v!==100?v+' %':''):'';}
 function progSave(a){LS.set('progs',a);}
 function wById(id){return WORKS.filter(function(x){return x.id===id;})[0];}
 function progList(){const el=$('#progs');if(!el)return;const P=progs();
@@ -556,14 +560,15 @@ function progList(){const el=$('#progs');if(!el)return;const P=progs();
 function progEdit(pi){const A=progs();const p=A[pi];
   const draw=function(){dlg('<h2>🎭 Programme</h2><label>Nom<input id="pName" value="'+esc(p.name)+'"></label>'
     +'<div class="pil">'+p.items.map(function(it,i){const W=wById(it.w);return '<div class="pit"><span class="pno">'+(i+1)+'</span><b>'+(W?esc(W.title):'?')+'</b>'
-      +'<span class="ptr"><button data-it="tr-" data-i="'+i+'">−</button>'+(it.tr>0?'+':'')+it.tr+'<button data-it="tr+" data-i="'+i+'">+</button></span>'
+      +'<span class="ptr" title="Ton"><button data-it="tr-" data-i="'+i+'">−</button>'+(itTr(it)>0?'+':'')+itTr(it)+'<button data-it="tr+" data-i="'+i+'">+</button></span>'
+      +'<span class="ptr" title="Tempo"><button data-it="tp-" data-i="'+i+'">−</button>'+itTempo(it)+'%<button data-it="tp+" data-i="'+i+'">+</button></span>'+((it.tr!=null||it.tempo!=null)?'<button data-it="pref" data-i="'+i+'" title="Revenir aux préférences de l’œuvre">★</button>':'')
       +'<button data-it="up" data-i="'+i+'">↑</button><button data-it="dn" data-i="'+i+'">↓</button><button data-it="x" data-i="'+i+'">✕</button></div>';}).join('')+'</div>'
     +'<label>Ajouter<select id="pAdd"><option value="">— choisir une pièce —</option>'+WORKS.map(function(W){return '<option value="'+W.id+'">'+esc(W.title)+' — '+esc(W.composer||'')+'</option>';}).join('')+'</select></label>'
     +'<div class="row"><button id="pok" class="pri">Enregistrer</button><button id="pdel">Supprimer le programme</button><button data-close="1">Fermer</button></div>');
     $('#pName').oninput=function(){p.name=this.value;};
-    $('#pAdd').onchange=function(){if(this.value){p.items.push({w:this.value,tr:LS.get('tr:'+this.value,0)});draw();}};
+    $('#pAdd').onchange=function(){if(this.value){p.items.push({w:this.value});draw();}};
     $('#dlg').querySelectorAll('[data-it]').forEach(function(b){b.onclick=function(){const i=+b.dataset.i,k=b.dataset.it,a=p.items;
-      if(k==='tr-')a[i].tr--;if(k==='tr+')a[i].tr++;if(k==='up'&&i>0){const t=a[i];a[i]=a[i-1];a[i-1]=t;}if(k==='dn'&&i<a.length-1){const t=a[i];a[i]=a[i+1];a[i+1]=t;}if(k==='x')a.splice(i,1);draw();};});
+      if(k==='tr-')a[i].tr=itTr(a[i])-1;if(k==='tr+')a[i].tr=itTr(a[i])+1;if(k==='tp-')a[i].tempo=Math.max(40,itTempo(a[i])-5);if(k==='tp+')a[i].tempo=Math.min(160,itTempo(a[i])+5);if(k==='pref'){delete a[i].tr;delete a[i].tempo;}if(k==='up'&&i>0){const t=a[i];a[i]=a[i-1];a[i-1]=t;}if(k==='dn'&&i<a.length-1){const t=a[i];a[i]=a[i+1];a[i+1]=t;}if(k==='x')a.splice(i,1);draw();};});
     $('#pok').onclick=function(){A[pi]=p;progSave(A);dlgClose();progList();};
     $('#pdel').onclick=function(){if(confirm('Supprimer « '+p.name+' » ?')){A.splice(pi,1);progSave(A);dlgClose();progList();}};};
   draw();}
@@ -572,11 +577,11 @@ document.addEventListener('click',function(e){
   const pe=e.target.closest('[data-pe]');if(pe){progEdit(+pe.dataset.pe);return;}
   const pc=e.target.closest('[data-pc]');if(pc){concertStart(+pc.dataset.pc,0);return;}
   if(e.target.closest('#bProg')){const A=progs();if(!ST.W)return;
-    dlg('<h2>➕ Ajouter « '+esc(ST.W.title)+' »</h2><div class="hint">Avec la transposition actuelle ('+(ST.tr>0?'+':'')+ST.tr+').</div>'
+    dlg('<h2>➕ Ajouter « '+esc(ST.W.title)+' »</h2><div class="hint">Avec ton ton et ton tempo préférés pour cette œuvre ('+(ST.tr>0?'+':'')+ST.tr+' · '+ST.tempo+' %) — tu pourras les changer pour ce programme seulement.</div>'
       +A.map(function(p,i){return '<button class="pgb" data-pa="'+i+'">🎭 '+esc(p.name)+' <small>('+p.items.length+')</small></button>';}).join('')
       +'<button class="pgb" data-pa="new">➕ Nouveau programme</button><div class="row"><button data-close="1">Annuler</button></div>');
     $('#dlg').querySelectorAll('[data-pa]').forEach(function(b){b.onclick=function(){const A2=progs();let i=b.dataset.pa;if(i==='new'){A2.push({name:'Programme '+(A2.length+1),items:[]});i=A2.length-1;}else i=+i;
-      A2[i].items.push({w:ST.W.id,tr:ST.tr});progSave(A2);dlgClose();toast('🎭 Ajouté à « '+A2[i].name+' » ('+A2[i].items.length+'ᵉ pièce)');};});}
+      A2[i].items.push({w:ST.W.id});progSave(A2);dlgClose();toast('🎭 Ajouté à « '+A2[i].name+' » ('+A2[i].items.length+'ᵉ pièce)');};});}
   if(e.target.closest('#vme'))voiceDlg();
   if(e.target.closest('#bMeta')&&ST.W){metaDlg(ST.W,false);}
 });
@@ -584,7 +589,7 @@ document.addEventListener('click',function(e){
 /* — mode concert — */
 let CONC=null;
 function concertStart(pi,i){const p=progs()[pi];if(!p||!p.items[i])return;const it=p.items[i];if(!wById(it.w)){toast('Pièce introuvable');return;}
-  CONC={pi:pi,i:i,p:p,pending:false};document.body.classList.add('concert');stop();open(it.w);ST.tr=it.tr;render();seek(0);concBar();
+  CONC={pi:pi,i:i,p:p,pending:false};document.body.classList.add('concert');stop();open(it.w);ST.tr=itTr(it);ST.tempo=itTempo(it);render();seek(0);concBar();
   const ph=$('#scorew');if(ph)ph.scrollTop=0;}
 function concBar(){const c=$('#conc');if(!CONC){c.innerHTML='';return;}const p=CONC.p,n=p.items[CONC.i+1],W=n&&wById(n.w);
   c.innerHTML='<b>🎭 '+esc(p.name)+'</b><span>'+(CONC.i+1)+' / '+p.items.length+'</span><button data-cg="-1"'+(CONC.i?'':' disabled')+'>⏮</button><button data-cg="1"'+(n?'':' disabled')+'>⏭</button>'
@@ -598,7 +603,7 @@ document.addEventListener('click',function(e){
   if(e.target.closest('#wait')&&CONC&&CONC.pending){e.stopPropagation();const w=$('#wait');w.classList.remove('on');w.textContent='𝄐 Point d’orgue — touche pour continuer';
     if(CONC.pending==='end'){concertEnd();return;}concertStart(CONC.pi,CONC.i+1);setTimeout(play,400);}},true);
 const _back=function(){if(CONC)concertEnd();};
-document.addEventListener('click',function(e){if(e.target.closest('#bBack'))_back();},true);
+document.addEventListener('click',function(e){if(e.target.closest('#bBack')){_back();setTimeout(library,0);}},true);
 window.addEventListener('DOMContentLoaded',function(){const f=$('#fimp');f.onchange=function(){if(f.files[0])importFile(f.files[0]);f.value='';};
   $('#bImp').onclick=function(){f.click();};});
 
@@ -746,14 +751,14 @@ const _pv=partVol;partVol=function(P){const v=_pv(P);if(PN.open&&pnMine(P)&&(PN.
 /* — lecture : préparer les étapes / bilan / tempo progressif — */
 const _play=play;play=function(){if(PLAY){_play();return;}if(PN.open&&PN.master){const from=ST.loop?ST.loop[0]:Math.max(0,ST.cur<0?0:ST.cur),to=ST.loop?ST.loop[1]:ST.M.length-1;pnBuildSteps(from,to);PN.passErr=0;if(!PN.runOn){PN.err={};PN.ok=0;PN.bad=0;PN.runOn=true;}}
   _play();pnLightSteps();};
-function onLoopEnd(){if(!PN.open)return;if(PN.accel){if(!PN.master||PN.passErr===0){const t=Math.min(PN.master?100:100,ST.tempo+5);if(t!==ST.tempo){ST.tempo=t;LS.set('tempo',t);$('#tmp').textContent=t+' %';toast('⏫ '+(PN.master?'Sans faute ! ':'')+'tempo '+t+' %');}}else toast('🔁 '+PN.passErr+' faute'+(PN.passErr>1?'s':'')+' — on garde le tempo');}}
+function onLoopEnd(){if(!PN.open)return;if(PN.accel){if(!PN.master||PN.passErr===0){const t=Math.min(PN.master?100:100,ST.tempo+5);if(t!==ST.tempo){ST.tempo=t;LS.set('tempo:'+ST.W.id,t);$('#tmp').textContent=t+' %';toast('⏫ '+(PN.master?'Sans faute ! ':'')+'tempo '+t+' %');}}else toast('🔁 '+PN.passErr+' faute'+(PN.passErr>1?'s':'')+' — on garde le tempo');}}
 const _ope=onPieceEnd;onPieceEnd=function(){_ope.apply(this,arguments);if(PN.open&&PN.master&&!CONC)pnReport();};
 function pnReport(){PN.runOn=false;const tot=PN.ok+PN.bad;if(!tot)return;const pc=Math.round(PN.ok/tot*100);
   const worst=Object.keys(PN.err).map(function(k){return {m:+k,n:PN.err[k]};}).sort(function(a,b){return b.n-a.n;}).slice(0,6);
   dlg('<h2>🎹 Bilan</h2><div class="big">'+pc+' %</div><div class="hint">'+PN.ok+' accords/notes justes · '+PN.bad+' fausse'+(PN.bad>1?'s':'')+' note'+(PN.bad>1?'s':'')+' · '+({rh:'main droite',lh:'main gauche',both:'deux mains'}[PN.hand])+'</div>'
     +(worst.length?'<h3>À retravailler</h3>'+worst.map(function(w){return '<button class="pgb" data-work="'+w.m+'">🔁 Mesure '+(w.m+1)+' <small>('+w.n+' faute'+(w.n>1?'s':'')+')</small></button>';}).join(''):'<div class="hint">Aucune faute — bravo ! 🎉</div>')
     +'<div class="row"><button data-close="1" class="pri">OK</button></div>');
-  document.querySelectorAll('[data-work]').forEach(function(b){b.onclick=function(){const m=+b.dataset.work,a=Math.max(0,m-1),z=Math.min(ST.M.length-1,m+1);ST.loop=[a,z];markLoop();PN.accel=true;LS.set('pn_accel',true);ST.tempo=Math.min(ST.tempo,70);$('#tmp').textContent=ST.tempo+' %';pnBar();dlgClose();seek(a);toast('🔁 Mesures '+(a+1)+' → '+(z+1)+' à 70 %, le tempo monte à chaque passage sans faute');};});}
+  document.querySelectorAll('[data-work]').forEach(function(b){b.onclick=function(){const m=+b.dataset.work,a=Math.max(0,m-1),z=Math.min(ST.M.length-1,m+1);ST.loop=[a,z];markLoop();PN.accel=true;LS.set('pn_accel',true);ST.tempo=Math.min(ST.tempo,70);LS.set('tempo:'+ST.W.id,ST.tempo);$('#tmp').textContent=ST.tempo+' %';pnBar();dlgClose();seek(a);toast('🔁 Mesures '+(a+1)+' → '+(z+1)+' à 70 %, le tempo monte à chaque passage sans faute');};});}
 const _stop=stop;stop=function(keep){const was=!!PLAY;_stop.apply(this,arguments);if(!keep){pnClearCls('trh');pnClearCls('tlh');pnClearCls('nx');}};
 /* — accompagnement : les touches s'allument (hors piano maître) — */
 const _su=scheduleUI;scheduleUI=function(ev,t){_su(ev,t);if(!PN.open||PN.master||ev.P.kind!=='piano'||!PLAY||!PLAY.btt)return;const h=pnHandOf(ev.P);const t1=PLAY.btt(ev.beat+ev.d);const now=AC.currentTime;
@@ -778,6 +783,56 @@ document.addEventListener('pointerdown',function(e){const k=e.target.closest&&e.
 /* le clavier suit la pièce et la transposition */
 const _rd=render;render=function(){_rd.apply(this,arguments);if(PN.open){pnBar();pnKbDraw();}};
 window.addEventListener('resize',function(){if(PN.open)pnKbDraw();});
+
+</script>
+<script>
+window.PT_SAFE={app:'Le partiteur',file:'partiteur-sauvegarde.json',match:function(k){return k.indexOf('partiteur_')===0;},
+  extra:{dump:function(){return IDB.all().then(function(a){return {works:a};});},load:function(o){return Promise.all((o.works||[]).map(function(W){return IDB.put(W);}));}}};
+</script>
+<script>
+/* ═══════════ 🛟 PT-SAFE — la mémoire survit aux mises à jour ET à une réinstallation ═══════════
+   1. Mise à jour par-dessus (même identifiant, même clé de signature) : Android garde tout, rien à faire.
+   2. En plus, filet de sécurité : une copie de la mémoire est écrite automatiquement dans
+      Documents/PianoTools/<appli>-sauvegarde.json (hors de l'appli → survit à une désinstallation).
+   3. Première ouverture après une réinstallation : l'appli propose de restaurer cette copie.
+   Réglage par appli : window.PT_SAFE={app,file,match(clé)->bool,extra?:{dump():Promise<obj>,load(obj):Promise}} */
+(function(){'use strict';
+  const CFG=window.PT_SAFE;if(!CFG)return;
+  const DIR='DOCUMENTS',PATH='PianoTools/'+CFG.file,MARK='ptsafe_'+CFG.file;
+  const FS=function(){const C=window.Capacitor;try{return C&&C.isNativePlatform&&C.isNativePlatform()&&C.Plugins&&C.Plugins.Filesystem||null;}catch(e){return null;}};
+  const keys=function(){const o=[];for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k&&k.indexOf('ptsafe_')!==0&&CFG.match(k))o.push(k);}return o;};
+  async function dump(){const d={};keys().forEach(function(k){d[k]=localStorage.getItem(k);});const o={app:CFG.app,date:new Date().toISOString(),data:d};if(CFG.extra)try{o.extra=await CFG.extra.dump();}catch(e){}return o;}
+  async function load(o){if(!o||o.app!==CFG.app||!o.data)throw new Error('ce fichier n’est pas une sauvegarde '+CFG.app);
+    keys().forEach(function(k){localStorage.removeItem(k);});Object.keys(o.data).forEach(function(k){localStorage.setItem(k,o.data[k]);});
+    if(o.extra&&CFG.extra)await CFG.extra.load(o.extra);try{localStorage.setItem(MARK,'1');}catch(e){}}
+  let lastSig='',busy=false,permAsked=false;
+  /* après une réinstallation, Android (11+) peut refuser de réécrire le fichier de l'installation précédente : on prend alors un autre nom */
+  const PK='ptsafe_path_'+CFG.file;const curPath=function(){return localStorage.getItem(PK)||PATH;};
+  async function w1(fs,p,s){await fs.writeFile({path:p,data:s,directory:DIR,encoding:'utf8',recursive:true});}
+  async function write(fs,s){const p=curPath();try{await w1(fs,p,s);return true;}catch(e){}
+    if(!permAsked&&fs.requestPermissions){permAsked=true;try{await fs.requestPermissions();await w1(fs,p,s);return true;}catch(e){}}
+    const alt=PATH.replace('.json','-'+Date.now().toString(36)+'.json');try{await w1(fs,alt,s);localStorage.setItem(PK,alt);return true;}catch(e){}return false;}
+  async function backup(){const fs=FS();if(!fs||busy)return;busy=true;try{const o=await dump();if(!Object.keys(o.data).length){busy=false;return;}
+      const sig=JSON.stringify(o.data).length+':'+JSON.stringify(o.data).slice(-400)+(o.extra?JSON.stringify(o.extra).length:'');if(sig===lastSig){busy=false;return;}
+      if(await write(fs,JSON.stringify(o)))lastSig=sig;}catch(e){}busy=false;}
+  async function firstRun(){if(localStorage.getItem(MARK))return;const fs=FS();try{localStorage.setItem(MARK,'1');}catch(e){}if(!fs)return;
+    try{const r=await fs.readFile({path:PATH,directory:DIR,encoding:'utf8'});const o=JSON.parse(r.data);if(!o||o.app!==CFG.app||!o.data||!Object.keys(o.data).length)return;
+      if(confirm('🛟 Une sauvegarde de '+CFG.app+' du '+new Date(o.date).toLocaleString('fr-FR')+' a été trouvée sur le téléphone.\n\nRestaurer ta progression ?')){await load(o);location.reload();}}catch(e){}}
+  /* boutons manuels : fichier à garder où tu veux (WhatsApp, e-mail, Drive) */
+  async function exportFile(){const o=await dump(),s=JSON.stringify(o),name=CFG.file.replace('.json','')+'-'+new Date().toISOString().slice(0,10)+'.json';const fs=FS();
+    if(fs){const ok=await write(fs,s);try{await fs.writeFile({path:'PianoTools/'+name,data:s,directory:DIR,encoding:'utf8',recursive:true});}catch(e){}
+      alert(ok?'💾 Sauvegarde écrite dans le dossier Documents/PianoTools du téléphone :\n'+name+'\n\nTu peux l’envoyer par WhatsApp ou e-mail depuis l’application Fichiers.':'Écriture impossible — autorise l’accès aux fichiers pour '+CFG.app+'.');return;}
+    const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([s],{type:'application/json'}));a.download=name;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},3000);}
+  function importFile(){const i=document.createElement('input');i.type='file';i.accept='.json,application/json,text/plain';
+    i.onchange=function(){const f=i.files[0];if(!f)return;f.text().then(function(t){let o=null;try{o=JSON.parse(t);}catch(e){}
+      if(!o||o.app!==CFG.app){alert('Ce fichier n’est pas une sauvegarde '+CFG.app+'.');return;}
+      if(!confirm('Remplacer la progression actuelle par la sauvegarde du '+new Date(o.date).toLocaleString('fr-FR')+' ?'))return;
+      load(o).then(function(){location.reload();},function(e){alert(e.message);});});};document.body.appendChild(i);i.click();setTimeout(function(){i.remove();},60000);}
+  window.ptSafe={backup:backup,exportFile:exportFile,importFile:importFile,dump:dump,load:load};
+  const start=function(){firstRun().then(function(){setTimeout(backup,4000);});setInterval(backup,120000);
+    document.addEventListener('visibilitychange',function(){if(document.visibilityState==='hidden')backup();});window.addEventListener('pagehide',backup);};
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
 
 </script>
 </body></html>

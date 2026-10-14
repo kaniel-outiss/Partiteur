@@ -75,9 +75,10 @@ svg .chs{font:600 13px Georgia,serif;fill:#8a3b12}.dbox .big{font:700 44px Georg
 .fl{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.fl select{font:inherit;font-size:13px;padding:6px 8px;border-radius:10px;background:var(--card);color:var(--txt);border:1px solid var(--line);max-width:46vw}.fl select.on{border-color:var(--or);color:var(--or)}.fl button{font-size:13px;padding:6px 10px}
 h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-bottom:1px solid var(--line);padding-bottom:4px}h3.gh small{color:var(--dim);font:12px sans-serif}
 .mx.pup select{font:inherit;font-size:13px;padding:3px 6px;border-radius:8px;background:var(--bg);color:var(--txt);border:1px solid var(--line)}
+.wk small b.pref{color:var(--txt);font-weight:600}
 </style></head><body>
 <div id="home"><h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose.</div>
- <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
+ <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer (MusicXML)</button><button onclick="ptSafe.exportFile()" title="Sauvegarder bibliothèque, programmes et réglages">💾</button><button onclick="ptSafe.importFile()" title="Restaurer une sauvegarde">📂</button><input type="file" id="fimp" accept=".xml,.musicxml,.mxl,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div></div>
 <div id="app" style="display:none">
@@ -116,5 +117,12 @@ __NAV__
 </script>
 <script>
 __PIANO__
+</script>
+<script>
+window.PT_SAFE={app:'Le partiteur',file:'partiteur-sauvegarde.json',match:function(k){return k.indexOf('partiteur_')===0;},
+  extra:{dump:function(){return IDB.all().then(function(a){return {works:a};});},load:function(o){return Promise.all((o.works||[]).map(function(W){return IDB.put(W);}));}}};
+</script>
+<script>
+__SAFE__
 </script>
 </body></html>
