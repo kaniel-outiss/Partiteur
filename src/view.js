@@ -19,7 +19,7 @@ function vwIndex(){const box=$('#score'),R=box.getBoundingClientRect();const SC=
   const sysEls=$$('#sv g.system');VW.geo=[];const mid={};SC.meas.forEach(function(m){mid[m.id]=m.i;});
   $$('#sv g.measure').forEach(function(g){const i=mid[g.id];if(i==null)return;const r=rel(g.getBoundingClientRect());const s=sysEls.indexOf(g.closest('g.system'));const S=VW.sys[s]||r;
     /* portées de la mesure : y de la ligne du haut et du bas, par numéro */
-    const st={};$$('g.staff',g).forEach(function(sg){const n=+(sg.getAttribute('data-n')||0)||($$('g.staff',g).indexOf(sg)+1);const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1};}});
+    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1};}});
     VW.geo[i]={x0:r.x0,x1:r.x1,y0:S.y0,y1:S.y1,sys:s,st:st,el:g};});
   /* position x des événements (tête de note la plus à gauche) → ligne de temps du curseur */
   VW.noteXY={};const seen={};VW.TL=[];
@@ -49,7 +49,7 @@ function vwMarkLoop(){const ov=$('#ovl');if(!ov)return;let g=$('#ovLoop');if(!g)
   let h='';const L=ST.loop||(VW.sel!=null?[VW.sel,VW.sel]:null);if(L)for(let i=L[0];i<=L[1];i++){const G=VW.geo[i];if(G)h+='<rect x="'+G.x0+'" y="'+G.y0+'" width="'+(G.x1-G.x0)+'" height="'+(G.y1-G.y0)+'" class="lp'+(ST.loop?'':' sel')+'"/>';}
   g.innerHTML=h;const b=$('#bLoop');if(b)b.classList.toggle('on',!!ST.loop||VW.sel!=null);}
 /* toucher une mesure : aller / choisir la boucle */
-document.addEventListener('click',function(e){const sv=e.target.closest&&e.target.closest('#score');if(!sv||!ST.SC)return;if(document.body.classList.contains('bredit'))return;
+document.addEventListener('click',function(e){const sv=e.target.closest&&e.target.closest('#score');if(!sv||!ST.SC)return;if(document.body.classList.contains('bredit')||document.body.classList.contains('annmode'))return;
   const R=$('#score').getBoundingClientRect(),x=e.clientX-R.left,y=e.clientY-R.top;let mi=-1;VW.geo.forEach(function(g,i){if(g&&x>=g.x0&&x<=g.x1&&y>=g.y0&&y<=g.y1)mi=i;});if(mi<0)return;
   if(VW.loopPick){if(VW.sel==null){VW.sel=mi;vwMarkLoop();toast('🔁 Début : mesure '+ST.SC.meas[mi].n+' — touche la dernière mesure');return;}
     const a=Math.min(VW.sel,mi),b=Math.max(VW.sel,mi);ST.loop=[a,b];VW.sel=null;VW.loopPick=false;vwMarkLoop();toast('🔁 Boucle mesures '+ST.SC.meas[a].n+' → '+ST.SC.meas[b].n);seek(a);return;}
@@ -63,6 +63,8 @@ let _rsz=null;window.addEventListener('resize',function(){if(!ST.SC||$('#app').h
 (function(){let d0=0,z0=1;document.addEventListener('touchstart',function(e){if(e.touches.length===2&&e.target.closest('#scorew')){d0=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);z0=ST.zoom;}},{passive:true});
   document.addEventListener('touchend',function(e){if(d0&&e.touches.length<2){const el=$('#score');el.style.transform='';if(VW.pz){zoomBy(VW.pz/ST.zoom);}d0=0;VW.pz=null;}},{passive:true});
   document.addEventListener('touchmove',function(e){if(d0&&e.touches.length===2){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);const z=Math.max(.55,Math.min(2.2,z0*d/d0));VW.pz=z;$('#score').style.transform='scale('+(z/ST.zoom)+')';$('#score').style.transformOrigin='top left';}},{passive:true});})();
+/* numéros des portées affichées (dans l'ordre) */
+function visStaves(){const H=ST.hidden||[];return ST.SC.staves.map(function(S){return S.n;}).filter(function(n){return H.indexOf(n)<0;});}
 /* couche d'aides : un groupe par module */
 function ovGroup(id){const ov=$('#ovl');if(!ov)return null;let g=ov.querySelector('#'+id);if(!g){g=document.createElementNS('http://www.w3.org/2000/svg','g');g.id=id;ov.appendChild(g);}return g;}
 /* classes sur les notes d'une partie (couleurs) */

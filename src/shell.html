@@ -50,6 +50,9 @@ h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-botto
 #ovl .chs{font:600 13px Georgia,serif;fill:#8a3b12}#ovl .nhn{font:700 7.5px sans-serif;fill:#fff;text-anchor:middle;dominant-baseline:central}#ovl .brm{font:bold 24px Georgia,serif;fill:#1d6fb8}
 #ovl .pjl{stroke-width:3.2;stroke-linecap:round;opacity:.9;fill:none}#ovl .ann{font:italic 600 13px Georgia,serif;fill:#7a1fa2}
 .pjg{color:#3fbf6b;stroke:#2f8f4e}.pjo{color:#e0a020;stroke:#c98a12}.pjr{color:#e05a4a;stroke:#c0392b}.pjn{color:var(--dim);stroke:#9a8d7c}
+#annbar{display:flex;gap:5px;flex-wrap:wrap;align-items:center;padding:6px 8px;background:#2a1f30;border-bottom:1px solid #7a1fa2}#annbar button{min-width:38px;padding:6px 8px;font-size:15px}#annbar button.on{outline:2px solid #fff;background:var(--card2)}#annbar .pri{margin-left:auto}
+body.annmode #score{cursor:crosshair;touch-action:none}body.annmode #ovl{pointer-events:none}
+#ovl .mk rect{fill:#1d6fb8;opacity:.9}#ovl .mk text{font:600 12px sans-serif;fill:#fff}
 body.bredit #score{cursor:crosshair;outline:2px dashed #1d6fb8;outline-offset:-4px}
 #pjHud{display:none;position:sticky;top:8px;float:right;margin:8px 8px -120px 0;z-index:5;background:#1e1a17ee;color:var(--txt);border-radius:13px;padding:6px 10px;min-width:120px;text-align:center;box-shadow:0 4px 14px #0006}#pjHud.on{display:block}
 #pjHud .n{font:700 24px Georgia,serif;color:var(--or)}#pjHud .t{font-size:11px;color:var(--dim)}#pjHud .c{font:600 13px sans-serif;min-height:16px}
@@ -71,14 +74,14 @@ body.bredit #score{cursor:crosshair;outline:2px dashed #1d6fb8;outline-offset:-4
  .tp{gap:4px;padding-left:4px;padding-right:4px}.tp>button{min-width:36px;height:44px;padding:0 4px}#bPlay{min-width:54px;height:48px}.stp{height:44px}.stp button{min-width:26px;padding:0 2px}.stp output{min-width:38px;font-size:12.5px}}
 @media(max-width:360px){.tp>button{min-width:32px}.stp button{min-width:22px}.stp output{min-width:34px}}
 /* panneau d'outils */
-#sheet{background:var(--bg2);border-top:1px solid var(--line);max-height:46vh;overflow:auto;display:flex;flex-direction:column}
+#sheet{background:var(--bg2);border-top:1px solid var(--line);max-height:42vh;overflow:auto;display:flex;flex-direction:column}
 #sheet[hidden]{display:none}
 .shh{display:flex;align-items:center;gap:6px;padding:8px 12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg2);z-index:2}.shh b{flex:1;color:var(--or);font:600 16px Georgia,serif}
 .shtabs{display:flex;gap:4px;padding:6px 8px;border-bottom:1px solid var(--line);overflow-x:auto}.shtabs button{font-size:13px;padding:6px 10px;flex-shrink:0}
 .shb{padding:10px 12px 18px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:6px 0}.row>label{color:var(--dim);font-size:13px;min-width:92px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.chips button{font-size:13.5px;padding:6px 10px}
-.mx{display:grid;grid-template-columns:1fr auto auto auto;gap:6px;align-items:center;background:var(--card);border-radius:12px;padding:7px 9px;margin:6px 0}
+.mx{display:grid;grid-template-columns:1fr auto auto auto auto;gap:6px;align-items:center;background:var(--card);border-radius:12px;padding:7px 9px;margin:6px 0}
 .mx .nm{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.mx .nm small{display:block;color:var(--dim);font-size:11px}
 .mx button{padding:5px 8px;font-size:13px}.mx input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--or)}
 .mx.me{outline:1px solid var(--or)}
@@ -123,7 +126,8 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
  <div class="hint" style="margin-top:28px">Le partiteur __VER__ · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
 <div id="app" hidden>
- <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
+ <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bAnn" class="ghost" title="Annoter la partition">🖍</button><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
+ <div id="annbar" hidden></div>
  <div id="conc"></div>
  <div id="info"></div>
  <div id="scorew"><div id="pjHud"><div class="n">—</div><div class="t">chante…</div><div class="c"></div><div class="k"><i></i></div></div><div id="score"></div></div>
@@ -137,7 +141,8 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
   <div class="stp" title="Tempo"><button id="tm">−</button><output id="tmp">100 %</output><button id="tp+">+</button></div>
   <div class="stp" title="Transposition"><button id="trm">♭</button><output id="trv">0</output><button id="trp">♯</button></div>
   <div class="tabs">
-  <button class="tab" data-tab="mix" title="Pupitres : volumes, je chante, pistes">🎚<span>Pupitres</span></button>
+  <button class="tab" data-tab="plan" title="Plan : sections, repères, enchaînements">🧭<span>Plan</span></button>
+  <button class="tab" data-tab="mix" title="Pupitres : volumes, je chante, portées, pistes">🎚<span>Pupitres</span></button>
   <button class="tab" data-tab="chant" title="Chant : justesse, me suit, respirations, prises">🎤<span>Chant</span></button>
   <button class="tab" data-tab="piano" title="Piano : clavier, MIDI, piano maître">🎹<span>Piano</span></button>
   <button class="tab" data-tab="texte" title="Texte : mot à mot, traduction, prononciation">📖<span>Texte</span></button>

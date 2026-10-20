@@ -55,10 +55,14 @@ function tick(){if(!PL.on)return;const A=AC,now=A.currentTime,c=PL.clock;if(PL.w
     if(vol>0)sound(ev,Math.max(t,now),AC,vol);UIQ.push({t:t,ev:ev});}
   /* porte posée après le dernier événement (point d'orgue final) */
   if(PL.k>=PL.EV.length&&PL.hold!=null&&!PL.waiting){const ht=c.at(PL.hold);if(PL.hold<=PL.qEnd+1e-6&&now>=ht){PL.waiting=true;PL.holdT=ht;BUS.emit('waiting',PL.holdBy,PL.hold);if(PL.holdBy.wait)PL.holdBy.wait(PL.hold);return;}}
-  if(PL.k>=PL.EV.length&&now>c.at(PL.qEnd)+.05){if(ST.loop){PL.loops++;stop(true);BUS.emit('loopEnd');start(false);}else{stop();BUS.emit('pieceEnd');}}}
+  if(PL.k>=PL.EV.length&&now>c.at(PL.qEnd)+.05){
+    /* enchaînement de répétition : passage suivant (ou retour au premier si « en boucle ») */
+    if(ST.seq){ST.seqI++;if(ST.seqI>=ST.seq.items.length){if(ST.seq.rep){ST.seqI=0;}else{ST.loop=null;stop();BUS.emit('seqEnd');return;}}
+      const it=ST.seq.items[ST.seqI];ST.loop=[it.a,it.b];ST.pi=0;PL.loops++;stop(true);BUS.emit('seqStep',ST.seqI);PL.gapT=setTimeout(function(){start(false);},(ST.seq.gap||0)*1000);return;}
+    if(ST.loop){PL.loops++;stop(true);BUS.emit('loopEnd');start(false);}else{stop();BUS.emit('pieceEnd');}}}
 /* la porte s'ouvre : l'horloge est décalée du temps passé à attendre */
 function release(){if(!PL.on)return;if(PL.waiting){const d=AC.currentTime-PL.holdT;PL.clock.t+=d;}PL.hold=null;PL.holdBy=null;PL.waiting=false;BUS.emit('released');}
-function stop(keep){clearInterval(PL.id);const was=PL.on;PL.on=false;ST.playing=false;PL.waiting=false;PL.hold=null;UIQ.length=0;if(!keep)PL.loops=0;
+function stop(keep){clearInterval(PL.id);if(!keep)clearTimeout(PL.gapT);const was=PL.on;PL.on=false;ST.playing=false;PL.waiting=false;PL.hold=null;UIQ.length=0;if(!keep)PL.loops=0;
   const b=$('#bPlay');if(b){b.classList.remove('on');b.innerHTML=ICON.play;}
   if(was&&AC){try{MASTER.gain.setTargetAtTime(0,AC.currentTime,.03);setTimeout(function(){MASTER.gain.setTargetAtTime(.9,AC.currentTime,.01);},220);}catch(e){}}
   BUS.emit('stop',!!keep);}

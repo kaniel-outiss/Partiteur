@@ -4,7 +4,7 @@ TABS.mix={title:'🎚 Pupitres',render:function(){const SC=ST.SC,VP=voiceParts()
   return SC.parts.map(function(P){const x=ST.mix[P.id]||{};const me=ST.sing===P.id;
     return '<div class="mx'+(me?' me':'')+'"><div class="nm">'+(P.kind==='voice'?'🎤 ':'🎹 ')+esc(P.name)+'<small>'+(P.vt?esc(VTNAME[P.vt]||P.vt):(P.hand==='rh'?'main droite':(P.hand==='lh'?'main gauche':'')))+'</small></div>'
       +(P.kind==='voice'?'<button data-mx="sing" data-p="'+P.id+'" class="'+(me?'on':'')+'" title="C’est toi qui chantes : la partie se tait">🙋 moi</button>':'<span></span>')
-      +'<button data-mx="solo" data-p="'+P.id+'" class="'+(x.solo?'on':'')+'">S</button><button data-mx="mute" data-p="'+P.id+'" class="'+(x.mute?'on':'')+'">'+(x.mute?'🔇':'🔊')+'</button>'
+      +'<button data-hide="'+P.staff+'" class="'+((ST.hidden||[]).indexOf(P.staff)>=0?'':'on')+'" title="Afficher / masquer la portée">👁</button><button data-mx="solo" data-p="'+P.id+'" class="'+(x.solo?'on':'')+'">S</button><button data-mx="mute" data-p="'+P.id+'" class="'+(x.mute?'on':'')+'">'+(x.mute?'🔇':'🔊')+'</button>'
       +'<input type="range" min="0" max="1.6" step=".05" value="'+(x.vol==null?1:x.vol)+'" data-mx="vol" data-p="'+P.id+'"></div>';}).join('')
     +(ST.sing?'<div class="sw"><span>Garder ma partie en guide<small>tu l’entends doucement pendant que tu chantes</small></span><button class="tg'+((ST.mix[ST.sing]||{}).guide?' on':'')+'" data-sw="guide"></button></div>':'')
     +(VP.length>1||(VP.length&&SC.parts.length>1)?'<h4>Travail de pupitre</h4><div class="row"><label>Devant</label><select id="pupSel" style="flex:1"><option value="">— équilibre normal —</option>'+VP.map(function(P){return '<option value="'+P.id+'"'+(ST.pup===P.id?' selected':'')+'>'+esc(P.name)+' devant, les autres derrière</option>';}).join('')+'</select></div>':'')
@@ -33,3 +33,7 @@ async function makeTracks(ids){stop();const W=ST.W,out=[];const tag=(ST.tr?' ('+
     const blob=await renderTrack(ids[i]);out.push(new File([blob],fname(W.title+' — '+(P?P.name:'tutti')+tag)+'.wav',{type:'audio/wav'}));}
   toast('✅ '+out.length+' piste'+(out.length>1?'s':'')+' prête'+(out.length>1?'s':''));await shareFiles(out,W.title);}
 document.addEventListener('click',function(e){if(e.target.closest('#bTrack'))makeTracks([ST.pup||'']);if(e.target.closest('#bTracks'))makeTracks(voiceParts().map(function(P){return P.id;}));});
+/* portées masquées (le son reste) */
+document.addEventListener('click',function(e){const b=e.target.closest('[data-hide]');if(!b)return;const n=+b.dataset.hide;const H=(ST.hidden||[]).slice();const k=H.indexOf(n);
+  if(k>=0)H.splice(k,1);else{if(H.length>=ST.SC.staves.length-1){toast('Il faut garder au moins une portée');return;}H.push(n);}
+  ST.hidden=H;LS.set('hide:'+ST.W.id,H);drawScore();tabRender();});

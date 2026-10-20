@@ -31,10 +31,26 @@ function engineLoad(W,probe){const run=VRV.lock.then(function(){return VRV.init(
     const SC=buildModel(tk,W,X.staves);if(!probe)VRV.base=X.xml;VRV.loadedKey='';return SC;});
   VRV.lock=run.catch(function(){});return run;}
 /* gravure SVG à la largeur voulue (transposition comprise) — renvoie le SVG */
-function engineRender(width,scale){const tk=VRV.tk;const key=ST.W.id+'|'+ST.tr+'|'+JSON.stringify(ST.voiceClef);
-  const o=vrvOpts(width,scale,{transpose:trInterval(ST.SC.ks,ST.tr)});tk.setOptions(o);
-  if(VRV.loadedKey!==key){const vc=ST.voiceClef||{};tk.loadData(Object.keys(vc).length?xmlVoiceClef(VRV.base,vc):VRV.base);VRV.loadedKey=key;}else tk.redoLayout();
+function engineRender(width,scale){const tk=VRV.tk;const hid=(ST.hidden||[]).filter(function(n){return ST.SC.staves.some(function(S){return S.n===n;});});
+  if(hid.length>=ST.SC.staves.length)hid.length=0;
+  const key=ST.W.id+'|'+ST.tr+'|'+JSON.stringify(ST.voiceClef)+'|'+hid.join(',');const tr=trInterval(ST.SC.ks,ST.tr);
+  if(VRV.loadedKey!==key){const vc=ST.voiceClef||{};const xml=Object.keys(vc).length?xmlVoiceClef(VRV.base,vc):VRV.base;
+    if(hid.length){tk.setOptions(vrvOpts(width,scale,{transpose:''}));tk.loadData(xml);const mei=meiHide(tk.getMEI({}),hid);tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(mei);}
+    else{tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(xml);}VRV.loadedKey=key;}
+  else{tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.redoLayout();}
   return tk.renderToSVG(1);}
+/* portées masquées : retirées du MEI (les identifiants des autres notes ne bougent pas) ; les indications qui les visaient passent à la 1re portée visible */
+function meiHide(mei,hid){const d=new DOMParser().parseFromString(mei,'application/xml');const H={};hid.forEach(function(n){H[n]=1;});
+  $$('staffDef',d).forEach(function(s){if(H[+s.getAttribute('n')])s.remove();});
+  $$('staffGrp',d).forEach(function(g){if(!$$('staffDef',g).length)g.remove();});
+  const vis=$$('staffDef',d).map(function(s){return +s.getAttribute('n');}).sort(function(a,b){return a-b;});const first=vis[0];
+  $$('staff',d).forEach(function(s){if(H[+s.getAttribute('n')])s.remove();});
+  const ids={};Array.prototype.forEach.call(d.getElementsByTagName('*'),function(e){const x=e.getAttribute('xml:id');if(x)ids[x]=1;});
+  $$('measure [staff]',d).forEach(function(e){const st=e.getAttribute('staff').split(/\s+/).map(Number).filter(function(n){return !H[n];});
+    const ref=(e.getAttribute('startid')||'').slice(1),ref2=(e.getAttribute('endid')||'').slice(1);
+    if((ref&&!ids[ref])||(ref2&&!ids[ref2])){e.remove();return;}
+    if(st.length)e.setAttribute('staff',st.join(' '));else e.setAttribute('staff',String(first));});
+  return new XMLSerializer().serializeToString(d);}
 /* — analyse MEI + timemap — */
 const VOCRX=/sopr|alt|ten|bass|bari|mezzo|contr|voice|voix|chant|canto|choir|ch(œ|oe)ur|chorus|solo|^\s*[satb]\.?\s*$|cavaradossi|tosca/i;
 const VTWORDS=[['sopr','S','Soprano'],['mezzo','Mz','Mezzo'],['alt','A','Alto'],['contr','A','Alto'],['ten','T','Ténor'],['bari','Bar','Baryton'],['bass','B','Basse'],['basse','B','Basse']];
@@ -43,7 +59,7 @@ const VTNAME={S:'Soprano',Mz:'Mezzo',A:'Alto',T:'Ténor',Bar:'Baryton',B:'Basse'
 function buildModel(tk,W,hint){
   const mei=new DOMParser().parseFromString(tk.getMEI({}),'application/xml');
   const tm=tk.renderToTimemap({includeMeasures:true,includeRests:true});
-  const SC={staves:[],parts:[],meas:[],perf:[],ev:[],notes:{},fermRests:[],ks:0,minor:false,verses:1};
+  const SC={staves:[],parts:[],meas:[],perf:[],ev:[],notes:{},fermRests:[],marks:[],ks:0,minor:false,verses:1};
   /* tonalité */
   const kd=mei.querySelector('scoreDef keySig,staffDef keySig');if(kd){const s=kd.getAttribute('sig')||'0';SC.ks=s==='0'?0:(+s.slice(0,-1))*(s.slice(-1)==='f'?-1:1);if(kd.getAttribute('mode')==='minor')SC.minor=true;}
   else if(W.ks!=null)SC.ks=W.ks;if(W.mode==='minor')SC.minor=true;
@@ -59,9 +75,14 @@ function buildModel(tk,W,hint){
   const MI={};let meter=[4,4];
   const walker=mei.createTreeWalker(mei.documentElement,1,null);let node=walker.currentNode;
   while(node){const ln=node.localName;
-    if(ln==='scoreDef'||ln==='staffDef'){if(node.getAttribute('meter.count'))meter=[+node.getAttribute('meter.count'),+node.getAttribute('meter.unit')];}
+    if(ln==='scoreDef'||ln==='staffDef'){if(node.getAttribute('meter.count'))meter=[+node.getAttribute('meter.count'),+node.getAttribute('meter.unit')];if(ln==='scoreDef'&&SC.meas.length)SC._chg=true;}
     else if(ln==='meterSig'&&node.parentNode&&/scoreDef|staffDef/.test(node.parentNode.localName)){meter=[+node.getAttribute('count')||4,+node.getAttribute('unit')||4];}
     else if(ln==='measure'){const i=SC.meas.length;const txt=$$('dir,tempo',node).map(function(d){return d.textContent.replace(/\s+/g,' ').trim();}).filter(Boolean).join(' · ');
+      const reh=$$('reh',node).map(function(r){return r.textContent.trim();}).filter(Boolean)[0]||'';
+      const tmp=$$('tempo',node).map(function(r){return r.textContent.replace(/\s+/g,' ').trim();}).filter(Boolean)[0]||'';
+      const bar=(node.getAttribute('right')||'')+' '+(node.getAttribute('left')||'');
+      if(reh||tmp||SC._chg||/rptstart/.test(node.getAttribute('left')||'')||(i>0&&/dbl|end|rptend/.test(SC._prevRight||'')))SC.marks.push({mi:i,label:reh||tmp||'',kind:reh?'reh':(tmp?'tempo':'bar')});
+      SC._chg=false;SC._prevRight=node.getAttribute('right')||'';
       SC.meas.push({i:i,id:node.getAttribute('xml:id'),n:node.getAttribute('n')||String(i+1),meter:meter.slice(),txt:txt,rall:/rall|rit\.|ritard|allarg|smorz|morendo/i.test(txt)&&!/a tempo/i.test(txt.replace(/.*(rall|rit\.|ritard|allarg)/i,''))});MI[node.getAttribute('xml:id')]=i;}
     node=walker.nextNode();}
   /* notes : portée, voix, paroles, liaisons, points d'orgue… */
@@ -128,7 +149,8 @@ function buildModel(tk,W,hint){
   SC.ev.sort(function(a,b){return a.q-b.q||(a.grace?-1:0)-(b.grace?-1:0);});
   /* temps (en noires) de chaque événement dans sa mesure, pour les repères stables (respirations…) */
   SC.ev.forEach(function(e){const p=SC.perf[e.pi];e.t=p?Math.round((e.q-p.q0)*1e4)/1e4:0;e.midi.sort(function(a,b){return a-b;});});
-  SC.end=maxQ;
+  SC.end=maxQ;delete SC._chg;delete SC._prevRight;
+  if(!SC.marks.length||SC.marks[0].mi!==0)SC.marks.unshift({mi:0,label:'',kind:'start'});
   return SC;}
 /* histogramme des hauteurs par partie (pour la tessiture, sans recharger la pièce) */
 function partHist(SC){const o={};SC.parts.forEach(function(P){if(P.kind!=='voice')return;const h={};let n=0;

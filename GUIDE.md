@@ -38,6 +38,7 @@ Règles absolues : transcrire FIDÈLEMENT ce qui est imprimé, mesure par mesure
 # Architecture (v0.8)
 Gravure et temps : **Verovio** (vendor/verovio-toolkit-wasm.js). Source unique : le MusicXML de l'œuvre — importé tel quel (`W.xml`), ou compilé depuis les jetons ci-dessus (`src/tok2xml.js`).
 Verovio déplie les reprises (timemap) ; `src/engine.js` en tire le modèle `SC` (parties, mesures, ordre de lecture, événements).
-Modules (`build.py` les assemble dans cet ordre) : core (bus, portes, stockage) · tok2xml · engine · audio (échantillons `data/sons.json`) · player · view · ui · library · mix · chant · piano · text · main.
+Modules (`build.py` les assemble dans cet ordre) : core (bus, portes, stockage) · tok2xml · engine · audio (échantillons `data/sons.json`) · player · view · ui · library · mix · plan (sections, repères, enchaînements) · annot (crayon, texte) · chant · piano · text · main.
+Portées masquées : on retire les portées du MEI exporté par Verovio (les xml:id des autres notes restent identiques).
 Plus de chaînage de fonctions : un module s'abonne au `BUS`, pose une porte dans `GATES` ou un modificateur dans `VOLS`.
 `python3 build.py` → partiteur.html (un seul fichier, hors-ligne).

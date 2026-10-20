@@ -12,7 +12,7 @@ function sw(key,on,label,sub){return '<div class="sw"><span>'+label+(sub?'<small
 /* ── ouverture ── */
 async function openWork(id){const W=wById(id);if(!W)return;stop();BUS.emit('close');
   ST.W=W;ST.SC=null;ST.loop=null;ST.cur=0;ST.pi=0;LS.set('last',id);
-  ST.tr=LS.get('tr:'+id,0);ST.tempo=LS.get('tempo:'+id,100);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.pup=LS.get('pup:'+id,null);ST.voiceClef=LS.get('vclef:'+id,{});
+  ST.tr=LS.get('tr:'+id,0);ST.tempo=LS.get('tempo:'+id,100);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.pup=LS.get('pup:'+id,null);ST.voiceClef=LS.get('vclef:'+id,{});ST.hidden=LS.get('hide:'+id,[]);ST.seq=null;
   $('#home').hidden=true;$('#app').hidden=false;$('#score').innerHTML='<div class="hint pad">⏳ Gravure de « '+esc(W.title)+' »…</div>';header();
   try{ST.SC=await engineLoad(W);}catch(e){console.error(e);$('#score').innerHTML='<div class="hint pad">⚠ '+esc(e.message||e)+'</div>';return;}
   /* histogramme des voix (pour la bibliothèque) */
@@ -81,15 +81,17 @@ TABS.regl={title:'⚙ Réglages',render:function(){const VP=voiceParts();
    +'<h4>Affichage</h4><div class="row"><label>Taille</label><button data-zoom="-">−</button><b>'+Math.round(ST.zoom*100)+' %</b><button data-zoom="+">+</button></div>'
    +sw('dim',LS.get('dim',false),'Ma portée en relief','les autres portées s’estompent')
    +VP.map(function(P){const c=ST.voiceClef[P.id]||'';return '<div class="row"><label>Clé · '+esc(P.name)+'</label><div class="chips"><button data-vclef="'+P.id+'|" class="'+(!c?'on':'')+'">d’origine</button><button data-vclef="'+P.id+'|G" class="'+(c==='G'?'on':'')+'">𝄞</button><button data-vclef="'+P.id+'|G8" class="'+(c==='G8'?'on':'')+'">𝄞₈</button><button data-vclef="'+P.id+'|F" class="'+(c==='F'?'on':'')+'">𝄢</button></div></div>';}).join('')
-   +(ST.SC.verses>1?'<div class="hint">'+ST.SC.verses+' couplets : à la lecture, chaque reprise prend le couplet suivant.</div>':'');},
+   +(ST.SC.verses>1?'<div class="hint">'+ST.SC.verses+' couplets : à la lecture, chaque reprise prend le couplet suivant.</div>':'')
+   +'<h4>Gestes</h4><div class="hint">Toucher une mesure : y aller · 🔁 puis deux mesures : boucle · 🎵 court : ta note, long : avec l’accord · pincer : zoom · toucher le tempo ou le ton : remise à zéro · 🖍 : annoter · clavier : espace, ← →, + −, L (boucle), N (note).</div>'
+   +sw('reopen',LS.get('reopen',true),'Rouvrir la dernière pièce','au démarrage de l’appli');},
   after:function(){const r=$('#rvb');if(r)r.oninput=function(){if(!AC)ac();setReverb(+r.value);};}};
 BUS.on('sw',function(k,on){if(k==='count'){ST.count=on;LS.set('count',on);}if(k==='metro'){ST.metro=on;LS.set('metro',on);}if(k==='wait'){ST.wait=on;LS.set('wait',on);}if(k==='follow')ST.follow=on;
-  if(k==='dim'){LS.set('dim',on);markMine();}});
+  if(k==='dim'){LS.set('dim',on);markMine();}if(k==='reopen')LS.set('reopen',on);});
 document.addEventListener('click',function(e){const b=e.target.closest('[data-timbre],[data-zoom],[data-vclef]');if(!b)return;
   if(b.dataset.timbre){ST.timbre=b.dataset.timbre;LS.set('timbre',ST.timbre);tabRender();ac();sndLoad().then(function(){voiceNote(57+(ST.timbre==='ah'?3:0),AC.currentTime+.05,1,.7);});}
   if(b.dataset.zoom){zoomBy(b.dataset.zoom==='+'?1.12:1/1.12);tabRender();}
   if(b.dataset.vclef){const a=b.dataset.vclef.split('|');if(a[1])ST.voiceClef[a[0]]=a[1];else delete ST.voiceClef[a[0]];LS.set('vclef:'+ST.W.id,ST.voiceClef);stop();render();}});
 /* ma portée : marque et estompe les autres */
 function markMine(){const sv=$('#sv');if(!sv)return;const P=myPart();sv.classList.toggle('dimothers',!!(LS.get('dim',false)&&P));if(!P)return;
-  $$('#sv g.measure').forEach(function(m){$$(':scope > g.staff',m).forEach(function(s,i){s.classList.toggle('mystaff',i+1===P.staff);});});}
+  const V=visStaves();$$('#sv g.measure').forEach(function(m){$$(':scope > g.staff',m).forEach(function(s,i){s.classList.toggle('mystaff',V[i]===P.staff);});});}
 BUS.on('drawn',markMine);

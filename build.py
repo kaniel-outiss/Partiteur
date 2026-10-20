@@ -11,7 +11,7 @@ W = [{'id': 'tosca-recondita', 'title': 'Recondita armonia', 'composer': 'Giacom
                 {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
       'measures': ms, 'text': json.load(open('data/tosca_text.json'))}]
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
-MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'chant', 'piano', 'text', 'main']
+MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
 sons = json.load(open('data/sons.json'))
 PARTS = {
