@@ -1,0 +1,166 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "rw",
+   "ly": "",
+   "rh": "G5+G6e F#5+F#6e E5+E6e D5+D6e C#5+C#6e B4+B5e A4+A5e G4+G5e",
+   "lh": "E3+A3 r A2+E3+A3 r"
+  },
+  {
+   "v": "rh A3 A3",
+   "ly": "in Al-",
+   "rh": "F#4+F#5e F#5+A5e D5+F#5e F#5+A5e D5+F#5e F#5+A5e gG5+gB5 F#5+A5e E5+G5s D5+F#5s",
+   "lh": "D3e F#4+A4e D4+F#4e F#4+A4e D4+F#4e F#4+A4e F#4+A4e D4+F#4e",
+   "marks": [
+    "p"
+   ]
+  },
+  {
+   "v": "A3 A3e A3e A3 A3e A3e",
+   "ly": "ma- gna due cen- to‿e trent'",
+   "rh": "E5+G5e E5+G5e C#5+E5e E5+G5e C#5+E5e E5+G5e gF#5+gA5 E5+G5e D5+F#5s C#5+E5s",
+   "lh": "A3+E4+G4e E4+G4e A3+E4e E4+G4e A3+E4e E4+G4e E4+G4e A3+E4e"
+  },
+  {
+   "v": "F#3 A3 rh",
+   "ly": "u- na,",
+   "rh": "D5+F#5e re D5+D6e~ D5+D6e C#6e B5e A5e D6s3 E6s3 F#6s3",
+   "lh": "D4+F#4e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e",
+   "marks": [
+    "f"
+   ],
+   "doubt": "MD : 2e voix inférieure imprimée (demi-pause, soupir, demi-soupir) sous le ré5 lié — fusionnée en accords D5+D6 ; triolet de doubles croches D6-E6-F#6 sous liaison"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G5+G6e F#5+F#6e E5+E6e D5+D6e C#5+C#6e B4+B5e A4+A5e G4+G5e",
+   "lh": "E3+A3 r A2+E3+A3 r"
+  },
+  {
+   "v": "rh A3 A3e A3e",
+   "ly": "cen- to in",
+   "rh": "F#4+F#5e F#5+A5e D5+F#5e F#5+A5e D5+F#5e F#5+A5e gG5+gB5 F#5+A5e E5+G5s D5+F#5s",
+   "lh": "D3e F#4+A4e D4+F#4e F#4+A4e D4+F#4e F#4+A4e F#4+A4e D4+F#4e",
+   "marks": [
+    "p"
+   ]
+  },
+  {
+   "v": "A3 A3e A3e A3 A3e A3e",
+   "ly": "Fran- cia,‿in Tur- chia no- vant'",
+   "rh": "E5+G5e E5+G5e C#5+E5e E5+G5e C#5+E5e E5+G5e gF#5+gA5 E5+G5e D5+F#5s C#5+E5s",
+   "lh": "A3+E4+G4e E4+G4e A3+E4e E4+G4e A3+E4e E4+G4e E4+G4e A3+E4e"
+  },
+  {
+   "v": "F#3e A3e D4h^ G#3e G#3e",
+   "ly": "u- na; ma, in I-",
+   "rh": "D5+F#5 B4+D5+G#5hd^",
+   "lh": "D4+F#4 B2hd^",
+   "marks": [
+    "fp"
+   ]
+  },
+  {
+   "v": "A3 G3hd^",
+   "ly": "spa- gna,",
+   "rh": "A4+E5+G5w^",
+   "lh": "C#3w^",
+   "marks": [
+    "p"
+   ]
+  },
+  {
+   "v": "F#3h G3h",
+   "ly": "ma,‿in I-",
+   "rh": "D5+F#5h D5+G5h",
+   "lh": "D3h E3h"
+  },
+  {
+   "v": "A3 B3h G3",
+   "ly": "spa- gna son",
+   "rh": "D5+A5 D5+B5h D5+G5",
+   "lh": "F#3 G3h E3+B3",
+   "marks": [
+    "sfp"
+   ]
+  },
+  {
+   "v": "E3h A3d A3e",
+   "ly": "gia mil- le‿e",
+   "rh": "D5+E5h C#5+E5h",
+   "lh": "A3h A2h"
+  },
+  {
+   "v": "F#3 r rh",
+   "ly": "tre!",
+   "rh": "D5+F#5 D6h A5ed F#5s",
+   "lh": "D3 D5h A4ed F#4s"
+  },
+  {
+   "v": "rh A3 A3",
+   "ly": "mil- le‿e",
+   "rh": "A5 F#5ed D5s A5 A5",
+   "lh": "A4 F#4ed D4s A4 A4"
+  },
+  {
+   "v": "F#3 r rh",
+   "ly": "tre",
+   "rh": "F#5 D5+D6h A4+A5ed F#4+F#5s",
+   "lh": "F#4 D4h A3ed F#3s",
+   "marks": [
+    "p"
+   ]
+  },
+  {
+   "v": "rh A3 A3",
+   "ly": "mil- le‿e",
+   "rh": "A4+A5 F#4+F#5ed D4+D5s A4+A5 A4+A5",
+   "lh": "A3 F#3ed D3s A3 A3"
+  },
+  {
+   "v": "D3 r rh",
+   "ly": "tre!",
+   "rh": "D4+D5e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e",
+   "lh": "D3e re D3e re F#3e re A3e re"
+  },
+  {
+   "v": "r F#3e F#3e B3e B3e B3e B3e",
+   "ly": "V'han fra que- ste con- ta-",
+   "rh": "D4+G4+B4e D4+G4+B4e D4+G4+B4e D4+G4+B4e D4+G4+B4e D4+G4+B4e D4+G4+B4e D4+G4+B4e",
+   "lh": "D3e D5e re F#5 re B5e re"
+  },
+  {
+   "v": "G#3e G#3e r rh",
+   "ly": "di- ne,",
+   "rh": "E4+G#4+B4e E4+G#4+B4e E4+G#4+B4e E4+G#4+B4e E4+G#4+B4e E4+G#4+B4e E4+G#4+B4e E4+G#4+B4e",
+   "lh": "G#5 E3e re G#3e re B3e re"
+  },
+  {
+   "v": "r G#3e G#3e C#4e C#4e C#4e C#4e",
+   "ly": "ca- me- rie- re cit- ta-",
+   "rh": "E4+G#4+C#5e E4+G#4+C#5e E4+G#4+C#5e E4+G#4+C#5e E4+G#4+C#5e E4+G#4+C#5e E4+G#4+C#5e E4+G#4+C#5e",
+   "lh": "E3 E5e re G#5e re C#6e re"
+  },
+  {
+   "v": "A3e A3e r rh",
+   "ly": "di- ne,",
+   "rh": "F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e",
+   "lh": "A5 F#3e re A3e re C#4e re"
+  },
+  {
+   "v": "r A3e A3e D4e D4e D4e D4e",
+   "ly": "v'han con- tes- se ba- ro-",
+   "rh": "F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e",
+   "lh": "F#3 F#5e re A5e re D6e re"
+  },
+  {
+   "v": "B3e B3e r rh",
+   "ly": "nes- se,",
+   "rh": "G#4+B4+D5e G#4+B4+D5e G#4+B4+D5e G#4+B4+D5e G#4+B4+D5e G#4+B4+D5e G#4+B4+D5e G#4+B4+D5e",
+   "lh": "B5 G#3e re B3e re D4e re"
+  }
+ ]
+}

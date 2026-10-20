@@ -1,0 +1,138 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Allegro",
+"bpm": 132,
+"marks": [
+"p"
+],
+"v": "rw",
+"ly": "",
+"rh": "D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e",
+"lh": "D3 D5e re F#5e re A5e re"
+},
+{
+"v": "rh r F#3e F#3e",
+"ly": "Ma- da-",
+"rh": "D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e",
+"lh": "D6 D3e re F#3e re A3e re"
+},
+{
+"v": "F#3 D3 rh",
+"ly": "mi- na!",
+"rh": "D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e",
+"lh": "D3 D5e re F#5e re A5e re"
+},
+{
+"v": "r F#3e F#3e B3 A3e B3e",
+"ly": "Il ca- ta- lo- go‿è",
+"rh": "D4+F#4+B4e D4+F#4+B4e D4+F#4+B4e D4+F#4+B4e D4+F#4+B4e D4+F#4+B4e D4+F#4+B4e D4+F#4+B4e",
+"lh": "B5 B2e re C#3e re D3e re"
+},
+{
+"v": "G3 G3 r G3e G3e",
+"ly": "que- sto, del- le",
+"rh": "E4+G4+B4e E4+G4+B4e E4+G4+B4e E4+G4+B4e E4+G4+B4e E4+G4+B4e E4+G4+B4e E4+G4+B4e",
+"lh": "E3 E5e re G5e re B5e re"
+},
+{
+"v": "G3 G3e G3e G3 A3e B3e",
+"ly": "bel- le, che‿a- mo‿il pa- dron",
+"rh": "E4+G4+C#5e E4+G4+C#5e E4+G4+C#5e E4+G4+C#5e E4+G4+C#5e E4+G4+C#5e E4+G4+C#5e E4+G4+C#5e",
+"lh": "C#6 C#3e re D3e re E3e re"
+},
+{
+"v": "A3 A3 r A3e A3e",
+"ly": "mi- o, un ca-",
+"rh": "F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e",
+"lh": "F#3 F#5e re A5e re C#6e re"
+},
+{
+"v": "D4h D4 D4",
+"ly": "ta- lo- go‿e-",
+"rh": "F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e",
+"lh": "D6 D3e re F#3e re A3e re"
+},
+{
+"v": "D4h D4d D4e",
+"ly": "gli‿è che‿ho fat-",
+"rh": "F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e",
+"lh": "F#3 F#5e re A5e re D6e re"
+},
+{
+"v": "B3 G3 r G3e B3e",
+"ly": "to‿i- o os- ser-",
+"rh": "D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e",
+"lh": "B5 B3e re G3e re E3e re"
+},
+{
+"v": "A3 A3 r A3",
+"ly": "va- te leg-",
+"rh": "C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e",
+"lh": "C#3 E5e re A5e re C#6e re"
+},
+{
+"v": "A3h A3d A3e",
+"ly": "ge- te con",
+"rh": "C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e",
+"lh": "E6 A2e re B2e re C#3e re"
+},
+{
+"v": "F#3 r A3d D4e",
+"ly": "me! os- ser-",
+"rh": "D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e F#4+A4+D5e",
+"lh": "D3 F#5e re A5e re D6e re"
+},
+{
+"v": "D4 B3 r G3",
+"ly": "va- te, leg-",
+"rh": "D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e D4+E4+G4+B4e",
+"lh": "B5 E3e re F#3e re G3e re"
+},
+{
+"v": "E3h A3d A3e",
+"ly": "ge- te con",
+"rh": "D4+E4+G4+A4e D4+E4+G4+A4e D4+E4+G4+A4e D4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e C#4+E4+G4+A4e",
+"lh": "A3 D6e re E5e re C#6e re"
+},
+{
+"v": "D3 r rh",
+"ly": "me!",
+"rh": "D4+F#4+A4e re D6~ D6e C#6e B5e A5e D6s3 E6s3 F#6s3",
+"lh": "D6e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e"
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "G5+G6e F#5+F#6e E5+E6e D5+D6e C#5+C#6e B4+B5e A4+A5e G4+G5e",
+"lh": "E3+A3 r A2+E3+A3 r",
+"doubt": "arc de liaison au-dessus de la 1re octave (suite du legato du triolet m.16) ; octaves staccato"
+},
+{
+"marks": [
+"p"
+],
+"v": "rh A3 A3",
+"ly": "In I-",
+"rh": "F#4+F#5e F#5+A5e D5+F#5e F#5+A5e D5+F#5e F#5+A5e gG5+B5 F#5+A5e E5+G5s D5+F#5s",
+"lh": "D3e F#4+A4e D4+F#4e F#4+A4e D4+F#4e F#4+A4e F#4+A4e D4+F#4e"
+},
+{
+"v": "A3 A3e A3e A3 A3e A3e",
+"ly": "ta- lia sei cen- to‿e qua-",
+"rh": "E5+G5e E5+G5e C#5+E5e E5+G5e C#5+E5e E5+G5e gF#5+A5 E5+G5e D5+F#5s C#5+E5s",
+"lh": "E4+G4e E4+G4e A3+E4e E4+G4e A3+E4e E4+G4e E4+G4e A3+E4e"
+},
+{
+"marks": [
+"f"
+],
+"v": "F#3 A3 rh",
+"ly": "ran- ta,",
+"rh": "D5+F#5e re D5+D6~ D5+D6e C#6e B5e A5e D6s3 E6s3 F#6s3",
+"lh": "D4+F#4e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e"
+}
+]
+}
