@@ -33,3 +33,11 @@ Règles absolues : transcrire FIDÈLEMENT ce qui est imprimé, mesure par mesure
 
 ## Contrôle
 `python3 /home/claude/partiteur/chk.py /home/claude/partiteur/data/pN.json` vérifie que chaque partie fait la durée de la mesure (3/4 = 3 noires, 6/8 = 3 noires). Tout doit être « ok » (sauf anacrouse éventuelle signalée).
+
+---
+# Architecture (v0.8)
+Gravure et temps : **Verovio** (vendor/verovio-toolkit-wasm.js). Source unique : le MusicXML de l'œuvre — importé tel quel (`W.xml`), ou compilé depuis les jetons ci-dessus (`src/tok2xml.js`).
+Verovio déplie les reprises (timemap) ; `src/engine.js` en tire le modèle `SC` (parties, mesures, ordre de lecture, événements).
+Modules (`build.py` les assemble dans cet ordre) : core (bus, portes, stockage) · tok2xml · engine · audio (échantillons `data/sons.json`) · player · view · ui · library · mix · chant · piano · text · main.
+Plus de chaînage de fonctions : un module s'abonne au `BUS`, pose une porte dans `GATES` ou un modificateur dans `VOLS`.
+`python3 build.py` → partiteur.html (un seul fichier, hors-ligne).
