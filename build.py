@@ -10,6 +10,33 @@ W = [{'id': 'tosca-recondita', 'title': 'Recondita armonia', 'composer': 'Giacom
       'parts': [{'id': 'v', 'name': 'Cavaradossi (ténor)', 'short': 'Canto', 'kind': 'voice', 'clef': 'G', 'oct': -12, 'vt': 'T'},
                 {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
       'measures': ms, 'text': json.load(open('data/tosca_text.json'))}]
+# — « Arm, arm ye brave! » (Haendel) : pages transcrites data/arm_pN.json —
+import glob, os
+if os.path.exists('data/arm_p1.json'):
+    am = []
+    for f in sorted(glob.glob('data/arm_p*.json'), key=lambda x: int(re.search(r'p(\d+)', x).group(1))):
+        am += json.load(open(f))['measures']
+    T = json.load(open('data/arm_text.json'))
+    # livret : une ligne à chaque entrée de phrase (1re note chantée après un silence)
+    KEYS = [('arm', 0), ('the', 1), ('cause', 1), ('in', 2), ('fence', 2), ("th'al", 3), ('th’al', 3), ('might', 3)]
+    lines, prev_rest = [], True
+    for i, m in enumerate(am):
+        v = m.get('v', '').split(); ly = m.get('ly', '').split()
+        if v and v[0].startswith('r') and ly:
+            prev_rest = True
+        if ly and prev_rest:
+            w = ly[0].lower().strip('-,!;')
+            k = next((n for key, n in KEYS if w.startswith(key)), None)
+            if k is not None and (not lines or lines[-1]['_k'] != k or i - lines[-1]['m'] > 4):
+                L = dict(T['lines'][k]); L['m'] = i; L['_k'] = k; lines.append(L)
+        prev_rest = bool(v) and all(t.startswith('r') for t in v[-1:])
+    for L in lines: L.pop('_k', None); L.pop('key', None)
+    T['lines'] = lines
+    W.append({'id': 'handel-arm-arm', 'title': 'Arm, arm, ye brave!', 'composer': 'Georg Friedrich Haendel', 'work': 'Judas Maccabaeus, acte I',
+              'role': 'Simon', 'voice': 'basse', 'style': 'Oratorio', 'period': 'Baroque', 'ks': 0, 'bpm': 80,
+              'parts': [{'id': 'v', 'name': 'Simon (basse)', 'short': 'B.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'B'},
+                        {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
+              'measures': am, 'text': T, 'src': 'Songs and Airs, éd. Ebenezer Prout (Ditson, 1915), p. 153-159'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
