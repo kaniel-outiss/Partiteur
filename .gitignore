@@ -7,3 +7,5 @@ android/
 scan/arm/ag*/
 scan/arm/me/
 scan/arm/*.png
+scan/mad/ag*/
+scan/mad/*.png

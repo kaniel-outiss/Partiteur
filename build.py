@@ -37,6 +37,30 @@ if os.path.exists('data/arm_p1.json'):
               'parts': [{'id': 'v', 'name': 'Simon (basse)', 'short': 'B.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'B'},
                         {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
               'measures': am, 'text': T, 'src': 'Songs and Airs, éd. Ebenezer Prout (Ditson, 1915), p. 153-159'})
+# — « Madamina » (Mozart) : pages transcrites data/mad_pN.json ; livret placé ligne après ligne par mot-clé —
+def pages(prefix):
+    out = []
+    for f in sorted(glob.glob('data/%s_p*.json' % prefix), key=lambda x: int(re.search(r'_p(\d+)', x).group(1))):
+        out += json.load(open(f))['measures']
+    return out
+def place(T, ms):
+    i0, out = 0, []
+    for L in T['lines']:
+        k = L.pop('key', '').lower()
+        for i in range(i0, len(ms)):
+            ly = ms[i].get('ly', '').split()
+            if any(w.lower().strip('-,!;:.…').replace('’', "'").startswith(k) for w in ly[:2]):
+                L['m'] = i; i0 = i + 1; out.append(L); break
+    T['lines'] = out; return T
+if os.path.exists('data/mad_p1.json'):
+    md = pages('mad')
+    for m in md:
+        if 'Andante' in (m.get('tempo') or '') and not m.get('bpm'): m['bpm'] = 100
+    W.append({'id': 'mozart-madamina', 'title': 'Madamina, il catalogo è questo', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Don Giovanni, acte I',
+              'role': 'Leporello', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': 2, 'bpm': 132,
+              'parts': [{'id': 'v', 'name': 'Leporello (basse)', 'short': 'Lep.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'B'},
+                        {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
+              'measures': md, 'text': place(json.load(open('data/mad_text.json')), md), 'src': 'IMSLP 691450 (gravure Sibelius)'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
