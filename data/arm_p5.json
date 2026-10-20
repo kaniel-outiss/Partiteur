@@ -1,0 +1,14 @@
+{"page":5,"measures":[
+ {"marks":["stacc."],"v":"rw","ly":"","rh":"F5e G5s A5s G5e F5e E5e G5e E5e B4e // C5 D5 G4d F4e","lh":"A2+A3 B2+B3 C3+C4 G2+G3"},
+ {"marks":["stacc."],"v":"rw","ly":"","rh":"C5e D5s E5s D5e C5e B4e D5e G5e G4e // E4 F4+A4e E4e D4 C5","lh":"A2+A3 F2+F3 G2+G3 E2+E3"},
+ {"marks":["stacc."],"v":"rw","ly":"","rh":"A4e B4s C5s B4e A4e E4+G4e D4+F4+B4e C4+E4+C5e A4+C5+F5e // C4 F4 rh","lh":"F2+F3 D2+D3 E2+E3e G2+G3e A2+A3e F2+F3e","doubt":"m.3 MD : 2e voix (do4, fa4) sans silence imprimé sur les temps 3-4 — 'rh' ajouté pour compléter la voix ; les accords en croches des temps 3-4 sont sur une seule hampe."},
+ {"marks":["stacc."],"v":"rh r E3e E3e","ly":"In de-","rh":"G4+C5+E5 F4+B4+D5 E4+C5 r","lh":"G2+G3 G1+G2 C2+C3 r"},
+ {"marks":["p"],"v":"C4 B3e A3e G#3 F#3e E3e","ly":"fence of your na- tion, re-","rh":"C5 B4e A4e G#4 r // E4+A4 D4+F4 B3+E4 r","lh":"A1+A2 D2+D3 E2+E3 r"},
+ {"v":"A3 G3e F3e E3 re C3e","ly":"li- gion and laws, Th'al-","rh":"A4 G4e F4e E4 C5e A4e // A3+E4 A3+D4 B3 C4+E4","lh":"C2+C3 D2+D3 G#1+G#2 A1+A2","doubt":"Bécarres imprimés sur sol3/fa3 (chant) et sol4 (MD) = bécarres de précaution."},
+ {"v":"F3 E3e D3e A3 E3e D4e","ly":"might- y Je- ho- vah will","rh":"D5 C5e B4e C5 E5e D5e // D4+A4 E4+A4e F4e E4+A4d F4+B4e","lh":"F2+F3 E2+E3e D2+D3e A2+A3 C2+C3e D2+D3e","doubt":"MD temps 3 : accord do5-la4-mi4 pointé sur une seule hampe ; do5 rangé en voix haute (noire) et la4-mi4 en noire pointée en voix basse, pour loger le mi5 croche."},
+ {"v":"C4 B3e A3e G3h","ly":"strength- en your hands,","rh":"C5 B4e A4e A4 A4e B4e // E4+A4 D4+G#4 C4 E4e G4e","lh":"E2+E3 E1+E2 A1+A2 C3+C4e B2+B3e","doubt":"Le mot «strengthen» est imprimé d'un seul tenant sous do4 et si3 : découpé en «strength- en»."},
+ {"v":"rh r E3e F#3e","ly":"In de-","rh":"C5 B4e A4e G4 G5e A5e // A4 F#4 E4 B4","lh":"A2+A3 D#2+D#3 E2+E3 E2+E3e F#2+F#3e","doubt":"Bécarre imprimé devant sol4 (MD temps 3) = précaution."},
+ {"v":"G3 F#3e E3e B3 B2","ly":"fence of your na- tion,","rh":"E5+B5 D#5+A5e E5+G5e D#5+F#5 E5+G5e F#5+A5e","lh":"G2+G3 F#2+F#3e E2+E3e B2+B3 B1+B2","doubt":"MD : dièse imprimé seulement sur ré5 (temps 2) et fa5 (temps 3) ; ré#5 (temps 3) et fa#5 (dernière croche) par report d'altération."},
+ {"v":"r E3 B3 B2","ly":"re- li- gion,","rh":"B4+G5 A4+F#5e G4+E5e F#4+D#5 G4+E5e A4+F#5e","lh":"r E2+E3 B2+B3 B1+B2","doubt":"fa#5 de la dernière croche par report du dièse du temps 2."},
+ {"v":"r E3 B3h","ly":"and laws,","rh":"G4+B4 F#4+A4e E4+G4e D#4+F#4 E4+G4e F#4+A4e","lh":"r E2+E3 B2+B3h","doubt":"fa#4 des temps 3 et 4 par report du dièse du temps 2."}
+]}
