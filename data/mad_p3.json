@@ -1,0 +1,148 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "r B3e B3e E4e E4e B3e B3e",
+   "ly": "mar- che- sa- ne, prin- ci-",
+   "rh": "G#4+B4+E5e G#4+B4+E5e G#4+B4+E5e G#4+B4+E5e G#4+B4+E5e G#4+B4+E5e G#4+B4+E5e G#4+B4+E5e",
+   "lh": "G#3e re G#5e re B5e re E6e re",
+   "doubt": "Mesure 44 : 1re de la page ; meter 4/4 mis pour le contrôle. Main gauche passe en clé de sol après le 1er temps."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "C#4e A3e C#4e A3e G#3e E3e C#4e A3e",
+   "ly": "pes- se, e v'ha don- ne d'o- gni",
+   "rh": "A4+C#5+E5e A5e E5+C#6e C#5+A5e B4+G#5e E5e E5+C#6e C#5+A5e",
+   "lh": "C#6 E3 E3 E3",
+   "doubt": "MG : C#6 en clé de sol, puis retour clé de fa."
+  },
+  {
+   "v": "G#3e E3e C#4e A3e G#3e E3e C#4e A3e",
+   "ly": "gra- do, d'o- gni for- ma, d'o- gni‿e-",
+   "rh": "B4+G#5e E5e E5+C#6e C#5+A5e B4+G#5e E5e E5+C#6e C#5+A5e",
+   "lh": "E3 E3+A3+C#4e E3+A3+C#4e E3+G#3+B3e E3+G#3+B3e E3+A3+C#4e E3+A3+C#4e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "E3 E4h C#4e A3e",
+   "ly": "tà, d'o- gni _",
+   "rh": "B4+G#5 E5+E6h C#6e A5e",
+   "lh": "E3+G#3+B3 E4h C#4e A3e"
+  },
+  {
+   "v": "G#3e E3e E4h C#4e A3e",
+   "ly": "for- ma, d'o- gni‿e- _",
+   "rh": "G#5e E5e E6h C#6e A5e",
+   "lh": "E3 E4h C#4e A3e"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "E3 r rh",
+   "ly": "tà.",
+   "rh": "E5 E6~ E6e C#6e B5e A5e",
+   "lh": "E3e E4e E4e E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "rh E3d E3e",
+   "ly": "In I-",
+   "rh": "G#5e F#5e E5e D5e C#5e B4e A4e G#4e",
+   "lh": "B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e"
+  },
+  {
+   "v": "C#4 A3 rh",
+   "ly": "ta- lia",
+   "rh": "A4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e",
+   "lh": "E4e re E2~ E2e F#2e G#2e A2e"
+  },
+  {
+   "v": "r re E3e E3 E3e E3e",
+   "ly": "sei cen- to‿e qua-",
+   "rh": "G#3+D4+E4e G#3+D4+E4e G#3+D4+E4e G#3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e D4+E4e",
+   "lh": "B2e C#3e D3e E3e F#3e G#3e A3e B3e"
+  },
+  {
+   "v": "C#3 C#3 rh",
+   "ly": "ran- ta,",
+   "rh": "C#4+E4e re E6~ E6e C#6e B5e A5e",
+   "lh": "A3e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e"
+  },
+  {
+   "v": "rh E4d B3e",
+   "ly": "in Al-",
+   "rh": "G#5e F#5e E5e D5e C#5e B4e A4e G#4e",
+   "lh": "B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e"
+  },
+  {
+   "v": "C#4 A3 rh",
+   "ly": "ma- gna",
+   "rh": "A4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e",
+   "lh": "A3+C#4+E4e re E2~ E2e F#2e G#2e A2e"
+  },
+  {
+   "v": "r re E3e E3 E3e E3e",
+   "ly": "due cen- to‿e trent'",
+   "rh": "G#3+D4+E4e G#3+D4+E4e G#3+D4+E4e G#3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e D4+E4e",
+   "lh": "B2e C#3e D3e E3e F#3e G#3e A3e B3e"
+  },
+  {
+   "v": "C#3 C#3 rh",
+   "ly": "u- na",
+   "rh": "C#4+E4e re E6~ E6e C#6e B5e A5e",
+   "lh": "A3e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e"
+  },
+  {
+   "v": "E3hd F#3e G#3e",
+   "ly": "cen- to in",
+   "rh": "G#5e F#5e E5e D5e C#5e B4e A4e G#4e",
+   "lh": "B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e"
+  },
+  {
+   "v": "A3h A3d A3e",
+   "ly": "Fran- cia‿in Tur-",
+   "rh": "A4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e",
+   "lh": "A3+C#4+E4e re E2~ E2e F#2e G#2e A2e"
+  },
+  {
+   "v": "B3h E4d D4e",
+   "ly": "chia no- vant'",
+   "rh": "G#3+D4+E4e G#3+D4+E4e G#3+D4+E4e G#3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e B3+D4+E4e",
+   "lh": "B2e C#3e D3e E3e F#3e G#3e A3e B3e",
+   "doubt": "Dernier accord MD à 3 sons (B3+D4+E4), contrairement aux mes. 52 et 56 (D4+E4)."
+  },
+  {
+   "v": "C#4e A3e D4h B3~",
+   "ly": "u- na; ma ma,",
+   "rh": "C#4+E4 r A4+D5 r",
+   "lh": "A3 r F#3 r"
+  },
+  {
+   "v": "B3 G#3h G#3e B3e",
+   "ly": "ma in I-",
+   "rh": "F#4+B4 r D4+G#4 r",
+   "lh": "D3 r B2 r"
+  },
+  {
+   "v": "B3 D3hd^",
+   "ly": "spa- gna",
+   "rh": "B3+D4w^",
+   "lh": "G#2+E3w^"
+  },
+  {
+   "v": "C#3h D3h",
+   "ly": "ma‿in I-",
+   "rh": "C#4h D4h // A3w~",
+   "lh": "A2+E3h B2+D3h",
+   "doubt": "Fin de page : syllabe 'I-' continue p.4. MD : A3 ronde liée vers la mesure suivante (p.4), C#4 lié (legato) à D4 ; MG : A2 lié par legato à B2."
+  }
+ ]
+}

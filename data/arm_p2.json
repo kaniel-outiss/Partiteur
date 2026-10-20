@@ -1,0 +1,96 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "C4 G3e B3e C4 re C4e",
+   "ly": "Arm, arm, ye brave! A",
+   "rh": "C5+E5s D5+F5s C5+E5e B4+G5e D5e C5+E5s D5+F5s C5+E5e E5+G5e C5+E5e",
+   "lh": "C4 G3e B3e C4 re C4e",
+   "doubt": "meter 4/4 ajouté pour chk.py (page 2, pas de changement de mesure) ; pas d'armure (do majeur)"
+  },
+  {
+   "v": "D4e C4e G3e B3e C4 re E4e",
+   "ly": "no- _ _ ble cause, a",
+   "rh": "F5e E5e F5e E5s D5s E5e C5e E5e G5e // B4e C5e D5e B4e G4 C5",
+   "lh": "D4e C4e G3e B3e C4 re E4e",
+   "doubt": "voix : petit point sous le demi-soupir (beat 3.5) = probablement une tache, lu comme demi-soupir simple"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "D4e C4e G3e B3e C4 r",
+   "ly": "no- _ _ ble cause,",
+   "rh": "F5e E5e F5e E5s D5s E5e D5e C5e C5+E5+G5e // D5e E5e D5e G4e G4 re re",
+   "lh": "D4e C4e G3e B3e C4e G3e E3e C3e",
+   "doubt": "MD : mi5 (temps 1) et ré5 (temps 2) et accord final communs aux deux voix ; accord final noté dans la voix haute seulement (silence dans la voix basse)"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rh r re E3e",
+   "ly": "The",
+   "rh": "A4+F5+A5 D5+G5+B5 C5+G5+C6 re G4+C5e",
+   "lh": "F3s G3s A3e G3e F3e E3e D3e C3e E3e"
+  },
+  {
+   "v": "D3 G3 D4d C4e",
+   "ly": "cause of Heav'n your",
+   "rh": "F#4+A4+D5 D4+G4+B4 D4+F#4+A4d D4+F#4+A4e",
+   "lh": "D3 G3 D4d C4e",
+   "doubt": "MD : le dièse n'est imprimé que sur le 1er accord ; fa# appliqué aux 3e et 4e accords (altération valable jusqu'à la barre)"
+  },
+  {
+   "v": "B3e A3s G3s F#3e G3e D3 re F#3e",
+   "ly": "zeal _ _ _ de- mands, a",
+   "rh": "D4+G4+D5 D4+A4+C5e D4+G4+B4e D4+F#4+A4 C4+F#4",
+   "lh": "B3e A3s G3s F#3e G3e D3 A2",
+   "doubt": "voix : dernière note (a) imprimée sans dièse, fa#3 par l'altération de la mesure ; MD dernier accord do4+fa4 imprimé sans dièse, fa#4 par le dièse du 3e temps"
+  },
+  {
+   "v": "G3e A3s B3s A3e G3e F#3 re G3e",
+   "ly": "no- _ _ _ ble cause, The",
+   "rh": "D4+G4 A4e G4e A3+D4+F#4 D4+G4 // r C4+E4e B3e r r",
+   "lh": "B2 C3 D3 B2",
+   "doubt": "MD 2e temps : mi4 placé entre les deux hampes (haut la4-sol4, bas do4-si3) — attribué à la voix basse"
+  },
+  {
+   "v": "A3e B3s C4s B3e A3e G3 re A3e",
+   "ly": "cause _ _ _ of Heav'n your",
+   "rh": "E4+A4 B4e A4e G4 A4 // r F#4 B3 D4",
+   "lh": "C3 D3 E3 F#3"
+  },
+  {
+   "v": "B3e C4s D4s C4e B3e A3 re B3e",
+   "ly": "zeal _ _ _ de- mands, a",
+   "rh": "G4+B4 A4+C5e G4+B4e F#4+A4 D4+F#4+B4 // D4 E4 A3 r",
+   "lh": "G3 C3 D3 D2",
+   "doubt": "MD dernier accord ré4+fa4+si4 : fa sans dièse imprimé, fa#4 par le dièse du 3e temps"
+  },
+  {
+   "v": "C4e D4s E4s D4e C4e B3 re D3e",
+   "ly": "no- _ _ _ ble cause, The",
+   "rh": "G4+C5 D5e C5e D4+G4+B4 re B4e // r D4+A4 r re F#4e",
+   "lh": "E2 F#2 G2 D3"
+  },
+  {
+   "v": "E3 F#3 G3e A3e B3e C4e",
+   "ly": "cause of Heav'n _ _ your",
+   "rh": "C5e D5s E5s D5e C5e B4e D5e G5e E5e // G4 A4 re F#4e G4e C5e",
+   "lh": "E3 F#3 G3e A3e B3e C4e",
+   "doubt": "MD voix basse : le si4 du 3e temps est une tête commune aux deux voix, noté dans la voix haute seulement"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "D4 D3 G3 r",
+   "ly": "zeal de- mands.",
+   "rh": "F#5d G5e G5 re G4+B4+D5e // A4d D5e B4 re re",
+   "lh": "D4 D3 G3e A3e B3e G3e",
+   "doubt": "MD : accord final (sol4+si4+ré5, croche) commun aux deux voix, noté dans la voix haute"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "r E3 C4 B3ed A3s",
+   "ly": "Th'al- might- y Je-",
+   "rh": "E4+G4 B4+G5 C5+E5 D5+F#5e C5e",
+   "lh": "r E2+E3 A1+A2 D2+D3",
+   "doubt": "voix t.4 : la 2e note (A3) semble n'avoir qu'un crochet imprimé ; lue double croche pour compléter la mesure. MD t.4 : bécarre devant D5 (D5 naturel) + dièse sur F5."
+  },
+  {
+   "v": "B3 E3 r C4",
+   "ly": "ho- vah will",
+   "rh": "B4+G5 G4+B4 A4+C5 G4+B4e F#4+A4e",
+   "lh": "G1+G2 E2+E3 A1+A2 D2+D3",
+   "doubt": "MD dernière croche : accord lu F#4+A4 (dièse unique devant)."
+  },
+  {
+   "v": "B3ed C4s A3ed B3s G3ed C4s B3ed C4s",
+   "ly": "strength- _ _ _ _ _ _ _",
+   "rh": "G4+B4 r B4+E5 G4",
+   "lh": "G1+G2 F#1+F#2 E1+E2 E2+E3"
+  },
+  {
+   "v": "A3ed B3s G3ed A3s F#3ed B3s A3ed B3s",
+   "ly": "_ _ _ _ _ _ _ _",
+   "rh": "A4+E5 r A4+D#5 F#4",
+   "lh": "F#2+F#3 A1+A2 B1+B2 D#2+D#3"
+  },
+  {
+   "v": "G3ed A3s F#3ed G3s E3ed F#3s G3ed A3s",
+   "ly": "_ _ _ _ _ _ _ _",
+   "rh": "G4+B4 r B4+E5 r",
+   "lh": "E2+E3 B1+B2 E2+E3ed F#2+F#3s G2+G3ed A2+A3s"
+  },
+  {
+   "v": "B3 B2 r B3",
+   "ly": "_ en, th'al-",
+   "rh": "F#4+D#5ed D#5+F#5s C#5+E5ed D#5+F#5s E5+G5ed F#5+A5s D#5+F#5ed G5s",
+   "lh": "B2+B3 B1+B2 r B2+B3",
+   "doubt": "MD : accords en doubles notes lus d'après les têtes ; le dièse de D5 (1er temps) est supposé valable pour toute la mesure."
+  },
+  {
+   "v": "C4h B3 A3",
+   "ly": "might- y Je-",
+   "rh": "E5+A5h F#4+B4+D#5h",
+   "lh": "C3+C4h B2+B3 A2+A3"
+  },
+  {
+   "v": "E4h E3 A3",
+   "ly": "ho- vah will",
+   "rh": "E4+B4+E5hd C4+E4+A4",
+   "lh": "G2+G3hd A2+A3"
+  },
+  {
+   "v": "B3h B2d B2e",
+   "ly": "strength- en your",
+   "rh": "B3+E4+G4h B3+D#4+F#4h",
+   "lh": "B2h B1+B2h",
+   "doubt": "MD 2e accord : dièses lus pour D4 et F4 → B3+D#4+F#4."
+  },
+  {
+   "v": "E3w",
+   "ly": "hands.",
+   "rh": "G3+E4w",
+   "lh": "E2+E3w"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "C5e D4+D5s E4+E5s E4e C4e G4 G4",
+   "lh": "C3+C4e D3s E3s E2+E3e C2+C3e G2+G3 G2+G3",
+   "doubt": "Liaison sur le 1er temps (MD et MG) ; points de staccato sous les croches et les noires liées (portato) des temps 3-4."
+  },
+  {
+   "v": "C4 r G3 r",
+   "ly": "Arm, arm,",
+   "rh": "C5e D4+D5s E4+E5s E4e C4e G4 E4e C4e",
+   "lh": "C3+C4e D3+D4s E3+E4s E2+E3e C2+C3e G2+G3 E2+E3e C2+C3e"
+  },
+  {
+   "v": "G3 E3e C3e G3 re C3e",
+   "ly": "arm, arm, ye brave! a",
+   "rh": "G4 E4e C4e G4 re C4e",
+   "lh": "G2+G3 E2+E3e C2+C3e G2+G3 re C2+C3e"
+  },
+  {
+   "v": "D3e E3s F3s E3e D3e C3 re D3e",
+   "ly": "no- _ _ _ ble cause, The",
+   "rh": "D4e E4s F4s E4e D4e C4 re D4e",
+   "lh": "D2+D3e E2+E3s F2+F3s E2+E3e D2+D3e C2+C3 re D2+D3e",
+   "doubt": "Voix : liaison sur les 4 premières notes (mélisme « no- »). Mesure continue page suivante (anacrouse « The »)."
+  }
+ ]
+}
