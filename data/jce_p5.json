@@ -1,0 +1,113 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "6/8",
+   "v": "G5 F5e B5^ A5e",
+   "ly": "vres _ se doux",
+   "rh": "E5+G5 D5+F5e G5+B5^ F5+A5e",
+   "lh": "D2+D3 A3e E4^ D4e",
+   "doubt": "1re mesure de la page = m.74 (75 encadré à la suivante) ; « -vres » suite de la page précédente ; liaison G5-F5 au chant"
+  },
+  {
+   "v": "C5hd",
+   "ly": "rê-",
+   "rh": "E4+C5d C5+A5t B5t C6t B5t A5s rs re",
+   "lh": "E2 E3e A3 B3e",
+   "doubt": "groupe de 5 notes : 3e barre sur les 4 premières seulement → 4 triples croches + 1 double croche"
+  },
+  {
+   "v": "C5 B4e A4 G#4e",
+   "ly": "_ _ _ _",
+   "rh": "A4+C5t D5t E5t D5t C5s rs D4+B4e C4+A4 B3+G#4e",
+   "lh": "C4 D4e E4 re"
+  },
+  {
+   "v": "A4hd~",
+   "ly": "ve.",
+   "rh": "C4+A4d A5+C6t D6t E6t D6t C6s rs re",
+   "lh": "A1+A2 E3e A3 B3e",
+   "doubt": "liaison A4 → m.78 lue comme liaison de prolongation"
+  },
+  {
+   "marks": [
+    "pp",
+    "ppp"
+   ],
+   "v": "A4e re re E5d",
+   "ly": "Char-",
+   "rh": "A4+C5t D5t E5t D5t C5s rs re E5d",
+   "lh": "C4d E3 re",
+   "doubt": "pp au chant, ppp sous la m.d. du piano"
+  },
+  {
+   "v": "A5hd~",
+   "ly": "mant",
+   "rh": "A5d A5+C6t D6t E6t D6t C6s rs re",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "A5d G5e D5e F5e",
+   "ly": "sou _ ve-",
+   "rh": "A4+C5t D5t E5t D5t C5s rs re G5e D5e F5e",
+   "lh": "C4d E3 re"
+  },
+  {
+   "v": "E5hd~",
+   "ly": "nir…",
+   "rh": "E5d A5+C6t D6t E6t D6t C6s rs re",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "E5hd~",
+   "ly": "",
+   "rh": "A4+C5t D5t E5t D5t C5s rs re E4d",
+   "lh": "C4d E3 re"
+  },
+  {
+   "v": "E5hd~",
+   "ly": "",
+   "rh": "C5d A5+C6t D6t E6t D6t C6s rs re",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "E5hd~",
+   "ly": "",
+   "rh": "A4+C5t D5t E5t D5t C5s rs re B4e F#4e G#4e",
+   "lh": "C4d E3 re"
+  },
+  {
+   "v": "E5 re rd",
+   "ly": "",
+   "rh": "C4+A4d A5+C6t D6t E6t D6t C6s rs re",
+   "lh": "A1+A2 E3e A3 B3e",
+   "doubt": "fin du chant (E5 lié depuis m.81)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+C5t D5t E5t D5t C5s rs rd re",
+   "lh": "C4d E3 re",
+   "doubt": "dernier système sans portée de chant → silences"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "rd A5+C6t D6t E6t D6t C6s rs re",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+C5t D5t E5t D5t C5s rs re rd",
+   "lh": "C4d E3 re"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "rh r",
+   "lh": "A1+A2hd",
+   "doubt": "double barre finale (m.89)"
+  }
+ ]
+}
