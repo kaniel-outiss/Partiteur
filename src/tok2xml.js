@@ -49,7 +49,7 @@ function t2AutoClefs(meas,key,def){let cur=def;return meas.map(function(m){const
     else{if(cur==='G'&&hi<=57)cur='F';else if(cur==='F'&&hi>=60&&med>=57)cur='G';}}return cur;});}
 /* ── l'œuvre entière ──
    opt.voiceClef : {partId:'F'|'G'} (chant en clé de fa, hauteur réelle) ; renvoie {xml, staves:[{pid,kind,hand,...}]} */
-function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0,KM=t2KsMap(ks);
+function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0;let kcur=ks;const KSM=W.measures.map(function(m){if(m.ks!=null)kcur=m.ks;return kcur;}),KMM=KSM.map(t2KsMap);
   /* regroupement des parties : main droite + main gauche = un piano à deux portées */
   const G=[];W.parts.forEach(function(P,i){const prev=G[G.length-1];
     const isLH=P.kind!=='voice'&&(P.id==='lh'||/ MG$/.test(P.name||''));
@@ -73,9 +73,9 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0,KM=t
     if(g.kind==='piano'&&g.staves.length>1)x+='<part-group type="stop" number="1"/>';});
   x+='</part-list>';
   G.forEach(function(g,gi){x+='<part id="'+g.id+'">';const ns=g.staves.length;
-    W.measures.forEach(function(m,mi){const L=MM[mi].len;x+='<measure number="'+(mi+1)+'"'+(mi===0&&L<t2MeterLen(MM[mi].meter)-1e-6?' implicit="yes"':'')+'>';
+    W.measures.forEach(function(m,mi){const L=MM[mi].len;x+='<measure number="'+(mi+(MM[0].len<t2MeterLen(MM[0].meter)-1e-6?0:1))+'"'+(mi===0&&L<t2MeterLen(MM[mi].meter)-1e-6?' implicit="yes"':'')+'>';
       /* attributs */
-      let at='';if(mi===0)at+='<divisions>'+DIV+'</divisions><key><fifths>'+ks+'</fifths></key>';
+      let at='';if(mi===0)at+='<divisions>'+DIV+'</divisions><key><fifths>'+KSM[0]+'</fifths></key>';else if(KSM[mi]!==KSM[mi-1])at+='<key><fifths>'+KSM[mi]+'</fifths></key>';
       if(mi===0||MM[mi].meterShow){const a=MM[mi].meter.split('/');at+='<time><beats>'+a[0]+'</beats><beat-type>'+a[1]+'</beat-type></time>';}
       if(mi===0&&ns>1)at+='<staves>'+ns+'</staves>';
       g.staves.forEach(function(P,si){const c=CLEF[P.id][mi],pc=mi?CLEF[P.id][mi-1]:null;if(mi===0||c!==pc){const S=staves.filter(function(s){return s.pid===P.id;})[0];
@@ -98,7 +98,7 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0,KM=t
         all.sort(function(a,b){return a.t-b.t||a.vi-b.vi;});
         all.forEach(function(o){const V=VV[o.vi],pv=o.k>0?V[o.k-1]:null,ti=tieIn[P.id+'|'+o.vi]||{};
           o.e.notes.forEach(function(n,ni){const cont=o.k>0?(pv&&pv.tie&&pv.notes.some(function(q){return q.midi===n.midi;})):!!ti[n.midi];
-            const key=n.L+n.oct,have=acc[key]!=null?acc[key]:(KM[n.L]||0);if(n.acc!==have&&!cont)ACC[o.vi+'|'+o.k+'|'+ni]=1;acc[key]=n.acc;});});
+            const key=n.L+n.oct,have=acc[key]!=null?acc[key]:(KMM[mi][n.L]||0);if(n.acc!==have&&!cont)ACC[o.vi+'|'+o.k+'|'+ni]=1;acc[key]=n.acc;});});
         vs.forEach(function(vstr,vi){const V=VV[vi];if(!V.length&&vi>0)return;
           if(pos>0){x+='<backup><duration>'+Math.round(pos*DIV)+'</duration></backup>';pos=0;}
           const voiceNo=si*4+vi+1,tk=P.id+'|'+vi;const B=t2Beams(V,MM[mi].meter),T=t2Tuplets(V);

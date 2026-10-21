@@ -1,0 +1,138 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"ppp"
+],
+"v": "F#3 F#3ed F#3s A3ed A3s",
+"ly": "Il la- ce- ra- to",
+"rh": "A3+C#4+F#4+A4h A3+B#3+D#4+A4",
+"lh": "F#2+F#3h F#2+F#3",
+"doubt": "m.31 (numéro imprimé). Chiffrage 3/4 imprimé ; tempo imprimé au-dessus du chant et du piano (figure de note à tête blanche = blanche). Accents (>) : chant sur A3 ; MD/MG sur l'accord du 3e temps. MD 3e temps : deux dièses imprimés (B#3 et D#4), seconde A3/B#3 décalée, lue au pixel.",
+"tempo": "Andante sostenuto (blanche = 56)",
+"bpm": 112
+},
+{
+"v": "F#3ed F#3s F#3 r",
+"ly": "spi- ri- to",
+"rh": "A3+C#4+F#4+A4~ A3+C#4+F#4+A4e re r",
+"lh": "F#2+F#3~ F#2+F#3e C#2e C#2e C#2e",
+"doubt": "MG : C#2 staccato (points)."
+},
+{
+"v": "G#3 G#3ed G#3s B3ed B3s",
+"ly": "del me- sto ge- ni-",
+"rh": "E#4+G#4h D4+F#4+B4",
+"lh": "C#3+G#3+C#4h D3+F#3+B3",
+"doubt": "Accent (>) chant sur B3 et sur l'accord du 3e temps (MD/MG). MD : dièse imprimé sur E#4 ; 3e temps D4+F#4+B4 (et MG D3+F#3+B3) lus au pixel."
+},
+{
+"v": "C#3 C#3 r",
+"ly": "to- re",
+"rh": "E#4+G#4~ E#4+G#4e re r",
+"lh": "C#3+G#3+C#4~ C#3+G#3+C#4e C#2e C#2e C#2e",
+"doubt": "MD : dièse imprimé sur E#4. MG : C#2 staccato."
+},
+{
+"v": "D3 D3ed D3s C#3ed C#3s",
+"ly": "e- ra ser- ba- to‿a",
+"rh": "D4+F#4+B4h C#4+E#4+B4",
+"lh": "B2+F#3h G#2+E#3+G#3",
+"doubt": "m.35 (numéro imprimé). Élision « to‿a » sur une seule note. Têtes de l'accord de blanches MD (D4+F#4+B4) lues au pixel. Dièses imprimés : E#4 (MD), E#3 (MG)."
+},
+{
+"marks": [
+"<"
+],
+"v": "C#3ed D#3t E#3t F#3 G#3",
+"ly": "stra- _ _ zio d'in-",
+"rh": "C#4+F#4+A4h D4+F#4",
+"lh": "A2+F#3h B2+F#3+B3",
+"doubt": "Soufflet crescendo (<) au-dessus du chant. Chant : D#3 et E#3 avec dièses imprimés, ligature à 3 barres (triples croches)."
+},
+{
+"v": "A3ed B3s C#4d E#3e",
+"ly": "fa- mia‿e di do-",
+"rh": "C#4+F#4+A4h C#4+E#4+G#4",
+"lh": "C#3+A3h C#3+B3",
+"doubt": "Élision « mia‿e ». Dièses imprimés : E#3 (chant), E#4 (MD)."
+},
+{
+"v": "G#3h F#3e re",
+"ly": "lo- re.",
+"rh": "B3+C#4+E#4+G#4h A3+C#4+F#4e rs F#4+A4+C#5s",
+"lh": "C#3h F#2e re // re C#2e C#2e C#2e F#2e re",
+"doubt": "m.38 (numéro imprimé). MG à 2 voix : blanche C#3 liée d'expression à F#2 (croche commune aux deux voix) ; voix inférieure C#2 staccato. Un seul soupir de croche imprimé en fin de mesure (commun). MD : dièse imprimé sur E#4."
+},
+{
+"marks": [
+"f",
+">",
+"pp"
+],
+"v": "rhd",
+"ly": "",
+"rh": "E#4+G#4+B4+D5h E#4+G#4+B4+C#5e re",
+"lh": "r r C#3ed C#3s",
+"doubt": "Chant : pause (mesure de silence). f + soufflet decrescendo (>) sous la MD ; pp sous la MG. Dièse imprimé sur E#4."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "r r red E#4+G#4+B4+C#5s",
+"lh": "C#3 C#3 r",
+"doubt": "Chant : pause. Dièse imprimé sur E#4."
+},
+{
+"marks": [
+"f",
+"<",
+"pp"
+],
+"v": "rhd",
+"ly": "",
+"rh": "E#4+G#4+B4+D5h E#4+G#4+B4+C#5e re",
+"lh": "r r C#3ed C#3s",
+"doubt": "Chant : pause. Ici le soufflet après f s'ouvre vers la droite (crescendo <), contrairement à m.39 — lu tel qu'imprimé. pp sous la MG."
+},
+{
+"v": "r r red C#3s",
+"ly": "Il",
+"rh": "rhd",
+"lh": "C#3 C#3 r",
+"doubt": "m.42 (numéro imprimé). MD : pause. Double barre en fin de mesure, puis nouvelle armure."
+},
+{
+"marks": [
+"cantabile",
+"pp",
+"armure : 6 dièses (fa♯ majeur)"
+],
+"v": "A#3d G#3e F#3e D#3e",
+"ly": "ser- to‿a lei de'",
+"rh": "C#4+F#4* A#3* D#4+F#4e* B3e*",
+"lh": "F#1+F#2e re r B1+B2e re",
+"doubt": "Double barre et armure de 6 dièses. MD : trémolos alternés à 3 barres (blanche C#4+F#4 / A#3, puis noire D#4+F#4 / B3), codés selon la convention noire*+noire* (et croche*+croche* pour la paire de noires), liaisons d'expression. Élision « to‿a ».",
+"ks": 6
+},
+{
+"v": "C#3ed C#3s C#3 re C#3e",
+"ly": "mar- ti- ri pie-",
+"rh": "C#4+E#4d* B3d*",
+"lh": "red E#4+G#4+B4+C#5s E#4+G#4+B4+D5 E#4+G#4+B4+C#5e re // G#1+G#2e re r r",
+"doubt": "MD : trémolo alterné 3 barres en blanches pointées (C#4+E#4 / B3), codé noire pointée*+noire pointée*. MG à 2 voix : voix sup. passe en clé de SOL après le 1er temps (accords en hauteur réelle), bécarre imprimé sur D5 (D♮5), retour en clé de FA en fin de mesure ; voix inf. G#1+G#2 croche puis silences."
+},
+{
+"marks": [
+">"
+],
+"v": "A#3d G#3e F#3e D#3e",
+"ly": "to- so‿il cie- lo",
+"rh": "C#4+F#4* A#3* D#4+F#4e* B3e*",
+"lh": "F#1+F#2e re r B1+B2e re",
+"doubt": "Soufflet decrescendo (>) au-dessus du chant. MD : dièse (de précaution ?) imprimé devant D#4 au 3e temps. Trémolos codés comme m.43. Mesure finale de la page, suite page suivante."
+}
+]
+}

@@ -1,65 +1,132 @@
-{"page":2,"measures":[
- {"meter":"4/4","marks":["f"],
-  "v":"G3e F#3e r rh","ly":"val- si!...",
-  "rh":"r red F4s F4 red A3+F#4+A4s",
-  "lh":"r red F#2+F#3s F#2+F#3 red F#2+F#3s",
-  "doubt":"m.16 (numéro imprimé). Mesure C. Chant : bécarre imprimé sur le sol (G♮3). « val-si » : début de mot possiblement sur la page précédente ? (seul le trait val - si est imprimé). f placé sous la portée de MD au 2e temps."},
- {"v":"rh re C4e C4e C4e","ly":"Oh ma- le-",
-  "rh":"A3+F#4+A4 red C#4+F#4+A4+C#5s C#4+F#4+A4+C#5 r",
-  "lh":"F#2+F#3 red F#2+F#3s F#2+F#3 r"},
- {"marks":["p"],
-  "v":"C4 C#3e rs C#3s C4ed B3s A3ed E3s","ly":"det- to! Oh vi- le se- dut-",
-  "rh":"C#4+E#4+B4+C#5w",
-  "lh":"G#2+G#3w",
-  "doubt":"Chant : accent (>) sur C4 « vi » ; petit point isolé après le 1er C4 (tache ?). MD : dièse imprimé devant le mi (E#4) ; ronde C5 décalée à droite du B4."},
- {"marks":["pp"],
-  "v":"G#3e F#3e r r re A3e","ly":"to- re! E",
-  "rh":"D4+F#4* A3* D4+F#4* A3*",
-  "lh":"D2* D3* D2* D3*",
-  "doubt":"Trémolos alternés (3 barres) en blanches, valeur réelle = une blanche par paire, codés noire*+noire*, liés par une liaison d'expression. Idem m.19-22."},
- {"marks":["(volgendosi all'Immagine)"],
-  "v":"D4h A3 F#3ed D3s","ly":"tu, Ver- gin, sof-",
-  "rh":"D4+F#4* A3* D4+F#4* A3*",
-  "lh":"D2* D3* D2* D3*"},
- {"v":"C#3 E3 re G3e A3e B3e","ly":"fri- sti ra- pi- ta‿a",
-  "rh":"C#4+E4+G4* A3* C#4+E4+G4* A3*",
-  "lh":"D2* D3* D2* D3*",
-  "doubt":"Chant : bécarre imprimé sur G3. MD : bécarre imprimé sur G4 (1er accord) ; élision « ta‿a » sur une seule note."},
- {"v":"B3 C#3e B3e A3e G3e F#3e E3e","ly":"le- i la ver- gi- nal co-",
-  "rh":"C#4+E4+G4* A3* C#4+E4+G4* A3*~",
-  "lh":"D2* D3* D2* D3*~",
-  "doubt":"Chant : bécarre imprimé sur G3. MD : bécarre sur G4 (1er accord). Double barre en fin de mesure. Liaisons de prolongation A3 (MD) et D3 (MG) vers m.23."},
- {"marks":["Allegro","f"],
-  "v":"G3e F#3e r rh","ly":"ro- na?",
-  "rh":"A3+D4+F#4e D4t E4t F#4t G4t A4e F#4t G4t A4t B4t C5 r",
-  "lh":"D2+D3e D2t E2t F#2t G2t A2e F#2t G2t A2t B2t C3 r",
-  "doubt":"Chant : bécarre sur G3. MD/MG : bécarres sur G4/G2 (valables pour le 2e groupe) et sur C5/C3 ; A4e/A2e staccato ; accents sur C5/C3 ; liaisons d'expression sur les traits. A3 (MD) et D3 (MG) du 1er accord liés depuis m.22."},
- {"marks":["p"],
-  "v":"A3 red A3s B3e A3e red A3s","ly":"Ah! che dis- si? de-",
-  "rh":"r A3+C4+A4e re r A3+C4+A4e re",
-  "lh":"r D#2+D#3e re r E2+E3e re",
-  "doubt":"MD : bécarre imprimé sur C4 (1er accord, valable jusqu'à la barre)."},
- {"v":"B3e A3e r rh","ly":"li- ro!",
-  "rh":"r A3+C4+A4e re rh",
-  "lh":"r F2+F3e re rh",
-  "doubt":"MD : bécarre sur C4 ; MG : bécarres sur F2 et F3. Double barre en fin de mesure."},
- {"marks":["Largo","col canto"],
-  "v":"C4h B3d A3e","ly":"Ah, mi per-",
-  "rh":"rw",
-  "lh":"rw",
-  "doubt":"Chant : bécarre imprimé sur C4 (blanche)."},
- {"v":"E3w","ly":"do-",
-  "rh":"rh B3+D4+G#4h",
-  "lh":"rh E2+E3h~",
-  "doubt":"MD : dièse imprimé (de précaution) sur G#4 ; liaison d'expression vers l'accord de m.28. MG : liaison de prolongation sur E3 seulement (pas E2)."},
- {"v":"A2h rh","ly":"na!",
-  "rh":"A3+C#4+A4h r A3e rs A3s",
-  "lh":"A2+E3h r A1+A2e rs A1+A2s"},
- {"v":"rw","ly":"",
-  "rh":"B3e re r r B3e rs B3s",
-  "lh":"B1+B2e re r r B1+B2e rs B1+B2s"},
- {"v":"rw^","ly":"",
-  "rh":"C#4e re r C#4e re r^",
-  "lh":"C#2+C#3e re r C#2+C#3e re r^",
-  "doubt":"m.30 : points d'orgue sur la pause du chant et sur le dernier soupir du piano. Double barre puis chiffrage 3/4 en fin de système (changement de mesure pour la page suivante)."}
-]}
+{
+"page": 2,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"f"
+],
+"v": "G3e F#3e r rh",
+"ly": "val- si!...",
+"rh": "r red F4s F4 red A3+F#4+A4s",
+"lh": "r red F#2+F#3s F#2+F#3 red F#2+F#3s",
+"doubt": "m.16 (numéro imprimé). Mesure C. Chant : bécarre imprimé sur le sol (G♮3). « val-si » : début de mot possiblement sur la page précédente ? (seul le trait val - si est imprimé). f placé sous la portée de MD au 2e temps."
+},
+{
+"v": "rh re C4e C4e C4e",
+"ly": "Oh ma- le-",
+"rh": "A3+F#4+A4 red C#4+F#4+A4+C#5s C#4+F#4+A4+C#5 r",
+"lh": "F#2+F#3 red F#2+F#3s F#2+F#3 r"
+},
+{
+"marks": [
+"p"
+],
+"v": "C4 C#3e rs C#3s C4ed B3s A3ed E3s",
+"ly": "det- to! Oh vi- le se- dut-",
+"rh": "C#4+E#4+B4+C#5w",
+"lh": "G#2+G#3w",
+"doubt": "Chant : accent (>) sur C4 « vi » ; petit point isolé après le 1er C4 (tache ?). MD : dièse imprimé devant le mi (E#4) ; ronde C5 décalée à droite du B4."
+},
+{
+"marks": [
+"pp"
+],
+"v": "G#3e F#3e r r re A3e",
+"ly": "to- re! E",
+"rh": "D4+F#4* A3* D4+F#4* A3*",
+"lh": "D2* D3* D2* D3*",
+"doubt": "Trémolos alternés (3 barres) en blanches, valeur réelle = une blanche par paire, codés noire*+noire*, liés par une liaison d'expression. Idem m.19-22."
+},
+{
+"marks": [
+"(volgendosi all'Immagine)"
+],
+"v": "D4h A3 F#3ed D3s",
+"ly": "tu, Ver- gin, sof-",
+"rh": "D4+F#4* A3* D4+F#4* A3*",
+"lh": "D2* D3* D2* D3*"
+},
+{
+"v": "C#3 E3 re G3e A3e B3e",
+"ly": "fri- sti ra- pi- ta‿a",
+"rh": "C#4+E4+G4* A3* C#4+E4+G4* A3*",
+"lh": "D2* D3* D2* D3*",
+"doubt": "Chant : bécarre imprimé sur G3. MD : bécarre imprimé sur G4 (1er accord) ; élision « ta‿a » sur une seule note."
+},
+{
+"v": "B3 C#3e B3e A3e G3e F#3e E3e",
+"ly": "le- i la ver- gi- nal co-",
+"rh": "C#4+E4+G4* A3* C#4+E4+G4* A3*~",
+"lh": "D2* D3* D2* D3*~",
+"doubt": "Chant : bécarre imprimé sur G3. MD : bécarre sur G4 (1er accord). Double barre en fin de mesure. Liaisons de prolongation A3 (MD) et D3 (MG) vers m.23."
+},
+{
+"marks": [
+"Allegro",
+"f"
+],
+"v": "G3e F#3e r rh",
+"ly": "ro- na?",
+"rh": "A3+D4+F#4e D4t E4t F#4t G4t A4e F#4t G4t A4t B4t C5 r",
+"lh": "D2+D3e D2t E2t F#2t G2t A2e F#2t G2t A2t B2t C3 r",
+"doubt": "Chant : bécarre sur G3. MD/MG : bécarres sur G4/G2 (valables pour le 2e groupe) et sur C5/C3 ; A4e/A2e staccato ; accents sur C5/C3 ; liaisons d'expression sur les traits. A3 (MD) et D3 (MG) du 1er accord liés depuis m.22.",
+"bpm": 120
+},
+{
+"marks": [
+"p"
+],
+"v": "A3 red A3s B3e A3e red A3s",
+"ly": "Ah! che dis- si? de-",
+"rh": "r A3+C4+A4e re r A3+C4+A4e re",
+"lh": "r D#2+D#3e re r E2+E3e re",
+"doubt": "MD : bécarre imprimé sur C4 (1er accord, valable jusqu'à la barre)."
+},
+{
+"v": "B3e A3e r rh",
+"ly": "li- ro!",
+"rh": "r A3+C4+A4e re rh",
+"lh": "r F2+F3e re rh",
+"doubt": "MD : bécarre sur C4 ; MG : bécarres sur F2 et F3. Double barre en fin de mesure."
+},
+{
+"marks": [
+"Largo",
+"col canto"
+],
+"v": "C4h B3d A3e",
+"ly": "Ah, mi per-",
+"rh": "rw",
+"lh": "rw",
+"doubt": "Chant : bécarre imprimé sur C4 (blanche).",
+"bpm": 50
+},
+{
+"v": "E3w",
+"ly": "do-",
+"rh": "rh B3+D4+G#4h",
+"lh": "rh E2+E3h~",
+"doubt": "MD : dièse imprimé (de précaution) sur G#4 ; liaison d'expression vers l'accord de m.28. MG : liaison de prolongation sur E3 seulement (pas E2)."
+},
+{
+"v": "A2h rh",
+"ly": "na!",
+"rh": "A3+C#4+A4h r A3e rs A3s",
+"lh": "A2+E3h r A1+A2e rs A1+A2s"
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "B3e re r r B3e rs B3s",
+"lh": "B1+B2e re r r B1+B2e rs B1+B2s"
+},
+{
+"v": "rw^",
+"ly": "",
+"rh": "C#4e re r C#4e re r^",
+"lh": "C#2+C#3e re r C#2+C#3e re r^",
+"doubt": "m.30 : points d'orgue sur la pause du chant et sur le dernier soupir du piano. Double barre puis chiffrage 3/4 en fin de système (changement de mesure pour la page suivante)."
+}
+]
+}
