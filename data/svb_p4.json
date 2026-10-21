@@ -1,0 +1,20 @@
+{"page":4,"measures":[
+ {"meter":"3/4","v":"E3 G3 r","ly":"scuo- la,","rh":"C4+E4 r r","lh":"C3+G3 r r","doubt":"Suite de la page précédente (« scuo-la »)."},
+ {"marks":["f"],"v":"C4 C4d C4e","ly":"la ca- pri-","rh":"E4+G4+C5 E4+G4+C5 E4+G4+C5","lh":"C3+E3+G3+C4 C3+E3+G3+C4 C3+E3+G3+C4"},
+ {"v":"E4 C4 r","ly":"o- la","rh":"G4+C5+E5 G4+C5+E5+G5 r","lh":"C3+E3+G3+C4 C3+E3+G3+C4 r"},
+ {"marks":["p"],"v":"E3 F3 D3","ly":"le‿in- se- gne-","rh":"C4+E4 D4+F4 B3+D4","lh":"A3 F3+A3 G3","doubt":"Piano : accords et notes staccato ; bécarre sur B3 (RH)."},
+ {"v":"G3 C4 r","ly":"rò, sì,","rh":"E4+G4 r r","lh":"C3+G3 r r"},
+ {"v":"E3 F3 D3","ly":"le‿in- se- gne-","rh":"C4+E4 D4+F4 B3+D4","lh":"A3 F3+A3 G3","doubt":"Piano staccato ; bécarre sur B3 (RH)."},
+ {"v":"G3 E4 r","ly":"rò, sì,","rh":"E4+G4 r r","lh":"C3+G3 r r","doubt":"Petit trait gris après le dernier silence LH (tache ?)."},
+ {"v":"E3 F3 D3","ly":"le‿in- se- gne-","rh":"C4+E4 D4+F4 B3+D4","lh":"A3 F3+A3 G3","doubt":"Piano staccato ; bécarre sur B3 (RH)."},
+ {"marks":["f"],"v":"C3 r r","ly":"rò.","rh":"C4d D4s E4s F4s G4s A4s B4s","lh":"C3+E3e G3e C3+E3e G3e C3+E3e G3e","doubt":"RH : bécarre imprimé sur le si (B4) ; 2e groupe lu en doubles croches (2 barres)."},
+ {"marks":["p"],"v":"r r re C4e","ly":"Sa-","rh":"C5s B4s C5s B4s C5s B4s C5s B4s C5e C5e","lh":"C3+E3e G3e C3+E3e G3e C3+E3e G3e","doubt":"RH : liaison sur les doubles croches, 2 croches staccato ; B4 bécarre (1re note)."},
+ {"marks":["f"],"v":"D3 r r","ly":"prò,","rh":"D4d E4s F4s G4s A4s Bb4s C5s","lh":"C3+F3e A3e C3+F3e A3e C3+F3e A3e","doubt":"RH : bémol imprimé sur Bb4."},
+ {"marks":["p"],"v":"r r re C4e","ly":"sa-","rh":"D5s C5s D5s C5s D5s C5s D5s C5s D5e D5e","lh":"C3+F3e A3e C3+F3e A3e C3+F3e A3e","doubt":"RH : liaison + 2 croches staccato."},
+ {"marks":["f"],"v":"E3 r r","ly":"prò,","rh":"E4d F4s G4s A4s Bb4s C5s D5s","lh":"C3+G3e Bb3e C3+G3e Bb3e C3+G3e Bb3e"},
+ {"marks":["p"],"v":"r r re C4e","ly":"sa-","rh":"E5s D5s E5s D5s E5s D5s E5s D5s E5e E5e","lh":"C3+G3e Bb3e C3+G3e Bb3e C3+G3e Bb3e","doubt":"RH : liaison + 2 croches staccato ; tache grise près du 2e temps LH (bémol fantôme ?), ignorée."},
+ {"marks":["fp"],"v":"F3 r re C4e","ly":"prò, sa-","rh":"F4~ F4s G4s A4s Bb4s C5s D5s E5s F5s","lh":"C3+A3e C4e C3+A3e C4e C3+A3e C4e","doubt":"RH : arc sous F4 noire → 1re double croche F4, lu comme liaison de prolongation (ou liaison d'expression) ; grand legato sur toute la mesure."},
+ {"marks":["fp"],"v":"G3 r re C4e","ly":"prò, sa-","rh":"G4~ G4s A4s Bb4s C5s D5s E5s F5s G5s","lh":"C3+E3e Bb3e C3+E3e Bb3e C3+E3e Bb3e","doubt":"RH : arc G4 noire → G4 double croche lu comme liaison de prolongation."},
+ {"marks":["fp"],"v":"A3 r re C4e","ly":"prò, ma","rh":"A4~ A4s Bb4s C5s D5s E5s F5s G5s A5s","lh":"C3+F3e A3e C3+F3e A3e C3+F3e A3e","doubt":"RH : arc A4 noire → A4 double croche lu comme liaison de prolongation."},
+ {"marks":["fp"],"v":"Bb3 Bb3h~","ly":"pia- no,","rh":"Bb5 G5e E5e C#5e Bb4e","lh":"C#3+E3+G3hd~","doubt":"Chant : arc depuis Bb3 blanche vers la page suivante (liaison ? + trait de mélisme après « no, ») ; LH : accord pointé avec liaisons vers la page suivante ; RH : liaison sur les croches."}
+]}
