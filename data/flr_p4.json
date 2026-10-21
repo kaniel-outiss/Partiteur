@@ -1,0 +1,145 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "a tempo",
+    "p a tempo"
+   ],
+   "v": "Db5e~ Db5s rs Ab5h Gb5e F5e",
+   "ly": "voir! Car tu n'a-",
+   "rh": "Db5+F5+Ab5+Db6 F5e Ab5e D5+F5+Ab5+Cb6 Bb5e Ab5e",
+   "lh": "Db3s F3s Ab3s Db4s F4s Db4s Ab3s F3s Db3s F3s Ab3s Cb4s D4s Cb4s Ab3s F3s",
+   "doubt": "(♩=76) imprimé au-dessus. Arc Db5–Db5 lu comme liaison de prolongation ; Ab5 (« Car ») petite tête peu nette. Suite de la p. 24 (« voir! » = fin du mot)."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F5e Eb5e F5e Gb5e Bb4 Cb5",
+   "ly": "vais eu qu'à pa- raî- _",
+   "rh": "Bb4+Eb5+Gb5 Gb5h Cb5+D5+Ab5e D5e",
+   "lh": "Db3s Eb3s Gb3s Bb3s Eb4s Bb3s Gb3s Eb3s Db3s Eb3s Gb3s Bb3s Cb4s Ab3s F3s D3s",
+   "doubt": "LH : bémol de précaution sur Db3."
+  },
+  {
+   "v": "Bb4 re Gb5h F5s Eb5s",
+   "ly": "tre, Qu'à je- _",
+   "rh": "Gb4+Bb4+F5e Eb5e Eb5e Gb5e C5+Eb5+Gb5+Bbb5 Ab5e Gb5e",
+   "lh": "Db3s Eb3s Gb3s Bb3s Eb4s Bb3s Gb3s Eb3s Db3s Eb3s Gb3s Bbb3s C4s Bbb3s Gb3s Eb3s",
+   "doubt": "Chant fin de mesure : F5–Eb5 à double hampe (croches à crochets en bas, poutre double en haut — rythmes FR/EN différents) ; écrit en doubles croches pour faire 4 temps. Bbb = double bémol imprimé."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Eb5e Db5e Eb5e F5e Ab4 gCb5 Bbb4",
+   "ly": "ter _ un re- gard sur",
+   "rh": "Ab4+Db5+F5 Db5h G4+Bbb4+Db5+Fb5e G4e",
+   "lh": "Db3s F3s Ab3s Db4s F4s Db4s Ab3s F3s Db3s F3s Ab3s Db4s Fb4s Db4s Bbb3s G3s",
+   "doubt": "Chant : notes à double hampe (rythmes FR/EN). Petite note Cb5 (appogiature barrée) avant Bbb4."
+  },
+  {
+   "marks": [
+    "dim. molto"
+   ],
+   "v": "Ab4e re F5h Eb5e Db5e",
+   "ly": "moi, Pour t'em- pa-",
+   "rh": "Db4+F4+Bb4 Ab4+Db5e F5e Db5+G5+Bb5 G4",
+   "lh": "Db3s F3s Ab3s Db4s F4s Db4s Ab3s F3s Db3s Eb3s G3s Bb3s Eb4s Bb3s G3s Eb3s",
+   "doubt": "RH 1er accord : bécarre de précaution (F4) et bémol de précaution (Bb4)."
+  },
+  {
+   "marks": [
+    "dim."
+   ],
+   "v": "Db5e C5e Db5e Eb5e Ab4d Ab4e",
+   "ly": "rer de tout mon ê- tre,",
+   "rh": "rh Db5e C5e Db5e Eb5e // Gb4+Ab4w",
+   "lh": "Db3s Eb3s Gb3s Ab3s C4s Ab3s Gb3s Eb3s Db3s Eb3s Gb3s Ab3s C4s Ab3s Gb3s Eb3s",
+   "doubt": "Arc Ab4–Ab4 au chant = liaison d'expression (nouvelle syllabe). Bécarre de précaution sur C5."
+  },
+  {
+   "v": "re Db5e Eb5e F5e Ab4h",
+   "ly": "O ma Car- men!",
+   "rh": "Ab4h re Db5e Eb5e F5e // F4 r rh",
+   "lh": "Db3s F3s Ab3s Db4s F4s Db4s Ab3s F3s Db3s F3s Ab3s Db4s F4s Db4s Ab3s F3s",
+   "doubt": "RH temps 1 : Ab4 tête blanche + F4 tête noire sur une même hampe ; arc venant de la mesure précédente (liaison ?)."
+  },
+  {
+   "marks": [
+    "pp",
+    "rall.",
+    "colla voce"
+   ],
+   "v": "re Bb4e C5e Db5e Eb5e F5e Gb5e Ab5e",
+   "ly": "et j'é- tais u- ne chose à",
+   "rh": "C4+Eb4+Ab4 Eb4s Ab4s C5s Eb5s Ab5e re r",
+   "lh": "Db3s Eb3s Ab3s C4s r rh",
+   "doubt": "« chose à » sur une seule note (élision imprimée). LH : aucun silence imprimé après le 1er temps (arpège qui passe à la main droite) — silences ajoutés."
+  },
+  {
+   "marks": [
+    "pp a tempo"
+   ],
+   "v": "Bb5hd~ Bb5e re",
+   "ly": "toi!",
+   "rh": "re3 Db4+Gb4+Bb4e3 F4+Bb4+Db5e3 Bb4+Db5+Gb5e3 Gb4+Bb4+Db5e3 Bb4+Db5+Gb5e3 Db5+Gb5+Bb5e3 Bb4+Db5+Gb5e3 Db5+Gb5+Bb5e3 Gb5+Bb5+Db6e3 Db5+Gb5+Bb5e3 Gb5+Bb5+Db6e3",
+   "lh": "Db3+Gb3+Bb3w~",
+   "doubt": "Bb5 lié (arc) ; LH rondes liées vers l'accord de la mesure suivante (lecture probable)."
+  },
+  {
+   "marks": [
+    "rall"
+   ],
+   "v": "r Gb4 Ab4 re Bb4e",
+   "ly": "Car- men, je",
+   "rh": "Bb5+Db6+Gb6e re r rh",
+   "lh": "Db3+Gb3+Bb3e re r rh",
+   "doubt": "RH accord aigu (lignes supplémentaires) lu Bb5+Db6+Gb6."
+  },
+  {
+   "marks": [
+    "pp",
+    "colla voce"
+   ],
+   "v": "C5w~",
+   "ly": "t'ai-",
+   "rh": "rh E5+A5h",
+   "lh": "rh A4+C5h",
+   "doubt": "LH passe en clé de sol à cette mesure. E et A bécarres."
+  },
+  {
+   "v": "C5w",
+   "ly": "",
+   "rh": "E5+G5h F5+A5h",
+   "lh": "C5h F4+C5h",
+   "doubt": "Chant : C5 lié (t'ai- - - me). LH en clé de sol, retour clé de fa en fin de mesure ; arc C5–C5 lu comme liaison d'expression."
+  },
+  {
+   "marks": [
+    "a tempo",
+    "ppp"
+   ],
+   "v": "Db5h~ Db5e re r",
+   "ly": "me!",
+   "rh": "F5+Ab5+Db6+F6 Db6e Ab5e F5e E5e F5e C6e",
+   "lh": "Db2s F2s Ab2s Db3s F3s Ab3s Db4s F4s Ab4s F4s Db4s Ab3s F3s Db3s Ab2s F2s",
+   "doubt": "RH : bémol de précaution sur Ab5 ; E5 bécarre."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Bb5e Ab5e F5e Eb5e Db5e Ab4e Gb4e F4e",
+   "lh": "Db2s F2s Ab2s Db3s F3s Ab3s Db4s F4s Ab4s F4s Db4s Ab3s F3s Db3s Ab2s F2s"
+  },
+  {
+   "v": "rw^",
+   "ly": "",
+   "rh": "F3+Ab3+Db4+F4w^",
+   "lh": "Db2+Db3w^",
+   "doubt": "Dernière mesure, point d'orgue partout, double barre finale. RH ronde en clé de sol avec lignes supplémentaires (F3 Ab3 Db4 F4)."
+  }
+ ]
+}
