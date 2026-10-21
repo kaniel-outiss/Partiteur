@@ -1,26 +1,159 @@
-{"page":8,"measures":[
-{"meter":"3/4","v":"A3 A3 A3","ly":"se vuol bal-","rh":"F5+A5 F5+A5 F5+A5","lh":"F4+A4 F4+A4 F4+A4","doubt":"aucun numéro de mesure imprimé sur cette page ; compte non vérifiable"},
-{"v":"A3d G3e A3","ly":"la- _ re,","rh":"F5+A5d E5+G5e F5+A5","lh":"F4+A4d C4+G4e F4+A4","doubt":"liaison (legato) chant A3–G3"},
-{"v":"Bb3 A3 Bb3","ly":"si- gnor con-","rh":"G5+Bb5 F5+A5 G5+Bb5","lh":"G4+Bb4 F4+A4 G4+Bb4"},
-{"v":"C4 A3 r","ly":"ti- no,","rh":"A5+C6 F5+A5 r","lh":"A4+C5 F4+A4 r"},
-{"v":"C4 A3 D4","ly":"il chi- tar-","rh":"A5+C6 F5+A5 Bb5+D6","lh":"F4+A4+C5 F4+A4 Bb4+D5 // F4 r r","doubt":"RH 1er accord : A5+C6 (têtes serrées sur les lignes supplémentaires)"},
-{"v":"Bb3 G3 C4","ly":"ri- no le","rh":"G5+Bb5 E5+G5 A5+C6","lh":"G4+Bb4 E4+G4 A4+C5 // C4 r r"},
-{"v":"A3 F3 Bb3","ly":"suo- _ ne-","rh":"F5+A5 D5+F5 G5+Bb5","lh":"D4+F4+A4 D4+F4 G4+Bb4 // D4 r Bb3","doubt":"liaison (legato) chant A3–F3"},
-{"v":"G3 r r","ly":"rò,","rh":"E5+G5 r r","lh":"C4+G4 r r"},
-{"v":"G3 G3 G3","ly":"il chi- tar-","rh":"E5+G5 E5+G5 E5+G5","lh":"C4+G4 C4+G4 C4+G4"},
-{"v":"A3d Bb3e C4","ly":"ri- _ no","rh":"F5+A5d G5+Bb5e A5+C6","lh":"F4+A4d G4+Bb4e A4+C5","doubt":"liaison (legato) chant A3–Bb3"},
-{"v":"G3 F3 G3","ly":"le suo- ne-","rh":"E5+G5 D5+F5 E5+G5","lh":"C4+G4 C4+F4 C4+G4"},
-{"v":"A3 C4 r","ly":"rò, sì,","rh":"F5+A5 r r","lh":"F4+A4 r r"},
-{"v":"G3 F3 G3","ly":"le suo- ne-","rh":"E5+G5 D5+F5 E5+G5","lh":"C4+G4 C4+F4 C4+G4"},
-{"v":"A3 F4 r","ly":"rò, sì,","rh":"F5+A5 r r","lh":"F4+A4 r r"},
-{"v":"G3 F3 G3","ly":"le suo- ne-","rh":"E5+G5 D5+F5 E5+G5","lh":"C4+G4 C4+F4 C4+G4"},
-{"meter":"2/4","marks":["Presto","f"],"v":"F3 r","ly":"rò.","rh":"F5e F5e F5e F5e","lh":"A3+C4+F4e F3e F3e F3e","doubt":"double barre + 2/4 ; MG : accord en clé de sol puis passage en clé de FA après la 1re croche"},
-{"v":"rh","rh":"F5t G5t A5ed F5e F5e","lh":"F3h~ // F2 A2","doubt":"chant : pause (mesure entière) ; MD : 2 triples croches + croche pointée liées (legato) ; MG : F3 lié à la mesure suivante, liaisons de phrasé"},
-{"v":"rh","rh":"G5t A5t Bb5ed G5e G5e","lh":"F3e E3e G3~ // G2 Bb2","doubt":"chant : pause ; MG G3 lié à la mesure suivante (petite liaison)"},
-{"v":"rh","rh":"A5t Bb5t C6ed A5e A5e","lh":"G3e F3e A3~ // A2 C3","doubt":"plus de portée de chant à partir d'ici (silences) ; MG A3 lié à la mesure suivante"},
-{"v":"rh","rh":"D6 r","lh":"A3e G3e G3+Bb3 // Bb2 r"},
-{"v":"rh","rh":"C5+E5+Bb5 C5+F5+Bb5e C5+G5+Bb5e","lh":"C2+C3 D2+D3e E2+E3e","doubt":"MD 3e accord (croche) : têtes serrées, lu C5+G5+Bb5"},
-{"v":"rh","rh":"C5+F5+A5e A5e G5e F5e","lh":"F2+F3e A2+A3e G2+G3e F2+F3e"},
-{"v":"rh","rh":"C6 G4+Bb4+C5+E5","lh":"C3+C4 C2+C3"},
-{"v":"rh","rh":"A4+C5+F5 r","lh":"F2+F3 r","doubt":"double barre finale"}
-]}
+{
+"page": 8,
+"measures": [
+{
+"meter": "3/4",
+"v": "A3 A3 A3",
+"ly": "se vuol bal-",
+"rh": "F5+A5 F5+A5 F5+A5",
+"lh": "F4+A4 F4+A4 F4+A4",
+"doubt": "aucun numéro de mesure imprimé sur cette page ; compte non vérifiable"
+},
+{
+"v": "A3d G3e A3",
+"ly": "la- _ re,",
+"rh": "F5+A5d E5+G5e F5+A5",
+"lh": "F4+A4d C4+G4e F4+A4",
+"doubt": "liaison (legato) chant A3–G3"
+},
+{
+"v": "Bb3 A3 Bb3",
+"ly": "si- gnor con-",
+"rh": "G5+Bb5 F5+A5 G5+Bb5",
+"lh": "G4+Bb4 F4+A4 G4+Bb4"
+},
+{
+"v": "C4 A3 r",
+"ly": "ti- no,",
+"rh": "A5+C6 F5+A5 r",
+"lh": "A4+C5 F4+A4 r"
+},
+{
+"v": "C4 A3 D4",
+"ly": "il chi- tar-",
+"rh": "A5+C6 F5+A5 Bb5+D6",
+"lh": "F4+A4+C5 F4+A4 Bb4+D5 // F4 r r",
+"doubt": "RH 1er accord : A5+C6 (têtes serrées sur les lignes supplémentaires)"
+},
+{
+"v": "Bb3 G3 C4",
+"ly": "ri- no le",
+"rh": "G5+Bb5 E5+G5 A5+C6",
+"lh": "G4+Bb4 E4+G4 A4+C5 // C4 r r"
+},
+{
+"v": "A3 F3 Bb3",
+"ly": "suo- _ ne-",
+"rh": "F5+A5 D5+F5 G5+Bb5",
+"lh": "D4+F4+A4 D4+F4 G4+Bb4 // D4 r Bb3",
+"doubt": "liaison (legato) chant A3–F3"
+},
+{
+"v": "G3 r r",
+"ly": "rò,",
+"rh": "E5+G5 r r",
+"lh": "C4+G4 r r"
+},
+{
+"v": "G3 G3 G3",
+"ly": "il chi- tar-",
+"rh": "E5+G5 E5+G5 E5+G5",
+"lh": "C4+G4 C4+G4 C4+G4"
+},
+{
+"v": "A3d Bb3e C4",
+"ly": "ri- _ no",
+"rh": "F5+A5d G5+Bb5e A5+C6",
+"lh": "F4+A4d G4+Bb4e A4+C5",
+"doubt": "liaison (legato) chant A3–Bb3"
+},
+{
+"v": "G3 F3 G3",
+"ly": "le suo- ne-",
+"rh": "E5+G5 D5+F5 E5+G5",
+"lh": "C4+G4 C4+F4 C4+G4"
+},
+{
+"v": "A3 C4 r",
+"ly": "rò, sì,",
+"rh": "F5+A5 r r",
+"lh": "F4+A4 r r"
+},
+{
+"v": "G3 F3 G3",
+"ly": "le suo- ne-",
+"rh": "E5+G5 D5+F5 E5+G5",
+"lh": "C4+G4 C4+F4 C4+G4"
+},
+{
+"v": "A3 F4 r",
+"ly": "rò, sì,",
+"rh": "F5+A5 r r",
+"lh": "F4+A4 r r"
+},
+{
+"v": "G3 F3 G3",
+"ly": "le suo- ne-",
+"rh": "E5+G5 D5+F5 E5+G5",
+"lh": "C4+G4 C4+F4 C4+G4"
+},
+{
+"meter": "2/4",
+"marks": [
+"Presto",
+"f"
+],
+"v": "F3 r",
+"ly": "rò.",
+"rh": "F5e F5e F5e F5e",
+"lh": "A3+C4+F4e F3e F3e F3e",
+"doubt": "double barre + 2/4 ; MG : accord en clé de sol puis passage en clé de FA après la 1re croche",
+"bpm": 168
+},
+{
+"v": "rh",
+"rh": "F5t G5t A5ed F5e F5e",
+"lh": "F3h~ // F2 A2",
+"doubt": "chant : pause (mesure entière) ; MD : 2 triples croches + croche pointée liées (legato) ; MG : F3 lié à la mesure suivante, liaisons de phrasé"
+},
+{
+"v": "rh",
+"rh": "G5t A5t Bb5ed G5e G5e",
+"lh": "F3e E3e G3~ // G2 Bb2",
+"doubt": "chant : pause ; MG G3 lié à la mesure suivante (petite liaison)"
+},
+{
+"v": "rh",
+"rh": "A5t Bb5t C6ed A5e A5e",
+"lh": "G3e F3e A3~ // A2 C3",
+"doubt": "plus de portée de chant à partir d'ici (silences) ; MG A3 lié à la mesure suivante"
+},
+{
+"v": "rh",
+"rh": "D6 r",
+"lh": "A3e G3e G3+Bb3 // Bb2 r"
+},
+{
+"v": "rh",
+"rh": "C5+E5+Bb5 C5+F5+Bb5e C5+G5+Bb5e",
+"lh": "C2+C3 D2+D3e E2+E3e",
+"doubt": "MD 3e accord (croche) : têtes serrées, lu C5+G5+Bb5"
+},
+{
+"v": "rh",
+"rh": "C5+F5+A5e A5e G5e F5e",
+"lh": "F2+F3e A2+A3e G2+G3e F2+F3e"
+},
+{
+"v": "rh",
+"rh": "C6 G4+Bb4+C5+E5",
+"lh": "C3+C4 C2+C3"
+},
+{
+"v": "rh",
+"rh": "A4+C5+F5 r",
+"lh": "F2+F3 r",
+"doubt": "double barre finale"
+}
+]
+}

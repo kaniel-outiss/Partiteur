@@ -1,0 +1,128 @@
+{
+"page": 5,
+"measures": [
+{
+"meter": "3/4",
+"v": "Bb3hd~",
+"ly": "",
+"rh": "G4e E4e C#4e re r",
+"lh": "r re Bb3e G3e E3e // C3+E3+G3hd",
+"doubt": "Mesure liée à la page précédente : Bb3 (chant) et accord C3+E3+G3 (m.g.) portent une liaison entrante depuis la p. 4 ; chant = prolongation de la syllabe précédente (trait d'extension). M.g. voix sup. : silences r re non imprimés (implicites). C#4 sans ligne supplémentaire visible (cachée par la liaison)."
+},
+{
+"v": "Bb3 A3e A3e G3e G3e",
+"ly": "pia- no, pia- no,",
+"rh": "G5+Bb5e G5+Bb5e F5+A5e F5+A5e Bb4+C#5+G5e Bb4+C#5+G5e",
+"lh": "C#3 D3 E3",
+"doubt": "Bb3 initial = fin de la liaison venant de la mesure précédente. M.d. : accords staccato ; 3e paire = seconde Bb4/C#5 + G5 (dièse lu sur le do)."
+},
+{
+"v": "F3e F3e E3e E3e D3e D3e",
+"ly": "pia- no, pia- no, pia- no,",
+"rh": "A4+D5+F5e A4+D5+F5e G4+Bb4+E5e G4+Bb4+E5e F4+B4+D5e F4+B4+D5e",
+"lh": "F3 G3 G#3",
+"doubt": "M.d. 5e-6e accords : bécarre sur le si (B4 naturel). M.g. liée (legato)."
+},
+{
+"v": "C#3 E3 r",
+"ly": "pia- no;",
+"rh": "E4+A4+C#5 A4+C#5+E5 r",
+"lh": "A3e A3e A3e A3e A3e A3e",
+"doubt": "M.g. croches staccato."
+},
+{
+"v": "rhd",
+"rh": "re A4s G#4s A4s G#4s A4s G#4s A4s G#4s A4s G#4s",
+"lh": "A3hd~ // D3+F3 C3+E3 Bb2+D3",
+"doubt": "Chant : pause d'une mesure (imprimée comme pause entière). M.g. : bécarre de précaution sur C3, bémol de précaution sur Bb2 ; accords staccato ; A3 blanche pointée liée à la mesure suivante."
+},
+{
+"v": "rhd",
+"rh": "A4e A4+A5e A4+A5e A4+A5e A4+A5e A4+A5e",
+"lh": "A3hd // A2+C#3 B2+D3 C#3+E3",
+"doubt": "Chant : pause d'une mesure. M.d. : fin de la liaison sur A4, puis octaves staccato. M.g. : A3 lié depuis la mesure précédente ; accords liés (legato)."
+},
+{
+"v": "A3 A3 A3",
+"ly": "me- glio‿o- gni‿ar-",
+"rh": "re A4s G#4s A4s G#4s A4s G#4s A4s G#4s A4s G#4s",
+"lh": "A3hd~ // D3+F3 C3+E3 Bb2+D3",
+"doubt": "Paroles : élisions glio‿o et gni‿ar sur une note chacune."
+},
+{
+"v": "A3h A3",
+"ly": "ca- no",
+"rh": "A4e A4+A5e A4+A5e A4+A5e A4+A5e A4+A5e",
+"lh": "A3hd // A2+C#3 B2+D3 C#3+E3"
+},
+{
+"v": "A3 A3 A3",
+"ly": "dis- si- mu-",
+"rh": "re A5s G#5s A5s G#5s A5s G#5s A5s G#5s A5s G#5s",
+"lh": "A3hd~ // D3+F3 C3+E3 Bb2+D3"
+},
+{
+"v": "A3h A3",
+"ly": "lan- do",
+"rh": "A5e A4+A5e A4+A5e A4+A5e A4+A5e A4+A5e",
+"lh": "A3hd // A2+C#3 B2+D3 C#3+E3"
+},
+{
+"v": "A3 A3 A3",
+"ly": "sco- prir po-",
+"rh": "re A5s G#5s A5s G#5s A5s G#5s A5s G#5s A5s G#5s",
+"lh": "A3hd~ // D3+F3 C3+E3 Bb2+D3"
+},
+{
+"v": "A3 r r^",
+"ly": "trò.",
+"rh": "A5 r r^",
+"lh": "A3 r r^ // A2+C#3 r r^",
+"doubt": "Points d'orgue sur le 3e temps (silences) ; double barre puis 2/4."
+},
+{
+"meter": "2/4",
+"marks": [
+"Presto",
+"p",
+"tr"
+],
+"v": "F3 F3e F3e",
+"ly": "L'ar- te scher-",
+"rh": "re F4e F4s E4s F4e",
+"lh": "re A3e C4e A3e // F3h",
+"doubt": "tr sur le F4 double croche (m.d.). p sous la m.d. M.g. : A3 staccato, liaison C4-A3.",
+"bpm": 168
+},
+{
+"marks": [
+"tr"
+],
+"v": "G3 C3",
+"ly": "men- do,",
+"rh": "re G4e G4s F4s G4e",
+"lh": "re Bb3e C4e Bb3e // E3h",
+"doubt": "tr sur G4 double croche."
+},
+{
+"marks": [
+"tr"
+],
+"v": "G3 G3e G3e",
+"ly": "l'ar- te‿a- do-",
+"rh": "re G4e G4s F4s G4e",
+"lh": "re Bb3e C4e Bb3e // E3h",
+"doubt": "tr sur G4 double croche ; élision te‿a."
+},
+{
+"marks": [
+"tr"
+],
+"v": "A3 F3",
+"ly": "pran- do,",
+"rh": "re A4e A4s G4s A4e",
+"lh": "re A3e C4e A3e // F3h",
+"doubt": "tr sur A4 double croche. Mesure de fin de page (la phrase continue p. 6)."
+}
+]
+}

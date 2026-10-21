@@ -1,20 +1,139 @@
-{"page":2,"measures":[
- {"meter":"4/4","v":"re Bb3e Bb3s Bb3s Bb3s C4s A3e A3e re A3s A3s","ly":"se- cre- ta_am- ba- scia- tri- ce. Non sa-","marks":["appogg."],"rh":"C4+G4+C5h C4+F4+A4h~","lh":"E2h F2h~","doubt":"suite du récitatif de la p.1 (pas de numéro de mesure imprimé) ; astérisque (appogg.) sur le 1er A3e (« tri ») ; F2 sans ligne supplémentaire (sous la portée)"},
- {"v":"A3e G3s F3s B3 B3e B3s B3s re C4e","ly":"rà, non sa- rà, Fi- ga- ro il","rh":"C4+F4+A4 D4+G4+B4 rh","lh":"F2h rh","doubt":"bécarre imprimé sur le si (chant et piano) : B naturel"},
- {"v":"C4e G3e r rh","ly":"di- ce!","rh":"r D4+G4+B4 C4+E4+G4+C5h","lh":"r G2+G3 C2+C3h","doubt":"accord final RH lu par profil de pixels (C4+E4+G4+C5) ; LH : changement en clé de sol en fin de mesure, double barre"},
- {"meter":"3/4","ks":-1,"marks":["Allegretto","p","armure : 1 bémol"],"v":"F3 F3 F3","ly":"Se vuol bal-","rh":"A4+F5 A4+F5 A4+F5","lh":"A3+F4 A3+F4 A3+F4","doubt":"Allegretto imprimé ici (tempo de la cavatine) ; staccatos ; LH en clé de sol"},
- {"v":"F3d E3e F3","ly":"la- _ re,","rh":"A4+F5d G4+E5e A4+F5","lh":"A3+F4d C4e A3+F4","doubt":"liaison F3-E3 au chant"},
- {"v":"G3 F3 G3","ly":"si- gnor con-","rh":"E5+G5 D5+F5 E5+G5","lh":"C4+G4 C4+F4 C4+G4"},
- {"v":"A3 F3 r","ly":"ti- no,","rh":"F5+A5 A4+F5 r","lh":"F4+A4 A3+F4 r"},
- {"marks":["staccato"],"v":"A3 A3 A3","ly":"se vuol bal-","rh":"F5+A5 F5+A5 F5+A5","lh":"F4+A4 F4+A4 F4+A4"},
- {"v":"A3d G3e A3","ly":"la- _ re,","rh":"F5+A5d E5+G5e F5+A5","lh":"F4+A4d C4+G4e F4+A4","doubt":"liaison A3-G3 au chant"},
- {"v":"Bb3 A3 Bb3","ly":"si- gnor con-","rh":"G5+Bb5 F5+A5 G5+Bb5","lh":"G4+Bb4 F4+A4 G4+Bb4"},
- {"v":"C4 A3 r","ly":"ti- no,","rh":"A5+C6 F5+A5 r","lh":"A4+C5 F4+A4 r"},
- {"v":"C4 A3 D4","ly":"il chi- tar-","rh":"A5+C6 F5+A5 Bb5+D6","lh":"A4+C5 F4+A4 Bb4+D5 // F4 r r","doubt":"LH : 2 voix (F4 hampe bas + silences)"},
- {"v":"Bb3 G3 C4","ly":"ri- no le","rh":"G5+Bb5 E5+G5 A5+C6","lh":"G4+Bb4 E4+G4 A4+C5 // C4 r r","doubt":"LH : 2 voix (C4 hampe bas + silences)"},
- {"v":"A3 F3 Bb3","ly":"suo- _ ne-","rh":"F5+A5 D5+F5 G5+Bb5","lh":"F4+A4 D4+F4 G4+Bb4 // D4 r Bb3","doubt":"liaison A3-F3 au chant ; LH 2 voix (D4, silence, Bb3 hampes bas)"},
- {"v":"G3 r r","ly":"rò,","rh":"E5+G5 r r","lh":"C4+G4 r r"},
- {"v":"G3 G3 G3","ly":"il chi- tar-","rh":"E5+G5 E5+G5 E5+G5","lh":"C4+G4 C4+G4 C4+G4"},
- {"v":"A3d Bb3e C4","ly":"ri- _ no","rh":"F5+A5d G5+Bb5e A5+C6","lh":"F4+A4d G4+Bb4e A4+C5","doubt":"liaison A3-Bb3 au chant"},
- {"v":"G3 F3 G3","ly":"le suo- ne-","rh":"E5+G5 D5+F5 E5+G5","lh":"C4+G4 C4+F4 C4+G4","doubt":"mesure suivante sur la page 3"}
-]}
+{
+"page": 2,
+"measures": [
+{
+"meter": "4/4",
+"v": "re Bb3e Bb3s Bb3s Bb3s C4s A3e A3e re A3s A3s",
+"ly": "se- cre- ta_am- ba- scia- tri- ce. Non sa-",
+"marks": [
+"appogg."
+],
+"rh": "C4+G4+C5h C4+F4+A4h~",
+"lh": "E2h F2h~",
+"doubt": "suite du récitatif de la p.1 (pas de numéro de mesure imprimé) ; astérisque (appogg.) sur le 1er A3e (« tri ») ; F2 sans ligne supplémentaire (sous la portée)"
+},
+{
+"v": "A3e G3s F3s B3 B3e B3s B3s re C4e",
+"ly": "rà, non sa- rà, Fi- ga- ro il",
+"rh": "C4+F4+A4 D4+G4+B4 rh",
+"lh": "F2h rh",
+"doubt": "bécarre imprimé sur le si (chant et piano) : B naturel"
+},
+{
+"v": "C4e G3e r rh",
+"ly": "di- ce!",
+"rh": "r D4+G4+B4 C4+E4+G4+C5h",
+"lh": "r G2+G3 C2+C3h",
+"doubt": "accord final RH lu par profil de pixels (C4+E4+G4+C5) ; LH : changement en clé de sol en fin de mesure, double barre"
+},
+{
+"meter": "3/4",
+"ks": -1,
+"marks": [
+"Allegretto",
+"p",
+"armure : 1 bémol"
+],
+"v": "F3 F3 F3",
+"ly": "Se vuol bal-",
+"rh": "A4+F5 A4+F5 A4+F5",
+"lh": "A3+F4 A3+F4 A3+F4",
+"doubt": "Allegretto imprimé ici (tempo de la cavatine) ; staccatos ; LH en clé de sol",
+"bpm": 120
+},
+{
+"v": "F3d E3e F3",
+"ly": "la- _ re,",
+"rh": "A4+F5d G4+E5e A4+F5",
+"lh": "A3+F4d C4e A3+F4",
+"doubt": "liaison F3-E3 au chant"
+},
+{
+"v": "G3 F3 G3",
+"ly": "si- gnor con-",
+"rh": "E5+G5 D5+F5 E5+G5",
+"lh": "C4+G4 C4+F4 C4+G4"
+},
+{
+"v": "A3 F3 r",
+"ly": "ti- no,",
+"rh": "F5+A5 A4+F5 r",
+"lh": "F4+A4 A3+F4 r"
+},
+{
+"marks": [
+"staccato"
+],
+"v": "A3 A3 A3",
+"ly": "se vuol bal-",
+"rh": "F5+A5 F5+A5 F5+A5",
+"lh": "F4+A4 F4+A4 F4+A4"
+},
+{
+"v": "A3d G3e A3",
+"ly": "la- _ re,",
+"rh": "F5+A5d E5+G5e F5+A5",
+"lh": "F4+A4d C4+G4e F4+A4",
+"doubt": "liaison A3-G3 au chant"
+},
+{
+"v": "Bb3 A3 Bb3",
+"ly": "si- gnor con-",
+"rh": "G5+Bb5 F5+A5 G5+Bb5",
+"lh": "G4+Bb4 F4+A4 G4+Bb4"
+},
+{
+"v": "C4 A3 r",
+"ly": "ti- no,",
+"rh": "A5+C6 F5+A5 r",
+"lh": "A4+C5 F4+A4 r"
+},
+{
+"v": "C4 A3 D4",
+"ly": "il chi- tar-",
+"rh": "A5+C6 F5+A5 Bb5+D6",
+"lh": "A4+C5 F4+A4 Bb4+D5 // F4 r r",
+"doubt": "LH : 2 voix (F4 hampe bas + silences)"
+},
+{
+"v": "Bb3 G3 C4",
+"ly": "ri- no le",
+"rh": "G5+Bb5 E5+G5 A5+C6",
+"lh": "G4+Bb4 E4+G4 A4+C5 // C4 r r",
+"doubt": "LH : 2 voix (C4 hampe bas + silences)"
+},
+{
+"v": "A3 F3 Bb3",
+"ly": "suo- _ ne-",
+"rh": "F5+A5 D5+F5 G5+Bb5",
+"lh": "F4+A4 D4+F4 G4+Bb4 // D4 r Bb3",
+"doubt": "liaison A3-F3 au chant ; LH 2 voix (D4, silence, Bb3 hampes bas)"
+},
+{
+"v": "G3 r r",
+"ly": "rò,",
+"rh": "E5+G5 r r",
+"lh": "C4+G4 r r"
+},
+{
+"v": "G3 G3 G3",
+"ly": "il chi- tar-",
+"rh": "E5+G5 E5+G5 E5+G5",
+"lh": "C4+G4 C4+G4 C4+G4"
+},
+{
+"v": "A3d Bb3e C4",
+"ly": "ri- _ no",
+"rh": "F5+A5d G5+Bb5e A5+C6",
+"lh": "F4+A4d G4+Bb4e A4+C5",
+"doubt": "liaison A3-Bb3 au chant"
+},
+{
+"v": "G3 F3 G3",
+"ly": "le suo- ne-",
+"rh": "E5+G5 D5+F5 E5+G5",
+"lh": "C4+G4 C4+F4 C4+G4",
+"doubt": "mesure suivante sur la page 3"
+}
+]
+}
