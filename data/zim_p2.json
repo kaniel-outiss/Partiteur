@@ -1,0 +1,158 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "A3s G#3s F#3s E3s E3e E3e",
+   "ly": "ric- chi_ed ai po- ten- ti.",
+   "rh": "A3h // A3s G#3s F#3s E3s E3e E3e",
+   "lh": "E1+E2e re G#1+G#2e re",
+   "doubt": "m.15 = 1re mesure de la page (suite de la p.1) ; RH voix haute : blanche A3 avec liaison venant de la mesure precedente (prolongation depuis p.1 ?) ; croches/doubles de la MD staccato sous liaison"
+  },
+  {
+   "marks": [
+    "mf",
+    "poco rall.",
+    "p"
+   ],
+   "v": "Eb4 D4",
+   "ly": "Pas- sar",
+   "rh": "Eb4 D4 // re G3+Db4e re F#3+C4e",
+   "lh": "Bb1+Bb2e re A1+A2e re",
+   "doubt": "forcelle (double trait) au-dessus du chant et sous la MD de m.16 a m.17 : sens (cresc./dim.) non determine"
+  },
+  {
+   "marks": [
+    "a tempo"
+   ],
+   "v": "Db4e3 Db4e3 Db4e3 C4e C4e",
+   "ly": "nel- le tue ta- sche,",
+   "rh": "Db4 C4 // re G3+Cb4e re E3+Bb3e",
+   "lh": "Ab1+Ab2e re G1+G2e re",
+   "doubt": "MD 2e accord : note inferieure lue E3 (becarre de precaution) - pourrait etre F3 ; C4 du chant 2e croche = becarre par la barre"
+  },
+  {
+   "marks": [
+    "p",
+    "rall.",
+    "pp"
+   ],
+   "v": "B3ed F#3s F#3e G#3s A3s",
+   "ly": "co- me_in an- tri tran-",
+   "rh": "B3~ B3e re // re D#3+A3e r",
+   "lh": "F#1+F#2e re B1+B2e re"
+  },
+  {
+   "marks": [
+    "a tempo"
+   ],
+   "v": "A3e G#3s E3s D#3s E3s F#3s D#3s",
+   "ly": "quil- li, fi- lo- so- fi_e po-",
+   "rh": "rh",
+   "lh": "E1+E2e re G#1+G#2e re",
+   "doubt": "MD : pause entiere (rh)"
+  },
+  {
+   "v": "C#3e C#3e r",
+   "ly": "e- ti.",
+   "rh": "re E3+G#3e re F#3+G#3e",
+   "lh": "C#2+C#3e re D#2+G#2e re"
+  },
+  {
+   "v": "G#3e G#3s G#3s G#3e G#3e",
+   "ly": "O- ra che_i gior- ni",
+   "rh": "re E3+G#3e re F#3+G#3e",
+   "lh": "E2+G#2e re D#2+G#2e re"
+  },
+  {
+   "marks": [
+    "rall."
+   ],
+   "v": "G#3e G#3s G#3s G#3e A#3s B#3s",
+   "ly": "lie- ti fug- gir, ti _",
+   "rh": "re E3+G#3e re F#3+G#3e",
+   "lh": "C#2+G#2e re D#2+G#2e re"
+  },
+  {
+   "v": "C#4 B3e rs B3s",
+   "ly": "di- co: Ad-",
+   "rh": "re E3+G#3e re F#3+G#3e",
+   "lh": "E2+G#2e re D#2+G#2e re"
+  },
+  {
+   "v": "G#3e G#3s G#3s F#3s G#3s A3s F#3s",
+   "ly": "di- o, fe- de- le_a- mi- co",
+   "rh": "re E3+G#3e re F#3+G#3e",
+   "lh": "C#2+G#2e re D#2+G#2e re",
+   "doubt": "MG 1er accord : note grave lue C#2 (2 lignes supp.)"
+  },
+  {
+   "v": "G#3e G#3d~",
+   "ly": "mi- o.",
+   "rh": "re E3+G#3e re F#3+G#3e",
+   "lh": "E2+G#2e re D#2+G#2e re"
+  },
+  {
+   "marks": [
+    "molto rit.",
+    "respiration ,",
+    "col canto",
+    "fermata"
+   ],
+   "v": "G#3e G#3e F#3e E3s^ D#3s",
+   "ly": "Ad- dio, _ ad-",
+   "rh": "re E3+G#3e r^",
+   "lh": "C#2+G#2e re G#1+G#2e re^",
+   "doubt": "chant : F#3 croche + E3 double croche (barre partielle) avec point d'orgue ; 1re note G#3 liee depuis m.25 ; cle de SOL a la MD en fin de mesure"
+  },
+  {
+   "marks": [
+    "a tempo",
+    "mf",
+    "cle de sol MD",
+    "arpeges",
+    "tenuto"
+   ],
+   "v": "C#3e re r",
+   "ly": "dio.",
+   "rh": "C#4+E4+G#4+C#5! B3+D#4+F#4+B4!",
+   "lh": "C#2e G#2e D#2e B2e",
+   "doubt": "forcelle apres mf (m.27-30), sens incertain ; MG staccato"
+  },
+  {
+   "marks": [
+    "accent",
+    "tenuto"
+   ],
+   "v": "rh",
+   "ly": "",
+   "rh": "A3+C#4+E4+A4d! B3+D#4+F#4+B4e!",
+   "lh": "E2e C#3e re D#2e"
+  },
+  {
+   "marks": [
+    "tenuto"
+   ],
+   "v": "rh",
+   "ly": "",
+   "rh": "C#4+E4+G#4+C#5h~",
+   "lh": "C#2e G#2e re G#1e"
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "C#4+E4+G#4+C#5h~",
+   "lh": "C#2e G#2e re G#1e"
+  },
+  {
+   "marks": [
+    "double barre finale"
+   ],
+   "v": "rh",
+   "ly": "",
+   "rh": "C#4+E4+G#4+C#5e re r",
+   "lh": "C#2e re r"
+  }
+ ]
+}
