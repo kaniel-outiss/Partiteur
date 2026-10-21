@@ -1,0 +1,110 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "A3h B3d B3e",
+   "ly": "why do the",
+   "rh": "F5e F5e F5e F5e D5+G5e D5+G5e D5+G5e D5+G5e // F5s C5s F5s C5s F5s C5s F5s C5s D5+G5s G4s D5+G5s G4s D5+G5s G4s D5+G5s G4s",
+   "lh": "A2+A3e A2+A3e A2+A3e A2+A3e B2+B3e B2+B3e B2+B3e B2+B3e",
+   "doubt": "Bécarre imprimé devant le 1er F5 (rappel)."
+  },
+  {
+   "v": "C4e C4d r C4",
+   "ly": "peo- ple im-",
+   "rh": "rs G4s C5+E5s G4s rs G4s C5+E5s G4s rs A4s C5+E5s A4s rs A4s C5+E5s A4s",
+   "lh": "C3+C4e C3+C4e B2+B3e B2+B3e A2+A3e A2+A3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "C4d C4e C4 F#3",
+   "ly": "a- gine a vain",
+   "rh": "rs A4s C5+E5s A4s rs A4s C5+E5s A4s rs A4s C5+E5s A4s rs A4s C5+E5s A4s",
+   "lh": "F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "G3h r re F#3e",
+   "ly": "thing? im-",
+   "rh": "B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s",
+   "lh": "G2+G3e F#2+F#3e G2+G3e F#2+F#3e G2+G3e F#2+F#3e G2+G3e F#2+F#3e",
+   "doubt": "RH : liaisons par paires de doubles croches (B4+D5 → C5+E5)."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "G3e F#3e G3e F#3e G3e A3e B3e G3e",
+   "ly": "a- _ _ _ _ _ _ _",
+   "rh": "B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s D5s E5s F5s D5s // rh r B4e B4e",
+   "lh": "G2+G3e F#2+F#3e G2+G3e F#2+F#3e G2+G3e A2+A3e B2+B3e G2+G3e",
+   "doubt": "RH temps 4 : bécarre sur F5 ; 2e voix B4 croches (hampes bas), silences de cette voix non imprimés."
+  },
+  {
+   "v": "C4 F3 G3d G3e",
+   "ly": "_ gine a vain",
+   "rh": "C5+E5e C5+E5e C5+D5e C5+D5e C5+D5e C5+D5e B4+D5e B4+D5e // C5+E5s G4s C5+E5s G4s C5+D5s A4s C5+D5s A4s C5+D5s G4s C5+D5s G4s B4+D5s G4s B4+D5s G4s",
+   "lh": "C3+C4e C3+C4e F2+F3e F2+F3e G2+G3e G2+G3e G1+G2e G1+G2e",
+   "doubt": "Chant : bécarre imprimé sur F3 (rappel du F# de la mesure 5). C4 = fin de la vocalise sur « a- »."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "C3h r G3",
+   "ly": "thing? and",
+   "rh": "C5+E5e C5+E5e C5+E5e C5+E5e C5+G5e C5+G5e C5+G5e C5+G5e // C5+E5s G4s C5+E5s G4s C5+E5s G4s C5+E5s G4s C5+G5s G4s C5+G5s G4s C5+G5s G4s C5+G5s G4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e E2+E3e E2+E3e E2+E3e E2+E3e"
+  },
+  {
+   "v": "A3h D4d C4e",
+   "ly": "why do the",
+   "rh": "A4+C5e A4+C5e A4+C5e A4+C5e D5+A5e D5+A5e D5+A5e D5+A5e // A4+C5s F4s A4+C5s F4s A4+C5s F4s A4+C5s F4s D5+A5s A4s D5+A5s A4s D5+A5s A4s D5+A5s A4s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e"
+  },
+  {
+   "v": "B3e G3d r B3",
+   "ly": "peo- ple im-",
+   "rh": "D5+B5e D5+B5e D5+G5e D5+G5e B4+D5e B4+D5e B4+D5e B4+D5e // D5+B5s B4s D5+B5s B4s D5+G5s B4s D5+G5s B4s B4+D5s G4s B4+D5s G4s B4+D5s G4s B4+D5s G4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e F2+F3e F2+F3e F2+F3e F2+F3e",
+   "doubt": "LH temps 3 : bécarre imprimé sur F2/F3."
+  },
+  {
+   "v": "C4h A3 F3",
+   "ly": "a- _ gine",
+   "rh": "G4+C5h F4+A4h // C4h~ C4h~",
+   "lh": "E2+E3h F2+F3h"
+  },
+  {
+   "v": "G3hd G3",
+   "ly": "a vain",
+   "rh": "D4+G4w // C4h B3h",
+   "lh": "G2+G3h G1+G2h",
+   "doubt": "RH : D4+G4 rondes (tête de D4 très noircie) ; voix basse C4 (lié depuis m.10) puis B3."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C3h rh",
+   "ly": "thing?",
+   "rh": "C4e C4e C4e C4e C4+E4e C4+E4e E4+G4e E4+G4e // re C4s G3s C4s G3s C4s G3s C4+E4s G3s C4+E4s G3s E4+G4s C4s E4+G4s C4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "Lettre de repère « D » imprimée. RH temps 1 : C4 croche seule (hampe haut). LH fin de mesure : petit signe au-dessus du dernier C3 (soupir de croche ? tache ?) ignoré."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+C5e G4+C5e G4+C5e G4+C5e C5+E5e C5+E5e E5+G5e E5+G5e // G4+C5s E4s G4+C5s E4s G4+C5s E4s G4+C5s E4s C5+E5s G4s C5+E5s G4s E5+G5s C5s E5+G5s C5s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "E5+G5+Bb5e E4e E4e E4+G4e G4+Bb4e C5+E5e E5+G5e C5e // E5e E4s C4s E4s C4s E4+G4s C4s G4+Bb4s E4s C5+E5s G4s E5+G5s G4s C5s G4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "RH temps 1 : accord E5+G5+Bb5 croche à double hampe (haut et bas) — répartition des têtes entre voix incertaine. Bb4 bémol imprimé au temps 3. Page se termine sur une barre simple (suite p. 180)."
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "B3e G3d r D4",
+   "ly": "peo- ple im-",
+   "rh": "B4e B4+D5e E5e F#5e G5e G4e G4+B4e B4+D5e // G4e B4+D5s G4s E5s C5s F#5s C5s B4e G4s D4s G4+B4s D4s B4+D5s G4s",
+   "lh": "G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e",
+   "doubt": "RH temps 3 : G5 croche imprimée en PETITE note (hampe haut) au-dessus du B4 — transcrite comme croche normale de la voix haute. Pas de numéros de mesure imprimés."
+  },
+  {
+   "v": "D4d C4e B3e A3e G3e F3e",
+   "ly": "a- gine a _ vain _",
+   "rh": "D5+F5e B3e B3e D4e F4e B4e B4+D5e B4e // B4e B3s G3s B3s G3s D4s B3s F4s D4s B4s F4s B4+D5s D4s F4s D4s",
+   "lh": "G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e",
+   "doubt": "Bécarre imprimé sur F5 (accord temps 1) et F4 (temps 3) — rappel après le F#5 de la mesure précédente. Voix haute (hampes haut) = croches doublant les doubles croches."
+  },
+  {
+   "v": "E3h~ E3 re G3e",
+   "ly": "thing? Why",
+   "rh": "G4e E5+G5e F5+A5e F5+B5e C6e E4+G4e F4+A4e F4+B4e // E4e E5+G5s C5s F5+A5s C5s F5+B5s D5s E5e E4+G4s C4s F4+A4s C4s F4+B4s D4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "RH temps 3 : C6 croche en PETITE note (hampe haut) au-dessus du E5 — transcrite comme croche normale. Chant : E3 blanche liée à E3 noire (« thing?___ »)."
+  },
+  {
+   "v": "C4d G3e E3 C3",
+   "ly": "do the na- tions",
+   "rh": "G4+C5e G4+C5e G4+C5e G4+C5e G4+C5e G4+C5e G4+C5e G4+C5e // G4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s E4s G4+C5s E4s",
+   "lh": "E2+E3e E2+E3e E2+E3e E2+E3e E2+E3e E2+E3e C2+C3e C2+C3e"
+  },
+  {
+   "v": "F3e3 G3e3 F3e3 E3e3 F3e3 D3e3 G3e3 A3e3 G3e3 F3e3 G3e3 E3e3",
+   "ly": "rage _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "F4+B4e F4+B4e F4+B4e F4+B4e G4+C5e G4+C5e G4+C5e G4+C5e // F4+B4s D4s F4+B4s D4s F4+B4s D4s F4+B4s D4s G4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s C4s",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e E2+E3e E2+E3e E2+E3e E2+E3e"
+  },
+  {
+   "v": "A3e3 Bb3e3 A3e3 G3e3 A3e3 F3e3 C4e3 D4e3 C4e3 G3e3 A3e3 Bb3e3",
+   "ly": "_ _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "A4+C5e A4+C5e A4+C5e A4+C5e G4+C5e G4+C5e G4+C5e G4+C5e // A4+C5s C4s A4+C5s C4s A4+C5s C4s A4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s C4s G4+C5s C4s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e E2+E3e E2+E3e E2+E3e E2+E3e",
+   "doubt": "Triolets non chiffrés (groupes de 3 croches). Dernier triolet : si sans altération → Bb3 (bémol du 1er triolet valable jusqu'à la barre)."
+  },
+  {
+   "v": "A3e3 Bb3e3 A3e3 G3e3 A3e3 F3e3 D4e3 E4e3 D4e3 A3e3 B3e3 C4e3",
+   "ly": "_ _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "A4+C5e A4+C5e A4+C5e A4+C5e A4+D5e A4+D5e A4+D5e A4+D5e // A4+C5s F4s A4+C5s F4s A4+C5s F4s A4+C5s F4s A4+D5s D4s A4+D5s D4s A4+D5s D4s A4+D5s D4s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e",
+   "doubt": "Triolets non chiffrés. B3 bécarre imprimé au dernier triolet."
+  },
+  {
+   "v": "B3e3 C4e3 B3e3 A3e3 B3e3 G3e3 C4e3 D4e3 C4e3 E3e3 D3e3 C3e3",
+   "ly": "_ _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "B4+D5e B4+D5e B4+D5e B4+D5e C5+E5e C5+E5e C5+E5e C5+E5e // B4+D5s D4s B4+D5s D4s B4+D5s G4s B4+D5s G4s C5+E5s G4s C5+E5s G4s C5+E5s G4s C5+E5s G4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e E2+E3e E2+E3e C2+C3e C2+C3e",
+   "doubt": "Triolets non chiffrés ; fin de la grande liaison de vocalise."
+  },
+  {
+   "v": "G3 re B3e C4e G3e E3e C3e",
+   "ly": "_ so fu- rious- ly to-",
+   "rh": "B4+D5e B4+D5e B4+D5s G4s A4s B4s rs C5e G4e E4e C4s // B4+D5s G4s B4+D5s G4s r rh",
+   "lh": "G2+G3e G2+G3e G2+G3e B2+B3e C3+C4e G2+G3e E2+E3e C2+C3e",
+   "doubt": "Lettre de repère « C » imprimée. « furiously » imprimé sans tirets sur 3 notes (C4 G3 E3) → fu- rious- ly. RH temps 1 : 2 voix (croches B4+D5 hampes haut / doubles en bas) ; silences de la 2e voix non imprimés."
+  },
+  {
+   "v": "G3e G3e re B3e C4e G3e E3e C3e",
+   "ly": "geth- er, so fu- rious- ly to-",
+   "rh": "G4e G4e rs G4s A4s B4s rs C5e G4e E4e C4s",
+   "lh": "G2+G3e G2+G3e G2+G3e B2+B3e C3+C4e G2+G3e E2+E3e C2+C3e"
+  },
+  {
+   "v": "G3 G3 r G3",
+   "ly": "geth- er? and",
+   "rh": "G4e D5e E5e F#5e D5+G5e D5+G5e D5+G5e D5+G5e // G4e D5s B4s E5s C5s F#5s A4s D5+G5s B4s D5+G5s B4s D5+G5s B4s D5+G5s B4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  }
+ ]
+}
