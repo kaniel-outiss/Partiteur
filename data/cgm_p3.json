@@ -1,0 +1,147 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"p",
+"espressivo"
+],
+"v": "D5 A4 r",
+"ly": "fac- cio?",
+"rh": "F4+A4+D5 F5e A5e C6e3 G5e3 A5e3",
+"lh": "C3+F3+A3+D4h C3+Bb3+E4",
+"doubt": "Mesure 41 = suite de la levée « Che co-sa » de la p. 2 (armure 5 bémols, 3/4). Bécarres : chant ré, la ; MD accord ré+la bécarre, la5 et sol5 bécarre ; MG la3, ré4, mi4 bécarre. Soufflet crescendo."
+},
+{
+"v": "C5 C5e re C5e3 C5e3 C5e3",
+"ly": "Scri- vo. E co- me",
+"rh": "gG5 gA5 G5e F5e C5e A4e F4e C4e",
+"lh": "C3+A3+C4~ C3+A3+C4e re r",
+"doubt": "MD : deux petites notes (sol5, la5 bécarre, doubles croches) liées vers sol5 ; la4 bécarre ; grande liaison d'expression."
+},
+{
+"marks": [
+"f"
+],
+"v": "F5 C5 r",
+"ly": "vi- vo?",
+"rh": "F4+C5+F5h Ab4+D5+G5",
+"lh": "Ab1+Ab2~ Ab1+Ab2e re Bb1+Bb2e! re",
+"doubt": "MD : accents marcato (^) sur les deux accords ; 2e accord ré5 et sol5 bécarre, la4 bémol de précaution. MG : accents >, accord sib arpégé."
+},
+{
+"marks": [
+"rall."
+],
+"v": "Eb5e Eb5d r",
+"ly": "Vi- vo.",
+"rh": "Eb4+G4+Bb4+Eb5hd~",
+"lh": "Eb2+Bb2+Eb3~ Eb2+Bb2+Eb3e re r",
+"doubt": "Chant : accent > sur la noire pointée. MD : sol4 bécarre ; accord lié vers la mesure 45. Soufflet decrescendo vers pp."
+},
+{
+"marks": [
+"pp",
+"dolce e legato"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Eb4+G4+Bb4+Eb5~ Eb4+G4+Bb4+Eb5e Eb4+Eb5e Ab4+Ab5e C5+C6e",
+"lh": "rhd",
+"doubt": "Chant et MG : pause (mesure entière). Fin de mesure : la MG passe en clé de sol ; double barre puis nouvelle armure (4 bémols) et C (4/4). Liaison d'expression de mib5 à do6."
+},
+{
+"meter": "4/4",
+"ks": -4,
+"marks": [
+"dolce e legato"
+],
+"v": "r re Eb5e Db5ed Db5s Db5ed Ab4s",
+"ly": "In po- ver- tà mia",
+"rh": "Eb5+Ab5+Eb6h Db5+F5+Db6~ Db5+F5+Db6ed Ab4+Ab5s",
+"lh": "Ab3+Eb4+C5h Ab3+Db4+F4+Bb4h",
+"doubt": "MG en clé de sol. Tempo imprimé au-dessus du chant et du piano.",
+"tempo": "Andante lento (♩ = 52)",
+"bpm": 52
+},
+{
+"v": "C5 C5 Bb4e Bb4s D5s F5ed Ab4s",
+"ly": "lie- ta scia- lo da gran si-",
+"rh": "C5+Eb5+C6h Bb4+D5+Bb5~ Bb4+D5+Bb5ed F4+F5s",
+"lh": "C4+Eb4+G4+Bb4h C4+D4+F4+Ab4h",
+"doubt": "Chant et MD : ré bécarre. MG (clé de sol) : bécarre imprimé à hauteur de fa4 devant le 2e accord (do4-ré4-fa4-lab4) — lecture du bécarre incertaine."
+},
+{
+"marks": [
+"(pp)"
+],
+"v": "Ab4 Ab4~ Ab4e Ab4s C5s Eb5e C5s Ab4s",
+"ly": "gno- re ri- me_ed in- ni d'a-",
+"rh": "Ab4+C5+Eb5+Ab5 Ab3+C4+Eb4 C4+Eb4+Ab4 Eb4+Ab4+C5",
+"lh": "Ab3+C4+Eb4 Eb2+Eb3 C2+C3 Ab1+Ab2",
+"doubt": "MG : 1er accord en clé de sol, puis clé de fa après le 1er temps. Traits de tenuto sous les accords (MD et MG). « re ___ » : mélisme sur la note liée."
+},
+{
+"v": "G4 G4e rs G4s G4ed G4s F4ed F4s",
+"ly": "mo- re. Per so- gni_e per chi-",
+"rh": "G4+C5+Eb5+G5 C5+C6ed G4+G5s G4+G5 F4+F5 // rh Ab4+C5h",
+"lh": "C4+Eb4h F3+C4h",
+"doubt": "MD : sur les temps 3-4, accord lab4+do5 en blanche (hampe en haut) sous les octaves sol/fa (hampes en bas) ; les silences de la 2e voix ne sont pas imprimés. MG en clé de fa (accords sur lignes supplémentaires)."
+},
+{
+"marks": [
+"p",
+"cresc. gradatamente e molto"
+],
+"v": "G4ed C5s D5e rs Eb5s G5ed Eb5s Eb5ed C5s",
+"ly": "me- _ re e per ca- stel- li_in",
+"rh": "G4+C5+Eb5+G5ed C5+C6s D5+D6ed Eb5+Eb6s G5+G6ed Eb5+Eb6s D5+D6ed C5+C6s",
+"lh": "C4+Eb4h A3+Eb4+G4 F3+Eb4+A4! // C4 Bb3 rh",
+"doubt": "Chant : ré5 bécarre ; sol4-do5 sous une liaison (mélisme). MD : ré bécarre (ré5+ré6) valable pour le 7e groupe. MG : do4+mib4 en blanche (hampe en haut) + do4, sib3 en noires (hampes en bas) ; la3 et la4 bécarres ; dernier accord arpégé ; silences de la 2e voix non imprimés."
+},
+{
+"v": "Eb5 Bb4~ Bb4e re r",
+"ly": "a- ria",
+"rh": "Eb5+G5+Bb5+Eb6 Bb4+Eb5+Bb5h~ Bb4+Bb5e3 Ab4+Ab5e3 G4+G5e3 // rhd Eb5",
+"lh": "Bb3+Eb4+G4 G3+Bb3+Eb4 Eb3+G3+Bb3 C3+G3 // rhd G3e3 Ab3e3 Bb3e3",
+"doubt": "MD : le mib5 de la blanche est lié à une noire mib5 (hampe en haut) au 4e temps ; sib4/sib5 liés vers le triolet ; tenuto sur le triolet. MG : triolet sol3-lab3-sib3 (hampes en haut, tenuto) au-dessus de do3+sol3 en noire. Silences des 2es voix non imprimés. « ria ___ » mélisme sur la note liée."
+},
+{
+"marks": [
+"f",
+"allarg."
+],
+"v": "C5e3 C5e3 D5e3 Eb5ed G5s gF5 gG5 F5dd Bb4s",
+"ly": "l'a- ni- ma_ho mi- lio- na- _",
+"rh": "C5+C6ed D5+D6s Eb5+Eb6ed G5+G6s F5+Ab5+C6+F6dd Bb4+Bb5s",
+"lh": "Bb3e3 Ab3e3 G3e3~ G3e3 F3e3 Eb3e3 re3 F3e3 Ab3e3 C4e3 D43 // F2h! Bb1+Bb2h",
+"doubt": "Chant : ré5 bécarre ; deux petites notes (fa5, sol5) avant fa5 double-pointé accentué ; sib4 final en mélisme. MD : ré bécarre ; accord fa5-lab5-do6-fa6 noire double-pointée. MG : 1er accord arpégé (sib3 + fa2 blanche) ; 4e temps = triolet croche + noire (do4, ré4 bécarre) avec accents ; « allarg. » et soufflet crescendo aussi au piano."
+},
+{
+"marks": [
+"ff",
+"p",
+"rit.",
+"con molta espress."
+],
+"v": "Eb5 r r Eb5",
+"ly": "ria. Ta-",
+"rh": "Eb5+G5+Bb5+Eb6e re Bb4+Eb5+G5+Bb5! Eb4+G4+Bb4+Eb5! r",
+"lh": "Eb3+G3+Bb3+Eb4e re Bb3+Eb4+G4! Eb3+G3+Bb3! Eb1e re",
+"doubt": "ff au piano ; p au chant (avec rit., con molta espress.) et p sous le mib1 de la MG. Arpèges sur les deux portées ; accents > sur les accords des temps 2 et 3. Mib1 avec point (staccato ?)."
+},
+{
+"marks": [
+"sostenendo (largamente)",
+"mf",
+"con grande espress."
+],
+"v": "Ab5d G5e F5 Ab5",
+"ly": "lor dal mio for-",
+"rh": "Ab3+Ab4d G3+G4e F3+F4 Ab3+Ab4 // re3 C4+Eb4e3 C4+Eb4e3 C4+Eb4e3 C4+Eb4e3 re3 re3 Ab3+C4e3 Ab3+C4e3 re3 C4+Eb4e3 C4+Eb4e3",
+"lh": "gAb1 Ab2h gC2 C3h",
+"doubt": "MD : mélodie en octaves (hampes en haut) et triolets d'accords (hampes en bas, commençant par un demi-soupir). MG : petites notes barrées (acciaccatures) lab1 et do2 avant les blanches. Le système continue à la page suivante."
+}
+]
+}

@@ -1,22 +1,198 @@
-{"page":2,"measures":[
-{"meter":"2/4","marks":[],"v":"Ab5e G5e F5e Eb5e","ly":"lu- _ na l'ab-","rh":"Ab6e Eb6e C6e Ab5e // re C4+Ab4 C4+Ab4e","lh":"F3h","doubt":"m.21. Tenuto sur les notes du chant et la voix sup. MD ; soufflet decresc. sous la MD. Voix sup. MD (Ab6 Eb6 C6 Ab5) lue sur lignes suppl. ; liaison venant de la mesure précédente."},
-{"marks":["affrett."],"v":"Eb5 Bb4e Db5e","ly":"bia- mo vi-","rh":"Eb5 Bb4e Db5e // F5e F4 G4e","lh":"re Ab3+Db4 Ab3+Db4e // Bb2 Eb3","doubt":"MD : seconde Eb5/F5 au 1er temps ; F5 croche hampe en bas puis F4 (liaison) — répartition des voix interprétée. G4 bécarre imprimé."},
-{"marks":["poco rit."],"v":"gC5 gDb5 C5e Bb4e Ab4e Ab4e","ly":"ci- _ na. A-","rh":"Eb4+Gb4+C5e Db4+Gb4+Bb4e C4+Gb4+Ab4e re","lh":"Ab2e Eb3e Ab3~","doubt":"Deux petites notes (doubles croches) C5 Db5 au chant. MD : bémol devant Gb4 ; arcs entre les accords (liaisons d'expression ou prolongation de Gb4 ?) ; tenuto sous les accords. MG : points de staccato sur Ab2 et Eb3."},
-{"marks":["a tempo","pp"],"v":"Ab4e Ab4e Ab4e Ab4e","ly":"spet- ti, si- gno-","rh":"r Bb4 // re F4+Ab4 F4+Ab4e","lh":"Ab3h"},
-{"marks":[],"v":"Ab4e Ab4 Ab4s Ab4s","ly":"ri- na: le di-","rh":"C5h // re Gb4+Ab4 Gb4+Ab4e","lh":"Eb4h"},
-{"marks":[],"v":"Eb5e Eb5e Db5e C5e","ly":"rò con due pa-","rh":"Bb4e C5e Db5e Eb5e // re Gb4+Ab4 Gb4+Ab4e","lh":"Ab3h"},
-{"marks":["poco rallentando","m.s."],"v":"Bb4 Bb4e Ab5e","ly":"ro- le chi","rh":"F5d C5e // re F4+Ab4d~","lh":"Db4h","doubt":"Respiration (virgule) après Ab5 au chant ; soufflet cresc. vers m.28."},
-{"marks":[],"v":"F5d Db5e","ly":"son, chi","rh":"Db5e Eb5e F5e Ab5e // F4+Ab4e F4+Ab4 F4+Ab4e","lh":"Ab3h","doubt":"Soufflets cresc. (chant et piano)."},
-{"marks":["mf"],"v":"Bb5h^","ly":"son,","rh":"Bb4+Db5+Gb5+Bb5h!^","lh":"Gb2+Db3+Bb3e! Bb3+Db4+Gb4 Bb3+Db4+Gb4e^","doubt":"Arpège continu sur les deux portées. Soufflets decresc. (chant et piano)."},
-{"marks":["a tempo","p","pp"],"v":"Ab5d Eb5e","ly":"e che","rh":"Ab5d Eb5e // Ab4h~","lh":"re C4+Eb4 C4+Eb4e // Gb3h","doubt":"p au chant, pp au piano."},
-{"marks":[],"v":"Ab5d F5e","ly":"fac- cio,","rh":"Ab5d F5e // Ab4h","lh":"re Ab3+Eb4 Ab3+Db4e // F3h","doubt":"Respiration après F5 au chant."},
-{"marks":["poco affrett."],"v":"Eb5e Db5e C5e Db5e","ly":"co- _ me _","rh":"Eb5e Db5e C5e Db5e // F4h","lh":"re F3+Db4 F3+Db4e // Bb2h"},
-{"marks":["a tempo"],"v":"F5h","ly":"vi-","rh":"G4+Db5+F5h","lh":"Eb2s Bb2s F3s G3s Bb3s Db4s F4s G4s","doubt":"MD : accord G4(bécarre)+Db5+F5, le groupe Db5/F5 est serré (peut-être 3 têtes). MG : bécarre devant G3 ; les deux dernières doubles croches (F4, G4) sont écrites sur la portée de la MD — G4 lu bécarre par le bécarre de la MD dans la mesure (doute)."},
-{"marks":[],"v":"Bb4 r","ly":"vo.","rh":"Bb4 C5e Db5e","lh":"re G3+Db4e r","doubt":"Tenuto sur C5 et Db5 (MD). Bécarre devant G3 (MG)."},
-{"marks":["rallentando","pp"],"v":"Eb5h","ly":"Vuo-","rh":"gDb4 gGb4 gBb4 Eb5h // r Db4s Gb4s Bb4s Eb5s","lh":"Ab2s Eb3s Gb3s Bb3s r // Ab2h~","doubt":"Trois petites notes (Db4 Gb4 Bb4) avant Eb5. Altérations de précaution (bémols) sur Gb."},
-{"marks":[],"v":"Ab4 re^ Ab4e","ly":"le? Chi","rh":"C4+Gb4+Ab4~ C4+Gb4+Ab4e re^","lh":"Ab2+Ab3~ Ab2+Ab3e re^","doubt":"Double barre en fin de mesure ; indication 3/4 de précaution."},
-{"meter":"3/4","marks":["Andante sostenuto","p"],"v":"Ab4~ Ab4e re r","ly":"son?","rh":"r r G#4~","lh":"rhd","doubt":"MG : pause (mesure entière de silence)."},
-{"marks":["f"],"v":"r r re C5e","ly":"Chi","rh":"r C5~ C5e re // G#4h~ G#4e re","lh":"C4+E4h~ C4+E4e re","doubt":"MG : bécarre devant E4 ; G#4 MD tenu par liaison depuis m.37."},
-{"marks":["p","f","pp"],"v":"F5h G4e3 A4e3 Bb4e3","ly":"son? So- no_un po-","rh":"F4+A4+C5+F5~ F4+A4+C5+F5e re F4+G4","lh":"F2+C3+F3~ F2+C3+F3e re Bb3","doubt":"Chant : triolet, bécarres sur G4 et A4. MD : bécarre devant A4 ; bécarre devant G4 (dernier accord). f au piano, p au chant, pp sur le 3e temps du piano. Liaisons d'expression vers m.40."},
-{"marks":["dolcissimo"],"v":"C5 C5 rs C5s C5s C5s","ly":"e- ta. Che co- sa","rh":"F4+A4~ F4+A4e re r","lh":"F3+C4~ F3+C4e re r","doubt":"MD : bécarre devant A4. Fin de page."}
-]}
+{
+"page": 2,
+"measures": [
+{
+"meter": "2/4",
+"marks": [],
+"v": "Ab5e G5e F5e Eb5e",
+"ly": "lu- _ na l'ab-",
+"rh": "Ab6e Eb6e C6e Ab5e // re C4+Ab4 C4+Ab4e",
+"lh": "F3h",
+"doubt": "m.21. Tenuto sur les notes du chant et la voix sup. MD ; soufflet decresc. sous la MD. Voix sup. MD (Ab6 Eb6 C6 Ab5) lue sur lignes suppl. ; liaison venant de la mesure précédente."
+},
+{
+"marks": [
+"affrett."
+],
+"v": "Eb5 Bb4e Db5e",
+"ly": "bia- mo vi-",
+"rh": "Eb5 Bb4e Db5e // F5e F4 G4e",
+"lh": "re Ab3+Db4 Ab3+Db4e // Bb2 Eb3",
+"doubt": "MD : seconde Eb5/F5 au 1er temps ; F5 croche hampe en bas puis F4 (liaison) — répartition des voix interprétée. G4 bécarre imprimé."
+},
+{
+"marks": [
+"poco rit."
+],
+"v": "gC5 gDb5 C5e Bb4e Ab4e Ab4e",
+"ly": "ci- _ na. A-",
+"rh": "Eb4+Gb4+C5e Db4+Gb4+Bb4e C4+Gb4+Ab4e re",
+"lh": "Ab2e Eb3e Ab3~",
+"doubt": "Deux petites notes (doubles croches) C5 Db5 au chant. MD : bémol devant Gb4 ; arcs entre les accords (liaisons d'expression ou prolongation de Gb4 ?) ; tenuto sous les accords. MG : points de staccato sur Ab2 et Eb3."
+},
+{
+"marks": [
+"a tempo",
+"pp"
+],
+"v": "Ab4e Ab4e Ab4e Ab4e",
+"ly": "spet- ti, si- gno-",
+"rh": "r Bb4 // re F4+Ab4 F4+Ab4e",
+"lh": "Ab3h"
+},
+{
+"marks": [],
+"v": "Ab4e Ab4 Ab4s Ab4s",
+"ly": "ri- na: le di-",
+"rh": "C5h // re Gb4+Ab4 Gb4+Ab4e",
+"lh": "Eb4h"
+},
+{
+"marks": [],
+"v": "Eb5e Eb5e Db5e C5e",
+"ly": "rò con due pa-",
+"rh": "Bb4e C5e Db5e Eb5e // re Gb4+Ab4 Gb4+Ab4e",
+"lh": "Ab3h"
+},
+{
+"marks": [
+"poco rallentando",
+"m.s."
+],
+"v": "Bb4 Bb4e Ab5e",
+"ly": "ro- le chi",
+"rh": "F5d C5e // re F4+Ab4d~",
+"lh": "Db4h",
+"doubt": "Respiration (virgule) après Ab5 au chant ; soufflet cresc. vers m.28."
+},
+{
+"marks": [],
+"v": "F5d Db5e",
+"ly": "son, chi",
+"rh": "Db5e Eb5e F5e Ab5e // F4+Ab4e F4+Ab4 F4+Ab4e",
+"lh": "Ab3h",
+"doubt": "Soufflets cresc. (chant et piano)."
+},
+{
+"marks": [
+"mf"
+],
+"v": "Bb5h^",
+"ly": "son,",
+"rh": "Bb4+Db5+Gb5+Bb5h!^",
+"lh": "Gb2+Db3+Bb3e! Bb3+Db4+Gb4 Bb3+Db4+Gb4e^",
+"doubt": "Arpège continu sur les deux portées. Soufflets decresc. (chant et piano)."
+},
+{
+"marks": [
+"a tempo",
+"p",
+"pp"
+],
+"v": "Ab5d Eb5e",
+"ly": "e che",
+"rh": "Ab5d Eb5e // Ab4h~",
+"lh": "re C4+Eb4 C4+Eb4e // Gb3h",
+"doubt": "p au chant, pp au piano."
+},
+{
+"marks": [],
+"v": "Ab5d F5e",
+"ly": "fac- cio,",
+"rh": "Ab5d F5e // Ab4h",
+"lh": "re Ab3+Eb4 Ab3+Db4e // F3h",
+"doubt": "Respiration après F5 au chant."
+},
+{
+"marks": [
+"poco affrett."
+],
+"v": "Eb5e Db5e C5e Db5e",
+"ly": "co- _ me _",
+"rh": "Eb5e Db5e C5e Db5e // F4h",
+"lh": "re F3+Db4 F3+Db4e // Bb2h"
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "F5h",
+"ly": "vi-",
+"rh": "G4+Db5+F5h",
+"lh": "Eb2s Bb2s F3s G3s Bb3s Db4s F4s G4s",
+"doubt": "MD : accord G4(bécarre)+Db5+F5, le groupe Db5/F5 est serré (peut-être 3 têtes). MG : bécarre devant G3 ; les deux dernières doubles croches (F4, G4) sont écrites sur la portée de la MD — G4 lu bécarre par le bécarre de la MD dans la mesure (doute)."
+},
+{
+"marks": [],
+"v": "Bb4 r",
+"ly": "vo.",
+"rh": "Bb4 C5e Db5e",
+"lh": "re G3+Db4e r",
+"doubt": "Tenuto sur C5 et Db5 (MD). Bécarre devant G3 (MG)."
+},
+{
+"marks": [
+"rallentando",
+"pp"
+],
+"v": "Eb5h",
+"ly": "Vuo-",
+"rh": "gDb4 gGb4 gBb4 Eb5h // r Db4s Gb4s Bb4s Eb5s",
+"lh": "Ab2s Eb3s Gb3s Bb3s r // Ab2h~",
+"doubt": "Trois petites notes (Db4 Gb4 Bb4) avant Eb5. Altérations de précaution (bémols) sur Gb."
+},
+{
+"marks": [],
+"v": "Ab4 re^ Ab4e",
+"ly": "le? Chi",
+"rh": "C4+Gb4+Ab4~ C4+Gb4+Ab4e re^",
+"lh": "Ab2+Ab3~ Ab2+Ab3e re^",
+"doubt": "Double barre en fin de mesure ; indication 3/4 de précaution."
+},
+{
+"meter": "3/4",
+"marks": [
+"p"
+],
+"v": "Ab4~ Ab4e re r",
+"ly": "son?",
+"rh": "r r G#4~",
+"lh": "rhd",
+"doubt": "MG : pause (mesure entière de silence).",
+"tempo": "Andante sostenuto",
+"bpm": 60
+},
+{
+"marks": [
+"f"
+],
+"v": "r r re C5e",
+"ly": "Chi",
+"rh": "r C5~ C5e re // G#4h~ G#4e re",
+"lh": "C4+E4h~ C4+E4e re",
+"doubt": "MG : bécarre devant E4 ; G#4 MD tenu par liaison depuis m.37."
+},
+{
+"marks": [
+"p",
+"f",
+"pp"
+],
+"v": "F5h G4e3 A4e3 Bb4e3",
+"ly": "son? So- no_un po-",
+"rh": "F4+A4+C5+F5~ F4+A4+C5+F5e re F4+G4",
+"lh": "F2+C3+F3~ F2+C3+F3e re Bb3",
+"doubt": "Chant : triolet, bécarres sur G4 et A4. MD : bécarre devant A4 ; bécarre devant G4 (dernier accord). f au piano, p au chant, pp sur le 3e temps du piano. Liaisons d'expression vers m.40."
+},
+{
+"marks": [
+"dolcissimo"
+],
+"v": "C5 C5 rs C5s C5s C5s",
+"ly": "e- ta. Che co- sa",
+"rh": "F4+A4~ F4+A4e re r",
+"lh": "F3+C4~ F3+C4e re r",
+"doubt": "MD : bécarre devant A4. Fin de page."
+}
+]
+}
