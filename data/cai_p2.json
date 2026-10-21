@@ -1,0 +1,140 @@
+{
+ "page": 2,
+ "printed_page": 29,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": 0,
+   "marks": [
+    "ff"
+   ],
+   "v": "F#5 D5 rh",
+   "ly": "tut- ta!",
+   "rh": "D5+F#5~ D5+F#5e3 D5+F#5e3 D5+F#5e3 D5+F#5e3 D5+F#5e3 D5+F#5e3 D5+F#5e3 D5+F#5e3 D5+F#5e3",
+   "lh": "D3+A3+D4~ D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3 D3+A3+D4e3",
+   "doubt": "Aucune armure imprimée sur cette page jusqu'à m26 (ks 0) ; liaison de prolongation 1er accord → 1re croche de triolet (RH et LH) ; accents/staccatos non notés"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D5+F#5edd F#4+A#4+D5t F#4+A#4+D5edd D4+F#4+A#4t D4+F#4+A#4edd A3+D4+F#4t A3+D4+F#4edd A3+D4t",
+   "lh": "D3+A3+D4edd D3+A3t D3+A3edd D3+A3t D3+A3edd D3+F#3t D3+F#3edd D3+F#3t",
+   "doubt": "RH temps 3-4 : A3 sans dièse imprimé (A3 naturel effectif, l'accord suivant m16 = A3+D4) ; croches doublement pointées + triples croches"
+  },
+  {
+   "v": "r re F#5e E5e D5e C#5e B4e",
+   "ly": "E‿a te, mia dol- ce‿A-",
+   "rh": "A3+D4 r rh",
+   "lh": "D3+F#3 r rh"
+  },
+  {
+   "v": "Bb4 Bb4ed Bb4s Ab4ed Cb5s Bb4ed Ab4s",
+   "ly": "i- da, tor- nar di lau- ri",
+   "rh": "Db4+Gb4+Bb4h Cb4+F4+Ab4h",
+   "lh": "Db2+Db3h Db2+Db3h",
+   "doubt": "RH : accords serrés (têtes décalées), lu Db4+Gb4+Bb4 puis Cb4+F4+Ab4, liés par une liaison"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "Ab4e Gb4e r rh",
+   "ly": "cin- to...",
+   "rh": "r Bb3+Eb4+Gb4e re Bb3+Eb4+Bb4e re r",
+   "lh": "r Eb2+Eb3e re Gb2+Gb3e re r"
+  },
+  {
+   "v": "Bb4e Bb4e r red Bb4s C5ed D5s",
+   "ly": "dir- ti: per te‿ho pu-",
+   "rh": "r Bb3+D4+F4+Bb4e re rh",
+   "lh": "r Ab2+Ab3e re rh",
+   "doubt": "C5 et D5 avec bécarres de précaution ; D4 bécarre à la RH"
+  },
+  {
+   "v": "F5e Eb5e r red Eb5s F5ed Gb5s",
+   "ly": "gna- to, per te ho",
+   "rh": "r Eb4+Bb4+Eb5e re rh",
+   "lh": "r Gb2+Gb3e re rh"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Ab5h Ab4 r",
+   "ly": "vin- to!",
+   "rh": "rh r Ab4+C5+Eb5+Ab5e re",
+   "lh": "rh r Ab2+Eb3+Ab3e re"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A4+F5~ A4+F5e3 A4+F5e3 A4+F5e3 A4+F5e3 A4+F5e3 A4+F5e3 A4+F5e3 A4+F5e3 A4+F5e3",
+   "lh": "F3+A3+C4~ F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3 F3+A3+C4e3",
+   "doubt": "Système sans portée de chant (chant = silences) ; bécarres de précaution sur A4/A3"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A4+F5edd A4+F5t A4+F5edd A4+F5t A4+F5edd A4+F5t A4+F5edd A4+F5t",
+   "lh": "F3+A3+C4edd F3+A3+C4t F3+A3+C4edd F3+A3+C4t F3+A3+C4edd F3+A3+C4t F3+A3+C4edd F3+A3+C4t"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F5+A5+F6w",
+   "lh": "F3+C4+C5! r rh",
+   "doubt": "LH : noires arpégées, C5 sur 4 lignes supplémentaires en clé de fa"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "F6w~",
+   "lh": "rw"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F6w",
+   "lh": "rw",
+   "doubt": "Double barre à la fin ; armure 2 bémols et 6/8 à la mesure suivante"
+  },
+  {
+   "meter": "6/8",
+   "ks": -2,
+   "marks": [
+    "Andantino (♪ = 116)",
+    "con espressione",
+    "p",
+    "<"
+   ],
+   "v": "F4d G4e A4e Bb4e",
+   "ly": "Ce- le- _ ste‿A-",
+   "rh": "D4d Eb4e F4e G4e // F3+Bb3e re re rd",
+   "lh": "Bb1+Bb2e F3s D3s Bb3e r re",
+   "doubt": "Début de la romance (si♭ majeur). RH voix inf. : seules croche + 2 demi-soupirs imprimés, 'rd' ajouté pour compléter ; tempo mis dans marks (pas p.1)"
+  },
+  {
+   "marks": [
+    ">"
+   ],
+   "v": "C5d F5~ F5s rs",
+   "ly": "i- da,",
+   "rh": "re F6~ F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x // A4d rd // A3+C4+F4e re re rd",
+   "lh": "F2e F3s C3s A3e Eb4d // rd r re",
+   "doubt": "Chant : arc F5→F5 lu comme liaison de prolongation. RH : F6 noire accentuée liée (?) à un groupe de 8 quadruples croches F6/F5, puis 2 trémolos mesurés F6-F5 (croches + 3 barres) écrits en 64es ; A4 noire pointée hampe en bas ; 'rd' ajoutés. LH : Eb4 noire pointée (fin de la grande liaison venant de la RH)"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "F4d G4e A4e Bb4e",
+   "ly": "for- ma _ di-",
+   "rh": "D4d Eb4e F4e G4e // F3+Bb3e re re rd",
+   "lh": "Bb1+Bb2e F3s D3s Bb3e r re",
+   "doubt": "Mesure continue à la page suivante (phrase 'di-')"
+  }
+ ]
+}
