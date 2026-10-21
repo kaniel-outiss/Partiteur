@@ -1,0 +1,108 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "3/4",
+   "v": "G4 Eb43 F4e3 G43 Ab4e3",
+   "ly": "Les cieux _ pour _",
+   "rh": "G3+C4+Eb4e G3+C4+Eb4e G3+C4+Eb4e G3+C4+Eb4e G3+C4+Eb4e G3+C4+Eb4e",
+   "lh": "C2+C3hd",
+   "doubt": "Croches de l'accompagnement : une seule hampe relie l'accord de la portée du haut et une note (G3) écrite sur la portée de fa (accord à cheval) → mis entièrement en rh ; lh = octave de basse. Même convention pour toute la page."
+  },
+  {
+   "v": "G4~ G4e F4e F4e3 E4e3 F4e3",
+   "ly": "nous en- tr'ou- vraient leurs",
+   "rh": "F3+Bb3+F4e F3+Bb3+F4e F3+Bb3+F4e F3+Bb3+F4e F3+Bb3+F4e F3+Bb3+F4e",
+   "lh": "Db2+Db3hd",
+   "doubt": "Signe de respiration (V) ajouté à la main sur le scan après G4 lié. Triolet (« 3 » centré sur E♮4) = F4 E4 F4 ; 5e croche d'accompagnement espacée irrégulièrement."
+  },
+  {
+   "v": "Ab4 G4 C4",
+   "ly": "nu- es, splen-",
+   "rh": "Ab3+C4e Ab3+C4e G3+Bb3+C4e G3+Bb3+C4e G3+Bb3+C4e G3+Bb3+C4e",
+   "lh": "E2hd",
+   "doubt": "Respiration (,) imprimée avant C4. Portée du haut vide (sans silence) : les accords sont écrits sur la portée de fa, hampes en haut → rh. Accords 3-6 lus G3+Bb3+C4 (C4 décalé, seconde avec Bb3). Basse E♮2 (bécarre) sur 2e ligne supp."
+  },
+  {
+   "marks": [
+    "cresc. poco a poco"
+   ],
+   "v": "Db4~ Db4e3 Eb4e3 F4e3 Eb4e3 F4e3 G4e3",
+   "ly": "deurs _ _ in- _ con-",
+   "rh": "F3+Ab3+Db4e F3+Ab3+Db4e F3+Ab3+Db4e F3+Ab3+C4e F3+G3+C4e F3+G3+B3e",
+   "lh": "F2h G2",
+   "doubt": "Arc Db4 noire → Db4 croche interprété comme liaison de prolongation (puis liaison d'expression Db-Eb-F). Portée du haut vide : accords sur la portée de fa → rh. Dernier accord avec B♮3."
+  },
+  {
+   "v": "G4 C4 E4",
+   "ly": "nu- es, lu-",
+   "rh": "E3+G3+C4e E3+G3+C4e E3+G3+C4e E3+G3+C4e E3+G3+C4e E3+G3+C4e",
+   "lh": "C2hd",
+   "doubt": "Respiration (,) imprimée avant E♮4 (chant). E♮3 (bécarre) dans les accords ; portée du haut vide → rh."
+  },
+  {
+   "v": "F43 F4e3 F4e3 G4e3 Ab4e3 Bb4e3 Ab4e3 Bb4e3",
+   "ly": "eurs di- vi- _ nes en- _ tre-",
+   "rh": "F3+C4+Db4e F3+C4+Db4e F3+C4+Db4e F3+C4+Db4e Ab3+C4+D4e Ab3+C4+D4e",
+   "lh": "Ab1+Ab2h F1+F2",
+   "doubt": "Dernière croche du chant lue Bb4 (portée inclinée). Notes graves : Ab1 (3e ligne supp.) et F1 (4e ligne supp.)."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "C5 C4 C5",
+   "ly": "vu- es, Hé-",
+   "rh": "G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e",
+   "lh": "C2+C3h Bb1+Bb2",
+   "doubt": "Respiration (,) imprimée avant le 2e C5. E♮4 (bécarre) dans les accords."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "F5h F4",
+   "ly": "las! Hé-",
+   "rh": "F3+C4+Eb4+F4e F3+C4+Eb4+F4e F3+C4+Eb4+F4e F3+C4+Eb4+F4e Eb4+F4+C5e Eb4+F4+C5e",
+   "lh": "A1+A2hd",
+   "doubt": "Basse A♮1+A♮2 (bécarres). Bémol de précaution devant Eb4 au 1er accord."
+  },
+  {
+   "marks": [
+    ">"
+   ],
+   "v": "F4 F4e3 G4e3 A4e3 Bb4e3 C5e3 Db5e3",
+   "ly": "las, tris- te ré- veil _ des",
+   "rh": "Eb4+F4+C5e Eb4+F4+C5e Db4+F4+Bb4e Db4+F4+Bb4e C4+F4+Ab4e C4+F4+Ab4e",
+   "lh": "Bb1+Bb2hd",
+   "doubt": "Respiration (,) imprimée après le 1er F4. Soufflet > sous la main droite."
+  },
+  {
+   "marks": [
+    ">"
+   ],
+   "v": "Db5~ Db5e3 C5e3 Eb5e3 Db5e3 C5e3 Bb4e3",
+   "ly": "son- _ _ _ _ _",
+   "rh": "Bb3+Db4+F4+G4e Bb3+Db4+F4+G4e Bb3+Db4+F4+G4e Bb3+Db4+F4+G4e Bb3+Db4+F4+Ab4e Bb3+Db4+F4+Ab4e",
+   "lh": "Eb2+Eb3hd~",
+   "doubt": "Soufflets > au-dessus du chant et sous la main droite. Trait ajouté à la main sur « son ». Arcs de la basse lus comme liaisons de prolongation vers la mesure suivante."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "Db5h Bb4ed Bb4s",
+   "ly": "ges Je t'ap-",
+   "rh": "Bb3+Db4+F4+G4e Bb3+Db4+F4+G4e Eb4+G4e Eb4+G4e Db4+F4+G4e Db4+F4+G4e",
+   "lh": "Eb2+Eb3 r r",
+   "doubt": "Respiration (,) imprimée avant « Je ». Soufflet < (piano) sur la fin de mesure, se prolongeant au début de la suivante."
+  },
+  {
+   "v": "Eb5h Db5",
+   "ly": "pel- le,ô",
+   "rh": "C4+Eb4+G4e C4+Eb4+G4e Bb3+Eb4+G4e Bb3+Eb4+G4e Ab3+Bb3+Db4+F4e Ab3+Bb3+Db4+F4e",
+   "lh": "rhd",
+   "doubt": "« le, ô » sous une seule note (élision). 2e accord : note grave lue C4 (sur la ligne supp.), peut-être Bb3. Accords 5-6 : Ab3+Bb3 écrits sur la portée de fa (la main gauche a une pause). Mesure suivante sur la page 3."
+  }
+ ]
+}
