@@ -56,7 +56,7 @@ def clean(ms):
                 if k not in mk: mk.append(k)
             m['marks'] = mk
         # élision écrite « ste_ed » → « ste‿ed » (le « _ » seul reste un mélisme)
-        if m.get('ly'): m['ly'] = ' '.join(re.sub(r'(?<=\w)_(?=\w)', '‿', w) for w in m['ly'].split())
+        if m.get('ly'): m['ly'] = ' '.join(re.sub(r"(?<=[\w,;:.!?'’])_(?=\w)", '‿', w) for w in m['ly'].split())
     return ms
 def place(T, ms):
     i0, out = 0, []
