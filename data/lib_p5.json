@@ -5,8 +5,7 @@
    "meter": "4/4",
    "ks": -1,
    "marks": [
-    "p",
-    "(m.103)"
+    "p"
    ],
    "s": "F4 F4 G4 A4",
    "ls": "in di- e",
@@ -415,9 +414,6 @@
    "orc": "rw"
   },
   {
-   "marks": [
-    "fin (double barre)"
-   ],
    "s": "D4w^",
    "ls": "",
    "a": "D4w^",
