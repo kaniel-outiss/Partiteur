@@ -1,15 +1,95 @@
-{"page":4,"measures":[
-{"meter":"4/4","v":"D3 E3 F3 D3","ly":"cause of Heav'n your","rh":"Bb4e C5s D5s C5e Bb4e A4e C5e F5~ // F4 G4 A4 re D5e","lh":"D3 E3 F3 D3","doubt":"meter 4/4 ajouté pour chk.py (page 4, pas de changement de mesure ; pas d'armure). MD t.1 : bémol imprimé devant le si4 (Bb4), appliqué au si4 du t.2 (altération valable jusqu'à la barre). F5 lié vers la m. suivante (courbe F5→F5 lue comme liaison de prolongation). Points de staccato non encodés."},
-{"v":"E3e D3e E3e F3e G3 re E3e","ly":"zeal _ _ de- mands, A","rh":"F5 C5+E5ed D5s B4+D5e G4e G5~ // G4e B4e r r re G4e","lh":"E3e D3e E3e F3e G3 re E3e","doubt":"MD : bécarre devant le si4 du t.1 (annule le Bb de la m. précédente). Les croches G4 B4 et l'accord C5+E5 / D5 sont sous une même poutre ; l'accord pointé est noté dans la voix haute. G5 lié vers la m. suivante."},
-{"v":"F3e G3e A3e B3e C4 r","ly":"no- _ _ ble cause;","rh":"G5e F5s E5s F5e G5e C5+E5e B4+D5s C5+E5s D5+F5e B4+D5e // A4e B4e C5e D5e rh","lh":"F3e G3e A3e B3e C4 r"},
-{"v":"C4 D4e G3e C4 re E3e","ly":"Arm, arm, ye brave! a","rh":"C5+E5e B4+D5s C5+E5s A4+F5e B4+D5e C5+E5e C5+E5s D5+F5s E5+G5e E5+G5e","lh":"C4 D4e G3e C4 re E3e"},
-{"v":"F3e G3s A3s G3e F3e E3 re C3e","ly":"no- _ _ _ ble cause, The","rh":"C5+A5 D5+B5 C6e G5 G5e // rh G5e C5e E5e E5e","lh":"F3e G3s A3s G3e F3e E3 re C3e","doubt":"MD t.3-4 : voix haute C6 (croche) puis G5 (noire) puis G5 (croche) ; voix basse 4 croches liées par une poutre (G5 C5 E5 E5), la dernière formant accord E5+G5 avec la croche de la voix haute."},
-{"v":"E3d G3e C4d F3e","ly":"cause of Heav'n your","rh":"C5+E5e G4+C5e G4+C5e B4+D5e G4+E5e B4+D5s E5s F5e D5e // rh r C5~","lh":"E3d G3e C4e G3e A3e F3e","doubt":"MD t.3 : G4 (hampe bas) et E5 (hampe haut) sur deux poutres distinctes, fusionnés en accord. MD t.4 : do5 noire de la voix basse lié au do5 de la m. suivante."},
-{"v":"G3d G3e C3 r","ly":"zeal de- mands;","rh":"C5+E5 B4+D5ed C5s C5 G4+C5s D5s C5+E5e","lh":"G3 G2 C3 E3e C3e","doubt":"MD t.4 : G4 (croche, voix basse) sous les doubles croches C5 D5 ; fusionné dans l'accord G4+C5s."},
-{"v":"rh r C3","ly":"Your","rh":"B4+D5 G4+C5s D5s C5+E5e B4+D5 G4+C5s D5s C5+E5e","lh":"G3 E3e C3e G3 E3e C3e"},
-{"v":"G3h r G3","ly":"zeal, The","rh":"B4+D5 G4+C5s D5s C5+E5e B4+D5 re B4+E5e","lh":"G3 E3e C3e G3d G3e"},
-{"v":"A3d B3e C4 F3","ly":"cause of Heav'n your","rh":"F5e G5s A5s G5e D5+F5e C5+E5 D5e C5e // C5d G4e G4 F4+A4","lh":"A3d B3e C4 F3"},
-{"v":"G3hd G3","ly":"zeal de-","rh":"D4+G4+C5h D4+G4+B4h","lh":"G3h G2h","doubt":"MD : 1er accord lu ré4-sol4-do5 (quarte suspendue) résolu sur ré4-sol4-si4 ; petit point noir au bout de la hampe du 1er accord (tache ou staccato ?)."},
-{"marks":["f"],"v":"C3h rh","ly":"mands.","rh":"E4+G4+C5 E4e G4e C5s D5s C5e E5e G5e // C4s D4s C4e r E4+G4 r","lh":"C2+C3 r C2+C3 r","doubt":"MD t.1 : accord C4+E4+G4+C5 (hampe haut, noire) ; le C4 inférieur commence aussi les doubles croches C4 D4 C4 de la voix basse. MD t.3 : E4+G4 noire (voix basse) sous C5 D5 C5. Fin du chant (fin de l'air ?) ; ritournelle du piano ensuite."},
-{"v":"rw","ly":"","rh":"C6 G4+C5+G5e G4+B4+D5e C5+E5s D5+F5s C5+E5e C5+E5+G5e B4+E5e // E5+G5s F5s E5e r G4 r","lh":"C2+C3s D2+D3s C2+C3e E2+E3e G2+G3e C3+C4 re G2+G3e","doubt":"MD t.1 : C6 noire (hampe haut) au-dessus de E5+G5 double croche. MG t.1 : 2e double croche lue D2+D3 (tête sous la 1re ligne supplémentaire)."}
-]}
+{
+"page": 4,
+"measures": [
+{
+"meter": "4/4",
+"v": "D3 E3 F3 D3",
+"ly": "cause of Heav'n your",
+"rh": "Bb4e C5s D5s C5e Bb4e A4e C5e F5~ // F4 G4 A4 re D5e",
+"lh": "D3 E3 F3 D3",
+"doubt": "meter 4/4 ajouté pour chk.py (page 4, pas de changement de mesure ; pas d'armure). MD t.1 : bémol imprimé devant le si4 (Bb4), appliqué au si4 du t.2 (altération valable jusqu'à la barre). F5 lié vers la m. suivante (courbe F5→F5 lue comme liaison de prolongation). Points de staccato non encodés."
+},
+{
+"v": "E3e D3e E3e F3e G3 re E3e",
+"ly": "zeal _ _ de- mands, A",
+"rh": "F5 C5+E5ed D5s B4+D5e G4e G5~ // G4e B4e r r re G4e",
+"lh": "E3e D3e E3e F3e G3 re E3e",
+"doubt": "MD : bécarre devant le si4 du t.1 (annule le Bb de la m. précédente). Les croches G4 B4 et l'accord C5+E5 / D5 sont sous une même poutre ; l'accord pointé est noté dans la voix haute. G5 lié vers la m. suivante."
+},
+{
+"v": "F3e G3e A3e B3e C4 r",
+"ly": "no- _ _ ble cause;",
+"rh": "G5e F5s E5s F5e G5e C5+E5e B4+D5s C5+E5s D5+F5e B4+D5e // A4e B4e C5e D5e rh",
+"lh": "F3e G3e A3e B3e C4 r"
+},
+{
+"v": "C4 D4e G3e C4 re E3e",
+"ly": "Arm, arm, ye brave! a",
+"rh": "C5+E5e B4+D5s C5+E5s A4+F5e B4+D5e C5+E5e C5+E5s D5+F5s E5+G5e E5+G5e",
+"lh": "C4 D4e G3e C4 re E3e"
+},
+{
+"v": "F3e G3s A3s G3e F3e E3 re C3e",
+"ly": "no- _ _ _ ble cause, The",
+"rh": "C5+A5 D5+B5 C6e G5 G5e // rh G5e C5e E5e E5e",
+"lh": "F3e G3s A3s G3e F3e E3 re C3e",
+"doubt": "MD t.3-4 : voix haute C6 (croche) puis G5 (noire) puis G5 (croche) ; voix basse 4 croches liées par une poutre (G5 C5 E5 E5), la dernière formant accord E5+G5 avec la croche de la voix haute."
+},
+{
+"v": "E3d G3e C4d F3e",
+"ly": "cause of Heav'n your",
+"rh": "C5+E5e G4+C5e G4+C5e B4+D5e G4+E5e B4+D5s E5s F5e D5e // rh r C5~",
+"lh": "E3d G3e C4e G3e A3e F3e",
+"doubt": "MD t.3 : G4 (hampe bas) et E5 (hampe haut) sur deux poutres distinctes, fusionnés en accord. MD t.4 : do5 noire de la voix basse lié au do5 de la m. suivante."
+},
+{
+"v": "G3d G3e C3 r",
+"ly": "zeal de- mands;",
+"rh": "C5+E5 B4+D5ed C5s C5 G4+C5s D5s C5+E5e",
+"lh": "G3 G2 C3 E3e C3e",
+"doubt": "MD t.4 : G4 (croche, voix basse) sous les doubles croches C5 D5 ; fusionné dans l'accord G4+C5s."
+},
+{
+"v": "rh r C3",
+"ly": "Your",
+"rh": "B4+D5 G4+C5s D5s C5+E5e B4+D5 G4+C5s D5s C5+E5e",
+"lh": "G3 E3e C3e G3 E3e C3e"
+},
+{
+"v": "G3h r G3",
+"ly": "zeal, The",
+"rh": "B4+D5 G4+C5s D5s C5+E5e B4+D5 re B4+E5e",
+"lh": "G3 E3e C3e G3d G3e"
+},
+{
+"v": "A3d B3e C4 F3",
+"ly": "cause of Heav'n your",
+"rh": "F5e G5s A5s G5e D5+F5e C5+E5 D5e C5e // C5d G4e G4 F4+A4",
+"lh": "A3d B3e C4 F3"
+},
+{
+"v": "G3hd G3",
+"ly": "zeal de-",
+"rh": "D4+G4+C5h D4+G4+B4h",
+"lh": "G3h G2h",
+"doubt": "MD : 1er accord lu ré4-sol4-do5 (quarte suspendue) résolu sur ré4-sol4-si4 ; petit point noir au bout de la hampe du 1er accord (tache ou staccato ?)."
+},
+{
+"marks": [
+"f"
+],
+"v": "C3h rh",
+"ly": "mands.",
+"rh": "E4+G4+C5 E4e G4e C5s D5s C5e E5e G5e // C4s D4s C4e r E4+G4 r",
+"lh": "C2+C3 r C2+C3 r",
+"doubt": "MD t.1 : accord C4+E4+G4+C5 (hampe haut, noire) ; le C4 inférieur commence aussi les doubles croches C4 D4 C4 de la voix basse. MD t.3 : E4+G4 noire (voix basse) sous C5 D5 C5. Chant : blanche + demi-pause, puis pause à la m. suivante (ritournelle piano, f)."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "C6 G4+C5+G5e G4+B4+D5e C5+E5s D5+F5s C5+E5e C5+E5+G5e B4+E5e // E5+G5s F5s E5e r G4 r",
+"lh": "C2+C3s D2+D3s C2+C3e E2+E3e G2+G3e C3+C4 re G2+G3e",
+"doubt": "MD t.1 : C6 noire (hampe haut) au-dessus de E5+G5 double croche. MG t.1 : 2e double croche lue D2+D3 (tête sous la 1re ligne supplémentaire)."
+}
+]
+}
