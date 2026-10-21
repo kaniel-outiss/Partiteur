@@ -1,92 +1,93 @@
 {
- "page": 1,
- "measures": [
-  {
-   "meter": "4/4",
-   "tempo": "Andante (♩=76)",
-   "marks": [
-    "f"
-   ],
-   "ks": -1,
-   "v": "rw",
-   "ly": "",
-   "rh": "re D4e D4ed D4s A3+D4+F4ed A3+D4+F4s D4+F4+A4ed D4+F4+A4s",
-   "lh": "re D2+D3+F3+A3e D2+D3+F3+A3ed D2+D3+F3+A3s D2+D3ed D2+D3s D2+D3ed D2+D3s",
-   "doubt": "Récitatif nº 5, titre en tête ; « Bass Solo » indiqué à la mesure 2. Main gauche 1er groupe : accords D3-F3-A3 doublés à l'octave D2 (rythme croche, croche pointée, double)."
-  },
-  {
-   "v": "D4 A3ed A3s F3 r",
-   "ly": "Thus saith the Lord,",
-   "rh": "F4+A4+D5 r rh",
-   "lh": "D2+D3 r rh"
-  },
-  {
-   "v": "re F3e G3e A3e D3h",
-   "ly": "the Lord of Hosts:",
-   "rh": "rh re rs D4+F4+A4s D4+F4+A4ed D4+F4+A4s",
-   "lh": "rh re rs D2+D3s D2+D3ed D2+D3s"
-  },
-  {
-   "v": "r re D3e A3e A3e A3e D4e",
-   "ly": "Yet once a lit- tle",
-   "rh": "D4+F4+A4 r rh",
-   "lh": "D2+D3 r rh"
-  },
-  {
-   "v": "C4 r re C4e E3e G3e",
-   "ly": "while, and I will",
-   "rh": "re C4+G4+C5e C4+G4+C5ed C4+G4+C5s C4+G4+C5 r",
-   "lh": "re E2+E3e E2+E3ed E2+E3s E2+E3 r"
-  },
-  {
-   "v": "C3~ C3s D3s C3s D3s E3s F3s E3s F3s G3s A3s G3s A3s",
-   "ly": "shake _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "rw",
-   "lh": "rw",
-   "doubt": "C3 noire lié (liaison) à la 1re double croche C3."
-  },
-  {
-   "v": "Bb3s C4s Bb3s A3s Bb3s G3s C4s Bb3s A3 re C4e",
-   "ly": "_ _ _ _ _ _ _ _ _ the",
-   "rh": "rh re F4+A4+C5e F4+A4+C5ed F4+A4+C5s",
-   "lh": "rh re F2+F3e F2+F3ed F2+F3s"
-  },
-  {
-   "v": "C4 F3e C3e D3 re D4e",
-   "ly": "heav'ns and the earth, the",
-   "rh": "F4+C5+F5 r re F4+Bb4+D5e F4+Bb4+D5ed F4+Bb4+D5s",
-   "lh": "A1+A2 r re Bb1+Bb2e Bb1+Bb2ed Bb1+Bb2s",
-   "doubt": "Paroles imprimées « heav'ns » (apostrophe peu lisible : « heavńs »)."
-  },
-  {
-   "v": "D4 D3e F3e F3e E3e r",
-   "ly": "sea and the dry land;",
-   "rh": "G4+D5+G5 r re C4+E4+G4e C4+E4+G4ed C4+E4+G4s",
-   "lh": "B1+B2 r re C2+C3e C2+C3ed C2+C3s",
-   "doubt": "Bécarres imprimés devant B1 et B2 (main gauche, 1er temps)."
-  },
-  {
-   "v": "re C4e C4e C4e A3s Bb3s C4s Bb3s A3s Bb3s G3s A3s",
-   "ly": "and I will shake, _ _ _ _ _ _ _",
-   "rh": "C4+G4+C5 r F4+A4+C5 r",
-   "lh": "E2+E3 r F2+F3 r",
-   "marks": [
-    "pp"
-   ],
-   "doubt": "Repère « A » imprimé au début de la mesure. pp sous le 2e accord (3e temps)."
-  },
-  {
-   "v": "F3s G3s A3s G3s F3s G3s E3s F3s D3s E3s F3s E3s D3s E3s C3s D3s",
-   "ly": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "F4+C5+F5 r Bb3+D4+F4 r",
-   "lh": "A1+A2 r Bb1+Bb2 r"
-  },
-  {
-   "v": "Bb2e rs D4s D4e D4e Bb3s C4s D4s C4s Bb3s C4s A3s Bb3s",
-   "ly": "_ and I will shake _ _ _ _ _ _ _",
-   "rh": "Bb3+F4+Bb4 r G4+Bb4+D5 r",
-   "lh": "D1+D2 r G1+G2 r",
-   "doubt": "Mélisme « shake » se poursuit page suivante. Main gauche 1er accord : D1 très grave (5 lignes supplémentaires), lu ainsi."
-  }
- ]
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Andante (♩=76)",
+"marks": [
+"f"
+],
+"ks": -1,
+"v": "rw",
+"ly": "",
+"rh": "re D4e D4ed D4s A3+D4+F4ed A3+D4+F4s D4+F4+A4ed D4+F4+A4s",
+"lh": "re D2+D3+F3+A3e D2+D3+F3+A3ed D2+D3+F3+A3s D2+D3ed D2+D3s D2+D3ed D2+D3s",
+"doubt": "Récitatif nº 5, titre en tête ; « Bass Solo » indiqué à la mesure 2. Main gauche 1er groupe : accords D3-F3-A3 doublés à l'octave D2 (rythme croche, croche pointée, double).",
+"bpm": 76
+},
+{
+"v": "D4 A3ed A3s F3 r",
+"ly": "Thus saith the Lord,",
+"rh": "F4+A4+D5 r rh",
+"lh": "D2+D3 r rh"
+},
+{
+"v": "re F3e G3e A3e D3h",
+"ly": "the Lord of Hosts:",
+"rh": "rh re rs D4+F4+A4s D4+F4+A4ed D4+F4+A4s",
+"lh": "rh re rs D2+D3s D2+D3ed D2+D3s"
+},
+{
+"v": "r re D3e A3e A3e A3e D4e",
+"ly": "Yet once a lit- tle",
+"rh": "D4+F4+A4 r rh",
+"lh": "D2+D3 r rh"
+},
+{
+"v": "C4 r re C4e E3e G3e",
+"ly": "while, and I will",
+"rh": "re C4+G4+C5e C4+G4+C5ed C4+G4+C5s C4+G4+C5 r",
+"lh": "re E2+E3e E2+E3ed E2+E3s E2+E3 r"
+},
+{
+"v": "C3~ C3s D3s C3s D3s E3s F3s E3s F3s G3s A3s G3s A3s",
+"ly": "shake _ _ _ _ _ _ _ _ _ _ _",
+"rh": "rw",
+"lh": "rw",
+"doubt": "C3 noire lié (liaison) à la 1re double croche C3."
+},
+{
+"v": "Bb3s C4s Bb3s A3s Bb3s G3s C4s Bb3s A3 re C4e",
+"ly": "_ _ _ _ _ _ _ _ _ the",
+"rh": "rh re F4+A4+C5e F4+A4+C5ed F4+A4+C5s",
+"lh": "rh re F2+F3e F2+F3ed F2+F3s"
+},
+{
+"v": "C4 F3e C3e D3 re D4e",
+"ly": "heav'ns and the earth, the",
+"rh": "F4+C5+F5 r re F4+Bb4+D5e F4+Bb4+D5ed F4+Bb4+D5s",
+"lh": "A1+A2 r re Bb1+Bb2e Bb1+Bb2ed Bb1+Bb2s",
+"doubt": "Paroles imprimées « heav'ns » (apostrophe peu lisible : « heavńs »)."
+},
+{
+"v": "D4 D3e F3e F3e E3e r",
+"ly": "sea and the dry land;",
+"rh": "G4+D5+G5 r re C4+E4+G4e C4+E4+G4ed C4+E4+G4s",
+"lh": "B1+B2 r re C2+C3e C2+C3ed C2+C3s",
+"doubt": "Bécarres imprimés devant B1 et B2 (main gauche, 1er temps)."
+},
+{
+"v": "re C4e C4e C4e A3s Bb3s C4s Bb3s A3s Bb3s G3s A3s",
+"ly": "and I will shake, _ _ _ _ _ _ _",
+"rh": "C4+G4+C5 r F4+A4+C5 r",
+"lh": "E2+E3 r F2+F3 r",
+"marks": [
+"pp"
+],
+"doubt": "Repère « A » imprimé au début de la mesure. pp sous le 2e accord (3e temps)."
+},
+{
+"v": "F3s G3s A3s G3s F3s G3s E3s F3s D3s E3s F3s E3s D3s E3s C3s D3s",
+"ly": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
+"rh": "F4+C5+F5 r Bb3+D4+F4 r",
+"lh": "A1+A2 r Bb1+Bb2 r"
+},
+{
+"v": "Bb2e rs D4s D4e D4e Bb3s C4s D4s C4s Bb3s C4s A3s Bb3s",
+"ly": "_ and I will shake _ _ _ _ _ _ _",
+"rh": "Bb3+F4+Bb4 r G4+Bb4+D5 r",
+"lh": "D1+D2 r G1+G2 r",
+"doubt": "Mélisme « shake » se poursuit page suivante. Main gauche 1er accord : D1 très grave (5 lignes supplémentaires), lu ainsi."
+}
+]
 }

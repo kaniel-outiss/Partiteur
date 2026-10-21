@@ -4,14 +4,15 @@
 {
 "meter": "3/8",
 "marks": [
-"Larghetto (Tempo I)",
 "p"
 ],
 "v": "re re A3e",
 "ly": "But",
 "rh": "re re A3+E4+A4e",
 "lh": "D2e D3e C#3e",
-"doubt": "Lettre de repère F imprimée au-dessus du système."
+"doubt": "Lettre de repère F imprimée au-dessus du système.",
+"tempo": "Larghetto (Tempo I)",
+"bpm": 44
 },
 {
 "v": "D3ed E3s C#3e",
@@ -162,14 +163,15 @@
 {
 "meter": "4/4",
 "marks": [
-"Prestissimo",
 "p"
 ],
 "v": "D3h E3d E3e",
 "ly": "For He is",
 "rh": "F3+A3+D4h A3+E4d A3+E4e",
 "lh": "D2+D3e D2+D3e D2+D3e D2+D3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e",
-"doubt": "Lettre de repère G imprimée."
+"doubt": "Lettre de repère G imprimée.",
+"tempo": "Prestissimo",
+"bpm": 138
 },
 {
 "marks": [

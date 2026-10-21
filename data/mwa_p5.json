@@ -1,223 +1,223 @@
 {
- "page": 5,
- "measures": [
-  {
-   "meter": "3/8",
-   "ks": -1,
-   "marks": [],
-   "v": "E3ed G3s F3e",
-   "ly": "He _ ap-",
-   "rh": "E4ed G4s F4e // Bb3 Bb3e",
-   "lh": "G2+G3 A2+A3e",
-   "doubt": "Page imprimée 28 (p-026). Air nº 6 (Larghetto 3/8) déjà en cours. MD voix inf. Bb3 : tête juste sous une ligne additionnelle (lecture Bb3, non C4)."
-  },
-  {
-   "marks": [
-    "mf"
-   ],
-   "v": "G3e C3e re",
-   "ly": "pear- eth?",
-   "rh": "C4+E4+G4e C4e C4+F4+A4e",
-   "lh": "A1+A2 A1+A2e",
-   "doubt": "MD : liaison partant du C4 grave vers la mesure suivante (tenue ou liaison d'expression ?) non notée. MG : tête basse de la 2e note sur la 2e ligne add. (A1)."
-  },
-  {
-   "marks": [],
-   "v": "rd",
-   "ly": "",
-   "rh": "F4ed E4s F4e // C4e B3",
-   "lh": "D2+D3ed C2+C3s D2+D3e",
-   "doubt": "MD voix inf. : B3 bécarre imprimé."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "re re A3e",
-   "ly": "But",
-   "rh": "C4+E4+G4 A3+F4+A4e",
-   "lh": "C2+C3 C#2+C#3e",
-   "doubt": "Lettre de repère « B » imprimée. MD : accord noire hampe en bas, puis F4+A4 (hampe haut) + A3 (hampe bas) fusionnés en un accord."
-  },
-  {
-   "marks": [],
-   "v": "F3e E3s D3s Bb3e",
-   "ly": "who may _ a-",
-   "rh": "F4e E4s D4s Bb4e // A3e re D4e",
-   "lh": "D2+D3e Bb1+Bb2e G1+G2e"
-  },
-  {
-   "marks": [],
-   "v": "Bb3e A3e D4e",
-   "ly": "bide, _ but",
-   "rh": "Bb4e A4e D5e // E4 G4e",
-   "lh": "C2+C3 Bb1+Bb2e"
-  },
-  {
-   "marks": [],
-   "v": "D4e C4e Bb3e",
-   "ly": "who may a-",
-   "rh": "D5e C5e Bb4e // E4 F4e",
-   "lh": "A1+A2 D2+D3e"
-  },
-  {
-   "marks": [],
-   "v": "Bb3e A3e G3e",
-   "ly": "bide _ the",
-   "rh": "Bb4e A4e G4e // E4d",
-   "lh": "C#2+C#3d"
-  },
-  {
-   "marks": [],
-   "v": "F3e E3e D3e",
-   "ly": "day of His",
-   "rh": "F4e E4e D4e // G3e re G3e",
-   "lh": "D2+D3e C2+C3e Bb1+Bb2e",
-   "doubt": "MG : bécarres de précaution sur C3/C2. MD voix inf. : têtes sous la ligne add. du la (lecture G3)."
-  },
-  {
-   "marks": [
-    "mf"
-   ],
-   "v": "A3e E3e re",
-   "ly": "com- ing?",
-   "rh": "A4e E4e A5e // A3+C#4 C#5+E5e",
-   "lh": "A1+A2 A2+A3e",
-   "doubt": "MD : A5 (ligne add.) relié à la ligature de la voix sup. ; C#5+E5 hampe en bas, voix inf."
-  },
-  {
-   "marks": [],
-   "v": "rd",
-   "ly": "",
-   "rh": "C#5ed E5s D5e // E4+G4 G4+Bb4e",
-   "lh": "Bb2+Bb3 Bb1+Bb2e",
-   "doubt": "MD 3e croche : accord G4-Bb4-D5 ; D5 attribué à la voix sup. (ligature)."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "re re A3e",
-   "ly": "and",
-   "rh": "E4+C#5+E5 E4+A4e",
-   "lh": "A1+A2 C#2+C#3e"
-  },
-  {
-   "marks": [],
-   "v": "F#3 F#3e",
-   "ly": "who shall",
-   "rh": "A3+D4+F#4 A3+D4+F#4e",
-   "lh": "D2+D3 C2+C3e",
-   "doubt": "MG : bécarres sur C3/C2."
-  },
-  {
-   "marks": [],
-   "v": "G3 A3e",
-   "ly": "stand when",
-   "rh": "D4+G4 C4+F#4+A4e",
-   "lh": "Bb1+Bb2 A1+A2e"
-  },
-  {
-   "marks": [],
-   "v": "Bb3e D4s C4s Bb3s A3s",
-   "ly": "He ap- _ _ _",
-   "rh": "G4+Bb4e D5s C5s Bb4s A4s // D4ed G4s C4+F4e",
-   "lh": "G1+G2e E2+E3e F2+F3e",
-   "doubt": "MD voix inf. : bécarre de précaution sur F4."
-  },
-  {
-   "marks": [
-    "mp"
-   ],
-   "v": "A3e G3e re",
-   "ly": "pear- eth?",
-   "rh": "F4+A4e E4+G4e F4+A4e // C4 C4e",
-   "lh": "C2+C3d~"
-  },
-  {
-   "marks": [],
-   "v": "rd",
-   "ly": "",
-   "rh": "G4+Bb4e Bb4+D5s A4+C5s G4+Bb4s F4+A4s // E4 C4e",
-   "lh": "C2+C3d~"
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "re re C4e",
-   "ly": "and",
-   "rh": "F4+A4e E4+G4e C5e // C4 C4+F4e",
-   "lh": "C2+C3ed Bb1+Bb2s A1+A2e",
-   "doubt": "MD 3e croche : note médiane F4 ou G4 (lecture F4) ; C5 sur la ligature sup., C4+F4 hampe en bas."
-  },
-  {
-   "marks": [],
-   "v": "D3d",
-   "ly": "who",
-   "rh": "F3+Bb3+D4d",
-   "lh": "Bb1+Bb2e D2+D3s C2+C3s Bb1+Bb2s A1+A2s",
-   "doubt": "Lettre de repère « C » imprimée."
-  },
-  {
-   "marks": [],
-   "v": "Bb3d",
-   "ly": "shall",
-   "rh": "D4+G4+Bb4d",
-   "lh": "G1+G2e Bb2+Bb3s A2+A3s G2+G3s F2+F3s"
-  },
-  {
-   "marks": [],
-   "v": "C3d",
-   "ly": "stand",
-   "rh": "G3+C4d",
-   "lh": "E2+E3e C2+C3s Bb1+Bb2s A1+A2s G1+G2s"
-  },
-  {
-   "marks": [],
-   "v": "F3d~",
-   "ly": "when",
-   "rh": "F4d~ // C4e Bb3e A3e",
-   "lh": "A1+A2e G1+G2e F1+F2e",
-   "doubt": "MG : F1 sur 4 lignes add. (lecture)."
-  },
-  {
-   "marks": [],
-   "v": "F3e E3e D3e",
-   "ly": "He ap-",
-   "rh": "F4e E4e D4e // D4d",
-   "lh": "Bb1+Bb2d~",
-   "doubt": "Arc entre MG m.23 et m.24 : lu comme liaison de tenue."
-  },
-  {
-   "marks": [],
-   "v": "G3d~",
-   "ly": "pear-",
-   "rh": "G4d~ // D4e C4e Bb3e",
-   "lh": "Bb1+Bb2e A1+A2e G1+G2e",
-   "doubt": "Arcs courts G3/G4 vers m.25 lus comme liaisons de tenue (sous la grande liaison de phrase)."
-  },
-  {
-   "marks": [],
-   "v": "G3e A3s G3s F3s E3s",
-   "ly": "_ _ _ _",
-   "rh": "G4e A4s G4s F4s E4s // E4d",
-   "lh": "C2+C3d~"
-  },
-  {
-   "marks": [],
-   "v": "A3d~",
-   "ly": "_",
-   "rh": "A4d~ // E4e D4e C4e",
-   "lh": "C2+C3e Bb1+Bb2e A1+A2e"
-  },
-  {
-   "marks": [],
-   "v": "A3e Bb3s A3s G3s F3s",
-   "ly": "_ _ _ _",
-   "rh": "A4e Bb4s A4s G4s F4s // F4d~",
-   "lh": "D2+D3d~",
-   "doubt": "Fin de page : vocalise sur « appear- » continue page suivante. MD voix inf. F4 et MG D2+D3 liés à la page suivante (liaisons visibles en début de p. 29)."
-  }
- ]
+"page": 5,
+"measures": [
+{
+"meter": "3/8",
+"ks": -1,
+"marks": [],
+"v": "E3ed G3s F3e",
+"ly": "He _ ap-",
+"rh": "E4ed G4s F4e // Bb3 Bb3e",
+"lh": "G2+G3 A2+A3e",
+"doubt": "Page imprimée 28 (p-026). Air nº 6 (Larghetto 3/8) déjà en cours. MD voix inf. Bb3 : tête juste sous une ligne additionnelle (lecture Bb3, non C4)."
+},
+{
+"marks": [
+"mf"
+],
+"v": "G3e C3e re",
+"ly": "pear- eth?",
+"rh": "C4+E4+G4e C4e C4+F4+A4e",
+"lh": "A1+A2 A1+A2e",
+"doubt": "MD : liaison partant du C4 grave vers la mesure suivante (tenue ou liaison d'expression ?) non notée. MG : tête basse de la 2e note sur la 2e ligne add. (A1)."
+},
+{
+"marks": [],
+"v": "rd",
+"ly": "",
+"rh": "F4ed E4s F4e // C4e B3",
+"lh": "D2+D3ed C2+C3s D2+D3e",
+"doubt": "MD voix inf. : B3 bécarre imprimé."
+},
+{
+"marks": [
+"p"
+],
+"v": "re re A3e",
+"ly": "But",
+"rh": "C4+E4+G4 A3+F4+A4e",
+"lh": "C2+C3 C#2+C#3e",
+"doubt": "Lettre de repère « B » imprimée. MD : accord noire hampe en bas, puis F4+A4 (hampe haut) + A3 (hampe bas) fusionnés en un accord."
+},
+{
+"marks": [],
+"v": "F3e E3s D3s Bb3e",
+"ly": "who may _ a-",
+"rh": "F4e E4s D4s Bb4e // A3e re D4e",
+"lh": "D2+D3e Bb1+Bb2e G1+G2e"
+},
+{
+"marks": [],
+"v": "Bb3e A3e D4e",
+"ly": "bide, _ but",
+"rh": "Bb4e A4e D5e // E4 G4e",
+"lh": "C2+C3 Bb1+Bb2e"
+},
+{
+"marks": [],
+"v": "D4e C4e Bb3e",
+"ly": "who may a-",
+"rh": "D5e C5e Bb4e // E4 F4e",
+"lh": "A1+A2 D2+D3e"
+},
+{
+"marks": [],
+"v": "Bb3e A3e G3e",
+"ly": "bide _ the",
+"rh": "Bb4e A4e G4e // E4d",
+"lh": "C#2+C#3d"
+},
+{
+"marks": [],
+"v": "F3e E3e D3e",
+"ly": "day of His",
+"rh": "F4e E4e D4e // G3e re G3e",
+"lh": "D2+D3e C2+C3e Bb1+Bb2e",
+"doubt": "MG : bécarres de précaution sur C3/C2. MD voix inf. : têtes sous la ligne add. du la (lecture G3)."
+},
+{
+"marks": [
+"mf"
+],
+"v": "A3e E3e re",
+"ly": "com- ing?",
+"rh": "A4e E4e A5e // A3+C#4 C#5+E5e",
+"lh": "A1+A2 A2+A3e",
+"doubt": "MD : A5 (ligne add.) relié à la ligature de la voix sup. ; C#5+E5 hampe en bas, voix inf."
+},
+{
+"marks": [],
+"v": "rd",
+"ly": "",
+"rh": "C#5ed E5s D5e // E4+G4 G4+Bb4e",
+"lh": "Bb2+Bb3 Bb1+Bb2e",
+"doubt": "MD 3e croche : accord G4-Bb4-D5 ; D5 attribué à la voix sup. (ligature)."
+},
+{
+"marks": [
+"p"
+],
+"v": "re re A3e",
+"ly": "and",
+"rh": "E4+C#5+E5 E4+A4e",
+"lh": "A1+A2 C#2+C#3e"
+},
+{
+"marks": [],
+"v": "F#3 F#3e",
+"ly": "who shall",
+"rh": "A3+D4+F#4 A3+D4+F#4e",
+"lh": "D2+D3 C2+C3e",
+"doubt": "MG : bécarres sur C3/C2."
+},
+{
+"marks": [],
+"v": "G3 A3e",
+"ly": "stand when",
+"rh": "D4+G4 C4+F#4+A4e",
+"lh": "Bb1+Bb2 A1+A2e"
+},
+{
+"marks": [],
+"v": "Bb3e D4s C4s Bb3s A3s",
+"ly": "He ap- _ _ _",
+"rh": "G4+Bb4e D5s C5s Bb4s A4s // D4ed G4s C4+F4e",
+"lh": "G1+G2e E2+E3e F2+F3e",
+"doubt": "MD voix inf. : bécarre de précaution sur F4."
+},
+{
+"marks": [
+"mp"
+],
+"v": "A3e G3e re",
+"ly": "pear- eth?",
+"rh": "F4+A4e E4+G4e F4+A4e // C4 C4e",
+"lh": "C2+C3d~"
+},
+{
+"marks": [],
+"v": "rd",
+"ly": "",
+"rh": "G4+Bb4e Bb4+D5s A4+C5s G4+Bb4s F4+A4s // E4 C4e",
+"lh": "C2+C3d~"
+},
+{
+"marks": [
+"p"
+],
+"v": "re re C4e",
+"ly": "and",
+"rh": "F4+A4e E4+G4e C5e // C4 C4+F4e",
+"lh": "C2+C3ed Bb1+Bb2s A1+A2e",
+"doubt": "MD 3e croche : note médiane F4 ou G4 (lecture F4) ; C5 sur la ligature sup., C4+F4 hampe en bas."
+},
+{
+"marks": [],
+"v": "D3d",
+"ly": "who",
+"rh": "F3+Bb3+D4d",
+"lh": "Bb1+Bb2e D2+D3s C2+C3s Bb1+Bb2s A1+A2s",
+"doubt": "Lettre de repère « C » imprimée."
+},
+{
+"marks": [],
+"v": "Bb3d",
+"ly": "shall",
+"rh": "D4+G4+Bb4d",
+"lh": "G1+G2e Bb2+Bb3s A2+A3s G2+G3s F2+F3s"
+},
+{
+"marks": [],
+"v": "C3d",
+"ly": "stand",
+"rh": "G3+C4d",
+"lh": "E2+E3e C2+C3s Bb1+Bb2s A1+A2s G1+G2s"
+},
+{
+"marks": [],
+"v": "F3d~",
+"ly": "when",
+"rh": "F4d~ // C4e Bb3e A3e",
+"lh": "A1+A2e G1+G2e F1+F2e",
+"doubt": "MG : F1 sur 4 lignes add. (lecture)."
+},
+{
+"marks": [],
+"v": "F3e E3e D3e",
+"ly": "He ap-",
+"rh": "F4e E4e D4e // D4d",
+"lh": "Bb1+Bb2d~",
+"doubt": "Arc entre MG m.23 et m.24 : lu comme liaison de tenue."
+},
+{
+"marks": [],
+"v": "G3d~",
+"ly": "pear-",
+"rh": "G4d~ // D4e C4e Bb3e",
+"lh": "Bb1+Bb2e A1+A2e G1+G2e",
+"doubt": "Arcs courts G3/G4 vers m.25 lus comme liaisons de tenue (sous la grande liaison de phrase)."
+},
+{
+"marks": [],
+"v": "G3e A3s G3s F3s E3s",
+"ly": "_ _ _ _",
+"rh": "G4e A4s G4s F4s E4s // E4d",
+"lh": "C2+C3d~"
+},
+{
+"marks": [],
+"v": "A3d~",
+"ly": "_",
+"rh": "A4d~ // E4e D4e C4e",
+"lh": "C2+C3e Bb1+Bb2e A1+A2e"
+},
+{
+"marks": [],
+"v": "A3e Bb3s A3s G3s F3s",
+"ly": "_ _ _ _",
+"rh": "A4e Bb4s A4s G4s F4s // F4d~",
+"lh": "D2+D3d~",
+"doubt": "Fin de page : vocalise sur « appear- » continue page suivante. MD voix inf. F4 et MG D2+D3 liés à la page suivante (liaisons visibles en début de p. 29)."
+}
+]
 }

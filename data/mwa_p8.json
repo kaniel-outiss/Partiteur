@@ -1,176 +1,176 @@
 {
- "page": 8,
- "measures": [
-  {
-   "meter": "4/4",
-   "marks": [
-    "tr",
-    "p"
-   ],
-   "v": "F3e D3e A3e F3e D3h",
-   "ly": "fin- _ _ _ _",
-   "rh": "F4+A4+D5 r D6e A5e F5e D5e",
-   "lh": "D2+D3 D2+D3 F2+F3 F2+F3",
-   "doubt": "tr sur la blanche du chant ; coins (staccato) sous l'accord m.d. et la 1re basse"
-  },
-  {
-   "marks": [
-    "f",
-    "p",
-    "tr"
-   ],
-   "v": "C#3e A2e C#3e E3e G3h",
-   "ly": "_ _ _ _ _",
-   "rh": "E4+A4+C#5 r G5e E5e C#5e A4e",
-   "lh": "A2+A3 A2+A3 C#2+C#3 C#2+C#3",
-   "doubt": "coins (staccato) sur 1er temps"
-  },
-  {
-   "marks": [
-    "f",
-    "p",
-    "tr"
-   ],
-   "v": "F3e D3e A3e F3e D3h",
-   "ly": "_ _ _ _ _",
-   "rh": "A4+D5+F5 r D6e A5e F5e D5e",
-   "lh": "D2+D3 D2+D3 F2+F3 F2+F3",
-   "doubt": "coins (staccato) sur 1er temps"
-  },
-  {
-   "marks": [
-    "f",
-    "p",
-    "tr"
-   ],
-   "v": "C#3e A2e C#3e E3e G3h",
-   "ly": "_ _ _ _ _",
-   "rh": "E4+A4+C#5 r G5e E5e C#5e A4e",
-   "lh": "A2+A3 A2+A3 C#2+C#3 C#2+C#3",
-   "doubt": "coins (staccato) sur 1er temps"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "F3e D3e A3e F3e D4h",
-   "ly": "_ _ _ _ _",
-   "rh": "A4+D5+F5 r D5e A4e F4e D4e",
-   "lh": "D2+D3 D2+D3 F2+F3 F2+F3",
-   "doubt": "coins (staccato) sur 1er temps"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "D4e C4e B3e A3e G#3e F#3e E3e D3e",
-   "ly": "_ _ _ _ _ _ _ _",
-   "rh": "D4+E4+B4 r D5e B4e G#4e E4e",
-   "lh": "G#1+G#2 G#1+G#2 E2+E3 E2+E3",
-   "doubt": "m.d. 1er temps : seconde D4-E4 + B4 bécarre"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "C3e A2e C3e E3e A3 C4",
-   "ly": "_ _ _ _ er's _",
-   "rh": "E4+A4+C5+E5 r A4+E5e C5e E5e A5e",
-   "lh": "A2+A3 A2+A3 G2+G3 G2+G3",
-   "doubt": "bécarres sur G2/G3 (m.g.)"
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "A3h r A3",
-   "ly": "fire, for",
-   "rh": "A4+D5e D4e E4e A4e A4+C5e A4e C5e E5e",
-   "lh": "F2+F3 F2+F3 E2+E3 E2+E3",
-   "doubt": "2e F2 m.g. imprimé à tête creuse (défaut d'impression ?) — lu noire"
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "F3 A3 A3e F3e E3e D3e",
-   "ly": "He is like _ a re-",
-   "rh": "D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s",
-   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e"
-  },
-  {
-   "v": "E3 A3h E3",
-   "ly": "fin- _ _",
-   "rh": "E5s A4s E5s A4s E5s A4s E5s A4s E5s A4s E5s A4s E5+A5s A4s E5+A5s A4s",
-   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e"
-  },
-  {
-   "v": "D3 B3h D3",
-   "ly": "_ _ er's",
-   "rh": "D5+A5s B4s D5+A5s B4s D5+F5+A5s B4s D5+F5+A5s B4s D5+G#5s B4s D5+G#5s B4s D5+G#5s B4s D5+G#5s B4s",
-   "lh": "B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e",
-   "doubt": "B3 du chant avec bécarre ; B4 m.d. et B1/B2 m.g. bécarres"
-  },
-  {
-   "marks": [
-    "tr",
-    "p",
-    "f",
-    "p"
-   ],
-   "v": "C3d B2s C3s D3d C3s D3s",
-   "ly": "fire, _ _ _ _ _",
-   "rh": "C5+E5+A5e E5e C5e A4e D4+G#4 r",
-   "lh": "A1+A2 A1+A2 B1+B2 B1+B2",
-   "doubt": "tr sur C3 pointée ; B2 du chant et B1/B2 m.g. avec bécarres"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "E3d D3s E3s F#3d E3s F#3s",
-   "ly": "_ _ _ _ _ _",
-   "rh": "A4+E5+A5e E5e C5e A4e D4+F#4+B4 r",
-   "lh": "C2+C3 C2+C3 D2+D3 D2+D3",
-   "doubt": "accord m.d. 3e temps : dièse lu sur F4 (placé entre F4 et D4), B4 bécarre"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "G#3h r B3",
-   "ly": "_ and",
-   "rh": "G#5+B5e E5+G#5e B4+E5e G#4+B4e B3+E4 E4+B4",
-   "lh": "E2+E3 E2+E3 G#2+G#3 G#2+G#3",
-   "doubt": "petit trait au-dessus du 1er accord m.d. (tenuto ?) ; bécarres sur B5, B4, B3 ; B3 du chant bécarre"
-  },
-  {
-   "marks": [
-    "colla voce"
-   ],
-   "v": "C4 G#3 A3 B3",
-   "ly": "who shall stand when",
-   "rh": "C5 G#4 A4 B4 // E4h C4 D4+F4",
-   "lh": "A2+A3 E2+E3 F2+F3 D2+D3"
-  },
-  {
-   "v": "G#3hd G#3",
-   "ly": "He ap-",
-   "rh": "B3+E4+G#4hd B3+E4+G#4",
-   "lh": "E2+E3 D2+D3 E2+E3 E1+E2",
-   "doubt": "accords m.d. : B3 bécarre, G#4 ; nombre exact de têtes dans l'accord pointé difficile (B3-E4-G#4 lu)"
-  },
-  {
-   "v": "A3e G#3e A3 rh",
-   "ly": "pear- _ eth?",
-   "rh": "C4+E4+A4h rh",
-   "lh": "A1+A2h rh",
-   "doubt": "Double barre puis 3/8 annoncé en fin de page (suite = Larghetto p. 9)"
-  }
- ]
+"page": 8,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"tr",
+"p"
+],
+"v": "F3e D3e A3e F3e D3h",
+"ly": "fin- _ _ _ _",
+"rh": "F4+A4+D5 r D6e A5e F5e D5e",
+"lh": "D2+D3 D2+D3 F2+F3 F2+F3",
+"doubt": "tr sur la blanche du chant ; coins (staccato) sous l'accord m.d. et la 1re basse"
+},
+{
+"marks": [
+"f",
+"p",
+"tr"
+],
+"v": "C#3e A2e C#3e E3e G3h",
+"ly": "_ _ _ _ _",
+"rh": "E4+A4+C#5 r G5e E5e C#5e A4e",
+"lh": "A2+A3 A2+A3 C#2+C#3 C#2+C#3",
+"doubt": "coins (staccato) sur 1er temps"
+},
+{
+"marks": [
+"f",
+"p",
+"tr"
+],
+"v": "F3e D3e A3e F3e D3h",
+"ly": "_ _ _ _ _",
+"rh": "A4+D5+F5 r D6e A5e F5e D5e",
+"lh": "D2+D3 D2+D3 F2+F3 F2+F3",
+"doubt": "coins (staccato) sur 1er temps"
+},
+{
+"marks": [
+"f",
+"p",
+"tr"
+],
+"v": "C#3e A2e C#3e E3e G3h",
+"ly": "_ _ _ _ _",
+"rh": "E4+A4+C#5 r G5e E5e C#5e A4e",
+"lh": "A2+A3 A2+A3 C#2+C#3 C#2+C#3",
+"doubt": "coins (staccato) sur 1er temps"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "F3e D3e A3e F3e D4h",
+"ly": "_ _ _ _ _",
+"rh": "A4+D5+F5 r D5e A4e F4e D4e",
+"lh": "D2+D3 D2+D3 F2+F3 F2+F3",
+"doubt": "coins (staccato) sur 1er temps"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "D4e C4e B3e A3e G#3e F#3e E3e D3e",
+"ly": "_ _ _ _ _ _ _ _",
+"rh": "D4+E4+B4 r D5e B4e G#4e E4e",
+"lh": "G#1+G#2 G#1+G#2 E2+E3 E2+E3",
+"doubt": "m.d. 1er temps : seconde D4-E4 + B4 bécarre"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "C3e A2e C3e E3e A3 C4",
+"ly": "_ _ _ _ er's _",
+"rh": "E4+A4+C5+E5 r A4+E5e C5e E5e A5e",
+"lh": "A2+A3 A2+A3 G2+G3 G2+G3",
+"doubt": "bécarres sur G2/G3 (m.g.)"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "A3h r A3",
+"ly": "fire, for",
+"rh": "A4+D5e D4e E4e A4e A4+C5e A4e C5e E5e",
+"lh": "F2+F3 F2+F3 E2+E3 E2+E3",
+"doubt": "2e F2 m.g. imprimé à tête creuse (défaut d'impression ?) — lu noire"
+},
+{
+"marks": [
+"f"
+],
+"v": "F3 A3 A3e F3e E3e D3e",
+"ly": "He is like _ a re-",
+"rh": "D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e"
+},
+{
+"v": "E3 A3h E3",
+"ly": "fin- _ _",
+"rh": "E5s A4s E5s A4s E5s A4s E5s A4s E5s A4s E5s A4s E5+A5s A4s E5+A5s A4s",
+"lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e"
+},
+{
+"v": "D3 B3h D3",
+"ly": "_ _ er's",
+"rh": "D5+A5s B4s D5+A5s B4s D5+F5+A5s B4s D5+F5+A5s B4s D5+G#5s B4s D5+G#5s B4s D5+G#5s B4s D5+G#5s B4s",
+"lh": "B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e",
+"doubt": "B3 du chant avec bécarre ; B4 m.d. et B1/B2 m.g. bécarres"
+},
+{
+"marks": [
+"tr",
+"p",
+"f",
+"p"
+],
+"v": "C3d B2s C3s D3d C3s D3s",
+"ly": "fire, _ _ _ _ _",
+"rh": "C5+E5+A5e E5e C5e A4e D4+G#4 r",
+"lh": "A1+A2 A1+A2 B1+B2 B1+B2",
+"doubt": "tr sur C3 pointée ; B2 du chant et B1/B2 m.g. avec bécarres"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "E3d D3s E3s F#3d E3s F#3s",
+"ly": "_ _ _ _ _ _",
+"rh": "A4+E5+A5e E5e C5e A4e D4+F#4+B4 r",
+"lh": "C2+C3 C2+C3 D2+D3 D2+D3",
+"doubt": "accord m.d. 3e temps : dièse lu sur F4 (placé entre F4 et D4), B4 bécarre"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "G#3h r B3",
+"ly": "_ and",
+"rh": "G#5+B5e E5+G#5e B4+E5e G#4+B4e B3+E4 E4+B4",
+"lh": "E2+E3 E2+E3 G#2+G#3 G#2+G#3",
+"doubt": "petit trait au-dessus du 1er accord m.d. (tenuto ?) ; bécarres sur B5, B4, B3 ; B3 du chant bécarre"
+},
+{
+"marks": [
+"colla voce"
+],
+"v": "C4 G#3 A3 B3",
+"ly": "who shall stand when",
+"rh": "C5 G#4 A4 B4 // E4h C4 D4+F4",
+"lh": "A2+A3 E2+E3 F2+F3 D2+D3"
+},
+{
+"v": "G#3hd G#3",
+"ly": "He ap-",
+"rh": "B3+E4+G#4hd B3+E4+G#4",
+"lh": "E2+E3 D2+D3 E2+E3 E1+E2",
+"doubt": "accords m.d. : B3 bécarre, G#4 ; nombre exact de têtes dans l'accord pointé difficile (B3-E4-G#4 lu)"
+},
+{
+"v": "A3e G#3e A3 rh",
+"ly": "pear- _ eth?",
+"rh": "C4+E4+A4h rh",
+"lh": "A1+A2h rh",
+"doubt": "Double barre puis 3/8 annoncé en fin de page (suite = Larghetto p. 9)"
+}
+]
 }

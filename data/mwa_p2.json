@@ -1,67 +1,67 @@
 {
- "page": 2,
- "measures": [
-  {
-   "meter": "4/4",
-   "v": "G3s A3s Bb3s A3s G3s A3s F3s G3s E3s F3s G3s F3s E3s F3s D3s E3s",
-   "ly": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "G4+D5+G5 r C4+E4+G4 r",
-   "lh": "Bb1+Bb2 r C2+C3 r",
-   "doubt": "Page imprimée 25 ; suite du mélisme « shake » de la page 1. Signe (bécarre ?) peu lisible devant le 8e son (G3) du chant."
-  },
-  {
-   "v": "C3 re C4e A3e F3e re F3e",
-   "ly": "_ all na- tions; I'll",
-   "rh": "rs E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s",
-   "lh": "E1+E2 re C4e A3e F3e re F3e",
-   "marks": [
-    "p"
-   ],
-   "doubt": "Note de bas de page imprimée : « Other editions have C here; according to the original score, however, E is correct » (main gauche, 1er temps, E1+E2)."
-  },
-  {
-   "v": "Bb3 re G3e C4 re A3e",
-   "ly": "shake the heav'ns, the",
-   "rh": "F4+Bb4+D5s F4+Bb4+D5s F4+Bb4+D5s F4+Bb4+D5s Bb4+D5+G5s Bb4+D5+G5s Bb4+D5+G5s Bb4+D5+G5s G4+C5+E5s G4+C5+E5s G4+C5+E5s G4+C5+E5s C5+E5+A5s C5+E5+A5s C5+E5+A5s C5+E5+A5s",
-   "lh": "Bb3s Bb3s Bb3s Bb3s G3s G3s G3s G3s C4s C4s C4s C4s A3s A3s A3s A3s"
-  },
-  {
-   "v": "D3 re G3e C3 re F3e",
-   "ly": "earth, the sea, the",
-   "rh": "C5+F5s C5+F5s C5+F5s C5+F5s Bb4+F5+Bb5s Bb4+F5+Bb5s Bb4+F5+Bb5s Bb4+F5+Bb5s C5+E5+Bb5s C5+E5+Bb5s C5+E5+Bb5s C5+E5+Bb5s C5+E5+A5s C5+E5+A5s C5+E5+A5s C5+E5+A5s",
-   "lh": "D3s D3s D3s D3s G3s G3s G3s G3s C3s C3s C3s C3s F3s F3s F3s F3s",
-   "doubt": "Accords MD denses : 2e groupe lu Bb4+F5+Bb5 (D5 possible), 4e groupe C5+E5+A5 (F5 possible au lieu de E5)."
-  },
-  {
-   "v": "Bb3e Bb3e re G3e D4e D4e re A3e",
-   "ly": "dry land, all na- tions, I'll",
-   "rh": "D5+A5s D5+A5s D5+A5s D5+A5s D5+G5s D5+G5s Bb4+D5+G5s Bb4+D5+G5s A4+D5+G5s A4+D5+G5s A4+D5+G5s A4+D5+G5s C5+F5s C5+F5s C5+F5s C5+F5s",
-   "lh": "Bb3s Bb3s Bb3s Bb3s Bb3s Bb3s G3s G3s D4s D4s D4s D4s A3s A3s A3s A3s",
-   "doubt": "MD 1er groupe : seulement D5+A5 visibles ; 2e groupe : Bb4 ajouté aux deux derniers accords seulement."
-  },
-  {
-   "v": "C4 r re D3e D3e D3e",
-   "ly": "shake, and the de-",
-   "rh": "G4+C5+F5s G4+C5+F5s G4+C5+F5s G4+C5+F5s G4+C5+E5s G4+C5+E5s G4+C5+E5s G4+C5+E5s F4+C5+F5s F4+C5+F5s F4+C5+F5s F4+C5+F5s F4+Bb4s F4+Bb4s F4+Bb4s F4+Bb4s",
-   "lh": "C4s C4s C4s C4s C3s C3s C3s C3s D3s D3s D3s D3s D3s D3s D3s D3s",
-   "doubt": "MD dernier groupe : 1er accord peut-être E4+A4 (tête légèrement plus basse), lu F4+Bb4."
-  },
-  {
-   "v": "E3s D3s E3s F3s E3s F3s D3s E3s F3s E3s F3s G3s F3s G3s E3s F3s",
-   "ly": "sire _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e A4+C5e A4+C5e A4+C5+F5e A4+C5+F5e",
-   "lh": "E3e E3e E3e E3e F3e F3e F3e F3e",
-   "doubt": "MD : croches piquées sous liaisons (staccato-legato)."
-  },
-  {
-   "v": "G3s F3s G3s A3s G3s A3s F3s G3s A3s G3s A3s Bb3s A3s Bb3s G3s A3s",
-   "ly": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "G4+Bb4+F5e G4+Bb4+F5e G4+Bb4+E5e G4+Bb4+E5e F4+C5+F5e F4+C5+F5e C5+F5+A5e C5+F5+A5e",
-   "lh": "G3e G3e G3e G3e A3e A3e A3e A3e",
-   "marks": [
-    "cresc."
-   ],
-   "doubt": "Mélisme « desire » se poursuit page suivante ; croches MD piquées sous liaisons."
-  }
- ]
+"page": 2,
+"measures": [
+{
+"meter": "4/4",
+"v": "G3s A3s Bb3s A3s G3s A3s F3s G3s E3s F3s G3s F3s E3s F3s D3s E3s",
+"ly": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
+"rh": "G4+D5+G5 r C4+E4+G4 r",
+"lh": "Bb1+Bb2 r C2+C3 r",
+"doubt": "Page imprimée 25 ; suite du mélisme « shake » de la page 1. Signe (bécarre ?) peu lisible devant le 8e son (G3) du chant."
+},
+{
+"v": "C3 re C4e A3e F3e re F3e",
+"ly": "_ all na- tions; I'll",
+"rh": "rs E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s E4+G4+C5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s A4+C5+F5s",
+"lh": "E1+E2 re C4e A3e F3e re F3e",
+"marks": [
+"p"
+],
+"doubt": "Note de bas de page imprimée : « Other editions have C here; according to the original score, however, E is correct » (main gauche, 1er temps, E1+E2)."
+},
+{
+"v": "Bb3 re G3e C4 re A3e",
+"ly": "shake the heav'ns, the",
+"rh": "F4+Bb4+D5s F4+Bb4+D5s F4+Bb4+D5s F4+Bb4+D5s Bb4+D5+G5s Bb4+D5+G5s Bb4+D5+G5s Bb4+D5+G5s G4+C5+E5s G4+C5+E5s G4+C5+E5s G4+C5+E5s C5+E5+A5s C5+E5+A5s C5+E5+A5s C5+E5+A5s",
+"lh": "Bb3s Bb3s Bb3s Bb3s G3s G3s G3s G3s C4s C4s C4s C4s A3s A3s A3s A3s"
+},
+{
+"v": "D3 re G3e C3 re F3e",
+"ly": "earth, the sea, the",
+"rh": "C5+F5s C5+F5s C5+F5s C5+F5s Bb4+F5+Bb5s Bb4+F5+Bb5s Bb4+F5+Bb5s Bb4+F5+Bb5s C5+E5+Bb5s C5+E5+Bb5s C5+E5+Bb5s C5+E5+Bb5s C5+E5+A5s C5+E5+A5s C5+E5+A5s C5+E5+A5s",
+"lh": "D3s D3s D3s D3s G3s G3s G3s G3s C3s C3s C3s C3s F3s F3s F3s F3s",
+"doubt": "Accords MD denses : 2e groupe lu Bb4+F5+Bb5 (D5 possible), 4e groupe C5+E5+A5 (F5 possible au lieu de E5)."
+},
+{
+"v": "Bb3e Bb3e re G3e D4e D4e re A3e",
+"ly": "dry land, all na- tions, I'll",
+"rh": "D5+A5s D5+A5s D5+A5s D5+A5s D5+G5s D5+G5s Bb4+D5+G5s Bb4+D5+G5s A4+D5+G5s A4+D5+G5s A4+D5+G5s A4+D5+G5s C5+F5s C5+F5s C5+F5s C5+F5s",
+"lh": "Bb3s Bb3s Bb3s Bb3s Bb3s Bb3s G3s G3s D4s D4s D4s D4s A3s A3s A3s A3s",
+"doubt": "MD 1er groupe : seulement D5+A5 visibles ; 2e groupe : Bb4 ajouté aux deux derniers accords seulement."
+},
+{
+"v": "C4 r re D3e D3e D3e",
+"ly": "shake, and the de-",
+"rh": "G4+C5+F5s G4+C5+F5s G4+C5+F5s G4+C5+F5s G4+C5+E5s G4+C5+E5s G4+C5+E5s G4+C5+E5s F4+C5+F5s F4+C5+F5s F4+C5+F5s F4+C5+F5s F4+Bb4s F4+Bb4s F4+Bb4s F4+Bb4s",
+"lh": "C4s C4s C4s C4s C3s C3s C3s C3s D3s D3s D3s D3s D3s D3s D3s D3s",
+"doubt": "MD dernier groupe : 1er accord peut-être E4+A4 (tête légèrement plus basse), lu F4+Bb4."
+},
+{
+"v": "E3s D3s E3s F3s E3s F3s D3s E3s F3s E3s F3s G3s F3s G3s E3s F3s",
+"ly": "sire _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
+"rh": "G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e A4+C5e A4+C5e A4+C5+F5e A4+C5+F5e",
+"lh": "E3e E3e E3e E3e F3e F3e F3e F3e",
+"doubt": "MD : croches piquées sous liaisons (staccato-legato)."
+},
+{
+"v": "G3s F3s G3s A3s G3s A3s F3s G3s A3s G3s A3s Bb3s A3s Bb3s G3s A3s",
+"ly": "_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _",
+"rh": "G4+Bb4+F5e G4+Bb4+F5e G4+Bb4+E5e G4+Bb4+E5e F4+C5+F5e F4+C5+F5e C5+F5+A5e C5+F5+A5e",
+"lh": "G3e G3e G3e G3e A3e A3e A3e A3e",
+"marks": [
+"cresc."
+],
+"doubt": "Mélisme « desire » se poursuit page suivante ; croches MD piquées sous liaisons."
+}
+]
 }
