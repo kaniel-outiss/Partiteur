@@ -1,76 +1,140 @@
-{"page":1,"printed_page":113,"measures":[
- {"meter":"4/4","tempo":"Larghetto","marks":["p"],
-  "v":"rw","ly":"",
-  "rh":"rh r G5",
-  "lh":"r G3+G4 G3+G4 G3+G4",
-  "doubt":"Titre « Spirto gentil — La favorita », Gaetano Donizetti (1797-1848). Système 1 sans portée de chant : chant = silences (m.1-3). MG : accents > sur les 3 octaves."},
- {"marks":[],
-  "v":"rw","ly":"",
-  "rh":"E5+G5+E6h D5+F5+B5 E5+G5+C6 // r C4s E4s G4s C5s rh",
-  "lh":"C4s C3s E3s G3s r rs D4s F4s G4s E4s G4s C5s E4s",
-  "doubt":"MD : 1er accord en têtes blanches (blanche). Les 4 doubles croches C4-E4-G4-C5 (hampes en bas, staccato) sont imprimées sur la portée supérieure au 2e temps : continuation de l'arpège de la MG ; la MG n'a rien d'imprimé au 2e temps ('r' ajouté pour le compte). MG en clé de sol aux temps 3-4 (D4.. E4..), retour clé de fa en fin de mesure. Liaison d'expression E6→C6. Staccatos MG."},
- {"marks":[],
-  "v":"rw","ly":"",
-  "rh":"F5+A5d A5e A6 G6 // r F4s A4s D5s F5s A5+C#6h~",
-  "lh":"rs F3s A3s D4s r rs A2s C#3s E3s A3s C#4s E4s A3s",
-  "doubt":"Gruppetto (∾) au-dessus de F5+A5 noire pointée. 16es F4-A4-D5-F5 (portée sup., 2e temps) reliées par un trait pointillé au D4 de la MG = jouées par la MG (MG sans note au 2e temps : 'r' ajouté). A6→G6 sous liaison ; A5+C#6 en blanche, accent >, grande liaison vers m.4 (A5 lié). Staccatos MG."},
- {"marks":[],
-  "v":"rw","ly":"",
-  "rh":"D6+G6e F6e E6e F6e G#5e A5e E6e D6e // A5~ A5e re rh",
-  "lh":"D4 C#4e D4e E4e F4e G4e F4e",
-  "doubt":"Voix inf. MD : A5 (lié depuis m.3) noire liée à A5 croche, puis demi-soupir ; silences des temps 3-4 non imprimés (rh ajouté). Liaisons d'expression MD (temps 3-4) et MG (C#4…F4). (♮) de précaution sur G4 à la MG."},
- {"marks":[],
-  "v":"rw","ly":"",
-  "rh":"E5+C6h gG5 gA5 gG5 gF#5 gG5 gA5 gG5 E5+G5+E6 F5+B5+D6 // r G4s C5s E4s G4s r G4s B4s D5s G4s",
-  "lh":"G4s G3s C4s E4s r rs G3s B3s D4s r",
-  "doubt":"Ornement en PETITES notes (7 notes G5 A5 G5 F#5 G5 A5 G5, ♮ sur le 1er G5) imprimé au-dessus du 2e temps pendant la blanche E5+C6 : transcrit en notes d'agrément avant l'accord du 3e temps. 16es MD des temps 2 et 4 (hampes en bas, staccato) = continuation de l'arpège MG (MG sans notes à ces temps : 'r' ajoutés). ♮F5 au 4e temps (annule F#5 de l'ornement). ♮C4 de précaution à la MG (clé de fa, notes sur lignes sup.). Longue liaison MD E5+C6 → accord du 3e temps, puis vers m.6."},
- {"marks":["recitativo"],
-  "v":"rh r G4ed G4s","ly":"Fa- vo-",
-  "rh":"E5+G5+C6 r rh",
-  "lh":"rs E4s C4s G3s E3s C3s G2s E2s C2e re r",
-  "doubt":"Entrée « Fernando » ; « recitativo » imprimé au chant et au piano. MG : arpège descendant staccato."},
- {"marks":[],
-  "v":"C5h C5d D5e","ly":"ri- ta del",
-  "rh":"rw",
-  "lh":"rw"},
- {"marks":[],
-  "v":"E5 r r^ E5ed E5s","ly":"re! fa- vo-",
-  "rh":"rw^",
-  "lh":"rw^",
-  "doubt":"Point d'orgue sur le 2e soupir du chant (3e temps) et sur les pauses du piano."},
- {"marks":[],
-  "v":"E5h F5d G5e","ly":"ri- ta del",
-  "rh":"rw",
-  "lh":"rw",
-  "doubt":"Double barre en fin de mesure."},
- {"marks":["Maestoso","p"],
-  "v":"Bb4 r r red Bb4s","ly":"re! Qual",
-  "rh":"re G4+Bb4t C#4t G4+Bb4t C#4t~ C#4+G4+Bb4hd~",
-  "lh":"re E2t E3t E2t E3t~ E2+E3hd~",
-  "doubt":"Maestoso (chant et piano). Chant 4e temps : deux rythmes superposés — croche pointée Bb4 + double (français « Dans l'a- ») et demi-soupir pointé + double croche (italien « Qual ») : rythme italien transcrit. Piano : C#4 et E3 de la 4e triple croche liés à l'accord ; liaisons de prolongation vers m.11."},
- {"marks":[],
-  "v":"Bb4h Bb4d Bb4e","ly":"ne- ro a-",
-  "rh":"C#4+G4+Bb4w~",
-  "lh":"E2+E3w~",
-  "doubt":"Bémol de Bb4 imprimé sur la blanche ; accords du piano liés vers m.12."},
- {"marks":["fp"],
-  "v":"C#5e C#5e r r C#5ed C#5s","ly":"bis- so, qual mai",
-  "rh":"C#4+G4+Bb4e Bb4+C#5t G4t Bb4+C#5t G4t~ G4+Bb4+C#5hd~",
-  "lh":"E2+E3e E2t E3t E2t E3t~ E2+E3hd~",
-  "doubt":"Chant : C#5 en tête BLANCHE accolée à la 1re croche = rythme de la version française (« se, ») ; croches italiennes transcrites. 1er accord MD/MG lié depuis m.11. Accent > sur l'accord blanche pointée (MD) et sous la MG ; fp."},
- {"marks":[],
-  "v":"C#5h C#5dd C#5s","ly":"tra- ma‿in- fer-",
-  "rh":"G4+Bb4+C#5w~",
-  "lh":"E2+E3w~",
-  "doubt":"« ma‿in » : élision sur la noire doublement pointée."},
- {"marks":["fp"],
-  "v":"E5h re E5e E5e E5e","ly":"nal la glo- ria",
-  "rh":"G4+Bb4+C#5e C#5+E5t Bb4t C#5+E5t Bb4t~ Bb4+C#5+E5hd~",
-  "lh":"E2+E3e G2t G3t G2t G3t~ G2+G3hd~",
-  "doubt":"MG : 1er accord E2+E3 imprimé sans crochet (aspect de noire) — noté croche comme la MD pour que la mesure tombe juste. Accents > (MD au-dessus, MG au-dessous) ; fp. Au-dessus du système 4, petite portée ossia (paroles françaises « ma gloi-re est en-glou- ») ignorée."},
- {"marks":[],
-  "v":"gF5 E5e E5e re E5e E5e E5e G5ed F5s","ly":"mi- a av- vol- se‿in un i-",
-  "rh":"Bb4+C#5+E5 r rh",
-  "lh":"G2+G3 r rh",
-  "doubt":"gF5 = petite note (croche barrée) liée à E5. Phrase « un i- » continue p.114 (« -stan-te »). Fin de page = barre simple."}
-]}
+{
+"page": 1,
+"printed_page": 113,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Larghetto",
+"marks": [
+"p"
+],
+"v": "rw",
+"ly": "",
+"rh": "rh r G5",
+"lh": "r G3+G4 G3+G4 G3+G4",
+"doubt": "Titre « Spirto gentil — La favorita », Gaetano Donizetti (1797-1848). Système 1 sans portée de chant : chant = silences (m.1-3). MG : accents > sur les 3 octaves.",
+"bpm": 56
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "E5+G5+E6h D5+F5+B5 E5+G5+C6 // r C4s E4s G4s C5s rh",
+"lh": "C4s C3s E3s G3s r rs D4s F4s G4s E4s G4s C5s E4s",
+"doubt": "MD : 1er accord en têtes blanches (blanche). Les 4 doubles croches C4-E4-G4-C5 (hampes en bas, staccato) sont imprimées sur la portée supérieure au 2e temps : continuation de l'arpège de la MG ; la MG n'a rien d'imprimé au 2e temps ('r' ajouté pour le compte). MG en clé de sol aux temps 3-4 (D4.. E4..), retour clé de fa en fin de mesure. Liaison d'expression E6→C6. Staccatos MG."
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "F5+A5d A5e A6 G6 // r F4s A4s D5s F5s A5+C#6h~",
+"lh": "rs F3s A3s D4s r rs A2s C#3s E3s A3s C#4s E4s A3s",
+"doubt": "Gruppetto (∾) au-dessus de F5+A5 noire pointée. 16es F4-A4-D5-F5 (portée sup., 2e temps) reliées par un trait pointillé au D4 de la MG = jouées par la MG (MG sans note au 2e temps : 'r' ajouté). A6→G6 sous liaison ; A5+C#6 en blanche, accent >, grande liaison vers m.4 (A5 lié). Staccatos MG."
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "D6+G6e F6e E6e F6e G#5e A5e E6e D6e // A5~ A5e re rh",
+"lh": "D4 C#4e D4e E4e F4e G4e F4e",
+"doubt": "Voix inf. MD : A5 (lié depuis m.3) noire liée à A5 croche, puis demi-soupir ; silences des temps 3-4 non imprimés (rh ajouté). Liaisons d'expression MD (temps 3-4) et MG (C#4…F4). (♮) de précaution sur G4 à la MG."
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "E5+C6h gG5 gA5 gG5 gF#5 gG5 gA5 gG5 E5+G5+E6 F5+B5+D6 // r G4s C5s E4s G4s r G4s B4s D5s G4s",
+"lh": "G4s G3s C4s E4s r rs G3s B3s D4s r",
+"doubt": "Ornement en PETITES notes (7 notes G5 A5 G5 F#5 G5 A5 G5, ♮ sur le 1er G5) imprimé au-dessus du 2e temps pendant la blanche E5+C6 : transcrit en notes d'agrément avant l'accord du 3e temps. 16es MD des temps 2 et 4 (hampes en bas, staccato) = continuation de l'arpège MG (MG sans notes à ces temps : 'r' ajoutés). ♮F5 au 4e temps (annule F#5 de l'ornement). ♮C4 de précaution à la MG (clé de fa, notes sur lignes sup.). Longue liaison MD E5+C6 → accord du 3e temps, puis vers m.6."
+},
+{
+"marks": [
+"recitativo"
+],
+"v": "rh r G4ed G4s",
+"ly": "Fa- vo-",
+"rh": "E5+G5+C6 r rh",
+"lh": "rs E4s C4s G3s E3s C3s G2s E2s C2e re r",
+"doubt": "Entrée « Fernando » ; « recitativo » imprimé au chant et au piano. MG : arpège descendant staccato."
+},
+{
+"marks": [],
+"v": "C5h C5d D5e",
+"ly": "ri- ta del",
+"rh": "rw",
+"lh": "rw"
+},
+{
+"marks": [],
+"v": "E5 r r^ E5ed E5s",
+"ly": "re! fa- vo-",
+"rh": "rw^",
+"lh": "rw^",
+"doubt": "Point d'orgue sur le 2e soupir du chant (3e temps) et sur les pauses du piano."
+},
+{
+"marks": [],
+"v": "E5h F5d G5e",
+"ly": "ri- ta del",
+"rh": "rw",
+"lh": "rw",
+"doubt": "Double barre en fin de mesure."
+},
+{
+"marks": [
+"Maestoso",
+"p"
+],
+"v": "Bb4 r r red Bb4s",
+"ly": "re! Qual",
+"rh": "re G4+Bb4t C#4t G4+Bb4t C#4t~ C#4+G4+Bb4hd~",
+"lh": "re E2t E3t E2t E3t~ E2+E3hd~",
+"doubt": "Maestoso (chant et piano). Chant 4e temps : deux rythmes superposés — croche pointée Bb4 + double (français « Dans l'a- ») et demi-soupir pointé + double croche (italien « Qual ») : rythme italien transcrit. Piano : C#4 et E3 de la 4e triple croche liés à l'accord ; liaisons de prolongation vers m.11.",
+"bpm": 80
+},
+{
+"marks": [],
+"v": "Bb4h Bb4d Bb4e",
+"ly": "ne- ro a-",
+"rh": "C#4+G4+Bb4w~",
+"lh": "E2+E3w~",
+"doubt": "Bémol de Bb4 imprimé sur la blanche ; accords du piano liés vers m.12."
+},
+{
+"marks": [
+"fp"
+],
+"v": "C#5e C#5e r r C#5ed C#5s",
+"ly": "bis- so, qual mai",
+"rh": "C#4+G4+Bb4e Bb4+C#5t G4t Bb4+C#5t G4t~ G4+Bb4+C#5hd~",
+"lh": "E2+E3e E2t E3t E2t E3t~ E2+E3hd~",
+"doubt": "Chant : C#5 en tête BLANCHE accolée à la 1re croche = rythme de la version française (« se, ») ; croches italiennes transcrites. 1er accord MD/MG lié depuis m.11. Accent > sur l'accord blanche pointée (MD) et sous la MG ; fp."
+},
+{
+"marks": [],
+"v": "C#5h C#5dd C#5s",
+"ly": "tra- ma‿in- fer-",
+"rh": "G4+Bb4+C#5w~",
+"lh": "E2+E3w~",
+"doubt": "« ma‿in » : élision sur la noire doublement pointée."
+},
+{
+"marks": [
+"fp"
+],
+"v": "E5h re E5e E5e E5e",
+"ly": "nal la glo- ria",
+"rh": "G4+Bb4+C#5e C#5+E5t Bb4t C#5+E5t Bb4t~ Bb4+C#5+E5hd~",
+"lh": "E2+E3e G2t G3t G2t G3t~ G2+G3hd~",
+"doubt": "MG : 1er accord E2+E3 imprimé sans crochet (aspect de noire) — noté croche comme la MD pour que la mesure tombe juste. Accents > (MD au-dessus, MG au-dessous) ; fp. Au-dessus du système 4, petite portée ossia (paroles françaises « ma gloi-re est en-glou- ») ignorée."
+},
+{
+"marks": [],
+"v": "gF5 E5e E5e re E5e E5e E5e G5ed F5s",
+"ly": "mi- a av- vol- se‿in un i-",
+"rh": "Bb4+C#5+E5 r rh",
+"lh": "G2+G3 r rh",
+"doubt": "gF5 = petite note (croche barrée) liée à E5. Phrase « un i- » continue p.114 (« -stan-te »). Fin de page = barre simple."
+}
+]
+}

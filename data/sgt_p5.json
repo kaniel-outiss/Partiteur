@@ -1,108 +1,108 @@
 {
- "page": 5,
- "measures": [
-  {
-   "meter": "4/4",
-   "v": "E5 E5ed E5s E5h",
-   "ly": "fug- gi dal cor",
-   "rh": "rh re3 E5+G5e3 C#5+E5e3 G4+C5e3 E4+G4e3 C#4+E4e3",
-   "lh": "C3+E3e3 G3e3 C4e3 E4e3 C4e3 G3e3 A2e3 C#3e3 E3e3 A3e3 r3",
-   "doubt": "m.47 (page 117). Triolet imprimé seulement sur le 1er groupe MD (r + 2 accords) ; 2e groupe MD et MG lus en triolets (simile) pour remplir la mesure. Accords MD staccato."
-  },
-  {
-   "v": "D5 D5ed D5s D5 gF5 gE5 D5e re",
-   "ly": "men- ti- ta spe- me,",
-   "rh": "rh re3 D5+F5e3 B4+D5e3 F4+B4e3 D4+F4e3 B3+D4e3",
-   "lh": "D3+F#3e3 A3e3 C4e3 D4e3 C4e3 F3e3 G2e3 G2e3 B2e3 D3e3 G3e3 re3",
-   "doubt": "Deux petites notes (doubles croches) F5 E5 avant le D5 croche. Bécarre de précaution sur F5 (MD) et C4 (MG). Triolet imprimé sur le dernier groupe MG, simile ailleurs."
-  },
-  {
-   "marks": [
-    "stringendo"
-   ],
-   "v": "C5 C#5ed C#5s D5h",
-   "ly": "lar- ve d'a- mor,",
-   "rh": "re C4+E4e re C#4+E4e re D4+A4e re D4+F4e",
-   "lh": "A2e3 C3e3 E3e3 G2e3 C#3e3 E3e3 F2e3 D3e3 F3e3 D3e3 F3e3 A3e3",
-   "doubt": "MD en croches binaires (silence + accord) contre triolets MG (3 imprimé sur le 1er groupe)."
-  },
-  {
-   "v": "E5 E5ed E5s F5h",
-   "ly": "lar- ve d'a- mor,",
-   "rh": "re E4+A4e re C#4+G4e D4+F4 r",
-   "lh": "C#3e3 E3e3 A3e3 A2e3 E3e3 A3e3 D3 r",
-   "doubt": "Soufflets de crescendo (chant et piano), non textuels. MG : groupes de 3 croches lus en triolets."
-  },
-  {
-   "marks": [
-    "rall.",
-    "p",
-    "[ten.]",
-    "[col canto]"
-   ],
-   "v": "F#5 F#5ed F#5s G5e C6e E5e G5e",
-   "ly": "fug- gi- te_in sie- _ me, _",
-   "rh": "C4+D#4+F#4 r C4+E4+G4h~",
-   "lh": "Ab1+Ab2 r G1+G2h~",
-   "doubt": "1er accord MD : bécarre (précaution) sur C4, dièses sur D#4 et F#4 (sixte augmentée sur Ab). [ten.] sur le C6."
-  },
-  {
-   "v": "C5d G4e E5e E5 D5e",
-   "ly": "lar- _ ve d'a- _",
-   "rh": "C4+E4+G4 r D4+F4+B4 r^",
-   "lh": "G1+G2 r G2+G3 r^",
-   "doubt": "Accent (>) sur le E5 noire. Points d'orgue sur les derniers silences du piano."
-  },
-  {
-   "marks": [
-    "p",
-    "a tempo"
-   ],
-   "v": "C5 r F5 D#5ed D#5s",
-   "ly": "mor, fug- gi- te_in-",
-   "rh": "re E4+G4+C5e re C4+G4+Bb4e re C4+F4+A4e re B3+D#4+F#4+A4e",
-   "lh": "C3e re C3e re F3e re B2e re"
-  },
-  {
-   "v": "E5 C#5 D5e A4e B4e3 E5ed3 D5s3",
-   "ly": "sie- me, lar- _ ve _ d'a-",
-   "rh": "re B3+E4+G#4e re A3+C#4+E4+G4e re A3+D4+F#4e re G3+B3+D4+F4e",
-   "lh": "E3e re A2e re D3e re G2e re",
-   "doubt": "Triolet chant : croche B4, croche pointée E5, double croche D5 sous un même crochet 3. Bécarre de précaution sur D5."
-  },
-  {
-   "v": "C5 r F5 D#5ed D#5s",
-   "ly": "mor, fug- gi- te_in-",
-   "rh": "re G3+C4+E4e re C4+E4+G4e re C4+F4+C5e re B3+D#4+F#4+A4e",
-   "lh": "E3e re Bb2e re A2e re B2e re",
-   "doubt": "Bécarres de précaution sur C5 (chant) et C4 (MD). 3e accord MD lu C4+F4+C5."
-  },
-  {
-   "marks": [
-    "rall."
-   ],
-   "v": "E5 C#5 D5e A4e B4e3 E5e3^ D5e3",
-   "ly": "siem, in- siem, _ lar- ve d'a-",
-   "rh": "re B3+E4+G#4e re A3+C#4+E4+G4e re A3+D4+F#4e G3+B3+F4e re^",
-   "lh": "E3e re A2e re D3e re G2e re^",
-   "doubt": "Gruppetto (∾) sur le E5 du triolet, avec bécarre au-dessus et dièse au-dessous ; point d'orgue sur ce E5. Dernier accord MD sans D4 (G3+B3+F4)."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "C5w~",
-   "ly": "mor.",
-   "rh": "C4e E4e G4e C5e E5e C5e G4e E4e",
-   "lh": "C3+E3+G3 r C3+E3+G3+C4e re C3+E3+G3e re",
-   "doubt": "Bécarre de précaution sur C5 (chant) et C4 (MD). Soufflet de decrescendo au-dessus du chant. Liaison C5 ronde vers C5 de la mesure suivante lue comme prolongation."
-  },
-  {
-   "v": "C5 r rh",
-   "ly": "",
-   "rh": "C4 r rh",
-   "lh": "C3+E3+G3 r rh",
-   "doubt": "Double barre finale : fin de l'air (m. 58)."
-  }
- ]
+"page": 5,
+"measures": [
+{
+"meter": "4/4",
+"v": "E5 E5ed E5s E5h",
+"ly": "fug- gi dal cor",
+"rh": "rh re3 E5+G5e3 C#5+E5e3 G4+C5e3 E4+G4e3 C#4+E4e3",
+"lh": "C3+E3e3 G3e3 C4e3 E4e3 C4e3 G3e3 A2e3 C#3e3 E3e3 A3e3 r3",
+"doubt": "m.47 (page 117). Triolet imprimé seulement sur le 1er groupe MD (r + 2 accords) ; 2e groupe MD et MG lus en triolets (simile) pour remplir la mesure. Accords MD staccato."
+},
+{
+"v": "D5 D5ed D5s D5 gF5 gE5 D5e re",
+"ly": "men- ti- ta spe- me,",
+"rh": "rh re3 D5+F5e3 B4+D5e3 F4+B4e3 D4+F4e3 B3+D4e3",
+"lh": "D3+F#3e3 A3e3 C4e3 D4e3 C4e3 F3e3 G2e3 G2e3 B2e3 D3e3 G3e3 re3",
+"doubt": "Deux petites notes (doubles croches) F5 E5 avant le D5 croche. Bécarre de précaution sur F5 (MD) et C4 (MG). Triolet imprimé sur le dernier groupe MG, simile ailleurs."
+},
+{
+"marks": [
+"stringendo"
+],
+"v": "C5 C#5ed C#5s D5h",
+"ly": "lar- ve d'a- mor,",
+"rh": "re C4+E4e re C#4+E4e re D4+A4e re D4+F4e",
+"lh": "A2e3 C3e3 E3e3 G2e3 C#3e3 E3e3 F2e3 D3e3 F3e3 D3e3 F3e3 A3e3",
+"doubt": "MD en croches binaires (silence + accord) contre triolets MG (3 imprimé sur le 1er groupe)."
+},
+{
+"v": "E5 E5ed E5s F5h",
+"ly": "lar- ve d'a- mor,",
+"rh": "re E4+A4e re C#4+G4e D4+F4 r",
+"lh": "C#3e3 E3e3 A3e3 A2e3 E3e3 A3e3 D3 r",
+"doubt": "Soufflets de crescendo (chant et piano), non textuels. MG : groupes de 3 croches lus en triolets."
+},
+{
+"marks": [
+"rall.",
+"p",
+"[ten.]",
+"[col canto]"
+],
+"v": "F#5 F#5ed F#5s G5e C6e E5e G5e",
+"ly": "fug- gi- te‿in- sie- _ me, _",
+"rh": "C4+D#4+F#4 r C4+E4+G4h~",
+"lh": "Ab1+Ab2 r G1+G2h~",
+"doubt": "1er accord MD : bécarre (précaution) sur C4, dièses sur D#4 et F#4 (sixte augmentée sur Ab). [ten.] sur le C6."
+},
+{
+"v": "C5d G4e E5e E5 D5e",
+"ly": "lar- _ ve d'a- _",
+"rh": "C4+E4+G4 r D4+F4+B4 r^",
+"lh": "G1+G2 r G2+G3 r^",
+"doubt": "Accent (>) sur le E5 noire. Points d'orgue sur les derniers silences du piano."
+},
+{
+"marks": [
+"p",
+"a tempo"
+],
+"v": "C5 r F5 D#5ed D#5s",
+"ly": "mor, fug- gi- te_in-",
+"rh": "re E4+G4+C5e re C4+G4+Bb4e re C4+F4+A4e re B3+D#4+F#4+A4e",
+"lh": "C3e re C3e re F3e re B2e re"
+},
+{
+"v": "E5 C#5 D5e A4e B4e3 E5ed3 D5s3",
+"ly": "sie- me, lar- _ ve _ d'a-",
+"rh": "re B3+E4+G#4e re A3+C#4+E4+G4e re A3+D4+F#4e re G3+B3+D4+F4e",
+"lh": "E3e re A2e re D3e re G2e re",
+"doubt": "Triolet chant : croche B4, croche pointée E5, double croche D5 sous un même crochet 3. Bécarre de précaution sur D5."
+},
+{
+"v": "C5 r F5 D#5ed D#5s",
+"ly": "mor, fug- gi- te_in-",
+"rh": "re G3+C4+E4e re C4+E4+G4e re C4+F4+C5e re B3+D#4+F#4+A4e",
+"lh": "E3e re Bb2e re A2e re B2e re",
+"doubt": "Bécarres de précaution sur C5 (chant) et C4 (MD). 3e accord MD lu C4+F4+C5."
+},
+{
+"marks": [
+"rall."
+],
+"v": "E5 C#5 D5e A4e B4e3 E5e3^ D5e3",
+"ly": "siem, in- siem, _ lar- ve d'a-",
+"rh": "re B3+E4+G#4e re A3+C#4+E4+G4e re A3+D4+F#4e G3+B3+F4e re^",
+"lh": "E3e re A2e re D3e re G2e re^",
+"doubt": "Gruppetto (∾) sur le E5 du triolet, avec bécarre au-dessus et dièse au-dessous ; point d'orgue sur ce E5. Dernier accord MD sans D4 (G3+B3+F4)."
+},
+{
+"marks": [
+"p"
+],
+"v": "C5w~",
+"ly": "mor.",
+"rh": "C4e E4e G4e C5e E5e C5e G4e E4e",
+"lh": "C3+E3+G3 r C3+E3+G3+C4e re C3+E3+G3e re",
+"doubt": "Bécarre de précaution sur C5 (chant) et C4 (MD). Soufflet de decrescendo au-dessus du chant. Liaison C5 ronde vers C5 de la mesure suivante lue comme prolongation."
+},
+{
+"v": "C5 r rh",
+"ly": "",
+"rh": "C4 r rh",
+"lh": "C3+E3+G3 r rh",
+"doubt": "Double barre finale : fin de l'air (m. 58)."
+}
+]
 }

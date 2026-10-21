@@ -1,41 +1,81 @@
-{"page":4,"measures":[
- {"meter":"4/4","marks":[],
-  "v":"D5 re D5e Eb5 D5e C5e","ly":"al; in tan- to a-",
-  "rh":"D4+F3e B3e D4e F3e Eb3+C4e G3e C4e G3e",
-  "lh":"G1+G2 G2ed G2s G2 r",
-  "doubt":"Page imprimée 116, mesure 38 (numéro imprimé). 'al;' = fin du mot commencé page précédente. Bécarres imprimés sur D5 (chant) et sur D4 et F3 (accord MD). MD sous la portée (lignes supplémentaires), liaison d'expression par groupe. Portée française au-dessus (non transcrite)."},
- {"v":"B4 D5e re re G4e G4e G4e","ly":"mo- re se- gnas- ti_il",
-  "rh":"D3+B3e G3e B3e G3e D3e G3e B3e G3e",
-  "lh":"G1+G2 G2ed G2s G2 r",
-  "doubt":"Liaison chant B4-D5. 'ti il' en élision sur une seule note. D3 MD sur 4e ligne supplémentaire inférieure (clé de sol)."},
- {"v":"D5 D5 Eb5 D5e C5e","ly":"co- re d'on- ta mor-",
-  "rh":"D4+F3e G3e B3e F3e Eb3+C4e G3e C4e G3e",
-  "lh":"G1+G2 r G2 r"},
- {"marks":["cresc. e string."],
-  "v":"G5 re F#5e G5 re F#5e","ly":"tal, ahi- mè! ahi-",
-  "rh":"re B3+G4e C4+F#4 re B3+G4e C4+F#4",
-  "lh":"G2e G3e Eb3e C3e G2e G3e Eb3e C3e // G2 r G2 r",
-  "doubt":"Accents (>) sur les F#5 du chant, liés au G5 suivant. Soufflets crescendo MD sur chaque paire. Le dièse MD n'est imprimé que sur le 1er F4 (valable jusqu'à la barre). MG : basse G2 noire hampe en bas + croches liées hampe en haut ; bémol imprimé seulement sur le 1er Eb3."},
- {"marks":["col canto"],
-  "v":"G5h^ F#5 F5","ly":"mè! _ _",
-  "rh":"B3+G4e re r rh^",
-  "lh":"G2e re r rh^",
-  "doubt":"Point d'orgue sur G5 (chant) et sur les demi-pauses du piano. Bécarre imprimé sur le dernier F5. Grande liaison G5-F#5-F5."},
- {"marks":["I° Tempo","smorzando","p"],
-  "v":"E5 E5ed E5s E5~ E5e re","ly":"Spir- to gen- til,",
-  "rh":"rh re3 E5+G5e3 C5+E5e3 G4+C5e3 E4+G4e3 C4+E4e3",
-  "lh":"C3+E3e3 G3e3 C4e3 E4e3 C4e3 G3e3 E3e3 C4e3 G3e3 E4e3 C4e3 G3e3",
-  "doubt":"Bécarre imprimé sur E5 (chant) et sur E3 (MG). Le chiffre 3 n'est imprimé que sur le 1er groupe (MD et MG) ; les groupes suivants lus en triolets par cohérence de durée. Staccatos sur les accords MD et sur la 2e moitié MG ; liaison sur la 1re moitié MG. 'smorzando' au-dessus du chant ; 'p' sous la MD."},
- {"v":"D5 D5ed D5s D5ed F5t E5t D5e re","ly":"ne' so- gni mie- _ _ i",
-  "rh":"rh re3 D5+F5e3 B4+D5e3 F4+B4e3 D4+F4e3 B3+D4e3",
-  "lh":"G2+F3e3 G3e3 B3e3 D4e3 B3e3 G3e3 F3e3 B3e3 F3e3 D4e3 B3e3 F3e3",
-  "doubt":"F5 E5 = deux triples croches (3 barres) après D5 croche pointée. Grande liaison de phrasé au chant. 3 imprimé seulement sur le 1er triolet MD."},
- {"v":"C5 C5ed C5s C5h","ly":"bril- la- sti_un dì,",
-  "rh":"rh re3 C5+E5e3 A4+C5e3 E4+A4e3 C4+E4e3 A3+C4e3",
-  "lh":"A2+E3e3 A3e3 C4e3 E4e3 C4e3 A3e3 E3e3 A3e3 E3e3 C4e3 A3e3 E3e3",
-  "doubt":"'sti un' en élision sur C5s."},
- {"v":"B4 gD5 C5ed B4s B4 B4e re","ly":"ma ti per- de- i:",
-  "rh":"rh re3 D4+F4e3 F4+B4e3 B4+D5e3 D5+F5e3 F5+B5e3",
-  "lh":"E3e3 G#3e3 B3e3 E4e3 B3e3 G#3e3 D3e3 B2e3 D3e3 F3e3 B3e3 D4e3",
-  "doubt":"Petite note barrée D5 + accent sur C5. Liaison en pointillés sur B4-B4 (fin). Dernier accord MD : B5 lu au-dessus de la 1re ligne supplémentaire (A5 possible). Fin de page : la phrase continue page suivante."}
-]}
+{
+"page": 4,
+"measures": [
+{
+"meter": "4/4",
+"marks": [],
+"v": "D5 re D5e Eb5 D5e C5e",
+"ly": "al; in tan- to a-",
+"rh": "D4+F3e B3e D4e F3e Eb3+C4e G3e C4e G3e",
+"lh": "G1+G2 G2ed G2s G2 r",
+"doubt": "Page imprimée 116, mesure 38 (numéro imprimé). 'al;' = fin du mot commencé page précédente. Bécarres imprimés sur D5 (chant) et sur D4 et F3 (accord MD). MD sous la portée (lignes supplémentaires), liaison d'expression par groupe. Portée française au-dessus (non transcrite)."
+},
+{
+"v": "B4 D5e re re G4e G4e G4e",
+"ly": "mo- re se- gnas- ti_il",
+"rh": "D3+B3e G3e B3e G3e D3e G3e B3e G3e",
+"lh": "G1+G2 G2ed G2s G2 r",
+"doubt": "Liaison chant B4-D5. 'ti il' en élision sur une seule note. D3 MD sur 4e ligne supplémentaire inférieure (clé de sol)."
+},
+{
+"v": "D5 D5 Eb5 D5e C5e",
+"ly": "co- re d'on- ta mor-",
+"rh": "D4+F3e G3e B3e F3e Eb3+C4e G3e C4e G3e",
+"lh": "G1+G2 r G2 r"
+},
+{
+"marks": [
+"cresc. e string."
+],
+"v": "G5 re F#5e G5 re F#5e",
+"ly": "tal, ahi- mè! ahi-",
+"rh": "re B3+G4e C4+F#4 re B3+G4e C4+F#4",
+"lh": "G2e G3e Eb3e C3e G2e G3e Eb3e C3e // G2 r G2 r",
+"doubt": "Accents (>) sur les F#5 du chant, liés au G5 suivant. Soufflets crescendo MD sur chaque paire. Le dièse MD n'est imprimé que sur le 1er F4 (valable jusqu'à la barre). MG : basse G2 noire hampe en bas + croches liées hampe en haut ; bémol imprimé seulement sur le 1er Eb3."
+},
+{
+"marks": [
+"col canto"
+],
+"v": "G5h^ F#5 F5",
+"ly": "mè! _ _",
+"rh": "B3+G4e re r rh^",
+"lh": "G2e re r rh^",
+"doubt": "Point d'orgue sur G5 (chant) et sur les demi-pauses du piano. Bécarre imprimé sur le dernier F5. Grande liaison G5-F#5-F5."
+},
+{
+"marks": [
+"I° Tempo",
+"smorzando",
+"p"
+],
+"v": "E5 E5ed E5s E5~ E5e re",
+"ly": "Spir- to gen- til,",
+"rh": "rh re3 E5+G5e3 C5+E5e3 G4+C5e3 E4+G4e3 C4+E4e3",
+"lh": "C3+E3e3 G3e3 C4e3 E4e3 C4e3 G3e3 E3e3 C4e3 G3e3 E4e3 C4e3 G3e3",
+"doubt": "Bécarre imprimé sur E5 (chant) et sur E3 (MG). Le chiffre 3 n'est imprimé que sur le 1er groupe (MD et MG) ; les groupes suivants lus en triolets par cohérence de durée. Staccatos sur les accords MD et sur la 2e moitié MG ; liaison sur la 1re moitié MG. 'smorzando' au-dessus du chant ; 'p' sous la MD.",
+"bpm": 52
+},
+{
+"v": "D5 D5ed D5s D5ed F5t E5t D5e re",
+"ly": "ne' so- gni mie- _ _ i",
+"rh": "rh re3 D5+F5e3 B4+D5e3 F4+B4e3 D4+F4e3 B3+D4e3",
+"lh": "G2+F3e3 G3e3 B3e3 D4e3 B3e3 G3e3 F3e3 B3e3 F3e3 D4e3 B3e3 F3e3",
+"doubt": "F5 E5 = deux triples croches (3 barres) après D5 croche pointée. Grande liaison de phrasé au chant. 3 imprimé seulement sur le 1er triolet MD."
+},
+{
+"v": "C5 C5ed C5s C5h",
+"ly": "bril- la- sti_un dì,",
+"rh": "rh re3 C5+E5e3 A4+C5e3 E4+A4e3 C4+E4e3 A3+C4e3",
+"lh": "A2+E3e3 A3e3 C4e3 E4e3 C4e3 A3e3 E3e3 A3e3 E3e3 C4e3 A3e3 E3e3",
+"doubt": "'sti un' en élision sur C5s."
+},
+{
+"v": "B4 gD5 C5ed B4s B4 B4e re",
+"ly": "ma ti per- de- i:",
+"rh": "rh re3 D4+F4e3 F4+B4e3 B4+D5e3 D5+F5e3 F5+B5e3",
+"lh": "E3e3 G#3e3 B3e3 E4e3 B3e3 G#3e3 D3e3 B2e3 D3e3 F3e3 B3e3 D4e3",
+"doubt": "Petite note barrée D5 + accent sur C5. Liaison en pointillés sur B4-B4 (fin). Dernier accord MD : B5 lu au-dessus de la 1re ligne supplémentaire (A5 possible). Fin de page : la phrase continue page suivante."
+}
+]
+}

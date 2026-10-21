@@ -1,85 +1,85 @@
 {
- "page": 3,
- "measures": [
-  {
-   "meter": "4/4",
-   "marks": [],
-   "v": "C5 C#5ed C#5s D5h",
-   "ly": "lar- ve d'a- mor,",
-   "rh": "E3e A3+C4+E4e E3e A3+C#4e F3+D4e A3e D4e A3e",
-   "lh": "A2e re G2e re F2e re r",
-   "doubt": "Mesure 29 (numéro imprimé), page imprimée 115. Soufflet crescendo sur le chant (2e moitié). RH : la basse de chaque groupe (E3, F3) sous 3 lignes supplémentaires — lecture E3 à confirmer."
-  },
-  {
-   "marks": [],
-   "v": "E5 E5ed E5s F5h",
-   "ly": "lar- ve d'a- mor,",
-   "rh": "G3+E4e A3e E4e A3e F3+F4e A3e D4e F3e",
-   "lh": "C#2+C#3 r D2+D3 r",
-   "doubt": "Basses RH sous lignes supplémentaires (G3, F3) relues en zoom."
-  },
-  {
-   "marks": [
-    "smorz."
-   ],
-   "v": "re F#5e F#5e F#5e G5d C5e",
-   "ly": "fug- gi- te‿in- sie- me,",
-   "rh": "Eb3+C4e Ab3e C4e F#3e G3+E4e E3e C4+E4e A3e",
-   "lh": "Ab1+Ab2 r G1+G2e re A1+A2e re",
-   "doubt": "Chant : accents sur les trois F#5 ; « te in » élidés sur une note. RH : bécarres de précaution sur E4, E3, A3 ; soufflet sous la RH (2e moitié). LH : G1/A1 sous 3 lignes supplémentaires."
-  },
-  {
-   "marks": [
-    "rall.",
-    "p"
-   ],
-   "v": "E5 gE5 D5ed C5s C5 r",
-   "ly": "lar- ve d'a- mor.",
-   "rh": "C4+E4e G3e F3+B3+D4e G3e E3+G3+C4e re C5+C6",
-   "lh": "G1+G2e re G1+G2e re C2+C3e G3e C4e G3e",
-   "doubt": "« rall. » au chant et « p rall. » au piano. Chant : appoggiature E5 avant D5 (accent). RH : accord E3+G3+C4 dense, lecture à confirmer."
-  },
-  {
-   "marks": [
-    "a tempo"
-   ],
-   "v": "rh re C5e C5e C5e",
-   "ly": "A te d'ac-",
-   "rh": "E5+E6 gE6 D5+D6ed C5+C6s C5+C6e re r",
-   "lh": "G2+F3e G3e F3+B3e G3e C3+E3e G3e C4e G3e",
-   "doubt": "« a tempo » au chant et au piano. RH : octave supérieure E6/D6/C6 sur 2-3 lignes supplémentaires ; lecture C5 vs D5 de la double croche à confirmer."
-  },
-  {
-   "marks": [],
-   "v": "F5 F5ed F5s E5 E5",
-   "ly": "can- to del ge- ni-",
-   "rh": "A3+F4e C4e F4e C4e G3+E4e C4e E4e C4e",
-   "lh": "C2+C3 r C2+C3 r",
-   "doubt": "Portée « ossia » au-dessus (texte français « En moi, pour l'amour d'une ») ignorée ; seule la portée italienne est transcrite."
-  },
-  {
-   "marks": [],
-   "v": "D#5h E5e C5e C5e C5e",
-   "ly": "to re scor- da- va‿il",
-   "rh": "F#3+D#4e A3e C4e F#3e G3+E4e C4e E4e C4e",
-   "lh": "C2+C3 r C2+C3 r",
-   "doubt": "Mesure 35. Portée ossia française au-dessus ignorée. Chant : accent sur D#5, liaison D#5–E5 ; « va il » élidés sur une note."
-  },
-  {
-   "marks": [],
-   "v": "G5 F5e rs F5s E5 D#5e rs D#5s",
-   "ly": "pian- to, la pa- tria, il",
-   "rh": "A3+F4e C4e F4e C4e G3+E4e B3e F#3+D#4e B3e",
-   "lh": "A1+A2 r B1+B2e re B1+B2e re",
-   "doubt": "RH : bécarre de précaution sur F4. Chant : la dernière double croche sans altération écrite → D#5 (altération valable jusqu'à la barre)."
-  },
-  {
-   "marks": [],
-   "v": "E5h E5e G4e G4e G4e",
-   "ly": "ciel. _ Don- na sle-",
-   "rh": "G3+E4e B3e E4e B3e G3e B3e E4e B3e",
-   "lh": "E2+E3 r rh",
-   "doubt": "Soufflet cresc./dim. sur E5h. Mesure coupée par la page suivante pour la phrase « sle- » (suite p. 116). Ossia française (« pi- ») ignorée."
-  }
- ]
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"marks": [],
+"v": "C5 C#5ed C#5s D5h",
+"ly": "lar- ve d'a- mor,",
+"rh": "E3e A3+C4+E4e E3e A3+C#4e F3+D4e A3e D4e A3e",
+"lh": "A2e re G2e re F2e re r",
+"doubt": "Mesure 29 (numéro imprimé), page imprimée 115. Soufflet crescendo sur le chant (2e moitié). RH : la basse de chaque groupe (E3, F3) sous 3 lignes supplémentaires — lecture E3 à confirmer."
+},
+{
+"marks": [],
+"v": "E5 E5ed E5s F5h",
+"ly": "lar- ve d'a- mor,",
+"rh": "G3+E4e A3e E4e A3e F3+F4e A3e D4e F3e",
+"lh": "C#2+C#3 r D2+D3 r",
+"doubt": "Basses RH sous lignes supplémentaires (G3, F3) relues en zoom."
+},
+{
+"marks": [
+"smorz."
+],
+"v": "re F#5e F#5e F#5e G5d C5e",
+"ly": "fug- gi- te‿in- sie- me,",
+"rh": "Eb3+C4e Ab3e C4e F#3e G3+E4e E3e C4+E4e A3e",
+"lh": "Ab1+Ab2 r G1+G2e re A1+A2e re",
+"doubt": "Chant : accents sur les trois F#5 ; « te in » élidés sur une note. RH : bécarres de précaution sur E4, E3, A3 ; soufflet sous la RH (2e moitié). LH : G1/A1 sous 3 lignes supplémentaires."
+},
+{
+"marks": [
+"rall.",
+"p"
+],
+"v": "E5 gE5 D5ed C5s C5 r",
+"ly": "lar- ve d'a- mor.",
+"rh": "C4+E4e G3e F3+B3+D4e G3e E3+G3+C4e re C5+C6",
+"lh": "G1+G2e re G1+G2e re C2+C3e G3e C4e G3e",
+"doubt": "« rall. » au chant et « p rall. » au piano. Chant : appoggiature E5 avant D5 (accent). RH : accord E3+G3+C4 dense, lecture à confirmer."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "rh re C5e C5e C5e",
+"ly": "A te d'ac-",
+"rh": "E5+E6 gE6 D5+D6ed C5+C6s C5+C6e re r",
+"lh": "G2+F3e G3e F3+B3e G3e C3+E3e G3e C4e G3e",
+"doubt": "« a tempo » au chant et au piano. RH : octave supérieure E6/D6/C6 sur 2-3 lignes supplémentaires ; lecture C5 vs D5 de la double croche à confirmer."
+},
+{
+"marks": [],
+"v": "F5 F5ed F5s E5 E5",
+"ly": "can- to del ge- ni-",
+"rh": "A3+F4e C4e F4e C4e G3+E4e C4e E4e C4e",
+"lh": "C2+C3 r C2+C3 r",
+"doubt": "Portée « ossia » au-dessus (texte français « En moi, pour l'amour d'une ») ignorée ; seule la portée italienne est transcrite."
+},
+{
+"marks": [],
+"v": "D#5h E5e C5e C5e C5e",
+"ly": "to- re scor- da- va‿il",
+"rh": "F#3+D#4e A3e C4e F#3e G3+E4e C4e E4e C4e",
+"lh": "C2+C3 r C2+C3 r",
+"doubt": "Mesure 35. Portée ossia française au-dessus ignorée. Chant : accent sur D#5, liaison D#5–E5 ; « va il » élidés sur une note."
+},
+{
+"marks": [],
+"v": "G5 F5e rs F5s E5 D#5e rs D#5s",
+"ly": "pian- to, la pa- tria, il",
+"rh": "A3+F4e C4e F4e C4e G3+E4e B3e F#3+D#4e B3e",
+"lh": "A1+A2 r B1+B2e re B1+B2e re",
+"doubt": "RH : bécarre de précaution sur F4. Chant : la dernière double croche sans altération écrite → D#5 (altération valable jusqu'à la barre)."
+},
+{
+"marks": [],
+"v": "E5h E5e G4e G4e G4e",
+"ly": "ciel. _ Don- na sle-",
+"rh": "G3+E4e B3e E4e B3e G3e B3e E4e B3e",
+"lh": "E2+E3 r rh",
+"doubt": "Soufflet cresc./dim. sur E5h. Mesure coupée par la page suivante pour la phrase « sle- » (suite p. 116). Ossia française (« pi- ») ignorée."
+}
+]
 }
