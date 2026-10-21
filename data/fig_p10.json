@@ -1,0 +1,177 @@
+{
+ "page": 10,
+ "measures": [
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gG4 gA4 C5 re gG4 gA4 C5 re",
+   "lh": "rhd",
+   "meter": "6/8",
+   "doubt": "Petites notes (2 doubles croches d'agrément liées) lues G4-A4 avant chaque C5."
+  },
+  {
+   "v": "r re C4e B3e C4e",
+   "ly": "Ah bra- vo,",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re",
+   "marks": [
+    "p"
+   ],
+   "doubt": "Têtes des 3 croches du chant coupées par le haut du scan : hauteurs C4 B3 C4 déduites des hampes."
+  },
+  {
+   "v": "G3e F#3e G3e C4e B3e C4e",
+   "ly": "Fi- ga- ro, bra- vo, bra-",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re",
+   "doubt": "3 dernières croches du chant coupées en haut du scan (C4 B3 C4 déduits des hampes)."
+  },
+  {
+   "v": "G3e F#3e G3e C4e B3e C4e",
+   "ly": "vis- si- mo! ah bra- vo,",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re",
+   "doubt": "3 dernières croches du chant coupées en haut du scan (C4 B3 C4 déduits des hampes)."
+  },
+  {
+   "v": "G3e F#3e G3e C4e B3e C4e",
+   "ly": "Fi- ga- ro, bra- vo, bra-",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re",
+   "doubt": "3 dernières croches du chant coupées en haut du scan (C4 B3 C4 déduits des hampes)."
+  },
+  {
+   "v": "A3e G#3e A3e C4e B3e C4e",
+   "ly": "vis- si- mo! a te for-",
+   "rh": "re F4+A4+C5e F4+A4+C5e re F4+A4+C5e F4+A4+C5e",
+   "lh": "F2+F3 re F2+F3 re"
+  },
+  {
+   "v": "F4e E4e D4e C4e B3e A3e",
+   "ly": "tu- _ na,a te _ for-",
+   "rh": "re F4+A4+C5e F4+A4+C5e re F4+A4+C5e F4+A4+C5e",
+   "lh": "F2+F3 re F2+F3 re"
+  },
+  {
+   "v": "G3e B3e A3e G3e B3e A3e",
+   "ly": "tu- _ na, a te for-",
+   "rh": "re D4+F4+B4e D4+F4+B4e re D4+F4+B4e D4+F4+B4e",
+   "lh": "G2+G3 re G2+G3 re"
+  },
+  {
+   "v": "G3e B3e A3e G3e A3e B3e",
+   "ly": "tu- _ na non man- che-",
+   "rh": "re D4+F4+B4e D4+F4+B4e re D4+F4+B4e D4+F4+B4e",
+   "lh": "G2+G3 re G2+G3 re"
+  },
+  {
+   "v": "C4 re C4e B3e C4e",
+   "ly": "rà. La la ran,",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re",
+   "marks": [
+    "cresc."
+   ]
+  },
+  {
+   "v": "G3e F#3e G3e C4e B3e C4e",
+   "ly": "la la ran, la la ran,",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re"
+  },
+  {
+   "v": "G3e F#3e G3e C4e B3e C4e",
+   "ly": "la la ran, la la ran,",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re"
+  },
+  {
+   "v": "G3e F#3e G3e C4e B3e C4e",
+   "ly": "la la ran, a te for-",
+   "rh": "re E4+G4+C5e E4+G4+C5e re E4+G4+C5e E4+G4+C5e",
+   "lh": "C3+C4 re C3+C4 re"
+  },
+  {
+   "v": "A3e G#3e A3e C4e B3e C4e",
+   "ly": "tu- _ na,a te _ for-",
+   "rh": "re F4+A4+C5e F4+A4+C5e re F4+A4+C5e F4+A4+C5e",
+   "lh": "F2+F3 re F2+F3 re",
+   "doubt": "C4-B3 (2e moitié) portent à la fois une ligature (italien, lié) et des crochets hampes en haut (découpage anglais) : notées une seule fois."
+  },
+  {
+   "v": "F4e E4e D4e C4e B3e A3e",
+   "ly": "tu- _ na, a te for-",
+   "rh": "re F4+A4+C5e F4+A4+C5e re F4+A4+C5e F4+A4+C5e",
+   "lh": "F2+F3 re F2+F3 re"
+  },
+  {
+   "v": "G3e B3e A3e G3e B3e A3e",
+   "ly": "tu- _ na, a te for-",
+   "rh": "re D4+F4+B4e D4+F4+B4e re D4+F4+B4e D4+F4+B4e",
+   "lh": "G2+G3 re G2+G3 re"
+  },
+  {
+   "v": "G3e B3e A3e G3e A3e B3e",
+   "ly": "tu- _ na non man- che-",
+   "rh": "re D4+F4+B4e D4+F4+B4e re D4+F4+B4e D4+F4+B4e",
+   "lh": "G2+G3 re G2+G3 re"
+  },
+  {
+   "v": "C4hd",
+   "ly": "rà,",
+   "rh": "G5+C6e E5e C5e G5+C6e E5e C5e",
+   "lh": "C3e E3e G3e C4e G3e E3e",
+   "marks": [
+    "f"
+   ]
+  },
+  {
+   "v": "C4 D4s C4s B3 C4e",
+   "ly": "so- _ _ no‿il fac-",
+   "rh": "A5+C6e E5e C5e A5+C6e E5e C5e",
+   "lh": "A2e C3e E3e A3e E3e C3e",
+   "doubt": "Placement de « no il » : sur B3 (cf. anglais « the ») ou sur le C4 double croche ; liaison de C4 à B3/C4."
+  },
+  {
+   "v": "D4d F4d",
+   "ly": "to- tum",
+   "rh": "A5+D6e F5e D5e A5+D6e F5e D5e",
+   "lh": "F2e A2e D3e F3e D3e A2e",
+   "doubt": "MG : 1re croche coupée par le bas du scan (seule la hampe est visible) ; F2 supposé (octave du F3 du 2e groupe, comme aux mesures voisines)."
+  },
+  {
+   "v": "B3e D4e C4e B3e C4e D4e",
+   "ly": "del- _ _ la _ cit-",
+   "rh": "G5+B5e D5e B4e G5+B5e D5e B4e",
+   "lh": "G2e B2e D3e G3e D3e B2e",
+   "doubt": "MG : G2 en bas de page, tête en partie coupée."
+  },
+  {
+   "v": "E4d C4d",
+   "ly": "tà, _",
+   "rh": "G5+C6e E5e C5e G5+C6e E5e C5e",
+   "lh": "C3e E3e G3e C4e G3e E3e"
+  },
+  {
+   "v": "C4e E4e D4e gD4 C4e B3e C4e",
+   "ly": "so- _ _ no‿il _ fac-",
+   "rh": "A5+C6e E5e C5e A5+C6e E5e C5e",
+   "lh": "A2e C3e E3e A3e E3e C3e",
+   "doubt": "Petite note barrée lue D4 (peut-être E4). C4-B3 : ligature (italien) + crochets en haut (anglais)."
+  },
+  {
+   "v": "D4d F4d",
+   "ly": "to- tum",
+   "rh": "A5+D6e F5e D5e A5+D6e F5e D5e",
+   "lh": "F2e A2e D3e F3e D3e A2e",
+   "doubt": "MG : 1re croche coupée par le bas du scan ; F2 supposé."
+  },
+  {
+   "v": "B3e D4e C4e B3e C4e D4e",
+   "ly": "del- _ _ la _ cit-",
+   "rh": "G5+B5e D5e B4e G5+B5e D5e B4e",
+   "lh": "G2e B2e D3e G3e D3e B2e",
+   "doubt": "MG : G2 en bas de page, tête en partie coupée. Phrase « cit-tà » continue page 11."
+  }
+ ]
+}
