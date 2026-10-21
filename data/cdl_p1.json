@@ -1,0 +1,85 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "3/4",
+   "tempo": "Andantino quasi Allegretto (♩=78)",
+   "marks": [
+    "p"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Db5e Eb5e F5e C5e Db5s C5s Bb4e",
+   "lh": "rs Bb3s Db4s F4s rs Ab3s C4s F4s rs G3s Bb3s F4s",
+   "doubt": "Titre « 22. Clair de lune (Menuet) », Op. 46 n°2 ; mention imprimée « (Original key C minor) ». Prélude piano seul (voix = pauses). MG : arpèges en doubles croches après demi-soupir, sous liaisons."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb4 C5s Bb4s Ab4e Bb4",
+   "lh": "rs G3s Bb3s Eb4s rs F3s Ab3s Eb4s rs Bb2s F3s D4s"
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb4e C5e Db5e Ab4e Bb4s Ab4s Gb4e",
+   "lh": "rs Eb3s Bb3s Gb4s rs F3s Db4s F4s rs Gb3s Bb3s Db4s",
+   "doubt": "MG 1er temps : Gb4 sur 3e ligne supplémentaire (bémol imprimé) ; 2e temps bémol de précaution sur Db4."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4 Gb4s F4s Eb4e F4",
+   "lh": "rs Db3s Ab3s Db4s rs Eb3s Bb3s C4s rs Bb2s F3s Db4s"
+  },
+  {
+   "marks": [
+    "sempre dolce"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4e C4+A4s F4s F4e G4+Bb4e C4+A4e F4e",
+   "lh": "rs F2s C3s A3s rs Bb2s F3s Db4s rs F2s C3s A3s",
+   "doubt": "Bécarres imprimés : A4 (MD), G4 (MD, accord G4+Bb4), A3 (MG) ; valables jusqu'à la barre."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4e A3+A4s F4s F4e Bb3+G4e C4+A4e F4e",
+   "lh": "rs C3s F3s C4s rs Bb2s F3s Db4s rs F2s C3s A3s",
+   "doubt": "MD 1er temps : note grave lue A3♮ (bécarre imprimé, 2 lignes suppl.) — à vérifier ; 2e accord Bb3+G4♮."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4e C4+A4s F4s F4e G4+Bb4e C4+A4e F4e",
+   "lh": "rs F2s C3s A3s rs Bb2s F3s Db4s rs F2s C3s A3s",
+   "doubt": "Identique à la mesure 5 ; soufflet crescendo sous la MD."
+  },
+  {
+   "marks": [
+    ">"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5hd // r F4s rs re F4s rs re",
+   "lh": "rs Gb2s C3s Bb3s rs Ab2s D3s B3s rs A2s Eb3s C4s",
+   "doubt": "MD : blanche pointée F5 (hampe haut). Temps 2 et 3 : groupes de doubles croches à cheval sur les deux portées (F4 en clé de sol, puis Ab2/D3♮/B3♮ et A2♮/Eb3/C4 en clé de fa) ; aucun silence imprimé dans la voix intérieure MD (silences ajoutés pour la durée). Soufflet decrescendo."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Db5e Eb5e F5e C5e Db5s C5s Bb4e",
+   "lh": "rs Bb3s Db4s F4s rs Ab3s C4s F4s rs G3s Bb3s F4s",
+   "doubt": "Reprise de la mesure 1 ; bémols de précaution sur Bb3 et Ab3, bécarre sur G3. Système suivant page 89."
+  }
+ ]
+}
