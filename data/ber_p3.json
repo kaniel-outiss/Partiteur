@@ -1,0 +1,139 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "12/8",
+   "ks": -5,
+   "marks": [],
+   "v": "F4d Db4 Eb4e F4 F4e Eb4 Db4e",
+   "ly": "Fuy- ant le port qui di- mi-",
+   "rh": "Bb3 F4e Bb4 F4e C4 F4e C5 F4e",
+   "lh": "G2e F3e Db4e~ Db4e Db4e F3e Ab2e F3e C4e~ C4e C4e F3e",
+   "doubt": "Page imprimée 34 (3e page du scan). Armure 5 bémols imprimée en tête de système (ks=-5 posé par précaution : armure de fin de p. 2 non vérifiée ici). Pas de chiffrage imprimé sur cette page : 12/8 déduit (6 noires par mesure). Mesure complète (pas de mesure coupée avec la p. 2). Grande liaison d'expression MD sur tout le système."
+  },
+  {
+   "marks": [],
+   "v": "C4hd C4hd",
+   "ly": "nu- e,",
+   "rh": "C4 G4e C5 G4e C4 F4e C5 F4e",
+   "lh": "C3e Bb3e E4e~ E4e E4e Bb3e F2e C3e A3e~ A3e A3e C3e",
+   "doubt": "MD : bécarre sur le sol (G4) ; MG : bécarres sur E4 et A3."
+  },
+  {
+   "marks": [
+    "(,)",
+    "cresc."
+   ],
+   "v": "F4d A4 C5e Eb5hd",
+   "ly": "Sen- tent leur mas-",
+   "rh": "C4 F4e A4+C5 F4e Eb4 Gb4e Bb4+Eb5 Gb4e",
+   "lh": "F2e C3e A3e~ A3e A3e C3e F2e Eb3e Bb3e~ Bb3e Bb3e Eb3e",
+   "doubt": "Respiration (,) entre parenthèses au-dessus du chant ; cresc. imprimé au chant et sous la MD. Bécarre sur la (A4) chant, MD et MG (A3)."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "Db5d C5 Bb4e C5d F4d",
+   "ly": "se re- te- nu- e",
+   "rh": "Eb4 Bb4e Db5+Eb5 Bb4e F4 C5e F5 C5e",
+   "lh": "G2e Eb3e Bb3e~ Bb3e Bb3e Eb3e A2e F3e Eb4e~ Eb4e Eb4e F3e",
+   "doubt": "Soufflet crescendo au chant et entre les portées du piano. MD : seconde Db5/Eb5 (têtes décalées). MG : bécarres sur G2 et A2."
+  },
+  {
+   "marks": [
+    "f",
+    "mf",
+    ">"
+   ],
+   "v": "rhd Bb4hd",
+   "ly": "Par",
+   "rh": "F4 Bb4e D5+F5 Bb4e Eb4 Bb4e Db5+Eb5 Bb4e",
+   "lh": "Bb2e Ab3e D4e~ D4e D4e F3e Eb2e G3e Db4e~ Db4e Db4e G3e",
+   "doubt": "f au chant ; mf au piano (fin du soufflet de m.4) ; soufflet decrescendo sur la 2e moitié (piano). MD : bécarre sur D5, puis bémol sur Db5. MG : bémol (de précaution) sur Ab3, bécarre D4, Eb2 sur 1re ligne supplémentaire, bécarre G3, bémol Db4."
+  },
+  {
+   "marks": [
+    "(,)",
+    "p"
+   ],
+   "v": "Ab4hd Ab4d Bb4 Ab4e",
+   "ly": "l'â- me des loin-",
+   "rh": "Eb4 Ab4e C5+Eb5 Ab4e Db4 Ab4e Cb5+Db5 Ab4e",
+   "lh": "Ab2e Gb3e C4e~ C4e C4e Gb3e Db2e F3e Cb4e~ Cb4e Cb4e F3e",
+   "doubt": "Respiration (,) entre parenthèses avant « des ». p sous la MD. MD : bémol sur Cb5 (seconde Cb5/Db5). MG : bémol de précaution sur Gb3 ; Db2 sous la 1re ligne supplémentaire ; chiffre « 2 » manuscrit au crayon (ignoré)."
+  },
+  {
+   "marks": [
+    ">"
+   ],
+   "v": "Ab4hd~ Ab4d Gb4d",
+   "ly": "tains ber-",
+   "rh": "Db4 Ab4e Bb4+Db5 Ab4e C4 Gb4e B4+C5 Gb4e",
+   "lh": "Gb2e Db3e Bb3e~ Bb3e Bb3e Db3e Eb2e Eb3e Bb3e~ Bb3e Bb3e Eb3e",
+   "doubt": "Chant : liaison de prolongation Ab4 (blanche pointée -> noire pointée), trait de mélisme après « tains ». Soufflet decrescendo sur la 2e moitié (piano). MD : bécarres sur C4 et sur la seconde B4/C5 (bécarre lu sur la tête inférieure, B4) ; à vérifier."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "F4wd",
+   "ly": "ceaux,",
+   "rh": "Bb3 F4e Bb4 F4e Ab3 F4e Ab4 F4e",
+   "lh": "Bb2e F3e Db4e~ Db4e Db4e F3e Bb2e F3e C4e~ C4e C4e F3e",
+   "doubt": "Chant : ronde pointée (mesure entière). pp sous la MD."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rhd F4hd",
+   "ly": "Par",
+   "rh": "Gb3 F4e Gb4 F4e Ab3 F4e Ab4 F4e",
+   "lh": "Bb2e F3e Bb3e~ Bb3e Bb3e F3e Ab2e F3e C4e~ C4e C4e F3e",
+   "doubt": "p au chant. MD : Gb3 sur 2 lignes supplémentaires."
+  },
+  {
+   "marks": [
+    "(,)"
+   ],
+   "v": "Bb4hd Bb4d Ab4 Gb4e",
+   "ly": "l'â- me des loin-",
+   "rh": "Bb3 F4e Bb4 F4e C4 Eb4e C5 Eb4e",
+   "lh": "G2e F3e Db4e~ Db4e Db4e F3e Gb2e Gb3e Bb3e~ Bb3e Bb3e Gb3e",
+   "doubt": "Respiration (,) imprimée (entourée au crayon sur le scan). MG : bécarre sur G2, puis bémol sur Gb2 ; Gb3 lu entre F3 et A3."
+  },
+  {
+   "marks": [],
+   "v": "F4hd~ F4d F4d",
+   "ly": "tains ber-",
+   "rh": "Db4 F4e Db5 F4e C4 F4e C5 F4e",
+   "lh": "F2e F3e Ab3e~ Ab3e Ab3e F3e F2e A3e Eb4e~ Eb4e Eb4e A3e",
+   "doubt": "Chant : liaison de prolongation F4 et trait de mélisme après « tains ». MG : bécarre sur A3 (2e moitié)."
+  },
+  {
+   "marks": [],
+   "v": "Bb3wd~",
+   "ly": "ceaux.",
+   "rh": "Bb3 F4e Bb4 F4e Bb3 F4e Bb4 F4e",
+   "lh": "Bb2e F3e Db4e~ Db4e Db4e F3e Bb2e F3e Db4e~ Db4e Db4e F3e",
+   "doubt": "Chant : Bb3 ronde pointée liée à la mesure suivante (trait de mélisme après « ceaux. »)."
+  },
+  {
+   "marks": [],
+   "v": "Bb3hd rhd",
+   "ly": "",
+   "rh": "Bb3d~ Bb3 F4e Bb4d~ Bb4 F4e~",
+   "lh": "Bb2 F3e Db4d~ Db4 F3e Bb2d~ // rhd rd r F3e~",
+   "doubt": "Fin de la figure en croches. MD : liaisons Bb3 (noire pointée -> noire) et Bb4 (noire pointée -> noire), F4 lié à l'accord de la mesure finale. MG : 2 voix — Bb2 noire pointée (hampe bas) liée à la mesure suivante, et F3 croche hampe haut sur la dernière croche, liée au F3 final (silences de la 2e voix non imprimés)."
+  },
+  {
+   "marks": [],
+   "v": "rwd",
+   "ly": "",
+   "rh": "Bb3+F4hd~ Bb3+F4d r re",
+   "lh": "Bb2+F3+Db4hd~ Bb2+F3+Db4d r re",
+   "doubt": "Dernière mesure, double barre finale. Chant : pause (mesure entière) notée rwd. MD : tête du F4 de la blanche pointée masquée par un trait de crayon (lue F4, comme l'accord suivant). MG : Db4 (hampe haut, entre les portées) + Bb2/F3, blanche pointée liée à noire pointée ; silences soupir + demi-soupir imprimés (MD et MG)."
+  }
+ ]
+}
