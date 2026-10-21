@@ -1,0 +1,193 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "meter": "6/8",
+   "v": "C4e B3e C4e D4e E4e D4e",
+   "ly": "ruc- _ ca, pre- sto la",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e",
+   "doubt": "suite de la mesure précédente (p.7) ; C4-B3 lié (mélisme sur ruc-)"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "C4e B3e C4e D4e E4e D4e",
+   "ly": "bar- _ ba, pre- sto_il bi-",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+  },
+  {
+   "v": "C4e B3e C4e D4 re",
+   "ly": "gliet- _ _ to!",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+  },
+  {
+   "v": "E4d E4e D4e C4e",
+   "ly": "Fi- _ ga- ro,",
+   "rh": "E5+C6 re r re",
+   "lh": "C3+C4 re r re",
+   "doubt": "2e note (E4) sans syllabe, notée mélisme ; accords MD/MG sans crochet = noires (pour compléter la mesure)"
+  },
+  {
+   "v": "E4d E4e D4e C4e",
+   "ly": "Fi- _ ga- ro,",
+   "rh": "rhd",
+   "lh": "rhd"
+  },
+  {
+   "v": "E4e D4e C4e E4e D4e C4e",
+   "ly": "Fi- ga- ro, Fi- ga- ro,",
+   "rh": "rhd",
+   "lh": "rhd"
+  },
+  {
+   "v": "E4e D4e C4e E4e D4e C4e",
+   "ly": "Fi- ga- ro, Fi- ga- ro,",
+   "rh": "rhd",
+   "lh": "rhd"
+  },
+  {
+   "v": "E4e D4e C4e E4e D4e C4e",
+   "ly": "Fi- ga- ro, Fi- ga- ro,",
+   "rh": "rhd",
+   "lh": "rhd"
+  },
+  {
+   "v": "E4e D4e C4e r D4e",
+   "ly": "Fi- ga- ro Ahi-",
+   "rh": "rhd",
+   "lh": "rhd"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Eb4d~ Eb4 Ab3e",
+   "ly": "mè! ahi-",
+   "rh": "Ab5+C6e Eb5e C5e Ab5+C6e Eb5e C5e",
+   "lh": "Ab2+C3+Eb3+Ab3d Ab3+C4+Eb4d",
+   "doubt": "MG/MD : accords de la section Ahimè lus avec peu de certitude (2e accord MG peut-être Ab3+Db4+F4 ; positions exactes à revérifier)"
+  },
+  {
+   "v": "Ab3d~ Ab3 Db4e",
+   "ly": "mè! che",
+   "rh": "Ab5+Eb6e F5e Db5e Ab5+Eb6e F5e Db5e",
+   "lh": "Ab2+Ab3d Ab3+Db4+F4d",
+   "doubt": "MD : accord haut lu Ab5+Eb6 (deux bémols), à vérifier (Db6 possible)"
+  },
+  {
+   "v": "C4d Ab3 Ab3e",
+   "ly": "fu- ria! ahi-",
+   "rh": "Ab5+C6e Eb5e C5e Ab5+C6e Eb5e C5e",
+   "lh": "Ab2+C3+Eb3+Ab3d Ab3+C4+Eb4d",
+   "doubt": "MG/MD : accords de la section Ahimè lus avec peu de certitude (2e accord MG peut-être Ab3+Db4+F4 ; positions exactes à revérifier)"
+  },
+  {
+   "v": "Ab3d~ Ab3 F4e",
+   "ly": "mè! che",
+   "rh": "Ab5+Eb6e F5e Db5e Ab5+Eb6e F5e Db5e",
+   "lh": "Ab2+Ab3d Ab3+Db4+F4d"
+  },
+  {
+   "v": "Eb4d C4d",
+   "ly": "fol- la!",
+   "rh": "Ab5+C6e Eb5e C5e Ab5+C6e Eb5e C5e",
+   "lh": "Ab2+C3+Eb3+Ab3d Ab3+C4+Eb4d",
+   "doubt": "MG/MD : accords de la section Ahimè lus avec peu de certitude (2e accord MG peut-être Ab3+Db4+F4 ; positions exactes à revérifier)"
+  },
+  {
+   "v": "C4d C4 C4e",
+   "ly": "U- no_al- la",
+   "rh": "A5+C6e Eb5e C5e A5+C6e Eb5e C5e",
+   "lh": "Gb2+Gb3d Gb3+A3+Eb4d",
+   "doubt": "MG 2e accord : seconde Gb3/A3 décalée avec bécarre (lu comme A naturel) — à vérifier"
+  },
+  {
+   "v": "C4d C4d",
+   "ly": "vol- ta",
+   "rh": "A5+C6e Eb5e C5e A5+C6e Eb5e C5e",
+   "lh": "F#2+F#3d F#3+A3+C4d"
+  },
+  {
+   "v": "C4d A3 A3e",
+   "ly": "per ca- ri-",
+   "rh": "C6+D#6e A5e D#5e C6+D#6e A5e D#5e",
+   "lh": "F2+F3d A3+C4+D4d",
+   "doubt": "MD : accord à notes décalées avec dièse, lu C6+D#6 (sixte augmentée Fa-La-Do-Ré#) — C6+E6 possible ; MG 2e accord lu A3+C4+D4 sans altération visible (peut-être G3/B3) ; bécarres sur F3/F2 et A3 (chant)"
+  },
+  {
+   "v": "E4d E4d",
+   "ly": "tà, per",
+   "rh": "E5+G#5+E6e G#5+B5e G#5+B5e E5+A5+E6e A5+C6e A5+C6e",
+   "lh": "E2+E3e B2e G#2e E2+E3e C3e A2e",
+   "doubt": "bécarre sur le 1er E4 du chant"
+  },
+  {
+   "v": "E4d E4d",
+   "ly": "ca- ri-",
+   "rh": "E5+G#5+E6e G#5+B5e G#5+B5e E5+A5+E6e A5+C6e A5+C6e",
+   "lh": "E2+E3e B2e G#2e E2+E3e C3e A2e"
+  },
+  {
+   "v": "E4d E4d",
+   "ly": "tà, per",
+   "rh": "E5+G#5+E6e G#5+B5e G#5+B5e E5+A5+E6e A5+C6e A5+C6e",
+   "lh": "E2+E3e B2e G#2e E2+E3e C3e A2e"
+  },
+  {
+   "v": "E4d E4d",
+   "ly": "ca- ri-",
+   "rh": "E5+G#5+E6e G#5+B5e G#5+B5e E5+A5+E6e A5+C6e A5+C6e",
+   "lh": "E2+E3e B2e G#2e E2+E3e C3e A2e"
+  },
+  {
+   "marks": [
+    "dim."
+   ],
+   "v": "E4d F4e F4e F4e",
+   "ly": "tà! u- no_al- la",
+   "rh": "E5+G#5+E6 re F5d",
+   "lh": "E2+E3 re F4d",
+   "doubt": "F5 (MD) et F4 (MG) liés/coulés vers la suite"
+  },
+  {
+   "v": "E4 E4e D#4e D#4e D#4e",
+   "ly": "vol- ta, u- no_al- la",
+   "rh": "E5d D#5d",
+   "lh": "E4d D#4d"
+  },
+  {
+   "v": "E4 E4e D#4e D#4e D#4e",
+   "ly": "vol- ta, u- no_al- la",
+   "rh": "E5d D#5d",
+   "lh": "E4d D#4d"
+  },
+  {
+   "v": "E4 E4e D4e D4e^ D4e",
+   "ly": "vol- ta per ca- ri-",
+   "rh": "E5d D5d",
+   "lh": "E4d D4d",
+   "doubt": "bécarre sur D4 (chant) et D5/D4 (piano) ; point d'orgue sur la 4e note du chant"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "C4 re r re",
+   "ly": "tà!",
+   "rh": "gD5 C5s B4s C5s D5s C5e G4e G4e G4e",
+   "lh": "C3e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e",
+   "doubt": "MG coupée en bas de page : basse (C3 ?) illisible ; petite note D5 incertaine"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gD5 C5s B4s C5s D5s C5e G4e G4e G4e",
+   "lh": "C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e",
+   "doubt": "MG coupée en bas de page (notes graves éventuelles invisibles)"
+  }
+ ]
+}

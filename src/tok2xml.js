@@ -10,6 +10,9 @@ const TX2={DIV:480,
 function t2Note(s){const m=/^([A-G])(bb|##|b|#)?(-?\d)$/.exec(s);if(!m)return null;const acc={'':0,'#':1,'##':2,b:-1,bb:-2}[m[2]||''];
   return {L:m[1],acc:acc,oct:+m[3],midi:12*(+m[3]+1)+TX2.SEMI[TX2.STEP[m[1]]]+acc};}
 /* un jeton → {rest,notes[],grace,base,dot,tup:[a,n]|null,d (noires),tie,trem,arp,ferm,fg[]} */
+/* liaison de prolongation : seulement vers une note de même hauteur (accord partiellement lié) */
+function t2TieTo(V,k,nm,pid,vi,midi){let nx=V[k+1];while(nx&&nx.grace)nx=V[++k+1];if(!nx&&nm){const W=t2Voice(String(nm[pid]||'').split('//')[vi]||'');nx=W.filter(function(e){return !e.grace;})[0];}
+  return !!(nx&&!nx.rest&&nx.notes.some(function(q){return q.midi===midi;}));}
 function t2Tok(tok){const grace=/^g[A-G]/.test(tok);tok=tok.replace(/(^|\+)g(?=[A-G])/g,'$1');
   const parts=tok.split('+'),last=parts[parts.length-1];
   const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whestq]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)(@[\d,]+)?$/.exec(last);if(!m)return null;
@@ -110,7 +113,7 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0,KM=t
               else{const sound=n.midi+(P.kind==='voice'?(P.oct||0):0);const oct=n.oct+Math.round((sound-n.midi)/12);
                 s+='<pitch><step>'+n.L+'</step>'+(n.acc?'<alter>'+n.acc+'</alter>':'')+'<octave>'+oct+'</octave></pitch>';}
               if(!e.grace)s+='<duration>'+Math.round(e.d*DIV)+'</duration>';
-              const tieStop=n&&prevTie[n.midi],tieStart=n&&e.tie;if(tieStop)s+='<tie type="stop"/>';if(tieStart){s+='<tie type="start"/>';nowTie[n.midi]=1;}
+              const tieStop=n&&prevTie[n.midi],tieStart=n&&e.tie&&t2TieTo(V,k,W.measures[mi+1],P.id,vi,n.midi);if(tieStop)s+='<tie type="stop"/>';if(tieStart){s+='<tie type="start"/>';nowTie[n.midi]=1;}
               s+='<voice>'+voiceNo+'</voice>';if(!whole)s+='<type>'+(e.grace?'eighth':TX2.TYPE[e.base])+'</type>';
               if(e.dot&&!whole){s+='<dot/>';if(e.dot==='dd')s+='<dot/>';}
               if(n&&ACC[vi+'|'+k+'|'+ni])s+='<accidental>'+({'-2':'flat-flat','-1':'flat','0':'natural','1':'sharp','2':'double-sharp'}[n.acc])+'</accidental>';

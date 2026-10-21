@@ -1,0 +1,111 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "C3 r rh",
+   "ly": "mor.",
+   "rh": "C5 C4s B3s C4s B3s C4 r",
+   "lh": "C4+E4 C3+E3+G3 C3+E3+G3 r",
+   "doubt": "mesure 13 (numéro imprimé) = 1re de la page"
+  },
+  {
+   "marks": [
+    "f",
+    "tr",
+    "tr"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+B4+D5+G5d G5s F#5t G5t A4+D5+F#5+A5d A5s G5t A5t",
+   "lh": "B3+D4h* F#3+A3+D4h* // G3 r D3 r",
+   "doubt": "RH : 2e accord sans altération imprimée, F5 lu F#5 (dièse du F#5 précédent dans la mesure). LH : trémolos mesurés à 2 notes (croches/doubles barrées) entre blanches : 1er B3↔D4, 2e (F#3+A3)↔D4 — notés en accords trémolo (B3+D4h*, F#3+A3+D4h*) ; le 2e accord est en fait F#3+A3 (hampe haut) avec D3 noire (hampe bas)"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rh B3 C4",
+   "ly": "Non più‿a-",
+   "rh": "B5 r G4+B4e D4e A4+C5e D4e",
+   "lh": "G3+B3+D4 r rh"
+  },
+  {
+   "v": "D4 C4e C4e B3 A3e A3e",
+   "ly": "vrai que- sti bei pen- nac-",
+   "rh": "B4+D5e D4e A4+C5e D4e G4+B4e D4e C4+F#4+A4e D4e",
+   "lh": "G2+G3 r D2+D3 r"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "G3 G3 rh",
+   "ly": "chi- ni,",
+   "rh": "A5s G5s F#5s G5s F#5s G5s F#5s G5s B5s A5s G#5s A5s G#5s A5s G#5s A5s",
+   "lh": "B3e D4e B3e G3e F#3e C4e A3e F#3e // G3 r rh"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rh B3 C4",
+   "ly": "quel cap-",
+   "rh": "B5ed G5s B5e re G4+B4e D4e A4+C5e D4e",
+   "lh": "G2+G3 r rh",
+   "doubt": "RH : bécarre de précaution sur G5"
+  },
+  {
+   "v": "D4 C4e C4e B3 A3e A3e",
+   "ly": "pel- lo leg- ge- ro, ga-",
+   "rh": "B4+D5e D4e A4+C5e D4e G4+B4e D4e C4+F#4+A4e D4e",
+   "lh": "G2+G3 r D2+D3 r"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "G3 G3 r G3e G3e",
+   "ly": "lan- te, quel- la",
+   "rh": "B3+G4e G5e G5e G5e G5ed F#5t G5t E5e G5e",
+   "lh": "G2+G3 r C#3+E3+G3+A3h"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "F#3 F#3e F#3e G3 G3e E3e",
+   "ly": "chio- ma, quel- l'a- ria bril-",
+   "rh": "F#5e F#4e F#4e F#4e G4ed F#4t G4t E4e G4e",
+   "lh": "D3+F#3+A3h C#3+E3+G3+A3h"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "D3 D3 r G3e G3e",
+   "ly": "lan- te, quel ver-",
+   "rh": "F#4e F#5e F#5e F#5e G5ed F#5t G5t E5e G5e",
+   "lh": "D3+F#3+A3h C#3+E3+G3+A3h"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "F#3 F#3e F#3e G3 G3e E3e",
+   "ly": "mi- glio don- ne- sco co-",
+   "rh": "F#5e F#4e F#4e F#4e G4ed F#4t G4t E4e A4e",
+   "lh": "D3+F#3+A3h C#3+E3+G3+A3h"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "D3 r A3d C4e",
+   "ly": "lor, quel ver-",
+   "rh": "D4e D5+F#5+A5e D5+F#5+A5e D5+F#5+A5e D5+F#5+A5+C6e D5+F#5+A5+C6e D5+F#5+A5+C6e D5+F#5+A5+C6e",
+   "lh": "D3+F#3+A3e D3e D3e D3e D2+D3e D2+D3e D2+D3e D2+D3e",
+   "doubt": "RH : bécarre de précaution sur C6 au 5e accord ; mesure 24 = dernière de la page, suite page suivante"
+  }
+ ]
+}

@@ -63,7 +63,7 @@
  "doubt":"arc entre les deux D lu comme liaison de prolongation"},
 {"marks":[">"],"v":"rhd","ly":"","rh":"gB4 gC5 gD5 E5hd","lh":"gB3 gC4 gD4 E4hd"},
 {"v":"rhd","ly":"","rh":"C5d~ C5e C5e A4e","lh":"C4d~ C4e re re"},
-{"marks":["p"],"v":"rhd","ly":"","rh":"F#4e E4e D4e A4e G4e F#4e","lh":"D3+A3+C4hd~",
+{"marks":["p"],"v":"rhd","ly":"","rh":"F#4e E4e D4e A4e G4e F#4e","lh":"D3+A3+C4hd",
  "doubt":"MG : arc partant du ré3 vers la mesure suivante (liaison présumée)"},
 {"v":"rhd","ly":"","rh":"C5e B4e A4e E5e C5e A4e","lh":"D#3+F#3+A3hd",
  "doubt":"MG : deux dièses devant l'accord, lus ré# et fa# ; le ré3 est lié depuis la mesure précédente, alors que le dièse contredit une prolongation (liaison d'expression ?)"},
