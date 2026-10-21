@@ -1,0 +1,432 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -1,
+   "marks": [
+    "p",
+    "(m.103)"
+   ],
+   "s": "F4 F4 G4 A4",
+   "ls": "in di- e",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "F3 F3 G3 A3",
+   "lb": "in di- e",
+   "orc": "rw",
+   "doubt": "1re noire (S et B) liée depuis la mesure précédente : pas de syllabe ; portées A, T et Orquesta absentes du système → silences"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "s": "A4w~",
+   "ls": "il-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3w~",
+   "lb": "il-",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "mf",
+    ">"
+   ],
+   "s": "A4h G4h",
+   "ls": "_",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3h G3h",
+   "lb": "_",
+   "orc": "rw"
+  },
+  {
+   "s": "A4w~",
+   "ls": "la",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3w~",
+   "lb": "la",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "s": "A4 r A4d A4e",
+   "ls": "quan- do",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3 r A3d A3e",
+   "lb": "quan- do",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "[K]",
+    "cresc."
+   ],
+   "s": "A4h G4 A4",
+   "ls": "cæ- li mo-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3h G3 A3",
+   "lb": "cæ- li mo-",
+   "orc": "rw"
+  },
+  {
+   "s": "Bb4hd Bb4",
+   "ls": "ven- di",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "Bb3hd Bb3",
+   "lb": "ven- di",
+   "orc": "rw"
+  },
+  {
+   "s": "Bb4h A4 Bb4",
+   "ls": "sunt, quan- do",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "Bb3h A3 Bb3",
+   "lb": "sunt, quan- do",
+   "orc": "rw"
+  },
+  {
+   "s": "C5hd C5",
+   "ls": "cæ- li",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "C4hd C4",
+   "lb": "cæ- li",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "s": "C5h Bb4 C5",
+   "ls": "mo- ven- di",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "C4h Bb3 C4",
+   "lb": "mo- ven- di",
+   "orc": "rw"
+  },
+  {
+   "s": "D5hd D5",
+   "ls": "sunt et",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D4hd D4",
+   "lb": "sunt et",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "s": "D5h E4h~",
+   "ls": "ter- ra",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D4h E3h~",
+   "lb": "ter- ra",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "f sempre"
+   ],
+   "s": "E4 r A4h",
+   "ls": "dum",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "E3 r A3h",
+   "lb": "dum",
+   "orc": "rw"
+  },
+  {
+   "s": "D5h~ D5d D4e",
+   "ls": "ve- ne-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D4h~ D4d D3e",
+   "lb": "ve- ne-",
+   "orc": "rw"
+  },
+  {
+   "s": "D4h D4 E4",
+   "ls": "ris ju- di-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D3h D3 E3",
+   "lb": "ris ju- di-",
+   "orc": "rw"
+  },
+  {
+   "s": "F4w~",
+   "ls": "ca-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "F3w~",
+   "lb": "ca-",
+   "orc": "rw"
+  },
+  {
+   "s": "F4 F4 E4 D4",
+   "ls": "re se- cu-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "F3 F3 E3 D3",
+   "lb": "re se- cu-",
+   "orc": "rw"
+  },
+  {
+   "s": "B4hd D5",
+   "ls": "lum per",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "B3hd D4",
+   "lb": "lum per",
+   "orc": "rw",
+   "doubt": "si bécarre imprimé (S et B)"
+  },
+  {
+   "s": "E4w",
+   "ls": "ig-",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "E3w",
+   "lb": "ig-",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "[L]"
+   ],
+   "s": "D4w~",
+   "ls": "nem.",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D3w~",
+   "lb": "nem.",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "Solo"
+   ],
+   "s": "D4h rh",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D3h rh",
+   "lb": "",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "p",
+    "dolce"
+   ],
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D3h~ D3d A3e",
+   "lb": "Li- be-",
+   "orc": "rw"
+  },
+  {
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3h G3h",
+   "lb": "ra me",
+   "orc": "rw"
+  },
+  {
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "F3d D3e D3h~",
+   "lb": "Do- mi- ne",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D3h D3h",
+   "lb": "de",
+   "orc": "rw"
+  },
+  {
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "D3h A3h",
+   "lb": "mor- _",
+   "orc": "rw"
+  },
+  {
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "A3hd G3",
+   "lb": "te æ-",
+   "orc": "rw"
+  },
+  {
+   "s": "rw",
+   "ls": "",
+   "a": "rw",
+   "la": "",
+   "t": "rw",
+   "lt": "",
+   "b": "F3h D3h~",
+   "lb": "ter- na.",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "pp",
+    "Tutti y solo"
+   ],
+   "s": "r D4 D4 D4",
+   "ls": "Li- be- ra",
+   "a": "r D4 D4 D4",
+   "la": "Li- be- ra",
+   "t": "r D4 D4 D4",
+   "lt": "Li- be- ra",
+   "b": "D3 D3 D3 D3",
+   "lb": "Li- be- ra",
+   "orc": "rw",
+   "doubt": "basse : 1re noire liée depuis la mesure précédente"
+  },
+  {
+   "s": "D4w",
+   "ls": "me",
+   "a": "D4w",
+   "la": "me",
+   "t": "A4+C5w",
+   "lt": "me",
+   "b": "F#2+D3w",
+   "lb": "me",
+   "orc": "rw"
+  },
+  {
+   "s": "E4hd E4",
+   "ls": "Do- mi-",
+   "a": "C#4hd C#4",
+   "la": "Do- mi-",
+   "t": "G4+Bb4hd G4+Bb4",
+   "lt": "Do- mi-",
+   "b": "G2+D3hd G2+D3",
+   "lb": "Do- mi-",
+   "orc": "rw",
+   "doubt": "alto : 2e do sans altération écrite, dièse valable jusqu'à la barre"
+  },
+  {
+   "s": "D4w~",
+   "ls": "ne",
+   "a": "D4w~",
+   "la": "ne.",
+   "t": "F4+A4w~",
+   "lt": "ne.",
+   "b": "D3w~",
+   "lb": "ne.",
+   "orc": "rw"
+  },
+  {
+   "s": "D4w~",
+   "ls": "",
+   "a": "D4w~",
+   "la": "",
+   "t": "F4+A4w~",
+   "lt": "",
+   "b": "D3w~",
+   "lb": "",
+   "orc": "rw"
+  },
+  {
+   "marks": [
+    "fin (double barre)"
+   ],
+   "s": "D4w^",
+   "ls": "",
+   "a": "D4w^",
+   "la": "",
+   "t": "F4+A4w^",
+   "lt": "",
+   "b": "D3w^",
+   "lb": "",
+   "orc": "rw"
+  }
+ ]
+}

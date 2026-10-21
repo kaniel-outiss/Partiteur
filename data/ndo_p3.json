@@ -1,15 +1,140 @@
-{"page":3,"measures":[
-{"meter":"2/4","ks":1,"marks":[],"v":"rh","ly":"","rh":"B3+B4h* // D4h","lh":"G2+D3+G3 F#2+D3+G3","doubt":"Page imprimée 212 (mesures 23 à 35, fin de l'air sur double barre finale ; rien d'autre ensuite). M.23 en 2/4 (chiffrage imprimé en début de page). MD : trémolo mesuré (3 barres) de blanche entre B4 et B3 (hampe haut) ; D4 blanche hampe bas ; le B3 est lié (ou lié de phrasé) au B3 du 1er temps de m.24 ; grande liaison sur B4."},
-{"meter":"4/4","v":"rw","ly":"","rh":"B3+B4e E5e F#5e G5e F#5e E5e F#5ed D4+D5s // re E4+E5e* F#4+F#5e* G4+G5e* F#4+F#5e* E4+E5e* F#4+F#5e* F#4+F#5e*","lh":"E2+B2+G3hd G2+D3+B3","doubt":"MD voix 2 : trémolos digités (3 barres) de croche entre la note de la mélodie et son octave inférieure (E5↔E4, F#5↔F#4, G5↔G4…), notés ici comme accords d'octave avec *. Dernière double croche de la mélodie = octave D4+D5. MG : tenuto sur l'accord G2+D3+B3."},
-{"marks":["con anima","p"],"v":"rh re E5e F#5e G5e","ly":"Di- le- gua, o","rh":"A4+C#5 D5 E5 F#4+A4+C#5+F#5e G4+B4+E5+G5e // C#4+A4* D4+A4* E4+A4* r","lh":"A2+E3+A3 B2+E3+A3 A3e A3e~ A3 // rh C#3+E3 A1+A2e G1+G2e","doubt":"« con anima » au chant ; p + soufflet < au piano. MD : tenuto sur A4+C#5, D5, E5 ; voix 2 = trémolos digités de noire (3 barres) A4↔C#4, A4↔D4, A4↔E4 ; au 4e temps la voix 2 n'a rien d'imprimé (silence ajouté). Accord du 4e temps (F#4+A4+C5+F#5) SANS altération imprimée : C#5 par report du ♯ du 1er temps (à vérifier : C♮ possible). MG : tenuto sur les accords des temps 1, 2 et sur C#3+E3 ; arc A3→A3 lu comme liaison de prolongation."},
-{"marks":["f","poco rit."],"v":"A5 A5 A5e A5e A5ed F#5s","ly":"not- te! tra- mon- ta- te,","rh":"A4+A5h A4+E5+A5e A4+D5+A5e A4+E5+A5ed F#4+C#5+F#5s // re D5e E5e F#5e rh","lh":"re D4e E4e F#4e E4e D4e E4ed C#4s // gF#1 F#2+D3+A3hd gF#2 F#2+F#3+A3","doubt":"Tenuto sur A5 pointée (chant) et sur les accords A4+D5+A5 / A4+E5+A5 (MD). MD voix 2 : silence de croche puis D5 E5 F#5 (pas de silence imprimé pour la 2e moitié). MG : acciaccatures (barrées) F#1 avant l'accord et F#2 avant l'accord du 4e temps (même hauteur que la basse de l'accord, tel qu'imprimé) ; accent > sur E4 pointée."},
-{"marks":["poco rit."],"v":"F#5 F#5 F#5e F#5e F#5ed D5s","ly":"stel- le! tra- mon- ta- te,","rh":"F#4+F#5h F#4+C#5+F#5e F#4+B4+F#5e F#4+D5+F#5ed D4+B4+D5s // re B4e C#5e D5e rh","lh":"re B3e C#4e C#4e C#4e B3e D4ed B3s // gE1 E2+B2+G3hd G2+G3+B3","doubt":"Tenuto sur F#5 pointée (chant) et sur les accords F#4+B4+F#5 / F#4+D5+F#5 (MD). C#5 du 1er accord du 3e temps par report du ♯ de la voix 2. MG : acciaccature E1 (barrée) ; C#4 répétés par report du ♯ ; accent > sur D4 pointée."},
-{"marks":["a tempo"],"v":"A4 A4e A4e A4e A4e E5ed^ C#5s","ly":"stel- le! Al- l'al- ba vin- ce-","rh":"A3+D4+F#4+A4e A3+D4+F#4e D4+F#4+B4+D5e! C#4+E4+A4+C#5e! B3+D4+G4+B4e! A3+C#4+F#4+A4e! B3+C#4+E4e! re^","lh":"re F#3e~ F#3h G3e re^ // A1+A2h A1+A2h^","doubt":"Chant : respiration (virgule) après « le! » ; tenuto sur les croches A4 de « l'al-ba vin » ; point d'orgue sur E5. MD : accords 3 à 7 arpégés ; tenuto sous plusieurs accords ; accords 6 et 7 SANS altération imprimée sur le do : C#4 par report du ♯ de l'accord 4 (à vérifier : C♮ possible). Point d'orgue sur le silence final (MD et MG) et sous la 2e blanche A1+A2."},
-{"marks":["cresc. molto","p"],"v":"D5hd B4ed D5s","ly":"rò! Vin- ce-","rh":"D4+G4+B4+D5w // r re B3+D4+G4e D4+G4+B4e G3+B3+D4e B3+D4+G4e D4+G4+B4e","lh":"re D3+G3+B3e G3+B3+D4e re rh // G1+G2w*","doubt":"Tenuto sur D5 (chant). Accords de croches de la MG qui montent sur la portée de MD (croisement, même ligature) : les accords écrits sur la portée supérieure sont mis en rh, ceux de la portée inférieure en lh (silences ajoutés). MG : trémolo mesuré (3-4 barres) de ronde G1↔G2."},
-{"marks":["poco allarg."],"v":"G5hd D5ed B5s^","ly":"rò! Vin- ce-","rh":"G4+B4+D5e G3+B3+D4+G4e B3+D4+G4+B4e D4+G4+B4+D5e G4+B4+D5+G5e D4+G4+B4+D5e G4+B4+D5+G5ed B4+D5+B5s^","lh":"G1+G2w*","doubt":"Points d'orgue imprimés ENTRE CROCHETS [𝄐] sur B5 (chant), sur le dernier accord MD et au-dessus de la portée MG ; accent > sur B5 (chant) et sur le dernier accord MD. MG : trémolo de ronde G1↔G2."},
-{"marks":["a tempo","ff","affrett.","rit."],"v":"A5w","ly":"rò!","rh":"re D5+D6e E5+E6e F#5+F#6e E5+E6e D5+D6e E5+E6ed C#5+C#6s // A3+D4+F#4+A4hd! r","lh":"gD2+gD3 D3+F#3+A3hd* gF#2 D3+A3*","doubt":"Changement de mesure 2/4 à la fin du système (pour m.32). Accent > sur l'octave E5+E6 pointée. MG : acciaccature en octave D2+D3 ; trémolo mesuré de blanche pointée entre D3+F#3 et A3 (noté accord + *) ; 4e temps : acciaccature F#2 puis trémolo de noire D3↔A3."},
-{"meter":"2/4","marks":["a tempo"],"v":"rh","ly":"","rh":"B4+B5h*","lh":"G2+D3+A3* F#2+D3+G3*","doubt":"Pas de portée de chant sur ce dernier système (chant = silences). MD : trémolo de blanche B5↔B4. MG : trémolos de noire (G2+D3)↔A3 puis (F#2+D3)↔G3."},
-{"meter":"4/4","marks":["affrett.","rit."],"v":"rw","ly":"","rh":"B4+B5e E5+E6e F#5+F#6e G5+G6e F#5+F#6e E5+E6e F#5+F#6ed D5+D6s","lh":"gE2+gE3 D3+E3+G3+B3hd* gG2 D3+B3*","doubt":"Accent > sur l'octave F#5+F#6 pointée. MG : acciaccature en octave E2+E3 ; trémolo de blanche pointée entre l'accord D3+E3+G3 et B3 ; 4e temps : acciaccature G2 puis trémolo de noire D3↔B3."},
-{"marks":["a tempo"],"v":"rw","ly":"","rh":"C#5+E5+A5+C#6* D5+A5+D6* E5+A5+E6* F#5+A5+F#6e G5+B5+G6e","lh":"A1+A2* B1+B2* C#2+C#3* A1+A2e G1+G2e","doubt":"MD : trémolos digités de noire (3 barres) entre l'accord supérieur et la note grave (E5+A5+C#6↔C#5, A5+D6↔D5, A5+E6↔E5). MG : trémolos de noire A1↔A2, B1↔B2, C#2↔C#3 (liés de phrasé). Soufflet (lignes) sous « a tempo » vers la mesure suivante, sens incertain."},
-{"marks":["8vb"],"v":"rw","ly":"","rh":"A5+D6+F#6+A6w*^","lh":"D2+A2+D3w*^","doubt":"Dernière mesure, double barre finale. MD : trémolo de ronde entre l'accord D6+F#6+A6 et A5, point d'orgue. MG : trémolo de ronde entre D2+A2 et D3, point d'orgue ; « 8vb » pointillé sous la MG (notes écrites transcrites, à jouer à l'octave inférieure). Soufflet (lignes divergentes) entre les portées."}
-]}
+{
+"page": 3,
+"measures": [
+{
+"meter": "2/4",
+"ks": 1,
+"marks": [],
+"v": "rh",
+"ly": "",
+"rh": "B3+B4h* // D4h",
+"lh": "G2+D3+G3 F#2+D3+G3",
+"doubt": "Page imprimée 212 (mesures 23 à 35, fin de l'air sur double barre finale ; rien d'autre ensuite). M.23 en 2/4 (chiffrage imprimé en début de page). MD : trémolo mesuré (3 barres) de blanche entre B4 et B3 (hampe haut) ; D4 blanche hampe bas ; le B3 est lié (ou lié de phrasé) au B3 du 1er temps de m.24 ; grande liaison sur B4."
+},
+{
+"meter": "4/4",
+"v": "rw",
+"ly": "",
+"rh": "B3+B4e E5e F#5e G5e F#5e E5e F#5ed D4+D5s // re E4+E5e* F#4+F#5e* G4+G5e* F#4+F#5e* E4+E5e* F#4+F#5e* F#4+F#5e*",
+"lh": "E2+B2+G3hd G2+D3+B3",
+"doubt": "MD voix 2 : trémolos digités (3 barres) de croche entre la note de la mélodie et son octave inférieure (E5↔E4, F#5↔F#4, G5↔G4…), notés ici comme accords d'octave avec *. Dernière double croche de la mélodie = octave D4+D5. MG : tenuto sur l'accord G2+D3+B3."
+},
+{
+"marks": [
+"con anima",
+"p"
+],
+"v": "rh re E5e F#5e G5e",
+"ly": "Di- le- gua, o",
+"rh": "A4+C#5 D5 E5 F#4+A4+C#5+F#5e G4+B4+E5+G5e // C#4+A4* D4+A4* E4+A4* r",
+"lh": "A2+E3+A3 B2+E3+A3 A3e A3e~ A3 // rh C#3+E3 A1+A2e G1+G2e",
+"doubt": "« con anima » au chant ; p + soufflet < au piano. MD : tenuto sur A4+C#5, D5, E5 ; voix 2 = trémolos digités de noire (3 barres) A4↔C#4, A4↔D4, A4↔E4 ; au 4e temps la voix 2 n'a rien d'imprimé (silence ajouté). Accord du 4e temps (F#4+A4+C5+F#5) SANS altération imprimée : C#5 par report du ♯ du 1er temps (à vérifier : C♮ possible). MG : tenuto sur les accords des temps 1, 2 et sur C#3+E3 ; arc A3→A3 lu comme liaison de prolongation."
+},
+{
+"marks": [
+"f",
+"poco rit."
+],
+"v": "A5 A5 A5e A5e A5ed F#5s",
+"ly": "not- te! tra- mon- ta- te,",
+"rh": "A4+A5h A4+E5+A5e A4+D5+A5e A4+E5+A5ed F#4+C#5+F#5s // re D5e E5e F#5e rh",
+"lh": "re D4e E4e F#4e E4e D4e E4ed C#4s // gF#1 F#2+D3+A3hd gF#2 F#2+F#3+A3",
+"doubt": "Tenuto sur A5 pointée (chant) et sur les accords A4+D5+A5 / A4+E5+A5 (MD). MD voix 2 : silence de croche puis D5 E5 F#5 (pas de silence imprimé pour la 2e moitié). MG : acciaccatures (barrées) F#1 avant l'accord et F#2 avant l'accord du 4e temps (même hauteur que la basse de l'accord, tel qu'imprimé) ; accent > sur E4 pointée."
+},
+{
+"marks": [
+"poco rit."
+],
+"v": "F#5 F#5 F#5e F#5e F#5ed D5s",
+"ly": "stel- le! tra- mon- ta- te,",
+"rh": "F#4+F#5h F#4+C#5+F#5e F#4+B4+F#5e F#4+D5+F#5ed D4+B4+D5s // re B4e C#5e D5e rh",
+"lh": "re B3e C#4e C#4e C#4e B3e D4ed B3s // gE1 E2+B2+G3hd G2+G3+B3",
+"doubt": "Tenuto sur F#5 pointée (chant) et sur les accords F#4+B4+F#5 / F#4+D5+F#5 (MD). C#5 du 1er accord du 3e temps par report du ♯ de la voix 2. MG : acciaccature E1 (barrée) ; C#4 répétés par report du ♯ ; accent > sur D4 pointée."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "A4 A4e A4e A4e A4e E5ed^ C#5s",
+"ly": "stel- le! Al- l'al- ba vin- ce-",
+"rh": "A3+D4+F#4+A4e A3+D4+F#4e D4+F#4+B4+D5e! C#4+E4+A4+C#5e! B3+D4+G4+B4e! A3+C#4+F#4+A4e! B3+C#4+E4e! re^",
+"lh": "re F#3e~ F#3h G3e re^ // A1+A2h A1+A2h^",
+"doubt": "Chant : respiration (virgule) après « le! » ; tenuto sur les croches A4 de « l'al-ba vin » ; point d'orgue sur E5. MD : accords 3 à 7 arpégés ; tenuto sous plusieurs accords ; accords 6 et 7 SANS altération imprimée sur le do : C#4 par report du ♯ de l'accord 4 (à vérifier : C♮ possible). Point d'orgue sur le silence final (MD et MG) et sous la 2e blanche A1+A2."
+},
+{
+"marks": [
+"cresc. molto",
+"p"
+],
+"v": "D5hd B4ed D5s",
+"ly": "rò! Vin- ce-",
+"rh": "D4+G4+B4+D5w // r re B3+D4+G4e D4+G4+B4e G3+B3+D4e B3+D4+G4e D4+G4+B4e",
+"lh": "re D3+G3+B3e G3+B3+D4e re rh // G1+G2w*",
+"doubt": "Tenuto sur D5 (chant). Accords de croches de la MG qui montent sur la portée de MD (croisement, même ligature) : les accords écrits sur la portée supérieure sont mis en rh, ceux de la portée inférieure en lh (silences ajoutés). MG : trémolo mesuré (3-4 barres) de ronde G1↔G2."
+},
+{
+"marks": [
+"poco allarg."
+],
+"v": "G5hd D5ed B5s^",
+"ly": "rò! Vin- ce-",
+"rh": "G4+B4+D5e G3+B3+D4+G4e B3+D4+G4+B4e D4+G4+B4+D5e G4+B4+D5+G5e D4+G4+B4+D5e G4+B4+D5+G5ed B4+D5+B5s^",
+"lh": "G1+G2w*",
+"doubt": "Points d'orgue imprimés ENTRE CROCHETS [𝄐] sur B5 (chant), sur le dernier accord MD et au-dessus de la portée MG ; accent > sur B5 (chant) et sur le dernier accord MD. MG : trémolo de ronde G1↔G2."
+},
+{
+"marks": [
+"a tempo",
+"ff",
+"affrett.",
+"rit."
+],
+"v": "A5w",
+"ly": "rò!",
+"rh": "re D5+D6e E5+E6e F#5+F#6e E5+E6e D5+D6e E5+E6ed C#5+C#6s // A3+D4+F#4+A4hd! r",
+"lh": "gD2+gD3 D3+F#3+A3hd* gF#2 D3+A3*",
+"doubt": "Changement de mesure 2/4 à la fin du système (pour m.32). Accent > sur l'octave E5+E6 pointée. MG : acciaccature en octave D2+D3 ; trémolo mesuré de blanche pointée entre D3+F#3 et A3 (noté accord + *) ; 4e temps : acciaccature F#2 puis trémolo de noire D3↔A3."
+},
+{
+"meter": "2/4",
+"marks": [
+"a tempo"
+],
+"v": "rh",
+"ly": "",
+"rh": "B4+B5h*",
+"lh": "G2+D3+A3* F#2+D3+G3*",
+"doubt": "Pas de portée de chant sur ce dernier système (chant = silences). MD : trémolo de blanche B5↔B4. MG : trémolos de noire (G2+D3)↔A3 puis (F#2+D3)↔G3."
+},
+{
+"meter": "4/4",
+"marks": [
+"affrett.",
+"rit."
+],
+"v": "rw",
+"ly": "",
+"rh": "B4+B5e E5+E6e F#5+F#6e G5+G6e F#5+F#6e E5+E6e F#5+F#6ed D5+D6s",
+"lh": "gE2+gE3 D3+E3+G3+B3hd* gG2 D3+B3*",
+"doubt": "Accent > sur l'octave F#5+F#6 pointée. MG : acciaccature en octave E2+E3 ; trémolo de blanche pointée entre l'accord D3+E3+G3 et B3 ; 4e temps : acciaccature G2 puis trémolo de noire D3↔B3."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "rw",
+"ly": "",
+"rh": "C#5+E5+A5+C#6* D5+A5+D6* E5+A5+E6* F#5+A5+F#6e G5+B5+G6e",
+"lh": "A1+A2* B1+B2* C#2+C#3* A1+A2e G1+G2e",
+"doubt": "MD : trémolos digités de noire (3 barres) entre l'accord supérieur et la note grave (E5+A5+C#6↔C#5, A5+D6↔D5, A5+E6↔E5). MG : trémolos de noire A1↔A2, B1↔B2, C#2↔C#3 (liés de phrasé). Soufflet (lignes) sous « a tempo » vers la mesure suivante, sens incertain."
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "A5+D6+F#6+A6w*^",
+"lh": "D1+A1+D2w*^",
+"doubt": "Dernière mesure, double barre finale. MD : trémolo de ronde entre l'accord D6+F#6+A6 et A5, point d'orgue. MG : trémolo de ronde entre D2+A2 et D3, point d'orgue ; « 8vb » pointillé sous la MG (notes écrites transcrites, à jouer à l'octave inférieure). Soufflet (lignes divergentes) entre les portées. « 8vb » appliqué : notes une octave plus bas."
+}
+]
+}
