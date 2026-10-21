@@ -1,0 +1,145 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "6/8",
+   "marks": [
+    "pp"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4hd~",
+   "lh": "E2 E3e B3 C4e",
+   "doubt": "Titre « Romance de Nadir », « ton original », page n° 1 imprimée. Aucun tempo imprimé sur la page. Système 1 sans portée de chant (chant = silences). Liaison E4 m1→m2 lue comme prolongation."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4 F4e G4 F4e",
+   "lh": "D4d A3+C4d"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4hd~",
+   "lh": "E2 E3e B3 C4e",
+   "doubt": "Liaison E4 m3→m4 lue comme prolongation."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4 F4e G4 F4e",
+   "lh": "D4d A3+C4d"
+  },
+  {
+   "marks": [
+    "ten"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4d~ E4 F4e",
+   "lh": "E2 E3e B3 re",
+   "doubt": "« ten » imprimé au-dessus de la portée de fa."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4d~ E4 F4e",
+   "lh": "D2+D3 E3e B3 re"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4d~ E4 F4e",
+   "lh": "C2+C3 E3e A3 re"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4d~ E4 F4e",
+   "lh": "B1+B2 E3e G#3 re"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4hd~",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4d E4 F4e",
+   "lh": "C4d E3 re",
+   "doubt": "Pas d'arc entre E4. et E4 dans cette mesure (contrairement aux m. 5-8)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4hd~",
+   "lh": "A1+A2 E3e A3 B3e",
+   "doubt": "Entrée de la portée NADIR (clé de sol 8). Pause (ronde) = mesure entière."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rd r E5e",
+   "ly": "Je",
+   "rh": "E4d~ E4 re",
+   "lh": "C4d E3 re"
+  },
+  {
+   "v": "E5hd~",
+   "ly": "crois",
+   "rh": "C5+E5hd~",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "E5 D5e C5 D5e",
+   "ly": "en- ten- dre‿en-",
+   "rh": "C5+E5 B4+D5e A4+C5 B4+D5e",
+   "lh": "C4d E3 re",
+   "doubt": "Arc E5 m13→m14 lu comme liaison (extension de « crois » jusqu'avant E5) ; « dre en- » imprimé sous une seule croche D5."
+  },
+  {
+   "v": "E5hd~",
+   "ly": "co",
+   "rh": "C5+E5hd~",
+   "lh": "A1+A2 E3e A3 B3e",
+   "doubt": "Numéro de mesure 15 imprimé : compte vérifié."
+  },
+  {
+   "v": "E5 F5e G5 A5e",
+   "ly": "_ re Ca-",
+   "rh": "C5+E5 D5+F5e E5+G5 F5+A5e",
+   "lh": "C4d E3 re",
+   "doubt": "E5 lié depuis m15 (pas de syllabe) ; F5e = mélisme de « co » (trait d'extension)."
+  },
+  {
+   "v": "F5hd~",
+   "ly": "ché",
+   "rh": "D5+F5hd~",
+   "lh": "D2+D3 A2e D3 E3e",
+   "doubt": "Accord MD lu D5+F5 (têtes serrées)."
+  },
+  {
+   "v": "F5 E5e D5 F5e",
+   "ly": "sous les pal-",
+   "rh": "D5+F5 C5+E5e B4+D5 D5+F5e",
+   "lh": "F3d A2 re"
+  },
+  {
+   "v": "E5hd~",
+   "ly": "miers",
+   "rh": "C5+E5hd~",
+   "lh": "A1+A2 E3e A3 B3e"
+  },
+  {
+   "v": "E5 re r E5e",
+   "ly": "Sa",
+   "rh": "C5+E5 re r C5+E5e",
+   "lh": "C4d E3 re",
+   "doubt": "Numéro 20 imprimé : compte vérifié. « Sa » = levée vers la page 2."
+  }
+ ]
+}
