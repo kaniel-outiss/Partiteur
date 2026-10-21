@@ -51,6 +51,10 @@ def clean(ms):
             for k in m['marks']:
                 k = k.strip()
                 if re.search(r"stacc|^tr$|^armure|point d.orgue|fermata|^ten\.?$", k, re.I): continue
+                # notes de transcription (pas des indications imprimées) : hors portée
+                if re.search(r"\b(MD|MG)\b|accent|bécarre|cl[eé] de|double barre|liaison|petites notes|soufflet|trait horizontal|triolet|tenuto|grupetto|respiration|coupure|^mes\. ?\d|arp[eè]g|8va \(", k, re.I): continue
+                k = re.sub(r"\s*\((voix|piano|chant)[^)]*\)$", '', k).strip()
+                if not k or k.startswith('('): continue
                 d = re.match(r'^(pppp|ppp|pp|p|mp|mf|ffff|fff|ff|f|sfz|sf|fp|rfz|rf)\s*\(', k)  # « p (2e temps…) » → « p »
                 if d: k = d.group(1)
                 if k not in mk: mk.append(k)
@@ -123,7 +127,7 @@ add_air('npa', {'id': 'mozart-non-piu-andrai', 'title': 'Non più andrai', 'comp
         132, {'name': 'Figaro (baryton-basse)', 'short': 'Fig.', 'vt': 'Bar'})
 add_air('zim', {'id': 'puccini-vecchia-zimarra', 'title': 'Vecchia zimarra, senti', 'composer': 'Giacomo Puccini', 'work': 'La Bohème, acte IV',
                 'role': 'Colline', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 4, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 86-87'},
-        66, {'name': 'Colline (basse)', 'short': 'Col.', 'vt': 'B'})
+        63, {'name': 'Colline (basse)', 'short': 'Col.', 'vt': 'B'})
 add_air('lac', {'id': 'verdi-lacerato-spirito', 'title': 'Il lacerato spirito', 'composer': 'Giuseppe Verdi', 'work': 'Simon Boccanegra, prologue',
                 'role': 'Fiesco', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 3, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 316-319'},
         66, {'name': 'Fiesco (basse)', 'short': 'Fie.', 'vt': 'B'})
