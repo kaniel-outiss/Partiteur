@@ -26,7 +26,7 @@ Règles absolues : transcrire FIDÈLEMENT ce qui est imprimé, mesure par mesure
  ]}
 Jetons (voir aussi /home/claude/partiteur/GUIDE.md) :
 - note = lettre + altération + octave (C4 = do du milieu) : C4, Bb3, F#4. Accord : C4+E4+G4 (durée sur le DERNIER élément : "C4+E4+G4e").
-- durée en suffixe : w ronde, h blanche, (rien) noire, e croche, s double croche, t triple ; point "d" après (hd, d, ed, sd).
+- durée en suffixe : w ronde, h blanche, (rien) noire, e croche, s double croche, t triple, x quadruple croche ; point "d" après (hd, d, ed, sd).
 - silences : rw rh r re rs (+ d pour pointé : rhd, rd, red).
 - liaison de prolongation : "~" à la fin (C4h~ C4e). Petite note : préfixe "g" (gD5). Trémolo : "*". Arpège : "!". Point d'orgue : "^".
 - triolet : suffixe 3 (e3).

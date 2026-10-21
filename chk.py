@@ -1,9 +1,9 @@
 import json,sys,re
-D={'w':4,'h':2,'':1,'e':.5,'s':.25,'t':.125}
+D={'w':4,'h':2,'':1,'e':.5,'s':.25,'t':.125,'x':.0625}
 def dur(tok):
     t=tok.split('+')[-1]
     if t.startswith('g'):return 0
-    m=re.match(r'^(r|[A-G](?:#|b|bb|##)?\d)([whest]?)(dd|d)?(3)?[~*!^]*$',t)
+    m=re.match(r'^(r|[A-G](?:#|b|bb|##)?\d)([whestx]?)(dd|d)?(3)?[~*!^]*$',t)
     if not m:raise ValueError('jeton illisible: '+tok)
     d=D[m.group(2)]
     if m.group(3)=='d':d*=1.5

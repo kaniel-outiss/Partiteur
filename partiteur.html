@@ -674,7 +674,7 @@ async function shareFiles(files,title){try{if(navigator.canShare&&navigator.canS
    La partition gravée et la lecture viennent ensuite de Verovio : ce fichier est le seul pont avec l'ancien format. */
 'use strict';
 const TX2={DIV:480,
-  DUR:{w:4,h:2,'':1,q:1,e:.5,s:.25,t:.125},TYPE:{w:'whole',h:'half','':'quarter',q:'quarter',e:'eighth',s:'16th',t:'32nd'},FLAGS:{e:1,s:2,t:3},
+  DUR:{w:4,h:2,'':1,q:1,e:.5,s:.25,t:.125,x:.0625},TYPE:{w:'whole',h:'half','':'quarter',q:'quarter',e:'eighth',s:'16th',t:'32nd',x:'64th'},FLAGS:{e:1,s:2,t:3,x:4},
   STEP:{C:0,D:1,E:2,F:3,G:4,A:5,B:6},SEMI:[0,2,4,5,7,9,11],
   DYN:['pppp','ppp','pp','p','mp','mf','f','ff','fff','ffff','sf','sfz','sffz','fp','rf','rfz','fz']};
 function t2Note(s){const m=/^([A-G])(bb|##|b|#)?(-?\d)$/.exec(s);if(!m)return null;const acc={'':0,'#':1,'##':2,b:-1,bb:-2}[m[2]||''];
@@ -685,11 +685,11 @@ function t2TieTo(V,k,nm,pid,vi,midi){let nx=V[k+1];while(nx&&nx.grace)nx=V[++k+1
   return !!(nx&&!nx.rest&&nx.notes.some(function(q){return q.midi===midi;}));}
 function t2Tok(tok){const grace=/^g[A-G]/.test(tok);tok=tok.replace(/(^|\+)g(?=[A-G])/g,'$1');
   const parts=tok.split('+'),last=parts[parts.length-1];
-  const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whestq]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)(@[\d,]+)?$/.exec(last);if(!m)return null;
+  const m=/^(r|[A-G](?:bb|##|b|#)?-?\d)([whestqx]?)(dd|d)?(3|%\d+:\d+)?([~*!^]*)(@[\d,]+)?$/.exec(last);if(!m)return null;
   const base=m[2]==='q'?'':m[2];let d=TX2.DUR[base];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;let tup=null;
   if(m[4]==='3')tup=[3,2];else if(m[4]){const q=m[4].slice(1).split(':');tup=[+q[0],+q[1]];}if(tup)d*=tup[1]/tup[0];
   const fl=m[5]||'',rest=m[1]==='r';
-  const notes=rest?[]:parts.map(function(p,i){return t2Note(i===parts.length-1?m[1]:p.replace(/[whestq]?(dd|d)?(3|%\d+:\d+)?[~*!^]*(@[\d,]+)?$/,''));}).filter(Boolean);
+  const notes=rest?[]:parts.map(function(p,i){return t2Note(i===parts.length-1?m[1]:p.replace(/[whestqx]?(dd|d)?(3|%\d+:\d+)?[~*!^]*(@[\d,]+)?$/,''));}).filter(Boolean);
   return {rest:rest,notes:notes,grace:grace,base:base,dot:m[3]||'',tup:tup,d:grace?0:d,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,fg:m[6]?m[6].slice(1).split(','):[]};}
 function t2Voice(str){let t=0;return String(str||'').trim().split(/\s+/).filter(Boolean).map(function(x){const e=t2Tok(x);if(!e)return null;e.t=t;t+=e.d;return e;}).filter(Boolean);}
 function t2Esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}

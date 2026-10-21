@@ -22,7 +22,7 @@ Règles absolues : transcrire FIDÈLEMENT ce qui est imprimé, mesure par mesure
 
 ## Jetons
 - note = lettre + altération + octave (C4 = do du milieu) : C4, Bb4, F#5, Eb3. Accord : C4+E4+G4 (durée sur le DERNIER élément ou sur chacun identique, ex. "C4+E4+G4e").
-- durée en suffixe (en noires) : w=4, h=2, (rien)=1 noire, e=0.5, s=0.25, t=0.125 (triple croche) ; point : "d" après (hd, qd? → écrire "d" pour noire pointée, ed, sd) ; double point "dd".
+- durée en suffixe (en noires) : w=4, h=2, (rien)=1 noire, e=0.5, s=0.25, t=0.125 (triple croche), x=0.0625 (quadruple croche) ; point : "d" après (hd, qd? → écrire "d" pour noire pointée, ed, sd) ; double point "dd".
 - triolet : suffixe "3" après la durée (e3 = croche de triolet, s3…). Ex. triolet de croches : "C5e3 D5e3 E5e3".
 - silences : r + durée : rw rh rhd r rd re rs rt (noire = "r").
 - liaison de prolongation vers la note suivante : "~" à la fin (C5h~ C5e).

@@ -1,0 +1,149 @@
+{
+"page": 1,
+"printed_page": 96,
+"measures": [
+{
+"meter": "3/8",
+"ks": 3,
+"tempo": "Andante cantabile",
+"marks": [
+"f"
+],
+"v": "re re rs C#5s",
+"ly": "U-",
+"rh": "C#4+E4+A4sd C#5x E5x A4+C#5+E5+A5e re",
+"lh": "A2+A3e A1+A2e re",
+"doubt": "Accord en double croche pointée + 2 quadruples croches (C#5 E5), codées exactement. Pas de levée : mesure 1 complète (piano seul, chant entre sur la dernière double)."
+},
+{
+"marks": [
+"p"
+],
+"v": "C#5s E5s E5ed D5t C#5t",
+"ly": "n'au- _ ra_a- mo- _",
+"rh": "re C#4+E4+A4e C#4+E4+A4e",
+"lh": "A2 re",
+"doubt": "RH accords staccato liés (portato)."
+},
+{
+"v": "C#5sd D5t B4e rs B4s",
+"ly": "ro- _ sa del",
+"rh": "re D4+F#4+B4e D4+F#4+B4e",
+"lh": "A2 re"
+},
+{
+"v": "B4s D5s D5ed C#5t B4t",
+"ly": "no- _ stro te- _",
+"rh": "re D4+E4+G#4+B4e D4+E4+G#4+B4e",
+"lh": "A2 re"
+},
+{
+"v": "B4sd C#5t A4e rs E4s",
+"ly": "so- _ ro un",
+"rh": "re C#4+E4+A4e C#4+E4+A4e",
+"lh": "A2 re"
+},
+{
+"v": "A4s C#5s C#5ed B4s",
+"ly": "dol- _ ce ri-",
+"rh": "re A4+C#5ed G#4+B4s // re E4",
+"lh": "re E3e D3e"
+},
+{
+"v": "A4s3 C#5s3 E5s3 E5ed D5s",
+"ly": "sto- _ _ ro al",
+"rh": "A4s3 C#5s3 E5s3 E5ed D5s // E4e E4+B4e G#4e",
+"lh": "C#3e G#3e E3+B3e"
+},
+{
+"v": "C#5e F#5e E5t D5t C#5t B4t",
+"ly": "cor _ por- _ ge- _",
+"rh": "C#5e F#5e E5t D5t C#5t B4t // A4 F#4e",
+"lh": "F#3+A3e D3+D4",
+"doubt": "RH temps 1 : C#5 (hampe haut) et A4 (hampe bas, noire) — répartition des voix interprétée."
+},
+{
+"v": "A4e G#4e rs B4s",
+"ly": "rà. _ U-",
+"rh": "A4e G#4e re // E4 re",
+"lh": "C#4e B3e re // E3 re",
+"doubt": "Levée « U- » imprimée B4 (et non C#5 comme m.1)."
+},
+{
+"v": "E5s D#5s D5ed B4t G#4t",
+"ly": "n'au- _ ra_a- mo- _",
+"rh": "re B3+G#4ed G#4+B4s // re E4",
+"lh": "re E3e D3e",
+"doubt": "Chant : D5 avec bécarre imprimé."
+},
+{
+"v": "A4sd B4x C#5x B4e rs B4s",
+"ly": "ro- _ _ sa del",
+"rh": "A4s C#5s B4e re // E4e E4+G#4e re",
+"lh": "C#3s A2s E3e re",
+"doubt": "Double croche pointée + 2 quadruples croches (B4 C#5), codées exactement (jeton x)."
+},
+{
+"v": "E5s D#5s D5ed B4s",
+"ly": "no- _ stro te-",
+"rh": "re B3+G#4ed G#4+B4s // re E4",
+"lh": "re E3e D3e"
+},
+{
+"v": "A4sd B4x C#5x B4e rs E5s",
+"ly": "so- _ _ ro un",
+"rh": "A4s C#5s B4e rs E5s // E4e E4+G#4e re",
+"lh": "C#3s A2s E3e re",
+"doubt": "Double croche pointée + 2 quadruples croches (B4 C#5), codées exactement (jeton x)."
+},
+{
+"v": "E5s A5s G#5s F#5s E5s D#5s",
+"ly": "dol _ _ _ ce ri-",
+"rh": "E5s A5s G#5s F#5s E5s D#5s // A4d",
+"lh": "F#3+A3d"
+},
+{
+"v": "D5e C#5e rs B4s",
+"ly": "sto- ro al",
+"rh": "G#4+D5e A4+C#5e F#4+B4+D5+F#5s rs",
+"lh": "E3+B3e F#3+A3e D3+D4s rs",
+"marks": [
+"f"
+],
+"doubt": "Bécarre (de précaution) sur D5 au chant et à la MD. Accord final MD/MG staccato, f."
+},
+{
+"marks": [
+"p"
+],
+"v": "F#5s3 D5s3 B4s3 A4ed B4s",
+"ly": "cor _ _ por- ge-",
+"rh": "re E4+A4ed G#4+B4s",
+"lh": "re C#4ed D4s // re E3e E3e",
+"doubt": "MG : bécarre imprimé devant le 1er E3 (sens incertain, lu E3)."
+},
+{
+"v": "B4e C#5e rs E5s",
+"ly": "rà, _ un",
+"rh": "G#4+B4e A4+C#5e rs E5s // r B4e",
+"lh": "D4e C#4e E4e // A3 G#3e"
+},
+{
+"v": "E5s A5s G#5s F#5s E5s D#5s",
+"ly": "dol _ _ _ _ _",
+"rh": "E5s A5s G#5s F#5s E5s D#5s // A4d~",
+"lh": "F#3+A3d",
+"doubt": "Arcs MD/MG vers m.19 (liaison A4 lue comme prolongation)."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "D5 D5e",
+"ly": "ce ri-",
+"rh": "D5s A5s G5s F5s E5s D5s // A4d",
+"lh": "F3+A3d",
+"doubt": "Bécarres imprimés : D5 (chant, MD), G5 et F5 (MD), F3 (MG). Mesure continue p.97."
+}
+]
+}
