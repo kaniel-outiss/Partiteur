@@ -11,3 +11,5 @@ scan/mad/ag*/
 scan/mad/*.png
 scan/fig/ag*/
 scan/fig/*.png
+scan/cat/*.pdf
+scan/cat/*/
