@@ -3,12 +3,13 @@ D={'w':4,'h':2,'':1,'e':.5,'s':.25,'t':.125,'x':.0625}
 def dur(tok):
     t=tok.split('+')[-1]
     if t.startswith('g'):return 0
-    m=re.match(r'^(r|[A-G](?:#|b|bb|##)?\d)([whestx]?)(dd|d)?(3)?[~*!^]*$',t)
+    m=re.match(r'^(r|[A-G](?:#|b|bb|##)?\d)([whestx]?)(dd|d)?(3|%\d+:\d+)?[~*!^]*$',t)
     if not m:raise ValueError('jeton illisible: '+tok)
     d=D[m.group(2)]
     if m.group(3)=='d':d*=1.5
     if m.group(3)=='dd':d*=1.75
-    if m.group(4):d*=2/3
+    if m.group(4)=='3':d*=2/3
+    elif m.group(4):a,b=m.group(4)[1:].split(':');d*=int(b)/int(a)
     return d
 def part(s):
     return [sum(dur(x) for x in v.split()) for v in s.split('//')] if s.strip() else []

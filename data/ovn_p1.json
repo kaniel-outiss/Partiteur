@@ -1,0 +1,97 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "6/8",
+"tempo": "Andantino con moto.",
+"marks": [
+"ff"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Bb4+D5+Bb5 F4+F5e D5+Bb5sd F5+C6t Bb5+D6e Bb5+D6e",
+"lh": "Bb1+Bb2s D2s F2s Bb2s D3s F3s D3+Bb3sd F3+C4t Bb3+D4e Bb3+D4e",
+"doubt": "Page imprimée 142 (titre). Pas de portée de chant sur cette page (introduction piano) → v = silences. Accent > sur le 1er accord (2 mains) ; points de staccato sur les croches finales."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D5+Bb5+D6 F4+F5e D5+Bb5+D6sd Eb5+C6+Eb6t F5+D6+F6e F5+D6+F6e",
+"lh": "Bb1+Bb2s D2s F2s Bb2s D3s F3s Bb3+D4sd C4+Eb4t D4+F4e D4+F4e",
+"doubt": "Accent > sur le 1er accord MD."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D6+F6s3 Eb6+G6s3 C6+Eb6s3 C6+Eb6s rs Eb5+C6+Eb6e C6+Eb6s3 D6+F6s3 Bb5+D6s3 Bb5+D6s rs D5+F5+Bb5+D6e",
+"lh": "D4+F4s3 Eb4+G4s3 C4+Eb4s3 C4+Eb4s rs F3+C4+Eb4+F4e C4+Eb4s3 D4+F4s3 Bb3+D4s3 Bb3+D4s rs Bb3+D4+F4e",
+"doubt": "Groupes de 3 doubles croches notés « 3 » (triolets) avec accent > et liaison ; staccato sur les croches. MG accord 5 : Mib4 décalé (seconde avec Fa4)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F5+D6s3 G5+Eb6s3 Eb5+C6s3 Eb5+C6s rs Eb5+C6e Eb5+C6s3 F5+D6s3 D5+Bb5s3 D5+Bb5e F4+F5e",
+"lh": "r F3+A3+C4+F4e Bb1+Bb2e re re",
+"doubt": "Triolets de doubles croches avec accent >."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Bb4+D5+Bb5 F4+F5e D5+Bb5sd F5+C6t Bb5+D6e Bb5+D6e",
+"lh": "Bb1+Bb2s D2s F2s Bb2s D3s F3s D3+Bb3sd F3+C4t Bb3+D4e Bb3+D4e",
+"doubt": "Identique à m.1 (sans ff) ; accent > sur le 1er accord."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D5+Bb5+D6 F4+F5e D5+Bb5+D6sd Eb5+C6+Eb6t F5+D6+F6e F5+D6+F6e",
+"lh": "Bb1+Bb2s D2s F2s Bb2s D3s F3s Bb3+D4sd C4+Eb4t D4+F4e D4+F4e",
+"doubt": "Identique à m.2."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D6+F6s3 Eb6+G6s3 C6+Eb6s3 C6+Eb6s rs Eb5+C6+Eb6e C6+Eb6s3 D6+F6s3 Bb5+D6s3 Bb5+D6s rs D5+F5+Bb5+D6e",
+"lh": "D4+F4s3 Eb4+G4s3 C4+Eb4s3 C4+Eb4s rs F3+C4+Eb4+F4e C4+Eb4s3 D4+F4s3 Bb3+D4s3 Bb3+D4s rs Bb3+D4+F4e",
+"doubt": "Identique à m.3 (lu visuellement)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F5+D6s3 G5+Eb6s3 Eb5+C6s3 Eb5+C6s rs Eb5+C6e Eb5+C6s3 F5+D6s3 D5+B5s3 D5+B5e G4+G5e",
+"lh": "r F#3+C4+Eb4e r G2+G3e",
+"doubt": "Comme m.4 mais bécarre sur Si5 (Si naturel jusqu'à la barre) ; MG accord Fa#3-Do4-Mib4 puis sol2+sol3 staccato."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C5+E5+G5+C6 C5t%7:4 D5t%7:4 E5t%7:4 F5t%7:4 G5t%7:4 A5t%7:4 B5t%7:4 C5+C6sd G4+G5t C5+C6e D5+F5+Bb5+D6e",
+"lh": "C3+E3+G3+C4d C4sd G3t C4e Bb2+Bb3e",
+"doubt": "Bécarre sur Mi (accord et trait). Le trait de 7 triples croches (C D E F G A B, sous liaison) tient la place d'une croche : rendu ici en 3 triples-croches de triolet + 4 quadruples croches pour la durée. Bécarre imprimé devant le La5 (de précaution ?) et devant la 7e note (lue Si5 bécarre ; hauteur Si5/Do6 peu nette). Bémol de précaution sur Sib (dernier accord). Accent > 1er accord. Septolet codé exactement (7 triples croches pour une croche)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Eb5+G5+Bb5+Eb6 Eb5t%7:4 F5t%7:4 G5t%7:4 Ab5t%7:4 Bb5t%7:4 C6t%7:4 D6t%7:4 Eb6sd Bb4+Bb5t Eb5+Eb6e F5+Ab5+Db6+F6e",
+"lh": "Eb2+Eb3d Eb4sd Bb3t Eb4e Db3+Db4e",
+"doubt": "Même figure qu'à m.9 un ton et demi plus haut : trait de 7 triples croches dans une croche (rendu 3 t3 + 4 x). Lab5 (bémol dans le trait, valable pour l'accord final). Mib6 pointé seul (pas de note grave lue). Accent > 1er accord. Septolet codé exactement (7 triples croches pour une croche)."
+},
+{
+"marks": [
+"p"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Gb5+Bb5+Db6+Gb6e re rt F5t Gb5t Bb5t Db6e re re",
+"lh": "Gb2+Gb3e re rt F4t Gb4t Bb4t Db5e re re",
+"doubt": "MG passe en CLÉ DE SOL après le soupir de triple croche (notes écrites en clé de sol), retour clé de FA en fin de mesure. Liaison sur les 3 triples croches ; staccato sur la croche."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C4+Eb4+F4e re rt F5t A5t C6t F6e re re",
+"lh": "A1+A2e re rt F4t A4t C5t F5e re re",
+"doubt": "MD 1er accord sous la portée (Do4-Mib4-Fa4, Fa décalé). Bécarres (de précaution) sur La1/La2 MG et sur La4/La5. MG en clé de sol après le soupir, clé de FA à la fin de la mesure. Mesure suivante sur la p.2."
+}
+]
+}
