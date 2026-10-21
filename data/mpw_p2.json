@@ -1,0 +1,101 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "poco cresc."
+   ],
+   "v": "r A3e B3e G3 G3e A3e",
+   "ly": "but the Lord shall a-",
+   "rh": "D4+F4+A4e D4+F4+A4e D4+F4+A4e D4+F4+A4e D4+G4+D5e D4+G4+D5e D4+G4+D5e E4+A4e",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e B1+B2e B1+B2e B1+B2e C#2+C#3e",
+   "doubt": "Lettre de repère « A » imprimée en tête de page (p.61). Bécarre sur F4 (accords D4+F4+A4). Suite directe du récitatif de la page 1, sans changement de mesure."
+  },
+  {
+   "v": "F#3~ F#3s E3s F#3s D3s G3~ G3s F#3s G3s E3s",
+   "ly": "rise _ _ _ _ _ _ _",
+   "rh": "F#4+A4e F#4+A4e F#4+A4+D5e F#4+A4+D5e G4+D5e G4+B4+D5e G4+C#5e G4+C#5e",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e E2+E3e E2+E3e E2+E3e E2+E3e",
+   "doubt": "Arcs courts F#3→F#3 et G3→G3 lus comme liaisons de prolongation (grande liaison de phrasé sur le mélisme, trait de prolongation sous « rise »)."
+  },
+  {
+   "v": "A3~ A3s G3s A3s F#3s B3s A3s B3s G3s C#4ed C#4s",
+   "ly": "_ _ _ _ _ _ _ _ _ up-",
+   "rh": "D4+A4+D5e D4+A4+D5e D4+A4+D5e D4+A4+D5e D4+B4+D5e G4+B4+D5e G4+C#5+E5e G4+C#5+E5e",
+   "lh": "F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e G2+G3e G2+G3e E2+E3e E2+E3e",
+   "doubt": "Fin du mélisme de « rise » (A3 noire liée à la double croche). 5e accord MD lu D4+B4+D5."
+  },
+  {
+   "v": "D4 D3 r F#3e D3e",
+   "ly": "on thee, and His",
+   "rh": "A4+D5+F#5e A4+D5+F#5e A4+D5+F#5e A4+D5+F#5e A4+F#5e A4+F#5e A4+F#5e A4+F#5e",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e"
+  },
+  {
+   "v": "A3h~ A3s C#4s B3s A3s G#3s F#3s E3s D3s",
+   "ly": "glo- _ _ _ _ _ _ _",
+   "rh": "A4+E5e A4+E5e A4+E5e A4+E5e D5e D5e D5e D5e // rh A4e G#4s F#4s G#4e G#4e",
+   "lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e B1+B2e B1+B2e B1+B2e B1+B2e",
+   "doubt": "MD temps 3-4 à deux voix : D5 en croches (hampes haut) ; dessous A4 croche, G#4-F#4 doubles croches, G#4 G#4 croches. Liaison A3 blanche → A3 double croche lue comme prolongation."
+  },
+  {
+   "v": "C#3e A2e E3e E3e F#3 G#3",
+   "ly": "ry shall be seen up- _",
+   "rh": "A4+C#5+E5e A4+C#5+E5e A4+C#5+E5e A4+C#5+E5e D4+A4+D5e D4+A4+D5e G#4+B4+D5e G#4+B4+D5e",
+   "lh": "A1+A2e A1+A2e C#2+C#3e C#2+C#3e D2+D3e D2+D3e B1+B2e B1+B2e",
+   "doubt": "Paroles : « up - on » — le trait d'union s'étend sous G#3 (lu comme mélisme de « up »), « on » à la mesure suivante."
+  },
+  {
+   "v": "A3 E3 r A3e C#4e",
+   "ly": "on thee, and His",
+   "rh": "E4+A4+E5e E4+A4+E5e E4+A4+E5e E4+A4+E5e E4+A4+C#5e E4+A4+C#5e E4+A4+C#5e E4+A4+C#5e",
+   "lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e A1+A2e A1+A2e A1+A2e A1+A2e",
+   "doubt": "Dernière note du chant (« His ») entre C#4 et D4 sur le scan ; lue C#4 (ligne supplémentaire traversant la tête)."
+  },
+  {
+   "v": "B3e D4s C#4s B3s A3s G#3s F#3s E3e G3e A3e D3e",
+   "ly": "glo- _ _ _ _ _ _ _ ry shall be",
+   "rh": "F#4+B4+D5e F#4+B4+D5e F#4+B4+D5e F#4+B4+D5e G#4+B4+E5e G#4+B4+E5e E4+A4+E5e F#4+A4+D5e",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e D2+D3e C#2+C#3e D2+D3e",
+   "doubt": "Dernier accord MD : tête supérieure lue D5 (proche de E5)."
+  },
+  {
+   "v": "E3d E3e A2 A2",
+   "ly": "seen up- on thee.",
+   "rh": "A4+C#5 G#4+B4ed A4s A4e A4e A4e A4e // E4e E4e E4e D4e C#4+E4e C#4+E4e C#4+E4e C#4+E4e",
+   "lh": "E2+E3e E2+E3e E2+E3e E2+E3e A1+A2e A1+A2e A1+A2e A1+A2e",
+   "doubt": "Temps 1-2 MD à deux voix (A4+C#5 noire, G#4+B4 croche pointée, A4 double ; dessous E4 E4 E4 D4). Temps 3-4 : accords C#4+E4+A4 sur une seule hampe, répartis ici en deux voix."
+  },
+  {
+   "v": "r A3e A3e A3e G#3 A3e",
+   "ly": "And the Gen- tiles shall",
+   "rh": "F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e F#4+A4+C#5e D4+F#4+C#5e D4+G#4+B4e D4+G#4+B4e F#4+A4+C#5e",
+   "lh": "F#1+F#2e F#1+F#2e F#1+F#2e F#1+F#2e B1+B2e B1+B2e B1+B2e B1+B2e",
+   "doubt": "5e accord MD lu D4+F#4+C#5 (tête supérieure nettement sous la ligne de D5). F#1 sur 4e ligne supplémentaire."
+  },
+  {
+   "v": "B3 G#3e F#3e E#3 re C#3e",
+   "ly": "come to thy light, and",
+   "rh": "F#4+B4+D5e F#4+B4+D5e G#4+B4+D5e G#4+B4+D5e E#4+G#4+C#5e E#4+G#4+C#5e E#4+G#4+C#5e E#4+G#4+C#5e",
+   "lh": "B1+B2e B1+B2e B1+B2e B1+B2e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e",
+   "doubt": "Soufflet de crescendo au-dessus du chant sur « and », menant au f de la mesure suivante."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C#4 A3e F#3e D3 B2",
+   "ly": "kings to the bright- ness",
+   "rh": "C#4+F#4+C#5e C#4+F#4+C#5e C#4+F#4+C#5e C#4+F#4+C#5e D4+F#4+B4 B4+D5+F#5",
+   "lh": "A1+A2e A1+A2e A1+A2e A1+A2e D2+D3 B1+B2"
+  },
+  {
+   "v": "C#3d C#3e F#3 F#3",
+   "ly": "of thy ris- ing.",
+   "rh": "r G#4+C#5+E#5 A#4+C#5+F#5h",
+   "lh": "C#2+C#3h F#1+F#2h",
+   "doubt": "Double barre finale du nº 10 (le nº 11, air, commence à la page suivante). Accord blanche MD : dièse devant A4 ; tête médiane lue C#5 (proche de D5). F#1 sur 4e ligne supplémentaire."
+  }
+ ]
+}
