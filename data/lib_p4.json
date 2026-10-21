@@ -163,10 +163,10 @@
 {
 "s": "D4h~ D4d A4e",
 "ls": "Li- be-",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "D4h~ D4d A4e",
+"la": "Li- be-",
+"t": "D4h~ D4d A4e",
+"lt": "Li- be-",
 "b": "D3h~ D3d A3e",
 "lb": "Li- be-",
 "orc": "rw",
@@ -174,15 +174,15 @@
 "p",
 "dolce"
 ],
-"doubt": "Système 2 (m.92-102) : seules S et B imprimées ; A, T et Orquesta absents → silences."
+"doubt": "Système 2 (m.92-102) : seules S et B imprimées ; A, T et Orquesta absents → silences. Altos « con sopranos » et ténors « con bajos » : parties recopiées (ténor écrit à l'octave supérieure, clé de sol octaviée) jusqu'à la m.121."
 },
 {
 "s": "A4h G4h",
 "ls": "ra me",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "A4h G4h",
+"la": "ra me",
+"t": "A4h G4h",
+"lt": "ra me",
 "b": "A3h G3h",
 "lb": "ra me",
 "orc": "rw"
@@ -190,10 +190,10 @@
 {
 "s": "Bb4d Bb4e A4h~",
 "ls": "Do- mi- ne",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "Bb4d Bb4e A4h~",
+"la": "Do- mi- ne",
+"t": "Bb4d Bb4e A4h~",
+"lt": "Do- mi- ne",
 "b": "Bb3d Bb3e A3h~",
 "lb": "Do- mi- ne",
 "orc": "rw"
@@ -201,10 +201,10 @@
 {
 "s": "A4h A4h",
 "ls": "de",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "A4h A4h",
+"la": "de",
+"t": "A4h A4h",
+"lt": "de",
 "b": "A3h A3h",
 "lb": "de",
 "orc": "rw"
@@ -212,10 +212,10 @@
 {
 "s": "A4h D4 E4",
 "ls": "mor- te æ-",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "A4h D4 E4",
+"la": "mor- te æ-",
+"t": "A4h D4 E4",
+"lt": "mor- te æ-",
 "b": "A3h D3 E3",
 "lb": "mor- te æ-",
 "orc": "rw"
@@ -223,10 +223,10 @@
 {
 "s": "F4h E4h",
 "ls": "ter- _",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "F4h E4h",
+"la": "ter- _",
+"t": "F4h E4h",
+"lt": "ter- _",
 "b": "F3h E3h",
 "lb": "ter- _",
 "orc": "rw"
@@ -234,10 +234,10 @@
 {
 "s": "D4w~",
 "ls": "na",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "D4w~",
+"la": "na",
+"t": "D4w~",
+"lt": "na",
 "b": "D3w~",
 "lb": "na",
 "orc": "rw"
@@ -245,10 +245,10 @@
 {
 "s": "D4 r D4h",
 "ls": "in",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "D4 r D4h",
+"la": "in",
+"t": "D4 r D4h",
+"lt": "in",
 "b": "D3 r D3h",
 "lb": "in",
 "orc": "rw",
@@ -260,10 +260,10 @@
 {
 "s": "D4hd D4",
 "ls": "di- e",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "D4hd D4",
+"la": "di- e",
+"t": "D4hd D4",
+"lt": "di- e",
 "b": "D3hd D3",
 "lb": "di- e",
 "orc": "rw"
@@ -271,10 +271,10 @@
 {
 "s": "D5h C5 Bb4",
 "ls": "il- la tre-",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "D5h C5 Bb4",
+"la": "il- la tre-",
+"t": "D5h C5 Bb4",
+"lt": "il- la tre-",
 "b": "D4h C4 Bb3",
 "lb": "il- la tre-",
 "orc": "rw"
@@ -282,10 +282,10 @@
 {
 "s": "C5h F4h~",
 "ls": "men- da",
-"a": "rw",
-"la": "",
-"t": "rw",
-"lt": "",
+"a": "C5h F4h~",
+"la": "men- da",
+"t": "C5h F4h~",
+"lt": "men- da",
 "b": "C4h F3h~",
 "lb": "men- da",
 "orc": "rw"
