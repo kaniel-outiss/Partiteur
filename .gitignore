@@ -9,3 +9,5 @@ scan/arm/me/
 scan/arm/*.png
 scan/mad/ag*/
 scan/mad/*.png
+scan/fig/ag*/
+scan/fig/*.png

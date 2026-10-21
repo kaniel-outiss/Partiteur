@@ -67,6 +67,36 @@ if os.path.exists('data/mad_p1.json'):
               'parts': [{'id': 'v', 'name': 'Leporello (basse)', 'short': 'Lep.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'B'},
                         {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
               'measures': md, 'text': place(json.load(open('data/mad_text.json')), md), 'src': 'IMSLP 691450 (gravure Sibelius)'})
+# — « Largo al factotum » (Rossini) : livret placé par phrase (mots consécutifs), puis trié dans l'ordre de la partition —
+def words_stream(ms):
+    out, cur, curm = [], '', None
+    for i, m in enumerate(ms):
+        for sy in m.get('ly', '').split():
+            if sy == '_': continue
+            t = sy.replace('‿', ' ').replace('’', "'")
+            if cur == '': curm = i
+            cur += t.rstrip('-').replace("'", '')
+            if not t.endswith('-'):
+                for w in re.sub(r"[^\wàèéìòù ]", ' ', cur.lower()).split(): out.append((w, curm))
+                cur = ''
+    return out
+def place_phrases(T, ms):
+    S = words_stream(ms); used = set(); out = []
+    for L in T['lines']:
+        k = L.pop('key', '').split()
+        for j in range(len(S) - len(k) + 1):
+            if j in used: continue
+            if all(S[j + q][0].startswith(k[q]) for q in range(len(k))):
+                used.add(j); L['m'] = S[j][1]; out.append(L); break
+    T['lines'] = sorted(out, key=lambda L: L['m']); return T
+if os.path.exists('data/fig_p1.json'):
+    fg = clean(pages('fig'))
+    if fg and not fg[0].get('bpm'): fg[0]['bpm'] = 192  # Allegro vivace : noire pointée ≈ 128
+    W.append({'id': 'rossini-largo', 'title': 'Largo al factotum', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
+              'role': 'Figaro', 'voice': 'baryton', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'bpm': 192,
+              'parts': [{'id': 'v', 'name': 'Figaro (baryton)', 'short': 'Fig.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'Bar'},
+                        {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
+              'measures': fg, 'text': place_phrases(json.load(open('data/fig_text.json')), fg), 'src': 'Partition chant-piano (Schirmer)'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
