@@ -1,0 +1,136 @@
+{
+"lang": "en",
+"ctx": "Le Messie (Haendel, livret de Charles Jennens d'après la Bible du roi Jacques, 1742), 1re partie, nº 5-6. Après l'annonce de la consolation (« Comfort ye »), la basse annonce la venue du Seigneur avec les mots des prophètes Aggée et Malachie : Dieu va ébranler le ciel et la terre, et le messager de l'Alliance entrera soudain dans son temple. Puis l'air pose la question redoutable : qui pourra supporter le jour de sa venue ? Il alterne un Larghetto grave et des Prestissimo fulgurants sur « For He is like a refiner's fire » (car il est comme le feu du fondeur), avec de longues vocalises sur « shake » et « fire ».",
+"diction": [
+"Anglais chanté (Haendel) : voyelles pures, pas de diphtongues appuyées ; « shake » [ʃeɪk] → tenir le [e] et ne glisser vers [ɪ] qu'à la fin.",
+"Récitatif accompagné : rythme vigoureux, consonnes nettes (« Thus saith », « Hosts »).",
+"Vocalises sur « shake » et « fire » : légères, sur la voyelle, sans « h » entre les notes ; respirer avant, pas au milieu.",
+"« abide » [əˈbaɪd], « appeareth » [əˈpɪərɛθ], « refiner's » [rɪˈfaɪnərz].",
+"Contraste : Larghetto legato et sombre, Prestissimo martelé et rapide."
+],
+"lines": [
+{
+"key": "thus saith",
+"it": "Thus saith the Lord of Hosts: Yet once a little while and I will shake the heavens and the earth, the sea and the dry land;",
+"ipa": "ðʌs sɛθ ðə lɔːd əv hoʊsts jɛt wʌns ə ˈlɪtl̩ waɪl ænd aɪ wɪl ʃeɪk ðə ˈhɛvn̩z ænd ði ɜːθ ðə siː ænd ðə draɪ lænd",
+"w": [
+[
+"Thus saith the Lord of Hosts",
+"ainsi parle le Seigneur des armées"
+],
+[
+"Yet once a little while",
+"encore un peu de temps"
+],
+[
+"I will shake",
+"j'ébranlerai"
+],
+[
+"the heavens and the earth",
+"les cieux et la terre"
+],
+[
+"the dry land",
+"la terre ferme"
+]
+],
+"fr": "Ainsi parle le Seigneur des armées : encore un peu de temps, et j'ébranlerai les cieux et la terre, la mer et la terre ferme ;"
+},
+{
+"key": "and i will shake all",
+"it": "and I will shake all nations; and the desire of all nations shall come.",
+"ipa": "ænd aɪ wɪl ʃeɪk ɔːl ˈneɪʃn̩z ænd ðə dɪˈzaɪər əv ɔːl ˈneɪʃn̩z ʃæl kʌm",
+"w": [
+[
+"all nations",
+"toutes les nations"
+],
+[
+"the desire of all nations",
+"celui que désirent toutes les nations"
+],
+[
+"shall come",
+"viendra"
+]
+],
+"fr": "et j'ébranlerai toutes les nations, et viendra celui que désirent toutes les nations."
+},
+{
+"key": "the lord whom",
+"it": "The Lord, whom ye seek, shall suddenly come to His temple, even the messenger of the Covenant, whom ye delight in; behold, He shall come, saith the Lord of Hosts.",
+"ipa": "ðə lɔːd huːm jiː siːk ʃæl ˈsʌdn̩li kʌm tuː hɪz ˈtɛmpl̩ ˈiːvn̩ ðə ˈmɛsɪndʒər əv ðə ˈkʌvənənt huːm jiː dɪˈlaɪt ɪn bɪˈhoʊld hiː ʃæl kʌm sɛθ ðə lɔːd əv hoʊsts",
+"w": [
+[
+"whom ye seek",
+"que vous cherchez"
+],
+[
+"shall suddenly come",
+"viendra soudain"
+],
+[
+"to His temple",
+"dans son temple"
+],
+[
+"the messenger of the Covenant",
+"le messager de l'Alliance"
+],
+[
+"whom ye delight in",
+"en qui vous vous réjouissez"
+],
+[
+"behold",
+"voici"
+]
+],
+"fr": "Le Seigneur que vous cherchez viendra soudain dans son temple, le messager de l'Alliance qui fait votre joie ; voici, il vient, dit le Seigneur des armées."
+},
+{
+"key": "but who may",
+"it": "But who may abide the day of His coming? And who shall stand when He appeareth?",
+"ipa": "bʌt huː meɪ əˈbaɪd ðə deɪ əv hɪz ˈkʌmɪŋ ænd huː ʃæl stænd wɛn hiː əˈpɪərɛθ",
+"w": [
+[
+"who may abide",
+"qui pourra supporter"
+],
+[
+"the day of His coming",
+"le jour de sa venue"
+],
+[
+"who shall stand",
+"qui restera debout"
+],
+[
+"when He appeareth",
+"quand il paraîtra"
+]
+],
+"fr": "Mais qui pourra supporter le jour de sa venue ? Et qui restera debout quand il paraîtra ?"
+},
+{
+"key": "for he is",
+"it": "For He is like a refiner's fire.",
+"ipa": "fɔː hiː ɪz laɪk ə rɪˈfaɪnərz faɪə",
+"w": [
+[
+"For He is like",
+"car il est comme"
+],
+[
+"a refiner's fire",
+"le feu du fondeur"
+]
+],
+"fr": "Car il est comme le feu du fondeur."
+}
+],
+"doubts": [
+"Texte (Bible du roi Jacques, Aggée 2 et Malachie 3) vérifié sur la partition à l'assemblage."
+]
+}

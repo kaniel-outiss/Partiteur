@@ -177,6 +177,9 @@ add_air('flr', {'id': 'bizet-la-fleur', 'title': "La fleur que tu m'avais jetée
 add_air('jce', {'id': 'bizet-je-crois-entendre', 'title': 'Je crois entendre encore', 'composer': 'Georges Bizet', 'work': 'Les Pêcheurs de perles, acte I',
                 'role': 'Nadir', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'mode': 'minor', 'src': 'Romance de Nadir, éd. Formation vocale Nantes (ton original)'},
         60, {'name': 'Nadir (ténor)', 'short': 'Nad.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('mwa', {'id': 'handel-messiah-but-who-may-abide', 'title': 'Thus saith the Lord… But who may abide', 'composer': 'Georg Friedrich Haendel', 'work': 'Le Messie, nº 5-6',
+                'role': None, 'voice': 'basse', 'style': 'Oratorio', 'period': 'Baroque', 'ks': -1, 'mode': 'minor', 'src': 'The Messiah, Schirmer 1912, p. 24-35'},
+        72, {'name': 'Basse', 'short': 'B.', 'vt': 'B'})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
