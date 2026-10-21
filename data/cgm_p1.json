@@ -1,0 +1,22 @@
+{"page":1,"measures":[
+ {"meter":"2/4","tempo":"Andantino affettuoso","marks":["sfz"],"v":"rh","ly":"","rh":"rh","lh":"re Ab3d~","doubt":"tempo imprimé « Andantino affettuoso (♩ = 58) »"},
+ {"v":"rh","ly":"","rh":"rh","lh":"Ab3h~"},
+ {"marks":["pp","dolcissimo"],"v":"r re Ab4e","ly":"Che","rh":"rh","lh":"Ab3h~","doubt":"« Rodolfo » : entrée du chant"},
+ {"marks":["pp"],"v":"Ab4e Ab4e Ab4e Ab4e","ly":"ge- li- da ma-","rh":"r Bb4 // re F4+Ab4 F4+Ab4e","lh":"Ab3h","doubt":"pp sous la portée MD ; liaison d'expression Bb4 → C5 (m.5)"},
+ {"v":"Ab4e Ab4 Ab4s Ab4s","ly":"ni- na, se la","rh":"C5h // re Gb4+Ab4 Gb4+Ab4e","lh":"Eb4h"},
+ {"v":"Eb5e Eb5e Db5e C5e","ly":"la- sci ri- scal-","rh":"Eb5 Db5e C5e // re Gb4+Ab4 Gb4+Ab4e","lh":"Ab3h"},
+ {"v":"Bb4 re Ab5e","ly":"dar. Cer-","rh":"Bb4d C5e // re F4+Ab4d~","lh":"Db4h"},
+ {"v":"F5d Db5e","ly":"car che","rh":"Db5d F5e // F4+Ab4e F4+Ab4d","lh":"Ab3h","doubt":"soufflet crescendo (piano)"},
+ {"v":"Gb5 Gb5e Ab4e","ly":"gio- va? Al","rh":"Ab5d Bb4e // re Gb4+Ab4d~","lh":"Eb4h","doubt":"soufflet decrescendo (piano)"},
+ {"v":"Eb5e Eb5e Db5e C5e","ly":"bu- io non si","rh":"C5 Db5e Eb5e // Gb4+Ab4e Gb4+Ab4d","lh":"Ab3h","doubt":"soufflet decrescendo (piano)"},
+ {"marks":["m.s."],"v":"Bb4 Bb4","ly":"tro- va.","rh":"F5 re gAb6 Ab5e // re F4+Ab4 F4+Ab4e~","lh":"Db4h","doubt":"petites notes barrées (acciaccatures) à l'octave ; m.s. sous les accords MD"},
+ {"v":"rh","ly":"","rh":"gF6 F5d gDb6 Db5e // F4+Ab4e F4+Ab4 F4+Ab4e","lh":"Ab3h"},
+ {"v":"rh","ly":"","rh":"gGb6 Gb5d gAb5 Ab4e // re Gb4+Ab4 Gb4+Ab4e","lh":"Eb4h","doubt":"petite note Gb6 : nombre de lignes supplémentaires peu net (Gb6 supposé, octave de la note principale)"},
+ {"v":"rh","ly":"","rh":"gEb6 Eb5e gEb6 Eb5e gDb6 Db5e gC6 C5e // re Gb4+Ab4 Gb4+Ab4e","lh":"Ab3h"},
+ {"v":"rh","ly":"","rh":"gBb5 Bb4d C5e~ // re F4+Ab4d","lh":"Db4d C4e"},
+ {"v":"re Db5e Eb5e F5e","ly":"Ma per for-","rh":"C5e Db5d // re F4+Ab4 F4+Ab4e","lh":"Bb3h","doubt":"C5 MD lié depuis m.15 (arc court) ; liaison Db5 → Ab5"},
+ {"v":"Eb5 Eb5e Eb5e","ly":"tu- na_è_u- na","rh":"Ab5h // re Eb4+Ab4 Eb4+Ab4e","lh":"C4h","doubt":"« na è u » élidés sur une seule croche"},
+ {"v":"gDb5 gEb5 Db5 C5e Bb4e","ly":"not- te di","rh":"Db5e Eb5e F5e G5e // re Db4+G4 Db4+G4e","lh":"Bb3h","doubt":"G4 et G5 bécarre ; 2 petites notes doubles croches au chant ; soufflet crescendo (piano)"},
+ {"v":"Eb5 Eb5~","ly":"lu- na,","rh":"Ab5e Bb5e C6e Db6e // re Eb4+Ab4 Eb4+Ab4e","lh":"C4h","doubt":"arc Eb5 → Eb5 (m.20) lu comme liaison de prolongation (trait d'extension après « na, »)"},
+ {"marks":["rallentando"],"v":"Eb5e F5e G5e Ab5e","ly":"e qui la","rh":"Eb6e F6e G6e Ab6e // re Db4+Ab4 F4+Db5e","lh":"Bb3h","doubt":"G bécarre (chant et MD) ; tenutos sur F5 G5 Ab5 et F6 G6 Ab6 ; liaison vers la page suivante ; rallentando imprimé au chant et au piano"}
+]}
