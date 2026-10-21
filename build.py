@@ -118,7 +118,7 @@ def add_air(prefix, meta, bpm, voice):
     if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
     T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
     W.append(dict(dict({'ks': 0}, **meta), bpm=bpm, measures=ms, text=place_phrases(T, ms) if T else None,
-                  parts=[dict(voice, id='v', kind='voice', clef='F', oct=0), {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}]))
+                  parts=[dict(dict({'clef': 'F', 'oct': 0}, **voice), id='v', kind='voice'), {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}]))
 add_air('cal', {'id': 'rossini-calunnia', 'title': 'La calunnia è un venticello', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
                 'role': 'Don Basilio', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 57-65'},
         126, {'name': 'Don Basilio (basse)', 'short': 'Bas.', 'vt': 'B'})
@@ -134,6 +134,9 @@ add_air('lac', {'id': 'verdi-lacerato-spirito', 'title': 'Il lacerato spirito', 
 add_air('svb', {'id': 'mozart-se-vuol-ballare', 'title': 'Se vuol ballare', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
                 'role': 'Figaro', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'src': 'Bass-Baritone Arias with Orchestra (Music Minus One 4056), p. 12-19'},
         100, {'name': 'Figaro (baryton-basse)', 'short': 'Fig.', 'vt': 'Bar'})
+add_air('ufl', {'id': 'donizetti-furtiva-lagrima', 'title': 'Una furtiva lagrima', 'composer': 'Gaetano Donizetti', 'work': "L'elisir d'amore, acte II",
+                'role': 'Nemorino', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -5, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 118-121'},
+        60, {'name': 'Nemorino (ténor)', 'short': 'Nem.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
