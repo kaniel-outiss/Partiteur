@@ -1,5 +1,6 @@
 """Format .fab du partiteur — lecture / écriture (partagé par build.py et tools/fab.py).
-Un .fab est un JSON compressé gzip :
+RÉPERTOIRE (.fab, archive ZIP « stockée ») : index.json {fabr:1, works:[fiches légères + entry]} + w/<id>.fab (un chant par entrée).
+CHANT (.fab, JSON compressé gzip) :
   {fab:1, app:'Le partiteur', id, title, composer, work, role, voice, style, period, lang, ks, mode, bpm, src, tags, created, modified,
    score: {type:'tokens', parts:[…], measures:[…], partMeta:{}}      ← jetons du partiteur (GUIDE.md)
         | {type:'musicxml', xml:'…', partMeta:{id:{name,kind,vt}}},  ← MusicXML tel quel
@@ -72,3 +73,62 @@ def read_score_xml(path):
             root = [n for n in z.namelist() if re.search(r'\.(xml|musicxml)$', n, re.I) and 'META-INF' not in n][0]
         return z.read(root).decode('utf-8')
     return b.decode('utf-8')
+
+
+HEAVY = ('xml', 'measures', 'text')
+
+
+def lite(o, entry):
+    """fiche légère d'un chant (comme fabLite(fabWork(o)) côté appli)"""
+    W = {'id': o['id'], 'fab': True}
+    for k in META:
+        if o.get(k) is not None:
+            W[k] = o[k]
+    sc = o['score']
+    if sc.get('type') != 'musicxml':
+        W['parts'] = sc.get('parts') or []
+    W['partMeta'] = sc.get('partMeta') or {}
+    for k in ('hist', 'instr'):
+        if o.get(k) is not None:
+            W[k] = o[k]
+    W['entry'] = entry
+    return W
+
+
+def is_pack(path):
+    return open(path, 'rb').read(2) == b'PK'
+
+
+def read_pack(path):
+    """→ dict id → objet chant (ordre du répertoire)"""
+    z = zipfile.ZipFile(path)
+    out = {}
+    for n in z.namelist():
+        if n.startswith('w/') and n.endswith('.fab'):
+            b = z.read(n)
+            o = json.loads((gzip.decompress(b) if b[:2] == b'\x1f\x8b' else b).decode('utf-8'))
+            out[o['id']] = o
+    return out
+
+
+def write_pack(objs, path):
+    """objs : liste d'objets chant → répertoire .fab"""
+    used, ent, works = set(), [], []
+    for o in objs:
+        nm = 'w/%s.fab' % slug(o['id'])
+        k = 2
+        while nm in used:
+            nm = 'w/%s-%d.fab' % (slug(o['id']), k); k += 1
+        used.add(nm)
+        ent.append((nm, dumps(o)))
+        works.append(lite(o, nm))
+    idx = {'fabr': 1, 'app': 'Le partiteur', 'modified': datetime.date.today().isoformat(), 'count': len(works), 'works': works}
+    with zipfile.ZipFile(path, 'w', zipfile.ZIP_STORED) as z:
+        z.writestr(zipfile.ZipInfo('index.json', (1980, 1, 1, 0, 0, 0)), json.dumps(idx, ensure_ascii=False, separators=(',', ':')).encode('utf-8'))
+        for nm, b in ent:
+            z.writestr(zipfile.ZipInfo(nm, (1980, 1, 1, 0, 0, 0)), b)
+
+
+def load_any(path):
+    """répertoire ou chant → liste d'objets chant"""
+    return list(read_pack(path).values()) if is_pack(path) else [read(path)]

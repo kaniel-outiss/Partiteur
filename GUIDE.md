@@ -44,11 +44,16 @@ Plus de chaînage de fonctions : un module s'abonne au `BUS`, pose une porte dan
 `python3 build.py` → partiteur.html (un seul fichier, hors-ligne).
 
 ---
-# Bibliothèque .fab (v0.24) — le partiteur est un lecteur
-L'appli n'embarque plus aucun chant. Chaque chant est un fichier **.fab** (JSON gzip, schéma dans `tools/fablib.py`) :
-fiche + partition (jetons ou MusicXML) + parties + livret (mot à mot, API, traduction, scène, diction) + tessiture + réglages perso optionnels.
-- Téléphone : `Documents/Partiteur/*.fab` (lu au démarrage ; index en cache par taille+date ; partition lue à l'ouverture seulement).
-  Android 11+ : « Autoriser la gestion de tous les fichiers » pour voir les .fab copiés à la main ; sinon 📥 Ajouter les copie dans le dossier.
-- `python3 build.py` écrit un .fab par air transcrit dans `bibliotheque/` (publiés avec l'APK sur la page des versions).
-- Convertir : dans l'appli 📥 (MusicXML/MXL/MEI → fiche → .fab) ; en ligne de commande `python3 tools/fab.py xml|tokens|info|unpack|pack`.
-- PDF → .fab : transcription (ce guide) → pages en jetons → `tools/fab.py tokens META.json pages… --text livret.json`.
+# Répertoire .fab (v0.25) — le partiteur est un lecteur
+L'appli n'embarque aucun chant. Tout tient dans UN fichier : `Documents/Partiteur/repertoire.fab`
+(archive ZIP stockée : `index.json` = fiches légères + `w/<id>.fab` = un chant gzip par entrée ; schéma dans `tools/fablib.py`).
+Un chant .fab = fiche + partition (jetons ou MusicXML) + parties + livret (mot à mot, API, traduction, scène, diction) + tessiture + perso optionnel.
+- Tout autre .fab déposé dans le dossier (chant seul ou répertoire) est FUSIONNÉ dans repertoire.fab puis effacé (même id = remplacé).
+- 📥 Ajouter : répertoire ou chant .fab (fusion), MusicXML/MXL/MEI (fiche → chant ajouté au répertoire).
+- Android 11+ : « Autoriser la gestion de tous les fichiers » pour voir les fichiers déposés à la main ; sinon 📥.
+## Ajouter un air transcrit (procédure à chaque nouveau PDF)
+1. Transcrire (ce guide) → `data/<pfx>_pN.json` + `data/<pfx>_text.json` + `data/<pfx>_done`.
+2. Ajouter la ligne `add_air(...)` dans build.py.
+3. `python3 build.py` → `bibliotheque/partiteur-repertoire.fab` (tous les airs) ; bump package.json ; push.
+4. La CI publie l'APK ET `partiteur-repertoire.fab` sur la page des versions ; sur la tablette : 📥 → ce fichier (fusion, ses conversions restent).
+- CLI : `python3 tools/fab.py rep|ls|xml|tokens|info|unpack|pack`.

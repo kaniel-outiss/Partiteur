@@ -1,9 +1,14 @@
 /* ═══════════ 📚 BIBLIOTHÈQUE · 🎤 MA VOIX · 📥 IMPORT · 🎭 PROGRAMMES & CONCERT ═══════════ */
 'use strict';
-/* la bibliothèque = les fichiers .fab du dossier (voir fab.js) ; l'appli n'embarque plus aucun chant */
+/* la bibliothèque = le répertoire Documents/Partiteur/repertoire.fab (voir fab.js) ; l'appli n'embarque aucun chant */
 async function libLoad(){try{await IDB.open();}catch(e){}
   try{await fabMigrate();}catch(e){console.error(e);}
-  const r=await fabScan(function(n,t){toast('📚 Lecture de la bibliothèque… '+n+' / '+t,1500);});
+  const say=function(){toast('📚 Lecture du répertoire…',1500);};
+  let r=await fabScan(say);
+  /* chants ou mises à jour déposés à côté du répertoire : rangés dedans */
+  if(r.extra.length){const t=await fabTidy(r.extra).catch(function(e){return {err:e.message||String(e)};});
+    if(t.err)toast('⚠ Rangement dans le répertoire impossible : '+t.err,6000);
+    else if(t.n){toast('📦 Répertoire : '+(t.nNew?t.nNew+' nouveau'+(t.nNew>1?'x':'')+' ':'')+(t.nUpd?t.nUpd+' mis à jour':''),5000);r=await fabScan(say);}}
   WORKS.length=0;r.works.forEach(function(W){WORKS.push(W);});
   /* anciennes partitions importées que la migration n'a pas pu écrire : gardées telles quelles */
   (await IDB.all()).forEach(function(W){if(!WORKS.some(function(x){return x.id===W.id;})){W.legacy=true;WORKS.push(W);}});
@@ -62,8 +67,8 @@ function wkCard(W){const an=anOf(W),b=an&&anBadge(an,LS.get('tr:'+W.id,0));const
     +(an?'<div class="amb">'+esc(an.pname)+' : '+pName(an.lo)+'–'+pName(an.hi)+' <i>(tessiture '+pName(an.tlo)+'–'+pName(an.thi)+')</i> <em class="vb '+b.cls+'">'+b.txt+'</em></div>':(vp.length?'<div class="amb">'+vp.map(function(p){return esc(p.name);}).join(' · ')+'</div>':''))
     +(W.file||W.legacy?'<button class="wdel" data-del="'+W.id+'" title="Supprimer">🗑</button>':'')+'</div>';}
 let LIBN=150;  /* des milliers de chants : on n'affiche qu'une page à la fois */
-function libList(){const L0=WORKS.filter(function(W){return fltPass(W);});const add='<div class="wk soon" data-add="1"><b>📥 Ajouter des chants</b><span>Fichiers .fab, ou MusicXML (.musicxml, .mxl) / MEI à convertir en .fab.</span></div>';
-  if(!WORKS.length){$('#lib').innerHTML='<div class="hint">La bibliothèque est vide. Le partiteur lit les fichiers <b>.fab</b> rangés dans <b>Documents/Partiteur</b> : copie-les là (puis 🗂 → Relire le dossier), ou touche 📥 pour les choisir.</div>'+add;return;}
+function libList(){const L0=WORKS.filter(function(W){return fltPass(W);});const add='<div class="wk soon" data-add="1"><b>📥 Ajouter des chants</b><span>Répertoire ou chant .fab (fusionné dans ton répertoire), ou MusicXML (.musicxml, .mxl) / MEI à convertir.</span></div>';
+  if(!WORKS.length){$('#lib').innerHTML='<div class="hint">La bibliothèque est vide. Le partiteur lit le répertoire <b>Documents/Partiteur/repertoire.fab</b> : touche 📥 et choisis le répertoire (ou un chant .fab), ou dépose-le dans ce dossier puis 🗂 → Relire.</div>'+add;return;}
   if(!L0.length){$('#lib').innerHTML='<div class="hint">Aucune pièce ne correspond.</div>'+add;return;}
   const L=L0.slice(0,LIBN),more=L0.length>L.length?'<button class="pgb" data-more="1" style="grid-column:1/-1;text-align:center">⬇ Voir plus ('+(L0.length-L.length)+' de plus)</button>':'';
   if(!FLT.grp){$('#lib').innerHTML=L.map(wkCard).join('')+more+add;return;}
@@ -75,7 +80,7 @@ document.addEventListener('change',function(e){const s=e.target.closest('#nav [d
 document.addEventListener('click',function(e){if(e.target.closest('#nav [data-fm]')){FLT.mine=!FLT.mine;LS.set('flt',FLT);navBar();libList();return;}
   if(e.target.closest('#nav [data-fx]')){['q','style','period','composer','work','rep','voice'].forEach(function(k){FLT[k]='';});FLT.mine=false;LS.set('flt',FLT);navBar();libList();return;}
   if(e.target.closest('#lib [data-more]')){LIBN+=300;libList();return;}
-  const d=e.target.closest('[data-del]');if(d){e.stopPropagation();const W=wById(d.dataset.del);if(W&&confirm('Supprimer « '+W.title+' » ?'+(W.file?'\nLe fichier '+W.file+' sera effacé du téléphone.':'')))fabDelete(W).then(function(){WORKS.splice(WORKS.indexOf(W),1);library();},function(err){toast('⚠ Suppression impossible : '+(err.message||err));});return;}
+  const d=e.target.closest('[data-del]');if(d){e.stopPropagation();const W=wById(d.dataset.del);if(W&&confirm('Supprimer « '+W.title+' » ?'+(W.file?'\nIl sera retiré du répertoire.':'')))fabDelete(W).then(function(){WORKS.splice(WORKS.indexOf(W),1);library();},function(err){toast('⚠ Suppression impossible : '+(err.message||err));});return;}
   if(e.target.closest('#lib [data-add]')){$('#fimp').click();return;}
   const w=e.target.closest('#lib [data-w]');if(w){openWork(w.dataset.w);return;}
   if(e.target.closest('#vme'))voiceDlg();if(e.target.closest('#bImp'))$('#fimp').click();if(e.target.closest('#bDir'))fabDirDlg();
@@ -114,13 +119,13 @@ function xmlMeta(xml,fname){const d=new DOMParser().parseFromString(xml,'applica
 /* 📥 ajout / 🔄 conversion : .fab copiés tels quels ; MusicXML, MXL, MEI → fiche → .fab ; PDF → explication */
 const IMPQ=[];let IMPN=0;
 function addFiles(list){Array.prototype.forEach.call(list,function(f){IMPQ.push(f);});if(IMPQ.length===list.length)impNext();}
-async function impNext(){const f=IMPQ[0];if(!f){if(IMPN){library();toast('📚 '+IMPN+' chant'+(IMPN>1?'s':'')+' ajouté'+(IMPN>1?'s':''));IMPN=0;setTimeout(libWarm,800);}return;}
+async function impNext(){const f=IMPQ[0];if(!f){if(IMPN){const n=IMPN;IMPN=0;await libLoad();library();toast('📦 Répertoire : '+n+' chant'+(n>1?'s':'')+' ajouté'+(n>1?'s':'')+' ou mis à jour');setTimeout(libWarm,800);}return;}
   const done=function(){IMPQ.shift();impNext();};const ext=(f.name.split('.').pop()||'').toLowerCase();
-  try{if(ext==='fab'){const W=await fabAddFile(f);if(W)IMPN++;done();return;}
+  try{if(ext==='fab'){toast('📦 '+f.name+'…');const r=await fabAddFile(f);IMPN+=r.n;done();return;}
     if(ext==='pdf'||f.type==='application/pdf'){pdfInfo(f.name,done);return;}
     await importFile(f,done);}catch(err){toast('⚠ '+f.name+' : '+(err.message||err),5000);console.error(err);done();}}
 function pdfInfo(name,done){dlg('<h2>📄 '+esc(name)+'</h2><div class="hint">Un PDF n’est qu’une <b>image</b> de partition : ni notes, ni rythmes, ni paroles lisibles par l’appli. Pour qu’il devienne un .fab interactif (son, voix, transposition, paroles, livret), il faut le <b>transcrire</b> mesure par mesure.</div>'
-  +'<div class="hint" style="margin-top:8px">Envoie-le à Claude avec le titre de l’air : il le transcrit et te rend le .fab, prêt à copier dans Documents/Partiteur. Si tu as le MusicXML (MuseScore, IMSLP, CPDL), ajoute-le directement : il est converti ici.</div>'
+  +'<div class="hint" style="margin-top:8px">Envoie-le à Claude avec le titre de l’air : il le transcrit et met à jour le répertoire, qui sort avec l’APK ; ajoute-le ensuite avec 📥. Si tu as le MusicXML (MuseScore, IMSLP, CPDL), ajoute-le directement : il est converti ici.</div>'
   +'<div class="row"><button data-close="1" class="pri">OK</button></div>');dlgClose.cb=done;}
 async function importFile(f,done){toast('🔄 Conversion de '+f.name+'…');const xml=await readScoreFile(f);if(!/score-partwise|<mei[\s>]/.test(xml))throw new Error(/score-timewise/.test(xml)?'format « timewise » : réexporte en MusicXML standard':'ce fichier n’est pas une partition MusicXML');
   const M=xmlMeta(xml,f.name);const W={id:'imp-'+Date.now().toString(36)+Math.random().toString(36).slice(2,5),title:M.title,composer:M.composer,work:'',role:'',xml:xml,src:f.name,partMeta:{},created:new Date().toISOString().slice(0,10)};
@@ -135,8 +140,8 @@ function metaDlg(W,isNew,SC,done){let fin=false;const end=function(){if(fin)retu
     +'<div class="two"><label>Style<select id="mStyle">'+opt(STYLES,W.style)+'</select></label><label>Période<select id="mPer">'+opt(PERIODS,W.period)+'</select></label></div>'
     +(SC?'<h3>Parties ('+SC.meas.length+' mesures, '+keyName(SC.ks,SC.minor)+')</h3>'+parts.map(function(P,i){return '<div class="pr"><input data-pn="'+i+'" value="'+esc(P.name)+'"><select data-pk="'+i+'"><option value="voice"'+(P.kind==='voice'?' selected':'')+'>🎤 voix</option><option value="piano"'+(P.kind!=='voice'?' selected':'')+'>🎹 instrument</option></select>'
       +'<select data-pv="'+i+'"><option value=""></option>'+VPRE.map(function(p){return '<option value="'+p[0]+'"'+(P.vt===p[0]?' selected':'')+'>'+p[1]+'</option>';}).join('')+'</select></div>';}).join(''):'')
-    +(!isNew?'<h3>📦 Fichier .fab'+(W.file?' — '+esc(W.file):'')+'</h3><div class="row"><button id="mExp">📤 Partager le .fab</button><button id="mExpP" title="Avec ton, tempo, respirations, repères, annotations, ma version">📤 … avec mes réglages</button></div>':'')
-    +'<div class="row"><button id="mok" class="pri">'+(isNew?'Enregistrer en .fab':'Enregistrer')+'</button><button data-close="1">Annuler</button></div>');
+    +(!isNew?'<h3>📦 Chant .fab</h3><div class="row"><button id="mExp">📤 Partager le .fab</button><button id="mExpP" title="Avec ton, tempo, respirations, repères, annotations, ma version">📤 … avec mes réglages</button></div>':'')
+    +'<div class="row"><button id="mok" class="pri">'+(isNew?'Ajouter au répertoire':'Enregistrer')+'</button><button data-close="1">Annuler</button></div>');
   dlgClose.cb=end;
   if(!isNew){$('#mExp').onclick=function(){fabExport(W,false).catch(function(e){toast('⚠ '+(e.message||e));});};$('#mExpP').onclick=function(){fabExport(W,true).catch(function(e){toast('⚠ '+(e.message||e));});};}
   $('#mok').onclick=function(){const o={title:$('#mTitle').value.trim()||W.title,composer:$('#mComp').value.trim(),work:$('#mWork').value.trim(),role:$('#mRole').value.trim(),style:$('#mStyle').value,period:$('#mPer').value};
@@ -144,7 +149,7 @@ function metaDlg(W,isNew,SC,done){let fin=false;const end=function(){if(fin)retu
     Object.assign(W,o);W._an=null;if(SC){W.partMeta=pm;parts.forEach(function(P){Object.assign(P,pm[P.id]);});W.hist=partHist(SC);}
     $('#mok').disabled=true;
     wFull(W).then(function(){return fabSaveWork(W);}).then(function(){LS.del('meta:'+W.id);if(W.legacy){delete W.legacy;IDB.del(W.id);}
-      if(WORKS.indexOf(W)<0){WORKS.push(W);if(isNew)IMPN++;}dlgClose();end();if(ST.W===W)openWork(W.id);else if(!isNew)library();if(!isNew)toast('✅ « '+W.title+' » enregistré ('+W.file+')');},
+      if(WORKS.indexOf(W)<0){WORKS.push(W);if(isNew)IMPN++;}dlgClose();end();if(ST.W===W)openWork(W.id);else if(!isNew)library();if(!isNew)toast('✅ « '+W.title+' » enregistré dans le répertoire');},
       function(err){$('#mok').disabled=false;toast('⚠ Enregistrement impossible : '+(err.message||err),5000);});};}
 window.addEventListener('DOMContentLoaded',function(){const f=$('#fimp');f.onchange=function(){if(f.files.length)addFiles(Array.prototype.slice.call(f.files));f.value='';};});
 /* ── 🎭 programmes ── */

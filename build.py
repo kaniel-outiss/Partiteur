@@ -159,13 +159,13 @@ add_air('sgt', {'id': 'donizetti-spirto-gentil', 'title': 'Spirto gentil', 'comp
                 'role': 'Fernando', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 113-117'},
         60, {'name': 'Fernando (ténor)', 'short': 'Fer.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
-# — les chants ne sont plus dans l'appli : un fichier .fab par chant dans bibliotheque/ (à copier dans Documents/Partiteur) —
+# — les chants ne sont plus dans l'appli : UN répertoire bibliotheque/partiteur-repertoire.fab (publié avec l'APK ;
+#   ajouté avec 📥 ou déposé dans Documents/Partiteur, il est fusionné dans repertoire.fab du téléphone) —
 sys.path.insert(0, 'tools')
 import fablib
 os.makedirs('bibliotheque', exist_ok=True)
 for f in glob.glob('bibliotheque/*.fab'): os.remove(f)
-for w in W:
-    fablib.write(fablib.from_work(w), 'bibliotheque/%s.fab' % w['id'])
+fablib.write_pack([fablib.from_work(w) for w in W], 'bibliotheque/partiteur-repertoire.fab')
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'fab', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
 sons = json.load(open('data/sons.json'))
@@ -180,4 +180,4 @@ PARTS = {
 shell = open('src/shell.html').read()
 out = re.sub(r'__(VER|WORKS|SONS|VEROVIO|APP|SAFE)__', lambda m: PARTS[m.group(1)], shell)
 open('partiteur.html', 'w').write(out)
-print('ok', len(W), 'chants →', len(W), 'fichiers .fab dans bibliotheque/ ·', round(len(out) / 1e6, 2), 'Mo')
+print('ok', len(W), 'chants → bibliotheque/partiteur-repertoire.fab (', round(os.path.getsize('bibliotheque/partiteur-repertoire.fab') / 1024), 'Ko ) ·', round(len(out) / 1e6, 2), 'Mo')

@@ -10,6 +10,10 @@
       META.json : {"id","title","composer","work","role","voice","style","period","ks","mode","bpm","src",
                    "parts":[{"id":"v","name":"…","kind":"voice","clef":"G","oct":-12,"vt":"T"},{"id":"rh",…},{"id":"lh",…}]}
 
+  python3 tools/fab.py rep REPERTOIRE.fab [CHANT_OU_REPERTOIRE.fab …]
+      Ajoute / met à jour des chants dans un répertoire (créé s'il n'existe pas). Même identifiant = remplacé.
+  python3 tools/fab.py ls REPERTOIRE.fab        liste des chants d'un répertoire
+
   python3 tools/fab.py info FICHIER.fab        résumé
   python3 tools/fab.py unpack FICHIER.fab      → FICHIER.json lisible
   python3 tools/fab.py pack FICHIER.json       → FICHIER.fab
@@ -36,9 +40,28 @@ def main():
     t.add_argument('pages', nargs='+')
     t.add_argument('--text')
     t.add_argument('-o')
-    for c in ['info', 'unpack', 'pack']:
+    for c in ['info', 'unpack', 'pack', 'ls']:
         sub.add_parser(c).add_argument('file')
+    r = sub.add_parser('rep')
+    r.add_argument('rep')
+    r.add_argument('add', nargs='*')
     a = ap.parse_args()
+
+    if a.cmd == 'rep':
+        cur = fablib.read_pack(a.rep) if os.path.exists(a.rep) else {}
+        nn = nu = 0
+        for f in a.add:
+            for o in fablib.load_any(f):
+                if o['id'] in cur: nu += 1
+                else: nn += 1
+                cur[o['id']] = o
+        fablib.write_pack(list(cur.values()), a.rep)
+        print('→', a.rep, ':', len(cur), 'chants (', nn, 'nouveaux,', nu, 'mis à jour )', round(os.path.getsize(a.rep) / 1024), 'Ko')
+        return
+    if a.cmd == 'ls':
+        for o in fablib.load_any(a.file):
+            print('-', o['id'], '·', o.get('title'), '·', o.get('composer', ''), '·', o['score']['type'])
+        return
 
     if a.cmd == 'xml':
         xml = fablib.read_score_xml(a.src)
@@ -56,6 +79,10 @@ def main():
             ms += json.load(open(p))['measures']
         o = fablib.make(meta, {'type': 'tokens', 'parts': meta['parts'], 'measures': ms, 'partMeta': {}}, json.load(open(a.text)) if a.text else None)
     elif a.cmd == 'info':
+        if fablib.is_pack(a.file):
+            L = fablib.load_any(a.file)
+            print('répertoire :', len(L), 'chants ·', round(os.path.getsize(a.file) / 1024), 'Ko')
+            return
         o = fablib.read(a.file)
         sc = o['score']
         n = len(sc.get('measures', [])) if sc['type'] == 'tokens' else len(re.findall(r'<measure\b', sc.get('xml', '')))
