@@ -97,6 +97,17 @@ if os.path.exists('data/fig_p1.json'):
               'parts': [{'id': 'v', 'name': 'Figaro (baryton)', 'short': 'Fig.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'Bar'},
                         {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
               'measures': fg, 'text': place_phrases(json.load(open('data/fig_text.json')), fg), 'src': 'Partition chant-piano (Schirmer)'})
+# — airs transcrits depuis les recueils : un bloc de données par air —
+def add_air(prefix, meta, bpm, voice):
+    if not os.path.exists('data/%s_p1.json' % prefix): return
+    ms = clean(pages(prefix))
+    if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
+    T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
+    W.append(dict(meta, id=meta['id'], ks=0, bpm=bpm, measures=ms, text=place_phrases(T, ms) if T else None,
+                  parts=[dict(voice, id='v', kind='voice', clef='F', oct=0), {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}]))
+add_air('cal', {'id': 'rossini-calunnia', 'title': 'La calunnia è un venticello', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
+                'role': 'Don Basilio', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 57-65'},
+        126, {'name': 'Don Basilio (basse)', 'short': 'Bas.', 'vt': 'B'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
