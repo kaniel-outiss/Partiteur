@@ -162,6 +162,9 @@ add_air('sgt', {'id': 'donizetti-spirto-gentil', 'title': 'Spirto gentil', 'comp
 add_air('cai', {'id': 'verdi-celeste-aida', 'title': 'Celeste Aida', 'composer': 'Giuseppe Verdi', 'work': 'Aida, acte I',
                 'role': 'Radamès', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 1, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 28-33'},
         72, {'name': 'Radamès (ténor)', 'short': 'Rad.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('ndo', {'id': 'puccini-nessun-dorma', 'title': 'Nessun dorma', 'composer': 'Giacomo Puccini', 'work': 'Turandot, acte III',
+                'role': 'Calaf', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 1, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 210-212'},
+        60, {'name': 'Calaf (ténor)', 'short': 'Cal.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # — les chants ne sont plus dans l'appli : UN répertoire bibliotheque/partiteur-repertoire.fab (publié avec l'APK ;
 #   ajouté avec 📥 ou déposé dans Documents/Partiteur, il est fusionné dans repertoire.fab du téléphone) —
 sys.path.insert(0, 'tools')

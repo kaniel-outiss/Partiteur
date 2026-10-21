@@ -1,0 +1,132 @@
+{
+"lang": "it",
+"ctx": "Turandot (Puccini, livret d'Adami et Simoni, 1926), acte III. Pékin, la nuit. Le prince inconnu Calaf a résolu les trois énigmes de la cruelle princesse Turandot ; pour la libérer de sa promesse, il lui a proposé un défi : si elle découvre son nom avant l'aube, il mourra. Turandot ordonne que personne ne dorme cette nuit-là tant que le nom n'est pas trouvé. Seul dans les jardins, Calaf entend les hérauts crier « Nessun dorma » et triomphe d'avance : son secret restera en lui, et à l'aube il vaincra. Puccini est mort avant d'achever l'opéra, mais cet air est de sa main.",
+"diction": [
+"Début piano, presque parlé : « Nessun dorma » n'est pas un cri mais une rumeur reprise des hérauts.",
+"Doubles consonnes : « Nessun », « dorma » (simple), « stanza », « bocca », « dilegua » (simple), « vincerò » [vintʃeˈrɔ].",
+"« Principessa » : [printʃiˈpessa] ; « speranza » : [speˈrantsa] ; « scioglierà » : [ʃoʎʎeˈra].",
+"« Vincerò » final : le si aigu se prépare sur le « ce » ; voyelle ouverte et ronde, sans écraser.",
+"Le chœur de femmes (« Il nome suo nessun saprà ») n'est pas chanté par le ténor."
+],
+"lines": [
+{
+"key": "nessun dorma",
+"it": "Nessun dorma! Nessun dorma! Tu pure, o Principessa, nella tua fredda stanza guardi le stelle che tremano d'amore e di speranza!",
+"ipa": "nesˈsun ˈdɔrma nesˈsun ˈdɔrma tu ˈpuːre o printʃiˈpessa ˈnella ˈtuːa ˈfredda ˈstantsa ˈɡwardi le ˈstelle ke ˈtrɛːmano daˈmoːre e di speˈrantsa",
+"w": [
+[
+"Nessun dorma!",
+"que personne ne dorme !"
+],
+[
+"Tu pure",
+"toi aussi"
+],
+[
+"nella tua fredda stanza",
+"dans ta chambre froide"
+],
+[
+"guardi le stelle",
+"tu regardes les étoiles"
+],
+[
+"che tremano",
+"qui tremblent"
+],
+[
+"d'amore e di speranza",
+"d'amour et d'espoir"
+]
+],
+"fr": "Que personne ne dorme ! Toi aussi, ô Princesse, dans ta chambre froide, tu regardes les étoiles qui tremblent d'amour et d'espoir !"
+},
+{
+"key": "ma il mio",
+"it": "Ma il mio mistero è chiuso in me, il nome mio nessun saprà! No, no, sulla tua bocca lo dirò quando la luce splenderà!",
+"ipa": "ma il ˈmiːo misˈtɛːro ɛ ˈkjuːzo in me il ˈnoːme ˈmiːo nesˈsun saˈpra nɔ nɔ ˈsulla ˈtuːa ˈbokka lo diˈrɔ ˈkwando la ˈluːtʃe splendeˈra",
+"w": [
+[
+"il mio mistero",
+"mon secret"
+],
+[
+"è chiuso in me",
+"est enfermé en moi"
+],
+[
+"il nome mio",
+"mon nom"
+],
+[
+"nessun saprà",
+"personne ne le saura"
+],
+[
+"sulla tua bocca",
+"sur ta bouche"
+],
+[
+"lo dirò",
+"je le dirai"
+],
+[
+"quando la luce splenderà",
+"quand la lumière brillera"
+]
+],
+"fr": "Mais mon secret est enfermé en moi, personne ne saura mon nom ! Non, non, c'est sur ta bouche que je le dirai, quand la lumière brillera !"
+},
+{
+"key": "ed il mio",
+"it": "Ed il mio bacio scioglierà il silenzio che ti fa mia!",
+"ipa": "ed il ˈmiːo ˈbaːtʃo ʃoʎʎeˈra il siˈlɛntsjo ke ti fa ˈmiːa",
+"w": [
+[
+"il mio bacio",
+"mon baiser"
+],
+[
+"scioglierà",
+"rompra (dénouera)"
+],
+[
+"il silenzio",
+"le silence"
+],
+[
+"che ti fa mia",
+"qui te fait mienne"
+]
+],
+"fr": "Et mon baiser rompra le silence qui te fera mienne !"
+},
+{
+"key": "dilegua",
+"it": "Dilegua, o notte! Tramontate, stelle! Tramontate, stelle! All'alba vincerò! Vincerò! Vincerò!",
+"ipa": "diˈleːɡwa o ˈnɔtte tramonˈtaːte ˈstelle tramonˈtaːte ˈstelle alˈlalba vintʃeˈrɔ vintʃeˈrɔ vintʃeˈrɔ",
+"w": [
+[
+"Dilegua, o notte!",
+"dissipe-toi, ô nuit !"
+],
+[
+"Tramontate, stelle!",
+"couchez-vous, étoiles !"
+],
+[
+"All'alba",
+"à l'aube"
+],
+[
+"vincerò",
+"je vaincrai"
+]
+],
+"fr": "Dissipe-toi, ô nuit ! Couchez-vous, étoiles ! À l'aube, je vaincrai ! Je vaincrai ! Je vaincrai !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
