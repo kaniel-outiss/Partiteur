@@ -1,0 +1,132 @@
+{
+"lang": "it",
+"ctx": "Pagliacci (Leoncavallo, livret du compositeur, 1892), fin de l'acte I. Canio, chef d'une troupe de comédiens ambulants en Calabre, vient de surprendre sa femme Nedda avec un amant qui s'est enfui sans qu'il voie son visage. Fou de jalousie et de douleur, il doit pourtant se préparer à jouer le soir même Paillasse, le mari trompé de la comédie. Seul, il se maquille : le public paie et veut rire ; si Arlequin te vole Colombine, ris, Paillasse, et tout le monde applaudira. L'air finit en sanglots, sur le célèbre « Ridi, Pagliaccio ».",
+"diction": [
+"Récitatif « Recitar! » : presque parlé, halluciné ; les silences et les ruptures comptent autant que les notes.",
+"Doubles consonnes : « giubba », « faccia », « Pagliaccio » [paʎˈʎattʃo], « applaudirà », « lazzi » [ˈlattsi], « smorfia ».",
+"« infarina » : [infaˈriːna] ; « singhiozzo » : [sinˈɡjɔttso] ; « avvelena » : [avveˈleːna].",
+"« Ridi, Pagliaccio » : le sommet (la aigu) doit sortir de la douleur, pas de la force ; voix couverte, legato.",
+"Les sanglots écrits (« Ah! ») sont chantés avec retenue : l'émotion vient du texte, pas des effets."
+],
+"lines": [
+{
+"key": "recitar",
+"it": "Recitar! Mentre preso dal delirio non so più quel che dico e quel che faccio! Eppur è d'uopo… sforzati! Bah! sei tu forse un uom? Tu se' Pagliaccio!",
+"ipa": "retʃiˈtar ˈmentre ˈpreːzo dal deˈliːrjo non sɔ pju kwel ke ˈdiːko e kwel ke ˈfattʃo epˈpur ɛ ˈdwɔːpo ˈsfɔrtsati ba sɛi tu ˈforse un wɔm tu sɛ paʎˈʎattʃo",
+"w": [
+[
+"Recitar!",
+"jouer la comédie !"
+],
+[
+"preso dal delirio",
+"pris de délire"
+],
+[
+"non so più",
+"je ne sais plus"
+],
+[
+"Eppur è d'uopo",
+"et pourtant il le faut"
+],
+[
+"sforzati!",
+"force-toi !"
+],
+[
+"sei tu forse un uom?",
+"es-tu donc un homme ?"
+],
+[
+"Tu se' Pagliaccio!",
+"tu es Paillasse !"
+]
+],
+"fr": "Jouer la comédie ! Alors que, pris de délire, je ne sais plus ce que je dis ni ce que je fais ! Et pourtant il le faut… force-toi ! Bah ! es-tu donc un homme ? Tu es Paillasse !"
+},
+{
+"key": "vesti la",
+"it": "Vesti la giubba e la faccia infarina. La gente paga e rider vuole qua. E se Arlecchin t'invola Colombina, ridi, Pagliaccio, e ognun applaudirà!",
+"ipa": "ˈvesti la ˈdʒubba e la ˈfattʃa infaˈriːna la ˈdʒɛnte ˈpaːɡa e ˈriːder ˈvwɔːle kwa e se arlekˈkin tinˈvɔːla kolomˈbiːna ˈriːdi paʎˈʎattʃo e oɲˈɲun applaudiˈra",
+"w": [
+[
+"Vesti la giubba",
+"mets ta veste (de clown)"
+],
+[
+"la faccia infarina",
+"enfarine ton visage"
+],
+[
+"La gente paga",
+"les gens paient"
+],
+[
+"e rider vuole qua",
+"et veulent rire ici"
+],
+[
+"t'invola Colombina",
+"te vole Colombine"
+],
+[
+"ridi, Pagliaccio",
+"ris, Paillasse"
+],
+[
+"ognun applaudirà",
+"chacun applaudira"
+]
+],
+"fr": "Mets ta veste et enfarine ton visage. Les gens paient et veulent rire ici. Et si Arlequin te vole Colombine, ris, Paillasse, et tout le monde applaudira !"
+},
+{
+"key": "tramuta",
+"it": "Tramuta in lazzi lo spasmo ed il pianto; in una smorfia il singhiozzo e il dolor… Ah!",
+"ipa": "traˈmuːta in ˈlattsi lo ˈspazmo ed il ˈpjanto in ˈuːna ˈzmɔrfja il sinˈɡjɔttso e il doˈlor a",
+"w": [
+[
+"Tramuta in lazzi",
+"change en bouffonneries"
+],
+[
+"lo spasmo ed il pianto",
+"la souffrance et les larmes"
+],
+[
+"in una smorfia",
+"en une grimace"
+],
+[
+"il singhiozzo e il dolor",
+"le sanglot et la douleur"
+]
+],
+"fr": "Change en bouffonneries la souffrance et les larmes ; en grimace, le sanglot et la douleur… Ah !"
+},
+{
+"key": "ridi pagliaccio sul",
+"it": "Ridi, Pagliaccio, sul tuo amore infranto! Ridi del duol che t'avvelena il cor!",
+"ipa": "ˈriːdi paʎˈʎattʃo sul ˈtuːo aˈmoːre inˈfranto ˈriːdi del dwɔl ke tavveˈleːna il kɔr",
+"w": [
+[
+"sul tuo amore infranto",
+"de ton amour brisé"
+],
+[
+"Ridi del duol",
+"ris de la douleur"
+],
+[
+"che t'avvelena il cor",
+"qui t'empoisonne le cœur"
+]
+],
+"fr": "Ris, Paillasse, de ton amour brisé ! Ris de la douleur qui t'empoisonne le cœur !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}

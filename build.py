@@ -165,6 +165,9 @@ add_air('cai', {'id': 'verdi-celeste-aida', 'title': 'Celeste Aida', 'composer':
 add_air('ndo', {'id': 'puccini-nessun-dorma', 'title': 'Nessun dorma', 'composer': 'Giacomo Puccini', 'work': 'Turandot, acte III',
                 'role': 'Calaf', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 1, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 210-212'},
         60, {'name': 'Calaf (ténor)', 'short': 'Cal.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('vlg', {'id': 'leoncavallo-vesti-la-giubba', 'title': 'Vesti la giubba', 'composer': 'Ruggero Leoncavallo', 'work': 'Pagliacci, acte I',
+                'role': 'Canio', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Vérisme', 'ks': 0, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 168-170'},
+        66, {'name': 'Canio (ténor)', 'short': 'Can.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
