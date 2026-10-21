@@ -1,0 +1,92 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "4/4",
+   "doubt": "p.180 (scan p-178, numéro conforme) : suite de l'interlude piano, voix tacet.",
+   "v": "rw",
+   "ly": "",
+   "rh": "rs A4s F5+A5s A4s rs A4s F5+A5s A4s rs D5s F5+A5s D5s rs D5s F5+A5s D5s",
+   "lh": "F2+F3e F2+F3e E2+E3e E2+E3e D2+D3e D2+D3e C2+C3e C2+C3e"
+  },
+  {
+   "doubt": "voix sup. liée par paires (G5-A5).",
+   "v": "rw",
+   "ly": "",
+   "rh": "G5s A5s G5s A5s G5s A5s G5s A5s G5s A5s G5s A5s F5s G5s F5s G5s // D5e E5e D5e E5e D5e E5e B4e D5e",
+   "lh": "B1+B2e C2+C3e B1+B2e C2+C3e B1+B2e C2+C3e D2+D3e B1+B2e"
+  },
+  {
+   "doubt": "2e moitié MD très dense : croches hampes haut E5 C5 D4 B4, G4 noires hampes bas, B3+D4/D4 croches hampes bas ; répartition des voix incertaine.",
+   "v": "rw",
+   "ly": "",
+   "rh": "E5e D5+F5+B5e C5+G5+C6e A4+C5+F5e E5e C5e D4e B4e // rh G4 G4 // rh r B3+D4e D4e",
+   "lh": "C2+C3e D2+D3e E2+E3e F2+F3e G2+G3 G1+G2"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "doubt": "p placé sous la MD au 4e temps.",
+   "v": "rh r E3",
+   "ly": "The",
+   "rh": "E4+G4+C5e G4e E4e G4e C4 E4",
+   "lh": "C2+C3h re D2+D3e C2+C3e B1+B2e"
+  },
+  {
+   "doubt": "lettre de repère E imprimée ; note du haut de la MD partagée entre les deux voix (E4 doublé).",
+   "v": "A3 A3e B3e C4 A3",
+   "ly": "kings of the earth rise",
+   "rh": "E4e E4e E4e E4e E4+A4e E4+A4e E4+A4e E4+A4e // E4s C4s E4s C4s E4s C4s E4s C4s E4s C4s E4s C4s E4s C4s E4s C4s",
+   "lh": "A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e"
+  },
+  {
+   "doubt": "bécarres devant G1/G2 (MG) ; 4e temps MD : accord E5+G5+B5 croche à crochet puis B4 croche, doubles croches E5 B4 / B4 E4 dessous.",
+   "v": "E4 r r E3e E3e",
+   "ly": "up, and the",
+   "rh": "B4e E4e G4e B4e E5e G5e E5+G5+B5e B4e // E4s B3s E4s B3s E4s B3s G4s E4s B4s G4s E5s B4s E5s B4s B4s E4s",
+   "lh": "G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e G1+G2e"
+  },
+  {
+   "v": "A3 B3e C4e D4 B3e A3e",
+   "ly": "rul- ers take coun- sel to-",
+   "rh": "E4+A4e E4+A4e E4+A4e E4+A4e D4+A4e D4+A4e D4+A4e D4+A4e // E4s C4s E4s C4s E4s C4s E4s C4s D4s A3s D4s A3s D4s A3s D4s A3s",
+   "lh": "F1+F2e F1+F2e F1+F2e F1+F2e F1+F2e F1+F2e F1+F2e F1+F2e"
+  },
+  {
+   "doubt": "petite tache près de la dernière note MG (pas d'altération retenue).",
+   "v": "G#3 E3 r E3",
+   "ly": "geth- er, take",
+   "rh": "E4+G#4e G#4+B4e G#4+B4e G#4+B4e B4+E5e B4+E5e B4+E5e B4+E5e // E4s B3s G#4s B3s G#4s E4s G#4s E4s B4s G#4s B4s G#4s B4s G#4s B4s G#4s",
+   "lh": "E1+E2e E1+E2e E1+E2e E1+E2e E2+E3e E2+E3e D2+D3e D2+D3e"
+  },
+  {
+   "doubt": "bécarre imprimé sur G3 (2e triolet).",
+   "v": "A3e3 B3e3 A3e3 G3e3 A3e3 E3e3 F3e3 G3e3 F3e3 E3e3 F3e3 D3e3",
+   "ly": "coun- _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "E5e E5e E5e E5e A4+D5e A4+D5e A4+D5e A4+D5e // E5s A4s E5s A4s E5s A4s E5s A4s A4s F4s A4s F4s A4s F4s A4s F4s",
+   "lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e D2+D3e D2+D3e D2+D3e D2+D3e"
+  },
+  {
+   "doubt": "groupes de 3 croches sans chiffre 3 imprimé (suite des triolets).",
+   "v": "G3e3 A3e3 G3e3 F3e3 G3e3 D3e3 E3e3 F3e3 E3e3 D3e3 E3e3 C3e3",
+   "ly": "_ _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "D5e D5e D5e D5e G4+C5e G4+C5e G4+C5e G4+C5e // D5s G4s D5s G4s D5s G4s D5s G4s G4s E4s G4s E4s G4s E4s G4s E4s",
+   "lh": "B1+B2e B1+B2e B1+B2e B1+B2e C2+C3e C2+C3e C2+C3e C2+C3e"
+  },
+  {
+   "doubt": "groupes de 3 croches sans chiffre 3 imprimé.",
+   "v": "F#3e3 G3e3 F#3e3 E3e3 F#3e3 D3e3 G#3e3 A3e3 G#3e3 F#3e3 G#3e3 E3e3",
+   "ly": "_ _ _ _ _ _ _ _ _ _ _ _",
+   "rh": "F#4+B4e F#4+B4e F#4+B4e F#4+B4e G#4+B4e G#4+B4e G#4+B4e G#4+B4e // F#4s D4s F#4s D4s F#4s D4s F#4s D4s G#4s D4s G#4s D4s G#4s D4s G#4s D4s",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e E2+E3e E2+E3e E2+E3e E2+E3e"
+  },
+  {
+   "doubt": "fin de la grande liaison de « coun-sel » sur A3.",
+   "v": "A3 E3 r B3",
+   "ly": "_ sel, take",
+   "rh": "E4+A4e E4+A4e E4+A4e E4+A4e E4+B4e E4+B4e E4+B4e E4+B4e // E4s C4s E4s C4s E4s C4s E4s C4s E4s B3s E4s B3s E4s B3s E4s B3s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e G#1+G#2e G#1+G#2e G#1+G#2e G#1+G#2e"
+  }
+ ]
+}
