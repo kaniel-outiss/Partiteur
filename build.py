@@ -124,6 +124,9 @@ add_air('npa', {'id': 'mozart-non-piu-andrai', 'title': 'Non più andrai', 'comp
 add_air('zim', {'id': 'puccini-vecchia-zimarra', 'title': 'Vecchia zimarra, senti', 'composer': 'Giacomo Puccini', 'work': 'La Bohème, acte IV',
                 'role': 'Colline', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 4, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 86-87'},
         66, {'name': 'Colline (basse)', 'short': 'Col.', 'vt': 'B'})
+add_air('lac', {'id': 'verdi-lacerato-spirito', 'title': 'Il lacerato spirito', 'composer': 'Giuseppe Verdi', 'work': 'Simon Boccanegra, prologue',
+                'role': 'Fiesco', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 3, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 316-319'},
+        66, {'name': 'Fiesco (basse)', 'short': 'Fie.', 'vt': 'B'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
