@@ -67,7 +67,7 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0;let 
     else CLEF[S.pid]=P.clefFixed?W.measures.map(function(){return P.clef||'G';}):t2AutoClefs(W.measures,S.pid,S.hand==='lh'||(!S.hand&&(P.clef==='F'))?'F':'G');});
   const tieIn={},lyrState={};
   let x='<?xml version="1.0" encoding="UTF-8"?>\n<score-partwise version="3.1"><work><work-title>'+t2Esc(W.title||'')+'</work-title></work><identification><creator type="composer">'+t2Esc(W.composer||'')+'</creator></identification>'
-    +'<defaults><lyric-font font-family="Georgia" font-size="10"/></defaults><part-list>';
+    +'<defaults><lyric-font font-family="Times New Roman" font-size="10"/></defaults><part-list>';
   G.forEach(function(g){if(g.kind==='piano'&&g.staves.length>1)x+='<part-group type="start" number="1"><group-symbol>brace</group-symbol></part-group>';
     x+='<score-part id="'+g.id+'"><part-name>'+t2Esc(g.name)+'</part-name>'+(g.abbr?'<part-abbreviation>'+t2Esc(g.abbr)+'</part-abbreviation>':'')+'</score-part>';
     if(g.kind==='piano'&&g.staves.length>1)x+='<part-group type="stop" number="1"/>';});
@@ -130,7 +130,7 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0;let 
               if(ni===0&&ly&&ly!=='_'){const st=lyrState[P.id]||'';const hy=/-$/.test(ly);const txt=ly.replace(/-$/,'').replace(/_+$/,'');
                 const sy=st==='open'?(hy?'middle':'end'):(hy?'begin':'single');lyrState[P.id]=hy?'open':'';
                 const nxt=syl[sk];const ext=!hy&&nxt==='_';
-                s+='<lyric number="1"><syllabic>'+sy+'</syllabic><text>'+t2Esc(txt)+'</text>'+(ext?'<extend type="start"/>':'')+'</lyric>';}
+                s+='<lyric number="1"><syllabic>'+sy+'</syllabic>'+txt.split('‿').map(function(w){return '<text>'+t2Esc(w)+'</text>';}).join('<elision>‿</elision>')+(ext?'<extend type="start"/>':'')+'</lyric>';}
               s+='</note>';x+=s;});
             if(!e.grace){tieIn[tk]=nowTie;pos+=e.d;}});});});
       if(g.kind==='piano'&&(m.marks||[]).some(function(k){return /^(\*|✻)$/.test(k);})){x+='<direction placement="below"><direction-type><pedal type="stop" line="no"/></direction-type>'+(ns>1?'<staff>'+ns+'</staff>':'')+'</direction>';}

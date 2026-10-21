@@ -2,7 +2,7 @@
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#14110f">
-<title>Le partiteur 0.32.0</title>
+<title>Le partiteur 0.33.0</title>
 <style>
 :root{--bg:#14110f;--bg2:#1c1815;--card:#26201a;--card2:#2f2820;--or:#E8B04B;--or2:#f3c873;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf7ef;--line:#3a322a;--rouge:#e06a5a;--vert:#4fb873;--bleu:#5b8def;
   --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
@@ -43,6 +43,8 @@ h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-botto
 #cursor{position:absolute;left:0;top:0;width:3px;border-radius:2px;background:#e8a42fcc;box-shadow:0 0 10px #e8a42f88;pointer-events:none;opacity:0;transition:opacity .2s;will-change:transform}#cursor.on{opacity:1}
 #sv g.note.play,#sv g.chord.play{fill:#d4790c;color:#d4790c}#sv g.note.play .notehead{filter:drop-shadow(0 0 2px #f5a62a)}
 #sv g.measure{cursor:pointer}
+/* paroles : police proche des métriques de Verovio (évite les chevauchements quand Georgia/Times manquent, ex. Android) */
+#sv g.syl text,#sv g.syl tspan{font-family:"Times New Roman",Times,"Liberation Serif","Nimbus Roman",serif;letter-spacing:-.02em}
 #sv g.note.hrh{fill:#2457b8;color:#2457b8}#sv g.note.hlh{fill:#b8561c;color:#b8561c}#sv g.note.out{fill:#c0392b;color:#c0392b}
 #sv g.note.pj-ok{fill:#2f8f4e;color:#2f8f4e}#sv g.note.pj-mid{fill:#c98a12;color:#c98a12}#sv g.note.pj-bad{fill:#c0392b;color:#c0392b}
 #sv g.note.mine{fill:#0d0a06}#sv.dimothers g.staff:not(.mystaff){opacity:.42}
@@ -125,7 +127,7 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
   <input type="file" id="fimp" multiple hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
- <div class="hint" style="margin-top:28px">Le partiteur 0.32.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
+ <div class="hint" style="margin-top:28px">Le partiteur 0.33.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
 <div id="app" hidden>
  <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bAnn" class="ghost" title="Annoter la partition">🖍</button><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
  <div id="annbar" hidden></div>
@@ -740,7 +742,7 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0;let 
     else CLEF[S.pid]=P.clefFixed?W.measures.map(function(){return P.clef||'G';}):t2AutoClefs(W.measures,S.pid,S.hand==='lh'||(!S.hand&&(P.clef==='F'))?'F':'G');});
   const tieIn={},lyrState={};
   let x='<?xml version="1.0" encoding="UTF-8"?>\n<score-partwise version="3.1"><work><work-title>'+t2Esc(W.title||'')+'</work-title></work><identification><creator type="composer">'+t2Esc(W.composer||'')+'</creator></identification>'
-    +'<defaults><lyric-font font-family="Georgia" font-size="10"/></defaults><part-list>';
+    +'<defaults><lyric-font font-family="Times New Roman" font-size="10"/></defaults><part-list>';
   G.forEach(function(g){if(g.kind==='piano'&&g.staves.length>1)x+='<part-group type="start" number="1"><group-symbol>brace</group-symbol></part-group>';
     x+='<score-part id="'+g.id+'"><part-name>'+t2Esc(g.name)+'</part-name>'+(g.abbr?'<part-abbreviation>'+t2Esc(g.abbr)+'</part-abbreviation>':'')+'</score-part>';
     if(g.kind==='piano'&&g.staves.length>1)x+='<part-group type="stop" number="1"/>';});
@@ -803,7 +805,7 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0;let 
               if(ni===0&&ly&&ly!=='_'){const st=lyrState[P.id]||'';const hy=/-$/.test(ly);const txt=ly.replace(/-$/,'').replace(/_+$/,'');
                 const sy=st==='open'?(hy?'middle':'end'):(hy?'begin':'single');lyrState[P.id]=hy?'open':'';
                 const nxt=syl[sk];const ext=!hy&&nxt==='_';
-                s+='<lyric number="1"><syllabic>'+sy+'</syllabic><text>'+t2Esc(txt)+'</text>'+(ext?'<extend type="start"/>':'')+'</lyric>';}
+                s+='<lyric number="1"><syllabic>'+sy+'</syllabic>'+txt.split('‿').map(function(w){return '<text>'+t2Esc(w)+'</text>';}).join('<elision>‿</elision>')+(ext?'<extend type="start"/>':'')+'</lyric>';}
               s+='</note>';x+=s;});
             if(!e.grace){tieIn[tk]=nowTie;pos+=e.d;}});});});
       if(g.kind==='piano'&&(m.marks||[]).some(function(k){return /^(\*|✻)$/.test(k);})){x+='<direction placement="below"><direction-type><pedal type="stop" line="no"/></direction-type>'+(ns>1?'<staff>'+ns+'</staff>':'')+'</direction>';}
@@ -838,7 +840,7 @@ function xmlVoiceClef(xml,vc){const doc=new DOMParser().parseFromString(xml,'app
   return new XMLSerializer().serializeToString(doc);}
 /* — options de gravure — */
 function vrvOpts(width,scale,extra){return Object.assign({pageWidth:Math.round(width*100/scale),pageHeight:60000,scale:scale,adjustPageHeight:true,breaks:'auto',
-  footer:'none',header:'none',xmlIdSeed:7,pageMarginLeft:40,pageMarginRight:30,pageMarginTop:30,pageMarginBottom:20,spacingSystem:10,
+  footer:'none',header:'none',xmlIdSeed:7,pageMarginLeft:40,pageMarginRight:30,pageMarginTop:30,pageMarginBottom:20,spacingSystem:(typeof PN!=='undefined'&&PN.chords?16:10),/* place pour le chiffrage sous la portée */
   lyricSize:4.6,lyricTopMinMargin:3,justifyVertically:false},extra||{});}
 /* charge l'œuvre : modèle (non transposé) puis gravure (transposée) */
 /* les chargements passent un par un (la bibliothèque calcule des tessitures en tâche de fond) ; probe = sans changer la pièce affichée */
@@ -1133,7 +1135,7 @@ function vwIndex(){const box=$('#score'),R=box.getBoundingClientRect();const SC=
   const sysEls=$$('#sv g.system');VW.geo=[];const mid={};SC.meas.forEach(function(m){mid[m.id]=m.i;});
   $$('#sv g.measure').forEach(function(g){const i=mid[g.id];if(i==null)return;const r=rel(g.getBoundingClientRect());const s=sysEls.indexOf(g.closest('g.system'));const S=VW.sys[s]||r;
     /* portées de la mesure : y de la ligne du haut et du bas, par numéro */
-    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1};}});
+    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:Math.max(b.y1,rel(sg.getBoundingClientRect()).y1)};}});
     VW.geo[i]={x0:r.x0,x1:r.x1,y0:S.y0,y1:S.y1,sys:s,st:st,el:g};});
   /* position x des événements (tête de note la plus à gauche) → ligne de temps du curseur */
   VW.noteXY={};const seen={};VW.TL=[];
@@ -1954,9 +1956,11 @@ function pnChordName(ms,ks){if(ms.length<3)return null;const bass=Math.min.apply
 function pnChordsSVG(){const SC=ST.SC,ks=ksAfter(SC.ks,ST.tr);const PP=pianoParts().map(function(P){return P.id;});let out='',prev=null,lastX=-99,lastSys=-1;
   const E=SC.ev.filter(function(e){return e.pass===1&&!e.grace&&PP.indexOf(e.pid)>=0;});const on=[];E.forEach(function(e){if(!on.length||Math.abs(on[on.length-1]-e.q)>1e-6)on.push(e.q);});
   const PPs=pianoParts(),top=PPs[PPs.length-1];/* sous la portée du bas */
+  /* plus basse note (lignes supplémentaires comprises) de la portée du bas, par système : les accords passent dessous */
+  const low={};VW.geo.forEach(function(G){const t=G&&G.st[top.staff];if(t)low[G.sys]=Math.max(low[G.sys]||0,t.ext||t.bot);});
   on.forEach(function(q){const snd=[];let lo=999,att=999,ev0=null;E.forEach(function(e){if(e.q<=q+1e-6&&e.q+e.d>q+1e-6)e.midi.forEach(function(m){snd.push(m+ST.tr);lo=Math.min(lo,m);if(Math.abs(e.q-q)<1e-6){att=Math.min(att,m);ev0=ev0||e;}});});
     if(!ev0||att!==lo&&q-Math.floor(q)>1e-6)return;const n=pnChordName(snd,ks);if(!n||n.key===prev)return;const xy=VW.noteXY[ev0.base],G=VW.geo[ev0.mi];if(!xy||!G||!G.st[top.staff])return;
-    if(G.sys===lastSys&&xy.x<lastX+4)return;out+='<text x="'+(xy.x-6)+'" y="'+(G.st[top.staff].bot+SPX()*1.6)+'" class="chs">'+esc(n.txt)+'</text>';prev=n.key;lastX=xy.x+n.txt.length*7.5;lastSys=G.sys;});
+    if(G.sys===lastSys&&xy.x<lastX+4)return;out+='<text x="'+(xy.x-6)+'" y="'+(Math.max(G.st[top.staff].bot+SPX()*1.6,(low[G.sys]||0)+SPX()*1.2))+'" class="chs">'+esc(n.txt)+'</text>';prev=n.key;lastX=xy.x+n.txt.length*7.5;lastSys=G.sys;});
   return out;}
 function SPX(){return 14*ST.zoom;}
 /* — clavier à l'écran — */

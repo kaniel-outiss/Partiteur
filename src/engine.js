@@ -21,7 +21,7 @@ function xmlVoiceClef(xml,vc){const doc=new DOMParser().parseFromString(xml,'app
   return new XMLSerializer().serializeToString(doc);}
 /* — options de gravure — */
 function vrvOpts(width,scale,extra){return Object.assign({pageWidth:Math.round(width*100/scale),pageHeight:60000,scale:scale,adjustPageHeight:true,breaks:'auto',
-  footer:'none',header:'none',xmlIdSeed:7,pageMarginLeft:40,pageMarginRight:30,pageMarginTop:30,pageMarginBottom:20,spacingSystem:10,
+  footer:'none',header:'none',xmlIdSeed:7,pageMarginLeft:40,pageMarginRight:30,pageMarginTop:30,pageMarginBottom:20,spacingSystem:(typeof PN!=='undefined'&&PN.chords?16:10),/* place pour le chiffrage sous la portée */
   lyricSize:4.6,lyricTopMinMargin:3,justifyVertically:false},extra||{});}
 /* charge l'œuvre : modèle (non transposé) puis gravure (transposée) */
 /* les chargements passent un par un (la bibliothèque calcule des tessitures en tâche de fond) ; probe = sans changer la pièce affichée */

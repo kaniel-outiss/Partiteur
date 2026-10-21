@@ -43,6 +43,8 @@ h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-botto
 #cursor{position:absolute;left:0;top:0;width:3px;border-radius:2px;background:#e8a42fcc;box-shadow:0 0 10px #e8a42f88;pointer-events:none;opacity:0;transition:opacity .2s;will-change:transform}#cursor.on{opacity:1}
 #sv g.note.play,#sv g.chord.play{fill:#d4790c;color:#d4790c}#sv g.note.play .notehead{filter:drop-shadow(0 0 2px #f5a62a)}
 #sv g.measure{cursor:pointer}
+/* paroles : police proche des métriques de Verovio (évite les chevauchements quand Georgia/Times manquent, ex. Android) */
+#sv g.syl text,#sv g.syl tspan{font-family:"Times New Roman",Times,"Liberation Serif","Nimbus Roman",serif;letter-spacing:-.02em}
 #sv g.note.hrh{fill:#2457b8;color:#2457b8}#sv g.note.hlh{fill:#b8561c;color:#b8561c}#sv g.note.out{fill:#c0392b;color:#c0392b}
 #sv g.note.pj-ok{fill:#2f8f4e;color:#2f8f4e}#sv g.note.pj-mid{fill:#c98a12;color:#c98a12}#sv g.note.pj-bad{fill:#c0392b;color:#c0392b}
 #sv g.note.mine{fill:#0d0a06}#sv.dimothers g.staff:not(.mystaff){opacity:.42}

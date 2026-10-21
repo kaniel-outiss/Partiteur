@@ -1,0 +1,81 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [],
+   "v": "Bb3s A3s Bb3s C4s Bb3s C4s A3s Bb3s C4 A3e F3e",
+   "ly": "_ _ _ _ _ _ _ _ _ of all",
+   "rh": "D5+A5e D5+A5e D5+G5e Bb4+D5+F5e G4+Bb4+E5e G4+Bb4+E5e A4+C5+F5e A4+C5+F5e",
+   "lh": "Bb3e Bb3e Bb3e Bb3e C4e C4e A3e F3e",
+   "doubt": "Page imprimée 26 (p-024) : suite d'une vocalise commencée page précédente (mélisme : 8 doubles croches + noire C4 sous trait d'extension, syllabe sur la page précédente). Liaison d'expression sur la vocalise ; MD : points de staccato + liaisons ; soufflet de crescendo sous la MD sur m.1-2."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C3 C3e C3e F3h",
+   "ly": "na- tions shall come.",
+   "rh": "G4+C5+F5e G4+C5+F5e G4+C5+E5e G4+C5+E5e A4+C5+F5e rs C4+F4+A4s C4+F4+A4ed C4+F4+A4s",
+   "lh": "C3e C3e C3e C3e F3e rs F2+F3s F2+F3ed F2+F3s",
+   "doubt": "MD 1er temps : staccatos sous liaison ; f sous la croche F3/A4-C5-F5 (3e temps). MG F3 croche avec point de staccato. Fin du soufflet de crescendo."
+  },
+  {
+   "marks": [
+    "Recit."
+   ],
+   "v": "r re D3e F#3 F#3e F#3e",
+   "ly": "The Lord whom ye",
+   "rh": "D4+A4+D5 r rh",
+   "lh": "F#2+F#3 r rh",
+   "doubt": "Lettre de repère « B » imprimée au début du système. « whom ye » imprimés sans altération après F#3 dans la même mesure → F#3 (altération valable jusqu'à la barre)."
+  },
+  {
+   "v": "A3 re A3e C4s C4s C4e C4e Bb3s Bb3s",
+   "ly": "seek shall sud- den- ly come to His",
+   "rh": "rw",
+   "lh": "rw"
+  },
+  {
+   "v": "G3e G3e r r G3e A3e",
+   "ly": "tem- ple, ev'n the",
+   "rh": "re G4+Bb4+D5e G4+Bb4+D5ed G4+Bb4+D5s G4+B4+D5 r",
+   "lh": "re G2+G3e G2+G3ed G2+G3s F2+F3 r",
+   "doubt": "MD 4e accord : bécarre sur le si (B4). MG F2+F3 avec bécarres de précaution."
+  },
+  {
+   "v": "B3s B3s B3e A3e G3e C4ed C4s C4",
+   "ly": "mes- sen- ger of the cov- e- nant,",
+   "rh": "rh G4+C5+G5 r",
+   "lh": "rh E2+E3 r",
+   "doubt": "Bécarre sur le 1er si du chant (B3). MD accord du 3e temps lu G4+C5+G5 ; MG E2+E3 (ligne supplémentaire)."
+  },
+  {
+   "v": "re F3e G3e D3e E3e E3e r",
+   "ly": "whom ye de- light in;",
+   "rh": "D4+F4+B4 r re E4+G4+C5e E4+G4+C5ed E4+G4+C5s",
+   "lh": "D2+D3 r re C2+C3e C2+C3ed C2+C3s",
+   "doubt": "MD 1er accord : bécarre sur B4."
+  },
+  {
+   "v": "r re E3e B3 re B3s E3s",
+   "ly": "Be- hold, he shall",
+   "rh": "E4+B4+E5 r rh",
+   "lh": "G#1+G#2 r rh",
+   "doubt": "Bécarre sur « hold » (B3), valable pour « he ». MD bécarre sur B4. MG G#1 (sous 3 lignes supplémentaires) + G#2."
+  },
+  {
+   "v": "C4 r r A3e A3e",
+   "ly": "come, saith the",
+   "rh": "E4+A4+C5+E5ed E4+A4+C5s E4+A4+C5ed E4+A4+C5s F#4+A4+C5 r",
+   "lh": "A1+A2ed A2+A3s A2+A3ed A2+A3s D#2+D#3 r"
+  },
+  {
+   "v": "G#3d A3e E3 r",
+   "ly": "Lord of Hosts.",
+   "rh": "rh B4+E5+G#5 A4+C#5+E5+A5",
+   "lh": "rh E2+E3 A1+A2",
+   "doubt": "Double barre finale (fin du récitatif nº 5). MD : bécarre sur B4, dièse sur G#5 ; dièse sur C#5."
+  }
+ ]
+}
