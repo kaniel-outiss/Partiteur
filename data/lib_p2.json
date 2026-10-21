@@ -1,162 +1,162 @@
 {
- "page": 2,
- "measures": [
-  {
-   "meter": "4/4",
-   "ks": -1,
-   "marks": [
-    "[C]",
-    "pp",
-    "Tutti"
-   ],
-   "s": "A4h Bb4h",
-   "ls": "Tre- mens,",
-   "a": "F4h F4h",
-   "la": "Tre- mens,",
-   "t": "rw",
-   "lt": "",
-   "b": "D4w~",
-   "lb": "Tre-",
-   "orc": "rw",
-   "doubt": "Système sans portée Orquesta (S, A, T, B seulement) : orc = rw pour m. 37-48."
-  },
-  {
-   "marks": [
-    "pp"
-   ],
-   "s": "C5h D5h~",
-   "ls": "tre- mens",
-   "a": "G4h A4h~",
-   "la": "tre- mens",
-   "t": "E5h F5h~",
-   "lt": "Tre- mens",
-   "b": "D4h C4h",
-   "lb": "_",
-   "orc": "rw"
-  },
-  {
-   "s": "D5 D5 C5 Bb4",
-   "ls": "fa- ctus sum",
-   "a": "A4 A4 G4 F4",
-   "la": "fa- ctus sum",
-   "t": "F5 F5 E5 D5",
-   "lt": "fa- ctus sum",
-   "b": "Bb3w",
-   "lb": "mens",
-   "orc": "rw"
-  },
-  {
-   "s": "C5h Bb4h",
-   "ls": "e- _",
-   "a": "E4w",
-   "la": "e-",
-   "t": "C5h C#5h",
-   "lt": "e- _",
-   "b": "A3h G3h",
-   "lb": "e- _",
-   "orc": "rw"
-  },
-  {
-   "s": "A4hd A4",
-   "ls": "go et",
-   "a": "F4w",
-   "la": "go",
-   "t": "D5h C5h",
-   "lt": "go _",
-   "b": "D3w",
-   "lb": "go",
-   "orc": "rw"
-  },
-  {
-   "s": "G4hd A4",
-   "ls": "ti- me-",
-   "a": "F4w",
-   "la": "et",
-   "t": "Bb4h A4h",
-   "lt": "et _",
-   "b": "D3w",
-   "lb": "et",
-   "orc": "rw"
-  },
-  {
-   "s": "Bb4hd Bb4",
-   "ls": "o, et",
-   "a": "F4h E4h",
-   "la": "ti- _",
-   "t": "G4w",
-   "lt": "ti-",
-   "b": "C3w",
-   "lb": "ti-",
-   "orc": "rw"
-  },
-  {
-   "marks": [
-    "[D]",
-    "cresc."
-   ],
-   "s": "A4hd Bb4",
-   "ls": "ti- me-",
-   "a": "Eb4h D4h",
-   "la": "me- _",
-   "t": "G4h F#4h",
-   "lt": "me- _",
-   "b": "C3h D3h",
-   "lb": "me- _",
-   "orc": "rw"
-  },
-  {
-   "marks": [
-    "<",
-    "respiration (S)"
-   ],
-   "s": "C5hd C5",
-   "ls": "o dum",
-   "a": "C4h D4h",
-   "la": "o dum",
-   "t": "G4h A4h",
-   "lt": "o dum",
-   "b": "E3h F#3h",
-   "lb": "o dum",
-   "orc": "rw"
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "s": "C5h F5d F5e",
-   "ls": "dis- cus- si-",
-   "a": "E4h F4d F4e",
-   "la": "dis- cus- si-",
-   "t": "Bb4h C5d C5e",
-   "lt": "dis- cus- si-",
-   "b": "G3h A3d A3e",
-   "lb": "dis- cus- si-",
-   "orc": "rw"
-  },
-  {
-   "s": "E5h D5 Db5",
-   "ls": "o ve- ne-",
-   "a": "G4h G4 G4",
-   "la": "o ve- ne-",
-   "t": "C#5h D5 E5",
-   "lt": "o ve- ne-",
-   "b": "Bb3h Bb3 Bb3",
-   "lb": "o ve- ne-",
-   "orc": "rw"
-  },
-  {
-   "marks": [
-    "respiration (S)"
-   ],
-   "s": "C5hd A4",
-   "ls": "rit at",
-   "a": "A4h G4 F4",
-   "la": "rit at _",
-   "t": "F5h E5 D5",
-   "lt": "rit at _",
-   "b": "A3hd A3",
-   "lb": "rit at",
-   "orc": "rw"
-  }
- ]
+"page": 2,
+"measures": [
+{
+"meter": "2/2",
+"ks": -1,
+"marks": [
+"[C]",
+"pp",
+"Tutti"
+],
+"s": "A4h Bb4h",
+"ls": "Tre- mens,",
+"a": "F4h F4h",
+"la": "Tre- mens,",
+"t": "rw",
+"lt": "",
+"b": "D4w~",
+"lb": "Tre-",
+"orc": "rw",
+"doubt": "Système sans portée Orquesta (S, A, T, B seulement) : orc = rw pour m. 37-48."
+},
+{
+"marks": [
+"pp"
+],
+"s": "C5h D5h~",
+"ls": "tre- mens",
+"a": "G4h A4h~",
+"la": "tre- mens",
+"t": "E5h F5h~",
+"lt": "Tre- mens",
+"b": "D4h C4h",
+"lb": "_",
+"orc": "rw"
+},
+{
+"s": "D5 D5 C5 Bb4",
+"ls": "fa- ctus sum",
+"a": "A4 A4 G4 F4",
+"la": "fa- ctus sum",
+"t": "F5 F5 E5 D5",
+"lt": "fa- ctus sum",
+"b": "Bb3w",
+"lb": "mens",
+"orc": "rw"
+},
+{
+"s": "C5h Bb4h",
+"ls": "e- _",
+"a": "E4w",
+"la": "e-",
+"t": "C5h C#5h",
+"lt": "e- _",
+"b": "A3h G3h",
+"lb": "e- _",
+"orc": "rw"
+},
+{
+"s": "A4hd A4",
+"ls": "go et",
+"a": "F4w",
+"la": "go",
+"t": "D5h C5h",
+"lt": "go _",
+"b": "D3w",
+"lb": "go",
+"orc": "rw"
+},
+{
+"s": "G4hd A4",
+"ls": "ti- me-",
+"a": "F4w",
+"la": "et",
+"t": "Bb4h A4h",
+"lt": "et _",
+"b": "D3w",
+"lb": "et",
+"orc": "rw"
+},
+{
+"s": "Bb4hd Bb4",
+"ls": "o, et",
+"a": "F4h E4h",
+"la": "ti- _",
+"t": "G4w",
+"lt": "ti-",
+"b": "C3w",
+"lb": "ti-",
+"orc": "rw"
+},
+{
+"marks": [
+"[D]",
+"cresc."
+],
+"s": "A4hd Bb4",
+"ls": "ti- me-",
+"a": "Eb4h D4h",
+"la": "me- _",
+"t": "G4h F#4h",
+"lt": "me- _",
+"b": "C3h D3h",
+"lb": "me- _",
+"orc": "rw"
+},
+{
+"marks": [
+"<",
+"respiration (S)"
+],
+"s": "C5hd C5",
+"ls": "o dum",
+"a": "C4h D4h",
+"la": "o dum",
+"t": "G4h A4h",
+"lt": "o dum",
+"b": "E3h F#3h",
+"lb": "o dum",
+"orc": "rw"
+},
+{
+"marks": [
+"f"
+],
+"s": "C5h F5d F5e",
+"ls": "dis- cus- si-",
+"a": "E4h F4d F4e",
+"la": "dis- cus- si-",
+"t": "Bb4h C5d C5e",
+"lt": "dis- cus- si-",
+"b": "G3h A3d A3e",
+"lb": "dis- cus- si-",
+"orc": "rw"
+},
+{
+"s": "E5h D5 Db5",
+"ls": "o ve- ne-",
+"a": "G4h G4 G4",
+"la": "o ve- ne-",
+"t": "C#5h D5 E5",
+"lt": "o ve- ne-",
+"b": "Bb3h Bb3 Bb3",
+"lb": "o ve- ne-",
+"orc": "rw"
+},
+{
+"marks": [
+"respiration (S)"
+],
+"s": "C5hd A4",
+"ls": "rit at",
+"a": "A4h G4 F4",
+"la": "rit at _",
+"t": "F5h E5 D5",
+"lt": "rit at _",
+"b": "A3hd A3",
+"lb": "rit at",
+"orc": "rw"
+}
+]
 }
