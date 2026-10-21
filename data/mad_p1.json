@@ -98,9 +98,10 @@
 "lh": "A3 D6e re E5e re C#6e re"
 },
 {
+"doubt": "triolet de doubles croches D6-E6-F#6 imprimé en taille normale (3, liaison vers m.17) mais la mesure est déjà pleine (croche, soupir, D6 noire liée, 4 croches) → noté en petites notes",
 "v": "D3 r rh",
 "ly": "me!",
-"rh": "D4+F#4+A4e re D6~ D6e C#6e B5e A5e D6s3 E6s3 F#6s3",
+"rh": "D4+F#4+A4e re D6~ D6e C#6e B5e A5e gD6 gE6 gF#6",
 "lh": "D6e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e"
 },
 {
@@ -116,22 +117,23 @@
 ],
 "v": "rh A3 A3",
 "ly": "In I-",
-"rh": "F#4+F#5e F#5+A5e D5+F#5e F#5+A5e D5+F#5e F#5+A5e gG5+B5 F#5+A5e E5+G5s D5+F#5s",
+"rh": "F#4+F#5e F#5+A5e D5+F#5e F#5+A5e D5+F#5e F#5+A5e gG5+gB5 F#5+A5e E5+G5s D5+F#5s",
 "lh": "D3e F#4+A4e D4+F#4e F#4+A4e D4+F#4e F#4+A4e F#4+A4e D4+F#4e"
 },
 {
 "v": "A3 A3e A3e A3 A3e A3e",
 "ly": "ta- lia sei cen- to‿e qua-",
-"rh": "E5+G5e E5+G5e C#5+E5e E5+G5e C#5+E5e E5+G5e gF#5+A5 E5+G5e D5+F#5s C#5+E5s",
+"rh": "E5+G5e E5+G5e C#5+E5e E5+G5e C#5+E5e E5+G5e gF#5+gA5 E5+G5e D5+F#5s C#5+E5s",
 "lh": "E4+G4e E4+G4e A3+E4e E4+G4e A3+E4e E4+G4e E4+G4e A3+E4e"
 },
 {
+"doubt": "même triolet D6-E6-F#6 en surnombre qu'à la m.16 → petites notes ; voix inférieure D5 noire liée à D5 croche fondue en accords D5+D6",
 "marks": [
 "f"
 ],
 "v": "F#3 A3 rh",
 "ly": "ran- ta,",
-"rh": "D5+F#5e re D5+D6~ D5+D6e C#6e B5e A5e D6s3 E6s3 F#6s3",
+"rh": "D5+F#5e re D5+D6~ D5+D6e C#6e B5e A5e gD6 gE6 gF#6",
 "lh": "D4+F#4e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e D3+F#3+A3e"
 }
 ]

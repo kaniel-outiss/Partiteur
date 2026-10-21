@@ -1,21 +1,148 @@
-{"page":6,"measures":[
- {"meter":"3/4","marks":["f"],"v":"A3 F#3 r","ly":"sto- sa,","rh":"D4+F#4d D5+F#5t G5t F#5t G5t F#5+A5e D5+F#5t G5t F#5t G5t","lh":"D3e D3e D3e D3+A3e D3+F#3e D3+A3e","doubt":"mesure 109 = suite de « maesto-sa » de la page précédente"},
- {"marks":["p"],"v":"A3h A3","ly":"e la","rh":"A5e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e","lh":"D3+F#3e D3e D3e D3e D3e D3e"},
- {"marks":["cresc."],"v":"B3h B3","ly":"gran- de","rh":"D4+G4+B4 B4s C5s D5s E5s F#5s G5s A5s B5s","lh":"D3e D3e D3+G3e D3+G3e D3+G3e D3+G3e"},
- {"v":"C#4h C#4","ly":"ma- e-","rh":"E4+G4+C#5 C#5s D5s E5s F#5s G5s A5s B5s C#6s","lh":"D3e D3e D3+E3+G3+A3e D3+E3+G3+A3e D3+E3+G3+A3e D3+E3+G3+A3e"},
- {"marks":["f"],"v":"D4hd~","ly":"sto-","rh":"D6s D5s D6s D5s D6e D5+G5+B5e D5+F#5+A5e D5+G5+B5e","lh":"D3+F#3+A3 re G3e D3e G3e"},
- {"v":"D4hd~","ly":"","rh":"D5+F#5+A5s D5s D6s D5s D6e D5+G5+B5e D5+F#5+A5e D5+G5+B5e","lh":"D3 re G3e D3e G3e"},
- {"marks":["p"],"v":"D4 D3e re^ D4ed D4s","ly":"sa La pic-","rh":"D5+F#5+A5 r^ D6","lh":"D3 r^ D4"},
- {"v":"B3e B3e r B3ed B3s","ly":"ci- na, la pic-","rh":"B5s B4s D5s F#5s A#5s B5s B4s B5s B5","lh":"B3e re r B3"},
- {"v":"G3e G3e r G3ed G3s","ly":"ci- na, la pic-","rh":"G5s G4s B4s D5s F#5s G5s G4s G5s G4+G5","lh":"G3e re r G3"},
- {"v":"E3s E3s G3s G3s E3s E3s G3s G3s E3s E3s D3s D3s","ly":"ci- na, la pic- ci- na, la pic- ci- na, la pic-","rh":"E4+E5e G4+G5e E4+E5e G4+G5e E4+E5e D4+D5e","lh":"E3e G3e E3e G3e E3e D3e"},
- {"v":"C#3s C#3s E3s E3s C#3s C#3s E3s E3s C#3s C#3s B2s B2s","ly":"ci- na, la pic- ci- na, la pic- ci- na, la pic-","rh":"C#4+C#5e E4+E5e C#4+C#5e E4+E5e C#4+C#5e B3+B4e","lh":"C#3e E3e C#3e E3e C#3e B2e"},
- {"marks":["p"],"v":"A2e A3 B3e A3e G#3e","ly":"ci- na è‿o- gnor vez-","rh":"A3+A4e A4+A5 B4+B5e A4+A5e G#4+G#5e","lh":"r C#3 D3 // A2 A2h~","doubt":"MG : voix sup. sans silence imprimé au 1er temps (r ajouté) ; liaison A2 vers m.121 probable"},
- {"v":"A3e G#3e A3e B3e A3e G#3e","ly":"zo- _ sa, è‿o- gnor vez-","rh":"A4+A5e G#4+G#5e A4+A5e B4+B5e A4+A5e G#4+G#5e","lh":"C#3h D3 // A2hd~","doubt":"dernier sol sans altération imprimée : G# par l'altération de la mesure"},
- {"v":"A3e G#3e A3e B3e A3e G#3e","ly":"zo- _ sa, è‿o- gnor vez-","rh":"A4+A5e G#4+G#5e A4+A5e B4+B5e A4+A5e G#4+G#5e","lh":"C#3h D3 // A2hd","doubt":"dernier sol : G# par l'altération de la mesure"},
- {"v":"B3 A3h","ly":"zo- sa;","rh":"B4+B5 A4+A5h","lh":"C#3h A3 // A2hd"},
- {"marks":["p"],"v":"F#3h gA3 G3e F#3s G3s","ly":"del- le _ _","rh":"D5+F#5h gF#5+gA5 E5+G5e D5+F#5s E5+G5s","lh":"A3h G3 // D3 D3 D3"},
- {"v":"A3ed F#3s A3 r","ly":"vec- _ chie","rh":"F#5+A5ed D5+F#5s F#5+A5 r","lh":"D3+F#3 D3 r"},
- {"marks":["fp"],"v":"D4d E4s D4s C#4e B3e","ly":"fa- _ _ _ con-","rh":"B5+D6d C#6+E6s B5+D6s A5+C#6e G5+B5e","lh":"D3 D3 D3"},
- {"v":"A3ed F#3s A3 r","ly":"qui- _ sta,","rh":"F#5+A5ed D5+F#5s F#5+A5 r","lh":"D3 D3 r"}
-]}
+{
+"page": 6,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"f"
+],
+"v": "A3 F#3 r",
+"ly": "sto- sa,",
+"rh": "D4+F#4d D5+F#5t G5t F#5t G5t F#5+A5e D5+F#5t G5t F#5t G5t",
+"lh": "D3e D3e D3e D3+A3e D3+F#3e D3+A3e",
+"doubt": "mesure 109 = suite de « maesto-sa » de la page précédente"
+},
+{
+"marks": [
+"p"
+],
+"v": "A3h A3",
+"ly": "e la",
+"rh": "A5e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e D4+F#4+A4e",
+"lh": "D3+F#3e D3e D3e D3e D3e D3e"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "B3h B3",
+"ly": "gran- de",
+"rh": "D4+G4+B4 B4s C5s D5s E5s F#5s G5s A5s B5s",
+"lh": "D3e D3e D3+G3e D3+G3e D3+G3e D3+G3e"
+},
+{
+"v": "C#4h C#4",
+"ly": "ma- e-",
+"rh": "E4+G4+C#5 C#5s D5s E5s F#5s G5s A5s B5s C#6s",
+"lh": "D3e D3e D3+E3+G3+A3e D3+E3+G3+A3e D3+E3+G3+A3e D3+E3+G3+A3e"
+},
+{
+"marks": [
+"f"
+],
+"v": "D4hd~",
+"ly": "sto-",
+"rh": "D6s D5s D6s D5s D6e D5+G5+B5e D5+F#5+A5e D5+G5+B5e",
+"lh": "D3+F#3+A3 re G3e D3e G3e"
+},
+{
+"v": "D4hd~",
+"ly": "",
+"rh": "D5+F#5+A5s D5s D6s D5s D6e D5+G5+B5e D5+F#5+A5e D5+G5+B5e",
+"lh": "D3 re G3e D3e G3e"
+},
+{
+"marks": [
+"p"
+],
+"v": "D4 D3e re^ D4ed D4s",
+"ly": "sa La pic-",
+"rh": "D5+F#5+A5 r^ D6",
+"lh": "D3 r^ D4"
+},
+{
+"v": "B3e B3e r B3ed B3s",
+"ly": "ci- na, la pic-",
+"rh": "B5s B4s D5s F#5s A#5s B5s B4s B5s B5",
+"lh": "B3e re r B3"
+},
+{
+"v": "G3e G3e r G3ed G3s",
+"ly": "ci- na, la pic-",
+"rh": "G5s G4s B4s D5s F#5s G5s G4s G5s G4+G5",
+"lh": "G3e re r G3"
+},
+{
+"v": "E3s E3s G3s G3s E3s E3s G3s G3s E3s E3s D3s D3s",
+"ly": "ci- na, la pic- ci- na, la pic- ci- na, la pic-",
+"rh": "E4+E5e G4+G5e E4+E5e G4+G5e E4+E5e D4+D5e",
+"lh": "E3e G3e E3e G3e E3e D3e"
+},
+{
+"v": "C#3s C#3s E3s E3s C#3s C#3s E3s E3s C#3s C#3s B2s B2s",
+"ly": "ci- na, la pic- ci- na, la pic- ci- na, la pic-",
+"rh": "C#4+C#5e E4+E5e C#4+C#5e E4+E5e C#4+C#5e B3+B4e",
+"lh": "C#3e E3e C#3e E3e C#3e B2e"
+},
+{
+"marks": [
+"p"
+],
+"v": "A2e A3 B3e A3e G#3e",
+"ly": "ci- na è‿o- gnor vez-",
+"rh": "A3+A4e A4+A5 B4+B5e A4+A5e G#4+G#5e",
+"lh": "r C#3 D3 // A2 A2h",
+"doubt": "MG voix sup. : pas de silence imprimé au 1er temps (r ajouté pour le compte)"
+},
+{
+"v": "A3e G#3e A3e B3e A3e G#3e",
+"ly": "zo- _ sa, è‿o- gnor vez-",
+"rh": "A4+A5e G#4+G#5e A4+A5e B4+B5e A4+A5e G#4+G#5e",
+"lh": "C#3h D3 // A2hd~",
+"doubt": "dernier sol (voix et piano) sans altération : G# par l'altération de la mesure (G naturel possible harmoniquement)"
+},
+{
+"v": "A3e G#3e A3e B3e A3e G#3e",
+"ly": "zo- _ sa, è‿o- gnor vez-",
+"rh": "A4+A5e G#4+G#5e A4+A5e B4+B5e A4+A5e G#4+G#5e",
+"lh": "C#3h D3 // A2hd",
+"doubt": "dernier sol (voix et piano) sans altération : G# par l'altération de la mesure (G naturel possible harmoniquement)"
+},
+{
+"v": "B3 A3h",
+"ly": "zo- sa;",
+"rh": "B4+B5 A4+A5h",
+"lh": "C#3h A3 // A2hd"
+},
+{
+"marks": [
+"p"
+],
+"v": "F#3h gA3 G3e F#3s G3s",
+"ly": "del- le _ _",
+"rh": "D5+F#5h gF#5+gA5 E5+G5e D5+F#5s E5+G5s",
+"lh": "A3h G3 // D3 D3 D3"
+},
+{
+"v": "A3ed F#3s A3 r",
+"ly": "vec- _ chie",
+"rh": "F#5+A5ed D5+F#5s F#5+A5 r",
+"lh": "D3+F#3 D3 r"
+},
+{
+"marks": [
+"fp"
+],
+"v": "D4d E4s D4s C#4e B3e",
+"ly": "fa- _ _ _ con-",
+"rh": "B5+D6d C#6+E6s B5+D6s A5+C#6e G5+B5e",
+"lh": "D3 D3 D3"
+},
+{
+"v": "A3ed F#3s A3 r",
+"ly": "qui- _ sta,",
+"rh": "F#5+A5ed D5+F#5s F#5+A5 r",
+"lh": "D3 D3 r"
+}
+]
+}
