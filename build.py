@@ -140,6 +140,9 @@ add_air('ufl', {'id': 'donizetti-furtiva-lagrima', 'title': 'Una furtiva lagrima
 add_air('cgm', {'id': 'puccini-che-gelida-manina', 'title': 'Che gelida manina', 'composer': 'Giacomo Puccini', 'work': 'La Bohème, acte I',
                 'role': 'Rodolfo', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -5, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 63-67'},
         66, {'name': 'Rodolfo (ténor)', 'short': 'Rod.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('aur', {'id': 'faure-apres-un-reve', 'title': 'Après un rêve', 'composer': 'Gabriel Fauré', 'work': 'Op. 7 n° 1 — poème de Romain Bussine',
+                'role': None, 'voice': 'voix moyenne', 'style': 'Mélodie française', 'period': 'Romantique', 'ks': -3, 'mode': 'minor', 'src': '30 Songs, éd. Kagen (International Music Co.), voix moyenne, do mineur'},
+        60, {'name': 'Voix (moyenne)', 'short': 'V.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
