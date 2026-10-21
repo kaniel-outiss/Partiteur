@@ -50,7 +50,7 @@ def clean(ms):
             mk = []
             for k in m['marks']:
                 k = k.strip()
-                if re.search(r'stacc|^tr$|^armure', k, re.I): continue
+                if re.search(r"stacc|^tr$|^armure|point d.orgue|fermata|^ten\.?$", k, re.I): continue
                 d = re.match(r'^(pppp|ppp|pp|p|mp|mf|ffff|fff|ff|f|sfz|sf|fp|rfz|rf)\s*\(', k)  # « p (2e temps…) » → « p »
                 if d: k = d.group(1)
                 if k not in mk: mk.append(k)

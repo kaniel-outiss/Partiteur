@@ -1,0 +1,14 @@
+{"page":5,"measures":[
+ {"meter":"4/4","v":"C4 A3 r C4e C4e","ly":"spal- la, scia- bla_al","rh":"r A4+C5+F5ed C5+F5+A5s C5+F5+A5+C6 r","lh":"r C3+F3+A3+C4ed C3+F3+A3+C4s C3+F3+A3+C4 r","doubt":"mesure 48 (numéro imprimé) ; « bla al » élidés sur une seule croche"},
+ {"v":"C4 G3 r C4e C4e","ly":"fian- co, col- lo","rh":"r C5+E5ed C5+E5+G5s C5+E5+G5+C6 r","lh":"r C3+E3+G3+C4ed C3+E3+G3+C4s C3+E3+G3+C4 r"},
+ {"v":"C4 A3 r D4e D4e","ly":"drit- to, mu- so","rh":"r A4+D5+F#5ed D5+F#5+A5s D5+F#5+A5+D6 r","lh":"r D3+F#3+A3+D4ed D3+F#3+A3+D4s D3+F#3+A3+D4 r"},
+ {"v":"B3 G3 r G3e B3e","ly":"fran- co, un gran","rh":"r B4+D5+G5ed D5+G5+B5s D5+G5+B5+D6 r","lh":"r G3+B3+D4ed G3+B3+D4s G3+B3+D4 r"},
+ {"v":"A3 A3 re A3e A3e A3e","ly":"ca- sco, un gran tur-","rh":"r E4+A4+C5ed A4+C5+E5s A4+E5+A5 r","lh":"r C2+C3ed C2+C3s C#2+C#3 r"},
+ {"v":"F#3 F#3 r F#3e F#3e","ly":"ban- te, mol- to_o-","rh":"r A4+D5+F#5ed D5+F#5+A5s D5+F#5+A5+D6 r","lh":"r D2+D3ed D2+D3s D2+D3 r","doubt":"« to o » élidés sur une seule croche"},
+ {"v":"B3 r re B3e B3e B3e","ly":"nor, po- co con-","rh":"r F#4+B4+D#5ed B4+D#5+F#5s B4+F#5+B5 r","lh":"r D#2+D#3ed D#2+D#3s D#2+D#3 r"},
+ {"marks":["p"],"v":"G3 E3 B3 B3e B3e","ly":"tan- te, po- co con-","rh":"re G4+B4e F#4+A4+B4e E4+G4+B4e D#4+F#4+B4e B3+D#4+B4e C#4+E4+B4e D#4+F#4+B4e","lh":"E2+E3 r B1+B2 r","doubt":"MD : accords à notes serrées (secondes) lus en agrandi ; C#4 du 7e accord d'après le dièse imprimé"},
+ {"v":"G3 E3 B3 B3e B3e","ly":"tan- te, po- co con-","rh":"E4+G4+B4e G4+B4e F#4+A4+B4e E4+G4+B4e D#4+F#4+B4e B3+D#4+B4e C#4+E4+B4e D#4+F#4+B4e","lh":"E2+E3 r B1+B2 r"},
+ {"marks":["point d'orgue"],"v":"G3 E3h^ E3e F#3e","ly":"tan- te. Ed in-","rh":"E4+B4h rh^","lh":"E2+E3h rh^"},
+ {"v":"G3d G3e G3d G3e","ly":"ve- ce del fan-","rh":"G4s E4s B3s E4s G4s E4s G4s E4s G4s E4s B3s E4s G4s E4s G4s E4s","lh":"E3+G3e E3+G3e E3+G3e E3+G3e E3+G3e E3+G3e E3+G3e E3+G3e","doubt":"paroles imprimées « ve - - ce » (ve sur la noire pointée, ce sur la croche)"},
+ {"marks":["cresc."],"v":"B3 B3 r B3e B3e","ly":"dan- go u- na","rh":"B4s F4s D4s F4s B4s F4s B4s F4s B4s F4s D4s F4s B4s F4s B4s F4s","lh":"D3+F3+B3e D3+F3+B3e D3+F3+B3e D3+F3+B3e D3+F3+B3e D3+F3+B3e D3+F3+B3e D3+F3+B3e","doubt":"bécarre de précaution sur le 1er F4 de la MD ; signe devant le 1er accord MG lu comme bécarre (B3/F3 naturels) ; mesure continue page suivante ? (fin de page)"}
+]}
