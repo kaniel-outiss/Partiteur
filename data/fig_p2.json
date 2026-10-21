@@ -1,0 +1,262 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gD5 C5s B4s C5s D5s C5e G4e G4e G4e",
+   "lh": "C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e",
+   "meter": "6/8",
+   "marks": [
+    "Figaro (singing behind the scenes)"
+   ],
+   "doubt": "même figure que la dernière mesure de la p. 1 (pas de mesure coupée apparente) ; accords MG lus do4+mi4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "C5e G4e E5e C5e G4e E5e",
+   "lh": "C4+E4e C4+E4e C4+E4e G3e C4+E4e C4+E4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "r re C4e E4e C4e",
+   "ly": "La la la",
+   "rh": "C5e G4e E5e C5e G4e E5e",
+   "lh": "E3e C4+E4e C4+E4e C3e C4+E4e C4+E4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "D4 G3e r re",
+   "ly": "le ra,",
+   "rh": "gE5 D5s C#5s D5s E5s D5e G4e G4e G4e",
+   "lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e",
+   "doubt": "accords MG : 3 têtes lues sol3-si3-ré4 (tête du haut ré4/mi4 ambiguë)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gE5 D5s C#5s D5s E5s D5e G4e G4e G4e",
+   "lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e",
+   "doubt": "altération devant le 2e double croche MD : lue ♯ (♮ possible)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "B4+D5e G4e F5e B4+D5e G4e F5e",
+   "lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e D3e G3+B3+D4e G3+B3+D4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "r re G3e B3e G3e",
+   "ly": "la la le",
+   "rh": "B4+D5e G4e F5e B4+D5e G4e F5e",
+   "lh": "B2e G3+B3+D4e G3+B3+D4e G2e G3+B3+D4e G3+B3+D4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "C4 re r re",
+   "ly": "ra,",
+   "rh": "C5+E5s B4+D5s C5+E5s D5+F5s C5+E5e G4e G4e G4e",
+   "lh": "C3e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e",
+   "marks": [
+    "cresc."
+   ]
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "C5+E5s B4+D5s C5+E5s D5+F5s C5+E5e G4e G4e G4e",
+   "lh": "C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "C5+E5e G4e G5e C5+E5e G4e G5e",
+   "lh": "C4+E4e C4+E4e C4+E4e G3e C4+E4e C4+E4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "r re C4e E4e C4e",
+   "ly": "la ran la",
+   "rh": "C5+E5e G4e G5e C5+E5e G4e G5e",
+   "lh": "E3e C4+E4e C4+E4e C3e C4+E4e C4+E4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "D4 G3e r re",
+   "ly": "le ra,",
+   "rh": "D5+F5s E5s F5s G5s F5e G4e G4e G4e",
+   "lh": "G2e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e",
+   "doubt": "MD : 1re double croche lue ré5+fa5, les 3 suivantes notes simples (mi5 fa5 sol5)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F5s E5s F5s G5s F5e G4e G4e G4e",
+   "lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F5e G4e G5e D5+F5e G4e G5e",
+   "lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e D3e G3+B3+D4e G3+B3+D4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "r re G3e B3e G3e",
+   "ly": "la ran la",
+   "rh": "D5+F5e G4e G5e D5+F5e G4e G5e",
+   "lh": "B2e G3+B3+D4e G3+B3+D4e G2e G3+B3+D4e G3+B3+D4e",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "C4 re r re",
+   "ly": "la.",
+   "rh": "gD6 C6s B5s C6s D6s C6e G5e G5e G5e",
+   "lh": "C4+E4e G3e C4+E4e C4+E4e G3e C4+E4e",
+   "marks": [
+    "rinf."
+   ],
+   "doubt": "petite note lue ré6"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gE6 D6s C#6s D6s E6s D6e G5e G5e G5e",
+   "lh": "B3+F4e G3e B3+F4e B3+F4e G3e B3+F4e",
+   "doubt": "accords MG lus si3+fa4 (2 lignes suppl.)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gD6 C6s B5s C6s D6s C6e G5e G5e G5e",
+   "lh": "C4+E4e G3e C4+E4e C4+E4e G3e C4+E4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gE6 D6s C#6s D6s E6s D6e G5e G5e G5e",
+   "lh": "B3+F4e G3e B3+F4e B3+F4e G3e B3+F4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e",
+   "marks": [
+    "f"
+   ]
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e",
+   "marks": [
+    "(Enters with a guitar suspended from his neck)"
+   ]
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+   "lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+C6e C5e E5e G5e E5e G5e",
+   "lh": "C4e C3e E3e G3e E3e G3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+C6 re gG3 gA3 gB3 C4 re",
+   "lh": "C4 re gG2 gA2 gB2 C2+C3 re",
+   "marks": [
+    "ff"
+   ],
+   "doubt": "trait de 3 petites notes (triples croches) lu sol-la-si vers do ; hauteurs des petites notes peu lisibles"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "gG3 gA3 gB3 C4 re r re",
+   "lh": "gG2 gA2 gB2 C2+C3 re r re",
+   "doubt": "petites notes lues sol-la-si (peu lisibles)"
+  },
+  {
+   "v": "C4d~ C4e D4e B3e",
+   "ly": "Lar- go‿al fac-",
+   "rh": "E4+C5d~ E4+C5e F4+D5e D4+B4e",
+   "lh": "C3+G3+C4e C3+G3+C4e C3+G3+C4e C3+G3+C4e C3+G3+C4e C3+G3+C4e",
+   "marks": [
+    "Figaro",
+    "Strings only",
+    "p"
+   ],
+   "doubt": "arc do4.-do4 lu comme liaison de prolongation ; « go‿al » placé sous le ré4"
+  },
+  {
+   "v": "C4e D4e B3e C4e D4e B3e",
+   "ly": "to- _ tum del- la cit-",
+   "rh": "E4+C5e F4+D5e D4+B4e E4+C5e F4+D5e D4+B4e",
+   "lh": "C3+G3+C4e C3+G3+C4e C3+G3+C4e C3+G3+C4e C3+G3+C4e C3+G3+C4e"
+  },
+  {
+   "v": "C4e re re gD#4 E4d",
+   "ly": "tà, lar-",
+   "rh": "E4+C5 re gD#6 E5+E6d",
+   "lh": "C3+G3+C4 re gD#4 E3+E4d",
+   "marks": [
+    ">"
+   ]
+  },
+  {
+   "v": "E3e re re r re",
+   "ly": "go!",
+   "rh": "E4d~ E4e F#4e G#4e",
+   "lh": "E3 re r re",
+   "marks": [
+    "p"
+   ],
+   "doubt": "MG : bas de la portée coupé par le bord de page (octave grave mi2 possible) ; MD F#4/G#4 lus croches"
+  },
+  {
+   "v": "r re re D3e D4e",
+   "ly": "La ran",
+   "rh": "A4e B4e C5e D5e D5s C5s B4s A4s",
+   "lh": "r re D#3+F#3+C4d"
+  },
+  {
+   "v": "G3e D3e D4e G3e D3e D4e",
+   "ly": "la la ran la la ran",
+   "rh": "G4e D5s C5s B4s A4s G4e D6s C6s B5s A5s",
+   "lh": "G3+B3e re D#3+F#3+C4e G3+B3e re D#3+F#3+C4e",
+   "doubt": "2e accord ré#-fa#-do sans altérations imprimées (dièses de la mesure maintenus) ; mesure continue p. 3"
+  }
+ ]
+}
