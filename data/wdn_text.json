@@ -1,0 +1,72 @@
+{
+"lang": "en",
+"ctx": "Le Messie (Haendel, livret de Jennens, 1742), 2e partie, nº 40. Après la Passion et la Résurrection, la Bonne Nouvelle se répand ; mais les puissants de la terre se dressent contre Dieu. La basse chante le Psaume 2 : pourquoi les nations s'agitent-elles avec fureur, pourquoi les rois de la terre se liguent-ils contre le Seigneur et contre son Oint ? L'orchestre bouillonne en doubles croches répétées, et la voix lance de longues vocalises furieuses sur « rage » et « anointed ». Le chœur « Let us break their bonds asunder » suit directement.",
+"diction": [
+"Anglais chanté : « nations » [ˈneɪʃənz], « furiously » [ˈfjʊəriəsli], « rage » [reɪdʒ] — garder la voyelle [e] pure pendant toute la vocalise.",
+"Vocalises : articulées, chaque note distincte (pas de glissando), soutenues par le souffle et non par la gorge.",
+"« imagine a vain thing » : [ɪˈmædʒɪn ə veɪn θɪŋ] — le [θ] de « thing » net.",
+"« take counsel together » : [teɪk ˈkaʊnsəl təˈɡɛðər], le [ð] voisé.",
+"« anointed » [əˈnɔɪntɪd] : la longue vocalise se chante sur [ɔ], la diphtongue [ɔɪ] seulement à la fin."
+],
+"lines": [
+{
+"key": "why do the",
+"it": "Why do the nations so furiously rage together, and why do the people imagine a vain thing?",
+"ipa": "waɪ duː ðə ˈneɪʃənz soʊ ˈfjʊəriəsli reɪdʒ təˈɡɛðər ænd waɪ duː ðə ˈpiːpl̩ ɪˈmædʒɪn ə veɪn θɪŋ",
+"w": [
+[
+"Why do the nations",
+"pourquoi les nations"
+],
+[
+"so furiously rage together",
+"s'agitent-elles ensemble avec tant de fureur"
+],
+[
+"the people",
+"les peuples"
+],
+[
+"imagine a vain thing",
+"forment-ils de vains projets"
+]
+],
+"fr": "Pourquoi les nations s'agitent-elles avec tant de fureur, et pourquoi les peuples forment-ils de vains projets ?"
+},
+{
+"key": "the kings",
+"it": "The kings of the earth rise up, and the rulers take counsel together against the Lord and against His anointed.",
+"ipa": "ðə kɪŋz əv ði ɜːθ raɪz ʌp ænd ðə ˈruːlərz teɪk ˈkaʊnsəl təˈɡɛðər əˈɡɛnst ðə lɔːd ænd əˈɡɛnst hɪz əˈnɔɪntɪd",
+"w": [
+[
+"The kings of the earth",
+"les rois de la terre"
+],
+[
+"rise up",
+"se soulèvent"
+],
+[
+"the rulers",
+"les princes"
+],
+[
+"take counsel together",
+"se concertent"
+],
+[
+"against the Lord",
+"contre le Seigneur"
+],
+[
+"His anointed",
+"son Oint (son Messie)"
+]
+],
+"fr": "Les rois de la terre se soulèvent et les princes se liguent ensemble contre le Seigneur et contre son Oint."
+}
+],
+"doubts": [
+"Texte (Psaume 2, 1-2, Bible du roi Jacques) vérifié sur la partition à l'assemblage."
+]
+}

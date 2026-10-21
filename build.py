@@ -186,6 +186,9 @@ add_air('ovn', {'id': 'thomas-o-vin', 'title': 'Ô vin, dissipe la tristesse', '
 add_air('mpw', {'id': 'handel-messiah-people-darkness', 'title': 'For behold, darkness… The people that walked in darkness', 'composer': 'Georg Friedrich Haendel', 'work': 'Le Messie, nº 10-11',
                 'role': None, 'voice': 'basse', 'style': 'Oratorio', 'period': 'Baroque', 'ks': 2, 'mode': 'minor', 'src': 'The Messiah, Schirmer 1912, p. 60-65'},
         72, {'name': 'Basse', 'short': 'B.', 'vt': 'B'})
+add_air('wdn', {'id': 'handel-messiah-why-do-the-nations', 'title': 'Why do the nations so furiously rage together?', 'composer': 'Georg Friedrich Haendel', 'work': 'Le Messie, nº 40',
+                'role': None, 'voice': 'basse', 'style': 'Oratorio', 'period': 'Baroque', 'ks': 0, 'src': 'The Messiah, Schirmer 1912, p. 174-181'},
+        112, {'name': 'Basse', 'short': 'B.', 'vt': 'B'})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
