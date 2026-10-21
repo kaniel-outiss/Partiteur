@@ -1,143 +1,143 @@
 {
- "page": 4,
- "measures": [
-  {
-   "meter": "4/4",
-   "marks": [
-    "dolce"
-   ],
-   "v": "C5h D5e C5e A4e F4e",
-   "ly": "Là que de ton ha-",
-   "rh": "A5d G5e F5h~",
-   "lh": "Bb2+Eb3s F3s Eb3s F3s A3s F3s A3s F3s Bb2+Eb3s F3s Eb3s F3s A3s F3s A3s F3s",
-   "doubt": "Page imprimée 72 (p-4), début en cours de phrase. RH : arc F5 blanche -> F5 croche m.2 lu comme liaison de prolongation."
-  },
-  {
-   "marks": [
-    "<"
-   ],
-   "v": "F5d D5e Bb4 r",
-   "ly": "lei- _ ne",
-   "rh": "F5e re Bb5 D6 F6",
-   "lh": "B2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s B2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s",
-   "doubt": "Soufflet < sous la portée de piano main droite."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "F#4 A#4e C#5e F#5d F#5e",
-   "ly": "en- ve- lop- pant son",
-   "rh": "F#6h F#5 r",
-   "lh": "A#2+C#3s E3s C#3s E3s F#3s E3s F#3s E3s A#2+C#3s E3s C#3s E3s F#3s E3s F#3s E3s"
-  },
-  {
-   "v": "G#5h F#5 re B4e",
-   "ly": "â- me, Tu",
-   "rh": "r B4+B5 D#5+D#6 F#5+F#6",
-   "lh": "B2+D#3s F#3s D#3s F#3s B3s F#3s B3s F#3s B2+D#3s F#3s D#3s F#3s B3s F#3s B3s F#3s"
-  },
-  {
-   "marks": [
-    "<",
-    "cresc.",
-    "col canto"
-   ],
-   "v": "B4h~ B4e A5e G5e F5e",
-   "ly": "fis a- vec a-",
-   "rh": "G5+G6h~ G5+G6e F5+F6e E5+E6e D5+D6e",
-   "lh": "G2+D3s F3s D3s F3s G3s F3s G3s F3s G2+D3s F3s D3s F3s G3s F3s G3s F3s",
-   "doubt": "Chant : arc B4 blanche -> B4 croche lu comme liaison (« fis___ »). Bécarres de précaution sur G/F (chant et piano) ; LH bécarre devant G2 (précaution). RH : arcs G5+G6 blanche -> croche lus comme liaisons."
-  },
-  {
-   "v": "E5d C5e D5e C5e A4e F#4e",
-   "ly": "mour é- pa- nou- ir la",
-   "rh": "C5+Bb5hd C5e D5e",
-   "lh": "A2+C3s E3s C3s E3s A3s E3s A3s E3s A2+C3s D3s C3s D3s F#3s D3s F#3s D3s",
-   "doubt": "RH : note supérieure Bb5 (tête blanche sur hampe commune) — point non visible, durée supposée = blanche pointée. LH 2e moitié : notes lues D3/F#3, petites têtes serrées."
-  },
-  {
-   "marks": [
-    "dim.",
-    "pp"
-   ],
-   "v": "G4 C5e E5e F5 B4e D5e",
-   "ly": "femme En cet an- ge des",
-   "rh": "E5e G4+G5e C5+C6e E5+E6e F5+F6 B4+B5e D5+D6e",
-   "lh": "G2+C3s E3s C3s E3s G3s E3s G3s E3s G2+D3s F3s D3s F3s G3s F3s G3s F3s",
-   "doubt": "Chant : les croches C5-E5 ont double hampe (crochets séparés en haut pour l'anglais, ligature + liaison en bas pour le français)."
-  },
-  {
-   "marks": [
-    "poco a poco dim.",
-    "<"
-   ],
-   "v": "C5h~ C5e re re C5e",
-   "ly": "cieux! C'est",
-   "rh": "C5+C6e re E4+E5 G4+G5 C5+C6e re",
-   "lh": "C3+E3* G3* C3+E3* G3*",
-   "doubt": "« poco a poco dim. » (chant) s'étend sur m.8-9. Soufflet < sous RH. LH : trémolo alterné blanches (dyade C3+E3 / G3, 3 barres) noté en noires * ; arc C5 blanche -> croche lu comme liaison."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "C5h~ C5e re r",
-   "ly": "là!",
-   "rh": "r E4+E5 Ab4+Ab5 C5+C6e re",
-   "lh": "C3+E3* Ab3* C3+E3* Ab3*",
-   "doubt": "LH : trémolo alterné (C3+E3 / Ab3) en blanches, noté en noires *."
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "C5h~ C5e re re C5e",
-   "ly": "oui, c'est",
-   "rh": "r E4+E5 G4+G5 C5+C6e re",
-   "lh": "C3+E3* G3* C3+E3* G3*",
-   "doubt": "LH : trémolo alterné (C3+E3 / G3), noté en noires *."
-  },
-  {
-   "marks": [
-    ">",
-    "molto"
-   ],
-   "v": "C5h~ C5e re re C5e",
-   "ly": "là! Sa-",
-   "rh": "r E4+E5 G4+G5 C5+C6e re",
-   "lh": "Bb2+E3* G3* Bb2+E3* G3*",
-   "doubt": "Soufflet > au-dessus du chant ; « molto » sous RH (suite de dim.). LH : basse lue Bb2 (sur la 2e ligne), non C3 comme m.8-10 ; trémolo alterné noté en noires *."
-  },
-  {
-   "marks": [
-    "dolce",
-    "pp",
-    "sempre cantabile",
-    "Ped."
-   ],
-   "v": "C5d C5e C5e Bb4e Eb5ed Bb4s",
-   "ly": "lut! de- meu- re chaste et",
-   "rh": "C5h C5e Bb4e Eb5ed Bb4s",
-   "lh": "Ab2e Eb3e Ab3e C4e Eb3+G3+Db4h",
-   "doubt": "Chant : petit signe rectangulaire (forme de silence) sur la 4e ligne après le C5 pointé, non transcrit."
-  },
-  {
-   "marks": [
-    "<",
-    ">"
-   ],
-   "v": "Bb4h Ab4 re Ab4e",
-   "ly": "pu- re, Sa-",
-   "rh": "Bb4 Eb4+Eb5d C5+C6e Bb4+Bb5e Ab4+Ab5e",
-   "lh": "Ab2e Eb3e G3e Db4e Eb3+Ab3+C4 E3+Ab3+C4"
-  },
-  {
-   "v": "Db5d Db5e Db5e C5e F5ed C5s",
-   "ly": "lut! de- meu- re chaste et",
-   "rh": "F5+F6 F4+F5hd",
-   "lh": "Db3e F3e Ab3e Db4e F3+A3+Eb4h",
-   "doubt": "Phrase continuée p.73 (« pu-re »). LH : bécarre devant A3 ; blanche sans point visible."
-  }
- ]
+"page": 4,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"dolce"
+],
+"v": "C5h D5e C5e A4e F4e",
+"ly": "Là que de ton ha-",
+"rh": "A5d G5e F5h~",
+"lh": "Bb2+Eb3s F3s Eb3s F3s A3s F3s A3s F3s Bb2+Eb3s F3s Eb3s F3s A3s F3s A3s F3s",
+"doubt": "Page imprimée 72 (p-4), début en cours de phrase. RH : arc F5 blanche -> F5 croche m.2 lu comme liaison de prolongation."
+},
+{
+"marks": [
+"<"
+],
+"v": "F5d D5e Bb4 r",
+"ly": "lei- _ ne",
+"rh": "F5e re Bb5 D6 F6",
+"lh": "B2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s B2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s",
+"doubt": "Soufflet < sous la portée de piano main droite."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "F#4 A#4e C#5e F#5d F#5e",
+"ly": "en- ve- lop- pant son",
+"rh": "F#6h F#5 r",
+"lh": "A#2+C#3s E3s C#3s E3s F#3s E3s F#3s E3s A#2+C#3s E3s C#3s E3s F#3s E3s F#3s E3s"
+},
+{
+"v": "G#5h F#5 re B4e",
+"ly": "â- me, Tu",
+"rh": "r B4+B5 D#5+D#6 F#5+F#6",
+"lh": "B2+D#3s F#3s D#3s F#3s B3s F#3s B3s F#3s B2+D#3s F#3s D#3s F#3s B3s F#3s B3s F#3s"
+},
+{
+"marks": [
+"<",
+"cresc.",
+"col canto"
+],
+"v": "B4h~ B4e A5e G5e F5e",
+"ly": "fis a- vec a-",
+"rh": "G5+G6h~ G5+G6e F5+F6e E5+E6e D5+D6e",
+"lh": "G2+D3s F3s D3s F3s G3s F3s G3s F3s G2+D3s F3s D3s F3s G3s F3s G3s F3s",
+"doubt": "Chant : arc B4 blanche -> B4 croche lu comme liaison (« fis___ »). Bécarres de précaution sur G/F (chant et piano) ; LH bécarre devant G2 (précaution). RH : arcs G5+G6 blanche -> croche lus comme liaisons."
+},
+{
+"v": "E5d C5e D5e C5e A4e F#4e",
+"ly": "mour é- pa- nou- ir la",
+"rh": "C5+Bb5hd C5e D5e",
+"lh": "A2+C3s E3s C3s E3s A3s E3s A3s E3s A2+C3s D3s C3s D3s F#3s D3s F#3s D3s",
+"doubt": "RH : note supérieure Bb5 (tête blanche sur hampe commune) — point non visible, durée supposée = blanche pointée. LH 2e moitié : notes lues D3/F#3, petites têtes serrées."
+},
+{
+"marks": [
+"dim.",
+"pp"
+],
+"v": "G4 C5e E5e F5 B4e D5e",
+"ly": "femme En cet an- ge des",
+"rh": "E5e G4+G5e C5+C6e E5+E6e F5+F6 B4+B5e D5+D6e",
+"lh": "G2+C3s E3s C3s E3s G3s E3s G3s E3s G2+D3s F3s D3s F3s G3s F3s G3s F3s",
+"doubt": "Chant : les croches C5-E5 ont double hampe (crochets séparés en haut pour l'anglais, ligature + liaison en bas pour le français)."
+},
+{
+"marks": [
+"poco a poco dim.",
+"<"
+],
+"v": "C5h~ C5e re re C5e",
+"ly": "cieux! C'est",
+"rh": "C5+C6e re E4+E5 G4+G5 C5+C6e re",
+"lh": "C3+E3* G3* C3+E3* G3*",
+"doubt": "« poco a poco dim. » (chant) s'étend sur m.8-9. Soufflet < sous RH. LH : trémolo alterné blanches (dyade C3+E3 / G3, 3 barres) noté en noires * ; arc C5 blanche -> croche lu comme liaison."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "C5h~ C5e re r",
+"ly": "là!",
+"rh": "r E4+E5 Ab4+Ab5 C5+C6e re",
+"lh": "C3+E3* Ab3* C3+E3* Ab3*",
+"doubt": "LH : trémolo alterné (C3+E3 / Ab3) en blanches, noté en noires *."
+},
+{
+"marks": [
+"dim."
+],
+"v": "C5h~ C5e re re C5e",
+"ly": "oui, c'est",
+"rh": "r E4+E5 G4+G5 C5+C6e re",
+"lh": "C3+E3* G3* C3+E3* G3*",
+"doubt": "LH : trémolo alterné (C3+E3 / G3), noté en noires *."
+},
+{
+"marks": [
+">",
+"molto"
+],
+"v": "C5h~ C5e re re C5e",
+"ly": "là! Sa-",
+"rh": "r E4+E5 G4+G5 C5+C6e re",
+"lh": "Bb2+E3* G3* Bb2+E3* G3*",
+"doubt": "Soufflet > au-dessus du chant ; « molto » sous RH (suite de dim.). LH : basse lue Bb2 (sur la 2e ligne), non C3 comme m.8-10 ; trémolo alterné noté en noires *."
+},
+{
+"marks": [
+"dolce",
+"pp",
+"sempre cantabile",
+"Ped."
+],
+"v": "C5d C5e C5e Bb4e Eb5ed Bb4s",
+"ly": "lut! de- meu- re chaste et",
+"rh": "C5h C5e Bb4e Eb5ed Bb4s",
+"lh": "Ab2e Eb3e Ab3e C4e Eb3+G3+Db4h",
+"doubt": "Chant : petit signe rectangulaire (forme de silence) sur la 4e ligne après le C5 pointé, non transcrit."
+},
+{
+"marks": [
+"<",
+">"
+],
+"v": "Bb4h Ab4 re Ab4e",
+"ly": "pu- re, Sa-",
+"rh": "Bb4 Eb4+Eb5d C5+C6e Bb4+Bb5e Ab4+Ab5e",
+"lh": "Ab2e Eb3e G3e Db4e Eb3+Ab3+C4 E3+Ab3+C4"
+},
+{
+"v": "Db5d Db5e Db5e C5e F5ed C5s",
+"ly": "lut! de- meu- re chaste et",
+"rh": "F5+F6 F4+F5hd",
+"lh": "Db3e F3e Ab3e Db4e F3+A3+Eb4h",
+"doubt": "Phrase continuée p.73 (« pu-re »). LH : bécarre devant A3 ; blanche sans point visible."
+}
+]
 }

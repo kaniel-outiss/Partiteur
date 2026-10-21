@@ -96,13 +96,14 @@
 },
 {
 "marks": [
-"Adagio.",
 "pp"
 ],
 "v": "F5h Eb5e re Eb4ed F4s",
 "ly": "cen- te et di-",
 "rh": "Ab5 Ab4~ Ab4e re Eb4+Ab4",
-"lh": "Eb3+Ab3+C4+Eb4h~ Eb3+Ab3+C4+Eb4e re Eb3+C4"
+"lh": "Eb3+Ab3+C4+Eb4h~ Eb3+Ab3+C4+Eb4e re Eb3+C4",
+"tempo": "Adagio",
+"bpm": 40
 },
 {
 "v": "G4h Eb5h",

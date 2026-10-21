@@ -1,111 +1,111 @@
 {
- "page": 3,
- "measures": [
-  {
-   "meter": "4/4",
-   "marks": [
-    "pp"
-   ],
-   "v": "F4e Db5e C5~ C5e^ re r",
-   "ly": "pau- vre- té!",
-   "rh": "Db5e F5e E5e re G5+C6~ G5+C6e re",
-   "lh": "Bb2+Db3+F3+Bb3 C3+E3+G3e re C5+E5~ C5+E5e re",
-   "doubt": "Page imprimée 71. Mesure complète en tête de page (suite de la p. 70). Point d'orgue sur le do lié (chant), sur l'accord sol-do (MD) et sur l'accord do-mi (MG, en clé de SOL après 'r' puis retour en clé de FA). Soufflet > au-dessus du chant. ♭ de précaution sur Db5 (MD)."
-  },
-  {
-   "v": "rh re C5e Db5e Bb4e",
-   "ly": "En ce ré-",
-   "rh": "r G4 Ab4 Bb4",
-   "lh": "E3w // r Bb3+Db4 Ab3+C4 G3+Bb3",
-   "doubt": "Soufflet < sous la MD. MG : mi♮3 ronde (bécarre imprimé) + voix supérieure d'accords à partir du 2e temps ; bémols de précaution sur Db4 et Ab3."
-  },
-  {
-   "marks": [
-    "dim.",
-    "col canto"
-   ],
-   "v": "Eb5d C5e Ab4e Eb4e Bb4ed Ab4s",
-   "ly": "duit, que de fé- li- ci-",
-   "rh": "C5 Eb4 F4 Eb4+G4",
-   "lh": "Eb3+Ab3+C4hd Eb3+G3+Db4",
-   "doubt": "MG 1er accord (blanche pointée, têtes creuses serrées avec bémol) : lu Eb3+Ab3+C4, lecture incertaine. Liaisons des derniers accords vers la mesure suivante = liaisons d'expression (hauteurs différentes), pas des tenues."
-  },
-  {
-   "v": "Ab4~ Ab4e re rh",
-   "ly": "té!",
-   "rh": "Eb4+Ab4e C5e Eb5e Ab5e C6e Eb6e Db6e G5e",
-   "lh": "Ab3+C4 C3+Eb3+Ab3 Eb3+Ab3+C4 Eb3+G3+Bb3+Db4",
-   "doubt": "Chant : arc entre la noire et la croche la♭ lu comme liaison de tenue (trait de prolongement après 'té!'). Croches MD en un seul groupe de 3 + 4 (barres épaisses)."
-  },
-  {
-   "v": "rw",
-   "ly": "",
-   "rh": "Bb5h Ab5 r",
-   "lh": "G3+Bb3+Db4h Ab3+C4 r // Eb3 Eb3 Ab3 r",
-   "doubt": "Soufflet > sous la MD. MG à deux voix : accord blanche (hampe haut) + mi♭ noires (hampe bas) ; Ab3 partagé au 3e temps."
-  },
-  {
-   "marks": [
-    "mf",
-    "p tranquillo"
-   ],
-   "v": "rh Eb5d G4e",
-   "ly": "Ô na-",
-   "rh": "rs Bb3s Eb4s G4s Bb4s Eb5s F5s Eb5s Bb5s G5s Eb5s Bb4s G4s Eb4s Bb3s G3s",
-   "lh": "Eb3+G3w",
-   "doubt": "Imprimé « O » (sans accent) — écrit « Ô ». mf au chant, p tranquillo au piano. 2e groupe : 3e double croche lue fa5 (sur la ligne), non sol5."
-  },
-  {
-   "v": "Bb4 Ab4 r F5",
-   "ly": "tu- re! c'est",
-   "rh": "rs C4s F4s Ab4s C5s F5s G5s F5s C6s Ab5s F5s C5s Ab4s F4s C4s Ab3s",
-   "lh": "Eb3+F3+Ab3w",
-   "doubt": "MG : ronde isolée décalée à gauche lue mi♭3 (seconde avec fa3), « 8 » = fa3+la♭3."
-  },
-  {
-   "v": "F5d F4e G4e Ab4e D5ed C5s",
-   "ly": "là que tu la fis si",
-   "rh": "rs D4s Ab4s Bb4s D5s F5s G5s F5s Bb5s Ab5s F5s D5s Bb4s Ab4s F4s D4s",
-   "lh": "Bb2+F3+Ab3w",
-   "doubt": "Ré♮ imprimés (chant et MD) ; valables toute la mesure."
-  },
-  {
-   "v": "C5h Bb4 re Eb5e",
-   "ly": "bel- le! C'est",
-   "rh": "Eb4s F#4s A4s C5s Eb5s D5s F5s Eb5s G5s Bb5s G5s Eb5s Bb4s G4s Eb4s G4s",
-   "lh": "Eb3+F#3+C4h Eb3+G3+Bb3 r",
-   "doubt": "MD 2e groupe : 3e double croche avec bécarre, tête lue fa5 (bécarre sur fa ? possible mi♮5) ; ré♮5 imprimé. MG : blanche Eb3 (décalé)+F#3+C4, arcs vers l'accord suivant (Eb3 probablement lié)."
-  },
-  {
-   "v": "Eb5h~ Eb5e D5e B4e G4e",
-   "ly": "là que cette en-",
-   "rh": "rs C4s Eb4s G4s F#4s G4s Ab4s G4s rs G4s B4s D5s C#5s D5s Eb5s D5s",
-   "lh": "C3+Eb3 r C3+F3 r",
-   "doubt": "Chant : « cette » imprimé sous une seule note (si♮). Arc blanche→croche mi♭ lu comme tenue. MG 2e accord : bécarre de précaution sur fa3 (après fa# m. 9)."
-  },
-  {
-   "v": "G4 C5e Eb5e G5 Eb5e C5e",
-   "ly": "fant a dor- mi sous ton",
-   "rh": "rs C4s Eb4s G4s F#4s G4s Ab4s G4s rs C4s Eb4s G4s Bb4s A4s C5s Bb4s",
-   "lh": "C3+Eb3 r Eb3+G3 r",
-   "doubt": "Soufflet < au-dessus du chant. MD : bécarre de précaution sur do4 (1er groupe), la♮4 et si♭ (♭ de précaution) au 4e groupe."
-  },
-  {
-   "v": "F5 Bb4e D5e F4 C5e A4e",
-   "ly": "aile, a gran- di sous tes",
-   "rh": "rs F4s Bb4s D5s G5s F5s Bb5s D5s Eb5s C5s A4s F4s Eb4s C4s F4s A3s",
-   "lh": "F3+Bb3+D4h F3+A3+Eb4 r",
-   "doubt": "« aile, » imprimé sous une seule note. MD 1re note : tête dans l'interligne fa4 avec bécarre (précaution après fa# m. 11) — mi♮4 possible. MG : ré♮4 et la♮3 imprimés ; fa3 probablement lié."
-  },
-  {
-   "marks": [
-    "dolce"
-   ],
-   "v": "Bb4h~ Bb4e re r",
-   "ly": "yeux.",
-   "rh": "Bb3e re D5 F5 Bb5",
-   "lh": "Bb2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s Bb2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s",
-   "doubt": "Arc blanche→croche si♭ lu comme tenue. MD : ré♮5 (bécarre imprimé). MG : bécarre de précaution sur ré3."
-  }
- ]
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"pp"
+],
+"v": "F4e Db5e C5~ C5e^ re r",
+"ly": "pau- vre- té!",
+"rh": "Db5e F5e E5e re G5+C6~ G5+C6e re",
+"lh": "Bb2+Db3+F3+Bb3 C3+E3+G3e re C5+E5~ C5+E5e re",
+"doubt": "Page imprimée 71. Mesure complète en tête de page (suite de la p. 70). Point d'orgue sur le do lié (chant), sur l'accord sol-do (MD) et sur l'accord do-mi (MG, en clé de SOL après 'r' puis retour en clé de FA). Soufflet > au-dessus du chant. ♭ de précaution sur Db5 (MD)."
+},
+{
+"v": "rh re C5e Db5e Bb4e",
+"ly": "En ce ré-",
+"rh": "r G4 Ab4 Bb4",
+"lh": "E3w // r Bb3+Db4 Ab3+C4 G3+Bb3",
+"doubt": "Soufflet < sous la MD. MG : mi♮3 ronde (bécarre imprimé) + voix supérieure d'accords à partir du 2e temps ; bémols de précaution sur Db4 et Ab3."
+},
+{
+"marks": [
+"dim.",
+"col canto"
+],
+"v": "Eb5d C5e Ab4e Eb4e Bb4ed Ab4s",
+"ly": "duit, que de fé- li- ci-",
+"rh": "C5 Eb4 F4 Eb4+G4",
+"lh": "Eb3+Ab3+C4hd Eb3+G3+Db4",
+"doubt": "MG 1er accord (blanche pointée, têtes creuses serrées avec bémol) : lu Eb3+Ab3+C4, lecture incertaine. Liaisons des derniers accords vers la mesure suivante = liaisons d'expression (hauteurs différentes), pas des tenues."
+},
+{
+"v": "Ab4~ Ab4e re rh",
+"ly": "té!",
+"rh": "Eb4+Ab4e C5e Eb5e Ab5e C6e Eb6e Db6e G5e",
+"lh": "Ab3+C4 C3+Eb3+Ab3 Eb3+Ab3+C4 Eb3+G3+Bb3+Db4",
+"doubt": "Chant : arc entre la noire et la croche la♭ lu comme liaison de tenue (trait de prolongement après 'té!'). Croches MD en un seul groupe de 3 + 4 (barres épaisses)."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "Bb5h Ab5 r",
+"lh": "G3+Bb3+Db4h Ab3+C4 r // Eb3 Eb3 Ab3 r",
+"doubt": "Soufflet > sous la MD. MG à deux voix : accord blanche (hampe haut) + mi♭ noires (hampe bas) ; Ab3 partagé au 3e temps."
+},
+{
+"marks": [
+"mf",
+"p tranquillo"
+],
+"v": "rh Eb5d G4e",
+"ly": "Ô na-",
+"rh": "rs Bb3s Eb4s G4s Bb4s Eb5s F5s Eb5s Bb5s G5s Eb5s Bb4s G4s Eb4s Bb3s G3s",
+"lh": "Eb3+G3w",
+"doubt": "Imprimé « O » (sans accent) — écrit « Ô ». mf au chant, p tranquillo au piano. 2e groupe : 3e double croche lue fa5 (sur la ligne), non sol5."
+},
+{
+"v": "Bb4 Ab4 r F5",
+"ly": "tu- re! c'est",
+"rh": "rs C4s F4s Ab4s C5s F5s G5s F5s C6s Ab5s F5s C5s Ab4s F4s C4s Ab3s",
+"lh": "Eb3+F3+Ab3w",
+"doubt": "MG : ronde isolée décalée à gauche lue mi♭3 (seconde avec fa3), « 8 » = fa3+la♭3."
+},
+{
+"v": "F5d F4e G4e Ab4e D5ed C5s",
+"ly": "là que tu la fis si",
+"rh": "rs D4s Ab4s Bb4s D5s F5s G5s F5s Bb5s Ab5s F5s D5s Bb4s Ab4s F4s D4s",
+"lh": "Bb2+F3+Ab3w",
+"doubt": "Ré♮ imprimés (chant et MD) ; valables toute la mesure."
+},
+{
+"v": "C5h Bb4 re Eb5e",
+"ly": "bel- le! C'est",
+"rh": "Eb4s F#4s A4s C5s Eb5s D5s F5s Eb5s G5s Bb5s G5s Eb5s Bb4s G4s Eb4s G4s",
+"lh": "Eb3+F#3+C4h Eb3+G3+Bb3 r",
+"doubt": "MD 2e groupe : 3e double croche avec bécarre, tête lue fa5 (bécarre sur fa ? possible mi♮5) ; ré♮5 imprimé. MG : blanche Eb3 (décalé)+F#3+C4, arcs vers l'accord suivant (Eb3 probablement lié)."
+},
+{
+"v": "Eb5h~ Eb5e D5e B4e G4e",
+"ly": "là que cette en-",
+"rh": "rs C4s Eb4s G4s F#4s G4s Ab4s G4s rs G4s B4s D5s C#5s D5s Eb5s D5s",
+"lh": "C3+Eb3 r C3+F3 r",
+"doubt": "Chant : « cette » imprimé sous une seule note (si♮). Arc blanche→croche mi♭ lu comme tenue. MG 2e accord : bécarre de précaution sur fa3 (après fa# m. 9)."
+},
+{
+"v": "G4 C5e Eb5e G5 Eb5e C5e",
+"ly": "fant a dor- mi sous ton",
+"rh": "rs C4s Eb4s G4s F#4s G4s Ab4s G4s rs C4s Eb4s G4s Bb4s A4s C5s Bb4s",
+"lh": "C3+Eb3 r Eb3+G3 r",
+"doubt": "Soufflet < au-dessus du chant. MD : bécarre de précaution sur do4 (1er groupe), la♮4 et si♭ (♭ de précaution) au 4e groupe."
+},
+{
+"v": "F5 Bb4e D5e F4 C5e A4e",
+"ly": "aile, a gran- di sous tes",
+"rh": "rs F4s Bb4s D5s G5s F5s Bb5s D5s Eb5s C5s A4s F4s Eb4s C4s F4s A3s",
+"lh": "F3+Bb3+D4h F3+A3+Eb4 r",
+"doubt": "« aile, » imprimé sous une seule note. MD 1re note : tête dans l'interligne fa4 avec bécarre (précaution après fa# m. 11) — mi♮4 possible. MG : ré♮4 et la♮3 imprimés ; fa3 probablement lié."
+},
+{
+"marks": [
+"dolce"
+],
+"v": "Bb4h~ Bb4e re r",
+"ly": "yeux.",
+"rh": "Bb3e re D5 F5 Bb5",
+"lh": "Bb2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s Bb2+D3s F3s D3s F3s Bb3s F3s Bb3s F3s",
+"doubt": "Arc blanche→croche si♭ lu comme tenue. MD : ré♮5 (bécarre imprimé). MG : bécarre de précaution sur ré3."
+}
+]
 }

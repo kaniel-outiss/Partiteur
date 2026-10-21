@@ -11,7 +11,8 @@
 "ly": "",
 "rh": "Eb5h Bb4h",
 "lh": "rw",
-"doubt": "Page imprimée 69 (titre « Faust (1859) — Salut! demeure chaste et pure — Cavatina », Gounod). Armure 4 bémols, C. MD : liaison Eb5→Bb4."
+"doubt": "Page imprimée 69 (titre « Faust (1859) — Salut! demeure chaste et pure — Cavatina », Gounod). Armure 4 bémols, C. MD : liaison Eb5→Bb4.",
+"bpm": 54
 },
 {
 "marks": [
@@ -101,7 +102,7 @@
 "f"
 ],
 "v": "G5 Eb5e C5e C5 Bb4e re",
-"ly": "O Mar- gue- ri- te!",
+"ly": "Ô Mar- gue- ri- te!",
 "rh": "Bb4+Bb5w",
 "lh": "Bb3+Eb4+G4w",
 "doubt": "Chant : G5 bécarre ; liaison C5 → Bb4. MG en clé de SOL : le bécarre semble porter sur G4 (aligné sur la ligne de sol), Eb4 sans altération — à vérifier (un E bécarre donnerait un accord de do 7). Clé de FA à la fin de la mesure. f au chant et au piano."

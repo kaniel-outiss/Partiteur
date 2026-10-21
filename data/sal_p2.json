@@ -1,145 +1,146 @@
 {
- "page": 2,
- "measures": [
-  {
-   "meter": "4/4",
-   "marks": [
-    "Larghetto.",
-    "p",
-    "cresc."
-   ],
-   "v": "rw",
-   "ly": "",
-   "rh": "Ab4+C5h Eb4+Bb4+Eb5 Ab4+C5+Ab5~",
-   "lh": "Eb3 Ab3 G3 Gb3 // Ab2w",
-   "doubt": "Liaison(s) de l'accord final vers m.2 (Ab5 sûr, Ab4 probable)."
-  },
-  {
-   "v": "rw",
-   "ly": "",
-   "rh": "Ab4+Db5+Ab5e Ab4e G4e F4e Eb4e Ab4e Eb5e Db5e // rh Eb4 Ab4",
-   "lh": "Ab2+F3 Bb2+Db3+G3 C3+Ab3 C4e Db4e // rh r F3",
-   "doubt": "RH voix inf. (Eb4, Ab4 hampes bas) : silences non imprimés ajoutés ; LH idem."
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "rw",
-   "ly": "",
-   "rh": "C5 Eb5~ Eb5e Bb4+Db5e Ab4+C5e G4+Bb4e // Ab4e Ab4e G4e F4e Eb4e re r",
-   "lh": "Eb4e C4+Eb4e Bb3+Db4e Ab3+C4e G3+Bb3e G3+Bb3e Ab3+C4e Bb3+Db4e // Eb3h Eb3h",
-   "doubt": "RH voix inf. : silences finaux non imprimés."
-  },
-  {
-   "v": "rh r re C5e",
-   "ly": "Sa-",
-   "rh": "Db4+G4+Bb4h C4+Ab4 r",
-   "lh": "Eb3e Eb2e Eb2e Eb2e Ab2 r",
-   "doubt": "Signe ondulé au début de la liaison RH (gruppetto ?)."
-  },
-  {
-   "marks": [
-    "dolce",
-    "pp"
-   ],
-   "v": "C5d C5e C5e Bb4e Eb5ed Bb4s",
-   "ly": "lut! de- meu- re chaste et",
-   "rh": "rw // C4h Db4h",
-   "lh": "Ab3h G3h // Ab2+Eb3w",
-   "doubt": "Petit signe au-dessus de la portée RH (fin de liaison ?)."
-  },
-  {
-   "v": "Bb4h Ab4 re Ab4e",
-   "ly": "pu- re, Sa-",
-   "rh": "r Eb4d C5e Bb4e Ab4e // Db4h C4h",
-   "lh": "G3h Ab3h // Eb3hd E3 // Ab2w"
-  },
-  {
-   "v": "Db5d Db5e Db5e C5e F5ed C5s",
-   "ly": "lut! de- meu- re chaste et",
-   "rh": "F5 F4h F4e re",
-   "lh": "Db3+F3+Ab3h F3+A3+Eb4h"
-  },
-  {
-   "v": "C5h Bb4 r",
-   "ly": "pu- re,",
-   "rh": "r F5~ F5e G5e Ab5e Bb5e",
-   "lh": "Bb2+Eb3+F3+A3h Bb2+Db3+F3+Bb3h",
-   "doubt": "F5 noire -> F5 croche : liaison de prolongation probable."
-  },
-  {
-   "v": "Bb4 Ab4e G4e F5e Eb5e Db5e Bb4e",
-   "ly": "où se de- vi- ne La pré-",
-   "rh": "Bb5 Eb5 r Eb5",
-   "lh": "Bb3h G3h // Db3+Eb3w"
-  },
-  {
-   "v": "Bb4 Ab4e C5e C5 D5e Eb5e",
-   "ly": "sen- ce d'une âme in- no-",
-   "rh": "Eb5d Ab4e A4e Eb5e D5e C5e",
-   "lh": "G3 Ab3 F3+A3+Eb4h // C3+Eb3h rh",
-   "doubt": "« d'une » imprimé sous une seule note. LH voix inf. : silence final non imprimé."
-  },
-  {
-   "v": "G4 D5e C5e Bb4h",
-   "ly": "cente et di- vi-",
-   "rh": "C5e Bb4e Bb3e Eb4e G4 F4 // rh Bb3+D4h",
-   "lh": "Eb3 G3 Ab3h // Bb2h Bb2h",
-   "doubt": "« cente » imprimé sous une seule note. RH voix inf. : silence initial non imprimé."
-  },
-  {
-   "v": "Eb4 r rh",
-   "ly": "ne!",
-   "rh": "Ab3+Eb4e re r re Eb4e Eb5e C5e",
-   "lh": "Eb3+G3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e"
-  },
-  {
-   "v": "re Eb5e F5e Eb5e Gb5d A4e",
-   "ly": "Que de ri- chesse en",
-   "rh": "Bb4 A4~ A4e A4e Bb4e C5e // Eb4hd Gb4",
-   "lh": "C4hd Eb4 // Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e",
-   "doubt": "RH temps 4 : accord Gb4+Bb4 (Gb4 hampe bas noté en voix inf.)."
-  },
-  {
-   "v": "A4e Bb4e C5e Db5e F4 r",
-   "ly": "cet- te pau- vre- té!",
-   "rh": "F4+F5 F4 re Db4e Db5e Bb4e",
-   "lh": "Db4h~ Db4e re r // Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e"
-  },
-  {
-   "v": "re Db5e Eb5e Db5e Fb5d G4e",
-   "ly": "En ce ré- duit, que",
-   "rh": "Ab4 G4~ G4e G4e Ab4e Bb4e // Db4hd Fb4",
-   "lh": "Bb3hd Db4 // Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e",
-   "doubt": "Fb5 (bémol sur la ligne de fa) au chant ; RH temps 4 : accord Fb4+Ab4."
-  },
-  {
-   "v": "G4e Ab4e Bb4e C5e Eb4 r",
-   "ly": "de fé- li- ci- té!",
-   "rh": "Eb4+Eb5 Eb4 re Ab4e C5e Eb5e",
-   "lh": "C4h~ C4e re r // Eb3e Eb3e Eb3e Eb3e Eb3e C4e Ab3e Eb3e",
-   "doubt": "LH voix sup. : silences après C4 non imprimés. Imprimé « fe-li-ci-té »."
-  },
-  {
-   "marks": [
-    "cresc. (soufflet)"
-   ],
-   "v": "re G#4e B4e E5e F#5 E5e re",
-   "ly": "Que de ri- ches- se,",
-   "rh": "E5 E4 re A4e C#5e E5e",
-   "lh": "D3+E3+G#3+B3h C#3+E3+A3 r",
-   "doubt": "Bécarre/dièse de E3 à la LH peu net (lu bécarre)."
-  },
-  {
-   "marks": [
-    "cresc. (soufflet)"
-   ],
-   "v": "re G4e Bb4e Eb5e F5e Eb5e C5e Ab4e",
-   "ly": "que de ri- chesse en cet- te",
-   "rh": "Eb5 Eb4 re Eb4e Ab4e C5e",
-   "lh": "Db3+Eb3+G3+Bb3h C3+Eb3+Ab3 r",
-   "doubt": "Phrase « cet-te pau-vre-té » continue p. 71."
-  }
- ]
+"page": 2,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"p",
+"cresc."
+],
+"v": "rw",
+"ly": "",
+"rh": "Ab4+C5h Eb4+Bb4+Eb5 Ab4+C5+Ab5~",
+"lh": "Eb3 Ab3 G3 Gb3 // Ab2w",
+"doubt": "Liaison(s) de l'accord final vers m.2 (Ab5 sûr, Ab4 probable).",
+"tempo": "Larghetto",
+"bpm": 50
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "Ab4+Db5+Ab5e Ab4e G4e F4e Eb4e Ab4e Eb5e Db5e // rh Eb4 Ab4",
+"lh": "Ab2+F3 Bb2+Db3+G3 C3+Ab3 C4e Db4e // rh r F3",
+"doubt": "RH voix inf. (Eb4, Ab4 hampes bas) : silences non imprimés ajoutés ; LH idem."
+},
+{
+"marks": [
+"dim."
+],
+"v": "rw",
+"ly": "",
+"rh": "C5 Eb5~ Eb5e Bb4+Db5e Ab4+C5e G4+Bb4e // Ab4e Ab4e G4e F4e Eb4e re r",
+"lh": "Eb4e C4+Eb4e Bb3+Db4e Ab3+C4e G3+Bb3e G3+Bb3e Ab3+C4e Bb3+Db4e // Eb3h Eb3h",
+"doubt": "RH voix inf. : silences finaux non imprimés."
+},
+{
+"v": "rh r re C5e",
+"ly": "Sa-",
+"rh": "Db4+G4+Bb4h C4+Ab4 r",
+"lh": "Eb3e Eb2e Eb2e Eb2e Ab2 r",
+"doubt": "Signe ondulé au début de la liaison RH (gruppetto ?)."
+},
+{
+"marks": [
+"dolce",
+"pp"
+],
+"v": "C5d C5e C5e Bb4e Eb5ed Bb4s",
+"ly": "lut! de- meu- re chaste et",
+"rh": "rw // C4h Db4h",
+"lh": "Ab3h G3h // Ab2+Eb3w",
+"doubt": "Petit signe au-dessus de la portée RH (fin de liaison ?)."
+},
+{
+"v": "Bb4h Ab4 re Ab4e",
+"ly": "pu- re, Sa-",
+"rh": "r Eb4d C5e Bb4e Ab4e // Db4h C4h",
+"lh": "G3h Ab3h // Eb3hd E3 // Ab2w"
+},
+{
+"v": "Db5d Db5e Db5e C5e F5ed C5s",
+"ly": "lut! de- meu- re chaste et",
+"rh": "F5 F4h F4e re",
+"lh": "Db3+F3+Ab3h F3+A3+Eb4h"
+},
+{
+"v": "C5h Bb4 r",
+"ly": "pu- re,",
+"rh": "r F5~ F5e G5e Ab5e Bb5e",
+"lh": "Bb2+Eb3+F3+A3h Bb2+Db3+F3+Bb3h",
+"doubt": "F5 noire -> F5 croche : liaison de prolongation probable."
+},
+{
+"v": "Bb4 Ab4e G4e F5e Eb5e Db5e Bb4e",
+"ly": "où se de- vi- ne La pré-",
+"rh": "Bb5 Eb5 r Eb5",
+"lh": "Bb3h G3h // Db3+Eb3w"
+},
+{
+"v": "Bb4 Ab4e C5e C5 D5e Eb5e",
+"ly": "sen- ce d'une âme in- no-",
+"rh": "Eb5d Ab4e A4e Eb5e D5e C5e",
+"lh": "G3 Ab3 F3+A3+Eb4h // C3+Eb3h rh",
+"doubt": "« d'une » imprimé sous une seule note. LH voix inf. : silence final non imprimé."
+},
+{
+"v": "G4 D5e C5e Bb4h",
+"ly": "cente et di- vi-",
+"rh": "C5e Bb4e Bb3e Eb4e G4 F4 // rh Bb3+D4h",
+"lh": "Eb3 G3 Ab3h // Bb2h Bb2h",
+"doubt": "« cente » imprimé sous une seule note. RH voix inf. : silence initial non imprimé."
+},
+{
+"v": "Eb4 r rh",
+"ly": "ne!",
+"rh": "Ab3+Eb4e re r re Eb4e Eb5e C5e",
+"lh": "Eb3+G3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e"
+},
+{
+"v": "re Eb5e F5e Eb5e Gb5d A4e",
+"ly": "Que de ri- chesse en",
+"rh": "Bb4 A4~ A4e A4e Bb4e C5e // Eb4hd Gb4",
+"lh": "C4hd Eb4 // Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e",
+"doubt": "RH temps 4 : accord Gb4+Bb4 (Gb4 hampe bas noté en voix inf.)."
+},
+{
+"v": "A4e Bb4e C5e Db5e F4 r",
+"ly": "cet- te pau- vre- té!",
+"rh": "F4+F5 F4 re Db4e Db5e Bb4e",
+"lh": "Db4h~ Db4e re r // Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e"
+},
+{
+"v": "re Db5e Eb5e Db5e Fb5d G4e",
+"ly": "En ce ré- duit, que",
+"rh": "Ab4 G4~ G4e G4e Ab4e Bb4e // Db4hd Fb4",
+"lh": "Bb3hd Db4 // Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e Eb3e",
+"doubt": "Fb5 (bémol sur la ligne de fa) au chant ; RH temps 4 : accord Fb4+Ab4."
+},
+{
+"v": "G4e Ab4e Bb4e C5e Eb4 r",
+"ly": "de fé- li- ci- té!",
+"rh": "Eb4+Eb5 Eb4 re Ab4e C5e Eb5e",
+"lh": "C4h~ C4e re r // Eb3e Eb3e Eb3e Eb3e Eb3e C4e Ab3e Eb3e",
+"doubt": "LH voix sup. : silences après C4 non imprimés. Imprimé « fe-li-ci-té »."
+},
+{
+"marks": [
+"cresc. (soufflet)"
+],
+"v": "re G#4e B4e E5e F#5 E5e re",
+"ly": "Que de ri- ches- se,",
+"rh": "E5 E4 re A4e C#5e E5e",
+"lh": "D3+E3+G#3+B3h C#3+E3+A3 r",
+"doubt": "Bécarre/dièse de E3 à la LH peu net (lu bécarre)."
+},
+{
+"marks": [
+"cresc. (soufflet)"
+],
+"v": "re G4e Bb4e Eb5e F5e Eb5e C5e Ab4e",
+"ly": "que de ri- chesse en cet- te",
+"rh": "Eb5 Eb4 re Eb4e Ab4e C5e",
+"lh": "Db3+Eb3+G3+Bb3h C3+Eb3+Ab3 r",
+"doubt": "Phrase « cet-te pau-vre-té » continue p. 71."
+}
+]
 }
