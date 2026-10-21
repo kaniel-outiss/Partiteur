@@ -113,7 +113,7 @@ def add_air(prefix, meta, bpm, voice):
     ms = clean(pages(prefix))
     if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
     T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
-    W.append(dict(meta, id=meta['id'], ks=0, bpm=bpm, measures=ms, text=place_phrases(T, ms) if T else None,
+    W.append(dict(dict({'ks': 0}, **meta), bpm=bpm, measures=ms, text=place_phrases(T, ms) if T else None,
                   parts=[dict(voice, id='v', kind='voice', clef='F', oct=0), {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}]))
 add_air('cal', {'id': 'rossini-calunnia', 'title': 'La calunnia è un venticello', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
                 'role': 'Don Basilio', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 57-65'},
@@ -121,6 +121,9 @@ add_air('cal', {'id': 'rossini-calunnia', 'title': 'La calunnia è un venticello
 add_air('npa', {'id': 'mozart-non-piu-andrai', 'title': 'Non più andrai', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
                 'role': 'Figaro', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 272-280'},
         132, {'name': 'Figaro (baryton-basse)', 'short': 'Fig.', 'vt': 'Bar'})
+add_air('zim', {'id': 'puccini-vecchia-zimarra', 'title': 'Vecchia zimarra, senti', 'composer': 'Giacomo Puccini', 'work': 'La Bohème, acte IV',
+                'role': 'Colline', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 4, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 86-87'},
+        66, {'name': 'Colline (basse)', 'short': 'Col.', 'vt': 'B'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
