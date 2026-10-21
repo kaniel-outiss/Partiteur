@@ -47,6 +47,8 @@ def clean(ms):
     # indications d'articulation non encodées (staccato) : pas de texte parasite sur la portée
     for m in ms:
         if 'marks' in m: m['marks'] = [k for k in m['marks'] if not re.match(r'^(stacc|stacc\.|staccato|tr)$', k.strip(), re.I)]
+        # élision écrite « ste_ed » → « ste‿ed » (le « _ » seul reste un mélisme)
+        if m.get('ly'): m['ly'] = ' '.join(re.sub(r'(?<=\w)_(?=\w)', '‿', w) for w in m['ly'].split())
     return ms
 def place(T, ms):
     i0, out = 0, []
@@ -89,7 +91,7 @@ def place_phrases(T, ms):
             if all(S[j + q][0].startswith(k[q]) for q in range(len(k))):
                 used.add(j); L['m'] = S[j][1]; out.append(L); break
     T['lines'] = sorted(out, key=lambda L: L['m']); return T
-if os.path.exists('data/fig_p1.json'):
+if all(os.path.exists('data/fig_p%d.json' % k) for k in range(1, 12)):  # n'inclure l'air qu'une fois complet
     fg = clean(pages('fig'))
     if fg and not fg[0].get('bpm'): fg[0]['bpm'] = 192  # Allegro vivace : noire pointée ≈ 128
     W.append({'id': 'rossini-largo', 'title': 'Largo al factotum', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
