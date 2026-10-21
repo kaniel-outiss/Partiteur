@@ -1,0 +1,143 @@
+{
+"page": 5,
+"measures": [
+{
+"meter": "4/4",
+"v": "C5h Bb4 r",
+"ly": "pu- re",
+"rh": "F4+F5e re F4+F5d G4+G5e Ab4+Ab5e Bb4+Bb5e",
+"lh": "C3+Eb3e F3e A3e C4e F3+Bb3+Db4 Fb3+Bb3+Db4",
+"doubt": "p. imprimée 73. RH : accord F4+F5 lié depuis la page précédente ; soufflets < > sous la portée RH ; bémols de précaution imprimés sur Ab4/Ab5. LH : bémol imprimé sur le F3 du dernier accord (Fb3), bécarre de précaution sur F3 à la mesure suivante."
+},
+{
+"marks": [
+"molto cresc.",
+"cresc."
+],
+"v": "Bb4 Ab4e G4e F5e Eb5e Db5e Bb4e",
+"ly": "où se de- vi- ne La pré-",
+"rh": "Bb4+Bb5 Eb4+Eb5 r Eb4+Eb5",
+"lh": "Db3w // Db3e Eb3e G3e Bb3e F3 G3",
+"doubt": "LH : ronde Db3 + voix supérieure commençant aussi sur Db3 ; bécarre de précaution sur F3."
+},
+{
+"v": "Bb4 Ab4e Ab4e Ab5 G5e F5e",
+"ly": "sen- ce d'une âme in- no-",
+"rh": "Eb5+Eb6 Ab4+Ab5~ Ab4+Ab5e Ab5e G5e F5e",
+"lh": "C3e Eb3e Ab3e C4e Bb3+D4h",
+"doubt": "LH : bécarre imprimé sur D4 (blanche Bb3+D4)."
+},
+{
+"marks": [
+"dim.",
+"pp"
+],
+"v": "Eb5 Eb4e C5e C5 Bb4",
+"ly": "cente et di- vi- _",
+"rh": "Eb5e C5e Ab4e Eb4e F4 G4",
+"lh": "Ab3+C4h Eb3+Db4+Eb4h",
+"doubt": "Chant : soufflet decresc. sur la fin de mesure ; C5–Bb4 liés (legato). LH : bémol de précaution sur Db4."
+},
+{
+"marks": [
+"dolce"
+],
+"v": "Ab4 r r re C5e",
+"ly": "ne! Sa-",
+"rh": "Ab4e re C6 Bb5e Ab5e Eb5e F5e",
+"lh": "gAb2 Ab3+C4* Eb4* Ab3+C4* Eb4*",
+"doubt": "LH : petite note barrée Ab2 ; trémolos alternés (blanches liées par barres) codés noire*+noire*."
+},
+{
+"v": "Eb5h~ Eb5e re re Eb5e",
+"ly": "lut! Sa-",
+"rh": "G5e Eb5e Bb4e C5e Db5h",
+"lh": "Ab3+Bb3+Db4* Eb4* Ab3+Bb3+Db4* Eb4*",
+"doubt": "LH trémolos alternés codés noire*+noire*."
+},
+{
+"v": "Ab5d C5e C5e C5e Bb4e Ab4e",
+"ly": "lut! de- meu- re chaste et",
+"rh": "C5e Ab4e Eb4e F4e Gb4h",
+"lh": "Ab3+C4* Eb4* Ab3+C4* Eb4*",
+"doubt": "LH trémolos alternés codés noire*+noire*."
+},
+{
+"v": "F5h Eb5h",
+"ly": "pu- _",
+"rh": "F4e Bb4e D5e F5e Eb5e G5e Bb5e Db6e",
+"lh": "Ab3+Bb3* D4* Ab3+Bb3+Db4* Eb4*",
+"doubt": "RH : bécarres imprimés sur D5 et G5, bémol sur Db6 ; soufflet cresc. sous la portée. LH : bécarre sur D4 (1er trémolo), bémol sur Db4 (2e)."
+},
+{
+"v": "C5 r rh",
+"ly": "re,",
+"rh": "C6e Eb6e D6e Db6e C6e Bb5e Ab5e F5e",
+"lh": "Ab2e Ab3+C4t Eb4t Ab3+C4t Eb4t Ab3+C4t Eb4t Ab3+C4t Eb4t Ab3+C4t Eb4t Ab3+C4t Eb4t Ab3+C4* Eb4*",
+"doubt": "RH : bécarre sur D6 puis bémol sur Db6 ; soufflets sous la portée. LH : groupes à 3 barres lus comme triples croches (3 groupes = 1,5 temps), puis trémolo alterné blanche codé noire*+noire*."
+},
+{
+"v": "Eb5 Eb5e Eb5e F5e Eb5e D5e Eb5e",
+"ly": "où se de- vi- ne La pré-",
+"rh": "G5e Eb5e Bb4e C5e Db5 G4",
+"lh": "Ab3+Bb3+Db4* Eb4* Ab3+Bb3+Db4* Eb4*",
+"doubt": "Chant : bécarre imprimé sur D5."
+},
+{
+"marks": [
+"rit. molto",
+"col canto"
+],
+"v": "C6^ Ab5e Eb5e D5 Ab5e D5e",
+"ly": "sen- ce d'une âme in- no-",
+"rh": "Ab4d^ C5e Bb4e D5e F5e Ab5e",
+"lh": "Ab3+C4+Eb4h^ F3+Ab3+Bb3+D4h",
+"doubt": "Chant : bécarre sur le 1er D5, le 2e D5 (sans signe) reste bécarre par la règle de la mesure. RH : bécarre sur D5. LH : bécarre sur D4."
+},
+{
+"marks": [
+"Adagio.",
+"pp"
+],
+"v": "F5h Eb5e re Eb4ed F4s",
+"ly": "cen- te et di-",
+"rh": "Ab5 Ab4~ Ab4e re Eb4+Ab4",
+"lh": "Eb3+Ab3+C4+Eb4h~ Eb3+Ab3+C4+Eb4e re Eb3+C4"
+},
+{
+"v": "G4h Eb5h",
+"ly": "vi- _",
+"rh": "Eb4+G4 Eb4 Eb4+F4 Eb4+G4",
+"lh": "Eb3w // Bb3+Db4 Db4 C4+Db4 Bb3+Db4",
+"doubt": "LH : deux voix (Db4 hampe haut à chaque temps + Bb3/Db4/C4/Bb3 hampe bas) fusionnées en accords sur la ronde Eb3."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "Ab4 r rh",
+"ly": "ne!",
+"rh": "C4+Ab4e C5e Eb5e Ab5e C5+C6e Eb5+Eb6e Db5+Db6e G4+G5e",
+"lh": "Ab2+Ab3 C3+Eb3+Ab3 Eb3+Ab3+C4 Eb3+Bb3+Db4",
+"doubt": "Soufflet cresc. sous la portée RH."
+},
+{
+"marks": [
+"pp"
+],
+"v": "rw",
+"ly": "",
+"rh": "Bb4+Bb5h Ab4+Ab5e B5e C6e D6e",
+"lh": "Eb3+G3+Bb3+Db4h Ab2+Eb3+C4h!~",
+"doubt": "RH : bécarres imprimés sur B5 et D6 ; Bb4+Bb5 lié (legato) à Ab4+Ab5. LH : 2e accord arpégé, lié à la mesure suivante."
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "Eb6e Ab6e C7e Eb7e Ab7~ Ab7e re",
+"lh": "Ab2+Eb3+C4h~ Ab2+Eb3+C4~ Ab2+Eb3+C4e re",
+"doubt": "RH : « 8 - - - » imprimé sur toute la mesure (notes écrites transcrites, sonnent à l'octave supérieure). Double barre finale. « 8va » appliqué : notes de la MD une octave plus haut."
+}
+]
+}
