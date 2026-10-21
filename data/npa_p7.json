@@ -1,0 +1,87 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "f"
+   ],
+   "v": "G3e G3e r r C4e A3e",
+   "ly": "chi- ni, non più_a-",
+   "rh": "D6s C6s B5s A5s G5s F#5s E5s D5s C5s B4s A4s G4s F#4e re",
+   "lh": "G3e B3+D4e B3+D4e B3+D4e D3e F#3+A3+C4+D4e F#3+A3+C4+D4e F#3+A3+C4+D4e",
+   "doubt": "mesure 71 : 1re mesure de la page, suite de la page précédente"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "G3 r r C4e A3e",
+   "ly": "vrai quel cap-",
+   "rh": "D6s C6s B5s A5s G5s F#5s E5s D5s C5s B4s A4s G4s F#4e re",
+   "lh": "G3e B3+D4e B3+D4e B3+D4e D3e F#3+A3+C4+D4e F#3+A3+C4+D4e F#3+A3+C4+D4e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "G3e G3e r r C4e A3e",
+   "ly": "pel- lo, non più_a-",
+   "rh": "D6s C6s B5s A5s G5s F#5s E5s D5s C5s B4s A4s G4s F#4e re",
+   "lh": "G3e B3+D4e B3+D4e B3+D4e D3e F#3+A3+C4+D4e F#3+A3+C4+D4e F#3+A3+C4+D4e"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "G3 r r C4e A3e",
+   "ly": "vrai quel- la",
+   "rh": "D6s C6s B5s A5s G5s F#5s E5s D5s C5s B4s A4s G4s F#4e re",
+   "lh": "G3e B3+D4e B3+D4e B3+D4e D3e F#3+A3+C4+D4e F#3+A3+C4+D4e F#3+A3+C4+D4e"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "G3e G3e r r C4e A3e",
+   "ly": "chio- ma, non più_a-",
+   "rh": "D6s C6s B5s A5s G5s F#5s E5s D5s C5s B4s A4s G4s F#4e re",
+   "lh": "G3e B3+D4e B3+D4e B3+D4e D3e F#3+A3+C4+D4e F#3+A3+C4+D4e F#3+A3+C4+D4e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "G3 re G3e A3 C4e A3e",
+   "ly": "vrai quel- l'a- ria bri-",
+   "rh": "D6s C6s B5s A5s G5s F#5s E5s D5s C5s B4s A4s G4s F#4e re",
+   "lh": "G3e B3+D4e B3+D4e B3+D4e D3e F#3+A3+C4+D4e F#3+A3+C4+D4e F#3+A3+C4+D4e"
+  },
+  {
+   "marks": [
+    "p",
+    "p (2e temps, piano)"
+   ],
+   "v": "G3 G3h^ G3ed G3s",
+   "ly": "lan- te. Non più_an-",
+   "rh": "C4+E4+G4h r^ G5ed G5s",
+   "lh": "G2+G3h r^ E4e G3e"
+  },
+  {
+   "marks": [],
+   "v": "E3 G3ed G3s E3 G3ed G3s",
+   "ly": "drai, far- fal- lo- ne_a- mo-",
+   "rh": "E5e re G5ed G5s E5e re G5ed G5s",
+   "lh": "C4e G3e E4e G3e C4e G3e E4e G3e // C3 r C3 r"
+  },
+  {
+   "marks": [
+    "stacc. sur les accords MD"
+   ],
+   "v": "F3 D3 r F3ed F3s",
+   "ly": "ro- so, not- te_e",
+   "rh": "gG5 F5e E5s F5s G4+B4+D5 G4+B4+D5 F5ed F5s",
+   "lh": "G3+D4e G3e B3e D4e F4e G3e D4e G3e"
+  }
+ ]
+}

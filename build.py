@@ -46,7 +46,15 @@ def pages(prefix):
 def clean(ms):
     # indications d'articulation non encodées (staccato) : pas de texte parasite sur la portée
     for m in ms:
-        if 'marks' in m: m['marks'] = [k for k in m['marks'] if not re.match(r'^(stacc|stacc\.|staccato|tr)$', k.strip(), re.I)]
+        if 'marks' in m:
+            mk = []
+            for k in m['marks']:
+                k = k.strip()
+                if re.search(r'stacc|^tr$|^armure', k, re.I): continue
+                d = re.match(r'^(pppp|ppp|pp|p|mp|mf|ffff|fff|ff|f|sfz|sf|fp|rfz|rf)\s*\(', k)  # « p (2e temps…) » → « p »
+                if d: k = d.group(1)
+                if k not in mk: mk.append(k)
+            m['marks'] = mk
         # élision écrite « ste_ed » → « ste‿ed » (le « _ » seul reste un mélisme)
         if m.get('ly'): m['ly'] = ' '.join(re.sub(r'(?<=\w)_(?=\w)', '‿', w) for w in m['ly'].split())
     return ms
