@@ -1,0 +1,101 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "6/8",
+   "marks": [],
+   "v": "Bb4e Db5e Bb4e C5e D5e Eb5e",
+   "ly": "cie- _ lo vor- rei ri-",
+   "rh": "Bb4e Db5e Bb4e C5e D5e Eb5e // F4ed* E4ed* F4ed* E4ed*",
+   "lh": "F3e Bb3e F3e A3e Bb3e C4e",
+   "doubt": "Page imprimée 31, mesures 43-52. Mesure en 6/8 (changement en 6/8 à la m. 27, p. 29) et non 4/4 comme le suppose le guide. Voix inférieure MD : trémolos mesurés à deux notes (fa/mi♮) écrits en noires pointées, chaque paire = une noire pointée → transcrits F4ed* E4ed*."
+  },
+  {
+   "marks": [],
+   "v": "Db5 Bb4e F5e F5e Gb5e",
+   "ly": "dar- ti, le dol- ci",
+   "rh": "Db5 Bb4e F5 Gb5e // F4ed* E4ed* F4ed* E4ed*",
+   "lh": "Bb3 F3e Db4 Eb4e",
+   "doubt": "Accent sur Gb5 (chant et MD). Eb4 MG : bémol de précaution imprimé."
+  },
+  {
+   "marks": [],
+   "v": "F5e Eb5e Db5e Eb5e Db5e C5e",
+   "ly": "brez- ze del pa- _ trio",
+   "rh": "F5e Eb5e Db5e Eb5e Db5e C5e // F4ed* E4ed* F4ed* E4ed*",
+   "lh": "Db4e C4e Bb3e C4e Bb3e A3e"
+  },
+  {
+   "marks": [
+    "ten.",
+    "animando un poco"
+   ],
+   "v": "Db5d Db5e C5e Bb4e",
+   "ly": "suol; un re- gal",
+   "rh": "Db5hd // F4t E4t F4t E4t F4t E4t F4t E4t F4t E4t F4t Bb4t Bb4e re re",
+   "lh": "Bb3d G2+G3s G3+Bb3+Db4s G3+Bb3+Db4s G3+Bb3+Db4s G3+Bb3+Db4s G3+Bb3+Db4s",
+   "doubt": "« animando un poco » suivi d'une ligne de prolongation jusqu'à la m. 47. Accords MG piqués (staccato) sous liaison. Bb3 MG lié depuis la mesure précédente (arc)."
+  },
+  {
+   "marks": [],
+   "v": "Db5 Ab4e F5e Eb5e Db5e",
+   "ly": "ser- to sul crin po-",
+   "rh": "Db5d F5d // Ab4t G4t Ab4t G4t Ab4t G4t Ab4t G4t Ab4t G4t Ab4t Db5t Db5e re re",
+   "lh": "F2+F3s F3+Ab3+Db4s F3+Ab3+Db4s F3+Ab3+Db4s F3+Ab3+Db4s F3+Ab3+Db4s Bb2+Bb3s Bb3+Db4+F4s Bb3+Db4+F4s Bb3+Db4+F4s Bb3+Db4+F4s Bb3+Db4+F4s",
+   "doubt": "Soufflet < (crescendo) au-dessus du chant et sous la MD. Accent sur F5 (MD). Ré du dernier temps (chant Db5, MG Bb3+Db4+F4) : aucune altération imprimée, bémol de début de mesure reporté — vérifier (ré♮ possible). Accords MG piqués."
+  },
+  {
+   "marks": [
+    "con entusiasmo"
+   ],
+   "v": "F5 C5e F5e G5e A5e",
+   "ly": "sar- ti, er- ger- ti‿un",
+   "rh": "F5d F4+F5e G4+G5e A4+A5e // C5t B4t C5t B4t C5t B4t C5t B4t C5t B4t C5t F5t rd",
+   "lh": "A2+A3s A3+C4+F4s A3+C4+F4s A3+C4+F4s A3+C4+F4s A3+C4+F4s D2+D3s D4+F4s D4+F4s D4+F4s D4+F4s D4+F4s",
+   "doubt": "Bécarres de précaution sur A2/A3 et D2/D3 (MG). Soufflet < sous la MD (2e moitié). Silence rd de la voix inférieure MD non imprimé (ajouté). Accords MG piqués."
+  },
+  {
+   "len": 4,
+   "marks": [
+    "f",
+    "col canto"
+   ],
+   "v": "Bb5d~ Bb5e A5e G5e D5ed E5s^",
+   "ly": "tro no vi- ci- no‿al",
+   "rh": "Bb5d Bb4+Bb5e re^ re r // Bb4s Bb4s Bb4s Bb4s Bb4s Bb4s rd r",
+   "lh": "G3+D4+F4s G3+D4+F4s G3+C#4+E4s G3+C#4+E4s G3+D4+F4s G3+D4+F4s C3+G3+Bb3+E4e! re^ re r",
+   "doubt": "Mesure libre : le chant imprimé fait 4 noires (Bb5 noire pointée liée à Bb5 croche, A5 G5 croches, D5 croche pointée, E5♮ double croche avec point d'orgue) alors que le piano fait 6/8 (3 noires) avec point d'orgue sur le silence et « col canto » → len 4 ; la noire de silence finale MD/MG est AJOUTÉE (non imprimée) pour absorber l'excédent. Arc Bb5–Bb5 lu comme liaison de prolongation. Bb4 MD : bémol de précaution. Accords MG piqués ; dernier accord arpégé, do3 avec bécarre de précaution. f imprimé au chant et au piano."
+  },
+  {
+   "marks": [
+    "p",
+    "leggerissime",
+    "oppure"
+   ],
+   "v": "F5hd",
+   "ly": "sol.",
+   "rh": "F4+A4+C5+F5s A4+C5+Eb5+F#5s A4+C5+Eb5+F#5s Bb4+C5+Eb5+G5s Bb4+C5+Eb5+G5s F#4+C5+Eb5+A5s F#4+C5+Eb5+A5s G4+C#5+E5+Bb5s G4+C#5+E5+Bb5s G#4+D5+F5+B5s G#4+D5+F5+B5s A4+Eb5+Gb5+C6s",
+   "lh": "F2+C3+A3s! rs re r r",
+   "doubt": "Petite portée « oppure » (ossia) au-dessus : variante « sol; ah! » (F5 double croche, soupir de double, F5 noire liée à F5 noire pointée, soufflet) — non transcrite. MD : deux voix fusionnées en accords de doubles croches piquées ; 7e position F#4 = fa# reporté (pas d'altération imprimée), à vérifier. F5 et B5 de la 10e position : bécarres imprimés. MG : seul accord arpégé en double croche, aucun silence imprimé pour le reste de la mesure (silences ajoutés)."
+  },
+  {
+   "marks": [
+    "pp",
+    "espress."
+   ],
+   "v": "F4d G4e A4e Bb4e",
+   "ly": "Ce- le- _ ste‿A-",
+   "rh": "D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s",
+   "lh": "Bb2+D3+F3d G3e A3e Bb3e // Bb2+D3+F3e re re r re",
+   "doubt": "« espress. » avec ligne de prolongation jusqu'à la m. 52. Accords MD piqués. MG : accord commun aux deux voix (hampe haut noire pointée, hampe bas croche)."
+  },
+  {
+   "marks": [],
+   "v": "C5d F5~ F5s rs",
+   "ly": "i- da",
+   "rh": "Eb5+A5+D6s Eb5+A5+C6s Eb5+A5+C6s Eb5+A5+B5s Eb5+A5+B5s Eb5+A5+C6s Eb5+A5+C6s D5+A5+D6s D5+A5+D6s A5+C6+Eb6s A5+C6+Eb6s A5+C#6+E6s",
+   "lh": "F3+A3+C4d F4~ F4s rs // F3+A3+C4e re re r re",
+   "doubt": "B5 MD avec bécarre imprimé (4e position) ; dernière position C#6 et E6♮ imprimés. Arc F5–F5 (chant) et F4–F4 (MG) lus comme liaisons de prolongation. MG : accord commun aux deux voix. L'air continue page suivante."
+  }
+ ]
+}
