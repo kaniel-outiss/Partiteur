@@ -1,0 +1,211 @@
+{
+"page": 9,
+"measures": [
+{
+"meter": "3/8",
+"marks": [
+"Larghetto (Tempo I)",
+"p"
+],
+"v": "re re A3e",
+"ly": "But",
+"rh": "re re A3+E4+A4e",
+"lh": "D2e D3e C#3e",
+"doubt": "Lettre de repère F imprimée au-dessus du système."
+},
+{
+"v": "D3ed E3s C#3e",
+"ly": "who may a-",
+"rh": "D4ed E4s C#4e // A3 A3e",
+"lh": "F3 E3e // D3e F2e A2e",
+"doubt": "MD : liaison sur le groupe. MG : accord ré3+fa3 à double hampe (fa3 hampe haut, ré3 hampe bas vers la ligature)."
+},
+{
+"v": "D3 A3e",
+"ly": "bide the",
+"rh": "F3+A3+D4 E4+A4e",
+"lh": "D2+D3ed E2+E3s C#2+C#3e",
+"doubt": "MD : 3e croche la4 hampe haut / mi4 hampe bas (deux hampes), réunies ici en accord. MG : liaison sous le groupe."
+},
+{
+"v": "Bb3ed C4s Bb3e",
+"ly": "day of His",
+"rh": "Bb4ed C5s Bb4e // F4 G4e",
+"lh": "D2+D3 E2+E3e",
+"doubt": "MD : bécarre de précaution imprimé devant do5. Liaison sur le groupe."
+},
+{
+"marks": [
+"mf"
+],
+"v": "A3e D3e re",
+"ly": "com- ing?",
+"rh": "A4e D4e A5e // D4e re A4+D5e",
+"lh": "F2+F3 F2+F3e",
+"doubt": "MD : liaison sur la4-ré4."
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "D5ed E5s A4+C#5e // G4e Bb4e E4e",
+"lh": "Bb2+Bb3e G2+G3e A2+A3e",
+"doubt": "MD : liaison sur le groupe."
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "D5 A5e // D4+A4 F5e",
+"lh": "F2+F3ed E2+E3s D2+D3e",
+"doubt": "MD : 3e croche fa5+la5 à double hampe (la5 hampe haut, fa5 hampe bas)."
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "Bb5ed C6s G5+Bb5e // F5e E5e C5e",
+"lh": "G2+G3e C2+C3e E2+E3e",
+"doubt": "MD : liaison sur le groupe."
+},
+{
+"marks": [
+"p"
+],
+"v": "re re D4e",
+"ly": "and",
+"rh": "C5+F5+A5e A4e F4+D5e",
+"lh": "F2+F3ed E2+E3s D2+D3e",
+"doubt": "MD : liaison de l'accord vers ré5 ; ré5 hampe haut, fa4 hampe bas."
+},
+{
+"v": "C4 Bb3e",
+"ly": "who shall",
+"rh": "C5 Bb4e // E4 F4e",
+"lh": "A2+A3 D3+D4e",
+"doubt": "MD : petit point après do5 (tache ou point d'augmentation ? un do5 pointé déborderait la mesure) — ignoré."
+},
+{
+"v": "A3 G3e",
+"ly": "stand, and",
+"rh": "A4 G4e // E4 D4e",
+"lh": "C3+C4 Bb2+Bb3e"
+},
+{
+"v": "F3 E3sd D3t",
+"ly": "who shall _",
+"rh": "F4 E4sd D4t // D4 C#4e",
+"lh": "A2+A3 G2+G3e",
+"doubt": "Chant et MD : liaison sur mi-ré (croche pointée de double + triple croche)."
+},
+{
+"v": "D3 D3e",
+"ly": "stand when",
+"rh": "D4 D4e // A3 Bb3e",
+"lh": "F2+F3 G2+G3e"
+},
+{
+"v": "G3 F3e",
+"ly": "He ap-",
+"rh": "E4+G4 D4+F4e // A3 A3e",
+"lh": "C#2+C#3 D2+D3e"
+},
+{
+"marks": [
+"f"
+],
+"v": "F3e E3e re",
+"ly": "pear- eth?",
+"rh": "D4+F4e C#4+E4e A5e // A3 A4+D5e",
+"lh": "A1+A2 F2+F3e",
+"doubt": "« peareth? » imprimé d'un bloc sous fa3-mi3 ; découpage pear-/eth? supposé. f imprimé au 3e temps (entre les portées du piano)."
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "C#5ed E5s D5e // E4+G4 G4e",
+"lh": "Bb2+Bb3 Bb1+Bb2e",
+"doubt": "MD : liaison sur le groupe."
+},
+{
+"v": "re re A3e",
+"ly": "when",
+"rh": "C#5+E5e A4e A4e~ // E4 F4e",
+"lh": "A1+A2e C#2+C#3e D2+D3e",
+"doubt": "MD : la4 lié à la mesure suivante."
+},
+{
+"v": "D4e^ G3",
+"ly": "He ap-",
+"rh": "A4e G4^ // D4d^",
+"lh": "Bb1+Bb2d^",
+"doubt": "Points d'orgue sur ré4 (chant), sol4 et ré4 (MD), basses (MG). MD : la4 lié depuis la mesure précédente."
+},
+{
+"v": "A3s G3s A3e re",
+"ly": "pear- _ eth?",
+"rh": "A4 A4e // C#4e E4e F4e",
+"lh": "A1+A2e C#2+C#3e D2+D3e",
+"doubt": "Chant : liaison sur la3-sol3. Les têtes la3 pourraient être lues si♭3 (très légèrement au-dessus de la ligne) — lu la3."
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "E4+G4ed F4+A4s D4+F4e // Bb3 A3e",
+"lh": "G1+G2 D1+D2e",
+"doubt": "MD : liaison sur le groupe. MG : ré1 sur la 5e ligne supplémentaire (hauteur réelle imprimée)."
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "A3+C#4+E4d",
+"lh": "A1+A2d",
+"doubt": "Double barre ; changement de mesure (C) à la suite."
+},
+{
+"meter": "4/4",
+"marks": [
+"Prestissimo",
+"p"
+],
+"v": "D3h E3d E3e",
+"ly": "For He is",
+"rh": "F3+A3+D4h A3+E4d A3+E4e",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e",
+"doubt": "Lettre de repère G imprimée."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "F3e G3e A3 r A3e Bb3e",
+"ly": "like _ _ a re-",
+"rh": "F4+A4s D5s E4+G4s D5s D4+F4s D5s G4+Bb4s D5s E4+A4+C#5e G4+Bb4s C#5s F4+A4s C#5s E4+G4s C#5s",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e A1+A2e A1+A2e A1+A2e A1+A2e",
+"doubt": "Chant : liaison fa3-sol3-la3 + trait de mélisme. f au 1er temps, p au 3e temps."
+},
+{
+"v": "A3e G3e F3e A3e G3e F3e E3e G3e",
+"ly": "fin- _ _ _ _ _ er's _",
+"rh": "D4+F4+D5 A3+D4+F4 A3+E4+G4 A3+E4+G4",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e",
+"doubt": "Chant : grande liaison la3…fa3 puis liaison mi3-sol3 ; petit signe (accent ?) entre sol3 et fa3 (5e-6e croches)."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "F3e E3e D3 re A3e A3e Bb3e",
+"ly": "fire, _ _ like a re-",
+"rh": "F4s D5s G4s D5s A4s D5s F4s D5s G4s C#5s G4+Bb4s C#5s F4+A4s C#5s E4+G4s C#5s",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e E2+E3e E2+E3e E2+E3e E2+E3e",
+"doubt": "Chant : liaison fa3-mi3-ré3 (fire,___). f au 1er temps, p au 3e temps (MD)."
+},
+{
+"v": "A3e G3e F3e A3e G3e F3e E3e G3e",
+"ly": "fin- _ _ _ _ _ er's _",
+"rh": "D4+A4+D5 r Bb4+D5s E4s Bb4+D5s E4s A4+C#5s E4s A4+C#5s E4s",
+"lh": "F2+F3e F2+F3e F2+F3e F2+F3e G2+G3e G2+G3e A2+A3e A2+A3e",
+"doubt": "Chant : grande liaison la3…fa3, puis liaison mi3-sol3 (er's__) ; la phrase continue page suivante."
+}
+]
+}

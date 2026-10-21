@@ -1,0 +1,136 @@
+{
+"lang": "fr",
+"ctx": "Hamlet (Ambroise Thomas, livret de Barbier et Carré d'après Shakespeare, 1868), acte II. Hamlet a fait venir des comédiens au château d'Elseneur pour jouer devant le roi Claudius une pièce qui rejoue le meurtre de son père : il veut observer la réaction de l'assassin. Pour donner le change, il feint la folie et l'insouciance, et entonne avec les comédiens une chanson à boire : que le vin dissipe la tristesse, la vie est sombre et courte, chacun porte sa chaîne, et « les plus sages sont les fous ». Sous la gaieté forcée perce l'amertume. Un des grands airs de baryton français, brillant et vocalisant.",
+"diction": [
+"Français chanté : e muets prononcés quand ils ont une note (« tris-tes-se », « pè-se »), voyelles pures, consonnes finales nettes.",
+"Liaisons : « les ans » ([le z‿ɑ̃]), « nos beaux jours », « les plus sages » ; pas de liaison après « et ».",
+"Nasales : « vin », « enchanteresse », « sombre », « chacun », « longs » — voyelle nasale tenue, sans n.",
+"Ton de fausse gaieté : brillant et rythmé, mais la phrase « La vie est sombre » doit laisser voir le sombre sous l'ivresse.",
+"Vocalises et aigus finaux : légèreté et appui sur la voyelle, pas d'aspiration entre les notes."
+],
+"lines": [
+{
+"key": "ô vin",
+"it": "Ô vin, dissipe la tristesse qui pèse sur mon cœur ! À moi les rêves de l'ivresse et le rire moqueur !",
+"ipa": "o vɛ̃ disipə la tʁistɛsə ki pɛzə syʁ mɔ̃ kœʁ a mwa le ʁɛvə də livʁɛsə e lə ʁiʁə mɔkœʁ",
+"w": [
+[
+"dissipe la tristesse",
+"chasse la tristesse"
+],
+[
+"qui pèse sur mon cœur",
+"qui m'accable"
+],
+[
+"À moi",
+"qu'à moi viennent"
+],
+[
+"les rêves de l'ivresse",
+"les rêves de l'ivresse"
+],
+[
+"le rire moqueur",
+"le rire railleur"
+]
+],
+"fr": "Ô vin, chasse la tristesse qui m'accable le cœur ! À moi les rêves de l'ivresse et le rire railleur !"
+},
+{
+"key": "ô liqueur",
+"it": "Ô liqueur enchanteresse, verse l'ivresse et l'oubli dans mon cœur ! Douce liqueur !",
+"ipa": "o likœʁ ɑ̃ʃɑ̃tʁɛsə vɛʁsə livʁɛs‿e lubli dɑ̃ mɔ̃ kœʁ dusə likœʁ",
+"w": [
+[
+"liqueur enchanteresse",
+"boisson ensorcelante"
+],
+[
+"verse l'ivresse et l'oubli",
+"répands l'ivresse et l'oubli"
+],
+[
+"Douce liqueur",
+"douce boisson"
+]
+],
+"fr": "Ô boisson ensorcelante, répands l'ivresse et l'oubli dans mon cœur ! Douce boisson !"
+},
+{
+"key": "la vie est",
+"it": "La vie est sombre, les ans sont courts ; de nos beaux jours Dieu sait le nombre.",
+"ipa": "la vi ɛ sɔ̃bʁə le z‿ɑ̃ sɔ̃ kuʁ də no bo ʒuʁ djø sɛ lə nɔ̃bʁə",
+"w": [
+[
+"La vie est sombre",
+"la vie est triste"
+],
+[
+"les ans sont courts",
+"les années sont brèves"
+],
+[
+"de nos beaux jours",
+"de nos jours heureux"
+],
+[
+"Dieu sait le nombre",
+"Dieu seul connaît le nombre"
+]
+],
+"fr": "La vie est sombre, les années sont brèves ; Dieu seul sait combien nous restent de beaux jours."
+},
+{
+"key": "chacun hélas",
+"it": "Chacun, hélas ! porte ici-bas sa lourde chaîne. Cruels devoirs, longs désespoirs de l'âme humaine !",
+"ipa": "ʃakœ̃ elas pɔʁtə isiba sa luʁdə ʃɛnə kʁyɛl dəvwaʁ lɔ̃ dezɛspwaʁ də lam‿ymɛnə",
+"w": [
+[
+"porte ici-bas",
+"porte en ce monde"
+],
+[
+"sa lourde chaîne",
+"son lourd fardeau"
+],
+[
+"Cruels devoirs",
+"devoirs cruels"
+],
+[
+"longs désespoirs",
+"désespoirs sans fin"
+],
+[
+"de l'âme humaine",
+"de l'âme humaine"
+]
+],
+"fr": "Chacun, hélas, porte en ce monde son lourd fardeau. Devoirs cruels, désespoirs sans fin de l'âme humaine !"
+},
+{
+"key": "loin de nous",
+"it": "Loin de nous, noirs présages ! Les plus sages sont les fous !",
+"ipa": "lwɛ̃ də nu nwaʁ pʁezaʒə le ply saʒə sɔ̃ le fu",
+"w": [
+[
+"Loin de nous",
+"arrière"
+],
+[
+"noirs présages",
+"sombres pressentiments"
+],
+[
+"Les plus sages sont les fous",
+"ce sont les fous les plus sages"
+]
+],
+"fr": "Arrière, sombres pressentiments ! Les plus sages, ce sont les fous !"
+}
+],
+"doubts": [
+"Langue originale française : « fr » donne une reformulation simple, « w » un vocabulaire. Texte vérifié sur la partition à l'assemblage."
+]
+}

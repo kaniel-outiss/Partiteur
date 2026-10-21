@@ -180,6 +180,9 @@ add_air('jce', {'id': 'bizet-je-crois-entendre', 'title': 'Je crois entendre enc
 add_air('mwa', {'id': 'handel-messiah-but-who-may-abide', 'title': 'Thus saith the Lord… But who may abide', 'composer': 'Georg Friedrich Haendel', 'work': 'Le Messie, nº 5-6',
                 'role': None, 'voice': 'basse', 'style': 'Oratorio', 'period': 'Baroque', 'ks': -1, 'mode': 'minor', 'src': 'The Messiah, Schirmer 1912, p. 24-35'},
         72, {'name': 'Basse', 'short': 'B.', 'vt': 'B'})
+add_air('ovn', {'id': 'thomas-o-vin', 'title': 'Ô vin, dissipe la tristesse', 'composer': 'Ambroise Thomas', 'work': 'Hamlet, acte II',
+                'role': 'Hamlet', 'voice': 'baryton', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -2, 'src': 'Operatic Anthology (Schirmer), p. 142-148'},
+        100, {'name': 'Hamlet (baryton)', 'short': 'Ham.', 'vt': 'Bar'})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
