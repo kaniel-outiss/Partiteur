@@ -1,0 +1,86 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "4/4",
+   "tempo": "Andante larghetto",
+   "marks": [
+    "p"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "B3s A#3+C#4s B3s A#3+C#4s B3s A#3+C#4s B3s A#3+C#4s B3+D4s C#4+E4s B3+D4s C#4+E4s B3+D4s C#4+E4s B3+D4s C#4+E4s",
+   "lh": "B2s A#2s B2s A#2s B2s A#2s B2s A#2s B2e B1e r",
+   "doubt": "Titre p.60 : « Nº 10. Recitative for Bass — For behold, darkness shall cover the earth », référence « Isaiah lx: 2,3 ». Métronome imprimé (croche ou noire ? = 72) non reporté. Liaisons de phrasé par paires sur la MD."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "D#4+F#4s E4+G4s D#4+F#4s E4+G4s D#4+F#4s E4+G4s D#4+F#4s E4+G4s D#4+F#4s E4+G4s D#4+F#4s E4+G4s D#4+F#4s E4+G4s D#4+F#4s F#4+A4s // B3e B3e B3e B3e B3 r",
+   "lh": "A2+A3e A1+A2e A1+A2e A1+A2e A1+A2 r",
+   "doubt": "Soufflet de crescendo imprimé sous les temps 3-4. Bécarres de précaution sur A2/A3 à la MG. Répartition des voix MD : B3 en voix inférieure (hampes en bas), tierces en doubles croches en haut."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "E#4s F#4s E#4s F#4s E#4s F#4s E#4s F#4s E#4s F#4s E#4s F#4s E#4s F#4s E#4s F#4s // G#3+B3e G#3+B3e G#3+B3e G#3+B3e G#3+B3e G#3+B3e G#3+B3e G#3+B3e",
+   "lh": "G#1+G#2e G#1+G#2e G#1+G#2e G#1+G#2e G#1+G#2 r"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F#4s E4+G4s F#4s E4+G4s F#4s E4+G4s F#4s E4+G4s F#4s E4+G4s F#4s E4+G4s F#4s E4+G4s F#4s E4+G4s // C#4e C#4e C#4e C#4e C#4 r",
+   "lh": "A#1+A#2e A#1+A#2e A#1+A#2e A#1+A#2e A#1+A#2 r",
+   "doubt": "Bécarres de précaution sur E4 et G4 au 1er accord E4+G4."
+  },
+  {
+   "marks": [
+    "Bass Solo"
+   ],
+   "v": "rh r F#3ed F#3s",
+   "ly": "For be-",
+   "rh": "D4+F#4e C#4+E4s B3+D4s A#3+C#4ed B3s B3 r",
+   "lh": "B1+B2e E2+E3e F#2+F#3e F#1+F#2e B1+B2+D3+F#3 r",
+   "doubt": "MG 2e croche : tête E3 imprimée carrée/peu nette (lue E2+E3). F#1 sur 4e ligne supplémentaire. Le B3 de la MD (temps 3) et l'accord MG semblent partager une longue hampe."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "B3 r B3 F#3e F#3e",
+   "ly": "hold, dark- ness shall",
+   "rh": "B3s A#3+C#4s B3s A#3+C#4s B3s A#3+C#4s B3s A#3+C#4s B3+D4s C#4+E4s B3+D4s C#4+E4s B3+D4s C#4+E4s B3+D4s C#4+E4s",
+   "lh": "B2s A#2s B2s A#2s B2s A#2s B2s A#2s B2e B1+B2e B1+B2e B1+B2e"
+  },
+  {
+   "v": "D3 F#3e F#3e B2 r",
+   "ly": "cov- er the earth,",
+   "rh": "D4+F#4s E4+G4s D4+F#4s E4+G4s D4+F#4s E4+G4s D4+F#4s E4+G4s D4+F#4s E4+G4s D4+F#4s E4+G4s D4+F#4s E4+G4s D4+F#4s E4+G4s",
+   "lh": "B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e B1+B2e"
+  },
+  {
+   "v": "r A3e A3e D#3 D#3e D#3e",
+   "ly": "and gross dark- ness the",
+   "rh": "F#4+A4s G4+B4s F#4+A4s G4+B4s F#4+A4s G4+B4s F#4+A4s G4+B4s A4+C5s B4s A4+C5s B4s A4+C5s B4s A4+C5s B4s // D#4e D#4e D#4e D#4e F#4e F#4e F#4e F#4e",
+   "lh": "A1+A2e A1+A2e A2+A3e A2+A3e D#2+D#3e D#2+D#3e D#2+D#3e D#2+D#3e",
+   "doubt": "Point (staccato ?) imprimé au-dessus de la fin du 2e groupe de doubles croches MD. Bécarre sur C5 au temps 3."
+  },
+  {
+   "v": "E3e E3d r B3e D4e",
+   "ly": "peo- ple, and gross",
+   "rh": "G4+B4s A4s G4+B4s A4s G4+B4s A4s G4+B4s A4s G#4+B4s A4+C5s G#4+B4s A4+C5s G#4+B4s A4+C5s G#4+B4s A4+C5s // E4e E4e E4e E4e E4e E4e E4e E4e",
+   "lh": "E2+E3e E2+E3e E2+E3e E2+E3e D2+D3e D2+D3e D2+D3e D2+D3e",
+   "doubt": "Temps 3-4 : dièse sur G4, bécarre sur C5 (A4+C5) ; bécarres sur D2/D3 à la MG."
+  },
+  {
+   "v": "E#3 E#3e E#3e F#3e F#3d",
+   "ly": "dark- ness the peo- ple:",
+   "rh": "G#4+B4s A#4+C#5s G#4+B4s A#4+C#5s G#4+B4s A#4+C#5s G#4+B4s A#4+C#5s F#4+A4e F#4+A4e F#4+A4e F#4+A4e // E#4e E#4e E#4e E#4e C#4e C#4e C#4e C#4e",
+   "lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e",
+   "doubt": "Dièses imprimés sur E4 et G4 du 1er accord ; dièse placé devant la 1re tierce A4+C5 (lu A#4, C#5 par l'armure) — à vérifier. Temps 3-4 : accords C#4+F#4+A4 sur une seule hampe (répartis ici en deux voix)."
+  }
+ ]
+}
