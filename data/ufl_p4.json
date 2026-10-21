@@ -1,0 +1,103 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "6/8",
+   "ks": -2,
+   "marks": [
+    "f",
+    "p"
+   ],
+   "v": "G5e F5e D5e F5e Eb5e C5e",
+   "ly": "Cie- lo, si può _ mo-",
+   "rh": "Eb5+G5e D5+F5e Bb4+D5e D5+F5e C5+Eb5e A4+C5e",
+   "lh": "Bb2s F3s Bb3+D4s F3s Bb3+D4s F3s F2s F3s C4+Eb4s F3s C4+Eb4s F3s",
+   "doubt": "Mesure 39 = 1re de la page. Armure de 2 bémols imprimée (ks -2 posé par précaution). f = chant, p = main gauche. Accents sur le 1er G5 (chant) et le 1er accord MD ; Bb2 et F2 staccato MG."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Bb4d B4s C5s D5s Eb5s F5s G5s",
+   "ly": "rir; di _ più _ non _",
+   "rh": "Bb4e D4+G4+Bb4e D4+G4+Bb4e Eb4+G4+C5e re re",
+   "lh": "G2s Bb2s D3s G3s D3s Bb2s Eb2+Eb3e re re",
+   "doubt": "p au chant (sur B♮4). Accords MD staccato."
+  },
+  {
+   "v": "G5e Bb4e Bb4e C5e D5e C5e",
+   "ly": "chie- do, non chie- _ _",
+   "rh": "re D4+F4+Bb4e D4+F4+Bb4e re C4+F4+A4e C4+F4+A4e",
+   "lh": "F2s D3s F3s Bb3s F3s D3s F2s Eb3s F3s A3s F3s Eb3s",
+   "doubt": "Bémol de précaution sur le 1er Bb4 du chant ; 2e Bb4 staccato."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Bb4e re re F5d",
+   "ly": "do; ah!",
+   "rh": "G5+Eb6e F5+D6e D5+Bb5e F5+D6e Eb5+C6e C5+A5e",
+   "lh": "Bb2s F3s Bb3+D4s F3s Bb3+D4s F3s F2s F3s C4+Eb4s F3s C4+Eb4s F3s",
+   "doubt": "p imprimé entre les portées du piano vers le 2e temps. Accent sur F5 (chant) et sur les accords 1 et 4 de la MD."
+  },
+  {
+   "v": "G5e F5e D5e F5s E5s G5s F5s Eb5s C5s",
+   "ly": "cie- lo, si può, si può _ mo- _",
+   "rh": "Eb5+G5e D5+F5e Bb4+D5e D5+F5e C5+Eb5e A4+C5e",
+   "lh": "Bb2s F3s Bb3+D4s F3s Bb3+D4s F3s F2s F3s C4+Eb4s F3s C4+Eb4s F3s",
+   "doubt": "E5 avec bécarre imprimé, puis Eb5 avec bémol. D5 staccato."
+  },
+  {
+   "v": "Bb4d C5e D5s Eb5s F5s G5s",
+   "ly": "rir; di più _ non _",
+   "rh": "re G4+Bb4e G4+Bb4e re Eb4+G4+C5e Eb4+G4+C5e",
+   "lh": "G2s Bb2s D3s G3s D3s Bb2s Eb2+Eb3e re re",
+   "doubt": "MD : seulement 2 notes lues dans les 1ers accords (G4+Bb4), contrairement à la m. 40 (D4+G4+Bb4)."
+  },
+  {
+   "len": 15.5,
+   "marks": [
+    "rall.",
+    "(f)",
+    "(p)"
+   ],
+   "v": "G5e Bb4e Bb4e A4dd^ G4s F4t G4t A4t Bb4t C5t Bb4t A4t Bb4t C5t D5t Eb5t D5t C5t D5t Eb5t F5t A5s G5s Eb5s C5s A4d^ A4e C5e Eb5e G5d^ A4e C5e Eb5e Gb5d^ F5d^",
+   "ly": "chie- do, non chie- _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ do. Si può mo- rir, si può mo- rir d'a-",
+   "rh": "D4+F4+Bb4 re^ C4+F4+A4 re^ rw rw rw re",
+   "lh": "F2+F3 re^ F2+F3 re^ rw rw rw re",
+   "doubt": "Mesure 45 = cadence non mesurée (voix = 15,5 noires, d'où len). Piano imprimé : accord, soupir de croche avec point d'orgue, accord, soupir avec point d'orgue = 3 noires ; les silences 'rw rw rw re' ajoutés NE SONT PAS imprimés (remplissage pour le contrôle). Doubles croches puis 16 triples croches (3 barres) puis 4 doubles croches ; A4 noire doublement pointée avec point d'orgue. rall. au-dessus de la fin de la vocalise ; (f) et (p) entre parenthèses au chant."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Bb4e re re r re",
+   "ly": "mor.",
+   "rh": "re G5s F5s E5s F5s C5e G5s F5s E5s F5s",
+   "lh": "Bb3+D4 re F3+A3+Eb4 re",
+   "doubt": "MD : bécarre imprimé sur le 1er E5 seulement ; le 2e E5 sans signe = E♮ (altération valable jusqu'à la barre). C5 staccato ; accords MG staccato."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb4e Gb4s F4s E4s F4s A3e Gb4s F4s E4s F4s",
+   "lh": "Bb3+D4 re F2+C3+Eb3 re",
+   "doubt": "Pause de mesure au chant. MD : bémol imprimé sur le 1er G4 et bécarre sur le 1er E4 ; les seconds G4/E4 sans signe = Gb4/E♮4 (règle de la barre). A3 sur 2e ligne supplémentaire (pourrait être B3). Bb4 et A3 staccato."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb3e re re D4+F4+Bb4e D4+F4+Bb4e D4+F4+Bb4e",
+   "lh": "Bb2+D3e re re Bb2e F2e D2e",
+   "doubt": "Accords MD et notes MG staccato. Dernière note MG lue D2 (une ligne supplémentaire)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D4+F4+Bb4 re r re",
+   "lh": "Bb1 re r re",
+   "doubt": "Double barre finale."
+  }
+ ]
+}
