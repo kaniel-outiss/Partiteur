@@ -1,0 +1,138 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "6/8",
+   "marks": [
+    "parlante",
+    "ppp"
+   ],
+   "v": "re rs F4s F4s F4s F4e F4s F4s F4s F4s",
+   "ly": "Il tuo bel cie- lo vor- rei ri-",
+   "rh": "rs F4+Db5+F5s rs F4+C5+Eb5s rs F4+Bb4+D5s rs F4+C5+Eb5s rs F4+Bb4+D5s rs F4+A4+C5s",
+   "lh": "Bb1e gE2 F2e Bb2e Bb1e gE2 F2e F3e // re F2 re F2",
+   "doubt": "1re mesure de la page (m.65). Armure 2 bémols. Accents sur les F2 (voix inf. main gauche) ; petite note = acciaccatura E2 bécarre. 4e accord MD (F4+C5+Eb5) peu lisible."
+  },
+  {
+   "v": "F4e F4s F4s F4s F4s F4e F4s F4s F4s F4s",
+   "ly": "dar- ti, le dol- ci brez- ze del pa- trio",
+   "rh": "rs F4+Db5+F5s rs F4+C5+Eb5s rs F4+Bb4+D5s rs F4+C5+Eb5s rs F4+Bb4+D5s rs F4+A4+C5s",
+   "lh": "Bb1e gE2 F2e Bb2e Bb1e gE2 F2e F3e // re F2 re F2",
+   "doubt": "MD/MG identiques à m.65 (lecture visuelle)."
+  },
+  {
+   "marks": [
+    "ancora piano"
+   ],
+   "v": "F4d Gb5e F5e Eb5e",
+   "ly": "suol; un re- gal",
+   "rh": "rs F4+Db5+F5s rs F4+C5+Eb5s rs F4+Bb4+D5s rs Bb4+Gb5s rs Bb4+F5s rs Bb4+Eb5s",
+   "lh": "Bb1e gE2 F2e Bb2e Eb2+Eb3e F2+F3e Gb2+Gb3e // re F2 rd",
+   "doubt": "'ancora piano' imprimé au chant et sous la MD ; liaison sur la 2e moitié MG."
+  },
+  {
+   "marks": [
+    "animando"
+   ],
+   "v": "F5 C5e Eb5e Db5e C5e",
+   "ly": "ser- to sul crin po-",
+   "rh": "rs C5+F5s rs A4+F5s rs F4+C5s rs F4+Eb5s rs F4+Db5s rs F4+C5s",
+   "lh": "A1+A2e F1+F2e A1+A2e C2+C3e F2+F3e Eb2+Eb3e",
+   "doubt": "Soufflets crescendo (chant et piano). 1er accord MD (C5+F5) un peu serré."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C5 Bb4e Bb5^ A5s G5s",
+   "ly": "sar- ti, er- ger- ti_un",
+   "rh": "rs F4+C5s rs F4+C5s rs F4+Bb4s G4+Bb4+C#5+G5d^",
+   "lh": "Db2+Db3e F2+F3e Db2+Db3e gE2 E3+G3+Bb3+C#4d^",
+   "doubt": "f au chant et au piano ; accord MD avec accent, bécarre devant G5 (de précaution ?) et dièse sur C5 — positions serrées, à vérifier ; MG : bécarre sur E3, acciaccatura E2 bécarre accentuée."
+  },
+  {
+   "marks": [
+    "pppp",
+    "p",
+    "ppp"
+   ],
+   "v": "G5 D5e F5e Eb5e C5e",
+   "ly": "tro- no vi- ci- no_al",
+   "rh": "G5 D5e F5d // G4+B4d A4d",
+   "lh": "D2+D3 G2+G3e F3+C4+Eb4d",
+   "doubt": "pppp au chant ; p sous le 1er accord MD, ppp sous le 2e. B4 bécarre imprimé ; C4 bécarre et Eb4 bémol de précaution à la MG."
+  },
+  {
+   "marks": [
+    "ppp",
+    "dim.",
+    "pp",
+    "leggermente",
+    "tr"
+   ],
+   "v": "Bb4e re Bb4e D5e D5s D5s D5s D5s",
+   "ly": "sol, un tro- no vi- ci- no_al",
+   "rh": "gG6 F6hd",
+   "lh": "Bb1t D4t F4t Bb4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t // Bb2e re rh",
+   "doubt": "ppp/dim. au chant, 'pp leggermente' au piano. Trille sur F6 avec petite note G6. MG : Bb2 croche piquée (hampe haut), Bb1 1re triple croche ; clé de sol puis retour en clé de fa en fin de mesure ; silences de la voix sup. MG ajoutés pour le compte. Doubles croches du chant piquées."
+  },
+  {
+   "marks": [
+    "pp",
+    "tr"
+   ],
+   "v": "F5e re Bb4e F5e F5s F5s F5s F5s",
+   "ly": "sol, un tro- no vi- ci- no_al",
+   "rh": "F6hd gE6 gF6",
+   "lh": "Bb2+D3+F3+Bb3t D4t F4t Bb4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t D5t Bb4t F4t D4t // Bb2+D3+F3+Bb3e re rh",
+   "doubt": "Petites notes E6 (bécarre) et F6 imprimées avant la barre, menant au Bb6 de m.73. Accord MG croche + 1re triple croche (même accord) ; silences voix sup. ajoutés."
+  },
+  {
+   "marks": [
+    "morendo",
+    "p"
+   ],
+   "v": "Bb5hd~",
+   "ly": "sol.",
+   "rh": "Bb6e re Bb3+Db4e Bb3+F4e Bb3+Gb4e Bb3+D4+F4e",
+   "lh": "D5e re Gb2+Gb3e Db2+Db3e Eb2+Eb3e Bb1+Bb2e",
+   "doubt": "Bb6 piqué (5 lignes supp.). Accords bas de la MD : 1er accentué, autres piqués ; dernier accord (bécarre sur D4) serré, lu Bb3+D4+F4. MG : D5 en clé de sol, puis clé de fa ; Gb2+Gb3 accentué."
+  },
+  {
+   "marks": [],
+   "v": "Bb5hd",
+   "ly": "",
+   "rh": "Bb3+Eb4+G4hd",
+   "lh": "Eb2+Eb3hd",
+   "doubt": "Bb5 lié depuis m.73. Bécarre sur G4 (précaution). Soufflet decrescendo sous la MD."
+  },
+  {
+   "marks": [
+    "ppp"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb3+D4+F4s F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x",
+   "lh": "Bb1+Bb2e re re Bb3+D4e F3+C4e D3+Bb3e",
+   "doubt": "Fin MD : trémolo F6./F5. (4 barres) avec chiffre '24', développé en 24 quadruples croches. Pause du chant = mesure entière."
+  },
+  {
+   "marks": [
+    "allarg. e morendo"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x F6x F5x",
+   "lh": "Bb3+D4e F3+C4e D3+Bb3e Bb3+D4e F3+C4e D3+Bb3e~",
+   "doubt": "MD : trémolo F6/F5 en blanches pointées (4 barres), développé en quadruples croches, sans chiffre imprimé. MG : liaisons de prolongation sur D3 et Bb3 vers m.77."
+  },
+  {
+   "marks": [],
+   "v": "rhd^",
+   "ly": "",
+   "rh": "Bb5+Bb6hd^",
+   "lh": "Bb2+D3+Bb3hd^",
+   "doubt": "Double barre finale. Points d'orgue sur pause du chant et accords."
+  }
+ ]
+}
