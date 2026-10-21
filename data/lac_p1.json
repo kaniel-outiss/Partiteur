@@ -1,0 +1,147 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "3/4",
+"tempo": "Andante sostenuto (♩ = 66)",
+"marks": [
+"ff"
+],
+"v": "r",
+"ly": "",
+"rh": "red B3t C4t",
+"lh": "red B1+B2t C2+C3t",
+"doubt": "Anacrouse d'1 temps (soupir pointé + 2 triples croches) avant la mesure 1 de 3/4 (len 1). Pas de portée de chant sur le 1er système.",
+"len": 1
+},
+{
+"marks": [
+"pp"
+],
+"v": "rhd",
+"ly": "",
+"rh": "r r D#4+F#4+A4ed D#4+F#4+A4s // C4hd~",
+"lh": "r r C3+F#3+A3ed C3+F#3+A3s // C2+C3hd~"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C4+D#4+F#4+A4h red B3t C4t",
+"lh": "C2+C3+F#3+A3h red B1+B2t C2+C3t",
+"doubt": "Les C4 (MD) et C2+C3 (MG) en blanche sont la fin de la liaison de la mesure précédente (voix inférieure), fusionnés dans l'accord ; le C3 de l'accord MG porte un bécarre."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "r r D#4+F#4+A4ed D#4+F#4+A4s // C4hd~",
+"lh": "r r C3+F#3+A3ed C3+F#3+A3s // C2+C3hd~"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C4+D#4+F#4+A4h red A#3t B3t",
+"lh": "C2+C3+F#3+A3h red A#1+A#2t B1+B2t",
+"doubt": "Même fusion de la voix liée que m.2."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "r r D#4+F#4+A4ed D#4+F#4+A4s // B3hd~",
+"lh": "r r B2+F#3+A3ed B2+F#3+A3s // B1+B2hd~",
+"doubt": "m.5 (numéro imprimé). Portée de chant présente (pauses)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "B3+D#4+F#4+A4h red A3t A#3t",
+"lh": "B1+B2+F#3+A3h red A1+A2t A#1+A#2t",
+"doubt": "B3 / B1+B2 en blanche = fin de liaison fusionnée dans l'accord."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "r r D#4+F#4+A#4ed D#4+F#4+A#4s // A#3hd",
+"lh": "r r A#2+F#3+A#3ed A#2+F#3+A#3s // A#1+A#2hd",
+"doubt": "Pas de liaison visible vers m.8 sur les A# graves."
+},
+{
+"marks": [
+"< (soufflet crescendo)"
+],
+"v": "rhd",
+"ly": "",
+"rh": "C#4+E4+F#4+A#4hd",
+"lh": "F#2* E#2* F#2t E#2t F#2t E#2t F#2t E2t D2t C#2t",
+"doubt": "MD : accord lu C#4+E4+F#4+A#4 (dièses imprimés sur A# et sur C#, têtes serrées – E4/C#4 à confirmer). MG : trémolo alterné (3 barres) F#2/E#2 en blanches = une blanche, codé noire*+noire* ; puis 8 triples croches liées, bécarres imprimés sur E2 et D2."
+},
+{
+"meter": "4/4",
+"marks": [
+"recitativo",
+"fp",
+"recitativo (piano)"
+],
+"v": "rh r red B3s",
+"ly": "A",
+"rh": "B3+D4+F#4+B4w~",
+"lh": "B1+B2w~",
+"doubt": "Changement de mesure : C (double barre). Accord MD B3+D4+F#4+B4."
+},
+{
+"marks": [
+"(rivolto al palazzo)"
+],
+"v": "B3dd B3s F#3dd E3s",
+"ly": "te l'e- stre- mo‿ad-",
+"rh": "B3+D4+F#4+B4w",
+"lh": "B1+B2w",
+"doubt": "m.10 (numéro imprimé). Noires doublement pointées au chant."
+},
+{
+"marks": [
+"pp"
+],
+"v": "D3 D3 red D3s E3ed F#3s",
+"ly": "di- o, pa- la- gio‿al-",
+"rh": "D4+F#4+B4w~",
+"lh": "B2+F#3+B3w~"
+},
+{
+"v": "B2 B2e re B2 D3ed F#3s",
+"ly": "te- ro, fred- do se-",
+"rh": "D4+F#4+B4w",
+"lh": "B2+F#3+B3w"
+},
+{
+"marks": [
+"< (soufflet crescendo, chant et piano)"
+],
+"v": "B3 B3ed B3s B3 B3ed B3s",
+"ly": "pol- cro del- l'an- gio- lo",
+"rh": "E4+G4+B4w",
+"lh": "B2+G3+B3w",
+"doubt": "m.13 (numéro imprimé). Bécarres imprimés sur G4 (MD) et G3 (MG)."
+},
+{
+"marks": [
+"> (accents)",
+"f"
+],
+"v": "D4h B3 r",
+"ly": "mi- o!",
+"rh": "D4+E#4+G#4+B4h r B3ed B3s",
+"lh": "B2+G#3+B3h r B1+B2ed B1+B2s",
+"doubt": "Accord MD lu D4+E#4+G#4+B4 (dièses imprimés sur E et G, D4/E4 en seconde décalée). Liaison au chant D4→B3."
+},
+{
+"marks": [
+"> (accents)"
+],
+"v": "r D3ed D3s D3 C#3ed B2s",
+"ly": "Né‿a pro- teg- ger- lo",
+"rh": "D4 r rh",
+"lh": "D2+D3 r rh",
+"doubt": "Phrase continue page suivante."
+}
+]
+}

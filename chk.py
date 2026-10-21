@@ -14,7 +14,7 @@ def part(s):
     return [sum(dur(x) for x in v.split()) for v in s.split('//')] if s.strip() else []
 J=json.load(open(sys.argv[1]));meter=None;bad=0
 for i,m in enumerate(J['measures']):
-    meter=m.get('meter',meter);a,b=meter.split('/');L=int(a)*4/int(b)
+    meter=m.get('meter',meter);a,b=meter.split('/');L=m.get('len',int(a)*4/int(b))
     for k in ('v','rh','lh'):
         try:
             for x in part(m.get(k,'')):
