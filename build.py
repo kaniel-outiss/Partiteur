@@ -132,7 +132,7 @@ add_air('lac', {'id': 'verdi-lacerato-spirito', 'title': 'Il lacerato spirito', 
                 'role': 'Fiesco', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 3, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 316-319'},
         66, {'name': 'Fiesco (basse)', 'short': 'Fie.', 'vt': 'B'})
 add_air('svb', {'id': 'mozart-se-vuol-ballare', 'title': 'Se vuol ballare', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
-                'role': 'Figaro', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'src': 'Arias for Bass-Baritone (MMO 4056), p. 12-19'},
+                'role': 'Figaro', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'src': 'Bass-Baritone Arias with Orchestra (Music Minus One 4056), p. 12-19'},
         100, {'name': 'Figaro (baryton-basse)', 'short': 'Fig.', 'vt': 'Bar'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
