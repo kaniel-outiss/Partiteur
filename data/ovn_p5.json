@@ -1,16 +1,130 @@
-{"page":5,"measures":[
-{"meter":"6/8","marks":[],"v":"rhd","ly":"","rh":"A4d A4e C5e F4e // C#4d C4d","lh":"F2+Eb3e re F2+Eb3e F2+Eb3e re F2+Eb3e","doubt":"Page imprimée 146. MD : A4 lié depuis la page précédente (liaison qui entre dans la mesure) ; C♮5 avec bécarre imprimé ; voix inférieure C#4 puis C♮4 (liée à la mesure suivante). MG : bémol de précaution sur Eb3, bécarre sur F2."},
-{"marks":[],"v":"rhd","ly":"","rh":"C4+F5d Gb3+Bb3e re Gb3+Bb3e","lh":"F2+Eb3e re F2+Eb3e F2+Db3e re F2+Db3e","doubt":"C4 lié depuis la mesure précédente (non marqué ~). Accords MD Gb3+Bb3 (bémol imprimé sur la note inférieure) : têtes serrées, lecture incertaine."},
-{"marks":["f"],"v":"r A3s A3s A3 re","ly":"Loin de nous,","rh":"F3+A3 re r C5+F5+A5s C5+F5+A5s","lh":"F2+C3 re r F3+A3+C4s F3+A3+C4s"},
-{"marks":[],"v":"re C4ed C4s C4d","ly":"Noirs pré- sa-","rh":"C5+F5+A5e re re r C5+Eb5+A5+C6s C5+Eb5+A5+C6s","lh":"F3+A3+C4e re re r F3+C4+Eb4s F3+C4+Eb4s","doubt":"Bémols de précaution imprimés sur Eb5 (MD) et Eb4 (MG)."},
-{"marks":[],"v":"C4e re F3s G3s A3 A3s Bb3s","ly":"ges! Loin de nous, Noirs pré-","rh":"C5+Eb5+A5+C6e re re r re","lh":"F3+C4+Eb4e re re r re"},
-{"marks":["<"],"v":"C4 C4s rs F3s G3s A3s Bb3s C4s D4s","ly":"sa- ges! Les plus sa- ges Sont les","rh":"rhd","lh":"rhd","doubt":"Soufflet de crescendo sur la fin de la mesure (chant)."},
-{"marks":["f"],"v":"E4e E4~ E4e G4t F4t E4t D4t C4t Bb3t A3t G3t","ly":"fous! ah! _ _ _ _ _ _ _ _","rh":"Eb5+A5+C6+Eb6e re re r re","lh":"F2+A2+C3+F3e re re r re","doubt":"Accent > sur le 2e E4 ; triples croches (3 barres) ; E4 noire liée à E4 croche. f imprimé sous la MD. Au-dessus du chant, petite portée « più facile » (ossia simplifiée, « fous! ah! », 2 mesures) — non transcrite. Accord MD Eb5+A5+C6+Eb6 : note supérieure lue Eb6 (incertain). Accord MG F2+A2+C3+F3 : têtes serrées, incertain."},
-{"marks":["p","cresc.","tr",">","f"],"v":"F3s E3s F3s F#3s G3s G#3s A3 gG3 A3s rt F3t","ly":"_ _ _ _ _ _ _ _ Le","rh":"rhd^","lh":"rhd^","doubt":"Mesure de cadence : piano = pause avec point d'orgue. tr sur A3 noire, petite note G3 (barrée) avant A3 double croche ; E♮3 et F♮3 (bécarres imprimés). Soufflet < > au-dessus du trille. « Le » = levée vers « vin » (système suivant). La 1re note F3s porte la fin du mélisme de « ah! »."},
-{"marks":["f","p"],"v":"Bb3 F3e D3s F3s Bb3e D4e","ly":"vin dis- si- pe la tris-","rh":"D4s F4s Bb4s D5s Bb4s F4s D4s F4s Bb4s D5s Bb4s F4s","lh":"Bb1+Bb2s D3s F3s Bb3s F3s D3s Bb2s D3s F3s Bb3s F3s D3s","doubt":"f (1re moitié) puis p (2e moitié) au piano. Basse Bb1 (2 lignes supplémentaires) sous la 1re double croche MG."},
-{"marks":[],"v":"D4~ D4s Eb4s C4d","ly":"tes- _ se","rh":"Eb4s F4s A4s F4s Eb4s F4s Eb4s F4s A4s C5s A4s F4s","lh":"F2e C4s A3s F3s A3s C4s A3s F3s Eb3s F3s A3s"},
-{"marks":[],"v":"re F3e Bb3e A3e C4e A3e","ly":"Qui pè- se sur mon","rh":"Eb4s F4s A4s C5s A4s F4s Eb4s F4s A4s C5s A4s F4s","lh":"F2e C4s A3s F3s A3s C4s A3s F3s Eb3s F3s A3s"},
-{"marks":[],"v":"F3d~ F3e red F3s","ly":"cœur! À","rh":"D4s F4s Bb4s D5s Bb4s F4s D4s F4s Bb4s D5s Bb4s F4s","lh":"Bb2s D3s F3s Bb3s F3s D3s Bb2s D3s F3s Bb3s F3s D3s","doubt":"Imprimé « coeur! » ; F3 noire pointée liée à F3 croche (trait de prolongation)."},
-{"marks":[],"v":"Bb3 F3e D3s F3s Bb3e D4e","ly":"moi les rê- ves de l'i-","rh":"D4s F4s Bb4s D5s Bb4s F4s D4s F4s Bb4s D5s Bb4s F4s","lh":"Bb2s D3s F3s Bb3s F3s D3s Bb2s D3s F3s Bb3s F3s D3s"},
-{"marks":[">"],"v":"D4e F4ed Eb4s C4d~","ly":"vres- _ _ se","rh":"Eb4s F4s A4s F4s Eb4s F4s Eb4s F4s A4s C5s A4s F4s","lh":"F2e C4s A3s F3s A3s C4s A3s F3s Eb3s F3s A3s","doubt":"Accent > sur F4 croche pointée. C4 lié à la 1re note de la page suivante (p. 6)."}
-]}
+{
+"page": 5,
+"measures": [
+{
+"meter": "6/8",
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "A4d A4e C5e F4e // C#4d C4d",
+"lh": "F2+Eb3e re F2+Eb3e F2+Eb3e re F2+Eb3e",
+"doubt": "Page imprimée 146. MD : A4 lié depuis la page précédente (liaison qui entre dans la mesure) ; C♮5 avec bécarre imprimé ; voix inférieure C#4 puis C♮4 (liée à la mesure suivante). MG : bémol de précaution sur Eb3, bécarre sur F2."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "C4+F5d Gb3+Bb3e re Gb3+Bb3e",
+"lh": "F2+Eb3e re F2+Eb3e F2+Db3e re F2+Db3e",
+"doubt": "C4 lié depuis la mesure précédente (non marqué ~). Accords MD Gb3+Bb3 (bémol imprimé sur la note inférieure) : têtes serrées, lecture incertaine."
+},
+{
+"marks": [
+"f"
+],
+"v": "r A3s A3s A3 re",
+"ly": "Loin de nous,",
+"rh": "F3+A3 re r C5+F5+A5s C5+F5+A5s",
+"lh": "F2+C3 re r F3+A3+C4s F3+A3+C4s"
+},
+{
+"marks": [],
+"v": "re C4ed C4s C4d",
+"ly": "Noirs pré- sa-",
+"rh": "C5+F5+A5e re re r C5+Eb5+A5+C6s C5+Eb5+A5+C6s",
+"lh": "F3+A3+C4e re re r F3+C4+Eb4s F3+C4+Eb4s",
+"doubt": "Bémols de précaution imprimés sur Eb5 (MD) et Eb4 (MG)."
+},
+{
+"marks": [],
+"v": "C4e re F3s G3s A3 A3s Bb3s",
+"ly": "ges! Loin de nous, Noirs pré-",
+"rh": "C5+Eb5+A5+C6e re re r re",
+"lh": "F3+C4+Eb4e re re r re"
+},
+{
+"marks": [
+"<"
+],
+"v": "C4 C4s rs F3s G3s A3s Bb3s C4s D4s",
+"ly": "sa- ges! Les plus sa- ges Sont les",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "Soufflet de crescendo sur la fin de la mesure (chant)."
+},
+{
+"marks": [
+"f"
+],
+"v": "E4e E4~ E4e G4t F4t E4t D4t C4t Bb3t A3t G3t",
+"ly": "fous! ah! _ _ _ _ _ _ _ _",
+"rh": "Eb5+A5+C6+Eb6e re re r re",
+"lh": "F2+A2+C3+F3e re re r re",
+"doubt": "Accent > sur le 2e E4 ; triples croches (3 barres) ; E4 noire liée à E4 croche. f imprimé sous la MD. Au-dessus du chant, petite portée « più facile » (ossia simplifiée, « fous! ah! », 2 mesures) — non transcrite. Accord MD Eb5+A5+C6+Eb6 : note supérieure lue Eb6 (incertain). Accord MG F2+A2+C3+F3 : têtes serrées, incertain."
+},
+{
+"marks": [
+"p",
+"cresc.",
+"tr",
+">",
+"f"
+],
+"v": "F3s E3s F3s F#3s G3s G#3s A3 gG3 A3s rt F3t",
+"ly": "_ _ _ _ _ _ _ _ Le",
+"rh": "rhd^",
+"lh": "rhd^",
+"doubt": "Mesure de cadence : piano = pause avec point d'orgue. tr sur A3 noire, petite note G3 (barrée) avant A3 double croche ; E♮3 et F♮3 (bécarres imprimés). Soufflet < > au-dessus du trille. « Le » = levée vers « vin » (système suivant). La 1re note F3s porte la fin du mélisme de « ah! »."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "Bb3 F3e D3s F3s Bb3e D4e",
+"ly": "vin dis- si- pe la tris-",
+"rh": "D4s F4s Bb4s D5s Bb4s F4s D4s F4s Bb4s D5s Bb4s F4s",
+"lh": "Bb1+Bb2s D3s F3s Bb3s F3s D3s Bb2s D3s F3s Bb3s F3s D3s",
+"doubt": "f (1re moitié) puis p (2e moitié) au piano. Basse Bb1 (2 lignes supplémentaires) sous la 1re double croche MG."
+},
+{
+"marks": [],
+"v": "D4~ D4s Eb4s C4d",
+"ly": "tes- _ se",
+"rh": "Eb4s F4s A4s F4s Eb4s F4s Eb4s F4s A4s C5s A4s F4s",
+"lh": "F2e C4s A3s F3s A3s C4s A3s F3s Eb3s F3s A3s"
+},
+{
+"marks": [],
+"v": "re F3e Bb3e A3e C4e A3e",
+"ly": "Qui pè- se sur mon",
+"rh": "Eb4s F4s A4s C5s A4s F4s Eb4s F4s A4s C5s A4s F4s",
+"lh": "F2e C4s A3s F3s A3s C4s A3s F3s Eb3s F3s A3s"
+},
+{
+"marks": [],
+"v": "F3d~ F3e red F3s",
+"ly": "cœur! À",
+"rh": "D4s F4s Bb4s D5s Bb4s F4s D4s F4s Bb4s D5s Bb4s F4s",
+"lh": "Bb2s D3s F3s Bb3s F3s D3s Bb2s D3s F3s Bb3s F3s D3s",
+"doubt": "Imprimé « coeur! » ; F3 noire pointée liée à F3 croche (trait de prolongation)."
+},
+{
+"marks": [],
+"v": "Bb3 F3e D3s F3s Bb3e D4e",
+"ly": "moi les rê- ves de l'i-",
+"rh": "D4s F4s Bb4s D5s Bb4s F4s D4s F4s Bb4s D5s Bb4s F4s",
+"lh": "Bb2s D3s F3s Bb3s F3s D3s Bb2s D3s F3s Bb3s F3s D3s"
+},
+{
+"marks": [
+">"
+],
+"v": "D4e F4ed Eb4s C4d~",
+"ly": "vres- _ _ se",
+"rh": "Eb4s F4s A4s F4s Eb4s F4s Eb4s F4s A4s C5s A4s F4s",
+"lh": "F2e C4s A3s F3s A3s C4s A3s F3s Eb3s F3s A3s",
+"doubt": "Accent > sur F4 croche pointée. C4 lié à la 1re note de la page suivante (p. 6)."
+}
+]
+}

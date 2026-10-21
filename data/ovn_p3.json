@@ -1,17 +1,141 @@
-{"page":3,"measures":[
-{"meter":"6/8","ks":-2,"marks":["risoluto e marcato","f","mf"],"v":"C4d^ D4 F4e","ly":"Ô li-","rh":"Eb4+G4+C5e re re^ D5+F5+D6s D5+F5+D6s D5+F5+D6","lh":"A2+Eb3+A3e re re^ Bb3+F4s Bb3+F4s Bb3+F4","doubt":"Page imprimée 144. Mesure de raccord : le C4 du chant (sans syllabe ; la dernière note de p2 doit porter ~) (point d'orgue) et les accords du piano sont liés depuis la page précédente. Point d'orgue au piano sur le 2e silence. RH 1er accord : lecture E4+G4+C5 (Eb par l'armure, pas d'altération visible) incertaine. Staccatos sur les doubles croches, accent sur la noire."},
-{"v":"C4 F4e Bb3e D4ed C4s","ly":"queur en- chan- _ te-","rh":"F5+C6+F6s F5+C6+F6s F5+C6+F6 Bb4+F5+Bb5s Bb4+F5+Bb5s Bb4+F5+Bb5","lh":"A3+F4s A3+F4s A3+F4 G3+F4s G3+F4s G3+F4","doubt":"Note F4 « en- » entourée à la main sur le scan. Staccatos + accents."},
-{"marks":["p"],"v":"Bb3 A3e G3e A3e F3e","ly":"res- se! Ver- se l'i-","rh":"Bb4+F5+Bb5 A4+F5+A5e Bb3+G4e C4+A4e A3+F4e","lh":"F3+C4+F4s F3+C4+F4s F3+C4+F4 Eb3t F3t Eb3t F3t Eb3t F3t Eb3t F3t Eb3t F3t Eb3t F3t","doubt":"RH : F5 lié Bb→A, liaisons de phrasé Bb5→A5 et Bb4→A4 (non notées). LH : bémol de précaution devant Eb3 ; triples croches (3 barres) lues."},
-{"v":"Bb3e D4e C4e Eb4e Eb4e D4e","ly":"vres- _ se dans _ mon","rh":"Bb4e D5e C5e Eb5 D5e // F4d Bb4e F4+C5e F4+Bb4e","lh":"D3t F3t D3t F3t Bb2t F3t Bb2t F3t A2t F3t A2t F3t G2t Eb3t G2t Eb3t A2t F3t A2t F3t Bb2t F3t Bb2t F3t","doubt":"Chant : « dans » sous le 1er Eb4, rien sous le 2e (deux Eb4 non liés) → mélisme supposé. LH : triples croches (3 barres)."},
-{"v":"D4 C4e D4 F4e","ly":"cœur! _ Ô li-","rh":"E4+Bb4+D5 F4+A4+C5e D5+F5+D6s D5+F5+D6s D5+F5+D6","lh":"F2d Bb3+F4s Bb3+F4s Bb3+F4","marks":["mf"],"doubt":"Paroles imprimées « O » sans circonflexe (écrit Ô). RH : bécarre devant E4 (E naturel) ; liaisons 1er→2e accord."},
-{"v":"C4 F4e Bb3e D4ed C4s","ly":"queur en- chan- _ te-","rh":"F5+C6+F6s F5+C6+F6s F5+C6+F6 Bb4+E5+Bb5s Bb4+E5+Bb5s Bb4+E5+Bb5","lh":"A3+F4s A3+F4s A3+F4 G3+Bb3+E4s G3+Bb3+E4s G3+Bb3+E4","doubt":"Bécarres imprimés devant E5 (RH) et E4 (LH)."},
-{"v":"Bb3 A3e G3e A3e F3e","ly":"res- se! Ver- se l'i-","rh":"Bb4+F5+Bb5 A4+F5+A5e Bb3+F4+G4e C4+A4e A3+F4e","lh":"F3+C4+F4s F3+C4+F4s F3+C4+F4 Eb2+Eb3d","doubt":"RH 3e croche : grappe F4+G4 (seconde) lue, alors qu'en m3 seul G4. LH : bémols imprimés devant Eb3 et Eb2."},
-{"marks":["cresc.","sf"],"v":"Bb3e C4e Eb4e D4e D4e^ C4e","ly":"vresse Et l'ou- bli dans mon","rh":"F4+Bb4e G4+C5e G4+Eb5e F4+Bb4+D5e Eb4+F4+A4^","lh":"D2+D3e Eb2+Eb3e C2+C3e F2+F3e F2+F3^","doubt":"« vresse Et » imprimé en élision sur une seule note (Bb3). Signe de respiration (√) manuscrit après Bb3. Points d'orgue (chant D4, piano RH et LH) ; liaisons du dernier accord vers m9 non notées. Staccatos."},
-{"marks":["p"],"v":"Bb3 re r re","ly":"cœur!","rh":"D4+F4+Bb4e Bb3+Bb4e re Bb3s A3s Bb3e F3e","lh":"Bb2+Bb3e Bb1+Bb2e re Bb2e re F2e"},
-{"v":"rhd","ly":"","rh":"Bb3s A3s Bb3e F3e Bb3s A3s Bb3e F3e","lh":"Bb2e re F2e Bb2e re F2e"},
-{"marks":["f"],"v":"rhd","ly":"","rh":"Bb3s A3s Bb3e F3e Bb3+Bb4s F4s Bb3+Bb4e C4+D5e","lh":"Bb2e re F2e Bb2s F2s Bb2e C3e"},
-{"marks":["sf",">"],"v":"rhd","ly":"","rh":"C#4+C#5hd","lh":"C#3hd","doubt":"Blanches pointées avec dièses ; sf puis soufflet decresc. Double barre ensuite."},
-{"ks":3,"marks":["Un poco animato.","pp"],"v":"rhd","ly":"","rh":"A3+C#4e re A3+C#4e A3+C#4e re A3+C#4e","lh":"F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e","doubt":"Changement d'armure : 3 dièses (bécarres d'annulation imprimés)."},
-{"marks":["p"],"v":"r re r F#3e","ly":"La","rh":"A3+C#4e re A3+C#4e A3+C#4e re A3+C#4e","lh":"F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e"},
-{"v":"G#3 G#3e B3d~","ly":"vie est som-","rh":"G#3+C#4e re G#3+C#4e G#3+C#4e re G#3+C#4e","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+E#3e re F#2+C#3+E#3e","doubt":"Chant : B3 pointé avec liaison qui se poursuit page suivante (prolongation ou liaison de phrasé ? — ~ supposé). LH : altération(s) peu lisible(s) devant l'accord (lu dièse → E#3)."}
-]}
+{
+"page": 3,
+"measures": [
+{
+"meter": "6/8",
+"ks": -2,
+"marks": [
+"risoluto e marcato",
+"f",
+"mf"
+],
+"v": "C#4d^ D4 F4e",
+"ly": "Ô li-",
+"rh": "Eb4+G4+C5e re re^ D5+F5+D6s D5+F5+D6s D5+F5+D6",
+"lh": "A2+Eb3+A3e re re^ Bb3+F4s Bb3+F4s Bb3+F4",
+"doubt": "Page imprimée 144. Mesure de raccord : le C4 du chant (sans syllabe ; la dernière note de p2 doit porter ~) (point d'orgue) et les accords du piano sont liés depuis la page précédente. Point d'orgue au piano sur le 2e silence. RH 1er accord : lecture E4+G4+C5 (Eb par l'armure, pas d'altération visible) incertaine. Staccatos sur les doubles croches, accent sur la noire. Do dièse lié depuis la p.143 (« queur! » tenu)."
+},
+{
+"v": "C4 F4e Bb3e D4ed C4s",
+"ly": "queur en- chan- _ te-",
+"rh": "F5+C6+F6s F5+C6+F6s F5+C6+F6 Bb4+F5+Bb5s Bb4+F5+Bb5s Bb4+F5+Bb5",
+"lh": "A3+F4s A3+F4s A3+F4 G3+F4s G3+F4s G3+F4",
+"doubt": "Note F4 « en- » entourée à la main sur le scan. Staccatos + accents."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb3 A3e G3e A3e F3e",
+"ly": "res- se! Ver- se l'i-",
+"rh": "Bb4+F5+Bb5 A4+F5+A5e Bb3+G4e C4+A4e A3+F4e",
+"lh": "F3+C4+F4s F3+C4+F4s F3+C4+F4 Eb3t F3t Eb3t F3t Eb3t F3t Eb3t F3t Eb3t F3t Eb3t F3t",
+"doubt": "RH : F5 lié Bb→A, liaisons de phrasé Bb5→A5 et Bb4→A4 (non notées). LH : bémol de précaution devant Eb3 ; triples croches (3 barres) lues."
+},
+{
+"v": "Bb3e D4e C4e Eb4e Eb4e D4e",
+"ly": "vres- _ se dans _ mon",
+"rh": "Bb4e D5e C5e Eb5 D5e // F4d Bb4e F4+C5e F4+Bb4e",
+"lh": "D3t F3t D3t F3t Bb2t F3t Bb2t F3t A2t F3t A2t F3t G2t Eb3t G2t Eb3t A2t F3t A2t F3t Bb2t F3t Bb2t F3t",
+"doubt": "Chant : « dans » sous le 1er Eb4, rien sous le 2e (deux Eb4 non liés) → mélisme supposé. LH : triples croches (3 barres)."
+},
+{
+"v": "D4 C4e D4 F4e",
+"ly": "cœur! _ Ô li-",
+"rh": "E4+Bb4+D5 F4+A4+C5e D5+F5+D6s D5+F5+D6s D5+F5+D6",
+"lh": "F2d Bb3+F4s Bb3+F4s Bb3+F4",
+"marks": [
+"mf"
+],
+"doubt": "Paroles imprimées « O » sans circonflexe (écrit Ô). RH : bécarre devant E4 (E naturel) ; liaisons 1er→2e accord."
+},
+{
+"v": "C4 F4e Bb3e D4ed C4s",
+"ly": "queur en- chan- _ te-",
+"rh": "F5+C6+F6s F5+C6+F6s F5+C6+F6 Bb4+E5+Bb5s Bb4+E5+Bb5s Bb4+E5+Bb5",
+"lh": "A3+F4s A3+F4s A3+F4 G3+Bb3+E4s G3+Bb3+E4s G3+Bb3+E4",
+"doubt": "Bécarres imprimés devant E5 (RH) et E4 (LH)."
+},
+{
+"v": "Bb3 A3e G3e A3e F3e",
+"ly": "res- se! Ver- se l'i-",
+"rh": "Bb4+F5+Bb5 A4+F5+A5e Bb3+F4+G4e C4+A4e A3+F4e",
+"lh": "F3+C4+F4s F3+C4+F4s F3+C4+F4 Eb2+Eb3d",
+"doubt": "RH 3e croche : grappe F4+G4 (seconde) lue, alors qu'en m3 seul G4. LH : bémols imprimés devant Eb3 et Eb2."
+},
+{
+"marks": [
+"cresc.",
+"sf"
+],
+"v": "Bb3e C4e Eb4e D4e D4e^ C4e",
+"ly": "vresse Et l'ou- bli dans mon",
+"rh": "F4+Bb4e G4+C5e G4+Eb5e F4+Bb4+D5e Eb4+F4+A4^",
+"lh": "D2+D3e Eb2+Eb3e C2+C3e F2+F3e F2+F3^",
+"doubt": "« vresse Et » imprimé en élision sur une seule note (Bb3). Signe de respiration (√) manuscrit après Bb3. Points d'orgue (chant D4, piano RH et LH) ; liaisons du dernier accord vers m9 non notées. Staccatos."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb3 re r re",
+"ly": "cœur!",
+"rh": "D4+F4+Bb4e Bb3+Bb4e re Bb3s A3s Bb3e F3e",
+"lh": "Bb2+Bb3e Bb1+Bb2e re Bb2e re F2e"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Bb3s A3s Bb3e F3e Bb3s A3s Bb3e F3e",
+"lh": "Bb2e re F2e Bb2e re F2e"
+},
+{
+"marks": [
+"f"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Bb3s A3s Bb3e F3e Bb3+Bb4s F4s Bb3+Bb4e C4+D5e",
+"lh": "Bb2e re F2e Bb2s F2s Bb2e C3e"
+},
+{
+"marks": [
+"sf",
+">"
+],
+"v": "rhd",
+"ly": "",
+"rh": "C#4+C#5hd",
+"lh": "C#3hd",
+"doubt": "Blanches pointées avec dièses ; sf puis soufflet decresc. Double barre ensuite."
+},
+{
+"ks": 3,
+"marks": [
+"Un poco animato.",
+"pp"
+],
+"v": "rhd",
+"ly": "",
+"rh": "A3+C#4e re A3+C#4e A3+C#4e re A3+C#4e",
+"lh": "F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e",
+"doubt": "Changement d'armure : 3 dièses (bécarres d'annulation imprimés)."
+},
+{
+"marks": [
+"p"
+],
+"v": "r re r F#3e",
+"ly": "La",
+"rh": "A3+C#4e re A3+C#4e A3+C#4e re A3+C#4e",
+"lh": "F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e"
+},
+{
+"v": "G#3 G#3e B3d~",
+"ly": "vie est som-",
+"rh": "G#3+C#4e re G#3+C#4e G#3+C#4e re G#3+C#4e",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+E#3e re F#2+C#3+E#3e",
+"doubt": "Chant : B3 pointé avec liaison qui se poursuit page suivante (prolongation ou liaison de phrasé ? — ~ supposé). LH : altération(s) peu lisible(s) devant l'accord (lu dièse → E#3)."
+}
+]
+}

@@ -1,13 +1,107 @@
-{"page":7,"measures":[
-{"meter":"6/8","marks":[],"v":"C4 F4e Bb3e D4ed C4s","ly":"queur en- chan- _ te-","rh":"F5+C6+F6s F5+C6+F6s F5+C6+F6 Bb4+E5+Bb5s Bb4+E5+Bb5s Bb4+E5+Bb5","lh":"A3+F4s A3+F4s A3+F4 G3+Bb3+E4s G3+Bb3+E4s G3+Bb3+E4","doubt":"Page imprimée 148. Liaison Bb3 → D4 (mélisme sur « chan- »). Bécarres sur E5 (MD) et E4 (MG). Accords piqués + accent > sur les noires."},
-{"marks":["p"],"v":"Bb3 A3e G3e A3e F3e","ly":"res- se! Ver- se l'i-","rh":"Bb4+F5+Bb5 A4+F5+A5e Bb3+F4+G4e C4+A4e A3+F4e","lh":"F3+C4+F4s F3+C4+F4s F3+C4+F4 Eb2+Eb3d","doubt":"MD : 1er accord lié/lié-coulé vers A4+F5+A5 (note sup. Bb5, peut-être C6). MG : accords piqués + accent >, puis octave Eb2+Eb3 pointée (bémols imprimés). p lu sous la MD (incertain)."},
-{"marks":["cresc.","sf"],"v":"Bb3e C4e Eb4e D4e D4e^ C4e","ly":"vresse Et l'ou- bli dans mon","rh":"F4+Bb4e G4+C5e G4+Eb5e F4+Bb4+D5e Eb4+F4+A4^","lh":"D2+D3e Eb2+Eb3e C2+C3e F2+F3e F2+F3^","doubt":"Point d'orgue sur D4 (chant), sur le dernier accord MD et la dernière octave MG (sf). « vresse » imprimé sous une seule note. Octaves basses (D2, Eb2, C2) lues sur lignes supplémentaires — incertaines."},
-{"marks":["ff"],"v":"Bb3d D4s D4s D4e D4e","ly":"cœur, ver- se- nous l'i-","rh":"D4+F4+Bb4s F4s Bb4s D5s F5s Bb5s D5+F5+D6s D5+F5+D6s D5+F5+D6e D5+F5+D6e","lh":"Bb1+Bb2s F3s Bb3s D4s F4s Bb4s Bb3+D4+F4s Bb3+D4+F4s Bb3+D4+F4e Bb3+D4+F4e","doubt":"Imprimé « cœur, ». Chant : 2 doubles croches + croche pour « ver-se-nous » (la ligne anglaise a d'autres hampes) — rythme français retenu. Coche manuscrite au-dessus du système ignorée."},
-{"marks":[">"],"v":"F4hd^","ly":"vres-","rh":"F5+Bb5+D6+F6e D5t Eb5t F5t G5t A5t Bb5t C6t D6x Eb6x F6e F5t G5t A5t Bb5t C6t D6t Eb6x F6x G6x A6x","lh":"Bb3+D4+F4hd","doubt":"Point d'orgue au-dessus du F4 (semble ajouté à la main). « vres- » suivi de tirets jusqu'au système suivant. MD : traits en triples croches — groupe de 5 marqué « 5 » (A5–Eb6) écrit t t t x x ; 2e moitié : 10 triples croches imprimées (F5→A6) dans une noire, écrites 6 t + 4 x pour tomber juste ; F6 croche piquée. Accord initial : têtes serrées (F5 Bb5 D6 F6), incertain. MG : accord blanche pointée avec accent >."},
-{"marks":["ff"],"v":"Bb3e re re r re","ly":"se!","rh":"Bb6e re F4+F5e D5+Bb5sd A4+F5+C6t D5+Bb5+D6e D5+Bb5+D6e","lh":"Bb2+D3+F3s F3s Bb3s D4s Bb3s F3s Bb2s F3s Bb3s D4s Bb3s F3s","doubt":"MD : Bb6 (5 lignes supplémentaires, sans 8va) avec liaison venant de la mesure précédente ; accords piqués."},
-{"marks":[],"v":"rhd","ly":"","rh":"D5+Bb5+D6 F4+F5e D5+Bb5+D6sd A4+Eb5+C6+Eb6t F5+D6+F6e F5+D6+F6e","lh":"Bb2s F3s Bb3s D4s Bb3s F3s Bb2s F3s Bb3s D4s Bb3s F3s","doubt":"Chant : pause. Accords MD à têtes serrées (lecture incertaine, surtout la triple croche A4+Eb5+C6+Eb6 et les croches F5+D6+F6)."},
-{"marks":[],"v":"rhd","ly":"","rh":"F5+D6+F6e Eb6s D6s C6s Bb5s A5s G5s F5s Eb5s D5s C5s","lh":"F2+Bb2+D3+F3e re re F2+A2+C3+F3e re re","doubt":"Chant : pause."},
-{"marks":[],"v":"rhd","ly":"","rh":"Bb4s Bb3s D4s F4s Bb4s D5s F5e F5+A5+C6e F5+C6+Eb6e","lh":"Bb2+D3+F3+Bb3s Bb2s D3s F3s Bb3s D4s F4e F2+A2+C3+F3e F2+A2+C3+F3e","doubt":"Dernier système sans portée de chant (silences). Accords piqués."},
-{"marks":["8va"],"v":"rhd","ly":"","rh":"F5+Bb5+D6s Bb4s D5s F5s Bb5s D6s F6e G5+Eb6+G6e A5+Eb6+A6e","lh":"Bb2+D3+F3s Bb2s D3s F3s Bb3s D4s F4e F2+F3e F2+F3e","doubt":"« 8 ...... » imprimé au-dessus des deux derniers accords MD et du 1er accord de la mesure suivante : écrits à la hauteur JOUÉE (imprimés G4+Eb5+G5, A4+Eb5+A5)."},
-{"marks":[],"v":"rhd","ly":"","rh":"Bb5+D6+Bb6e re re r re","lh":"Bb1+Bb2e re re r re","doubt":"Sous le 8va : imprimé Bb4+D5+Bb5, écrit à la hauteur jouée. Double barre finale."}
-]}
+{
+"page": 7,
+"measures": [
+{
+"meter": "6/8",
+"marks": [],
+"v": "C4 F4e Bb3e D4ed C4s",
+"ly": "queur en- chan- _ te-",
+"rh": "F5+C6+F6s F5+C6+F6s F5+C6+F6 Bb4+E5+Bb5s Bb4+E5+Bb5s Bb4+E5+Bb5",
+"lh": "A3+F4s A3+F4s A3+F4 G3+Bb3+E4s G3+Bb3+E4s G3+Bb3+E4",
+"doubt": "Page imprimée 148. Liaison Bb3 → D4 (mélisme sur « chan- »). Bécarres sur E5 (MD) et E4 (MG). Accords piqués + accent > sur les noires."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb3 A3e G3e A3e F3e",
+"ly": "res- se! Ver- se l'i-",
+"rh": "Bb4+F5+Bb5 A4+F5+A5e Bb3+F4+G4e C4+A4e A3+F4e",
+"lh": "F3+C4+F4s F3+C4+F4s F3+C4+F4 Eb2+Eb3d",
+"doubt": "MD : 1er accord lié/lié-coulé vers A4+F5+A5 (note sup. Bb5, peut-être C6). MG : accords piqués + accent >, puis octave Eb2+Eb3 pointée (bémols imprimés). p lu sous la MD (incertain)."
+},
+{
+"marks": [
+"cresc.",
+"sf"
+],
+"v": "Bb3e C4e Eb4e D4e D4e^ C4e",
+"ly": "vresse Et l'ou- bli dans mon",
+"rh": "F4+Bb4e G4+C5e G4+Eb5e F4+Bb4+D5e Eb4+F4+A4^",
+"lh": "D2+D3e Eb2+Eb3e C2+C3e F2+F3e F2+F3^",
+"doubt": "Point d'orgue sur D4 (chant), sur le dernier accord MD et la dernière octave MG (sf). « vresse » imprimé sous une seule note. Octaves basses (D2, Eb2, C2) lues sur lignes supplémentaires — incertaines."
+},
+{
+"marks": [
+"ff"
+],
+"v": "Bb3d D4s D4s D4e D4e",
+"ly": "cœur, ver- se- nous l'i-",
+"rh": "D4+F4+Bb4s F4s Bb4s D5s F5s Bb5s D5+F5+D6s D5+F5+D6s D5+F5+D6e D5+F5+D6e",
+"lh": "Bb1+Bb2s F3s Bb3s D4s F4s Bb4s Bb3+D4+F4s Bb3+D4+F4s Bb3+D4+F4e Bb3+D4+F4e",
+"doubt": "Imprimé « cœur, ». Chant : 2 doubles croches + croche pour « ver-se-nous » (la ligne anglaise a d'autres hampes) — rythme français retenu. Coche manuscrite au-dessus du système ignorée."
+},
+{
+"marks": [
+">"
+],
+"v": "F4hd",
+"ly": "vres-",
+"rh": "F5+Bb5+D6+F6e D5t Eb5t F5t G5t A5t%5:4 Bb5t%5:4 C6t%5:4 D6t%5:4 Eb6t%5:4 F6e F5t%10:8 G5t%10:8 A5t%10:8 Bb5t%10:8 C6t%10:8 D6t%10:8 Eb6t%10:8 F6t%10:8 G6t%10:8 A6t%10:8",
+"lh": "Bb3+D4+F4hd",
+"doubt": "Point d'orgue au-dessus du F4 manuscrit (non transcrit). MD : 4 triples croches, quintolet de triples croches « 5 » (une croche), F6 croche, puis 10 triples croches dans une noire — codés exactement (%5:4, %10:8). Accord initial : têtes serrées (F5 Bb5 D6 F6), incertain."
+},
+{
+"marks": [
+"ff"
+],
+"v": "Bb3e re re r re",
+"ly": "se!",
+"rh": "Bb6e re F4+F5e D5+Bb5sd A4+F5+C6t D5+Bb5+D6e D5+Bb5+D6e",
+"lh": "Bb2+D3+F3s F3s Bb3s D4s Bb3s F3s Bb2s F3s Bb3s D4s Bb3s F3s",
+"doubt": "MD : Bb6 (5 lignes supplémentaires, sans 8va) avec liaison venant de la mesure précédente ; accords piqués."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "D5+Bb5+D6 F4+F5e D5+Bb5+D6sd A4+Eb5+C6+Eb6t F5+D6+F6e F5+D6+F6e",
+"lh": "Bb2s F3s Bb3s D4s Bb3s F3s Bb2s F3s Bb3s D4s Bb3s F3s",
+"doubt": "Chant : pause. Accords MD à têtes serrées (lecture incertaine, surtout la triple croche A4+Eb5+C6+Eb6 et les croches F5+D6+F6)."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "F5+D6+F6e Eb6s D6s C6s Bb5s A5s G5s F5s Eb5s D5s C5s",
+"lh": "F2+Bb2+D3+F3e re re F2+A2+C3+F3e re re",
+"doubt": "Chant : pause."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "Bb4s Bb3s D4s F4s Bb4s D5s F5e F5+A5+C6e F5+C6+Eb6e",
+"lh": "Bb2+D3+F3+Bb3s Bb2s D3s F3s Bb3s D4s F4e F2+A2+C3+F3e F2+A2+C3+F3e",
+"doubt": "Dernier système sans portée de chant (silences). Accords piqués."
+},
+{
+"marks": [
+"8va"
+],
+"v": "rhd",
+"ly": "",
+"rh": "F5+Bb5+D6s Bb4s D5s F5s Bb5s D6s F6e G5+Eb6+G6e A5+Eb6+A6e",
+"lh": "Bb2+D3+F3s Bb2s D3s F3s Bb3s D4s F4e F2+F3e F2+F3e",
+"doubt": "« 8 ...... » imprimé au-dessus des deux derniers accords MD et du 1er accord de la mesure suivante : écrits à la hauteur JOUÉE (imprimés G4+Eb5+G5, A4+Eb5+A5)."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "Bb5+D6+Bb6e re re r re",
+"lh": "Bb1+Bb2e re re r re",
+"doubt": "Sous le 8va : imprimé Bb4+D5+Bb5, écrit à la hauteur jouée. Double barre finale."
+}
+]
+}

@@ -1,139 +1,139 @@
 {
- "page": 2,
- "measures": [
-  {
-   "meter": "6/8",
-   "marks": [
-    "f"
-   ],
-   "v": "rhd",
-   "ly": "",
-   "rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
-   "lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
-   "doubt": "Page imprimée 143. Chant : pause d'une mesure. Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "r re r F3e",
-   "ly": "Ô",
-   "rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
-   "lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
-   "doubt": "f au chant. Imprimé « O » (sans accent) : écrit « Ô ». Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "Bb3 F3e D3s F3s Bb3e D4e",
-   "ly": "vin, dis- si- pe la tris-",
-   "rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
-   "lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
-   "doubt": "Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "D4~ D4sd Eb4t C4d",
-   "ly": "tes- _ se",
-   "rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
-   "lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
-   "doubt": "Ré4 noire lié au Ré4 double croche pointée (liaison intérieure), mélisme sur Mib4, liaison de phrasé sur le groupe. MD 1er accord : Mib4/Fa4 en seconde. Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "re F3e Bb3e A3e C4e A3e",
-   "ly": "Qui pè- se sur mon",
-   "rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
-   "lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
-   "doubt": "Liaison de phrasé sur toute la mesure (chant). Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "F3d~ F3e red F3s",
-   "ly": "cœur! À",
-   "rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
-   "lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
-   "doubt": "Fa3 pointé lié au Fa3 croche (trait de prolongation après « cœur! »). Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "Bb3 F3e D3s F3s Bb3e D4e",
-   "ly": "moi les rê- ves de l'i-",
-   "rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
-   "lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
-   "doubt": "Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "D4e F4ed Eb4s C4d~",
-   "ly": "vres- _ _ se",
-   "rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
-   "lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
-   "doubt": "Do4 lié au Do4 de la mesure suivante (trait « se ___ »). Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "C4e F3e Bb3e A3e C4ed Bb3s",
-   "ly": "Et le ri- re mo-",
-   "rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
-   "lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
-   "doubt": "1re croche = suite de la liaison (pas de syllabe). Accents > sur Fa3, Sib3, La3 et Do4 ; liaison de phrasé. Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "v": "Bb3d re Bb3ed C4s",
-   "ly": "queur! Ô li-",
-   "rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
-   "lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
-   "doubt": "Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "D4d Eb4e D4e C4e",
-   "ly": "queur en- chan- te-",
-   "rh": "Bb3e D4e G4e G3e C4e Eb4e",
-   "lh": "G2+G3e re re C2+C3e re re",
-   "doubt": "Accompagnement change : croches détachées (staccato) à la MD."
-  },
-  {
-   "v": "D4 G3e G3e A3e Bb3e",
-   "ly": "res- se, Ver- se l'i-",
-   "rh": "Bb3e D4e G4e Eb4e C4e G4e",
-   "lh": "G2+G3e re re C2+C3e re re",
-   "doubt": "Liaison de phrasé sur « Ver-se l'i-vresse… »."
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "G3e A3e Bb3e G3e Bb3e A3e",
-   "ly": "vresse Et l'ou- bli dans mon",
-   "rh": "Bb3e D4e G4e Bb3+E4d",
-   "lh": "G2+G3e re re C3d",
-   "doubt": "« vresse » chanté sur une seule note (e muet élidé devant « Et »). Bécarre sur Mi4 (MD, accord pointé) ; arc de Mi4 vers le Fa4 de la mesure suivante (liaison de phrasé ?)."
-  },
-  {
-   "v": "C4hd~",
-   "ly": "cœur!",
-   "rh": "F4e re re G4+G5e Bb4+Bb5e A4+A5e",
-   "lh": "A3e C4e F4e Bb3+C4+E4d // F3hd~",
-   "doubt": "Blanche pointée (tête creuse) liée vers la mesure suivante. MG à deux voix : Fa3 blanche pointée liée (voix inférieure) ; bécarre sur Mi4 ; Do4 décalé (seconde avec Sib3). MD octaves sous liaison."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "C4 re G3e Bb3ed A3s",
-   "ly": "Dou- ce li-",
-   "rh": "C5+C6d Bb3+Db4+E4d",
-   "lh": "F3+A3e C4e F4e r re",
-   "doubt": "Do4 = fin de la liaison (pas de syllabe). MD 2e accord : bémol sur Ré4 et bécarre sur Mi4. MG : le Fa3 du 1er accord reçoit la liaison de la mesure précédente."
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "C4d C#4d",
-   "ly": "queur! _",
-   "rh": "A3+F4e C4e F4e E4+G4+C#5d~",
-   "lh": "F2+F3e re re A2+E3+A3d~",
-   "doubt": "Soufflet crescendo (<) au-dessus du chant. Do4 → Do#4 sous liaison (mélisme) ; un arc part du Do#4 vers la p.3. Accords finaux piano liés vers la p.3 (♯ sur Do5, bécarres sur Mi4 / Mi3) ; f à la MD. Mesure suivante sur la p.3."
-  }
- ]
+"page": 2,
+"measures": [
+{
+"meter": "6/8",
+"marks": [
+"f"
+],
+"v": "rhd",
+"ly": "",
+"rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
+"lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
+"doubt": "Page imprimée 143. Chant : pause d'une mesure. Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"marks": [
+"f"
+],
+"v": "r re r F3e",
+"ly": "Ô",
+"rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
+"lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
+"doubt": "f au chant. Imprimé « O » (sans accent) : écrit « Ô ». Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb3 F3e D3s F3s Bb3e D4e",
+"ly": "vin, dis- si- pe la tris-",
+"rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
+"lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
+"doubt": "Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "D4~ D4sd Eb4t C4d",
+"ly": "tes- _ se",
+"rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
+"lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
+"doubt": "Ré4 noire lié au Ré4 double croche pointée (liaison intérieure), mélisme sur Mib4, liaison de phrasé sur le groupe. MD 1er accord : Mib4/Fa4 en seconde. Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "re F3e Bb3e A3e C4e A3e",
+"ly": "Qui pè- se sur mon",
+"rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
+"lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
+"doubt": "Liaison de phrasé sur toute la mesure (chant). Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "F3d~ F3e red F3s",
+"ly": "cœur! À",
+"rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
+"lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
+"doubt": "Fa3 pointé lié au Fa3 croche (trait de prolongation après « cœur! »). Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "Bb3 F3e D3s F3s Bb3e D4e",
+"ly": "moi les rê- ves de l'i-",
+"rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
+"lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
+"doubt": "Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "D4e F4ed Eb4s C4d~",
+"ly": "vres- _ _ se",
+"rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
+"lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
+"doubt": "Do4 lié au Do4 de la mesure suivante (trait « se ___ »). Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "C4e F3e Bb3e A3e C4ed Bb3s",
+"ly": "Et le ri- re mo-",
+"rh": "A3+Eb4+F4e Eb4+F4+A4e F4+A4+C5e F4+A4+C5+F5e! re re",
+"lh": "F2e F3+A3e A3+C4e C4+Eb4e! re re",
+"doubt": "1re croche = suite de la liaison (pas de syllabe). Accents > sur Fa3, Sib3, La3 et Do4 ; liaison de phrasé. Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"v": "Bb3d re Bb3ed C4s",
+"ly": "queur! Ô li-",
+"rh": "F3+Bb3+D4e Bb3+D4+F4e D4+F4+Bb4e F4+Bb4+D5e! re re",
+"lh": "Bb1+Bb2e D3+F3e F3+Bb3e Bb3+D4e! re re",
+"doubt": "Arpège (ligne ondulée sur les deux portées) sur le 4e accord ; staccato sur les accords."
+},
+{
+"marks": [
+"p"
+],
+"v": "D4d Eb4e D4e C4e",
+"ly": "queur en- chan- te-",
+"rh": "Bb3e D4e G4e G3e C4e Eb4e",
+"lh": "G2+G3e re re C2+C3e re re",
+"doubt": "Accompagnement change : croches détachées (staccato) à la MD."
+},
+{
+"v": "D4 G3e G3e A3e Bb3e",
+"ly": "res- se, Ver- se l'i-",
+"rh": "Bb3e D4e G4e Eb4e C4e G4e",
+"lh": "G2+G3e re re C2+C3e re re",
+"doubt": "Liaison de phrasé sur « Ver-se l'i-vresse… »."
+},
+{
+"marks": [
+"dim."
+],
+"v": "G3e A3e Bb3e G3e Bb3e A3e",
+"ly": "vresse Et l'ou- bli dans mon",
+"rh": "Bb3e D4e G4e Bb3+E4d",
+"lh": "G2+G3e re re C3d",
+"doubt": "« vresse » chanté sur une seule note (e muet élidé devant « Et »). Bécarre sur Mi4 (MD, accord pointé) ; arc de Mi4 vers le Fa4 de la mesure suivante (liaison de phrasé ?)."
+},
+{
+"v": "C4hd~",
+"ly": "cœur!",
+"rh": "F4e re re G4+G5e Bb4+Bb5e A4+A5e",
+"lh": "A3e C4e F4e Bb3+C4+E4d // F3hd~",
+"doubt": "Blanche pointée (tête creuse) liée vers la mesure suivante. MG à deux voix : Fa3 blanche pointée liée (voix inférieure) ; bécarre sur Mi4 ; Do4 décalé (seconde avec Sib3). MD octaves sous liaison."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "C4 re G3e Bb3ed A3s",
+"ly": "Dou- ce li-",
+"rh": "C5+C6d Bb3+Db4+E4d",
+"lh": "F3+A3e C4e F4e r re",
+"doubt": "Do4 = fin de la liaison (pas de syllabe). MD 2e accord : bémol sur Ré4 et bécarre sur Mi4. MG : le Fa3 du 1er accord reçoit la liaison de la mesure précédente."
+},
+{
+"marks": [
+"f"
+],
+"v": "C4d C#4d~",
+"ly": "queur! _",
+"rh": "A3+F4e C4e F4e E4+G4+C#5d~",
+"lh": "F2+F3e re re A2+E3+A3d~",
+"doubt": "Soufflet crescendo (<) au-dessus du chant. Do4 → Do#4 sous liaison (mélisme) ; un arc part du Do#4 vers la p.3. Accords finaux piano liés vers la p.3 (♯ sur Do5, bécarres sur Mi4 / Mi3) ; f à la MD. Mesure suivante sur la p.3."
+}
+]
 }

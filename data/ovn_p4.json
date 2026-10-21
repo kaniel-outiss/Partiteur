@@ -1,19 +1,142 @@
-{"page":4,"measures":[
-{"meter":"6/8","ks":3,"v":"B3 B3e B3e A3e F#3e","ly":"bre, Les ans sont","rh":"G#3+C#4e re G#3+C#4e A3+C#4e re A3+C#4e","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+F#3e re F#2+C#3+F#3e","doubt":"Page imprimée 145. Chant : 1er B3 lié depuis la p.3 (B3d~), sans syllabe. LH : dièse devant E3 (E#3)."},
-{"v":"G#3hd~","ly":"courts;","rh":"G#3+C#4e re G#3+C#4e E#3+G#3+C#4e re E#3+G#3+C#4e","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e C#3d~ // rd F#2e re F#2e","doubt":"RH : dièse devant E3 (E#3). LH : altération devant le 1er accord peu lisible (lue E#3 comme m1) ; C#3 accentué (>) lié à la mesure suivante, F#2 en voix inférieure."},
-{"v":"G#3e re re r F#3e","ly":"De","rh":"E#3+G#3+C#4e re E#3+G#3+C#4e F#3+A3+C#4e re F#3+A3+C#4e","lh":"C#3hd // F#2e re F#2e F#2e re F#2e","doubt":"Chant : G#3 lié depuis m2 (sans syllabe)."},
-{"v":"G#3 G#3e B3d~","ly":"nos beaux jours","rh":"G#3+C#4e re G#3+C#4e G#3+C#4e re G#3+C#4e","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+E#3e re F#2+C#3+E#3e","doubt":"Signe isolé imprimé après le trait de prolongation de « jours » (tache ?)."},
-{"v":"B3d A3e G#3e F#3e","ly":"Dieu sait le","rh":"G#3+C#4e re G#3+C#4e A3+C#4e re A3+C#4e","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+F#3e re F#2+C#3+F#3e"},
-{"v":"G#3d C#3d~","ly":"nom- bre.","rh":"G#3+C#4e re G#3+C#4e C#4d~ // rd G#3e re G#3e","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+E#3e re F#2+C#3+E#3e","doubt":"RH : C#4 accentué (>) lié à m7, G#3 en voix inférieure."},
-{"marks":["cresc."],"v":"C#3d r A3e","ly":"Cha-","rh":"C#4d A3+C#4e re A3+C#4e // G#3e re G#3e rd","lh":"F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+F#3e re F#2+C#3+F#3e","doubt":"Chant : C#3 lié depuis m6. RH : liaison C#4 vers les accords A3+C#4."},
-{"marks":["<"],"v":"B3 B3e E4d~","ly":"cun, hé- las!","rh":"G#3+B3+E4e re G#3+B3+E4e G#3+B3+E4e re G#3+B3+E4e","lh":"E2+E3e re E2+E3e E2+E3e re E2+E3e","doubt":"Bécarres imprimés devant E4 (RH) et E3/E2 (LH)."},
-{"v":"E4d B3e A3e G#3e","ly":"Porte i- ci-","rh":"G#3+B3+E4e re G#3+B3+E4e G#3+B3+E4e re G#3+B3+E4e","lh":"E2+B2+E3e re E2+B2+E3e E2+B2+E3e re E2+B2+E3e","doubt":"« Porte i- » : élision imprimée (Porte sous une seule note)."},
-{"v":"B3hd~","ly":"bas","rh":"G#3+B3+E4 re B4+B5e A4+A5e G#4+G#5e","lh":"E2+B2+E3e re E2+B2+E3e E2+B2+E3e re E2+B2+E3e","doubt":"RH : octaves en croches liées (legato)."},
-{"marks":["dim."],"v":"B3d B3e A3e G#3e","ly":"Sa lour- de","rh":"B4+B5 re B3+E#4e re B3+E#4e","lh":"E2+B2+E3e re E2+B2+E3e C#2+C#3e re C#2+C#3e","doubt":"Chant : 1er B3 lié depuis m10. RH : dièse devant E4 (E#4)."},
-{"v":"F#3hd","ly":"chaî-","rh":"A3+F#4e re A3+F#4e A3+F#4e re A3+F#4e","lh":"F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e","doubt":"Liaison F#3 → F#3 de m13 mais nouvelle syllabe « ne » : notée sans prolongation."},
-{"v":"F#3 re F#3e A3ed F#3s","ly":"ne, Cru- els de-","rh":"D4+D5hd","lh":"F#2+D3+F#3e re F#2+D3+F#3e F#2+D3+F#3e re F#2+D3+F#3e","doubt":"« Cruels » en deux syllabes (Cru-els) : « Cruels » imprimé sous F#3 et A3 pointée. RH : liaisons D→C# vers m14."},
-{"marks":["dim."],"v":"A3d F#3e G#3e F#3e","ly":"voirs, Longs dé- ses-","rh":"C#4+C#5d D4+D5d","lh":"F#2+C#3+F#3e re F#2+C#3+F#3e F#2+A2+D3+F#3d"},
-{"marks":["p","poco rit.","pp","col canto"],"v":"A3d F#3e F#3ed F#3s","ly":"poirs De l'âme hu-","rh":"C#4+C#5d F#3+A3+B#3d","lh":"F#2+A2+C#3+F#3e re F#2+A2+C#3+F#3e D2+B#2d","doubt":"Accord RH 2e temps : dièse lu devant B3 (B#3), têtes F#3/A3/B#3 serrées, lecture incertaine. LH : dièse devant B2 (B#2) ; basse lue D2 sans altération visible (D#2 possible)."},
-{"v":"F#3hd","ly":"mai-","rh":"A3+C#4 re F#4e G#4e F#4e","lh":"F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e","doubt":"Liaison F#3 → F#3 de m17 avec nouvelle syllabe : sans prolongation."},
-{"v":"F#3d r re","ly":"ne!","rh":"C#4+A4hd~","lh":"F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e","doubt":"RH : C#4+A4 accentué (>), liaisons vers la page suivante. Double barre puis changement d'armure à 2 bémols en fin de ligne (la suite commence p.5 avec ks -2)."}
-]}
+{
+"page": 4,
+"measures": [
+{
+"meter": "6/8",
+"ks": 3,
+"v": "B3 B3e B3e A3e F#3e",
+"ly": "bre, Les ans sont",
+"rh": "G#3+C#4e re G#3+C#4e A3+C#4e re A3+C#4e",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+F#3e re F#2+C#3+F#3e",
+"doubt": "Page imprimée 145. Chant : 1er B3 lié depuis la p.3 (B3d~), sans syllabe. LH : dièse devant E3 (E#3)."
+},
+{
+"v": "G#3hd~",
+"ly": "courts;",
+"rh": "G#3+C#4e re G#3+C#4e E#3+G#3+C#4e re E#3+G#3+C#4e",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e C#3d~ // rd F#2e re F#2e",
+"doubt": "RH : dièse devant E3 (E#3). LH : altération devant le 1er accord peu lisible (lue E#3 comme m1) ; C#3 accentué (>) lié à la mesure suivante, F#2 en voix inférieure."
+},
+{
+"v": "G#3e re re r F#3e",
+"ly": "De",
+"rh": "E#3+G#3+C#4e re E#3+G#3+C#4e F#3+A3+C#4e re F#3+A3+C#4e",
+"lh": "C#3hd // F#2e re F#2e F#2e re F#2e",
+"doubt": "Chant : G#3 lié depuis m2 (sans syllabe)."
+},
+{
+"v": "G#3 G#3e B3d~",
+"ly": "nos beaux jours",
+"rh": "G#3+C#4e re G#3+C#4e G#3+C#4e re G#3+C#4e",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+E#3e re F#2+C#3+E#3e",
+"doubt": "Signe isolé imprimé après le trait de prolongation de « jours » (tache ?)."
+},
+{
+"v": "B3d A3e G#3e F#3e",
+"ly": "Dieu sait le",
+"rh": "G#3+C#4e re G#3+C#4e A3+C#4e re A3+C#4e",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+F#3e re F#2+C#3+F#3e"
+},
+{
+"v": "G#3d C#3d~",
+"ly": "nom- bre.",
+"rh": "G#3+C#4e re G#3+C#4e C#4d~ // rd G#3e re G#3e",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+E#3e re F#2+C#3+E#3e",
+"doubt": "RH : C#4 accentué (>) lié à m7, G#3 en voix inférieure."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "C#3d r A3e",
+"ly": "Cha-",
+"rh": "C#4d A3+C#4e re A3+C#4e // G#3e re G#3e rd",
+"lh": "F#2+C#3+E#3e re F#2+C#3+E#3e F#2+C#3+F#3e re F#2+C#3+F#3e",
+"doubt": "Chant : C#3 lié depuis m6. RH : liaison C#4 vers les accords A3+C#4."
+},
+{
+"marks": [
+"<"
+],
+"v": "B3 B3e E4d~",
+"ly": "cun, hé- las!",
+"rh": "G#3+B3+E4e re G#3+B3+E4e G#3+B3+E4e re G#3+B3+E4e",
+"lh": "E2+E3e re E2+E3e E2+E3e re E2+E3e",
+"doubt": "Bécarres imprimés devant E4 (RH) et E3/E2 (LH)."
+},
+{
+"v": "E4d B3e A3e G#3e",
+"ly": "Porte i- ci-",
+"rh": "G#3+B3+E4e re G#3+B3+E4e G#3+B3+E4e re G#3+B3+E4e",
+"lh": "E2+B2+E3e re E2+B2+E3e E2+B2+E3e re E2+B2+E3e",
+"doubt": "« Porte i- » : élision imprimée (Porte sous une seule note)."
+},
+{
+"v": "B3hd~",
+"ly": "bas",
+"rh": "G#3+B3+E4 re B4+B5e A4+A5e G#4+G#5e",
+"lh": "E2+B2+E3e re E2+B2+E3e E2+B2+E3e re E2+B2+E3e",
+"doubt": "RH : octaves en croches liées (legato)."
+},
+{
+"marks": [
+"dim."
+],
+"v": "B3d B3e A3e G#3e",
+"ly": "Sa lour- de",
+"rh": "B4+B5 re B3+E#4e re B3+E#4e",
+"lh": "E2+B2+E3e re E2+B2+E3e C#2+C#3e re C#2+C#3e",
+"doubt": "Chant : 1er B3 lié depuis m10. RH : dièse devant E4 (E#4)."
+},
+{
+"v": "F#3hd",
+"ly": "chaî-",
+"rh": "A3+F#4e re A3+F#4e A3+F#4e re A3+F#4e",
+"lh": "F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e",
+"doubt": "Liaison F#3 → F#3 de m13 mais nouvelle syllabe « ne » : notée sans prolongation."
+},
+{
+"v": "F#3 re F#3e A3ed F#3s",
+"ly": "ne, Cru- els de-",
+"rh": "D4+D5hd",
+"lh": "F#2+D3+F#3e re F#2+D3+F#3e F#2+D3+F#3e re F#2+D3+F#3e",
+"doubt": "« Cruels » en deux syllabes (Cru-els) : « Cruels » imprimé sous F#3 et A3 pointée. RH : liaisons D→C# vers m14."
+},
+{
+"marks": [
+"dim."
+],
+"v": "A3d F#3e G#3e F#3e",
+"ly": "voirs, Longs dé- ses-",
+"rh": "C#4+C#5d D4+D5d",
+"lh": "F#2+C#3+F#3e re F#2+C#3+F#3e F#2+A2+D3+F#3d"
+},
+{
+"marks": [
+"p",
+"poco rit.",
+"pp",
+"col canto"
+],
+"v": "A3d F#3e F#3ed F#3s",
+"ly": "poirs De l'âme hu-",
+"rh": "C#4+C#5d F#3+A3+B#3d",
+"lh": "F#2+A2+C#3+F#3e re F#2+A2+C#3+F#3e D2+B#2d",
+"doubt": "Accord RH 2e temps : dièse lu devant B3 (B#3), têtes F#3/A3/B#3 serrées, lecture incertaine. LH : dièse devant B2 (B#2) ; basse lue D2 sans altération visible (D#2 possible)."
+},
+{
+"v": "F#3hd",
+"ly": "mai-",
+"rh": "A3+C#4 re F#4e G#4e F#4e",
+"lh": "F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e",
+"doubt": "Liaison F#3 → F#3 de m17 avec nouvelle syllabe : sans prolongation."
+},
+{
+"v": "F#3d r re",
+"ly": "ne!",
+"rh": "C#4+A4hd~",
+"lh": "F#2+C#3+F#3e re F#2+C#3+F#3e F#2+C#3+F#3e re F#2+C#3+F#3e",
+"doubt": "RH : C#4+A4 accentué (>), liaisons vers la page suivante. Double barre puis changement d'armure à 2 bémols en fin de ligne (la suite commence p.5 avec ks -2)."
+}
+]
+}
