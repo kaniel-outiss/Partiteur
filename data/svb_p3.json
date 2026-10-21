@@ -1,0 +1,133 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "v": "A3 C4 r",
+   "ly": "rò, sì,",
+   "rh": "F5+A5 r r",
+   "lh": "F4+A4 r r",
+   "meter": "3/4",
+   "doubt": "Suite de la page précédente (mesure complète, pas de numéro de mesure lisible)."
+  },
+  {
+   "v": "G3 F3 G3",
+   "ly": "le suo- ne-",
+   "rh": "E5+G5 D5+F5 E5+G5",
+   "lh": "C4+G4 C4+F4 C4+G4",
+   "doubt": "m.2 et m.4 : main gauche en clé de SOL."
+  },
+  {
+   "v": "A3 F4 r",
+   "ly": "rò, sì,",
+   "rh": "F5+A5 r r",
+   "lh": "F4+A4 r r",
+   "doubt": "Chant F4 au-dessus de la 2e ligne supplémentaire."
+  },
+  {
+   "v": "G3 F3 G3",
+   "ly": "le suo- ne-",
+   "rh": "E5+G5 D5+F5 E5+G5",
+   "lh": "C4+G4 C4+F4 C4+G4",
+   "doubt": "Changement en clé de FA à la main gauche en fin de mesure."
+  },
+  {
+   "v": "F3 r r",
+   "ly": "rò.",
+   "rh": "F5 r r",
+   "lh": "F3+A3+F4e F3+F4e F3+F4e F3+F4e F3+F4e F3+F4e",
+   "doubt": "MG : croches staccato."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "re F5s E5s F5s E5s F5s E5s F5s E5s F5s E5s",
+   "lh": "F4hd~ // Bb3+D4 A3+C4 G3+Bb3",
+   "doubt": "RH : 1re paire de doubles croches F5-E5 écrite avec barres obliques ; liaison F4 m.6→m.7 lue comme liaison de prolongation ; accords MG staccato."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5e F5e F5e F5e F5e F5e",
+   "lh": "F4hd // F3+A3 G3+Bb3 A3+C4",
+   "doubt": "RH croches 2-6 staccato ; MG accords inférieurs liés (legato)."
+  },
+  {
+   "v": "Bb3 A3 G3",
+   "ly": "Se vuol ve-",
+   "rh": "re F5s E5s F5s E5s F5s E5s F5s E5s F5s E5s",
+   "lh": "F4hd~ // Bb3+D4 A3+C4 G3+Bb3"
+  },
+  {
+   "v": "F3 F3 r",
+   "ly": "ni- re",
+   "rh": "F5e F5e F5e F5e F5e F5e",
+   "lh": "F4hd // F3+A3 G3+Bb3 A3+C4"
+  },
+  {
+   "v": "Bb3 A3 G3",
+   "ly": "nel- la mia",
+   "rh": "re F5s E5s F5s E5s F5s E5s F5s E5s F5s E5s",
+   "lh": "F4hd~ // Bb3+D4 A3+C4 G3+Bb3"
+  },
+  {
+   "v": "F3 F3 r",
+   "ly": "scuo- la,",
+   "rh": "F5e C5+C6e C5+C6e C5+C6e C5+C6e C5+C6e",
+   "lh": "F3+A3+F4 G3+Bb3 A3+C4",
+   "doubt": "MG : F4 (noire) sur la même hampe que l'accord F3+A3, liée depuis la blanche pointée m.10 ; accords F3+A3 incertains (têtes peu nettes). RH octaves C5+C6 staccato."
+  },
+  {
+   "v": "F3 E3 D3",
+   "ly": "la ca- pri-",
+   "rh": "re C5s B4s C5s B4s C5s B4s C5s B4s C5s B4s",
+   "lh": "C4hd~ // F3+A3 E3+G3 D3+F3",
+   "doubt": "RH : bécarre sur le 1er B4 (B4 naturel toute la mesure)."
+  },
+  {
+   "v": "C3 C3 r",
+   "ly": "o- la",
+   "rh": "C5e C5+C6e C5+C6e C5+C6e C5+C6e C5+C6e",
+   "lh": "C4hd // C3+E3 D3+F3 E3+G3"
+  },
+  {
+   "v": "F3 E3 D3",
+   "ly": "le‿in se- gne-",
+   "rh": "re C5s B4s C5s B4s C5s B4s C5s B4s C5s B4s",
+   "lh": "C4hd~ // F3+A3 E3+G3 D3+F3",
+   "doubt": "« le in » en élision sur une seule note (F3). RH bécarre sur le 1er B4."
+  },
+  {
+   "v": "C3 r r",
+   "ly": "rò.",
+   "rh": "C5 r r",
+   "lh": "C3+E3+C4 r r",
+   "doubt": "MG : C4 (hampe haut, lié depuis m.14) et C3+E3 (hampe bas) écrits ici en un accord."
+  },
+  {
+   "v": "C4 C4d C4e",
+   "ly": "Se vuol ve-",
+   "rh": "E4+G4+C5 E4+G4+C5 E4+G4+C5",
+   "lh": "C3+E3+G3+C4 C3+E3+G3+C4 C3+E3+G3+C4",
+   "marks": [
+    "f"
+   ]
+  },
+  {
+   "v": "E4 C4 r",
+   "ly": "ni- re",
+   "rh": "G4+C5+E5 G4+C5+E5+G5 r",
+   "lh": "C3+E3+G3+C4 C3+E3+G3+C4 r",
+   "doubt": "Chant E4 sur la 2e ligne supplémentaire."
+  },
+  {
+   "v": "E3 F3 D3",
+   "ly": "nel- la mia",
+   "rh": "C4+E4 D4+F4 B3+D4",
+   "lh": "A3 F3+A3 G3",
+   "marks": [
+    "p"
+   ],
+   "doubt": "RH : bécarre devant B3 (B3 naturel) ; RH et MG staccato. Mesure continue page suivante (phrase)."
+  }
+ ]
+}
