@@ -1,0 +1,120 @@
+{
+"lang": "la",
+"ctx": "Requiem de Gabriel Fauré (op. 48, version 1890-1900), 6e mouvement. Le « Libera me » est un répons de l'office des morts, chanté au moment de l'absoute, devant le cercueil : le croyant implore Dieu de le délivrer de la mort éternelle au jour du Jugement, quand le ciel et la terre seront ébranlés. Fauré le confie d'abord à un baryton solo (ici la basse) sur des pizzicati réguliers comme un pas funèbre ; le chœur entre sur « Tremens factus sum ego », éclate avec les cors sur « Dies illa, dies iræ », puis reprend doucement le thème du début, à l'unisson. C'est la seule page dramatique d'un Requiem par ailleurs serein.",
+"diction": [
+"Latin d'Église (prononciation à l'italienne) : « Libera » [ˈliːbera], « Domine » [ˈdɔːmine], « cœli » [ˈtʃɛːli], « sæculum » [ˈsɛːkulum].",
+"« æ » et « œ » se prononcent [ɛ] : « æterna » [ɛˈtɛrna], « iræ » [ˈiːrɛ], « miseriæ » [miˈzɛːriɛ].",
+"« judicare » : [judiˈkaːre] (j = i consonne) ; « ignem » : [ˈiɲɲem] ; « ego » : [ˈɛːɡo].",
+"Solo de basse : legato sombre, sans pathos ; laisser l'orchestre marquer le pas régulier.",
+"« Dies illa, dies iræ » : ff du chœur, consonnes nettes, mais voix ronde ; « Requiem æternam » redevient pianissimo."
+],
+"lines": [
+{
+"key": "libera me",
+"it": "Libera me, Domine, de morte æterna, in die illa tremenda, quando cœli movendi sunt et terra, dum veneris judicare sæculum per ignem.",
+"ipa": "ˈliːbera me ˈdɔːmine de ˈmɔrte ɛˈtɛrna in ˈdiːe ˈilla treˈmɛnda ˈkwando ˈtʃɛːli moˈvɛndi sunt et ˈtɛrra dum ˈvɛːneris judiˈkaːre ˈsɛːkulum per ˈiɲɲem",
+"w": [
+[
+"Libera me, Domine",
+"délivre-moi, Seigneur"
+],
+[
+"de morte æterna",
+"de la mort éternelle"
+],
+[
+"in die illa tremenda",
+"en ce jour redoutable"
+],
+[
+"quando cœli movendi sunt et terra",
+"quand le ciel et la terre seront ébranlés"
+],
+[
+"dum veneris judicare",
+"quand tu viendras juger"
+],
+[
+"sæculum per ignem",
+"le monde par le feu"
+]
+],
+"fr": "Délivre-moi, Seigneur, de la mort éternelle, en ce jour redoutable où le ciel et la terre seront ébranlés, quand tu viendras juger le monde par le feu."
+},
+{
+"key": "tremens",
+"it": "Tremens factus sum ego et timeo, dum discussio venerit atque ventura ira.",
+"ipa": "ˈtrɛːmens ˈfaktus sum ˈɛːɡo et ˈtiːmeo dum disˈkussio ˈvɛːnerit ˈatkwe venˈtuːra ˈiːra",
+"w": [
+[
+"Tremens factus sum ego",
+"je suis saisi de tremblement"
+],
+[
+"et timeo",
+"et je crains"
+],
+[
+"dum discussio venerit",
+"que vienne le jugement"
+],
+[
+"atque ventura ira",
+"et la colère à venir"
+]
+],
+"fr": "Je suis saisi de tremblement et je crains le jugement qui vient, et la colère à venir."
+},
+{
+"key": "dies illa",
+"it": "Dies illa, dies iræ, calamitatis et miseriæ, dies illa, dies magna et amara valde.",
+"ipa": "ˈdiːes ˈilla ˈdiːes ˈiːrɛ kalamiˈtaːtis et miˈzɛːriɛ ˈdiːes ˈilla ˈdiːes ˈmaɲɲa et aˈmaːra ˈvalde",
+"w": [
+[
+"Dies illa, dies iræ",
+"ce jour-là, jour de colère"
+],
+[
+"calamitatis et miseriæ",
+"de calamité et de misère"
+],
+[
+"dies magna",
+"jour grand"
+],
+[
+"et amara valde",
+"et très amer"
+]
+],
+"fr": "Ce jour-là, jour de colère, de calamité et de misère, ce jour-là, jour immense et plein d'amertume."
+},
+{
+"key": "requiem",
+"it": "Requiem æternam dona eis, Domine, et lux perpetua luceat eis.",
+"ipa": "ˈrɛːkwiem ɛˈtɛrnam ˈdɔːna ˈeːis ˈdɔːmine et luks perˈpɛːtua ˈluːtʃeat ˈeːis",
+"w": [
+[
+"Requiem æternam",
+"le repos éternel"
+],
+[
+"dona eis, Domine",
+"donne-leur, Seigneur"
+],
+[
+"et lux perpetua",
+"et que la lumière éternelle"
+],
+[
+"luceat eis",
+"brille pour eux"
+]
+],
+"fr": "Donne-leur, Seigneur, le repos éternel, et que la lumière éternelle brille pour eux."
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage ; lignes placées sur la partie de basse."
+]
+}

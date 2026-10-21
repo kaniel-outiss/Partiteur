@@ -165,6 +165,26 @@ add_air('cai', {'id': 'verdi-celeste-aida', 'title': 'Celeste Aida', 'composer':
 add_air('ndo', {'id': 'puccini-nessun-dorma', 'title': 'Nessun dorma', 'composer': 'Giacomo Puccini', 'work': 'Turandot, acte III',
                 'role': 'Calaf', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 1, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 210-212'},
         60, {'name': 'Calaf (ténor)', 'short': 'Cal.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+# — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
+def add_satb(prefix, meta, bpm, parts, lykey='lb'):
+    if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
+    ms = pages(prefix)
+    for m in ms:
+        for k in ('ls', 'la', 'lt', 'lb'):
+            if m.get(k): m[k] = ' '.join(re.sub(r"(?<=[\w,;:.!?'’])_(?=\w)", '‿', w) for w in m[k].split())
+    ly = [m.pop('ly', None) for m in ms]
+    clean(ms)
+    if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
+    T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
+    if T: T = place_phrases(T, [{'ly': m.get(lykey, '')} for m in ms])
+    W.append(dict(dict({'ks': 0}, **meta), bpm=bpm, measures=ms, text=T, parts=parts))
+add_satb('lib', {'id': 'faure-libera-me', 'title': 'Libera me', 'composer': 'Gabriel Fauré', 'work': 'Requiem op. 48, n° VI',
+                 'role': None, 'voice': 'SATB + basse solo', 'style': 'Musique sacrée', 'period': 'Romantique', 'ks': -1, 'mode': 'minor', 'src': 'Éd. Nancho Alvarez (tomasluisdevictoria.org), p. 12-14'},
+         80, [{'id': 's', 'name': 'Soprano', 'short': 'S.', 'kind': 'voice', 'clef': 'G', 'oct': 0, 'vt': 'S', 'lyKey': 'ls'},
+              {'id': 'a', 'name': 'Alto', 'short': 'A.', 'kind': 'voice', 'clef': 'G', 'oct': 0, 'vt': 'A', 'lyKey': 'la'},
+              {'id': 't', 'name': 'Ténor', 'short': 'T.', 'kind': 'voice', 'clef': 'G', 'oct': -12, 'vt': 'T', 'lyKey': 'lt'},
+              {'id': 'b', 'name': 'Basse (solo puis chœur)', 'short': 'B.', 'kind': 'voice', 'clef': 'F', 'oct': 0, 'vt': 'B', 'lyKey': 'lb'},
+              {'id': 'orc', 'name': 'Orchestre (réduction)', 'short': 'Orch.', 'kind': 'piano'}])
 # — les chants ne sont plus dans l'appli : UN répertoire bibliotheque/partiteur-repertoire.fab (publié avec l'APK ;
 #   ajouté avec 📥 ou déposé dans Documents/Partiteur, il est fusionné dans repertoire.fab du téléphone) —
 sys.path.insert(0, 'tools')
