@@ -183,4 +183,6 @@ PARTS = {
 shell = open('src/shell.html').read()
 out = re.sub(r'__(VER|WORKS|SONS|VEROVIO|APP|SAFE)__', lambda m: PARTS[m.group(1)], shell)
 open('partiteur.html', 'w').write(out)
+if os.environ.get('PT_TEST'):  # copie de test (non publiée) : chants embarqués pour le rendu automatique
+    open(os.environ['PT_TEST'], 'w').write(out.replace('const WORKS=[];', 'const WORKS=[];window.TESTW=' + json.dumps(W, ensure_ascii=False) + ';', 1))
 print('ok', len(W), 'chants → bibliotheque/partiteur-repertoire.fab (', round(os.path.getsize('bibliotheque/partiteur-repertoire.fab') / 1024), 'Ko ) ·', round(len(out) / 1e6, 2), 'Mo')

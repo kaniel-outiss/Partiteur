@@ -1,50 +1,118 @@
-{"page":5,"printed_page":32,"measures":[
- {"meter":"6/8","ks":-2,"marks":[],"v":"F4d G4e A4e Bb4e","ly":"for- ma _ di-",
-  "rh":"Bb5+Eb6+G6s Bb5+D6+F6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s",
-  "lh":"F3d G3e A3e Bb3e // Bb2+D3e re re r re",
-  "doubt":"m.53 : suite de la p.31 (pas de levée). Longue ligne horizontale sous la MD m.53-54 (soufflet très fermé ? non reporté). Accords MD piqués (staccato)."},
- {"v":"C5d F5~ F5s rs","ly":"vi- na,",
-  "rh":"Eb5+A5+D6s Eb5+A5+C6s Eb5+A5+C6s Eb5+A5+B5s Eb5+A5+B5s Eb5+A5+C6s Eb5+A5+C6s D5+A5+D6s D5+A5+D6s A5+C6+Eb6s A5+C6+Eb6s F5+A5+F6s",
-  "lh":"C4d F4~ F4s rs // F3+A3e re re r re",
-  "doubt":"MD 4e-5e accords : ♮ sur si (B5 bécarre), petite seconde la-si. LH : accord F3-A3-C4, le point sur le C4 (voix haute)."},
- {"marks":["<"],"v":"G4d A4e Bb4e C5e","ly":"mi- sti- _ co",
-  "rh":"Eb5+Bb5+G6s! Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Eb6+G6s Eb6+G6s Eb6+G6s Eb6+G6s Eb6+G6s",
-  "lh":"G3d A3e Bb3e C4e // Eb3e re re r re",
-  "doubt":"MD 1er accord arpégé avec ♭ de précaution sur si ; accords 8-12 : seulement mi♭6+sol6 (lignes sup. vides). Soufflet < (chant et piano)."},
- {"marks":[">"],"v":"D5d F#5d","ly":"rag- gio",
-  "rh":"A5+D6+F#6s F#5+A5+D6s F#5+A5+D6s D5+F#5+A5s D5+F#5+A5s A4+D5+F#5s A4+D5+F#5s F#4+A4+D5s F#4+A4+D5s A4+D5+F#5s A4+D5+F#5s D5+F#5+A5s",
-  "lh":"D4d F#4d // D3+F#3+A3e re re r re",
-  "doubt":"Soufflet > (chant et piano)."},
- {"marks":["pp"],"v":"A4d A4e B4e C#5e","ly":"di lu- _ ce‿e",
-  "rh":"D5+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+G5+A5s A4+G5+A5s B4+G5+A5s B4+G5+A5s C#5+G5+A5s C#5+G5+A5s",
-  "lh":"A3d A3e B3e C#4e // A2+D3+F#3e re re A2+E3+G3e re re",
-  "doubt":"Chant : si bécarre imprimé. LH 2e accord : ♮ sur mi (E3). Accords MD 9-10 : si bécarre."},
- {"v":"D5hd","ly":"fior;",
-  "rh":"D5+F#5+A5s D5+F#5+G#5s D5+F#5+G#5s D5+F#5+A5s D5+F#5+A5s D5+F#5+Bb5s D5+F#5+Bb5s D5+F#5+B5s D5+F#5+B5s D5+F#5+C6s D5+F#5+C6s D5+F#5+C#6s",
-  "lh":"D4hd // D3+F#3+A3e re re r re",
-  "doubt":"MD 2-3 : # devant la note du haut (sol#5, seconde fa#-sol#) ; ♮ imprimé devant do6 (accords 10-11). Longue ligne sous la MD (soufflet ?)."},
- {"marks":["p"],"v":"F4d G4e A4e Bb4e","ly":"del mi- o pen-",
-  "rh":"D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s",
-  "lh":"F3d G3e A3e Bb3e // Bb2+D3e re re r re",
-  "doubt":"♮ de précaution sur fa (MD et MG). p sous la MD."},
- {"marks":["<"],"v":"D5d F5d","ly":"sie- ro",
-  "rh":"F5+Ab5+D6s F5+Ab5+C6s F5+Ab5+C6s F5+Ab5+B5s F5+Ab5+B5s F5+Ab5+C6s F5+Ab5+C6s F5+Ab5+D6s F5+Ab5+D6s F5+Ab5+Eb6s F5+Ab5+Eb6s F5+Ab5+D6s",
-  "lh":"D4d F4d // B2+F3+Ab3e! re re r re",
-  "doubt":"MG accord arpégé (vague) incluant D4 ; si bécarre (B2) et la♭3. MD 4-5 : ♮ si5 en seconde avec la♭5."},
- {"marks":[">"],"v":"G5d F5 Eb5e","ly":"tu sei re-",
-  "rh":"G5+B5+G6s B5+D6+F6s F5+G5+B5s F5+G5+B5s F5+G5+B5s F5+G5+B5s F5+A5+F6s A5+C6+Eb6s Eb5+F5+A5s Eb5+F5+A5s Eb5+F5+A5s Eb5+F5+A5s",
-  "lh":"G4d F4 Eb4e // D3+G3+B3e! re re C3+F3+A3e! re re",
-  "doubt":"Deux accords MG arpégés ; ♮ si3 et ♮ la3 imprimés. MD ♮ si5 puis ♮ la5."},
- {"v":"D5 A4e C5e Bb4e E4e","ly":"gi- na, tu di mia",
-  "rh":"D5+F#5+D6s F#5+A5+C6s C5+D5+F#5s C5+D5+F#5s C5+D5+F#5s C5+D5+F#5s C5+E5+C6s E5+G5+Bb5s Bb4+C5+E5s Bb4+C5+E5s Bb4+C#5+E5s Bb4+C#5+E5s",
-  "lh":"D4 A3e rd // A3e re re G3+C4e Bb3e E3e",
-  "doubt":"Chant : mi bécarre (E4). MD : ♮ mi5 (7e accord), # do5 (11e). MG : les 3 croches liées (G3+C4, si♭3, mi♮3) hampes en bas ; silence implicite voix haute."},
- {"marks":["<",">"],"v":"F4e D5e D5e D5 C5e","ly":"vi- ta sei lo splen-",
-  "rh":"Bb4+D5+G5s D5+F5s F4+Bb4+D5s Bb4+D5+F5s A4+D5+F5s Ab4+D5+F#5s Ab4+D5+F#5s G4+Eb5+G5s G4+Eb5+G5s Eb5+Gb5+Ab5s Eb5+Gb5+Ab5s E5+F5+A5s",
-  "lh":"F3hd // F2+F3e D4e D4e D4 C4e // rd F3e re re",
-  "doubt":"MG : tête BLANCHE pointée F3 (voix haute) ; ré4 croches piquées liées ; ré4 noire liée (legato) au do4 croche. MD 6-7 : ♭ la4 + # fa5 ; 10-11 : ♭ sol5 et ♭ la5 ; 12 : ♮ mi5 et ♮ la5. Lecture dense, à vérifier."},
- {"marks":["p"],"v":"Bb4 re r re","ly":"dor.",
-  "rh":"Db5+F5+Bb5s F4+Db5+F5s rs F4+C5+Eb5s rs F4+Bb4+Db5s rs F4+C5+Eb5s rs F4+Bb4+Db5s rs F4+A4+C5s",
-  "lh":"Bb1e gE2 F2e Bb2e Bb1e gE2 F2e F3e // re F2 re F2",
-  "doubt":"MD : ♭ devant ré5 au 1er accord (ré♭ valable toute la mesure) ; 5e accord (F4+C5+Eb5) peu net. MG : petites notes mi♮2 (♮ imprimé à la 1re), accents > sur les fa2 (voix basse en noires). p sous la MD. Fin de page : l'air continue p.33."}
-]}
+{
+"page": 5,
+"printed_page": 32,
+"measures": [
+{
+"meter": "6/8",
+"ks": -2,
+"marks": [],
+"v": "F4d G4e A4e Bb4e",
+"ly": "for- ma _ di-",
+"rh": "Bb5+Eb6+G6s Bb5+D6+F6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s",
+"lh": "F3d G3e A3e Bb3e // Bb2+D3e re re r re",
+"doubt": "m.53 : suite de la p.31 (pas de levée). Longue ligne horizontale sous la MD m.53-54 (soufflet très fermé ? non reporté). Accords MD piqués (staccato)."
+},
+{
+"v": "C5d F5~ F5s rs",
+"ly": "vi- na,",
+"rh": "Eb5+A5+D6s Eb5+A5+C6s Eb5+A5+C6s Eb5+A5+B5s Eb5+A5+B5s Eb5+A5+C6s Eb5+A5+C6s D5+A5+D6s D5+A5+D6s A5+C6+Eb6s A5+C6+Eb6s F5+A5+F6s",
+"lh": "C4d F4~ F4s rs // F3+A3e re re r re",
+"doubt": "MD 4e-5e accords : ♮ sur si (B5 bécarre), petite seconde la-si. LH : accord F3-A3-C4, le point sur le C4 (voix haute)."
+},
+{
+"marks": [
+"<"
+],
+"v": "G4d A4e Bb4e C5e",
+"ly": "mi- sti- _ co",
+"rh": "Eb5+Bb5+G6s! Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Bb5+Eb6+G6s Eb6+G6s Eb6+G6s Eb6+G6s Eb6+G6s Eb6+G6s",
+"lh": "G3d A3e Bb3e C4e // Eb3e re re r re",
+"doubt": "MD 1er accord arpégé avec ♭ de précaution sur si ; accords 8-12 : seulement mi♭6+sol6 (lignes sup. vides). Soufflet < (chant et piano)."
+},
+{
+"marks": [
+">"
+],
+"v": "D5d F#5d",
+"ly": "rag- gio",
+"rh": "A5+D6+F#6s F#5+A5+D6s F#5+A5+D6s D5+F#5+A5s D5+F#5+A5s A4+D5+F#5s A4+D5+F#5s F#4+A4+D5s F#4+A4+D5s A4+D5+F#5s A4+D5+F#5s D5+F#5+A5s",
+"lh": "D4d F#4d // D3+F#3+A3e re re r re",
+"doubt": "Soufflet > (chant et piano)."
+},
+{
+"marks": [
+"pp"
+],
+"v": "A4d A4e B4e C#5e",
+"ly": "di lu- _ ce‿e",
+"rh": "D5+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+F#5+A5s A4+G5+A5s A4+G5+A5s B4+G5+A5s B4+G5+A5s C#5+G5+A5s C#5+G5+A5s",
+"lh": "A3d A3e B3e C#4e // A2+D3+F#3e re re A2+E3+G3e re re",
+"doubt": "Chant : si bécarre imprimé. LH 2e accord : ♮ sur mi (E3). Accords MD 9-10 : si bécarre."
+},
+{
+"v": "D5hd",
+"ly": "fior;",
+"rh": "D5+F#5+A5s D5+F#5+G#5s D5+F#5+G#5s D5+F#5+A5s D5+F#5+A5s D5+F#5+Bb5s D5+F#5+Bb5s D5+F#5+B5s D5+F#5+B5s D5+F#5+C6s D5+F#5+C6s D5+F#5+C#6s",
+"lh": "D4hd // D3+F#3+A3e re re r re",
+"doubt": "MD 2-3 : # devant la note du haut (sol#5, seconde fa#-sol#) ; ♮ imprimé devant do6 (accords 10-11). Longue ligne sous la MD (soufflet ?)."
+},
+{
+"marks": [
+"p"
+],
+"v": "F4d G4e A4e Bb4e",
+"ly": "del mi- o pen-",
+"rh": "D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s D5+F5+D6s",
+"lh": "F3d G3e A3e Bb3e // Bb2+D3e re re r re",
+"doubt": "♮ de précaution sur fa (MD et MG). p sous la MD."
+},
+{
+"marks": [
+"<"
+],
+"v": "D5d F5d",
+"ly": "sie- ro",
+"rh": "F5+Ab5+D6s F5+Ab5+C6s F5+Ab5+C6s F5+Ab5+B5s F5+Ab5+B5s F5+Ab5+C6s F5+Ab5+C6s F5+Ab5+D6s F5+Ab5+D6s F5+Ab5+Eb6s F5+Ab5+Eb6s F5+Ab5+D6s",
+"lh": "D4d F4d // B2+F3+Ab3e! re re r re",
+"doubt": "MG accord arpégé (vague) incluant D4 ; si bécarre (B2) et la♭3. MD 4-5 : ♮ si5 en seconde avec la♭5."
+},
+{
+"marks": [
+">"
+],
+"v": "G5d F5 Eb5e",
+"ly": "tu sei re-",
+"rh": "G5+B5+G6s B5+D6+F6s F5+G5+B5s F5+G5+B5s F5+G5+B5s F5+G5+B5s F5+A5+F6s A5+C6+Eb6s Eb5+F5+A5s Eb5+F5+A5s Eb5+F5+A5s Eb5+F5+A5s",
+"lh": "G4d F4 Eb4e // D3+G3+B3e! re re C3+F3+A3e! re re",
+"doubt": "Deux accords MG arpégés ; ♮ si3 et ♮ la3 imprimés. MD ♮ si5 puis ♮ la5."
+},
+{
+"v": "D5 A4e C5e Bb4e E4e",
+"ly": "gi- na, tu di mia",
+"rh": "D5+F#5+D6s F#5+A5+C6s C5+D5+F#5s C5+D5+F#5s C5+D5+F#5s C5+D5+F#5s C5+E5+C6s E5+G5+Bb5s Bb4+C5+E5s Bb4+C5+E5s Bb4+C#5+E5s Bb4+C#5+E5s",
+"lh": "D4 A3e rd // A3e re re G3+C4e Bb3e E3e",
+"doubt": "Chant : mi bécarre (E4). MD : ♮ mi5 (7e accord), # do5 (11e). MG : les 3 croches liées (G3+C4, si♭3, mi♮3) hampes en bas ; silence implicite voix haute."
+},
+{
+"marks": [
+"<",
+">"
+],
+"v": "F4e D5e D5e D5 C5e",
+"ly": "vi- ta sei lo splen-",
+"rh": "Bb4+D5+G5s D5+F5s F4+Bb4+D5s Bb4+D5+F5s A4+D5+F5s Ab4+D5+F#5s Ab4+D5+F#5s G4+Eb5+G5s G4+Eb5+G5s Eb5+Gb5+Ab5s Eb5+Gb5+Ab5s E5+F5+A5s",
+"lh": "F3hd // F2+F3e D4e D4e D4 C4e // rd F3e re re",
+"doubt": "MG : tête BLANCHE pointée F3 (voix haute) ; ré4 croches piquées liées ; ré4 noire liée (legato) au do4 croche. MD 6-7 : ♭ la4 + # fa5 ; 10-11 : ♭ sol5 et ♭ la5 ; 12 : ♮ mi5 et ♮ la5. Lecture dense, à vérifier."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb4 re r re",
+"ly": "dor.",
+"rh": "Db5+F5+Bb5s F4+Db5+F5s rs F4+C5+Eb5s rs F4+Bb4+Db5s rs F4+C5+Eb5s rs F4+Bb4+Db5s rs F4+A4+C5s",
+"lh": "Bb1e gE2 F2e Bb2e Bb1e gE2 F2e F3e // re F2 re F2",
+"doubt": "MD : ♭ devant ré5 au 1er accord (ré♭ valable toute la mesure) ; 5e accord (F4+C5+Eb5) peu net. MG : petites notes mi♮2 (♮ imprimé à la 1re), accents > sur les fa2 (voix basse en noires). p sous la MD. Fin de page : l'air continue p.33."
+}
+]
+}

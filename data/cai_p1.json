@@ -1,112 +1,114 @@
 {
- "page": 1,
- "measures": [
-  {
-   "meter": "4/4",
-   "ks": 1,
-   "marks": [
-    "recitativo",
-    "mf"
-   ],
-   "v": "r re D5e C#5e D5e E5ed D5s",
-   "ly": "Se quel guer- rier io",
-   "rh": "B3+D4+G4 r rh",
-   "lh": "G3 r rh",
-   "doubt": "Page imprimée 28. Accord MD : B3 et D4 serrés autour de la ligne add. du do (lecture B3+D4+G4 probable). 'recitativo' imprimé au chant et au piano."
-  },
-  {
-   "v": "E5e D5e re B4s B4s C5e B4e A4ed B4s",
-   "ly": "fos- si! se_il mio so- gno si_av- ve-",
-   "rh": "rw",
-   "lh": "rw",
-   "doubt": "C5 précédé d'un bécarre (annule le C# de la mesure 1)."
-  },
-  {
-   "v": "A4e G4e r rh",
-   "ly": "ras- se!",
-   "rh": "rw",
-   "lh": "rw",
-   "doubt": "Double barre + bécarre d'armure en fin de mesure : armure annulée (do majeur) à partir de la m. 4."
-  },
-  {
-   "ks": 0,
-   "tempo": "Allegro vivo (blanche = 126)",
-   "marks": [
-    "ff"
-   ],
-   "v": "rw",
-   "ly": "",
-   "rh": "G4+Bb4~ G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3",
-   "lh": "Eb4~ Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3",
-   "doubt": "Mesure 4 numérotée. Noire accentuée liée à la 1re croche de triolet ; triolets suivants staccato (MD et MG). Tempo imprimé avec une blanche."
-  },
-  {
-   "v": "rw",
-   "ly": "",
-   "rh": "G4+Bb4edd Eb4+G4t Eb4+G4edd Bb3+Eb4t Bb3+Eb4edd Eb4+G4t Eb4+G4edd G4+Bb4t",
-   "lh": "Eb4edd Bb3t Bb3edd G3t G3edd Bb3t Bb3edd Eb4t",
-   "doubt": "Croches doublement pointées + triples croches, accents sur les temps. Accord grave MD : Bb3 sous la ligne add. du do (lecture)."
-  },
-  {
-   "marks": [
-    "con entusiasmo"
-   ],
-   "v": "r re Bb4s Bb4s Bb4e Bb4e C5e D5e",
-   "ly": "Un e- ser- ci- to di",
-   "rh": "G4+Bb4h rh",
-   "lh": "Eb4h rh",
-   "doubt": "Accords accentués."
-  },
-  {
-   "v": "Eb5 Eb5ed Eb5s F5d G5e",
-   "ly": "pro- di da me gui-",
-   "rh": "rw",
-   "lh": "rw",
-   "doubt": "Mesure 7 numérotée. Accent sur F5."
-  },
-  {
-   "marks": [
-    "ff"
-   ],
-   "v": "F5 F5 rh",
-   "ly": "da- to...",
-   "rh": "F4+Bb4~ F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3",
-   "lh": "D4~ D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3",
-   "doubt": "Accents/staccato comme m. 4."
-  },
-  {
-   "v": "rw",
-   "ly": "",
-   "rh": "F4+B4edd D4+F4t D4+F4edd Bb3+D4t Bb3+D4edd D4+F4t D4+F4edd F4+B4t",
-   "lh": "D4edd Bb3t Bb3edd F3t F3edd Bb3t Bb3edd D4t",
-   "doubt": "MD : aucun bémol imprimé sur le B4 des accords F4+B4 (bémol de la m. 8 annulé par la barre) — transcrit B4 tel qu'imprimé, alors que la MG porte Bb3 : probable omission de gravure (Bb4 attendu ?)."
-  },
-  {
-   "v": "r D5h D5ed D5s",
-   "ly": "e la vit-",
-   "rh": "F4+Bb4h rh",
-   "lh": "D4h rh",
-   "doubt": "Mesure 10 numérotée. Accents MD/MG."
-  },
-  {
-   "v": "D5 D4 rh",
-   "ly": "to- ria...",
-   "rh": "F#4+A4~ F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3",
-   "lh": "D4~ D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3",
-   "doubt": "Dièse sur F4 de l'accord MD (F#4 effectif sur toute la mesure)."
-  },
-  {
-   "v": "rh r A4",
-   "ly": "e_il",
-   "rh": "E4+A4h rh",
-   "lh": "C#4h rh"
-  },
-  {
-   "v": "B4 B4ed C#5s D5dd E5s",
-   "ly": "plau- so di Men- fi",
-   "rh": "D4+B4e3 D4+B4e3 D4+B4e3 D4+B4 rh",
-   "lh": "G3e3 G3e3 G3e3 G3 rh",
-   "doubt": "Bécarre de précaution sur B4 (chant et MD). D5 noire doublement pointée. Staccato sur les triolets, accent sur la 4e note."
-  }
- ]
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"ks": 1,
+"marks": [
+"recitativo",
+"mf"
+],
+"v": "r re D5e C#5e D5e E5ed D5s",
+"ly": "Se quel guer- rier io",
+"rh": "B3+D4+G4 r rh",
+"lh": "G3 r rh",
+"doubt": "Page imprimée 28. Accord MD : B3 et D4 serrés autour de la ligne add. du do (lecture B3+D4+G4 probable). 'recitativo' imprimé au chant et au piano.",
+"bpm": 72
+},
+{
+"v": "E5e D5e re B4s B4s C5e B4e A4ed B4s",
+"ly": "fos- si! se_il mio so- gno si_av- ve-",
+"rh": "rw",
+"lh": "rw",
+"doubt": "C5 précédé d'un bécarre (annule le C# de la mesure 1)."
+},
+{
+"v": "A4e G4e r rh",
+"ly": "ras- se!",
+"rh": "rw",
+"lh": "rw",
+"doubt": "Double barre + bécarre d'armure en fin de mesure : armure annulée (do majeur) à partir de la m. 4."
+},
+{
+"ks": 0,
+"tempo": "Allegro vivo (blanche = 126)",
+"marks": [
+"ff"
+],
+"v": "rw",
+"ly": "",
+"rh": "G4+Bb4~ G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3 G4+Bb4e3",
+"lh": "Eb4~ Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3 Eb4e3",
+"doubt": "Mesure 4 numérotée. Noire accentuée liée à la 1re croche de triolet ; triolets suivants staccato (MD et MG). Tempo imprimé avec une blanche.",
+"bpm": 252
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "G4+Bb4edd Eb4+G4t Eb4+G4edd Bb3+Eb4t Bb3+Eb4edd Eb4+G4t Eb4+G4edd G4+Bb4t",
+"lh": "Eb4edd Bb3t Bb3edd G3t G3edd Bb3t Bb3edd Eb4t",
+"doubt": "Croches doublement pointées + triples croches, accents sur les temps. Accord grave MD : Bb3 sous la ligne add. du do (lecture)."
+},
+{
+"marks": [
+"con entusiasmo"
+],
+"v": "r re Bb4s Bb4s Bb4e Bb4e C5e D5e",
+"ly": "Un e- ser- ci- to di",
+"rh": "G4+Bb4h rh",
+"lh": "Eb4h rh",
+"doubt": "Accords accentués."
+},
+{
+"v": "Eb5 Eb5ed Eb5s F5d G5e",
+"ly": "pro- di da me gui-",
+"rh": "rw",
+"lh": "rw",
+"doubt": "Mesure 7 numérotée. Accent sur F5."
+},
+{
+"marks": [
+"ff"
+],
+"v": "F5 F5 rh",
+"ly": "da- to...",
+"rh": "F4+Bb4~ F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3 F4+Bb4e3",
+"lh": "D4~ D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3",
+"doubt": "Accents/staccato comme m. 4."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "F4+B4edd D4+F4t D4+F4edd Bb3+D4t Bb3+D4edd D4+F4t D4+F4edd F4+B4t",
+"lh": "D4edd Bb3t Bb3edd F3t F3edd Bb3t Bb3edd D4t",
+"doubt": "MD : aucun bémol imprimé sur le B4 des accords F4+B4 (bémol de la m. 8 annulé par la barre) — transcrit B4 tel qu'imprimé, alors que la MG porte Bb3 : probable omission de gravure (Bb4 attendu ?)."
+},
+{
+"v": "r D5h D5ed D5s",
+"ly": "e la vit-",
+"rh": "F4+Bb4h rh",
+"lh": "D4h rh",
+"doubt": "Mesure 10 numérotée. Accents MD/MG."
+},
+{
+"v": "D5 D4 rh",
+"ly": "to- ria...",
+"rh": "F#4+A4~ F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3 F#4+A4e3",
+"lh": "D4~ D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3 D4e3",
+"doubt": "Dièse sur F4 de l'accord MD (F#4 effectif sur toute la mesure)."
+},
+{
+"v": "rh r A4",
+"ly": "e_il",
+"rh": "E4+A4h rh",
+"lh": "C#4h rh"
+},
+{
+"v": "B4 B4ed C#5s D5dd E5s",
+"ly": "plau- so di Men- fi",
+"rh": "D4+B4e3 D4+B4e3 D4+B4e3 D4+B4 rh",
+"lh": "G3e3 G3e3 G3e3 G3 rh",
+"doubt": "Bécarre de précaution sur B4 (chant et MD). D5 noire doublement pointée. Staccato sur les triolets, accent sur la 4e note."
+}
+]
 }
