@@ -101,7 +101,7 @@ if all(os.path.exists('data/fig_p%d.json' % k) for k in range(1, 12)):  # n'incl
               'measures': fg, 'text': place_phrases(json.load(open('data/fig_text.json')), fg), 'src': 'Partition chant-piano (Schirmer)'})
 # — airs transcrits depuis les recueils : un bloc de données par air —
 def add_air(prefix, meta, bpm, voice):
-    if not os.path.exists('data/%s_p1.json' % prefix): return
+    if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return  # inclus seulement une fois l'air assemblé et vérifié
     ms = clean(pages(prefix))
     if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
     T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
@@ -110,6 +110,9 @@ def add_air(prefix, meta, bpm, voice):
 add_air('cal', {'id': 'rossini-calunnia', 'title': 'La calunnia è un venticello', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
                 'role': 'Don Basilio', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 57-65'},
         126, {'name': 'Don Basilio (basse)', 'short': 'Bas.', 'vt': 'B'})
+add_air('npa', {'id': 'mozart-non-piu-andrai', 'title': 'Non più andrai', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
+                'role': 'Figaro', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 272-280'},
+        132, {'name': 'Figaro (baryton-basse)', 'short': 'Fig.', 'vt': 'Bar'})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
