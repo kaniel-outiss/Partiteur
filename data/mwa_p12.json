@@ -1,0 +1,134 @@
+{
+ "page": 12,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -1,
+   "marks": [
+    "f",
+    "p",
+    "tr"
+   ],
+   "v": "C#3e A2e C#3e E3e E3h",
+   "ly": "_ _ _ _ _",
+   "rh": "E4+A4+C#5+E5 r C#5e A4e C#5e E5e // r r G4 G4",
+   "lh": "A1+A2 A1+A2 A1+A2 A1+A2",
+   "doubt": "suite du mélisme « fin- » (page précédente) ; tr sur le mi3 blanche ; f au 1er temps, p au 2e (piano)"
+  },
+  {
+   "marks": [
+    "f",
+    "p",
+    "tr"
+   ],
+   "v": "D3e A2e D3e F3e F3h",
+   "ly": "_ _ _ _ _",
+   "rh": "D5+F5 r D5e A4e D5e F5e // F4 r F4 A4",
+   "lh": "A1+A2 A1+A2 A1+A2 A1+A2",
+   "doubt": "tr sur le fa3 blanche ; f au 1er temps, p au 2e"
+  },
+  {
+   "v": "E3e A2e C#3e E3e G3e Bb3e A3e G3e",
+   "ly": "_ _ _ _ _ _ _ _",
+   "rh": "C#5e E5e A4e C#5e C5+E5 r // E4 E4 G4 r",
+   "lh": "A1+A2 A1+A2 A1+A2 A1+A2",
+   "doubt": "MD 3e temps : do5 sans altération imprimée, dièse du 1er temps valable → C#5"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "F3e D3e F3e A3e D4e A3e F3e D3e",
+   "ly": "_ _ _ _ _ _ _ er's",
+   "rh": "A5e F5e D5e A4e F4e D4e A4e F4e",
+   "lh": "A2+F3+A3 A2+F3+A3 A2+F3+A3 A2+F3+A3"
+  },
+  {
+   "v": "Bb3h rh",
+   "ly": "fire,",
+   "rh": "G4+Bb4+C#5+E5h rh",
+   "lh": "G2+G3w",
+   "doubt": "MD : têtes décalées (sib4/do#5) — lecture G4+Bb4+C#5+E5"
+  },
+  {
+   "marks": [
+    "Adagio",
+    "mf"
+   ],
+   "v": "r Bb3 A3 G3",
+   "ly": "for He is",
+   "rh": "r Bb4 A4 G4 // r C#4+E4 D4 C#4",
+   "lh": "r G2+G3 F2+F3 E2+E3",
+   "doubt": "signe « I » imprimé devant Adagio (sens incertain)"
+  },
+  {
+   "v": "A3h D3 G3",
+   "ly": "like a re-",
+   "rh": "A4h D4 G4 // A3+D4h D4h",
+   "lh": "F2+F3h Bb2+Bb3h",
+   "doubt": "MD : voix sup. A4 blanche, ré4 noire, sol4 noire ; voix inf. la3+ré4 blanche puis ré4 blanche (hampe en bas)"
+  },
+  {
+   "v": "F3h E3d D3e",
+   "ly": "fin- _ er's",
+   "rh": "F4h E4d D4e // D4h A3+C#4h",
+   "lh": "A2+A3h A1+A2h"
+  },
+  {
+   "marks": [
+    "Prestissimo",
+    "f"
+   ],
+   "v": "D3h rh",
+   "ly": "fire.",
+   "rh": "A4+D5s F4s A4+D5s F4s A4+D5s F4s A4+D5s F4s G4+C#5s E4s G4+C#5s E4s G4+C#5s E4s G4+C#5s E4s",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e E2+E3e E2+E3e E2+E3e E2+E3e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A4+D5s D4s A4+D5s D4s A4+D5s D4s A4+D5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e",
+   "doubt": "bécarre sur do5 (MD 3e temps)"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+Bb4s D4s G4+Bb4s D4s Bb4+D5s G4s Bb4+D5s G4s G4+Bb4s D4s G4+Bb4s D4s D4+G4s Bb3s D4+G4s Bb3s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e",
+   "doubt": "système sans portée de chant → silences"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A4+D5s D4s A4+D5s D4s F4+A4s D4s F4+A4s D4s F4+A4s D4s F4+A4s D4s A4+D5s F4s A4+D5s F4s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C#5+G5s G4s C#5+G5s G4s C#5+E5s G4s C#5+E5s G4s A4+C#5s E4s A4+C#5s E4s E4+A4s C#4s E4+A4s C#4s",
+   "lh": "E2+E3e E2+E3e E2+E3e E2+E3e A2+A3e A2+A3e A2+A3e A2+A3e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D4+A4+D5 A4+D5+A5 D4+G4+Bb4 Bb4+D5+G5",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A4+C#5+E5+G5 D4+G4+D5 B3+D4+E4 A4+C#5 // r r r E4ed G4s",
+   "lh": "A2+A3 Bb2+Bb3 G2+G3 A2+A3",
+   "doubt": "3e temps : accord si3/ré4/mi4 (têtes serrées sous ligne supplémentaire, lecture à confirmer) ; 4e temps voix inf. mi4 croche pointée + sol4 double"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F4+A4+D5 D4 rh",
+   "lh": "D2+D3h rh",
+   "doubt": "double barre finale du nº 6 (fin de l'air) ; pas de nº 7 sur la page"
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "3/8",
+   "ks": -1,
+   "marks": [],
+   "v": "Bb3e C4s Bb3s A3s G3s",
+   "ly": "_ _ _ _ _",
+   "rh": "Bb4e C5s Bb4s A4s G4s // F4 E4e",
+   "lh": "D2+D3e C2+C3e Bb1+Bb2e",
+   "doubt": "Page imprimée 29 (p-027). Suite de la vocalise « appear- » de la page précédente (mélisme). MD F4 et MG D2+D3 : liaisons venant de la page précédente."
+  },
+  {
+   "marks": [],
+   "v": "C4e F3e re",
+   "ly": "_ eth?",
+   "rh": "F4+C5e F4e re",
+   "lh": "A1+A2 D2+D3e",
+   "doubt": "MD : C5 (hampe haut) et F4 (hampe bas) sur la 1re croche ; voix inf. F4 croche + soupir de croche, un seul soupir de croche imprimé en 3e temps → notées en une voix."
+  },
+  {
+   "marks": [],
+   "v": "Bb3d~",
+   "ly": "when",
+   "rh": "Bb4d~ // D4d",
+   "lh": "G1+G2e G2+G3s F2+F3s E2+E3s D2+D3s",
+   "doubt": "Arc Bb3→Bb3 (chant) et Bb4→Bb4 (MD) lus comme liaisons de tenue ; « when » suivi d'un trait de prolongation."
+  },
+  {
+   "marks": [],
+   "v": "Bb3e A3e G3e",
+   "ly": "He ap-",
+   "rh": "Bb4e F4+A4e G4e // E4e C4e D4e",
+   "lh": "C2+C3e F2+F3e Bb1+Bb2e",
+   "doubt": "MD voix inf. D4 (m.3) relié par liaison à E4."
+  },
+  {
+   "marks": [],
+   "v": "A3s Bb3s G3",
+   "ly": "pear- _ _",
+   "rh": "F4+A4s Bb4s G4 // C4 C4+E4e",
+   "lh": "C2+C3 C1+C2e",
+   "doubt": "MG 2e note : C1 sur 5 lignes add. (lecture), octave C1+C2. Double barre puis changement de mesure (C)."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "Prestissimo (♩ = 138)",
+    "pp"
+   ],
+   "v": "F3 r rh",
+   "ly": "eth?",
+   "rh": "C5+F5s A4s C5+F5s A4s C5+F5s A4s C5+F5s A4s G4+Bb4s E4s G4+Bb4s E4s G4+Bb4s E4s G4+Bb4s E4s",
+   "lh": "F1+F2e F1+F2e F1+F2e F1+F2e G1+G2e G1+G2e G1+G2e G1+G2e",
+   "doubt": "Lettre de repère « D » imprimée."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "rh": "F4+C5s C4s F4+C5s C4s F4s C4s F4s C4s F4+A4s C4s F4+A4s C4s A4+C5s F4s A4+C5s F4s",
+   "lh": "A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e A1+A2e"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "F4+Bb4+D5 D5s Bb5s D5s Bb5s Bb4s G5s Bb4s G5s G4s E5s G4s E5s",
+   "lh": "Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e",
+   "doubt": "Soufflet de crescendo sous la MD (« cresc. » + soufflet)."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "E4s C5s E4s C5s E4s C4s E4s C4s F4s C4s F4s C4s C5s F4s C5s F4s",
+   "lh": "Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e A1+A2e A1+A2e A1+A2e A1+A2e"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F3h G3d G3e",
+   "ly": "For He is",
+   "rh": "C5+F5s F4s C5+F5s F4s Bb4+F5s F4s Bb4+F5s F4s Bb4+C5s G4s Bb4+C5s G4s Bb4+C5s G4s Bb4+C5s G4s",
+   "lh": "D2+D3e D2+D3e D2+D3e D2+D3e E2+E3e E2+E3e E2+E3e E2+E3e"
+  },
+  {
+   "marks": [],
+   "v": "A3e Bb3e C4 r Bb3e A3e",
+   "ly": "like _ _ a re-",
+   "rh": "A4+C5s F4s A4+C5s F4s A4+C5s F4s A4+C5s F4s A4+C5+F5e A4s F5s Bb4s F5s C5s F5s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e F2+F3e",
+   "doubt": "MD 3e temps : accord croche + 2 doubles (ligature secondaire partielle)."
+  },
+  {
+   "marks": [],
+   "v": "D4e C4e Bb3e A3e G3e F3e E3e D3e",
+   "ly": "fin- _ _ _ _ _ er's _",
+   "rh": "D5s F5s A4s F5s Bb4s F5s C5s F5s G4+D5s F5s G4+D5s F5s G4+D5s F5s G4+D5s F5s",
+   "lh": "Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e B2+B3e B2+B3e B2+B3e B2+B3e",
+   "doubt": "MG 3e temps : bécarres sur B3 et B2."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "E3e D3e C3 rh",
+   "ly": "fire, _ _",
+   "rh": "C5+E5s G4s C5+E5s G4s E5+G5s C5s E5+G5s C5s C5+E5s G4s C5+E5s G4s G4+C5s E4s G4+C5s E4s",
+   "lh": "C3+C4e C3+C4e C3+C4e C3+C4e C3+C4e C3+C4e C3+C4e C3+C4e",
+   "doubt": "« fire, » suivi d'un trait de prolongation (mélisme sur 3 notes)."
+  }
+ ]
+}

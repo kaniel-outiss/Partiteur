@@ -1,0 +1,98 @@
+{
+ "page": 11,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -1,
+   "marks": [
+    "f",
+    "p"
+   ],
+   "v": "E3e F3e G3 r C3",
+   "ly": "fire, _ _ and",
+   "rh": "E5+G5s G4s D5+F5s G4s C5+E5s G4s D5s F4s G4+C5s E4s G4+Bb4s E4s F4+Ab4s C4s E4+G4s Bb3s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "p imprimé au 4e temps (piano) ; bémol de précaution sur le si4 au 3e temps"
+  },
+  {
+   "v": "Db3hd Db3",
+   "ly": "who shall",
+   "rh": "Db4+F4s Ab3s Db4+F4s Ab3s F4+Ab4s Db4s F4+Ab4s Db4s Db5+F5s G4s Db5+F5s G4s Db5+F5s G4s Db5+F5s G4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e",
+   "doubt": "« shall » : ré sans altération imprimée, bémol de « who » valable jusqu'à la barre → Db3"
+  },
+  {
+   "v": "Db4 E3 F3h~",
+   "ly": "stand when He",
+   "rh": "E5+G5s Db5s E5+G5s Db5s C5+G5s G4s C5+G5s G4s Ab4+C5s F4s Ab4+C5s F4s F4+C5s C4s F4+C5s C4s",
+   "lh": "Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Ab2+Ab3e Ab2+Ab3e Ab2+Ab3e Ab2+Ab3e",
+   "doubt": "bécarre de précaution sur mi5 au 1er temps (MD)"
+  },
+  {
+   "v": "F3h Eb3h",
+   "ly": "ap-",
+   "rh": "F4+B4s D4s F4+B4s D4s F4+B4s D4s F4+B4s D4s G4+C5s Eb4s G4+C5s Eb4s G4+C5s Eb4s G4+C5s Eb4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "D3 D3 r G3",
+   "ly": "pear- eth, when",
+   "rh": "A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s G4+Bb4s D4s G4+Bb4s D4s G4+Bb4s D4s G4+Bb4s D4s",
+   "lh": "F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "G3h F3h",
+   "ly": "He ap-",
+   "rh": "G4+A4s E4s G4+A4s E4s G4+A4s E4s G4+A4s E4s A4+D5s F4s A4+D5s F4s A4+D5s F4s A4+D5s F4s",
+   "lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e D2+D3e D2+D3e D2+D3e D2+D3e",
+   "doubt": "bécarre de précaution sur fa4 au 3e temps (MD)"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "E3 E3 rh",
+   "ly": "pear- eth?",
+   "rh": "A4+D5s E4s A4+D5s E4s A4+D5s E4s A4+D5s E4s A4+C#5s E4s A4+C#5s E4s A4+C#5s E4s A4+C#5s E4s",
+   "lh": "A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e",
+   "doubt": "bécarre de précaution sur mi3 (chant)"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "B2h C#3d C#3e",
+   "ly": "For He is",
+   "rh": "B4+D5s F4s B4+D5s F4s B4+D5s F4s B4+D5s F4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s",
+   "lh": "A2+A3e A2+A3e A2+A3e A2+A3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "D3h A3 D4",
+   "ly": "like a re-",
+   "rh": "D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s",
+   "lh": "F2+F3e F2+F3e F2+F3e F2+F3e D2+D3e D2+D3e D2+D3e D2+D3e"
+  },
+  {
+   "marks": [
+    "f",
+    "p"
+   ],
+   "v": "C#4e A3e C#4e E4e G3e Bb3e A3e G3e",
+   "ly": "fin- _ _ _ _ _ _ _",
+   "rh": "A4+C#5+E5e C#5e E5e A5e A4+C#5+E5 r",
+   "lh": "A1+A2 A1+A2 A1+A2 A1+A2",
+   "doubt": "f au 3e temps, p au 4e temps (piano)"
+  },
+  {
+   "marks": [
+    "f",
+    "p"
+   ],
+   "v": "F3e D3e F3e A3e D3e F3e E3e D3e",
+   "ly": "_ _ _ _ _ _ _ _",
+   "rh": "F4+A4+D5e A4e D5e F5e D4+F4+A4 r",
+   "lh": "A1+A2 A1+A2 A1+A2 A1+A2",
+   "doubt": "f au 3e temps, p au 4e temps ; le mélisme « fin- » continue page suivante"
+  }
+ ]
+}
