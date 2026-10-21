@@ -1,0 +1,294 @@
+{
+"page": 4,
+"measures": [
+{
+"s": "A#4wd",
+"ls": "a",
+"a": "F#4wd",
+"la": "a",
+"t": "C#5wd",
+"lt": "a",
+"b": "F#3wd",
+"lb": "a",
+"orc": "rwd",
+"meter": "6/4",
+"ks": -1,
+"marks": [
+"sempre dolce"
+],
+"doubt": "Mesures 80-102 (systèmes 1-2 de la p. 14 : le repère J est dans le 2e système, qui finit m. 102). Orquesta m.80-87 en clé de fa, silences ; clé de sol à partir de m.88."
+},
+{
+"s": "A4hd A4h A4",
+"ls": "lu- ce- at",
+"a": "D4hd D4h D4",
+"la": "lu- ce- at",
+"t": "D5hd A4h A4",
+"lt": "lu- ce- at",
+"b": "F3hd F3h F3",
+"lb": "lu- ce- at",
+"orc": "rwd",
+"marks": [
+"[G]",
+"p"
+]
+},
+{
+"s": "A4wd",
+"ls": "e-",
+"a": "C#4wd",
+"la": "e-",
+"t": "G4wd",
+"lt": "e-",
+"b": "E3wd",
+"lb": "e-",
+"orc": "rwd"
+},
+{
+"s": "G#4wd",
+"ls": "_",
+"a": "B3wd",
+"la": "_",
+"t": "F4wd",
+"lt": "_",
+"b": "D3wd",
+"lb": "_",
+"orc": "rwd"
+},
+{
+"s": "A4w~",
+"ls": "is.",
+"a": "C#4w",
+"la": "is,",
+"t": "E4w",
+"lt": "is.",
+"b": "A2w",
+"lb": "is,",
+"orc": "rw",
+"meter": "2/2",
+"marks": [
+"[H]"
+]
+},
+{
+"s": "A4h rh",
+"ls": "",
+"a": "A3h A3d A3e",
+"la": "lu- ce- at",
+"t": "rw",
+"lt": "",
+"b": "A2h A2d A2e",
+"lb": "lu- ce- at",
+"orc": "rw",
+"marks": [
+"pp"
+]
+},
+{
+"s": "rw",
+"ls": "",
+"a": "A3w",
+"la": "e-",
+"t": "rw",
+"lt": "",
+"b": "A2w",
+"lb": "e-",
+"orc": "rw",
+"marks": [
+"<"
+]
+},
+{
+"s": "rw",
+"ls": "",
+"a": "B3w",
+"la": "_",
+"t": "rw",
+"lt": "",
+"b": "B2w",
+"lb": "_",
+"orc": "rw",
+"marks": [
+">"
+]
+},
+{
+"s": "rw",
+"ls": "",
+"a": "A3w~",
+"la": "is.",
+"t": "rw",
+"lt": "",
+"b": "A2w~",
+"lb": "is.",
+"orc": "C#4 C#4 r A3"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "A3w~",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A2w~",
+"lb": "",
+"orc": "C#4 C#4 r C#4"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "A3w",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A2w",
+"lb": "",
+"orc": "A4 A4 r A4"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rw",
+"lb": "",
+"orc": "C#4 C#4 r C#4",
+"marks": [
+"con sopranos",
+"con bajos"
+]
+},
+{
+"s": "D4h~ D4d A4e",
+"ls": "Li- be-",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3h~ D3d A3e",
+"lb": "Li- be-",
+"orc": "rw",
+"marks": [
+"p",
+"dolce"
+],
+"doubt": "Système 2 (m.92-102) : seules S et B imprimées ; A, T et Orquesta absents → silences."
+},
+{
+"s": "A4h G4h",
+"ls": "ra me",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h G3h",
+"lb": "ra me",
+"orc": "rw"
+},
+{
+"s": "Bb4d Bb4e A4h~",
+"ls": "Do- mi- ne",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "Bb3d Bb3e A3h~",
+"lb": "Do- mi- ne",
+"orc": "rw"
+},
+{
+"s": "A4h A4h",
+"ls": "de",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h A3h",
+"lb": "de",
+"orc": "rw"
+},
+{
+"s": "A4h D4 E4",
+"ls": "mor- te æ-",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h D3 E3",
+"lb": "mor- te æ-",
+"orc": "rw"
+},
+{
+"s": "F4h E4h",
+"ls": "ter- _",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "F3h E3h",
+"lb": "ter- _",
+"orc": "rw"
+},
+{
+"s": "D4w~",
+"ls": "na",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3w~",
+"lb": "na",
+"orc": "rw"
+},
+{
+"s": "D4 r D4h",
+"ls": "in",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3 r D3h",
+"lb": "in",
+"orc": "rw",
+"marks": [
+"[J]",
+"sempre p"
+]
+},
+{
+"s": "D4hd D4",
+"ls": "di- e",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3hd D3",
+"lb": "di- e",
+"orc": "rw"
+},
+{
+"s": "D5h C5 Bb4",
+"ls": "il- la tre-",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D4h C4 Bb3",
+"lb": "il- la tre-",
+"orc": "rw"
+},
+{
+"s": "C5h F4h~",
+"ls": "men- da",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "C4h F3h~",
+"lb": "men- da",
+"orc": "rw"
+}
+]
+}
