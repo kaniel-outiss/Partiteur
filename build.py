@@ -146,6 +146,9 @@ add_air('aur', {'id': 'faure-apres-un-reve', 'title': 'Après un rêve', 'compos
 add_air('ber', {'id': 'faure-les-berceaux', 'title': 'Les berceaux', 'composer': 'Gabriel Fauré', 'work': 'Op. 23 n° 1 — poème de Sully Prudhomme',
                 'role': None, 'voice': 'voix moyenne', 'style': 'Mélodie française', 'period': 'Romantique', 'ks': -5, 'mode': 'minor', 'src': '30 Songs, éd. Kagen (International Music Co.), voix moyenne, si♭ mineur'},
         66, {'name': 'Voix (moyenne)', 'short': 'V.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})
+add_air('cdl', {'id': 'faure-clair-de-lune', 'title': 'Clair de lune', 'composer': 'Gabriel Fauré', 'work': 'Op. 46 n° 2 — poème de Paul Verlaine',
+                'role': None, 'voice': 'voix moyenne', 'style': 'Mélodie française', 'period': 'Romantique', 'ks': -5, 'mode': 'minor', 'src': '30 Songs, éd. Kagen (International Music Co.), voix moyenne, si♭ mineur'},
+        100, {'name': 'Voix (moyenne)', 'short': 'V.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
