@@ -1,0 +1,79 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "p"
+   ],
+   "v": "G3h A3d A3e",
+   "ly": "for He is",
+   "rh": "D5s G4s D5s G4s D5+G5s G4s D5+G5s G4s C5+G5s A4s C5+G5s A4s C5+F#5s A4s C5+F#5s A4s",
+   "lh": "Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e A2+A3e A2+A3e A2+A3e A2+A3e"
+  },
+  {
+   "v": "Bb3e C4e D4 r C4e Bb3e",
+   "ly": "like _ _ a re-",
+   "rh": "Bb4+G5e A4+C5s Eb4s G4+Bb4s D4s F#4+A4s C4s Bb3+D4+G4e G4s D4s F4+A4s D4s G4+Bb4s D4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "A3e G3e F#3e E3e D3e C3e Bb2e A2e",
+   "ly": "fin- _ _ _ _ _ _ _",
+   "rh": "A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s A4+C5s D4s",
+   "lh": "F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e"
+  },
+  {
+   "v": "Bb3e A3e G3e F3e Eb3e D3e C3e Bb2e",
+   "ly": "_ _ _ _ _ _ _ _",
+   "rh": "G4+Bb4s D4s G4+Bb4s D4s G4+Bb4s D4s G4+Bb4s D4s G4+Bb4s Eb4s G4+Bb4s Eb4s G4+Bb4s Eb4s G4+Bb4s Eb4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e"
+  },
+  {
+   "v": "C4e Bb3e A3e G3e F#3e E3e D3e C3e",
+   "ly": "_ _ _ _ _ _ er's _",
+   "rh": "F#4+A4s C4s F#4+A4s C4s F#4+A4s C4s F#4+A4s C4s F#4+A4s C4s F#4+A4s C4s F#4+A4s C4s F#4+A4s C4s",
+   "lh": "A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e",
+   "doubt": "E3 du chant avec bécarre de précaution imprimé"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "Bb2e A2e G2 rh",
+   "ly": "fire. _ _",
+   "rh": "D5s G4s D5s G4s D5+G5s G4s D5+G5s G4s C5+G5s A4s C5+G5s A4s C5+F#5s A4s C5+F#5s A4s",
+   "lh": "Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e A2+A3e A2+A3e A2+A3e A2+A3e"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "G3h G3h",
+   "ly": "Who shall",
+   "rh": "D5+G5s Bb4s D5+G5s Bb4s D5+G5s Bb4s D5+G5s Bb4s Bb4+D5s G4s Bb4+D5s G4s Bb4+D5s G4s Bb4+D5s G4s",
+   "lh": "G2+G3e G2+G3e G2+G3e G2+G3e F2+F3e F2+F3e F2+F3e F2+F3e",
+   "doubt": "Lettre de repère E imprimée ici ; bécarres de précaution sur F2/F3 (m.g.)"
+  },
+  {
+   "v": "G3 G3 G3d G3e",
+   "ly": "stand when He ap-",
+   "rh": "C5s G4s C5s G4s C5s G4s C5s G4s Bb4s G4s Bb4s G4s Bb4s G4s Bb4s G4s",
+   "lh": "Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e D2+D3e D2+D3e D2+D3e D2+D3e"
+  },
+  {
+   "v": "G3e F#3e G3 r G3",
+   "ly": "pear- _ eth? For",
+   "rh": "G4+A4s E4s G4+A4s E4s G4+A4s E4s G4+A4s E4s G4+D5s D4s G4+D5s D4s G4+D5s D4s G4+D5s D4s",
+   "lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e B1+B2e B1+B2e B1+B2e B1+B2e",
+   "doubt": "m.d. : seconde G4-A4 (têtes côte à côte), E4 avec bécarre de précaution ; m.g. B1/B2 avec bécarres"
+  },
+  {
+   "v": "G3d Bb3e A3e G3e F3e E3e",
+   "ly": "He is like _ a re-",
+   "rh": "G4+C#5s E4s G4+C#5s E4s G4+C#5s E4s G4+C#5s E4s A4+E5s G4s A4+E5s G4s A4+E5s G4s A4+E5s G4s",
+   "lh": "A1+A2e A1+A2e A1+A2e A1+A2e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e",
+   "doubt": "Mot « refiner's » coupé entre p. 7 et p. 8"
+  }
+ ]
+}
