@@ -168,6 +168,15 @@ add_air('ndo', {'id': 'puccini-nessun-dorma', 'title': 'Nessun dorma', 'composer
 add_air('vlg', {'id': 'leoncavallo-vesti-la-giubba', 'title': 'Vesti la giubba', 'composer': 'Ruggero Leoncavallo', 'work': 'Pagliacci, acte I',
                 'role': 'Canio', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Vérisme', 'ks': 0, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 168-170'},
         66, {'name': 'Canio (ténor)', 'short': 'Can.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('sal', {'id': 'gounod-salut-demeure', 'title': 'Salut ! demeure chaste et pure', 'composer': 'Charles Gounod', 'work': 'Faust, acte III',
+                'role': 'Faust', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -4, 'src': 'Operatic Anthology (Schirmer), p. 69-73'},
+        54, {'name': 'Faust (ténor)', 'short': 'Fau.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('flr', {'id': 'bizet-la-fleur', 'title': "La fleur que tu m'avais jetée", 'composer': 'Georges Bizet', 'work': 'Carmen, acte II',
+                'role': 'Don José', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -5, 'src': 'Operatic Anthology (Schirmer), p. 22-25'},
+        60, {'name': 'Don José (ténor)', 'short': 'José', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('jce', {'id': 'bizet-je-crois-entendre', 'title': 'Je crois entendre encore', 'composer': 'Georges Bizet', 'work': 'Les Pêcheurs de perles, acte I',
+                'role': 'Nadir', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'mode': 'minor', 'src': 'Romance de Nadir, éd. Formation vocale Nantes (ton original)'},
+        60, {'name': 'Nadir (ténor)', 'short': 'Nad.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
