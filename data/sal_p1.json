@@ -1,0 +1,144 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Andante (♩ = 54)",
+"marks": [
+"pp"
+],
+"v": "rw",
+"ly": "",
+"rh": "Eb5h Bb4h",
+"lh": "rw",
+"doubt": "Page imprimée 69 (titre « Faust (1859) — Salut! demeure chaste et pure — Cavatina », Gounod). Armure 4 bémols, C. MD : liaison Eb5→Bb4."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "rw",
+"ly": "",
+"rh": "Eb4+Cb5h Bb3+G4h",
+"lh": "rw"
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "Cb4+Ab4h G3+Db4+Fb4h",
+"lh": "Eb3h Bb2h",
+"doubt": "MD : bécarre de courtoisie sur G3 (accord de 7e diminuée G-Bb-Db-Fb, Bb dans la MG) ; liaisons d'expression."
+},
+{
+"marks": [
+"dim."
+],
+"v": "rw",
+"ly": "",
+"rh": "Eb4h D4h",
+"lh": "Cb3+Eb3+Ab3h Ab2+F3+Cb4h",
+"doubt": "MD : D4 bécarre. MG : F3 avec bécarre de courtoisie ; hampes dans les deux sens (deux voix fusionnées en accords). Changement de clé MD → clé de FA à la fin de la mesure."
+},
+{
+"marks": [
+"p",
+"pp"
+],
+"v": "r re C5e C5e C5s C5s C5e Ab4s C5s",
+"ly": "Quel trouble in- con- nu me pé-",
+"rh": "Bb3+Db4* Fb3* Bb3+Db4* Fb3*",
+"lh": "Gb2w~",
+"doubt": "Début du récitatif. « trouble » imprimé sous une seule note (e muet élidé). Un point est gravé après la 2e croche (« trouble ») mais un peu bas ; lu comme non rythmique car avec lui la mesure ferait 4,25 temps. MD (clé de fa) : trémolos mesurés alternés (3 barres) accord Bb3+Db4 / Fb3, chaque paire = blanche. MG : Gb2 ronde liée à la mesure suivante. p au chant, pp au piano."
+},
+{
+"v": "Ab4 Gb4 rh",
+"ly": "nè- tre?",
+"rh": "Bb3+Db4* Fb3* Bb3+Db4* Fb3*",
+"lh": "Gb2e re Ab4~ Ab4e Ab5e Gb5e Fb5e",
+"doubt": "MD : mêmes trémolos alternés qu'à la mesure précédente. MG : Gb2 (liée depuis la mesure précédente), puis clé de SOL ; liaison Ab4 noire → Ab4 croche lue comme liaison de prolongation ; grande liaison sur Ab5-Gb5-Fb5. Soufflet de crescendo entre les portées du piano."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "rh re Bb4e Bb4ed Bb4s",
+"ly": "Je sens l'a-",
+"rh": "G2e Bb3+Eb4t Eb3t Bb3+Eb4t Eb3t Bb3+Eb4d* Eb3d*",
+"lh": "Eb5 Bb4 rh",
+"doubt": "Chant : point (staccato ?) au-dessus de la 1re croche. MD (clé de fa) : G2 bécarre de courtoisie ; groupe de 4 triples croches (3 barres) puis trémolo alterné Bb3+Eb4 / Eb3 en blanches pointées (= 3 temps). MG en clé de SOL : Eb5 → Bb4 liés, demi-pause, puis retour en clé de FA. Soufflet de crescendo sous la MD."
+},
+{
+"marks": [
+"accelerando poco a poco"
+],
+"v": "Eb5 Eb5e Eb5e Eb5d Eb5s Eb5s",
+"ly": "mour s'em- pa- rer de mon",
+"rh": "Bb3+Eb4* Eb3* Bb3+Eb4* Eb3*",
+"lh": "G2w",
+"doubt": "MD : trémolos alternés (3 barres), chaque paire = blanche ; clé de SOL à la fin de la mesure. MG : G2 bécarre, ronde, liaison vers la mesure suivante (Ab2 : liaison d'expression)."
+},
+{
+"marks": [
+"cresc.",
+"molto"
+],
+"v": "Gb5h Eb5 r",
+"ly": "ê- tre!",
+"rh": "Ab3+C4+Eb4+Gb4e re r Eb5h~",
+"lh": "Ab1+Ab2e C4+Eb4+Gb4t Ab3t C4+Eb4+Gb4t Ab3t C4+Eb4+Gb4d* Ab3d*",
+"doubt": "MD en clé de SOL. MG : octave Ab1/Ab2 croche, 4 triples croches puis trémolo alterné accord C4+Eb4+Gb4 / Ab3 en blanches pointées (= 3 temps) ; grande liaison."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "Eb5 Eb5+Eb6 F5+F6e Eb5+Eb6e D5+D6e C5+C6e",
+"lh": "A1+A2e C4+Eb4+Gb4t A3t C4+Eb4+Gb4t A3t C4+Eb4+Gb4d* A3d*",
+"doubt": "MD : Eb5 lié depuis la mesure précédente ; octaves, D5+D6 avec bécarres ; liaison d'expression sur les octaves. MG : A1+A2 et A3 bécarres ; trémolo alterné (= 3 temps) ; clé de SOL à la fin de la mesure."
+},
+{
+"marks": [
+"f",
+"f"
+],
+"v": "G5 Eb5e C5e C5 Bb4e re",
+"ly": "O Mar- gue- ri- te!",
+"rh": "Bb4+Bb5w",
+"lh": "Bb3+Eb4+G4w",
+"doubt": "Chant : G5 bécarre ; liaison C5 → Bb4. MG en clé de SOL : le bécarre semble porter sur G4 (aligné sur la ligne de sol), Eb4 sans altération — à vérifier (un E bécarre donnerait un accord de do 7). Clé de FA à la fin de la mesure. f au chant et au piano."
+},
+{
+"v": "re D5 C5e Bb4e A4e Ab4ed^ F4s",
+"ly": "à tes pieds _ me voi-",
+"rh": "Ab3+D4h~ Ab3+D4e re r^",
+"lh": "Bb2+F3h~ Bb2+F3e re r^",
+"doubt": "Chant : D5 bécarre, A4 bécarre puis Ab4 (bémol imprimé) avec point d'orgue ; liaison Bb4-A4. MD : D4 bécarre. Points d'orgue sur les soupirs du piano."
+},
+{
+"marks": [
+"espress."
+],
+"v": "Eb4 r rh",
+"ly": "ci!",
+"rh": "G3+Eb4e re r rh",
+"lh": "Eb2+Eb3e re Eb4~ Eb4e E4e G4e F4e",
+"doubt": "MG (clé de fa, notes sur lignes supplémentaires) : Eb4 noire liée à Eb4 croche (arc lu comme prolongation), E4 bécarre ; liaison d'expression sur le groupe."
+},
+{
+"marks": [
+"dim."
+],
+"v": "rw",
+"ly": "",
+"rh": "rw",
+"lh": "Eb4e Db4e Bb3e G3e Eb3e D3e Db3e Bb2e",
+"doubt": "MG : bémol de courtoisie sur Eb4 et Db4 ; D3 bécarre puis Db3 ; liaisons d'expression."
+},
+{
+"v": "rw^",
+"ly": "",
+"rh": "rw^",
+"lh": "F2h G2~ G2e re^",
+"doubt": "Points d'orgue sur les pauses (chant, MD) et sur le demi-soupir (MG). Arc F2 → G2 = liaison d'expression ; G2 noire liée à G2 croche. Double barre en fin de mesure (fin du récitatif)."
+}
+]
+}
