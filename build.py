@@ -137,6 +137,9 @@ add_air('svb', {'id': 'mozart-se-vuol-ballare', 'title': 'Se vuol ballare', 'com
 add_air('ufl', {'id': 'donizetti-furtiva-lagrima', 'title': 'Una furtiva lagrima', 'composer': 'Gaetano Donizetti', 'work': "L'elisir d'amore, acte II",
                 'role': 'Nemorino', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -5, 'mode': 'minor', 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 118-121'},
         60, {'name': 'Nemorino (ténor)', 'short': 'Nem.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('cgm', {'id': 'puccini-che-gelida-manina', 'title': 'Che gelida manina', 'composer': 'Giacomo Puccini', 'work': 'La Bohème, acte I',
+                'role': 'Rodolfo', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -5, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 63-67'},
+        66, {'name': 'Rodolfo (ténor)', 'short': 'Rod.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
