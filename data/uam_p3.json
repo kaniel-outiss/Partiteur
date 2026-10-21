@@ -1,0 +1,168 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "3/8",
+   "v": "C#5s D#5t E5t G#4e F#4e",
+   "ly": "so- _ _ gno non",
+   "rh": "F#4e E4e D#4e // C#4e B3",
+   "lh": "A2+A3e B2+G#3e A2+F#3e",
+   "doubt": "p.98 imprimée, mesures 36-58 ; m.36 n'est pas une levée (suite de la p.97)"
+  },
+  {
+   "v": "B4e re C#5s E5s",
+   "ly": "ha, bi- _",
+   "rh": "rs E4+G#4s G#4+B4s E4+G#4s F#4+C#5s C#4+A4s",
+   "lh": "G#2+E3e re A2e",
+   "doubt": "LH dernière croche abîmée par une bande blanche du scan : A2 ou G#2"
+  },
+  {
+   "v": "gF#5 E5e E5ed D#5s",
+   "ly": "so- gno non",
+   "rh": "rs B3+G#4s G#4+B4s E4+G#4s F#4+A4s B3+F#4s",
+   "lh": "B2e re B3e"
+  },
+  {
+   "v": "G#5 F#5t G#5t A5t F#5t",
+   "ly": "ha, bi- _ _ _",
+   "rh": "rs E4+G#4s G#4+B4s E4+G#4s F#4+C#5s C#4+A4s",
+   "lh": "G#2+E3e re A3e",
+   "doubt": "chant : noire G#5 au-dessus de la portée, puis 4 triples croches (3 barres)"
+  },
+  {
+   "v": "gF#5 E5e E5ed D#5s",
+   "ly": "so- gno non",
+   "rh": "rs B3+G#4s G#4+B4s E4+G#4s F#4+A4s A3+F#4s",
+   "lh": "B3e re B2e",
+   "doubt": "RH dernière note grave lue A3 (2e ligne suppl.) — différente de m.38 (B3)"
+  },
+  {
+   "v": "E5^ rs C#5s",
+   "ly": "ha. U-",
+   "rh": "A3+C#4+E4^ re",
+   "lh": "E2+E3^ re",
+   "doubt": "système 2 (m.41-46) traversé par une bande blanche du scan qui efface les 2e-3e lignes : hauteurs reconstruites d'après les lignes restantes"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "C#5s E5s E5ed D5t C#5t",
+   "ly": "n'au- _ ra‿a- mo- _",
+   "rh": "A3+C#4+E4e E4+A4+C#5e E4+A4+C#5e",
+   "lh": "A2e A3+C#4e A3+C#4e",
+   "doubt": "bécarre de précaution devant D5 ; staccatos sous liaison RH/LH"
+  },
+  {
+   "v": "C#5s D5s B4e rs B4s",
+   "ly": "ro- _ sa del",
+   "rh": "B3+D4e D4+F#4+B4e D4+F#4+B4e",
+   "lh": "A2+F#3e A3+B3e A3+B3e",
+   "doubt": "bécarre (précaution, sur ré) devant le 3e accord RH"
+  },
+  {
+   "v": "B4s D5s D5ed C#5t B4t",
+   "ly": "no- _ stro te- _",
+   "rh": "G#3+B3+D4e D4+G#4+B4e D4+G#4+B4e",
+   "lh": "A2+E3e A3+B3e A3+B3e"
+  },
+  {
+   "v": "B4sd C#5t A4e rs E4s",
+   "ly": "so- _ ro un",
+   "rh": "A3+C#4e E4+A4e E4+A4e",
+   "lh": "A2+E3e A3+C#4e A3+C#4e"
+  },
+  {
+   "v": "A4s3 E4s3 C#5s3 C#5ed B4s",
+   "ly": "dol- _ _ ce ri-",
+   "rh": "re A4+C#5ed G#4+B4s // re E4",
+   "lh": "re E3e D3e"
+  },
+  {
+   "v": "A4s3 C#5s3 E5s3 E5ed D5s",
+   "ly": "sto- _ _ ro al",
+   "rh": "A4s3 C#5s3 E5s3 B4+E5ed D5s // E4e E4e G#4e",
+   "lh": "C#3e G#3e E3+B3e",
+   "doubt": "haut de la portée de chant abîmé (bande blanche) ; hauteurs recoupées avec la main droite"
+  },
+  {
+   "v": "C#5e F#5e E5t D5t C#5t B4t",
+   "ly": "cor _ por- _ ge- _",
+   "rh": "C#5e F#5e E5t D5t C#5t B4t // A4 F#4e",
+   "lh": "F#3+A3e D3+D4"
+  },
+  {
+   "v": "A4e G#4e rs B4s",
+   "ly": "rà. _ U-",
+   "rh": "E4+A4e E4+G#4e E4e",
+   "lh": "C#4e B3e re // E3 re",
+   "doubt": "RH staccatos sous liaison"
+  },
+  {
+   "v": "E5s D#5s D5ed B4t G#4t",
+   "ly": "n'au- _ ra‿a- mo- _",
+   "rh": "re B3+G#4ed G#4+B4s // E4d",
+   "lh": "re E3e D3e",
+   "doubt": "1re note du chant effacée par la bande blanche : E5 déduit de la position et de m.52 (même figure) ; # devant D5 puis bécarre"
+  },
+  {
+   "v": "A4sd B4x C#5x B4e rs B4s",
+   "ly": "ro- _ _ sa del",
+   "rh": "A4s C#5s G#4+B4e re // E4e E4",
+   "lh": "C#3s A2s E3e re",
+   "doubt": "chant : 2 quadruples croches (4 barres) après la double croche pointée"
+  },
+  {
+   "v": "E5s D#5s D5ed A4s",
+   "ly": "no- _ stro te-",
+   "rh": "re B3+G#4ed G#4+B4s // E4d",
+   "lh": "re E3e D3e"
+  },
+  {
+   "v": "A4sd B4x C#5x B4e rs E5s",
+   "ly": "so- _ _ ro un",
+   "rh": "A4s C#5s E4+G#4+B4e rs E5s // E4e r",
+   "lh": "C#3s A2s E3e re",
+   "doubt": "RH : staccatos sur l'accord et sur E5"
+  },
+  {
+   "v": "E5s A5s G#5s F#5s E5s D#5s",
+   "ly": "dol- _ _ _ ce ri-",
+   "rh": "E5s A5s G#5s F#5s E5s D#5s // A4d",
+   "lh": "F#3+A3d"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "D5e C#5e rs B4s",
+   "ly": "sto- ro al",
+   "rh": "G#4+D5e A4+C#5e F#4+B4+F#5s rs",
+   "lh": "E#3+B3e F#3+A3e D3+D4s rs",
+   "doubt": "bécarre devant D5 (chant et RH) ; # devant E3 à la LH (E#3) ; f sous le 3e accord ; dernier accord staccato"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F#5s3 D5s3 B4s3 A4ed B4s",
+   "ly": "cor _ _ por- ge-",
+   "rh": "re E4+A4ed G#4+B4s",
+   "lh": "re C#4ed D4s // re E3e E3e",
+   "doubt": "bécarre de précaution devant le 1er E3 (LH)"
+  },
+  {
+   "v": "B4e C#5e rs E5s",
+   "ly": "rà, _ un",
+   "rh": "G#4+B4+D5e A4+C#5e rs E4+E5s",
+   "lh": "A3 G#3+B3e"
+  },
+  {
+   "v": "E5s A5s G#5s F#5s E5s D#5s",
+   "ly": "dol- _ _ _ _ _",
+   "rh": "E4+E5s A4+A5s G#4+G#5s F#4+F#5s E4+E5s D#4+D#5s",
+   "lh": "F#3+A3d",
+   "doubt": "liaisons (chant, RH, LH) se poursuivant à la page suivante"
+  }
+ ]
+}
