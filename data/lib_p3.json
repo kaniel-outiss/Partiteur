@@ -1,0 +1,398 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"ks": -1,
+"doubt": "m.49 = mesure n°49 imprimée",
+"s": "Bb4hd Bb4",
+"ls": "que ven-",
+"a": "E4h D4h",
+"la": "que ven-",
+"t": "C5h Bb4 A4",
+"lt": "que ven- _",
+"b": "G3h F3h",
+"lb": "que ven-",
+"orc": "rw"
+},
+{
+"marks": [
+"soufflet >"
+],
+"doubt": "S : liaisons Bb-A et G-F (mélismes), « ra_ »",
+"s": "Bb4 A4 G4 F4",
+"ls": "tu- _ ra _",
+"a": "C#4h D4h",
+"la": "tu- ra",
+"t": "G4h A4h",
+"lt": "tu- ra",
+"b": "E3h D3h",
+"lb": "tu- ra",
+"orc": "rw"
+},
+{
+"marks": [
+"p"
+],
+"s": "E4w",
+"ls": "i-",
+"a": "D4w",
+"la": "i-",
+"t": "A4h G#4h",
+"lt": "i- _",
+"b": "E3w",
+"lb": "i-",
+"orc": "rw"
+},
+{
+"doubt": "Orquesta (clé de SOL sur cette page) : triolet de noires (soupir + 2 mi)",
+"s": "E4w",
+"ls": "ra.",
+"a": "C#4w",
+"la": "ra.",
+"t": "A4w",
+"lt": "ra.",
+"b": "A2w",
+"lb": "ra.",
+"orc": "rh r3 E53 E53"
+},
+{
+"meter": "6/4",
+"doubt": "Orquesta : liaison d'expression entre les 2e et 3e mi (noires)",
+"s": "rw rh",
+"ls": "",
+"a": "rw rh",
+"la": "",
+"t": "rw rh",
+"lt": "",
+"b": "rw rh",
+"lb": "",
+"orc": "E5h E5 E5 E5 E5"
+},
+{
+"marks": [
+"ff"
+],
+"s": "A4hd~ A4h A4",
+"ls": "Di- es",
+"a": "A4hd~ A4h A4",
+"la": "Di- es",
+"t": "A4hd~ A4h A4",
+"lt": "Di- es",
+"b": "A3hd~ A3h A3",
+"lb": "Di- es",
+"orc": "rw rh"
+},
+{
+"s": "A4hd A4hd",
+"ls": "il- la",
+"a": "A4hd A4hd",
+"la": "il- la",
+"t": "A4hd A4hd",
+"lt": "il- la",
+"b": "A3hd A3hd",
+"lb": "il- la",
+"orc": "rw rh"
+},
+{
+"s": "C5hd~ C5h C5",
+"ls": "di- es",
+"a": "A4hd~ A4h A4",
+"la": "di- es",
+"t": "C5hd~ C5h C5",
+"lt": "di- es",
+"b": "A3hd~ A3h A3",
+"lb": "di- es",
+"orc": "rw rh"
+},
+{
+"s": "C5hd C5hd",
+"ls": "i- ræ",
+"a": "A4hd A4hd",
+"la": "i- ræ",
+"t": "C5hd C5hd",
+"lt": "i- ræ",
+"b": "A3hd A3hd",
+"lb": "i- ræ",
+"orc": "rw rh"
+},
+{
+"marks": [
+"ff",
+"sempre"
+],
+"s": "F5hd F5h F5",
+"ls": "ca- la- mi-",
+"a": "A4hd A4h A4",
+"la": "ca- la- mi-",
+"t": "F5hd F5h F5",
+"lt": "ca- la- mi-",
+"b": "C4hd C4h C4",
+"lb": "ca- la- mi-",
+"orc": "rw rh"
+},
+{
+"s": "Eb5hd D5hd",
+"ls": "ta- tis",
+"a": "G4hd F#4hd",
+"la": "ta- tis",
+"t": "Eb5hd D5hd",
+"lt": "ta- tis",
+"b": "C4hd C4hd",
+"lb": "ta- tis",
+"orc": "rw rh"
+},
+{
+"doubt": "T : divisi (accords do-mib) sur ri- ; le 2e mi sans altération = mib (même mesure)",
+"s": "D5h Bb4 G4h A4",
+"ls": "et mi- se- ri-",
+"a": "G4h G4 G4h G4",
+"la": "et mi- se- ri-",
+"t": "D5h D5 C5+Eb5h C5+Eb5",
+"lt": "et mi- se- ri-",
+"b": "Bb3h G3 G3h G3",
+"lb": "et mi- se- ri-",
+"orc": "rw rh"
+},
+{
+"s": "Bb4hd~ Bb4h r",
+"ls": "æ",
+"a": "G4hd~ G4h r",
+"la": "æ",
+"t": "D5hd~ D5h r",
+"lt": "æ",
+"b": "G3hd~ G3h r",
+"lb": "æ",
+"orc": "G4h D4 Bb3h G3"
+},
+{
+"marks": [
+"[E]",
+"ff"
+],
+"s": "G4hd~ G4h G4",
+"ls": "di- es",
+"a": "Eb4hd~ Eb4h Eb4",
+"la": "di- es",
+"t": "G4hd~ G4h G4",
+"lt": "di- es",
+"b": "G3hd~ G3h G3",
+"lb": "di- es",
+"orc": "rw rh"
+},
+{
+"s": "G4hd G4hd",
+"ls": "il- la",
+"a": "Eb4hd Eb4hd",
+"la": "il- la",
+"t": "G4hd G4hd",
+"lt": "il- la",
+"b": "G3hd G3hd",
+"lb": "il- la",
+"orc": "rw rh"
+},
+{
+"s": "Bb4hd~ Bb4h Bb4",
+"ls": "di- es",
+"a": "G4hd~ G4h G4",
+"la": "di- es",
+"t": "Bb4hd~ Bb4h Bb4",
+"lt": "di- es",
+"b": "G3hd~ G3h G3",
+"lb": "di- es",
+"orc": "rw rh"
+},
+{
+"s": "Bb4hd Bb4hd",
+"ls": "ma- gna",
+"a": "G4hd G4hd",
+"la": "ma- gna",
+"t": "Bb4hd Bb4hd",
+"lt": "ma- gna",
+"b": "G3hd G3hd",
+"lb": "ma- gna",
+"orc": "rw rh"
+},
+{
+"marks": [
+"sempre",
+"ff"
+],
+"s": "Eb5hd~ Eb5h Eb5",
+"ls": "et a-",
+"a": "G4hd~ G4h G4",
+"la": "et a-",
+"t": "Eb5hd~ Eb5h Eb5",
+"lt": "et a-",
+"b": "Bb3hd~ Bb3h Bb3",
+"lb": "et a-",
+"orc": "rw rh"
+},
+{
+"s": "Db5hd C5h C5",
+"ls": "ma- ra a-",
+"a": "F4hd E4h E4",
+"la": "ma- ra a-",
+"t": "Db5hd C5h C5",
+"lt": "ma- ra a-",
+"b": "Bb3hd Bb3h Bb3",
+"lb": "ma- ra a-",
+"orc": "rw rh"
+},
+{
+"doubt": "S : liaison F-G (mélisme) ; T : divisi sib+réb sur val-",
+"s": "C5h Ab4 F4h G4",
+"ls": "ma- ra val- _",
+"a": "F4h F4 F4hd",
+"la": "ma- ra val-",
+"t": "C5h C5 Bb4+Db5hd",
+"lt": "ma- ra val-",
+"b": "Ab3h F3 F3hd",
+"lb": "ma- ra val-",
+"orc": "rw rh"
+},
+{
+"marks": [
+"soufflet >"
+],
+"s": "Ab4wd",
+"ls": "de.",
+"a": "F4wd",
+"la": "de.",
+"t": "C5wd",
+"lt": "de.",
+"b": "F3wd",
+"lb": "de.",
+"orc": "rw rh"
+},
+{
+"marks": [
+"[F]",
+"p"
+],
+"s": "Ab4hd~ Ab4h Ab4",
+"ls": "Re- qui-",
+"a": "F4hd~ F4h F4",
+"la": "Re- qui-",
+"t": "C5hd~ C5h C5",
+"lt": "Re- qui-",
+"b": "F3hd~ F3h F3",
+"lb": "Re- qui-",
+"orc": "rw rh"
+},
+{
+"doubt": "Orquesta : changement en clé de FA en fin de mesure",
+"s": "G4hd~ G4h G4",
+"ls": "em æ-",
+"a": "F4hd~ F4h F4",
+"la": "em æ-",
+"t": "B4hd~ B4h B4",
+"lt": "em æ-",
+"b": "G3hd~ G3h G3",
+"lb": "em æ-",
+"orc": "rw rh"
+},
+{
+"doubt": "Orquesta en clé de fa : mib. puis mi bécarre. lié",
+"s": "Bb4wd",
+"ls": "ter-",
+"a": "G4wd",
+"la": "ter-",
+"t": "D5wd",
+"lt": "ter-",
+"b": "G3wd",
+"lb": "ter-",
+"orc": "Eb3hd E3hd~"
+},
+{
+"s": "A4wd",
+"ls": "nam",
+"a": "G4wd",
+"la": "nam",
+"t": "C#5wd",
+"lt": "nam",
+"b": "A3wd",
+"lb": "nam",
+"orc": "E3h A2 C#3h E3"
+},
+{
+"marks": [
+"cresc."
+],
+"s": "C5hd~ C5h C5",
+"ls": "do- na",
+"a": "A4hd~ A4h A4",
+"la": "do- na",
+"t": "E5hd~ E5h E5",
+"lt": "do- na",
+"b": "A3hd~ A3h A3",
+"lb": "do- na",
+"orc": "rw rh"
+},
+{
+"s": "B4hd B4hd",
+"ls": "e- is",
+"a": "A4hd A4hd",
+"la": "e- is",
+"t": "D#5hd D#5hd",
+"lt": "e- is",
+"b": "B3hd B3hd",
+"lb": "e- is",
+"orc": "rw rh"
+},
+{
+"s": "D5hd~ D5h D5",
+"ls": "Do- mi-",
+"a": "B4hd~ B4h B4",
+"la": "Do- mi-",
+"t": "F#5hd~ F#5h F#5",
+"lt": "Do- mi-",
+"b": "B3hd~ B3h B3",
+"lb": "Do- mi-",
+"orc": "rw rh"
+},
+{
+"marks": [
+"f",
+">",
+"p"
+],
+"s": "C#5hd C#5hd",
+"ls": "ne et",
+"a": "B4hd G#4hd",
+"la": "ne et",
+"t": "E#5hd E#5hd",
+"lt": "ne et",
+"b": "C#4hd B3hd",
+"lb": "ne et",
+"orc": "rw rh"
+},
+{
+"s": "C#5hd C#5hd",
+"ls": "lux per-",
+"a": "F#4hd F#4hd",
+"la": "lux per-",
+"t": "F#5hd A#4hd",
+"lt": "lux per-",
+"b": "A#3hd F#3hd",
+"lb": "lux per-",
+"orc": "rw rh"
+},
+{
+"marks": [
+"soufflet <",
+">"
+],
+"doubt": "T : liaison d'expression sol#→ré (mélisme) ; suite p.14",
+"s": "D5hd~ D5h B4",
+"ls": "pe- tu-",
+"a": "G#4hd~ G#4h E4",
+"la": "pe- tu-",
+"t": "G#4hd D5h D5",
+"lt": "pe- _ tu-",
+"b": "F#3hd~ F#3h F#3",
+"lb": "pe- tu-",
+"orc": "rw rh"
+}
+]
+}
