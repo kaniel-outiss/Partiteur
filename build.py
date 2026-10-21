@@ -43,6 +43,11 @@ def pages(prefix):
     for f in sorted(glob.glob('data/%s_p*.json' % prefix), key=lambda x: int(re.search(r'_p(\d+)', x).group(1))):
         out += json.load(open(f))['measures']
     return out
+def clean(ms):
+    # indications d'articulation non encodées (staccato) : pas de texte parasite sur la portée
+    for m in ms:
+        if 'marks' in m: m['marks'] = [k for k in m['marks'] if not re.match(r'^(stacc|stacc\.|staccato|tr)$', k.strip(), re.I)]
+    return ms
 def place(T, ms):
     i0, out = 0, []
     for L in T['lines']:
@@ -52,8 +57,9 @@ def place(T, ms):
             if any(w.lower().strip('-,!;:.…').replace('’', "'").startswith(k) for w in ly[:2]):
                 L['m'] = i; i0 = i + 1; out.append(L); break
     T['lines'] = out; return T
+for w in W[1:]: clean(w['measures'])
 if os.path.exists('data/mad_p1.json'):
-    md = pages('mad')
+    md = clean(pages('mad'))
     for m in md:
         if 'Andante' in (m.get('tempo') or '') and not m.get('bpm'): m['bpm'] = 100
     W.append({'id': 'mozart-madamina', 'title': 'Madamina, il catalogo è questo', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Don Giovanni, acte I',
