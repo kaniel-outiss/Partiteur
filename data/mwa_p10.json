@@ -1,0 +1,116 @@
+{
+"page": 10,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"fp"
+],
+"v": "F3e E3e D3 r D3",
+"ly": "fire, _ _ and",
+"rh": "F4+A4+D5 r D5+F5s A4s D5+F5s A4s D5+F5s A4s D5+F5s A4s",
+"lh": "D3+D4e D3+D4e D3+D4e D3+D4e D2+D3e D2+D3e D2+D3e D2+D3e",
+"doubt": "Suite de la p. 9 (Prestissimo 4/4). Chant : liaison fa3-mi3-ré3. fp au 3e temps."
+},
+{
+"marks": [
+"fp"
+],
+"v": "Eb3hd Eb3",
+"ly": "who shall",
+"rh": "G4+Bb4+Eb5 r C5+Eb5s A4s C5+Eb5s A4s C5+Eb5s A4s C5+Eb5s A4s",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e C2+C3e C2+C3e C2+C3e C2+C3e",
+"doubt": "Bémol de mi5 imprimé au 1er temps, valable pour toute la mesure (MD)."
+},
+{
+"marks": [
+"fp"
+],
+"v": "Eb4 F#3 G3h",
+"ly": "stand when He,",
+"rh": "F#4+A4+C5 r G4+D5s D4s G4+D5s D4s G4+D5s D4s G4+D5s D4s",
+"lh": "C2+C3e C2+C3e C2+C3e C2+C3e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e"
+},
+{
+"marks": [
+"fp"
+],
+"v": "r C4 C4 Bb3e A3e",
+"ly": "when He ap- _",
+"rh": "Eb4+G4+C5 r C5+F#5s A4s C5+F#5s A4s C5+F#5s A4s C5+F#5s A4s",
+"lh": "A1+A2e A1+A2e A1+A2e A1+A2e D2+D3e D2+D3e D2+D3e D2+D3e",
+"doubt": "Chant : liaison si♭3-la3."
+},
+{
+"marks": [
+"fp"
+],
+"v": "Bb3e A3e G3 r D3",
+"ly": "pear- _ eth? and",
+"rh": "Bb4+G5 r D5+A5s A4s D5+A5s A4s D5+A5s A4s D5+A5s A4s",
+"lh": "G2+G3e G2+G3e G2+G3e G2+G3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e",
+"doubt": "« pear-eth? » imprimé serré sous si♭3-la3-sol3 ; syllabe « eth? » placée sur sol3. Liaison si♭3-la3."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb2hd Bb2",
+"ly": "who shall",
+"rh": "D5+A5 r Bb4+D5s G4s Bb4+D5s G4s Bb4+D5s G4s Bb4+D5s G4s",
+"lh": "G2+G3e G2+G3e G2+G3e G2+G3e F2+F3e F2+F3e F2+F3e F2+F3e",
+"doubt": "MG : bécarres de précaution devant fa3 et fa2 (2e moitié)."
+},
+{
+"v": "Bb3hd Bb3",
+"ly": "stand when",
+"rh": "G5s Bb4s G5s Bb4s G5s Bb4s G5s Bb4s Bb4+F5s F4s Bb4+F5s F4s Bb4+F5s F4s Bb4+F5s F4s",
+"lh": "E2+E3e E2+E3e E2+E3e E2+E3e D2+D3e D2+D3e D2+D3e D2+D3e",
+"doubt": "Soufflet de crescendo (<) imprimé sous la MD sur toute la mesure."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb3hd A3e G3e",
+"ly": "He ap- _",
+"rh": "G4+Bb4+E5 r G4s E5s G4s E5s A4s E5s Bb4s E5s",
+"lh": "C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e C#2+C#3e",
+"doubt": "Chant : liaison la3-sol3. MG : dièses au 1er temps, valables toute la mesure. p au 3e temps."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "F3e E3e D3 rh",
+"ly": "pear- _ eth?",
+"rh": "F4+A4s D5s G4s D5s F4s D5s A4s D5s Bb4+D5s F4s Bb4+D5s F4s Bb4+D5s F4s Bb4+D5s F4s",
+"lh": "D2+D3e D2+D3e D2+D3e D2+D3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e",
+"doubt": "Chant : liaison fa3-mi3. « cresc. » suivi d'un soufflet < jusqu'à la fin de la mesure."
+},
+{
+"marks": [
+"p"
+],
+"v": "F3h G3d G3e",
+"ly": "For He is",
+"rh": "C5s F4s C5s F4s C5+F5s F4s C5+F5s F4s D5+F5s Bb4s D5+F5s Bb4s E5s Bb4s E5s Bb4s",
+"lh": "A2+A3e A2+A3e A2+A3e A2+A3e G2+G3e G2+G3e G2+G3e G2+G3e",
+"doubt": "Lettre de repère H imprimée."
+},
+{
+"v": "A3e Bb3e C4 r C4e F3e",
+"ly": "like _ _ a re-",
+"rh": "A4+F5e G4+Bb4s E4s A4s F4s G4+C5s E4s C5+F5s F4s C5+F5s F4s C5+Eb5+F5s F4s C5+Eb5+F5s F4s",
+"lh": "F2+F3e F2+F3e F2+F3e F2+F3e A1+A2e A1+A2e A1+A2e A1+A2e",
+"doubt": "Chant : liaison la3-si♭3-do4 + trait de mélisme (like___). MD 4e temps : mi♭5 (bémol) écrit décalé à gauche, en seconde avec fa5."
+},
+{
+"v": "D4e C4e Bb3e A3e G3e F3e E3e D3e",
+"ly": "fin- _ _ _ _ _ er's _",
+"rh": "D5+F5s F4s C5+F5s F4s Bb4+F5s F4s C5+F5s F4s G5s D5s G5s D5s D5+G5s G4s D5+F5+G5s G4s",
+"lh": "Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e B1+B2e B1+B2e B1+B2e B1+B2e",
+"doubt": "Chant : grande liaison ré4…fa3 puis liaison mi3-ré3 (er's__) — la phrase continue page suivante. MD dernier accord : fa5 écrit décalé (seconde fa5-sol5). MG : bécarres devant si2 et si1 (2e moitié). Trait parasite sur la ligne ré3 au dernier accord (tache, pas une note)."
+}
+]
+}
