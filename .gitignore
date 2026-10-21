@@ -18,3 +18,4 @@ scan/cal/*.png
 scan/npa/ag*/
 scan/npa/*.png
 scan/*/ag*/
+__pycache__/

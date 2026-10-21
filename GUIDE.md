@@ -42,3 +42,13 @@ Modules (`build.py` les assemble dans cet ordre) : core (bus, portes, stockage) 
 Portées masquées : on retire les portées du MEI exporté par Verovio (les xml:id des autres notes restent identiques).
 Plus de chaînage de fonctions : un module s'abonne au `BUS`, pose une porte dans `GATES` ou un modificateur dans `VOLS`.
 `python3 build.py` → partiteur.html (un seul fichier, hors-ligne).
+
+---
+# Bibliothèque .fab (v0.24) — le partiteur est un lecteur
+L'appli n'embarque plus aucun chant. Chaque chant est un fichier **.fab** (JSON gzip, schéma dans `tools/fablib.py`) :
+fiche + partition (jetons ou MusicXML) + parties + livret (mot à mot, API, traduction, scène, diction) + tessiture + réglages perso optionnels.
+- Téléphone : `Documents/Partiteur/*.fab` (lu au démarrage ; index en cache par taille+date ; partition lue à l'ouverture seulement).
+  Android 11+ : « Autoriser la gestion de tous les fichiers » pour voir les .fab copiés à la main ; sinon 📥 Ajouter les copie dans le dossier.
+- `python3 build.py` écrit un .fab par air transcrit dans `bibliotheque/` (publiés avec l'APK sur la page des versions).
+- Convertir : dans l'appli 📥 (MusicXML/MXL/MEI → fiche → .fab) ; en ligne de commande `python3 tools/fab.py xml|tokens|info|unpack|pack`.
+- PDF → .fab : transcription (ce guide) → pages en jetons → `tools/fab.py tokens META.json pages… --text livret.json`.

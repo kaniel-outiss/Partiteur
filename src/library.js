@@ -1,8 +1,16 @@
 /* ═══════════ 📚 BIBLIOTHÈQUE · 🎤 MA VOIX · 📥 IMPORT · 🎭 PROGRAMMES & CONCERT ═══════════ */
 'use strict';
-function libLoad(){return IDB.open().catch(function(){}).then(function(){return IDB.all();}).then(function(a){
-  a.forEach(function(W){if(!WORKS.some(function(x){return x.id===W.id;}))WORKS.push(W);});
-  WORKS.forEach(function(W){const m=LS.get('meta:'+W.id,null);if(m&&!W.imported)Object.assign(W,m);});});}
+/* la bibliothèque = les fichiers .fab du dossier (voir fab.js) ; l'appli n'embarque plus aucun chant */
+async function libLoad(){try{await IDB.open();}catch(e){}
+  try{await fabMigrate();}catch(e){console.error(e);}
+  const r=await fabScan(function(n,t){toast('📚 Lecture de la bibliothèque… '+n+' / '+t,1500);});
+  WORKS.length=0;r.works.forEach(function(W){WORKS.push(W);});
+  /* anciennes partitions importées que la migration n'a pas pu écrire : gardées telles quelles */
+  (await IDB.all()).forEach(function(W){if(!WORKS.some(function(x){return x.id===W.id;})){W.legacy=true;WORKS.push(W);}});
+  /* fiches modifiées avant la 0.24 (chants qui étaient dans l'appli) */
+  WORKS.forEach(function(W){const m=LS.get('meta:'+W.id,null);if(m)Object.assign(W,m);});
+  if(r.bad.length||r.dup.length)toast('⚠ '+(r.bad.length?r.bad.length+' fichier'+(r.bad.length>1?'s':'')+' illisible'+(r.bad.length>1?'s':'')+' ':'')+(r.dup.length?r.dup.length+' doublon'+(r.dup.length>1?'s':'')+' ignoré'+(r.dup.length>1?'s':''):''),5000);}
+async function libReload(say){await libLoad();library();if(say)toast('📚 '+WORKS.length+' chant'+(WORKS.length>1?'s':'')+' dans la bibliothèque');setTimeout(libWarm,800);}
 /* ── ma voix : zone confortable (hauteur réelle) ── */
 const VPRE=[['S','Soprano',60,81],['Mz','Mezzo',57,77],['A','Alto',53,74],['T','Ténor',48,69],['Bar','Baryton',45,65],['B','Basse',41,62]];
 function myVoice(){return LS.get('voice',null);}
@@ -46,31 +54,37 @@ function navBar(){const el=$('#nav');
     +'<button data-fm="1" class="'+(FLT.mine?'on':'')+'" title="Seulement ce qui va à ma voix (au besoin transposé)">🎤 pour ma voix</button>'
     +'<select data-f="grp" class="'+(FLT.grp?'on':'')+'"><option value="">Grouper…</option>'+[['work','par œuvre'],['composer','par compositeur'],['period','par période'],['style','par style'],['rep','par répartition']].map(function(g){return '<option value="'+g[0]+'"'+(FLT.grp===g[0]?' selected':'')+'>'+g[1]+'</option>';}).join('')+'</select>'
     +(['q','style','period','composer','work','rep','voice'].some(function(k){return FLT[k];})||FLT.mine?'<button data-fx="1">✕ tout</button>':'')+'</div>';
-  const q=$('#fq');q.oninput=function(){FLT.q=q.value;LS.set('flt',FLT);libList();};}
+  const q=$('#fq');q.oninput=function(){FLT.q=q.value;LS.set('flt',FLT);LIBN=150;libList();};}
 function prefTxt(id){const t=LS.get('tr:'+id,0),v=LS.get('tempo:'+id,100);return (t||v!==100)?'★ '+(t?(t>0?'+':'')+t+' ':'')+(v!==100?v+' %':''):'';}
 function wkCard(W){const an=anOf(W),b=an&&anBadge(an,LS.get('tr:'+W.id,0));const vp=wParts(W);
   return '<div class="wk" data-w="'+W.id+'"><b>'+esc(W.title)+'</b><span>'+esc(W.composer||'?')+(W.work?' — '+esc(W.work):'')+'</span>'
     +'<small>'+[W.style,W.period,repOf(W)].filter(Boolean).map(esc).join(' · ')+(prefTxt(W.id)?' · <b class="pref">'+prefTxt(W.id)+'</b>':'')+'</small>'
     +(an?'<div class="amb">'+esc(an.pname)+' : '+pName(an.lo)+'–'+pName(an.hi)+' <i>(tessiture '+pName(an.tlo)+'–'+pName(an.thi)+')</i> <em class="vb '+b.cls+'">'+b.txt+'</em></div>':(vp.length?'<div class="amb">'+vp.map(function(p){return esc(p.name);}).join(' · ')+'</div>':''))
-    +(W.imported?'<button class="wdel" data-del="'+W.id+'" title="Supprimer">🗑</button>':'')+'</div>';}
-function libList(){const L=WORKS.filter(function(W){return fltPass(W);});const add='<div class="wk soon" data-add="1"><b>📥 Ajouter une partition</b><span>MusicXML (.musicxml, .mxl) exporté de MuseScore, ou téléchargé sur CPDL / IMSLP / MuseScore.com.</span></div>';
-  if(!L.length){$('#lib').innerHTML='<div class="hint">Aucune pièce ne correspond.</div>'+add;return;}
-  if(!FLT.grp){$('#lib').innerHTML=L.map(wkCard).join('')+add;return;}
+    +(W.file||W.legacy?'<button class="wdel" data-del="'+W.id+'" title="Supprimer">🗑</button>':'')+'</div>';}
+let LIBN=150;  /* des milliers de chants : on n'affiche qu'une page à la fois */
+function libList(){const L0=WORKS.filter(function(W){return fltPass(W);});const add='<div class="wk soon" data-add="1"><b>📥 Ajouter des chants</b><span>Fichiers .fab, ou MusicXML (.musicxml, .mxl) / MEI à convertir en .fab.</span></div>';
+  if(!WORKS.length){$('#lib').innerHTML='<div class="hint">La bibliothèque est vide. Le partiteur lit les fichiers <b>.fab</b> rangés dans <b>Documents/Partiteur</b> : copie-les là (puis 🗂 → Relire le dossier), ou touche 📥 pour les choisir.</div>'+add;return;}
+  if(!L0.length){$('#lib').innerHTML='<div class="hint">Aucune pièce ne correspond.</div>'+add;return;}
+  const L=L0.slice(0,LIBN),more=L0.length>L.length?'<button class="pgb" data-more="1" style="grid-column:1/-1;text-align:center">⬇ Voir plus ('+(L0.length-L.length)+' de plus)</button>':'';
+  if(!FLT.grp){$('#lib').innerHTML=L.map(wkCard).join('')+more+add;return;}
   const key=function(W){if(FLT.grp==='rep')return repOf(W);if(FLT.grp==='work')return W.work?W.work.replace(/,.*$/,''):'— hors œuvre —';return W[FLT.grp]||'— non classé —';};
   const G={};L.forEach(function(W){(G[key(W)]=G[key(W)]||[]).push(W);});
-  $('#lib').innerHTML=Object.keys(G).sort(function(a,b){return a.localeCompare(b,'fr');}).map(function(k){return '<h3 class="gh">'+esc(k)+' <small>'+G[k].length+'</small></h3>'+G[k].map(wkCard).join('');}).join('')+add;}
+  $('#lib').innerHTML=Object.keys(G).sort(function(a,b){return a.localeCompare(b,'fr');}).map(function(k){return '<h3 class="gh">'+esc(k)+' <small>'+G[k].length+'</small></h3>'+G[k].map(wkCard).join('');}).join('')+more+add;}
 function library(){const v=myVoice();$('#vme').innerHTML=v?'🎤 '+vName(v)+' · '+pName(v.lo)+'–'+pName(v.hi):'🎤 Ma voix';navBar();libList();progList();}
 document.addEventListener('change',function(e){const s=e.target.closest('#nav [data-f]');if(!s)return;FLT[s.dataset.f]=s.value;LS.set('flt',FLT);navBar();libList();});
 document.addEventListener('click',function(e){if(e.target.closest('#nav [data-fm]')){FLT.mine=!FLT.mine;LS.set('flt',FLT);navBar();libList();return;}
   if(e.target.closest('#nav [data-fx]')){['q','style','period','composer','work','rep','voice'].forEach(function(k){FLT[k]='';});FLT.mine=false;LS.set('flt',FLT);navBar();libList();return;}
-  const d=e.target.closest('[data-del]');if(d){e.stopPropagation();const W=wById(d.dataset.del);if(W&&confirm('Supprimer « '+W.title+' » ?'))IDB.del(W.id).then(function(){WORKS.splice(WORKS.indexOf(W),1);library();});return;}
+  if(e.target.closest('#lib [data-more]')){LIBN+=300;libList();return;}
+  const d=e.target.closest('[data-del]');if(d){e.stopPropagation();const W=wById(d.dataset.del);if(W&&confirm('Supprimer « '+W.title+' » ?'+(W.file?'\nLe fichier '+W.file+' sera effacé du téléphone.':'')))fabDelete(W).then(function(){WORKS.splice(WORKS.indexOf(W),1);library();},function(err){toast('⚠ Suppression impossible : '+(err.message||err));});return;}
   if(e.target.closest('#lib [data-add]')){$('#fimp').click();return;}
   const w=e.target.closest('#lib [data-w]');if(w){openWork(w.dataset.w);return;}
-  if(e.target.closest('#vme'))voiceDlg();if(e.target.closest('#bImp'))$('#fimp').click();
+  if(e.target.closest('#vme'))voiceDlg();if(e.target.closest('#bImp'))$('#fimp').click();if(e.target.closest('#bDir'))fabDirDlg();
   if(e.target.closest('#bMeta')&&ST.W)metaDlg(ST.W,false,ST.SC);});
 /* tessitures des pièces jamais ouvertes : calculées en tâche de fond */
-async function libWarm(){for(let i=0;i<WORKS.length;i++){const W=WORKS[i];if(wHist(W))continue;try{if(!$('#app').hidden)await new Promise(function(r){const t=setInterval(function(){if($('#app').hidden){clearInterval(t);r();}},1500);});const SC=await engineLoad(W,true);const H=partHist(SC);W.instr=SC.parts.some(function(P){return P.kind!=='voice';});
-    if(W.imported){W.hist=H;IDB.put(W);}else LS.set('hist:'+W.id,H);W._an=null;}catch(e){}}if(!$('#home').hidden)libList();}
+let WARM=false;
+async function libWarm(){if(WARM)return;WARM=true;let k=0;for(let i=0;i<WORKS.length;i++){const W=WORKS[i];if(wHist(W))continue;try{if(!$('#app').hidden)await new Promise(function(r){const t=setInterval(function(){if($('#app').hidden){clearInterval(t);r();}},1500);});
+    await wFull(W);const SC=await engineLoad(W,true);const H=partHist(SC);W.instr=SC.parts.some(function(P){return P.kind!=='voice';});W.hist=H;W._an=null;
+    if(W.file){await fabIdx(W);if(ST.W!==W)wLite(W);}else if(W.legacy)IDB.put(W);if(++k%20===0&&!$('#home').hidden)libList();}catch(e){}}WARM=false;if(!$('#home').hidden)libList();}
 /* ── ma voix (fenêtre) ── */
 function voiceDlg(){let cur=JSON.parse(JSON.stringify(myVoice()||{vt:'B',lo:41,hi:62}));
   const draw=function(){dlg('<h2>🎤 Ma voix</h2><div class="hint">La zone où tu chantes à l’aise (hauteur réelle). Le partiteur s’en sert pour te dire si un air te va, et dans quel ton.</div>'
@@ -97,13 +111,23 @@ function xmlMeta(xml,fname){const d=new DOMParser().parseFromString(xml,'applica
   const title=t('work > work-title')||t('movement-title')||t('titleStmt > title')||(function(){const c=$$('credit credit-words',d);return c.length?c[0].textContent.trim():'';})()||(fname||'Sans titre').replace(/\.[^.]+$/,'');
   const comp=(d.querySelector('creator[type="composer"]')||d.querySelector('persName[role="composer"]')||{textContent:''}).textContent.trim();
   return {title:title,composer:comp};}
-async function importFile(f){try{toast('📥 Lecture de '+f.name+'…');const xml=await readScoreFile(f);if(!/score-partwise|<mei[\s>]/.test(xml))throw new Error(/score-timewise/.test(xml)?'format « timewise » : réexporte en MusicXML standard':'ce fichier n’est pas une partition MusicXML');
-    const M=xmlMeta(xml,f.name);const W={id:'imp-'+Date.now().toString(36),title:M.title,composer:M.composer,work:'',role:'',xml:xml,imported:true,src:f.name,partMeta:{}};
-    const SC=await engineLoad(W,true);W.hist=partHist(SC);W.instr=SC.parts.some(function(P){return P.kind!=='voice';});metaDlg(W,true,SC);}
-  catch(err){toast('⚠ Import impossible : '+(err.message||err));console.error(err);}}
+/* 📥 ajout / 🔄 conversion : .fab copiés tels quels ; MusicXML, MXL, MEI → fiche → .fab ; PDF → explication */
+const IMPQ=[];let IMPN=0;
+function addFiles(list){Array.prototype.forEach.call(list,function(f){IMPQ.push(f);});if(IMPQ.length===list.length)impNext();}
+async function impNext(){const f=IMPQ[0];if(!f){if(IMPN){library();toast('📚 '+IMPN+' chant'+(IMPN>1?'s':'')+' ajouté'+(IMPN>1?'s':''));IMPN=0;setTimeout(libWarm,800);}return;}
+  const done=function(){IMPQ.shift();impNext();};const ext=(f.name.split('.').pop()||'').toLowerCase();
+  try{if(ext==='fab'){const W=await fabAddFile(f);if(W)IMPN++;done();return;}
+    if(ext==='pdf'||f.type==='application/pdf'){pdfInfo(f.name,done);return;}
+    await importFile(f,done);}catch(err){toast('⚠ '+f.name+' : '+(err.message||err),5000);console.error(err);done();}}
+function pdfInfo(name,done){dlg('<h2>📄 '+esc(name)+'</h2><div class="hint">Un PDF n’est qu’une <b>image</b> de partition : ni notes, ni rythmes, ni paroles lisibles par l’appli. Pour qu’il devienne un .fab interactif (son, voix, transposition, paroles, livret), il faut le <b>transcrire</b> mesure par mesure.</div>'
+  +'<div class="hint" style="margin-top:8px">Envoie-le à Claude avec le titre de l’air : il le transcrit et te rend le .fab, prêt à copier dans Documents/Partiteur. Si tu as le MusicXML (MuseScore, IMSLP, CPDL), ajoute-le directement : il est converti ici.</div>'
+  +'<div class="row"><button data-close="1" class="pri">OK</button></div>');dlgClose.cb=done;}
+async function importFile(f,done){toast('🔄 Conversion de '+f.name+'…');const xml=await readScoreFile(f);if(!/score-partwise|<mei[\s>]/.test(xml))throw new Error(/score-timewise/.test(xml)?'format « timewise » : réexporte en MusicXML standard':'ce fichier n’est pas une partition MusicXML');
+  const M=xmlMeta(xml,f.name);const W={id:'imp-'+Date.now().toString(36)+Math.random().toString(36).slice(2,5),title:M.title,composer:M.composer,work:'',role:'',xml:xml,src:f.name,partMeta:{},created:new Date().toISOString().slice(0,10)};
+  const SC=await engineLoad(W,true);W.hist=partHist(SC);W.instr=SC.parts.some(function(P){return P.kind!=='voice';});metaDlg(W,true,SC,done);}
 const STYLES=['Air d’opéra','Oratorio','Messe','Motet','Cantique','Negro spiritual','Gospel','Lied','Mélodie','Chœur','Autre'];
 const PERIODS=['Renaissance','Baroque','Classique','Romantique','Post-romantique','XXᵉ siècle','Contemporain','Traditionnel'];
-function metaDlg(W,isNew,SC){const opt=function(list,v){return '<option value=""></option>'+list.map(function(x){return '<option'+(x===v?' selected':'')+'>'+x+'</option>';}).join('');};
+function metaDlg(W,isNew,SC,done){let fin=false;const end=function(){if(fin)return;fin=true;if(done)done();};const opt=function(list,v){return '<option value=""></option>'+list.map(function(x){return '<option'+(x===v?' selected':'')+'>'+x+'</option>';}).join('');};
   const parts=SC?SC.parts:[];
   dlg('<h2>'+(isNew?'📥 Nouvelle partition':'✏️ Fiche')+'</h2>'
     +'<label>Titre<input id="mTitle" value="'+esc(W.title)+'"></label><label>Compositeur<input id="mComp" value="'+esc(W.composer||'')+'"></label>'
@@ -111,14 +135,18 @@ function metaDlg(W,isNew,SC){const opt=function(list,v){return '<option value=""
     +'<div class="two"><label>Style<select id="mStyle">'+opt(STYLES,W.style)+'</select></label><label>Période<select id="mPer">'+opt(PERIODS,W.period)+'</select></label></div>'
     +(SC?'<h3>Parties ('+SC.meas.length+' mesures, '+keyName(SC.ks,SC.minor)+')</h3>'+parts.map(function(P,i){return '<div class="pr"><input data-pn="'+i+'" value="'+esc(P.name)+'"><select data-pk="'+i+'"><option value="voice"'+(P.kind==='voice'?' selected':'')+'>🎤 voix</option><option value="piano"'+(P.kind!=='voice'?' selected':'')+'>🎹 instrument</option></select>'
       +'<select data-pv="'+i+'"><option value=""></option>'+VPRE.map(function(p){return '<option value="'+p[0]+'"'+(P.vt===p[0]?' selected':'')+'>'+p[1]+'</option>';}).join('')+'</select></div>';}).join(''):'')
-    +'<div class="row"><button id="mok" class="pri">'+(isNew?'Ajouter à la bibliothèque':'Enregistrer')+'</button><button data-close="1">Annuler</button></div>');
+    +(!isNew?'<h3>📦 Fichier .fab'+(W.file?' — '+esc(W.file):'')+'</h3><div class="row"><button id="mExp">📤 Partager le .fab</button><button id="mExpP" title="Avec ton, tempo, respirations, repères, annotations, ma version">📤 … avec mes réglages</button></div>':'')
+    +'<div class="row"><button id="mok" class="pri">'+(isNew?'Enregistrer en .fab':'Enregistrer')+'</button><button data-close="1">Annuler</button></div>');
+  dlgClose.cb=end;
+  if(!isNew){$('#mExp').onclick=function(){fabExport(W,false).catch(function(e){toast('⚠ '+(e.message||e));});};$('#mExpP').onclick=function(){fabExport(W,true).catch(function(e){toast('⚠ '+(e.message||e));});};}
   $('#mok').onclick=function(){const o={title:$('#mTitle').value.trim()||W.title,composer:$('#mComp').value.trim(),work:$('#mWork').value.trim(),role:$('#mRole').value.trim(),style:$('#mStyle').value,period:$('#mPer').value};
     const pm={};parts.forEach(function(P,i){pm[P.id]={name:$('[data-pn="'+i+'"]').value.trim()||P.name,kind:$('[data-pk="'+i+'"]').value,vt:$('[data-pv="'+i+'"]').value};});
-    Object.assign(W,o);W._an=null;
-    if(W.imported){W.partMeta=pm;const done=function(){if(WORKS.indexOf(W)<0)WORKS.push(W);dlgClose();if(ST.W===W)openWork(W.id);else library();toast('✅ « '+W.title+' » '+(isNew?'ajouté':'enregistré'));};
-      if(SC){parts.forEach(function(P){Object.assign(P,pm[P.id]);});W.hist=partHist(SC);}IDB.put(W).then(done);}
-    else{o.partMeta=pm;W.partMeta=pm;LS.set('meta:'+W.id,o);dlgClose();if(ST.W===W)openWork(W.id);toast('✅ Fiche enregistrée');}};}
-window.addEventListener('DOMContentLoaded',function(){const f=$('#fimp');f.onchange=function(){if(f.files[0])importFile(f.files[0]);f.value='';};});
+    Object.assign(W,o);W._an=null;if(SC){W.partMeta=pm;parts.forEach(function(P){Object.assign(P,pm[P.id]);});W.hist=partHist(SC);}
+    $('#mok').disabled=true;
+    wFull(W).then(function(){return fabSaveWork(W);}).then(function(){LS.del('meta:'+W.id);if(W.legacy){delete W.legacy;IDB.del(W.id);}
+      if(WORKS.indexOf(W)<0){WORKS.push(W);if(isNew)IMPN++;}dlgClose();end();if(ST.W===W)openWork(W.id);else if(!isNew)library();if(!isNew)toast('✅ « '+W.title+' » enregistré ('+W.file+')');},
+      function(err){$('#mok').disabled=false;toast('⚠ Enregistrement impossible : '+(err.message||err),5000);});};}
+window.addEventListener('DOMContentLoaded',function(){const f=$('#fimp');f.onchange=function(){if(f.files.length)addFiles(Array.prototype.slice.call(f.files));f.value='';};});
 /* ── 🎭 programmes ── */
 function progs(){return LS.get('progs',[]);}function progSave(a){LS.set('progs',a);}
 function itTr(it){return it.tr!=null?it.tr:LS.get('tr:'+it.w,0);}function itTempo(it){return it.tempo!=null?it.tempo:LS.get('tempo:'+it.w,100);}

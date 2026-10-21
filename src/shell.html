@@ -54,9 +54,10 @@ h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-botto
 body.annmode #score{cursor:crosshair;touch-action:none}body.annmode #ovl{pointer-events:none}
 #ovl .mk rect{fill:#1d6fb8;opacity:.9}#ovl .mk text{font:600 12px sans-serif;fill:#fff}
 body.bredit #score{cursor:crosshair;outline:2px dashed #1d6fb8;outline-offset:-4px}
-#pjHud{display:none;position:sticky;top:8px;float:right;margin:8px 8px -120px 0;z-index:5;background:#1e1a17ee;color:var(--txt);border-radius:13px;padding:6px 10px;min-width:120px;text-align:center;box-shadow:0 4px 14px #0006}#pjHud.on{display:block}
-#pjHud .n{font:700 24px Georgia,serif;color:var(--or)}#pjHud .t{font-size:11px;color:var(--dim)}#pjHud .c{font:600 13px sans-serif;min-height:16px}
-#pjHud .k{position:relative;height:8px;border-radius:4px;background:linear-gradient(90deg,#c0392b 0,#c98a12 20%,#2f8f4e 35%,#2f8f4e 65%,#c98a12 80%,#c0392b 100%);margin-top:4px}#pjHud .k i{position:absolute;top:-3px;width:4px;height:14px;margin-left:-2px;background:#fff;border-radius:2px;transition:left .06s}
+/* justesse : bandeau fin entre l'en-tête et la partition — ne recouvre jamais les notes */
+#pjHud{display:none;align-items:center;gap:12px;padding:3px 12px;background:#1e1a17;color:var(--txt);border-bottom:1px solid var(--line);min-height:32px}#pjHud.on{display:flex}
+#pjHud .n{font:700 19px Georgia,serif;color:var(--or);min-width:46px}#pjHud .t{font-size:12px;color:var(--dim);min-width:86px}#pjHud .c{font:600 13px sans-serif;min-width:54px;text-align:right}
+#pjHud .k{flex:1;max-width:320px;position:relative;height:8px;border-radius:4px;background:linear-gradient(90deg,#c0392b 0,#c98a12 20%,#2f8f4e 35%,#2f8f4e 65%,#c98a12 80%,#c0392b 100%);margin-top:4px}#pjHud .k i{position:absolute;top:-3px;width:4px;height:14px;margin-left:-2px;background:#fff;border-radius:2px;transition:left .06s}
 #lyrbox{background:var(--bg2);border-top:1px solid var(--line);padding:4px 12px}#lyrbox:not(.on){display:none}
 #lyr{font:18px Georgia,serif;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#lyr b{color:var(--or)}
 #lyr2{font-size:13px;color:var(--dim)}#lyr2 .ipa{font-family:"Charis SIL","Doulos SIL","Gentium Plus",serif;color:#cdb98a}#lyr2 .fr{font-style:italic}
@@ -120,8 +121,8 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
 <div id="boot">🎼 Le partiteur<small>préparation du graveur…</small></div>
 <div id="home">
  <h1>🎼 Le partiteur</h1><div class="sub">Airs d’opéra et chœurs : écoute, chante ta voix, transpose, répète.</div>
- <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bImp">📥 Importer</button><button onclick="ptSafe.exportFile()" title="Sauvegarder bibliothèque, programmes et réglages">💾</button><button onclick="ptSafe.importFile()" title="Restaurer une sauvegarde">📂</button>
-  <input type="file" id="fimp" accept=".xml,.musicxml,.mxl,.mei,application/vnd.recordare.musicxml+xml,application/vnd.recordare.musicxml" hidden></div>
+ <div class="hbar"><button id="vme">🎤 Ma voix</button><button id="bDir" title="Dossier des chants (.fab)">🗂 Dossier</button><button id="bImp" title="Ajouter des .fab, ou convertir du MusicXML / MEI en .fab">📥 Ajouter</button><button onclick="ptSafe.exportFile()" title="Sauvegarder bibliothèque, programmes et réglages">💾</button><button onclick="ptSafe.importFile()" title="Restaurer une sauvegarde">📂</button>
+  <input type="file" id="fimp" multiple hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
  <div class="hint" style="margin-top:28px">Le partiteur __VER__ · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
@@ -130,7 +131,8 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
  <div id="annbar" hidden></div>
  <div id="conc"></div>
  <div id="info"></div>
- <div id="scorew"><div id="pjHud"><div class="n">—</div><div class="t">chante…</div><div class="c"></div><div class="k"><i></i></div></div><div id="score"></div></div>
+ <div id="pjHud"><div class="n">—</div><div class="t">chante…</div><div class="c"></div><div class="k"><i></i></div></div>
+ <div id="scorew"><div id="score"></div></div>
  <div id="lyrbox"><div id="lyr"></div><div id="lyr2"></div></div>
  <div id="pno" hidden><div id="pkb"></div></div>
  <nav class="tp" id="tp">

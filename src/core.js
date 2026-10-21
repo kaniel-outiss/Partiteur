@@ -9,8 +9,8 @@ const LS={get:function(k,d){try{const v=localStorage.getItem('partiteur_'+k);ret
   del:function(k){try{localStorage.removeItem('partiteur_'+k);}catch(e){}}};
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
 function toast(t,ms){const e=$('#toast');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(function(){e.classList.remove('on');},ms||3800);}
-function dlg(html,cls){const d=$('#dlg');d.innerHTML='<div class="dbox '+(cls||'')+'">'+html+'</div>';d.classList.add('on');$$('[data-close]',d).forEach(function(b){b.onclick=dlgClose;});}
-function dlgClose(){$('#dlg').classList.remove('on');}
+function dlg(html,cls){dlgClose.cb=null;const d=$('#dlg');d.innerHTML='<div class="dbox '+(cls||'')+'">'+html+'</div>';d.classList.add('on');$$('[data-close]',d).forEach(function(b){b.onclick=dlgClose;});}
+function dlgClose(){$('#dlg').classList.remove('on');const c=dlgClose.cb;dlgClose.cb=null;if(c)c();}  /* cb : rappel à la fermeture (file d'import) */
 document.addEventListener('click',function(e){if(e.target.id==='dlg')dlgClose();});
 /* — bus — */
 const BUS={h:{},on:function(k,f){(this.h[k]=this.h[k]||[]).push(f);},emit:function(k){const a=Array.prototype.slice.call(arguments,1);(this.h[k]||[]).forEach(function(f){try{f.apply(null,a);}catch(e){console.error(k,e);}});}};
@@ -35,13 +35,14 @@ function trInterval(ks,tr){if(!tr)return '';const from=KEYS_MAJ[String(ks)]||'C'
   if(steps===0&&s%12>6)steps=7;steps+=oct*7;const ref=[0,2,4,5,7,9,11][steps%7]+12*Math.floor(steps/7);const d=s-ref;const perf=[0,3,4].indexOf(steps%7)>=0;
   let q;if(perf)q={'-2':'dd','-1':'d','0':'P','1':'A','2':'AA'}[d];else q={'-3':'dd','-2':'d','-1':'m','0':'M','1':'A','2':'AA'}[d];
   if(!q)return (up?'+':'-')+s;return (up?'+':'-')+q+(steps+1);}
-/* — IndexedDB : œuvres importées, prises — */
-const IDB={db:null,open:function(){return new Promise(function(ok,ko){try{const r=indexedDB.open('partiteur',3);r.onupgradeneeded=function(){const d=r.result;['works','takes','notes'].forEach(function(s){if(!d.objectStoreNames.contains(s))d.createObjectStore(s,{keyPath:'id'});});};r.onsuccess=function(){IDB.db=r.result;ok();};r.onerror=function(){ko(r.error);};}catch(e){ko(e);}});},
+/* — IndexedDB : prises, index des .fab, .fab (navigateur), anciennes œuvres importées — */
+const IDB={db:null,open:function(){return new Promise(function(ok,ko){try{const r=indexedDB.open('partiteur',4);r.onupgradeneeded=function(){const d=r.result;['works','takes','notes','idx','fab'].forEach(function(s){if(!d.objectStoreNames.contains(s))d.createObjectStore(s,{keyPath:'id'});});};r.onsuccess=function(){IDB.db=r.result;ok();};r.onerror=function(){ko(r.error);};}catch(e){ko(e);}});},
   st:function(s,mode){return IDB.db.transaction(s,mode||'readonly').objectStore(s);},
   all:function(s){s=s||'works';return new Promise(function(ok){if(!IDB.db)return ok(s==='works'?LS.get('works',[]):[]);const q=IDB.st(s).getAll();q.onsuccess=function(){ok(q.result||[]);};q.onerror=function(){ok([]);};});},
-  put:function(W,s){s=s||'works';return new Promise(function(ok){const c=s==='takes'?W:JSON.parse(JSON.stringify(W,function(k,v){return k.charAt(0)==='_'?undefined:v;}));
+  put:function(W,s){s=s||'works';return new Promise(function(ok){const c=(s==='takes'||s==='fab')?W:JSON.parse(JSON.stringify(W,function(k,v){return k.charAt(0)==='_'?undefined:v;}));
     if(!IDB.db){if(s==='works'){const a=LS.get('works',[]).filter(function(x){return x.id!==W.id;});a.push(c);LS.set('works',a);}return ok();}
     const t=IDB.db.transaction(s,'readwrite');t.objectStore(s).put(c);t.oncomplete=ok;t.onerror=ok;});},
+  get:function(id,s){return new Promise(function(ok){if(!IDB.db)return ok(null);const q=IDB.st(s).get(id);q.onsuccess=function(){ok(q.result||null);};q.onerror=function(){ok(null);};});},
   del:function(id,s){s=s||'works';return new Promise(function(ok){if(!IDB.db){if(s==='works')LS.set('works',LS.get('works',[]).filter(function(x){return x.id!==id;}));return ok();}const t=IDB.db.transaction(s,'readwrite');t.objectStore(s).delete(id);t.oncomplete=ok;t.onerror=ok;});}};
 /* — état de la pièce ouverte — */
 const ST={W:null,SC:null,tr:0,tempo:100,mix:{},sing:null,pup:null,loop:null,cur:-1,pi:0,zoom:LS.get('zoom',1),wait:LS.get('wait',true),follow:true,

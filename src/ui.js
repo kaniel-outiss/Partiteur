@@ -10,15 +10,17 @@ BUS.on('render',function(){tabRender();});
 /* interrupteur */
 function sw(key,on,label,sub){return '<div class="sw"><span>'+label+(sub?'<small>'+sub+'</small>':'')+'</span><button class="tg'+(on?' on':'')+'" data-sw="'+key+'"></button></div>';}
 /* ── ouverture ── */
-async function openWork(id){const W=wById(id);if(!W)return;stop();BUS.emit('close');
+async function openWork(id){const W=wById(id);if(!W){toast('Chant introuvable dans la bibliothèque');return;}stop();BUS.emit('close');
+  if(ST.W&&ST.W!==W)wLite(ST.W);
+  try{await wFull(W);}catch(e){toast('⚠ '+(e.message||e),5000);return;}fabSeed(W);
   ST.W=W;ST.SC=null;ST.loop=null;ST.cur=0;ST.pi=0;LS.set('last',id);
   ST.tr=LS.get('tr:'+id,0);ST.tempo=LS.get('tempo:'+id,100);ST.mix=LS.get('mix:'+id,{});ST.sing=LS.get('sing:'+id,null);ST.pup=LS.get('pup:'+id,null);ST.voiceClef=LS.get('vclef:'+id,{});ST.hidden=LS.get('hide:'+id,[]);ST.seq=null;
   $('#home').hidden=true;$('#app').hidden=false;$('#score').innerHTML='<div class="hint pad">⏳ Gravure de « '+esc(W.title)+' »…</div>';header();
   try{ST.SC=await engineLoad(W);}catch(e){console.error(e);$('#score').innerHTML='<div class="hint pad">⚠ '+esc(e.message||e)+'</div>';return;}
   /* histogramme des voix (pour la bibliothèque) */
-  const H=partHist(ST.SC);if(!W.imported)LS.set('hist:'+W.id,H);else if(JSON.stringify(W.hist||{})!==JSON.stringify(H)){W.hist=H;IDB.put(W);}W.hist=H;
+  const H=partHist(ST.SC);if(JSON.stringify(W.hist||{})!==JSON.stringify(H)){W.hist=H;if(W.file)fabIdx(W);else if(W.legacy)IDB.put(W);}
   ST.an=anOf(W);BUS.emit('open',W);render();}
-function closeWork(){stop();BUS.emit('close');tabClose();ST.SC=null;$('#app').hidden=true;$('#home').hidden=false;document.body.classList.remove('concert');library();}
+function closeWork(){stop();BUS.emit('close');tabClose();ST.SC=null;wLite(ST.W);$('#app').hidden=true;$('#home').hidden=false;document.body.classList.remove('concert');library();}
 /* tout redessiner après un changement de ton, de clé… */
 function render(){if(!ST.SC)return;header();info();transportVals();const P=myPart();$('#lyrbox').classList.toggle('on',!!(P&&ST.SC.ev.some(function(e){return e.pid===P.id&&e.ly;})));drawScore();BUS.emit('render');}
 function header(){const W=ST.W;$('#title').innerHTML='<b>'+esc(W.title)+'</b><span>'+esc([W.composer,W.work,W.role].filter(Boolean).join(' · '))+'</span>';mnum();}

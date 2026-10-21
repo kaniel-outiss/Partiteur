@@ -27,6 +27,10 @@ jobs:
         run: |
           sed -i 's#<application#<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />\n    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />\n    <application android:requestLegacyExternalStorage="true"#' android/app/src/main/AndroidManifest.xml
           grep -n "EXTERNAL_STORAGE\|requestLegacy" android/app/src/main/AndroidManifest.xml
+      - name: Bibliothèque .fab (lire Documents/Partiteur, Android 11+)
+        run: |
+          sed -i 's#<application#<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />\n    <application#' android/app/src/main/AndroidManifest.xml
+          grep -n "MANAGE_EXTERNAL" android/app/src/main/AndroidManifest.xml
       - name: Clé de signature fixe (mises à jour sans désinstaller)
         env:
           PARTITEUR_KEYSTORE: ${{ secrets.PARTITEUR_KEYSTORE }}
@@ -51,4 +55,6 @@ jobs:
         with:
           tag_name: build-${{ github.run_number }}
           name: Partiteur build ${{ github.run_number }}
-          files: partiteur.apk
+          files: |
+            partiteur.apk
+            bibliotheque/*.fab
