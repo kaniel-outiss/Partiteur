@@ -1,0 +1,155 @@
+{
+ "page": 2,
+ "printed_page": 97,
+ "measures_numbers": "20-35",
+ "measures": [
+  {
+   "meter": "3/8",
+   "marks": [
+    "f"
+   ],
+   "v": "D5d",
+   "ly": "sto-",
+   "rh": "D5s B5s G#5s F#5s E5s D5s // B4+D5d",
+   "lh": "E3+G#3d",
+   "doubt": "Mesure 20 = 1re de la page (suite de la p. 96). F#5 de la RH porte un dièse imprimé (redondant avec l'armure). Liaisons non notées."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "C#5e rs B4s D5s F#5s",
+   "ly": "ro al _ _",
+   "rh": "C#5s F#5s E5+G#4s D5+F#4s C#5+E4s B4+D4s // A4e r",
+   "lh": "F#3+A3e re D3+F#3e",
+   "doubt": "RH : A4 croche hampe en bas sous le C#5 initial ; le reste de la voix inférieure (noire) est implicite, non imprimé."
+  },
+  {
+   "v": "A4e A4ed C#5t B4t",
+   "ly": "cor por- ge _",
+   "rh": "A4e C#5e E5e",
+   "lh": "A3s C#4s A3s C#4s G#3s D4s // E3+A3e E3+A3e E3+G#3e",
+   "marks": []
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "A4 rs C#5s",
+   "ly": "rà. Al",
+   "rh": "rs A4t G#4x A4x C#5s E5s A5s C#6s",
+   "lh": "A3t C#4t E4t C#4t A3t C#4t E4t C#4t A3t C#4t E4t C#4t",
+   "doubt": "Trille : imprimé A4 triple croche POINTÉE + 2 quadruples croches (G#4 A4), soit 1/64 de trop ; noté A4t sans le point. Portée de chant partiellement effacée sur le scan. Doubles croches RH piquées."
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "D5e B4ed G#4s",
+   "ly": "cor che nu-",
+   "rh": "rs B4t A4x B4x D5s G#5s B5s D6s",
+   "lh": "E#3t G#3t D4t G#3t E#3t G#3t D4t G#3t E#3t G#3t D4t G#3t",
+   "doubt": "Trille : même figure qu'en m.23 (triple croche pointée imprimée, point omis). LH : dièse imprimé devant le 1er mi (E#3), valable toute la mesure."
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "A4e A4e rs A4s",
+   "ly": "dri- to da",
+   "rh": "rs A4t G#4x A4x C#5s F#5s A5s C#6s",
+   "lh": "F#3t A3t C#4t A3t F#3t A3t C#4t A3t F#3t A3t C#4t A3t",
+   "doubt": "Trille : point de la triple croche omis (cf. m.23)."
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "A4s D#5s D#5ed C#5t B4t",
+   "ly": "spe- _ me, d'a- _",
+   "rh": "rs F#4t E4x F#4x A4s D#5s F#5s A5s",
+   "lh": "B2t D#3t A3t D#3t B2t D#3t A3t D#3t B2t D#3t A3t D#3t",
+   "doubt": "Trille : point de la triple croche omis (cf. m.23). Chant : 2e ré sans altération, dièse de la mesure appliqué."
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "B4s E5s E5e rs G#5s",
+   "ly": "mo- _ re, da",
+   "rh": "rs G#4t F#4x G#4x B4s E5s G#5s B5s",
+   "lh": "B2t E3t G#3t E3t B2t E3t G#3t E3t B2t E3t G#3t E3t",
+   "doubt": "Trille : point de la triple croche omis (cf. m.23)."
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "F#5s E5s E5ed A#4s",
+   "ly": "spe- _ me, d'a-",
+   "rh": "rs A#4t G#4x A#4x C#5s E5s A#4s A#5s",
+   "lh": "C#3t E3t G#3t E3t C#3t E3t G#3t E3t C#3t E3t G#3t E3t",
+   "doubt": "Trille : point omis (cf. m.23). RH : dièse imprimé devant le C/A du trille ; 3e double croche (la) sans altération, dièse de la mesure appliqué (A#4) ; dernier la# avec signe ressemblant à un double dièse, lu dièse."
+  },
+  {
+   "v": "B4e B4e rs B4s",
+   "ly": "mo- re d'u-",
+   "rh": "D#5+B5e D#4+B4e re",
+   "lh": "B2+F#3e B2+F#3e re",
+   "doubt": "Accords piqués (RH 1er accord : accent/staccato).",
+   "marks": []
+  },
+  {
+   "v": "B4s3 G#4s3 E5s3 E5ed C#5s",
+   "ly": "n'e- _ _ sca mi-",
+   "rh": "E4+G#4+B4e re E4+A4+C#5e",
+   "lh": "E3e re A2e",
+   "marks": []
+  },
+  {
+   "v": "B4s3 G#4s3 E5s3 E5e~ E5s3 C#5s3 A4s3",
+   "ly": "glio- _ _ re _ bi-",
+   "rh": "E4+G#4+B4e re E4+A4+C#5e",
+   "lh": "E3e re A2e",
+   "doubt": "Chant : 2e triolet sous crochet « 3 » (2 doubles croches liées + 1 double croche à crochet). Petite liaison E5 croche → E5 lue comme liaison de prolongation.",
+   "marks": []
+  },
+  {
+   "v": "B4s3 G#4s3 A4s3 B4s3 C#5s3 D#5s3 E5s3 D#5s3 C#5s3",
+   "ly": "so _ _ _ _ _ gno _ non",
+   "rh": "E4+G#4+B4e re E4+A4+C#5e",
+   "lh": "E3e re A2e",
+   "doubt": "Paroles imprimées « gno_non » (élision).",
+   "marks": []
+  },
+  {
+   "v": "B4 rs B4s",
+   "ly": "ha, d'u-",
+   "rh": "G#4+B4sd E4+G#4t G#4+B4e re",
+   "lh": "E3 re",
+   "doubt": "RH : 3e accord piqué ; liaison sur les deux premiers.",
+   "marks": []
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "E5e F#5e G#5e",
+   "ly": "n'e- sca mi-",
+   "rh": "B4+E5e D#5+F#5e E5+G#5e",
+   "lh": "B3d // G#3e F#3+A3e E3+G#3e",
+   "doubt": "LH : si3 noire pointée hampe haute sur le 1er accord ; dièse imprimé devant l'accord RH 2 (ré#)."
+  },
+  {
+   "marks": [
+    "mf",
+    "p"
+   ],
+   "v": "A5sd F#5x3 D#5x3 B4x3 A4e rs G#4s",
+   "ly": "glio- _ _ _ re bi-",
+   "rh": "F#5+A5e F#4+A4e rs E4+G#4s",
+   "lh": "B3e B3 // D#3+F#3 rs E3s",
+   "doubt": "Chant : triolet de quadruples croches (4 barres). mf sous le 1er accord, p sous le 2e. LH : voix inférieure noire (sans crochet visible). Fin de page : la mesure 36 suit p. 98."
+  }
+ ]
+}
