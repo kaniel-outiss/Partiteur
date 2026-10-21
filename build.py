@@ -155,6 +155,9 @@ add_air('lyd', {'id': 'faure-lydia', 'title': 'Lydia', 'composer': 'Gabriel Faur
 add_air('uam', {'id': 'mozart-aura-amorosa', 'title': "Un'aura amorosa", 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Così fan tutte, acte I',
                 'role': 'Ferrando', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': 3, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 96-99'},
         60, {'name': 'Ferrando (ténor)', 'short': 'Fer.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('sgt', {'id': 'donizetti-spirto-gentil', 'title': 'Spirto gentil', 'composer': 'Gaetano Donizetti', 'work': 'La favorita, acte IV',
+                'role': 'Fernando', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 113-117'},
+        60, {'name': 'Fernando (ténor)', 'short': 'Fer.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # ordre des modules : chacun ne dépend que des précédents (et du BUS)
 MODS = ['core', 'tok2xml', 'engine', 'audio', 'player', 'view', 'ui', 'library', 'mix', 'plan', 'annot', 'chant', 'piano', 'text', 'main']
 app = '\n'.join('/* ── %s.js ── */\n' % m + open('src/%s.js' % m).read() for m in MODS)
