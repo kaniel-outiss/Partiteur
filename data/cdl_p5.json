@@ -1,0 +1,127 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "3/4",
+   "v": "Bb4hd",
+   "ly": "ar-",
+   "rh": "F4e Bb3+Bb4s F4s F4e C4+Bb4e Ab4e Eb4+Gb4e",
+   "lh": "rs D2s Bb2s D2s rs Eb2s Bb2s Eb2s rs C2s Bb2s C2s",
+   "doubt": "Mesure 1 de la page : suite de « ar-bres » (syllabe probablement commencée p. 91). LH : arcs reliant les deux basses (D2–D2, Eb2–Eb2, C2–C2) par-dessus la double croche Bb2 (liaison ou phrasé ?), non notés ; D2 bécarre imprimé."
+  },
+  {
+   "v": "Bb4 r r",
+   "ly": "bres",
+   "rh": "F4e Bb3+Bb4s F4s F4e C4+Bb4e Ab4e Eb4+Gb4e",
+   "lh": "rs D2s Bb2s D2s rs Eb2s Bb2s Eb2s rs C2s Bb2s C2s"
+  },
+  {
+   "marks": [
+    "meno p"
+   ],
+   "v": "Bb4 F4e Bb4e Ab4e Gb4e",
+   "ly": "Et san- glo- ter d'ex-",
+   "rh": "F4e Bb3+Bb4s F4s F4e C4+Bb4e Ab4e Eb4+Gb4e",
+   "lh": "rs D2s Bb2s D2s rs Eb2s Bb2s Eb2s rs C2s Bb2s C2s"
+  },
+  {
+   "v": "Bb4d Bb4e Ab4e Gb4e",
+   "ly": "ta- se les jets",
+   "rh": "F4e Bb3+Bb4s F4s F4e C4+Bb4e Ab4e Eb4+Gb4e",
+   "lh": "rs D2s Bb2s D2s rs Eb2s Bb2s Eb2s rs C2s Bb2s C2s"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "F4hd",
+   "ly": "d'eau.",
+   "rh": "F4 Db4 Bb3",
+   "lh": "rs A2s F3s A2s rs Bb2s F3s Bb2s rs Db3s F3s Db3s",
+   "doubt": "Chiffre 50 imprimé. LH : bécarre sur A2 ; bémol de précaution sur Db3 au 3e temps ; petits arcs au-dessus des F3 (liaisons ?)."
+  },
+  {
+   "marks": [
+    "sempre"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4e G4s F4s Db4s Eb4s F4e G4s F4s Db4s Eb4s",
+   "lh": "re Eb2+Bb2e re Db3+G3e re G3+Bb3e",
+   "doubt": "« sempre » (pp). Silence de mesure au chant. RH : bécarre sur le 1er sol (G4), appliqué jusqu'à la barre ; LH : bécarre sur G3. Pédale (Ped./*) à chaque croche, non notée."
+  },
+  {
+   "v": "Bb4 Bb4 C5e Db5e",
+   "ly": "Les grands jets d'eau",
+   "rh": "F4e G4s F4s Db4s Eb4s F4e G4s F4s Db4s Eb4s",
+   "lh": "re Eb2+Bb2e re Db3+G3e re G3+Bb3e",
+   "doubt": "RH : bécarre sur le 1er sol (G4), appliqué jusqu'à la barre ; LH : bécarre sur G3. Pédale (Ped./*) à chaque croche, non notée."
+  },
+  {
+   "v": "Db5h Bb4",
+   "ly": "svel- tes",
+   "rh": "F4e G4s F4s Db4s Eb4s F4e G4s F4s Db4s Eb4s",
+   "lh": "re Eb2+Bb2e re Db3+G3e re G3+Bb3e",
+   "doubt": "Soufflet crescendo (<) au chant, respiration « (,) » en fin de mesure. RH : bécarre sur le 1er sol (G4), appliqué jusqu'à la barre ; LH : bécarre sur G3. Pédale (Ped./*) à chaque croche, non notée."
+  },
+  {
+   "v": "Db5e Eb5e F5e Db5e Ab4e F4e",
+   "ly": "par- _ mi _ les _",
+   "rh": "Ab3+Db4+F4 r r",
+   "lh": "F2+Db3+F3 r r",
+   "doubt": "Soufflet decrescendo (>) au chant ; liaisons Db5-Eb5, F5-Db5, Ab4-F4."
+  },
+  {
+   "v": "F4hd",
+   "ly": "mar-",
+   "rh": "r Ab3+Db4+F4 A3+C4+F4",
+   "lh": "r F2+Db3+F3 F2+Eb3+F3",
+   "doubt": "Chiffre 55 imprimé. Accords des temps 2-3 en louré (points sous liaison) aux deux mains ; bécarre sur A3 (RH)."
+  },
+  {
+   "marks": [
+    "dolce"
+   ],
+   "v": "F4hd",
+   "ly": "bres!",
+   "rh": "Db5e Eb5e F5e C5e Db5s C5s Bb4e",
+   "lh": "rs Bb3s Db4s F4s rs Ab3s C4s F4s rs G3s Bb3s F4s",
+   "doubt": "LH en clé de fa avec lignes supplémentaires (F4 au-dessus de 2 lignes) ; bémol de précaution sur Ab3, bécarre sur G3 (3e temps)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb4e C5e Db5e Ab4e Bb4s Ab4s Gb4e",
+   "lh": "rs Gb3s Bb3s Eb4s rs F3s Ab3s Db4s rs Eb3s Ab3s C4s",
+   "doubt": "Silence de mesure au chant. LH : Gb3 avec bémol de précaution ; Eb4 sur la 2e ligne supplémentaire."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Gb4 F4h // r F4s Db4s Bb3s rs r",
+   "lh": "rs Db3s Gb3s Bb3s rs rs rs F3s Bb2s F2s Bb1e",
+   "doubt": "Arpège descendant à cheval sur les deux portées (même ligature) : F4 Db4 Bb3 écrits en RH (voix 2), F3 (4e double croche du 2e temps) en LH ; grand arc de phrasé. Ped. * imprimés."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Gb4 F4h // r F4s Db4s Bb3s rs r",
+   "lh": "rs Db3s Gb3s Bb3s rs rs rs F3s Bb2s F2s Bb1e",
+   "doubt": "Arpège descendant à cheval sur les deux portées (même ligature) : F4 Db4 Bb3 écrits en RH (voix 2), F3 (4e double croche du 2e temps) en LH ; grand arc de phrasé. Ped. * imprimés."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4hd~ // r Bb3+Db4 Bb3+Db4",
+   "lh": "r Bb2+F3 Bb2+F3",
+   "doubt": "Chiffre 60 imprimé. RH : F4 blanche pointée liée au F4 de l'accord final."
+  },
+  {
+   "v": "rhd^",
+   "ly": "",
+   "rh": "Bb3+Db4+F4hd^",
+   "lh": "Bb2+F3hd^",
+   "doubt": "Double barre finale ; points d'orgue sur les 3 portées. Rien ne suit sur la page."
+  }
+ ]
+}
