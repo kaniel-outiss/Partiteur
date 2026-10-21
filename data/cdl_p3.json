@@ -1,0 +1,97 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "3/4",
+   "doubt": "Mesure 22 (1re de la p. 90), suite de la phrase de la page précédente. Pédale à chaque accord de la m.g. ; liaison d'expression m.d. sur m.22-24.",
+   "v": "C5e Bb4e Ab4e Ab4e Bb4e Gb4e",
+   "ly": "leurs dé- gui- se- ments fan-",
+   "rh": "Gb4e Ab4s Gb4s C4s Db4s Eb4s F4s Gb4s Ab4s Bb4s C5s",
+   "lh": "re Ab2+Eb3e re Gb3+C4e re Ab1+Ab2e"
+  },
+  {
+   "doubt": "Soufflet decrescendo (>) sous la m.d. (signe graphique, pas de texte).",
+   "v": "Ab4h F4",
+   "ly": "tas- ques!",
+   "rh": "Db5s Eb5s F5s Db5s Eb5s F5s Db5s Eb5s F5s Db5s Eb5s F5s",
+   "lh": "re Db2e re F3+Ab3+Db4+F4e r"
+  },
+  {
+   "doubt": "Soufflet decrescendo (>) sous la m.d. ; Ped. au début, * après la croche.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "Db5e Eb5e F5e Db5e Eb5e F5e",
+   "lh": "rs Db3s Ab3s Db4s F4e re r"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "doubt": "Numéro de mesure 25 imprimé. m.g. : la croche porte un bécarre → A4 (la naturel), notée sur 3 lignes supplémentaires ; lecture à confirmer.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "Db5e Eb5e F5e Db5e Eb5e F5e",
+   "lh": "r rs F3s Db4s F4s A4e re"
+  },
+  {
+   "marks": [
+    "dolce",
+    "pp"
+   ],
+   "doubt": "dolce au-dessus du chant ; pp sous la m.d. Bécarre devant G3 (3e groupe m.g.).",
+   "v": "Db5 C5e C5e F5",
+   "ly": "Tout en chan- tant,",
+   "rh": "Db5e Eb5e F5e C5e Db5s C5s Bb4e",
+   "lh": "rs Bb3s Db4s F4s rs Ab3s C4s F4s rs G3s Bb3s F4s"
+  },
+  {
+   "doubt": "Chant : bécarre devant le ré (D5). m.g. : bécarre devant G3 (1er groupe) et devant D4 (3e groupe).",
+   "v": "Eb5e Eb5e Eb5s D5s C5e Bb4",
+   "ly": "sur le mo- de mi- neur,",
+   "rh": "Bb4 C5s Bb4s Ab4e Bb4",
+   "lh": "rs G3s Bb3s Eb4s rs F3s Ab3s Eb4s rs Bb2s F3s D4s"
+  },
+  {
+   "doubt": "Chant : bémol de précaution imprimé devant le 1er Db5 ; le Db5 noire est lié (trait de prolongation après « queur ») au Db5 de m.29. m.g. : bémol imprimé devant Gb4 et devant Db4 (précaution).",
+   "v": "re Bb4e Ab4e Db5e Db5~",
+   "ly": "L'a- mour vain- queur",
+   "rh": "Bb4e C5e Db5e Ab4e Bb4s Ab4s Gb4e",
+   "lh": "rs Eb3s Bb3s Gb4s rs F3s Db4s F4s rs Gb3s Bb3s Db4s"
+  },
+  {
+   "doubt": "Signe de respiration entre parenthèses « (,) » au-dessus du 1er Db5 (lié depuis m.28, sans syllabe). Bb4-Ab4 doubles croches sous liaison (mélisme sur « la »). Sous la 1re croche F4 seul un signe d'élision « ‚- » est imprimé, aucune syllabe lisible → noté « _ » ; syllabe probablement manquante/illisible à vérifier.",
+   "v": "Db5e C5e Bb4s Ab4s Gb4e F4e F4e",
+   "ly": "et la _ vie _ por-",
+   "rh": "F4 Gb4s F4s Eb4e F4",
+   "lh": "rs Db3s Ab3s Db4s rs Eb3s Bb3s C4s rs Bb2s F3s Db4s"
+  },
+  {
+   "doubt": "Numéro de mesure 30 imprimé. Bécarre devant G3 (3e groupe m.g.).",
+   "v": "F4h F4",
+   "ly": "tu- ne,",
+   "rh": "Db5e Eb5e F5e C5e Db5s C5s Bb4e",
+   "lh": "rs Bb3s Db4s F4s rs Ab3s C4s F4s rs G3s Bb3s F4s"
+  },
+  {
+   "doubt": "m.g. : bécarres devant G3 et D4.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb4 C5s Bb4s Ab4e Bb4",
+   "lh": "rs G3s Bb3s Eb4s rs F3s Ab3s Eb4s rs Bb2s F3s D4s"
+  },
+  {
+   "doubt": "m.g. : bémols imprimés devant Gb4 et Db4.",
+   "v": "Bb4 Ab4 Db5",
+   "ly": "Ils n'ont pas",
+   "rh": "Bb4e C5e Db5e Ab4e Bb4s Ab4s Gb4e",
+   "lh": "rs Eb3s Bb3s Gb4s rs F3s Db4s F4s rs Gb3s Bb3s Db4s"
+  },
+  {
+   "doubt": "Bb4-Ab4 sous liaison mais « croi-re » imprimé sous les deux notes (e muet sur Ab4). Fin de page : « bon- » se poursuit page suivante.",
+   "v": "Db5e C5e Bb4s Ab4s Gb4e F4e F4e",
+   "ly": "l'air de croi- re à leur bon-",
+   "rh": "F4 Gb4s F4s Eb4e F4",
+   "lh": "rs Db3s Ab3s Db4s rs Eb3s Bb3s C4s rs Bb2s F3s Db4s"
+  }
+ ]
+}
