@@ -1,0 +1,144 @@
+{
+"lang": "fr",
+"ctx": "Carmen (Bizet, livret de Meilhac et Halévy, 1875), acte II. Dans la taverne de Lillas Pastia, Carmen danse pour Don José, tout juste sorti de prison où il a été jeté pour l'avoir laissée s'enfuir. Quand le clairon sonne la retraite et qu'il veut rejoindre la caserne, elle se moque de lui. Il lui prouve son amour : il sort la fleur qu'elle lui avait lancée, gardée en prison, flétrie mais parfumée ; il raconte comment il l'a maudite puis n'a désiré qu'une chose, la revoir. L'air finit sur « Carmen, je t'aime ! », avec un si♭ aigu marqué pianissimo.",
+"diction": [
+"Français chanté : e muets sur leur note (« jeté-e », « res-té-e »), voyelles pures, consonnes finales nettes (« odeur », « désir »).",
+"Liaisons : « des heures entières » ([de z‿œʁ‿ɑ̃tjɛʁə]), « mes yeux », « ô ma Carmen » ; pas de liaison après « et ».",
+"Nasales : « prison », « fermant », « blasphème » (non nasal), « un seul », « Carmen » ([kaʁmɛn], non nasal).",
+"« Et j'étais une chose à toi » : le si♭ aigu écrit pp diminuendo — chante-le en voix mixte, sans le forcer.",
+"Récit intime : beaucoup de rubato indiqué (rall., a tempo) ; suis le texte plus que la barre de mesure."
+],
+"lines": [
+{
+"key": "la fleur que",
+"it": "La fleur que tu m'avais jetée, dans ma prison m'était restée. Flétrie et sèche, cette fleur gardait toujours sa douce odeur ;",
+"ipa": "la flœʁ kə ty mavɛ ʒəteə dɑ̃ ma pʁizɔ̃ metɛ ʁɛsteə fletʁi e sɛʃə sɛtə flœʁ ɡaʁdɛ tuʒuʁ sa dus‿ɔdœʁ",
+"w": [
+[
+"que tu m'avais jetée",
+"que tu m'avais lancée"
+],
+[
+"m'était restée",
+"je l'avais gardée"
+],
+[
+"Flétrie et sèche",
+"fanée et desséchée"
+],
+[
+"sa douce odeur",
+"son doux parfum"
+]
+],
+"fr": "La fleur que tu m'avais lancée, je l'avais gardée en prison. Fanée et desséchée, elle gardait toujours son doux parfum ;"
+},
+{
+"key": "et pendant",
+"it": "et pendant des heures entières, sur mes yeux, fermant mes paupières, de cette odeur je m'enivrais, et dans la nuit je te voyais !",
+"ipa": "e pɑ̃dɑ̃ de z‿œʁ‿ɑ̃tjɛʁə syʁ me z‿jø fɛʁmɑ̃ me popjɛʁə də sɛt‿ɔdœʁ ʒə mɑ̃nivʁɛ e dɑ̃ la nɥi ʒə tə vwajɛ",
+"w": [
+[
+"des heures entières",
+"des heures durant"
+],
+[
+"fermant mes paupières",
+"les yeux fermés"
+],
+[
+"je m'enivrais",
+"je m'enivrais"
+],
+[
+"je te voyais",
+"je te voyais"
+]
+],
+"fr": "et des heures durant, la fleur sur les yeux, paupières fermées, je m'enivrais de son parfum, et dans la nuit je te voyais !"
+},
+{
+"key": "je me prenais",
+"it": "Je me prenais à te maudire, à te détester, à me dire : pourquoi faut-il que le destin l'ait mise là sur mon chemin ?",
+"ipa": "ʒə mə pʁənɛ a tə modiʁə a tə detɛste a mə diʁə puʁkwa fo t‿il kə lə dɛstɛ̃ lɛ mizə la syʁ mɔ̃ ʃəmɛ̃",
+"w": [
+[
+"Je me prenais à",
+"je me surprenais à"
+],
+[
+"te maudire",
+"te maudire"
+],
+[
+"te détester",
+"te haïr"
+],
+[
+"l'ait mise là",
+"l'ait placée"
+],
+[
+"sur mon chemin",
+"sur ma route"
+]
+],
+"fr": "Je me surprenais à te maudire, à te haïr, à me dire : pourquoi faut-il que le destin l'ait placée sur ma route ?"
+},
+{
+"key": "puis je",
+"it": "Puis je m'accusais de blasphème, et je ne sentais en moi-même, je ne sentais qu'un seul désir, un seul désir, un seul espoir : te revoir, ô Carmen, oui, te revoir !",
+"ipa": "pɥi ʒə makyzɛ də blasfɛmə e ʒə nə sɑ̃tɛ ɑ̃ mwa mɛmə ʒə nə sɑ̃tɛ k‿œ̃ sœl deziʁ œ̃ sœl deziʁ œ̃ sœl ɛspwaʁ tə ʁəvwaʁ o kaʁmɛn wi tə ʁəvwaʁ",
+"w": [
+[
+"je m'accusais de blasphème",
+"je me reprochais ce sacrilège"
+],
+[
+"en moi-même",
+"au fond de moi"
+],
+[
+"un seul désir",
+"un seul désir"
+],
+[
+"un seul espoir",
+"un seul espoir"
+],
+[
+"te revoir",
+"te revoir"
+]
+],
+"fr": "Puis je me reprochais ce sacrilège, et je ne sentais au fond de moi qu'un seul désir, un seul espoir : te revoir, ô Carmen, oui, te revoir !"
+},
+{
+"key": "car tu navais",
+"it": "Car tu n'avais eu qu'à paraître, qu'à jeter un regard sur moi, pour t'emparer de tout mon être, ô ma Carmen ! Et j'étais une chose à toi ! Carmen, je t'aime !",
+"ipa": "kaʁ ty navɛ y ka paʁɛtʁə ka ʒəte œ̃ ʁəɡaʁ syʁ mwa puʁ tɑ̃paʁe də tu mɔ̃ n‿ɛtʁə o ma kaʁmɛn e ʒetɛ ynə ʃoz‿a twa kaʁmɛn ʒə tɛmə",
+"w": [
+[
+"tu n'avais eu qu'à paraître",
+"il t'avait suffi d'apparaître"
+],
+[
+"qu'à jeter un regard sur moi",
+"de me lancer un regard"
+],
+[
+"t'emparer de tout mon être",
+"prendre possession de moi tout entier"
+],
+[
+"une chose à toi",
+"un objet qui t'appartenait"
+]
+],
+"fr": "Car il t'avait suffi d'apparaître, de me lancer un regard, pour prendre possession de moi tout entier, ô ma Carmen ! Et je t'appartenais ! Carmen, je t'aime !"
+}
+],
+"doubts": [
+"Langue originale française : « fr » donne une reformulation simple, « w » un vocabulaire. Texte vérifié sur la partition à l'assemblage."
+]
+}

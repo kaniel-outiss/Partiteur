@@ -1,0 +1,132 @@
+{
+"lang": "fr",
+"ctx": "Faust (Gounod, livret de Barbier et Carré d'après Goethe, 1859), acte III. Le vieux savant Faust, rajeuni par Méphistophélès, s'est introduit de nuit dans le jardin de Marguerite. Seul devant la maison de la jeune fille, il est saisi d'un trouble inconnu et salue la demeure modeste où vit une âme pure : la pauvreté y est richesse, la nature y a fait grandir une enfant devenue un ange. C'est la cavatine du ténor lyrique français par excellence, avec un célèbre contre-ut sur « présence ».",
+"diction": [
+"Français chanté : e muets prononcés quand ils ont une note (« demeu-re », « pu-re »), voyelles pures.",
+"Liaisons : « âme innocente » ([am‿inɔsɑ̃tə]), « cette enfant a dormi », « sous tes yeux » ([te z‿jø]) ; pas de liaison après « et ».",
+"Nasales : « présence », « innocente », « enveloppant », « enfant », « ange » — voyelle nasale tenue, sans n.",
+"Le contre-ut de « présence » : préparé, en voix mixte ou couverte, jamais en force ; la phrase reste dolce.",
+"Le violon solo dialogue avec la voix : laisse respirer les réponses de l'accompagnement."
+],
+"lines": [
+{
+"key": "quel trouble",
+"it": "Quel trouble inconnu me pénètre ? Je sens l'amour s'emparer de mon être. Ô Marguerite ! à tes pieds me voici !",
+"ipa": "kɛl tʁublə ɛ̃kɔny mə penɛtʁə ʒə sɑ̃ lamuʁ sɑ̃paʁe də mɔ̃ n‿ɛtʁə o maʁɡəʁitə a te pje mə vwasi",
+"w": [
+[
+"Quel trouble inconnu",
+"quelle émotion jamais ressentie"
+],
+[
+"me pénètre",
+"m'envahit"
+],
+[
+"s'emparer de mon être",
+"prendre possession de moi"
+],
+[
+"à tes pieds me voici",
+"me voici à tes genoux"
+]
+],
+"fr": "Quelle émotion inconnue m'envahit ? Je sens l'amour prendre possession de tout mon être. Ô Marguerite, me voici à tes pieds !"
+},
+{
+"key": "salut demeure",
+"it": "Salut ! demeure chaste et pure, où se devine la présence d'une âme innocente et divine !",
+"ipa": "saly dəmœʁə ʃast‿e pyʁə u sə dəvinə la pʁezɑ̃sə dyn‿am‿inɔsɑ̃tə e divinə",
+"w": [
+[
+"demeure chaste et pure",
+"maison pure et innocente"
+],
+[
+"où se devine",
+"où l'on sent"
+],
+[
+"la présence",
+"la présence"
+],
+[
+"une âme innocente et divine",
+"une âme innocente et divine"
+]
+],
+"fr": "Salut, maison pure et innocente, où l'on sent la présence d'une âme innocente et divine !"
+},
+{
+"key": "que de richesse",
+"it": "Que de richesse en cette pauvreté ! En ce réduit, que de félicité !",
+"ipa": "kə də ʁiʃɛs‿ɑ̃ sɛtə povʁəte ɑ̃ sə ʁedɥi kə də felisite",
+"w": [
+[
+"Que de richesse",
+"que de richesse"
+],
+[
+"en cette pauvreté",
+"dans cette pauvreté"
+],
+[
+"En ce réduit",
+"dans ce petit logis"
+],
+[
+"que de félicité",
+"que de bonheur"
+]
+],
+"fr": "Que de richesse dans cette pauvreté ! Dans ce petit logis, que de bonheur !"
+},
+{
+"key": "ô nature",
+"it": "Ô nature, c'est là que tu la fis si belle ! C'est là que cette enfant a dormi sous ton aile, a grandi sous tes yeux.",
+"ipa": "o natyʁə sɛ la kə ty la fi si bɛlə sɛ la kə sɛt‿ɑ̃fɑ̃ a dɔʁmi su tɔ̃ n‿ɛlə a ɡʁɑ̃di su te z‿jø",
+"w": [
+[
+"c'est là que tu la fis si belle",
+"c'est ici que tu l'as faite si belle"
+],
+[
+"sous ton aile",
+"sous ta protection"
+],
+[
+"a grandi sous tes yeux",
+"a grandi sous ton regard"
+]
+],
+"fr": "Ô nature, c'est ici que tu l'as faite si belle ! C'est ici que cette enfant a dormi sous ta protection et grandi sous ton regard."
+},
+{
+"key": "là que de ton",
+"it": "Là que, de ton haleine enveloppant son âme, tu fis avec amour épanouir la femme en cet ange des cieux !",
+"ipa": "la kə də tɔ̃ alɛn‿ɑ̃vəlɔpɑ̃ sɔ̃ n‿amə ty fi avɛk amuʁ epanwiʁ la famə ɑ̃ sɛt‿ɑ̃ʒə de sjø",
+"w": [
+[
+"de ton haleine",
+"de ton souffle"
+],
+[
+"enveloppant son âme",
+"entourant son âme"
+],
+[
+"épanouir la femme",
+"faire éclore la femme"
+],
+[
+"en cet ange des cieux",
+"dans cet ange du ciel"
+]
+],
+"fr": "C'est ici que, l'enveloppant de ton souffle, tu as fait éclore avec amour la femme dans cet ange du ciel !"
+}
+],
+"doubts": [
+"Langue originale française : « fr » donne une reformulation simple, « w » un vocabulaire. Texte vérifié sur la partition à l'assemblage."
+]
+}
