@@ -1,0 +1,100 @@
+{
+"lang": "en",
+"ctx": "Le Messie (Haendel, livret de Jennens, 1742), 3e partie, nº 47-48. Après « I know that my Redeemer liveth », la 3e partie médite sur la résurrection. La basse annonce un mystère (saint Paul, 1re épître aux Corinthiens, ch. 15) : nous ne mourrons pas tous, mais tous nous serons transformés, en un instant, au son de la dernière trompette. Puis l'air : la trompette sonnera, les morts ressusciteront incorruptibles. Haendel en fait un véritable duo entre la basse et la trompette solo, en ré majeur, pompeux et solennel. La partie centrale (« For this corruptible… »), souvent coupée au concert, est suivie de la reprise depuis le signe jusqu'à « Fine ».",
+"diction": [
+"Anglais chanté : « trumpet » [ˈtrʌmpɪt], « sound » [saʊnd] — tenir le [a] et ne fermer en [ʊ] qu'à la toute fin.",
+"« incorruptible » [ɪnkəˈrʌptɪbl̩] : les consonnes [k], [p], [t] nettes, sans casser la ligne.",
+"« changed » se chante en deux syllabes dans l'édition (« chang'd » = une seule) : suivre le découpage imprimé.",
+"Récitatif : déclamer comme un récit, le rythme suit la parole ; « in the twinkling of an eye » vif et léger.",
+"Air : dialogue avec la trompette — chanter noble et rond, respirer aux ritournelles, les vocalises articulées sur la voyelle."
+],
+"lines": [
+{
+"key": "behold i tell",
+"it": "Behold, I tell you a mystery: we shall not all sleep, but we shall all be chang'd in a moment, in the twinkling of an eye, at the last trumpet.",
+"ipa": "bɪˈhoʊld aɪ tɛl juː ə ˈmɪstəri wiː ʃæl nɒt ɔːl sliːp bʌt wiː ʃæl ɔːl biː tʃeɪndʒd ɪn ə ˈmoʊmənt ɪn ðə ˈtwɪŋklɪŋ əv æn aɪ æt ðə lɑːst ˈtrʌmpɪt",
+"w": [
+[
+"Behold",
+"voici"
+],
+[
+"I tell you a mystery",
+"je vous dis un mystère"
+],
+[
+"we shall not all sleep",
+"nous ne mourrons pas tous"
+],
+[
+"we shall all be chang'd",
+"nous serons tous transformés"
+],
+[
+"in a moment",
+"en un instant"
+],
+[
+"in the twinkling of an eye",
+"en un clin d'œil"
+],
+[
+"at the last trumpet",
+"à la dernière trompette"
+]
+],
+"fr": "Voici, je vous dis un mystère : nous ne mourrons pas tous, mais tous nous serons transformés, en un instant, en un clin d'œil, à la dernière trompette."
+},
+{
+"key": "the trumpet shall",
+"it": "The trumpet shall sound, and the dead shall be raised incorruptible, and we shall be chang'd.",
+"ipa": "ðə ˈtrʌmpɪt ʃæl saʊnd ænd ðə dɛd ʃæl biː reɪzd ɪnkəˈrʌptɪbl̩ ænd wiː ʃæl biː tʃeɪndʒd",
+"w": [
+[
+"The trumpet shall sound",
+"la trompette sonnera"
+],
+[
+"the dead shall be raised",
+"les morts ressusciteront"
+],
+[
+"incorruptible",
+"incorruptibles"
+],
+[
+"we shall be chang'd",
+"nous serons transformés"
+]
+],
+"fr": "La trompette sonnera, et les morts ressusciteront incorruptibles, et nous serons transformés."
+},
+{
+"key": "for this",
+"it": "For this corruptible must put on incorruption, and this mortal must put on immortality.",
+"ipa": "fɔːr ðɪs kəˈrʌptɪbl̩ mʌst pʊt ɒn ɪnkəˈrʌpʃən ænd ðɪs ˈmɔːrtl̩ mʌst pʊt ɒn ɪmɔːrˈtælɪti",
+"w": [
+[
+"this corruptible",
+"ce corps corruptible"
+],
+[
+"must put on incorruption",
+"doit revêtir l'incorruptibilité"
+],
+[
+"this mortal",
+"ce corps mortel"
+],
+[
+"must put on immortality",
+"doit revêtir l'immortalité"
+]
+],
+"fr": "Car il faut que ce corps corruptible revête l'incorruptibilité, et que ce corps mortel revête l'immortalité."
+}
+],
+"doubts": [
+"Texte (1 Corinthiens 15, 51-53, Bible du roi Jacques) vérifié sur la partition à l'assemblage."
+]
+}
