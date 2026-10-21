@@ -1,0 +1,14 @@
+{"page":1,"measures":[
+ {"meter":"4/4","tempo":"Allegro","marks":["f","p"],"v":"rh r G3ed G3s","ly":"Non più‿an-","rh":"C4e G3e E4e G3e r G5ed G5s","lh":"C2+C3h C4e G3e E4e G3e"},
+ {"v":"E3 G3ed G3s E3 G3ed G3s","ly":"drai, far- fal- lo- ne‿a- mo-","rh":"E5e re G5ed G5s E5e re G5ed G5s","lh":"C4e G3e E4e G3e C4e G3e E4e G3e // C3 r C3 r"},
+ {"v":"F3 D3 r F3ed F3s","ly":"ro- so, not- te‿e","rh":"gG5 F5e E5s F5s G4+B4+D5 G4+B4+D5 F5ed F5s","lh":"G3+D4e G3e B3e D4e F4e G3e D4e G3e"},
+ {"v":"D3 F3ed F3s D3 F3ed F3s","ly":"gior- no d'in- tor- no gi-","rh":"D5e re F5ed F5s D5e re F5ed F5s","lh":"B3e G3e D4e G3e B3e G3e D4e G3e"},
+ {"v":"E3 C3 r C3ed E3s","ly":"ran- do, del- le","rh":"gF5 E5e D5s E5s E4+C5 E4+C5 C5ed E5s","lh":"C4e G3e C4e G3e C3+C4 C3ed E3s // C3 C3 rh","doubt":"m.h. gauche : 2e voix (C3 noires) sans silence imprimé sur la 2e moitié ; rh ajouté pour le contrôle"},
+ {"marks":["ten."],"v":"G3 E3ed G3s C4 G3ed C4s","ly":"bel- le tur- ban- do‿il ri-","rh":"G5 E5ed G5s C6 G5ed C6s","lh":"G3 E3ed G3s C4 G3ed C4s"},
+ {"marks":["mf","p"],"v":"E4 C4h G3ed C4s","ly":"po- so, Nar- ci-","rh":"E6 C6h G5ed C6s","lh":"E4 C4h r"},
+ {"v":"G3 E3ed G3s F3 D3ed G3s","ly":"set- to,‿A- don- ci- no d'a-","rh":"G5e re E5e re F5e re D5ed G5s","lh":"G3+C4+E4e G4e G3+C4+E4e G4e G3+B3+D4e F4e G3+B3+D4e F4e"},
+ {"v":"E3 r r C3ed E3s","ly":"mor, del- le","rh":"E5 C5+E5s D5+F5s E5+G5s D5+F5s C5+E5 C5ed E5s","lh":"C4+E4 C3+E3+C4 C3+E3+C4 C3ed E3s"},
+ {"marks":["ten."],"v":"G3 E3ed G3s C4 G3ed C4s","ly":"bel- le tur- ban- do‿il ri-","rh":"G5 E5ed G5s C6 G5ed C6s","lh":"G3 E3ed G3s C4 G3ed C4s"},
+ {"marks":["mf","p"],"v":"E4 C4h G3ed C4s","ly":"po- so, Nar- ci-","rh":"E6 C6h G5ed C6s","lh":"E4 C4h r"},
+ {"v":"G3 E3ed G3s F3 D3ed G3s","ly":"set- to,‿A- don- ci- no d'a-","rh":"G5e re E5e re F5e re D5ed G5s","lh":"G3+C4+E4e G4e G3+C4+E4e G4e G3+B3+D4e F4e G3+B3+D4e F4e","doubt":"phrase « d'a-mor » continue à la page suivante (mesure complète ici)"}
+]}
