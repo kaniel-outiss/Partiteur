@@ -2,7 +2,7 @@
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#14110f">
-<title>Le partiteur 0.36.0</title>
+<title>Le partiteur 0.37.0</title>
 <style>
 :root{--bg:#14110f;--bg2:#1c1815;--card:#26201a;--card2:#2f2820;--or:#E8B04B;--or2:#f3c873;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf7ef;--line:#3a322a;--rouge:#e06a5a;--vert:#4fb873;--bleu:#5b8def;
   --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
@@ -127,7 +127,7 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
   <input type="file" id="fimp" multiple hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
- <div class="hint" style="margin-top:28px">Le partiteur 0.36.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
+ <div class="hint" style="margin-top:28px">Le partiteur 0.37.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
 <div id="app" hidden>
  <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bAnn" class="ghost" title="Annoter la partition">🖍</button><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
  <div id="annbar" hidden></div>
@@ -694,7 +694,7 @@ function t2Tok(tok){const grace=/^g[A-G]/.test(tok);tok=tok.replace(/(^|\+)g(?=[
   const base=m[2]==='q'?'':m[2];let d=TX2.DUR[base];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;let tup=null;
   if(m[4]==='3')tup=[3,2];else if(m[4]){const q=m[4].slice(1).split(':');tup=[+q[0],+q[1]];}if(tup)d*=tup[1]/tup[0];
   const fl=m[5]||'',rest=m[1]==='r';
-  const notes=rest?[]:parts.map(function(p,i){return t2Note(i===parts.length-1?m[1]:p.replace(/[whestqx]?(dd|d)?(3|%\d+:\d+)?[~*!^]*(@[\d,]+)?$/,''));}).filter(Boolean);
+  const notes=rest?[]:parts.map(function(p,i){return t2Note(i===parts.length-1?m[1]:((/^[A-G](?:bb|##|b|#)?-?\d/.exec(p)||[''])[0]));}).filter(Boolean);
   return {rest:rest,notes:notes,grace:grace,base:base,dot:m[3]||'',tup:tup,d:grace?0:d,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,fg:m[6]?m[6].slice(1).split(','):[]};}
 function t2Voice(str){let t=0;return String(str||'').trim().split(/\s+/).filter(Boolean).map(function(x){const e=t2Tok(x);if(!e)return null;e.t=t;t+=e.d;return e;}).filter(Boolean);}
 function t2Esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}

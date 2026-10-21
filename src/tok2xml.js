@@ -19,7 +19,7 @@ function t2Tok(tok){const grace=/^g[A-G]/.test(tok);tok=tok.replace(/(^|\+)g(?=[
   const base=m[2]==='q'?'':m[2];let d=TX2.DUR[base];if(m[3]==='d')d*=1.5;if(m[3]==='dd')d*=1.75;let tup=null;
   if(m[4]==='3')tup=[3,2];else if(m[4]){const q=m[4].slice(1).split(':');tup=[+q[0],+q[1]];}if(tup)d*=tup[1]/tup[0];
   const fl=m[5]||'',rest=m[1]==='r';
-  const notes=rest?[]:parts.map(function(p,i){return t2Note(i===parts.length-1?m[1]:p.replace(/[whestqx]?(dd|d)?(3|%\d+:\d+)?[~*!^]*(@[\d,]+)?$/,''));}).filter(Boolean);
+  const notes=rest?[]:parts.map(function(p,i){return t2Note(i===parts.length-1?m[1]:((/^[A-G](?:bb|##|b|#)?-?\d/.exec(p)||[''])[0]));}).filter(Boolean);
   return {rest:rest,notes:notes,grace:grace,base:base,dot:m[3]||'',tup:tup,d:grace?0:d,tie:fl.indexOf('~')>=0,trem:fl.indexOf('*')>=0,arp:fl.indexOf('!')>=0,ferm:fl.indexOf('^')>=0,fg:m[6]?m[6].slice(1).split(','):[]};}
 function t2Voice(str){let t=0;return String(str||'').trim().split(/\s+/).filter(Boolean).map(function(x){const e=t2Tok(x);if(!e)return null;e.t=t;t+=e.d;return e;}).filter(Boolean);}
 function t2Esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
