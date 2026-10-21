@@ -1,0 +1,177 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "3/4",
+   "marks": [],
+   "v": "C#3 r r",
+   "ly": "diè.",
+   "rh": "C#4+E#4d* B3d*",
+   "lh": "red E#4+G#4+B4+C#5s E#4+G#4+B4+D5 E#4+G#4+B4+C#5e re // G#1+G#2e re r r",
+   "doubt": "m.46 (numéro imprimé). Mesure à 3/4 (comptée, pas d'indication de mesure sur la page). Voix : une liaison arrive de la page précédente sur C#3 (« diè. »). MD : trémolo alterné (3 barres) accord C#4+E#4 / B3 en blanches pointées = une blanche pointée, codé noire pointée*+noire pointée*. MG : clé de sol après G#1+G#2 puis clé de fa en fin de mesure ; D5 bécarre ; liaison D5→C#5."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "F#3 F#3ed F#3s G#3ed G#3s",
+   "ly": "Re- sa‿al ful- gor de-",
+   "rh": "C#4+F#4* A3* D4+G#4e* B3e*",
+   "lh": "A1+A2e re r E2+E3e re",
+   "doubt": "MD : 2 trémolos alternés (3 barres) : C#4+F#4 / A3 bécarre en blanches (= une blanche), puis D4 bécarre+G#4 / B3 en noires (= une noire). Soufflet < à la voix et au piano."
+  },
+  {
+   "marks": [
+    "<",
+    ">"
+   ],
+   "v": "A3ed A3s A3h",
+   "ly": "gli‿an- ge- li,",
+   "rh": "C#4+A4d* A3d*",
+   "lh": "red A4+C#5+E5s A4+C#5+F#5 A4+C#5+E5e rs C#3s~ // E2+E3e re r r",
+   "doubt": "Voix : A3 bécarre. MD : trémolo C#4+A4 bécarre / A3 bécarre en blanches pointées. MG : clé de sol après E2+E3 (bécarres), accords avec A4 et E5 bécarres ; clé de fa avant C#3 (lié à la m.49). Soufflets < puis > au-dessus de la voix."
+  },
+  {
+   "marks": [
+    "p",
+    ">",
+    "pp",
+    "accent"
+   ],
+   "v": "A#3 A#3ed A#3s A#3ed G#3s",
+   "ly": "pre- ga, Ma- ria, per",
+   "rh": "C#4+F#4* A#3* C#4+E#4e* B3e*",
+   "lh": "C#2+C#3e re r C#2+C#3e re",
+   "doubt": "p et soufflet > à la voix, accent sur le 2e A#3 pointé ; pp au piano. Dièses imprimés sur A#3 (voix), A#3 et E#4 (MD). C#3 de la MG lié depuis la m.48."
+  },
+  {
+   "marks": [
+    "<",
+    "stacc."
+   ],
+   "v": "F#3h r",
+   "ly": "me.",
+   "rh": "A#3+C#4+F#4e F#4+A#4+C#5e F#4+A#4+C#5e F#4+A#4+C#5e F#4+A#4+C#5e F#4+A#4+F#5e",
+   "lh": "F#2+F#3 r r",
+   "doubt": "m.50. MD : points de staccato sur les accords 2-6, liaison 2→6 ; soufflet < au piano."
+  },
+  {
+   "marks": [
+    ">",
+    "accent"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "G#4+B4+E#5h~ G#4+B4+E#5e re",
+   "lh": "re B3s C#4s D3+D4d C#3+C#4e",
+   "doubt": "Voix : pause (mesure entière). MD : accord lié (3 liaisons). MG : D3/D4 bécarres, accent sur D4. Soufflet > au piano."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "F#3 F#3ed F#3s G#3ed G#3s",
+   "ly": "Re- sa‿al ful- gor de-",
+   "rh": "C#4+F#4* A3* D4+G#4e* B3e*",
+   "lh": "A1+A2e re r E2+E3e re",
+   "doubt": "Identique à la m.47 (trémolos codés de même). Soufflet < à la voix (jusqu'à la m.53) et au piano."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "A3ed A3s A3h",
+   "ly": "gli‿an- ge- li,",
+   "rh": "C#4+A4d* A3d*",
+   "lh": "red A4+C#5+E5s A4+C#5+F#5 A4+C#5+E5e rs C#3s~ // E2+E3e re r r",
+   "doubt": "Comme la m.48 ; f sur les accords de la MG ; pas de soufflet > à la voix (fin du <). C#3 MG lié à la m.54."
+  },
+  {
+   "marks": [],
+   "v": "A#3 C#4ed B3s A#3ed G#3s",
+   "ly": "pre- ga, Ma- ria, per",
+   "rh": "C#4+F#4* A#3* C#4+E#4e* B3e*",
+   "lh": "C#2+C#3e re r C#2+C#3e re",
+   "doubt": "m.54. C#4 de la voix sur ligne supplémentaire."
+  },
+  {
+   "marks": [
+    "stacc."
+   ],
+   "v": "F#3h r",
+   "ly": "me,",
+   "rh": "A#3+C#4+F#4e A#4+C#5e A#4+C#5e A#4+C#5e F#4+A#4e C#4+F#4e",
+   "lh": "F#1+F#2s F#3t A#3t F#3t A#3t F#3t A#3t F#3* A#3*",
+   "doubt": "MG : F#1+F#2 en double croche + 6 triples croches F#3/A#3 (liaisons 2-3 et 4-7), puis trémolo alterné (2 barres) F#3/A#3 en blanches = une blanche, codé noire*+noire*. MD staccato + liaison."
+  },
+  {
+   "marks": [
+    "<",
+    "accent"
+   ],
+   "v": "r re E#3e A#3ed G#3s",
+   "ly": "pre- ga per",
+   "rh": "E#4+B4h E#4+B4",
+   "lh": "F#2e B3s C#4s D3+D4 C#3+C#4",
+   "doubt": "Accent sur A#3 (voix) et sur D4 (MG, bécarres D3/D4). Soufflet < au piano."
+  },
+  {
+   "marks": [
+    "stacc."
+   ],
+   "v": "F#3h r",
+   "ly": "me,",
+   "rh": "F#4+A#4e A#4+C#5e A#4+C#5e A#4+C#5e F#4+A#4e C#4+F#4e",
+   "lh": "F#2s F#3t A#3t F#3t A#3t F#3t A#3t F#3* A#3*",
+   "doubt": "Comme la m.55 mais MG commence par F#2 seul ; MD commence par F#4+A#4."
+  },
+  {
+   "marks": [
+    "<",
+    "accent"
+   ],
+   "v": "r re E#3e A#3ed G#3s",
+   "ly": "pre- ga per",
+   "rh": "E#4+B4h E#4+B4",
+   "lh": "F#2e B3s C#4s D3+D4 C#3+C#4",
+   "doubt": "m.58. Comme la m.56, sans accent sur D4 à la MG. Soufflet < au piano."
+  },
+  {
+   "marks": [
+    "stacc."
+   ],
+   "v": "F#3e C#4e A#3e F#3e C#3e A#2e",
+   "ly": "me, pre- ga, Ma- ria, per",
+   "rh": "C#4+F#4+A#4e re r r",
+   "lh": "F#1+F#2e re r r",
+   "doubt": "Voix : 6 croches staccato sous une liaison."
+  },
+  {
+   "marks": [
+    "ppp",
+    "stacc."
+   ],
+   "v": "F#2hd~",
+   "ly": "me.",
+   "rh": "re A#3+C#4+F#4e A#3+C#4+F#4e A#3+C#4+F#4e A#3+C#4+F#4e A#3+C#4+F#4e",
+   "lh": "re F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e",
+   "doubt": "Voix : F#2 blanche pointée liée à la m.61 (trait de prolongation après « me. »). Piano : croches staccato sous liaison."
+  },
+  {
+   "marks": [],
+   "v": "F#2 r r",
+   "ly": "",
+   "rh": "C#4+F#4d* A#3d*~",
+   "lh": "F#2+F#3e re r F#1+F#2e re",
+   "doubt": "Voix : F#2 lié (pas de syllabe). MD : trémolo alterné (3 barres) C#4+F#4 / A#3 en blanches pointées ; liaison de A#3 vers l'accord final."
+  },
+  {
+   "marks": [],
+   "v": "rhd^",
+   "ly": "",
+   "rh": "A#3+C#4+F#4hd^",
+   "lh": "F#1+F#2hd^",
+   "doubt": "Dernière mesure (m.62), points d'orgue sur les 3 portées, double barre finale. Rien d'autre après sur la page."
+  }
+ ]
+}
