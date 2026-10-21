@@ -1,0 +1,17 @@
+{"page":7,"measures":[
+{"meter":"4/4","marks":["accent (voix et MD)","stacc. MG"],"v":"D3d E3e F3 F#3","ly":"li- to, cal- pe-","rh":"B4+D5d C5+E5e D5+F5 D#5+F#5","lh":"G2+G3e G3e B3e G3e B3e G3e B3e G3e","doubt":"mesure 75 ; 'li-' suite de 'avvi-li-to' de la page précédente"},
+{"marks":["a piacere","col canto"],"v":"G3 G3 r G3e G3e","ly":"sta- to, sot- to‿il","rh":"E5+G5 r rh","lh":"C3+C4 r rh"},
+{"marks":["p","a tempo"],"v":"C4e B3e C4e B3e C4e B3e C4e B3e","ly":"pub- _ bli- _ co _ fla- _","rh":"C5+C6e B4+B5e C5+C6e B4+B5e C5+C6e B4+B5e C5+C6e B4+B5e","lh":"C3+C4e B2+B3e C3+C4e B2+B3e C3+C4e B2+B3e C3+C4e B2+B3e"},
+{"v":"C4e B3e C4e B3e C4e B3e C4e B3e","ly":"gel- _ lo _ per _ gran _","rh":"C5+C6e B4+B5e C5+C6e B4+B5e C5+C6e B4+B5e C5+C6e B4+B5e","lh":"C3+C4e B2+B3e C3+C4e B2+B3e C3+C4e B2+B3e C3+C4e B2+B3e"},
+{"v":"C4e B3e C4e B3e C4e B3e C4e D4e","ly":"sor- _ te _ va‿a _ cre- _","rh":"C5+C6e B4+B5e C5+C6e B4+B5e C5+C6e B4+B5e C5+C6e D5+D6e","lh":"C3+C4e B2+B3e C3+C4e B2+B3e C3+C4e B2+B3e C3+C4e D3+D4e"},
+{"marks":["ff","point d'orgue (voix et piano)","accent piano"],"v":"E4h^ r E3e E3e","ly":"par. E‿il me-","rh":"E5+E6h^ rh","lh":"E3+E4h^ rh","doubt":"E6 / E4 avec 3 lignes supplémentaires, lecture probable"},
+{"marks":["pp","stacc. voix"],"v":"E3 E3 E3 E3","ly":"schi- no ca- lun-","rh":"C#5h C5h // G4w~","lh":"E3w~ // A2h A#2h"},
+{"marks":["stacc. voix"],"v":"E3 E3 E3 E3","ly":"nia- to, av- vi-","rh":"B4h Bb4h // G4w~","lh":"E3w // B2h C3h"},
+{"marks":["stacc. voix"],"v":"E3 E3 E3 E3","ly":"li- to, cal- pe-","rh":"A4h G4h // G4w","lh":"C#3+E3w","doubt":"MD : liaison G4 m.82→83 lue comme prolongation ; MG # placé devant l'accord, attribué au C3"},
+{"marks":["stacc. voix"],"v":"G3e re F3e re B3e re A3e re","ly":"sta- to, sot- to‿il","rh":"D4+F4w","lh":"D3+A3w"},
+{"marks":["stacc. voix"],"v":"G3e re F3e re E3e re D3e re","ly":"pub- bli- co fla-","rh":"A3+D4w","lh":"F2+F3w"},
+{"marks":["stacc. voix (liaisons par deux)"],"v":"C3e D3e E3e F3e G3e A3e B3e C4e","ly":"gel- _ lo _ per _ gran _","rh":"G3+C4w","lh":"G2~+E3w","doubt":"MG : G2 lié (liaison vers m.87)"},
+{"marks":["stacc. voix (liaisons par deux)"],"v":"C4e B3e A3e G3e G3e F3e E3e D3e","ly":"sor- _ te _ va‿a _ cre- _","rh":"F3+G3+B3w","lh":"G2+D3w"},
+{"marks":["pp","VI- (début de coupure 'Vi-de')","stacc. MD"],"v":"C3 r rh","ly":"par.","rh":"E3+G3+C4 r E5+G5e re F5+A5e re","lh":"C3 r rh","doubt":"accord MD 1er temps à lignes supplémentaires (E3+G3+C4) lecture probable"},
+{"marks":["accent MD","stacc. MG"],"v":"rw","ly":"","rh":"B4+D5d C5+E5e D5+F5 D#5+F#5","lh":"G2+G3e G3e B3e G3e B3e G3e B3e G3e"}
+]}
