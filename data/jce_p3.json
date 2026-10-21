@@ -1,0 +1,19 @@
+{"page":3,"measures":[
+{"meter":"6/8","v":"C5hd~","ly":"rê-","rh":"E4+C5hd~","lh":"E2+E3 E3e A3 B3e","doubt":"m.41 (45 encadré 5e mesure → 1re = 41) ; vérifier si le C5 du chant est lié depuis la page 2"},
+{"v":"C5 B4e A4 G#4e","ly":"_ _ _","rh":"E4+C5 D4+B4e C4+A4 B3+G#4e","lh":"C4 D4e E4 re"},
+{"v":"A4hd~","ly":"ve!","rh":"C4+A4hd~","lh":"A1+A2 E3e A3 B3e"},
+{"v":"A4 re rd","ly":"","rh":"C4+A4 re rd","lh":"C4d E3 re"},
+{"v":"rhd","ly":"","rh":"rhd","lh":"A1+A2 E3e A3 B3e"},
+{"v":"rhd","ly":"","rh":"rhd","lh":"C4d E3 re"},
+{"marks":["p","pp"],"v":"E5d E5 E5e","ly":"Aux _ clar-","rh":"C5+E5d A5+C6t D6t E6t D6t C6s rs re","lh":"A1+A2 E3e A3 B3e","doubt":"p au chant, pp au piano ; E5d–E5 sous liaison (mélisme)"},
+{"v":"E5 D5e C5 D5e","ly":"tés _ des é-","rh":"A4+C5t D5t E5t D5t C5s rs B4+D5e A4+C5 B4+D5e","lh":"C4d E3 re"},
+{"v":"E5hd","ly":"toi-","rh":"C5+E5d A5+C6t D6t E6t D6t C6s rs re","lh":"A1+A2 E3e A3 B3e"},
+{"v":"E5e re F5e G5 A5e","ly":"les Je crois en-","rh":"A4+C5t D5t E5t D5t C5s rs D5+F5e E5+G5 F5+A5e","lh":"C4d E3 re","doubt":"m.50 encadré ; ligature du groupe rapide lue comme 4 triples croches + 1 double (comme m.47)"},
+{"v":"F5hd~","ly":"cor","rh":"D5+F5d F5+D6t E6t F6t E6t D6s rs re","lh":"D2+D3 A2e D3 E3e"},
+{"v":"F5 E5e D5 F5e","ly":"_ la _","rh":"F4+D5t E5t F5t E5t D5s rs C5+E5e B4+D5 D5+F5e","lh":"F3d A2 re"},
+{"v":"E5hd~","ly":"voir","rh":"C5+E5d A5+C6t D6t E6t D6t C6s rs re","lh":"A1+A2 E3e A3 B3e"},
+{"v":"E5 re rd","ly":"","rh":"A4+C5t D5t E5t D5t C5s rs re r C5+E5e","lh":"C4d E3 re"},
+{"v":"D5 D5e D5d~","ly":"En- tr'ou- vrir","rh":"B4+D5d G#5+B5t C6t D6t C6t B5s rs re","lh":"E2 B2e E3 F#3e","doubt":"m.55 encadré ; liaison de phrasé C5+E5 (m.54) → B4+D5"},
+{"v":"D5 C5e A4 C5e","ly":"_ ses longs","rh":"G#4+B4t C5t D5t C5t B4s rs A4+C5e F#4+A4 A4+C5e","lh":"G#3d D#4 re"},
+{"v":"D5hd~","ly":"voi-","rh":"B4+D5d G#5+B5t C6t D6t C6t B5s rs re","lh":"E2 B2e E3 F#3e","doubt":"bécarre de précaution sur le D5 (après D#4 m.56 main gauche) ; D5 du chant lié vers la page 4"}
+]}
