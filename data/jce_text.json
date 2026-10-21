@@ -1,0 +1,104 @@
+{
+"lang": "fr",
+"ctx": "Les Pêcheurs de perles (Bizet, livret de Cormon et Carré, 1863), acte I. Sur une plage de Ceylan, le pêcheur Nadir vient de renouveler avec son ami Zurga le serment de renoncer à la belle prêtresse qu'ils avaient aimée tous deux. Mais en voyant arriver une prêtresse voilée, il a reconnu la voix de Leïla. Resté seul, il s'abandonne au souvenir : il croit encore entendre, caché sous les palmiers, sa voix tendre et sonore comme un chant de ramiers. C'est la romance du ténor lyrique léger par excellence, toute en demi-teintes, sur un accompagnement de berceuse.",
+"diction": [
+"Ligne en voix mixte et pianissimo : la romance ne se chante jamais en force, même dans l'aigu.",
+"Liaisons : « entendre encore » ([ɑ̃tɑ̃dʁ‿ɑ̃kɔʁ]), « comme un chant » ([kɔm œ̃]), « ses longs voiles » ; pas de liaison après « et ».",
+"Nasales : « entendre », « chant », « enchanteresse » [ɑ̃ʃɑ̃tʁɛsə], « vents » — voyelle nasale tenue, sans n.",
+"« ramiers » : [ʁamje] ; « ravissement » : [ʁavismɑ̃] ; « souvenir » : [suvəniʁ].",
+"« Ô nuit enchanteresse ! Divin ravissement ! » : le point culminant reste dolce ; laisse flotter la voix sur le piano."
+],
+"lines": [
+{
+"key": "je crois",
+"it": "Je crois entendre encore, caché sous les palmiers, sa voix tendre et sonore comme un chant de ramiers.",
+"ipa": "ʒə kʁwa ɑ̃tɑ̃dʁ‿ɑ̃kɔʁə kaʃe su le palmje sa vwa tɑ̃dʁ‿e sɔnɔʁə kɔm œ̃ ʃɑ̃ də ʁamje",
+"w": [
+[
+"Je crois entendre encore",
+"il me semble entendre encore"
+],
+[
+"caché sous les palmiers",
+"caché sous les palmiers"
+],
+[
+"sa voix tendre et sonore",
+"sa voix douce et claire"
+],
+[
+"un chant de ramiers",
+"le chant des pigeons sauvages"
+]
+],
+"fr": "Il me semble entendre encore, caché sous les palmiers, sa voix douce et claire, comme le chant des pigeons sauvages."
+},
+{
+"key": "ô nuit",
+"it": "Ô nuit enchanteresse ! Divin ravissement ! Ô souvenir charmant ! Folle ivresse, doux rêve !",
+"ipa": "o nɥi ɑ̃ʃɑ̃tʁɛsə divɛ̃ ʁavismɑ̃ o suvəniʁ ʃaʁmɑ̃ fɔl‿ivʁɛsə du ʁɛvə",
+"w": [
+[
+"nuit enchanteresse",
+"nuit envoûtante"
+],
+[
+"Divin ravissement",
+"extase divine"
+],
+[
+"souvenir charmant",
+"souvenir délicieux"
+],
+[
+"Folle ivresse",
+"griserie folle"
+],
+[
+"doux rêve",
+"doux rêve"
+]
+],
+"fr": "Ô nuit envoûtante ! Extase divine ! Ô souvenir délicieux ! Griserie folle, doux rêve !"
+},
+{
+"key": "aux clartés",
+"it": "Aux clartés des étoiles, je crois encor la voir entr'ouvrir ses longs voiles aux vents tièdes du soir.",
+"ipa": "o klaʁte de z‿etwalə ʒə kʁwa ɑ̃kɔʁ la vwaʁ ɑ̃tʁuvʁiʁ se lɔ̃ vwalə o vɑ̃ tjɛdə dy swaʁ",
+"w": [
+[
+"Aux clartés des étoiles",
+"à la lumière des étoiles"
+],
+[
+"je crois encor la voir",
+"il me semble la voir encore"
+],
+[
+"entr'ouvrir ses longs voiles",
+"écarter un peu ses longs voiles"
+],
+[
+"aux vents tièdes du soir",
+"aux brises tièdes du soir"
+]
+],
+"fr": "À la lumière des étoiles, il me semble la voir encore écarter ses longs voiles aux brises tièdes du soir."
+},
+{
+"key": "charmant souvenir",
+"it": "Charmant souvenir !",
+"ipa": "ʃaʁmɑ̃ suvəniʁ",
+"w": [
+[
+"Charmant souvenir",
+"souvenir délicieux"
+]
+],
+"fr": "Souvenir délicieux !"
+}
+],
+"doubts": [
+"Langue originale française : « fr » donne une reformulation simple, « w » un vocabulaire. Texte vérifié sur la partition à l'assemblage."
+]
+}
