@@ -1,0 +1,22 @@
+{"page":6,"measures":[
+{"meter":"2/4","marks":["tr"],"v":"A3 A3e A3e","ly":"di quà pun-","rh":"re A4e A4s G4s A4e","lh":"re C4e F4e C4e // F3h","doubt":"Mesure 2/4 (section Presto) déduite des durées ; pas de numéro de mesure lisible sur cette page. tr sur la 1re double croche ; liaison sur le groupe ; point sur le 1er C4 MG."},
+{"marks":["tr"],"v":"Bb3 G3","ly":"gen- do,","rh":"re Bb4e Bb4s A4s Bb4e","lh":"re C4e E4e C4e // G3h"},
+{"marks":["tr"],"v":"Bb3 Bb3e Bb3e","ly":"di là scher-","rh":"re Bb4e Bb4s A4s Bb4e","lh":"re C4e E4e C4e // G3h","doubt":"MG note médiane : E4 (ledger traversant) vs F4 en m1/m4 — lecture à vérifier."},
+{"marks":["tr"],"v":"C4 A3","ly":"zan- do,","rh":"re C5e C5s Bb4s C5e","lh":"re C4e F4e C4e // A3h"},
+{"marks":["tr"],"v":"C4 C4e C4e","ly":"tut- te le","rh":"re C6e C6s Bb5s C6e","lh":"re C4e F4e C4e // A3h"},
+{"marks":["tr"],"v":"Bb3ed Bb3s Bb3","ly":"mac- chi- ne","rh":"re Bb5e Bb5s A5s Bb5e","lh":"re G3e C4e G3e // E3h"},
+{"marks":["tr"],"v":"A3 A3e A3e","ly":"ro- ve- scie-","rh":"re A5e A5s G5s A5e","lh":"re C4e F4e C4e // F3h"},
+{"marks":["cresc."],"v":"G3 A3","ly":"rò, ro-","rh":"E5+G5e C6e F5+A5e C6e","lh":"C3+E3+G3+C4 C3+F3+A3+C4"},
+{"v":"G3 A3","ly":"ve- scie-","rh":"E5+G5e C6e F5+A5e C6e","lh":"C3+E3+G3+C4 C3+F3+A3+C4","doubt":"2e note voix : A3 (légèrement au-dessus de la ligne, scan incliné)."},
+{"marks":["f"],"v":"G3 r","ly":"rò.","rh":"E5+G5 C5+E5+G5+C6","lh":"C3+E3+G3+C4 C3+E3+G3+C4","doubt":"Accords denses : notes internes lues par espacement."},
+{"v":"rh","ly":"","rh":"C4 C4","lh":"C2+C3 C2+C3","doubt":"Pause d'une mesure à la voix (écrite rh)."},
+{"v":"rh","ly":"","rh":"C4 r","lh":"C2+C3 r"},
+{"marks":["f"],"v":"C4 C4e C4e","ly":"L'ar- te scher-","rh":"E5+A5+C6 E5+G5+A5+C6","lh":"A2+A3 C3+C4","doubt":"2e accord MD : G5 décalé à gauche (seconde), lu E5+G5+A5+C6."},
+{"v":"C4 D3","ly":"men- do,","rh":"D5+F#5+A5+C6 r","lh":"D3+D4 r"},
+{"marks":["p"],"v":"D3 E3e F#3e","ly":"l'ar- te‿a- do-","rh":"A4+C5h","lh":"D3 E3e F#3e","doubt":"Élision « te‿a » sur une seule croche. MD : liaison vers m16."},
+{"v":"G3 G3","ly":"pran- do,","rh":"G4+Bb4 r","lh":"G3 G2"},
+{"marks":["f"],"v":"Bb3 Bb3e Bb3e","ly":"di quà pun-","rh":"D5+G5+Bb5 D5+F5+G5+Bb5","lh":"G2+G3 Bb2+Bb3"},
+{"v":"Bb3 C3","ly":"gen- do,","rh":"C5+E5+G5+Bb5 r","lh":"C3+C4 r","doubt":"Accord MD très dense (4 têtes collées) : lu C5+E5+G5+Bb5."},
+{"marks":["p"],"v":"C3 D3e E3e","ly":"di là scher-","rh":"G4+Bb4h","lh":"C3 D3e E3e","doubt":"MD : liaison vers m20."},
+{"v":"F3 F3","ly":"zan- do,","rh":"F4+A4 r","lh":"F3 F2","doubt":"Fin de page : la phrase continue page suivante."}
+]}
