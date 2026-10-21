@@ -1,17 +1,127 @@
-{"page":1,"measures":[
-{"meter":"3/4","ks":-5,"tempo":"Andante","marks":["p espress."],"v":"rhd","ly":"","rh":"rhd","lh":"re D4e E4e F4e G4e A4e","doubt":"Page imprimée 22. Andante (♩=63) imprimé ; pas de portée de chant au 1er système (chant = silences). MG : clé de fa puis clé de sol après le demi-soupir ; liaison d'expression."},
-{"v":"rhd","ly":"","rh":"D5+Bb5d* D6d*","lh":"Bb4~ Bb4e A4e Gb4e A4e","doubt":"MD : trémolo alterné (blanches pointées) accord D♮5+Bb5 / D♮6 ; soufflet de crescendo."},
-{"v":"rhd","ly":"","rh":"D5+Bb5d* D6d*","lh":"F4 Bb1+Bb2e re Bb1+Bb2e re","doubt":"MG : clé de fa après le 1er temps, octaves staccato, clé de sol en fin de mesure ; Ped. … * imprimés."},
-{"v":"rhd","ly":"","rh":"G5+Bb5d* G6d*","lh":"F4~ F4e E4e Db4e E4e","doubt":"MD : trémolo alterné G♮5+Bb5 / G♮6 (3 lignes suppl.) ; soufflet de crescendo."},
-{"v":"rhd","ly":"","rh":"Gb5+Bb5d* Gb6d*","lh":"C4 Bb1+Bb2e re Bb1+Bb2e re","doubt":"MG : C4 (ligne supplémentaire), clé de fa, octaves staccato, clé de sol ; Ped. … *."},
-{"v":"rhd","ly":"","rh":"F5+Bb5* F6* F5+D6e* F6e*","lh":"Eb4~ Eb4e D4e Cb4e D4e","doubt":"MD : trémolo alterné en blanches (F5+Bb5 / F6) puis en noires (F5+D♮6 / F6) ; soufflet de crescendo."},
-{"v":"rhd","ly":"","rh":"Fb5+Db6e* Fb6e* Eb5+C6e* Eb6e* Db5+Bb5e* Db6e*","lh":"Bb3 C4 Db4 // G3hd","doubt":"MD : trois trémolos alternés en noires (Fb5 lu avec bémol sur la ligne du fa). MG : Bb3 hampe haut + G♮3 blanche pointée hampe bas ; ♮ de précaution sur C4."},
-{"v":"rhd","ly":"","marks":["dim."],"rh":"C5+Gb5+Ab5e* C6e* C5+Gb5+Ab5e re r","lh":"F4h Eb4 // Ab3~ Ab3e re r","doubt":"MD : 1er accord en trémolo alterné (noires) avec C6. MG : Ab3 avec tenuto, liés."},
-{"meter":"4/4","tempo":"Andantino","marks":["p con amore","pp"],"v":"F5 Db5e Ab4e F4e E4e F4e C5e","ly":"La fleur que tu m'a- vais je-","rh":"Ab4+F5e Ab4+F5 Ab4+F5e Bb4+F5e Bb4+F5 Bb4+F5e","lh":"Db4w","doubt":"Andantino (♩=69), C. Chant : un point est imprimé après F4 mais la dernière note (C5) n'a qu'un crochet et s'aligne sur le dernier accord du piano (4e temps et demi) → lu croches simples (sinon F4ed C5s). MG : longue liaison."},
-{"v":"Bb4h Ab4e re Ab4","ly":"té- e, Dans","rh":"Eb4+Bb4+Eb5e Eb4+Bb4+Eb5 Eb4+Bb4+Eb5e Eb4+Ab4+Eb5e Eb4+Ab4+Eb5 Eb4+Ab4+Eb5e","lh":"C4w","doubt":"Chant : liaison Bb4→Ab4 (deux syllabes). MG : longue liaison d'expression."},
-{"v":"Db5e Db5e Db5~ Db5e F5e Eb5e Bb4e","ly":"ma pri- son, m'é- tait res-","rh":"F4+Ab4+Db5e F4+Ab4+Db5 F4+Ab4+Db5e Eb4+Gb4+Db5e Eb4+Gb4+Db5 Eb4+Gb4+Db5e","lh":"Bb3h Eb3h","doubt":"Chant : Db5 « son » lié à la croche suivante (trait de mélisme) ; bémol de précaution sur Eb5. MG : clé de fa avant la 2e blanche."},
-{"v":"C5h C5e re Db5","ly":"té- e, Flé-","rh":"Eb4+Gb4+C5e Eb4+Gb4+C5 Eb4+Gb4+C5e Db4+F4+C5e Db4+F4+C5 Db4+F4+C5e","lh":"Ab3w","doubt":"Chant : arc C5→C5 lu comme liaison d'expression (deux syllabes « té-e »)."},
-{"v":"C5e A4e Bb4~ Bb4e Eb5e C5e Bb4e","ly":"trie et sè- che, cet- te","rh":"Db4+F4+Bb4e Db4+F4+Bb4 Db4+F4+Bb4e C4+Eb4+Bb4e C4+Eb4+Bb4 C4+Eb4+Bb4e","lh":"Gb3w","doubt":"Chant : A♮4 ; Bb4 « sè » lié à la croche suivante (le tiret couvre la croche) ; syllabes alignées à gauche, « fleur » tombe sur la blanche de la mesure suivante."},
-{"v":"Ab4h re Ab4e C5e Bb4e","ly":"fleur Gar- dait tou-","rh":"C4+Eb4+Ab4e C4+Eb4+Ab4 C4+Eb4+Ab4e Db4+Ab4e Db4+Ab4 Db4+Ab4e","lh":"rh F3e F3 F3e // F3h Bb2h","doubt":"Chant : bémol de précaution sur Ab4. MG : F3 blanche hampe bas puis Bb2 blanche ; voix haute sans silence imprimé sur les temps 1-2 (rh ajouté)."},
-{"v":"Ab4h Ab4e Ab4e C5e Bb4e","ly":"jours sa dou- ce o-","rh":"D4+Ab4e D4+Ab4 D4+Ab4e Eb4+Ab4e Eb4+Ab4 E4+Ab4e","lh":"F3e F3 F3e Gb3e Gb3 Gb3e // B2h C3h","doubt":"Chant : arc Ab4 blanche → Ab4 croche lu comme liaison d'expression (syllabe « sa » sur la croche). MD : D♮4, puis E♮4 au dernier accord. MG : B♮2. Phrase continue p. 23."}
-]}
+{
+"page": 1,
+"measures": [
+{
+"meter": "3/4",
+"ks": -5,
+"tempo": "Andante",
+"marks": [
+"p espress."
+],
+"v": "rhd",
+"ly": "",
+"rh": "rhd",
+"lh": "re D4e E4e F4e G4e A4e",
+"doubt": "Page imprimée 22. Andante (♩=63) imprimé ; pas de portée de chant au 1er système (chant = silences). MG : clé de fa puis clé de sol après le demi-soupir ; liaison d'expression.",
+"bpm": 63
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D5+Bb5d* D6d*",
+"lh": "Bb4~ Bb4e A4e Gb4e A4e",
+"doubt": "MD : trémolo alterné (blanches pointées) accord D♮5+Bb5 / D♮6 ; soufflet de crescendo."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D5+Bb5d* D6d*",
+"lh": "F4 Bb1+Bb2e re Bb1+Bb2e re",
+"doubt": "MG : clé de fa après le 1er temps, octaves staccato, clé de sol en fin de mesure ; Ped. … * imprimés."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G5+Bb5d* G6d*",
+"lh": "F4~ F4e E4e Db4e E4e",
+"doubt": "MD : trémolo alterné G♮5+Bb5 / G♮6 (3 lignes suppl.) ; soufflet de crescendo."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Gb5+Bb5d* Gb6d*",
+"lh": "C4 Bb1+Bb2e re Bb1+Bb2e re",
+"doubt": "MG : C4 (ligne supplémentaire), clé de fa, octaves staccato, clé de sol ; Ped. … *."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F5+Bb5* F6* F5+D6e* F6e*",
+"lh": "Eb4~ Eb4e D4e Cb4e D4e",
+"doubt": "MD : trémolo alterné en blanches (F5+Bb5 / F6) puis en noires (F5+D♮6 / F6) ; soufflet de crescendo."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Fb5+Db6e* Fb6e* Eb5+C6e* Eb6e* Db5+Bb5e* Db6e*",
+"lh": "Bb3 C4 Db4 // G3hd",
+"doubt": "MD : trois trémolos alternés en noires (Fb5 lu avec bémol sur la ligne du fa). MG : Bb3 hampe haut + G♮3 blanche pointée hampe bas ; ♮ de précaution sur C4."
+},
+{
+"v": "rhd",
+"ly": "",
+"marks": [
+"dim."
+],
+"rh": "C5+Gb5+Ab5e* C6e* C5+Gb5+Ab5e re r",
+"lh": "F4h Eb4 // Ab3~ Ab3e re r",
+"doubt": "MD : 1er accord en trémolo alterné (noires) avec C6. MG : Ab3 avec tenuto, liés."
+},
+{
+"meter": "4/4",
+"tempo": "Andantino",
+"marks": [
+"p con amore",
+"pp"
+],
+"v": "F5 Db5e Ab4e F4e E4e F4e C5e",
+"ly": "La fleur que tu m'a- vais je-",
+"rh": "Ab4+F5e Ab4+F5 Ab4+F5e Bb4+F5e Bb4+F5 Bb4+F5e",
+"lh": "Db4w",
+"doubt": "Andantino (♩=69), C. Chant : un point est imprimé après F4 mais la dernière note (C5) n'a qu'un crochet et s'aligne sur le dernier accord du piano (4e temps et demi) → lu croches simples (sinon F4ed C5s). MG : longue liaison.",
+"bpm": 66
+},
+{
+"v": "Bb4h Ab4e re Ab4",
+"ly": "té- e, Dans",
+"rh": "Eb4+Bb4+Eb5e Eb4+Bb4+Eb5 Eb4+Bb4+Eb5e Eb4+Ab4+Eb5e Eb4+Ab4+Eb5 Eb4+Ab4+Eb5e",
+"lh": "C4w",
+"doubt": "Chant : liaison Bb4→Ab4 (deux syllabes). MG : longue liaison d'expression."
+},
+{
+"v": "Db5e Db5e Db5~ Db5e F5e Eb5e Bb4e",
+"ly": "ma pri- son, m'é- tait res-",
+"rh": "F4+Ab4+Db5e F4+Ab4+Db5 F4+Ab4+Db5e Eb4+Gb4+Db5e Eb4+Gb4+Db5 Eb4+Gb4+Db5e",
+"lh": "Bb3h Eb3h",
+"doubt": "Chant : Db5 « son » lié à la croche suivante (trait de mélisme) ; bémol de précaution sur Eb5. MG : clé de fa avant la 2e blanche."
+},
+{
+"v": "C5h C5e re Db5",
+"ly": "té- e, Flé-",
+"rh": "Eb4+Gb4+C5e Eb4+Gb4+C5 Eb4+Gb4+C5e Db4+F4+C5e Db4+F4+C5 Db4+F4+C5e",
+"lh": "Ab3w",
+"doubt": "Chant : arc C5→C5 lu comme liaison d'expression (deux syllabes « té-e »)."
+},
+{
+"v": "C5e A4e Bb4~ Bb4e Eb5e C5e Bb4e",
+"ly": "trie et sè- che, cet- te",
+"rh": "Db4+F4+Bb4e Db4+F4+Bb4 Db4+F4+Bb4e C4+Eb4+Bb4e C4+Eb4+Bb4 C4+Eb4+Bb4e",
+"lh": "Gb3w",
+"doubt": "Chant : A♮4 ; Bb4 « sè » lié à la croche suivante (le tiret couvre la croche) ; syllabes alignées à gauche, « fleur » tombe sur la blanche de la mesure suivante."
+},
+{
+"v": "Ab4h re Ab4e C5e Bb4e",
+"ly": "fleur Gar- dait tou-",
+"rh": "C4+Eb4+Ab4e C4+Eb4+Ab4 C4+Eb4+Ab4e Db4+Ab4e Db4+Ab4 Db4+Ab4e",
+"lh": "rh F3e F3 F3e // F3h Bb2h",
+"doubt": "Chant : bémol de précaution sur Ab4. MG : F3 blanche hampe bas puis Bb2 blanche ; voix haute sans silence imprimé sur les temps 1-2 (rh ajouté)."
+},
+{
+"v": "Ab4h Ab4e Ab4e C5e Bb4e",
+"ly": "jours sa dou- ce o-",
+"rh": "D4+Ab4e D4+Ab4 D4+Ab4e Eb4+Ab4e Eb4+Ab4 E4+Ab4e",
+"lh": "F3e F3 F3e Gb3e Gb3 Gb3e // B2h C3h",
+"doubt": "Chant : arc Ab4 blanche → Ab4 croche lu comme liaison d'expression (syllabe « sa » sur la croche). MD : D♮4, puis E♮4 au dernier accord. MG : B♮2. Phrase continue p. 23."
+}
+]
+}
