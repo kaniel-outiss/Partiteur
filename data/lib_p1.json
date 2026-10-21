@@ -1,0 +1,453 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"ks": -1,
+"tempo": "Moderato",
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rw",
+"lb": "",
+"orc": "D2 D2 r D2",
+"doubt": "Chiffrage imprimé ¢ (alla breve), noté 4/4."
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rw",
+"lb": "",
+"orc": "D2 D2 r D2"
+},
+{
+"marks": [
+"Solo"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3h~ D3d A3e",
+"lb": "Li- be-",
+"orc": "D2 D2 r D2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h G3h",
+"lb": "ra me",
+"orc": "E2 E2 r E2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "Bb3d Bb3e A3h~",
+"lb": "Do- mi- ne",
+"orc": "F2 F2 r F2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h A3h",
+"lb": "de",
+"orc": "F#2 F#2 r F#2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h D3d E3e",
+"lb": "mor- te æ-",
+"orc": "G2 G2 r G2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "F3h E3h",
+"lb": "ter- _",
+"orc": "A2 A2 r A2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3w",
+"lb": "na",
+"orc": "D3 D3 r D3"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rh D3h",
+"lb": "in",
+"orc": "D3 D3 r D3"
+},
+{
+"marks": [
+"[A]"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3hd D3",
+"lb": "di- e",
+"orc": "G2 G2 r G2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D4h C4 Bb3",
+"lb": "il- la tre-",
+"orc": "G2 G2 r G2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "C4h F3h~",
+"lb": "men- da",
+"orc": "A2 A2 r A2"
+},
+{
+"marks": [
+"p"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "F3 F3 G3 A3",
+"lb": "in di- e",
+"orc": "B2 B2 r B2",
+"doubt": "Orchestre : B♮2 (bécarre imprimé)."
+},
+{
+"marks": [
+"cresc. (<)"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3w~",
+"lb": "il-",
+"orc": "C3 C3 r C3"
+},
+{
+"marks": [
+"decresc. (>)"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h G3h",
+"lb": "_",
+"orc": "D3 D3 r D3"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3w",
+"lb": "la",
+"orc": "A2 A2 r A2"
+},
+{
+"marks": [
+"p"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rh A3d A3e",
+"lb": "quan- do",
+"orc": "F2 F2 r F2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "A3h G3 A3",
+"lb": "cæ- li mo-",
+"orc": "Bb2 Bb2 r Bb2"
+},
+{
+"marks": [
+"[B]"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "Bb3hd Bb3",
+"lb": "ven- di",
+"orc": "G2 G2 r G2"
+},
+{
+"marks": [
+"cresc."
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "Bb3h A3 Bb3",
+"lb": "sunt quan- do",
+"orc": "C3 C3 r C3"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "C4hd C4",
+"lb": "cæ- li",
+"orc": "A2 A2 r A2"
+},
+{
+"marks": [
+"cresc. (<)"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "C4h Bb3 C4",
+"lb": "mo- ven- di",
+"orc": "D3 D3 r D3"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D4hd D4",
+"lb": "sunt et",
+"orc": "B2 B2 r B2",
+"doubt": "Orchestre : B♮2 (bécarre imprimé)."
+},
+{
+"marks": [
+"f"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D4h E3h",
+"lb": "ter- ra",
+"orc": "E3 E3 r E3"
+},
+{
+"marks": [
+"sempre f"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rh A3h",
+"lb": "dum",
+"orc": "A2 A2 r A2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D4h~ D4d D3e",
+"lb": "ve- ne-",
+"orc": "D2 D2 r D2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3h D3 E3",
+"lb": "ris ju- di-",
+"orc": "G2 G2 r G2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "F3w~",
+"lb": "ca",
+"orc": "A2 A2 r A2"
+},
+{
+"marks": [
+"sempre f"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "F3 F3 E3 D3",
+"lb": "re sæ- cu-",
+"orc": "B2 B2 r B2",
+"doubt": "Orchestre : B♮2 (bécarre imprimé)."
+},
+{
+"marks": [
+"poco rall."
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "B3hd D4",
+"lb": "lum per",
+"orc": "E2 E2 r E2",
+"doubt": "Basse : B♮3 (bécarre imprimé)."
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "E3w",
+"lb": "ig-",
+"orc": "A2 A2 r A2"
+},
+{
+"marks": [
+"a tempo"
+],
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3w~",
+"lb": "nem.",
+"orc": "D2 D2 r D2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "D3h rh",
+"lb": "",
+"orc": "D2 D2 r D2"
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rw",
+"lb": "",
+"orc": "D2 D2 r C#4",
+"doubt": "Orchestre : passage en clé de sol avant le dernier temps (C#4)."
+},
+{
+"s": "rw",
+"ls": "",
+"a": "rw",
+"la": "",
+"t": "rw",
+"lt": "",
+"b": "rw",
+"lb": "",
+"orc": "D4 E4 F4 G4",
+"doubt": "Orchestre en clé de sol : D4 E4 F4 G4."
+}
+]
+}
