@@ -19,3 +19,4 @@ scan/npa/ag*/
 scan/npa/*.png
 scan/*/ag*/
 __pycache__/
+scan/mes/lo-*.png
