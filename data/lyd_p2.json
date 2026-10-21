@@ -1,0 +1,130 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "A4e G4e F4~ F4e G4e A4e F4e",
+   "ly": "i- _ de que tu dé-",
+   "rh": "A4e G4e F4 F4e G4e A4e F4e // Eb4 E4 D4 D4",
+   "lh": "C4e Bb3e A3 A3e G3e F3 // F3 F3 Bb2 B2",
+   "doubt": "Page imprimée 99. Suite de « flu-i-de » (p. 98). Signe de respiration (,) entre F4 et F4e lié au chant ; liaison F4~F4e lue comme prolongation. Soufflets cresc./decresc."
+  },
+  {
+   "v": "A4h G4 r",
+   "ly": "nou- es;",
+   "rh": "C4+A4 F4+A4 E4+G4 C5",
+   "lh": "C3+F3 B3+D4 C4 D4+F4"
+  },
+  {
+   "v": "C5 D5e D5e D5d E5e",
+   "ly": "Le jour qui luit est",
+   "rh": "C5 D5 C5+D5 D5e E5e // E4+G4 F4+A4 F#4+A4 G4+Bb4",
+   "lh": "rw",
+   "doubt": "MG : portée vide imprimée (aucun silence visible) → rw. Répartition des voix MD incertaine au 3e temps (C5+D5 en seconde)."
+  },
+  {
+   "v": "E5d F5e C5h",
+   "ly": "le meil- leur,",
+   "rh": "E5 E5e F5e C5 C5 // A4+C5 G4+Bb4 F4+A4 G4",
+   "lh": "C4 C4 C4 Bb3+E4",
+   "doubt": "Respiration (,) en fin de mesure. Point (staccato ?) sous le 3e C4 MG."
+  },
+  {
+   "v": "D5e C5e Bb4 A4e G4e Bb4e A4e",
+   "ly": "Ou- bli- ons l'é- ter- nel- le",
+   "rh": "D5e C5e Bb4 A4e G4e Bb4e A4e // F#4 G4h G4",
+   "lh": "A3+Eb4 Bb3+D4 C4+Eb4 D4",
+   "doubt": "MG 3e temps : bémol non réimprimé, Eb4 par l'altération du 1er temps."
+  },
+  {
+   "v": "A4h G4h",
+   "ly": "tom- be.",
+   "rh": "A4 A4 G4 r // G4 F#4 G4 F4e E4e",
+   "lh": "D4 C4 Bb3 A3 // D3 D3 G3 C#3",
+   "doubt": "Bécarre imprimé sur F4 (annule le F#4). Respiration (,) en fin de mesure."
+  },
+  {
+   "v": "F4e F4e A4e Bb4e C5 C5e C5e",
+   "ly": "Lais- se tes bai- sers, tes bai-",
+   "rh": "F4 A4e Bb4e C5 C5~ // D4 F4 G4 A4~",
+   "lh": "D3+A3 D4 C4+E4 A3+F4",
+   "doubt": "Liaison de prolongation de l'accord A4+C5 vers la mesure suivante."
+  },
+  {
+   "marks": [
+    "dolce"
+   ],
+   "v": "C5e3 D5e3 C5e3~ C5e Bb4e Bb4e3 C5e3 Bb4e3~ Bb4e A4e",
+   "ly": "sers _ de co- lom- _ _ be",
+   "rh": "A4+C5e3 Bb4+D5e3 A4+C5e3~ A4+C5e G4+Bb4e~ G4+Bb4e3 A4+C5e3 G4+Bb4e3~ G4+Bb4e F4+A4e",
+   "lh": "G3+D4 C4+E4 F3+C4 A3+C4",
+   "doubt": "Paroles imprimées « cblom - be » (coquille pour « co-lom-be »). Hauteur de la 1re note chant (C5 vs D5) un peu ambiguë. Liaisons MD lues comme prolongations."
+  },
+  {
+   "v": "G4e A4e Bb4e C5e Eb5e Db5e C5",
+   "ly": "Chan- ter sur ta lè- vre‿en fleur,",
+   "rh": "G4e A4e Bb4e C5e Eb5e Db5e C5 // F4h F4 F4",
+   "lh": "Bb3+Db4d A3+C4e G3+Bb3 A3+C4",
+   "doubt": "« lèvreen » imprimé collé : élision vre‿en sur une note."
+  },
+  {
+   "marks": [
+    "rall."
+   ],
+   "v": "r F4e F4e A4d G4e",
+   "ly": "sur ta lè- vre‿en",
+   "rh": "r F4 F4+A4d E4+G4e",
+   "lh": "F3e G3e A3e Bb3e Db4e C4e Bb3 // r Db3 Bb2 C3",
+   "doubt": "7 syllabes pour 4 notes impossibles : élision vre‿en supposée sur G4e (paroles imprimées « lèvre en »)."
+  },
+  {
+   "marks": [
+    "a tempo",
+    "Ped."
+   ],
+   "v": "F4h rh",
+   "ly": "fleur.",
+   "rh": "F4 C4+F4h C4+F4",
+   "lh": "F2+A3 F3+A3h F3+A3",
+   "doubt": "MG : F2 noire (hampe en bas) sous A3 ; rien d'autre dans cette voix."
+  },
+  {
+   "marks": [
+    "p",
+    "pp sempre"
+   ],
+   "v": "rh r F4",
+   "ly": "Un",
+   "rh": "C4+F4 C4+F4 C4+F4 C4+F4",
+   "lh": "F3+A3 F3+A3 F3+A3 F3+A3",
+   "doubt": "Staccatos sous liaison (MD et MG)."
+  },
+  {
+   "v": "F4e G4e A4h F4",
+   "ly": "lys ca- ché ré-",
+   "rh": "F4e G4e A4 A4 F4 // C4 F4 F4 C4",
+   "lh": "A3e Bb3e C4 C4 A3 // F3 F3 F3 F3",
+   "doubt": "Staccatos sous liaison aux temps 2-4."
+  },
+  {
+   "v": "G4e A4e B4h G4",
+   "ly": "pand sans ces- se",
+   "rh": "G4e A4e B4 B4 G4 // D4 G4 G4 D4",
+   "lh": "B3e C4e D4 D4 B3 // F3 F3 F3 F3",
+   "doubt": "Bécarre sur B (chant, MD, MG). Respiration (,) en fin de mesure. Staccatos."
+  },
+  {
+   "v": "A4e B4e C5e D5e E5 B4e D5e",
+   "ly": "U- ne‿o- deur di- vi- ne‿en ton",
+   "rh": "A4e B4e C5e D5e E5 B4e D5e // Eb4 A4 A4 G#4",
+   "lh": "C4e B3e A3 B3 D4e B3e // F3 F3 E3 E3",
+   "doubt": "Élisions une‿odeur, divine‿en (7 notes). B♮ valable toute la mesure (2e B4/B3 sans altération). Bécarre de précaution sur E5 MD."
+  },
+  {
+   "v": "C5w",
+   "ly": "sein;",
+   "rh": "C5w // E4 G4e Bb4e A4 E4e G4e",
+   "lh": "C4 C4 C4 G3e Bb3e // A3 E3e G3e F3 C3"
+  }
+ ]
+}
