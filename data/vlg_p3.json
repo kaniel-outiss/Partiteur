@@ -1,0 +1,20 @@
+{"page":3,"measures":[
+ {"meter":"2/4","ks":1,"marks":["affrett.","col canto"],"v":"re F#4e B4e A#4e","ly":"in u- na","rh":"re B3+D4+F#4e D4+F#4+B4e C#4+E4+A#4e","lh":"F#1+F#2h","doubt":"Page imprimée 170, mesures 34-51 (n° 34 imprimé). Mesure 2/4 héritée de la p. 169. Accent ^ sur l'octave grave m.g."},
+ {"v":"D5 C#5e B4e","ly":"smor- fia_il sin-","rh":"F#4+B4+D5 E4+A#4+C#5e D4+G4+B4e","lh":"F#1 F#2","doubt":"Bécarre de courtoisie sur le sol (G4) du dernier accord m.d."},
+ {"v":"E5s E5s re D#5ed C#5s","ly":"ghioz- zo e'l do-","rh":"E5 D#5ed C#5s // G4+C#5 D#4+A4","lh":"B1 B2","doubt":"M.d. : 1er accord G4+C#5+E5 (noire, hampe commune) ; 2e temps D#4+A4 (bécarre sur A) en noire sous D#5 croche pointée – C#5 double."},
+ {"marks":["cresc.","rit."],"v":"F#5 F#5~","ly":"lor... Ah!","rh":"A4+C5+F#5h","lh":"re F#4e E4e C4e // B1+B2h","doubt":"Bécarre sur do (C5) m.d. ; m.g. voix haute en clé de fa sur lignes supp. (F#4 E4 C4) avec accents ^ ; « rit. » avec ligne au-dessus du chant m.37-38."},
+ {"marks":["poco rit."],"v":"F#5h","ly":"_","rh":"A4+D#5+F#5h","lh":"A3e F#3e D#3e B2e","doubt":"Accents ^ sur les 4 croches m.g."},
+ {"marks":["a piena voce, straziante","f","molto rit."],"v":"G5 F#5ed E5s","ly":"Ri- di, Pa-","rh":"A4+C5+E5+G5 F#5ed E5s","lh":"A1+A2 A3+C4+E4+F#4","doubt":"Accents > sur G5, F#5 ; liaison E5 → G5 (m.40). Accord aigu m.g. : E4 et F#4 en seconde (têtes décalées)."},
+ {"v":"G5 F#5","ly":"gliac- cio,","rh":"A4+C5+G5 F#5","lh":"A1+A2 A3+C4+E4+F#4","doubt":"Liaison G5-F#5 (chant et m.d.)."},
+ {"v":"re3 F#5e3 G5e3 A5e3 G5ed3 F#5s3","ly":"sul tuo a- mo- re_in-","rh":"re3 E5+F#4+F#5e3 G4+G5e3 E5+A4+A5e3 G4+G5ed3 F#4+F#5s3","lh":"C2+C3 A3+C4+F#4","doubt":"Deux triolets avec accents >. M.d. : voix inférieure (deux soupirs-croches imprimés en haut et en bas) ; E5 en voix intérieure hampe en bas sur 1re note de chaque triolet, durée exacte incertaine (noire ?) — notée comme note d'accord. Accord aigu m.g. sans E4 ici."},
+ {"v":"A5 G5","ly":"fran- to!","rh":"A4+A5 G4+G5 // B4+E5h","lh":"B1+B2 B3+E4","doubt":"Accent > sur A5 ; liaison A5-G5 ; respiration (virgule) après G5 au chant."},
+ {"marks":["con grande espressione"],"v":"F#5 E5ed C5s","ly":"Ri- di del","rh":"F#5 E5ed C5s // F#4+C5h","lh":"A1+A2 F#3+A3+E4","doubt":"Accent > sur F#5 (chant et m.d.)."},
+ {"v":"B4 F#4e3 G4e3 A4e3","ly":"duol che t'av- ve-","rh":"B3+E4+G4+B4 F#4e3 G4e3 A4e3 // B3+E4+G4+B4 B3+E4","lh":"B1 B2","doubt":"Accents > sur le triolet du chant, tenuto sur le triolet m.d. ; voix inférieure m.d. B3+E4 (noire hampe en bas)."},
+ {"v":"B4 B4e B4e","ly":"le- na il","rh":"A3+D#4+F#4+B4! A3+D#4","lh":"B1 B2","doubt":"Accord arpégé m.d. (dièse sur ré). Respiration (virgule) avant le dernier B4, accent > sur « il ». Double barre à la fin."},
+ {"meter":"3/4","ks":4,"marks":["Lo stesso movimento","cantabile con molta espressione","mf","sonoro","m.d."],"v":"B4h~ B4e re","ly":"cor!","rh":"E4h D#4ed G#3s","lh":"re E3+G#3 E3+G#3 E3+G#3e // E2+B2hd","doubt":"Soufflet (decresc.) au-dessus de B4 au chant. « m.d. » sous mf : accords de la portée inférieure à jouer par la m.d. ?"},
+ {"v":"rhd","rh":"B3hd","lh":"re E3+G#3 E3+G#3 E3+G#3e // E2+B2hd"},
+ {"marks":["marcato il canto"],"v":"rhd","rh":"G#3+E4+B4hd!~","lh":"E3h D#3ed G#2s // E2+B2e E2+B2d r","doubt":"Accord arpégé, chaque note liée vers m.49 (prolongation)."},
+ {"v":"rhd","rh":"G#3+E4+B4e re r r","lh":"B2d re r // E2h D#2ed G#1s"},
+ {"v":"rhd","rh":"rhd","lh":"B1hd"},
+ {"v":"rhd","rh":"rhd","lh":"E1hd","doubt":"Double barre finale ; fin de l'air."}
+]}
