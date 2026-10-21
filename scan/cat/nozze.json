@@ -1,0 +1,727 @@
+{
+ "file": "nozze.pdf",
+ "edition": "Bärenreiter BA 4565-90 (Urtext NMA, réd. Eugen Epplée)",
+ "offset": "page PDF = page imprimée + 10 (vérifié p.10→PDF20, 90→100, 290→300, 442→452, 557→567)",
+ "pieces": [
+  {
+   "n": null,
+   "type": "Sinfonia",
+   "title": "Sinfonia",
+   "voices": null,
+   "act": null,
+   "page": 1,
+   "pdf_from": 11,
+   "pdf_to": 20
+  },
+  {
+   "n": "Nr. 1",
+   "type": "Duettino",
+   "title": "Cinque... dieci... venti...",
+   "voices": "Susanna (soprano), Figaro (basse)",
+   "act": 1,
+   "page": 11,
+   "pdf_from": 21,
+   "pdf_to": 29
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Cosa stai misurando",
+   "voices": "Susanna (soprano), Figaro (basse)",
+   "act": 1,
+   "page": 20,
+   "pdf_from": 30,
+   "pdf_to": 31
+  },
+  {
+   "n": "Nr. 2",
+   "type": "Duettino",
+   "title": "Se a caso madama la notte ti chiama",
+   "voices": "Susanna (soprano), Figaro (basse)",
+   "act": 1,
+   "page": 22,
+   "pdf_from": 32,
+   "pdf_to": 40
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Or bene; ascolta, e taci!",
+   "voices": "Susanna (soprano), Figaro (basse)",
+   "act": 1,
+   "page": 31,
+   "pdf_from": 41,
+   "pdf_to": 46
+  },
+  {
+   "n": "Nr. 3",
+   "type": "Cavatina",
+   "title": "Se vuol ballare signor Contino",
+   "voices": "Figaro (basse)",
+   "act": 1,
+   "page": 37,
+   "pdf_from": 47,
+   "pdf_to": 51
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Ed aspettaste il giorno fissato a le sue nozze",
+   "voices": "Bartolo (basse), Marcellina (soprano)",
+   "act": 1,
+   "page": 42,
+   "pdf_from": 52,
+   "pdf_to": 54
+  },
+  {
+   "n": "Nr. 4",
+   "type": "Aria",
+   "title": "La vendetta, oh la vendetta!",
+   "voices": "Bartolo (basse)",
+   "act": 1,
+   "page": 45,
+   "pdf_from": 55,
+   "pdf_to": 61
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Tutto ancor non ho perso",
+   "voices": "Marcellina (soprano), Susanna (soprano)",
+   "act": 1,
+   "page": 52,
+   "pdf_from": 62,
+   "pdf_to": 63
+  },
+  {
+   "n": "Nr. 5",
+   "type": "Duettino",
+   "title": "Via resti servita, madama brillante",
+   "voices": "Susanna (soprano), Marcellina (soprano)",
+   "act": 1,
+   "page": 54,
+   "pdf_from": 64,
+   "pdf_to": 71
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Va' là, vecchia pedante",
+   "voices": "Susanna (soprano), Cherubino (soprano)",
+   "act": 1,
+   "page": 62,
+   "pdf_from": 72,
+   "pdf_to": 76
+  },
+  {
+   "n": "Nr. 6",
+   "type": "Aria",
+   "title": "Non so più cosa son, cosa faccio",
+   "voices": "Cherubino (soprano)",
+   "act": 1,
+   "page": 67,
+   "pdf_from": 77,
+   "pdf_to": 83
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Ah son perduto!",
+   "voices": "Cherubino (soprano), Susanna (soprano), Comte (baryton), Basilio (ténor)",
+   "act": 1,
+   "page": 74,
+   "pdf_from": 84,
+   "pdf_to": 93
+  },
+  {
+   "n": "Nr. 7",
+   "type": "Terzetto",
+   "title": "Cosa sento! tosto andate",
+   "voices": "Susanna (soprano), Basilio (ténor), Comte (baryton)",
+   "act": 1,
+   "page": 84,
+   "pdf_from": 94,
+   "pdf_to": 113
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Basilio, in traccia tosto di Figaro volate",
+   "voices": "Comte (baryton), Susanna (soprano), Cherubino (soprano), Basilio (ténor)",
+   "act": 1,
+   "page": 104,
+   "pdf_from": 114,
+   "pdf_to": 116
+  },
+  {
+   "n": "Nr. 8",
+   "type": "Coro",
+   "title": "Giovani liete fiori spargete",
+   "voices": "Chœur",
+   "act": 1,
+   "page": 107,
+   "pdf_from": 117,
+   "pdf_to": 119
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Cos'è questa commedia?",
+   "voices": "Comte (baryton), Figaro (basse), Susanna (soprano)",
+   "act": 1,
+   "page": 110,
+   "pdf_from": 120,
+   "pdf_to": 123
+  },
+  {
+   "n": "Nr. 9",
+   "type": "Coro",
+   "title": "Giovani liete fiori spargete",
+   "voices": "Chœur",
+   "act": 1,
+   "page": 114,
+   "pdf_from": 124,
+   "pdf_to": 126
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Evviva!",
+   "voices": "Figaro (basse), Susanna (soprano), Basilio (ténor), Cherubino (soprano), Comte (baryton)",
+   "act": 1,
+   "page": 117,
+   "pdf_from": 127,
+   "pdf_to": 129
+  },
+  {
+   "n": "Nr. 10",
+   "type": "Aria",
+   "title": "Non più andrai farfallone amoroso",
+   "voices": "Figaro (basse)",
+   "act": 1,
+   "page": 120,
+   "pdf_from": 130,
+   "pdf_to": 139
+  },
+  {
+   "n": "Nr. 11",
+   "type": "Cavatina",
+   "title": "Porgi amor qualche ristoro",
+   "voices": "Comtesse (soprano)",
+   "act": 2,
+   "page": 130,
+   "pdf_from": 140,
+   "pdf_to": 142
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Vieni, cara Susanna",
+   "voices": "Comtesse (soprano), Susanna (soprano), Figaro (basse)",
+   "act": 2,
+   "page": 133,
+   "pdf_from": 143,
+   "pdf_to": 153
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Quanto duolmi, Susanna",
+   "voices": "Comtesse (soprano), Susanna (soprano), Cherubino (soprano)",
+   "act": 2,
+   "page": 144,
+   "pdf_from": 154,
+   "pdf_to": 156
+  },
+  {
+   "n": "Nr. 12",
+   "type": "Arietta",
+   "title": "Voi che sapete che cosa è amor",
+   "voices": "Cherubino (soprano)",
+   "act": 2,
+   "page": 147,
+   "pdf_from": 157,
+   "pdf_to": 161
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Bravo! che bella voce!",
+   "voices": "Comtesse (soprano), Susanna (soprano), Cherubino (soprano)",
+   "act": 2,
+   "page": 152,
+   "pdf_from": 162,
+   "pdf_to": 164
+  },
+  {
+   "n": "Nr. 13",
+   "type": "Aria",
+   "title": "Venite inginocchiatevi",
+   "voices": "Susanna (soprano)",
+   "act": 2,
+   "page": 155,
+   "pdf_from": 165,
+   "pdf_to": 172
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Quante buffonerie!",
+   "voices": "Comtesse (soprano), Susanna (soprano), Cherubino (soprano), [Comte (baryton)]",
+   "act": 2,
+   "page": 163,
+   "pdf_from": 173,
+   "pdf_to": 178
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Che novità!",
+   "voices": "Comte (baryton), Comtesse (soprano)",
+   "act": 2,
+   "page": 169,
+   "pdf_from": 179,
+   "pdf_to": 182
+  },
+  {
+   "n": "Nr. 14",
+   "type": "Terzetto",
+   "title": "Susanna or via sortite",
+   "voices": "Susanna (soprano), Comtesse (soprano), Comte (baryton)",
+   "act": 2,
+   "page": 173,
+   "pdf_from": 183,
+   "pdf_to": 196
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Dunque voi non aprite?",
+   "voices": "Comte (baryton), Comtesse (soprano)",
+   "act": 2,
+   "page": 187,
+   "pdf_from": 197,
+   "pdf_to": 198
+  },
+  {
+   "n": "Nr. 15",
+   "type": "Duettino",
+   "title": "Aprite presto aprite",
+   "voices": "Susanna (soprano), Cherubino (soprano)",
+   "act": 2,
+   "page": 189,
+   "pdf_from": 199,
+   "pdf_to": 204
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Oh guarda il demonietto!",
+   "voices": "Susanna (soprano)",
+   "act": 2,
+   "page": 195,
+   "pdf_from": 205,
+   "pdf_to": 205
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Tutto è come il lasciai",
+   "voices": "Comte (baryton), Comtesse (soprano)",
+   "act": 2,
+   "page": 195,
+   "pdf_from": 205,
+   "pdf_to": 208
+  },
+  {
+   "n": "Nr. 16",
+   "type": "Finale",
+   "title": "Esci omai garzon malnato",
+   "voices": "Susanna (soprano), Comtesse (soprano), Marcellina (soprano), Basilio (ténor), Comte (baryton), Antonio (basse), Bartolo (basse), Figaro (basse)",
+   "act": 2,
+   "page": 199,
+   "pdf_from": 209,
+   "pdf_to": 318
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Che imbarazzo è mai questo!",
+   "voices": "Comte (baryton), Comtesse (soprano), Susanna (soprano)",
+   "act": 3,
+   "page": 309,
+   "pdf_from": 319,
+   "pdf_to": 324
+  },
+  {
+   "n": "Nr. 17",
+   "type": "Duettino",
+   "title": "Crudel! perchè finora",
+   "voices": "Susanna (soprano), Comte (baryton)",
+   "act": 3,
+   "page": 315,
+   "pdf_from": 325,
+   "pdf_to": 332
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "E perchè fosti meco",
+   "voices": "Comte (baryton), Susanna (soprano), Figaro (basse)",
+   "act": 3,
+   "page": 323,
+   "pdf_from": 333,
+   "pdf_to": 334
+  },
+  {
+   "n": "Nr. 18",
+   "type": "Recitativo (ed Aria)",
+   "title": "Hai già vinta la causa!",
+   "voices": "Comte (baryton)",
+   "act": 3,
+   "page": 325,
+   "pdf_from": 335,
+   "pdf_to": 337
+  },
+  {
+   "n": "Nr. 18",
+   "type": "Aria",
+   "title": "Vedrò mentre io sospiro",
+   "voices": "Comte (baryton)",
+   "act": 3,
+   "page": 328,
+   "pdf_from": 338,
+   "pdf_to": 346
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "È decisa la lite",
+   "voices": "Don Curzio (ténor), Marcellina (soprano), Figaro (basse), Comte (baryton), Bartolo (basse)",
+   "act": 3,
+   "page": 337,
+   "pdf_from": 347,
+   "pdf_to": 351
+  },
+  {
+   "n": "Nr. 19",
+   "type": "Sestetto",
+   "title": "Riconosci in questo amplesso",
+   "voices": "Susanna (soprano), Marcellina (soprano), Don Curzio (ténor), Comte (baryton), Bartolo (basse), Figaro (basse)",
+   "act": 3,
+   "page": 342,
+   "pdf_from": 352,
+   "pdf_to": 370
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Eccovi, oh caro amico",
+   "voices": "Marcellina (soprano), Bartolo (basse), Susanna (soprano), Figaro (basse)",
+   "act": 3,
+   "page": 361,
+   "pdf_from": 371,
+   "pdf_to": 373
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Andiam, andiam, bel paggio",
+   "voices": "Barbarina (soprano), Cherubino (soprano)",
+   "act": 3,
+   "page": 364,
+   "pdf_from": 374,
+   "pdf_to": 375
+  },
+  {
+   "n": "Nr. 20",
+   "type": "Recitativo (ed Aria)",
+   "title": "E Susanna non vien!",
+   "voices": "Comtesse (soprano)",
+   "act": 3,
+   "page": 366,
+   "pdf_from": 376,
+   "pdf_to": 378
+  },
+  {
+   "n": "Nr. 20",
+   "type": "Aria",
+   "title": "Dove sono i bei momenti",
+   "voices": "Comtesse (soprano)",
+   "act": 3,
+   "page": 369,
+   "pdf_from": 379,
+   "pdf_to": 385
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Io vi dico signor",
+   "voices": "Antonio (basse), Comte (baryton)",
+   "act": 3,
+   "page": 376,
+   "pdf_from": 386,
+   "pdf_to": 386
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Cosa mi narri",
+   "voices": "Comtesse (soprano), Susanna (soprano)",
+   "act": 3,
+   "page": 377,
+   "pdf_from": 387,
+   "pdf_to": 388
+  },
+  {
+   "n": "Nr. 21",
+   "type": "Duettino",
+   "title": "Che soave zeffiretto",
+   "voices": "Susanna (soprano), Comtesse (soprano)",
+   "act": 3,
+   "page": 379,
+   "pdf_from": 389,
+   "pdf_to": 393
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Piegato è il foglio",
+   "voices": "Susanna (soprano), Comtesse (soprano)",
+   "act": 3,
+   "page": 384,
+   "pdf_from": 394,
+   "pdf_to": 394
+  },
+  {
+   "n": "Nr. 22",
+   "type": "Coro",
+   "title": "Ricevete, oh padroncina",
+   "voices": "Chœur (Soprano I, II)",
+   "act": 3,
+   "page": 385,
+   "pdf_from": 395,
+   "pdf_to": 397
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Queste sono, madama",
+   "voices": "Barbarina (soprano), Comtesse (soprano), Susanna (soprano), Antonio (basse), Comte (baryton), Cherubino (soprano), Figaro (basse)",
+   "act": 3,
+   "page": 388,
+   "pdf_from": 398,
+   "pdf_to": 406
+  },
+  {
+   "n": "Nr. 23",
+   "type": "Finale",
+   "title": "Ecco la marcia, andiamo",
+   "voices": "Susanna (soprano), Comtesse (soprano), Comte (baryton), Figaro (basse), Chœur [Soli: deux sopranos]",
+   "act": 3,
+   "page": 397,
+   "pdf_from": 407,
+   "pdf_to": 423
+  },
+  {
+   "n": "Nr. 24",
+   "type": "Cavatina",
+   "title": "L'ho perduta... me meschina",
+   "voices": "Barbarina (soprano)",
+   "act": 4,
+   "page": 414,
+   "pdf_from": 424,
+   "pdf_to": 425
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Barbarina cos'hai?",
+   "voices": "Figaro (basse), Barbarina (soprano), Marcellina (soprano)",
+   "act": 4,
+   "page": 416,
+   "pdf_from": 426,
+   "pdf_to": 431
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Presto avvertiam Susanna",
+   "voices": "Marcellina (soprano)",
+   "act": 4,
+   "page": 422,
+   "pdf_from": 432,
+   "pdf_to": 432
+  },
+  {
+   "n": "Nr. 25",
+   "type": "Aria",
+   "title": "Il capro e la capretta",
+   "voices": "Marcellina (soprano)",
+   "act": 4,
+   "page": 423,
+   "pdf_from": 433,
+   "pdf_to": 438
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Nel padiglione a manca",
+   "voices": "Barbarina (soprano), Figaro (basse), Basilio (ténor), Bartolo (basse)",
+   "act": 4,
+   "page": 429,
+   "pdf_from": 439,
+   "pdf_to": 443
+  },
+  {
+   "n": "Nr. 26",
+   "type": "Aria",
+   "title": "In quegl'anni, in cui val poco",
+   "voices": "Basilio (ténor)",
+   "act": 4,
+   "page": 434,
+   "pdf_from": 444,
+   "pdf_to": 453
+  },
+  {
+   "n": "Nr. 27",
+   "type": "Recitativo (ed Aria)",
+   "title": "Tutto è disposto",
+   "voices": "Figaro (basse)",
+   "act": 4,
+   "page": 444,
+   "pdf_from": 454,
+   "pdf_to": 455
+  },
+  {
+   "n": "Nr. 27",
+   "type": "Aria",
+   "title": "Aprite un po' quegl'occhi",
+   "voices": "Figaro (basse)",
+   "act": 4,
+   "page": 446,
+   "pdf_from": 456,
+   "pdf_to": 463
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Signora, ella mi disse",
+   "voices": "Susanna (soprano), Marcellina (soprano), Comtesse (soprano), Figaro (basse)",
+   "act": 4,
+   "page": 454,
+   "pdf_from": 464,
+   "pdf_to": 465
+  },
+  {
+   "n": "Nr. 28",
+   "type": "Recitativo (ed Aria)",
+   "title": "Giunse alfin il momento",
+   "voices": "Susanna (soprano)",
+   "act": 4,
+   "page": 456,
+   "pdf_from": 466,
+   "pdf_to": 467
+  },
+  {
+   "n": "Nr. 28",
+   "type": "Aria",
+   "title": "Deh vieni non tardar",
+   "voices": "Susanna (soprano)",
+   "act": 4,
+   "page": 458,
+   "pdf_from": 468,
+   "pdf_to": 470
+  },
+  {
+   "n": null,
+   "type": "Recitativo",
+   "title": "Perfida, e in quella forma meco mentia?",
+   "voices": "Figaro (basse), Cherubino (soprano), Comtesse (soprano)",
+   "act": 4,
+   "page": 461,
+   "pdf_from": 471,
+   "pdf_to": 471
+  },
+  {
+   "n": "Nr. 29",
+   "type": "Finale",
+   "title": "Pian pianin le andrò più presso",
+   "voices": "Susanna (soprano), Comtesse (soprano), Barbarina (soprano), Cherubino (soprano), Marcellina (soprano), Basilio (ténor), [Don Curzio (ténor)], Comte (baryton), Antonio (basse), [Bartolo (basse)], Figaro (basse)",
+   "act": 4,
+   "page": 462,
+   "pdf_from": 472,
+   "pdf_to": 532
+  },
+  {
+   "n": "Anh. 1 — Nr. 13a",
+   "type": "Arietta KV 579 (Vienne 1789)",
+   "title": "Un moto di gioia",
+   "voices": "Susanna (soprano)",
+   "act": "app.",
+   "page": 523,
+   "pdf_from": 533,
+   "pdf_to": 536
+  },
+  {
+   "n": "Anh. 2 — Nr. 15",
+   "type": "Version en récitatif",
+   "title": "Aprite presto aprite",
+   "voices": "Susanna (soprano), Cherubino (soprano)",
+   "act": "app.",
+   "page": 527,
+   "pdf_from": 537,
+   "pdf_to": 540
+  },
+  {
+   "n": "Anh. 3 — Nr. 18",
+   "type": "Aria (version Vienne 1789/1791)",
+   "title": "Vedrò mentre io sospiro",
+   "voices": "Comte (baryton)",
+   "act": "app.",
+   "page": 531,
+   "pdf_from": 541,
+   "pdf_to": 549
+  },
+  {
+   "n": "Anh. 4 — Nr. 23",
+   "type": "Finale (version sans Fandango, Vienne 1786)",
+   "title": "Andate amici!",
+   "voices": "Comte (baryton)",
+   "act": "app.",
+   "page": 540,
+   "pdf_from": 550,
+   "pdf_to": 552
+  },
+  {
+   "n": "Anh. 5 — Nr. 28",
+   "type": "Aria (version de la création, Vienne 1786)",
+   "title": "Deh vieni non tardar",
+   "voices": "Susanna (soprano)",
+   "act": "app.",
+   "page": 543,
+   "pdf_from": 553,
+   "pdf_to": 555
+  },
+  {
+   "n": "Anh. 6 — Nr. 28a",
+   "type": "Rondo KV 577 (Vienne 1789)",
+   "title": "Al desio di chi t'adora",
+   "voices": "Susanna (soprano)",
+   "act": "app.",
+   "page": 546,
+   "pdf_from": 556,
+   "pdf_to": 566
+  },
+  {
+   "n": "Anh. 7 — Nr. 12",
+   "type": "Arietta (avant Nr. 29 Finale, supprimée)",
+   "title": "Voi che intendete",
+   "voices": "Cherubino (soprano)",
+   "act": "app.",
+   "page": 557,
+   "pdf_from": 567,
+   "pdf_to": 568
+  }
+ ]
+}
