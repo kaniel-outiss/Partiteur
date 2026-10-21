@@ -1,0 +1,80 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "v": "rw",
+   "ly": "",
+   "meter": "4/4",
+   "rh": "B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s",
+   "lh": "G3+G2e F#3+F#2e G3+G2e F#3+F#2e G3+G2e F#3+F#2e G3+G2e F#3+F#2e",
+   "doubt": "page imprimée 175 OK ; système sans portée de chant ; coulés par paires ; point isolé après le dernier accord (tache ?)"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+B4+D5e G4+D5+F5e G4+C5+E5e A4+C5+D5e G4+C5+E5 G4+B4+D5ed C5s // rh r D4",
+   "lh": "G3+G2e B3+B2e C4+C3e F3+F2e G3+G2 G2+G1",
+   "doubt": "MD : ♮fa5 au 2e accord ; ré4 du temps 4 hampe en bas (noire) noté en 2e voix ; fin de l’introduction"
+  },
+  {
+   "marks": [
+    "p",
+    "Bass Solo"
+   ],
+   "v": "C3h E3 G3",
+   "ly": "Why do the",
+   "rh": "E4+G4+C5s C4s C4s C4s C4s C4s C4s C4s E4e E4e E4+G4e E4+G4e // rh rs C4s rs C4s rs C4s rs C4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "repère « A » imprimé ; doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes"
+  },
+  {
+   "v": "C4h C4 E4",
+   "ly": "na- tions so",
+   "rh": "C5e B4e C5e D5e C5+E5e C4s C4s C4s C4s C4s C4s // G4s E4s rs G4s rs A4s rs B4s rh",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; « na - - - tions » : tirets de prolongation sur la blanche"
+  },
+  {
+   "v": "C4 B3e A3e G3e F3e E3e D3e",
+   "ly": "fu- rious- ly rage _ to- _",
+   "rh": "C4e D5e E5e F5e E5+G5e C4s C4s C4s C4s C4s C4s // re rs B4s rs C5s rs D5s rh",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; chant : sol-fa et mi-ré liés (coulés)"
+  },
+  {
+   "v": "C3 C3 r C3",
+   "ly": "geth- er? why",
+   "rh": "C4e E5+G5e F5+A5e F5+B5e C6e G5s A5s G5s A5s G5s A5s // re rs C5s rs C5s rs D5s E5e E5e E5e E5e",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; coulés sol5-la5 par paires"
+  },
+  {
+   "v": "D3 G3 A3 A3e C4e",
+   "ly": "do the peo- ple im-",
+   "rh": "G5s A5s G5s A5s G5s A5s G5s A5s G5s A5s G5s A5s F#5s G5s F#5s A5s // D5e D5e D5e D5e C5e C5e A4e A4e",
+   "lh": "B2+B1e B2+B1e B2+B1e B2+B1e A2+A1e A2+A1e D3+D2e D3+D2e",
+   "doubt": "MD : coulés par paires de doubles croches"
+  },
+  {
+   "v": "B3 G3 B3 C#4",
+   "ly": "a- gine a vain",
+   "rh": "B4+G5e D5e E5e F#5e B4+G5e G4e G4e G4e // re rs B4s rs C5s rs A4s re rs B3s rs C#4s rs C#4s",
+   "lh": "G3+G2e G3+G2e G3+G2e G3+G2e E3+E2e E3+E2e E3+E2e E3+E2e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes"
+  },
+  {
+   "v": "D4h r D3",
+   "ly": "thing? Why",
+   "rh": "D4+F#4e F#4+A4e G4+B4e G4+C#5e F#4+D5e F#4e D4+F#4e D4+F#4e // re rs D4s rs D4s rs E4s re rs A3s rs A3s rs A3s",
+   "lh": "D3+D2e D3+D2e D3+D2e D3+D2e D3+D2e D3+D2e C3+C2e C3+C2e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; MG : ♮do3/♮do2 imprimés"
+  },
+  {
+   "v": "G3d B3e A3d C4e",
+   "ly": "do the na- tions",
+   "rh": "D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s D4s",
+   "lh": "B2+B1e B2+B1e G3+G2e G3+G2e F#3+F#2e F#3+F#2e D3+D2e D3+D2e",
+   "doubt": "« na - - - tions »"
+  }
+ ]
+}

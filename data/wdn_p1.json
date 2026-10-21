@@ -1,0 +1,92 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "v": "rw",
+   "ly": "",
+   "meter": "4/4",
+   "tempo": "Allegro",
+   "marks": [
+    "f"
+   ],
+   "rh": "C4s C4s C4s C4s C4s C4s C4s C4s E4e E4e E4+G4e E4+G4e // rh rs C4s rs C4s rs C4s rs C4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "tempo imprimé « Allegro (♩ = 112) » ; doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; page imprimée 174 OK"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "E4+G4+C5e B4e C5e D5e C5+E5e C4s C4s C4s C4s C4s C4s // re rs G4s rs A4s rs B4s rh",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C4e D5e E5e F5e E5+G5e C4s C4s C4s C4s C4s C4s // re rs B4s rs C5s rs D5s rh",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; si4 (voix basse, 2e croche) peu net"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C4e E5+G5e F5+A5e F5+B5e E5+C6e C5e C5+E5e E5+G5e // re rs C5s rs C5s rs D5s re rs G4s rs G4s rs C5s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; accord temps 2,5 lu fa5+si5"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Bb5e E4e E4e G4e Bb4e E5e G5e G4+Bb4e // re rs C4s rs C4s rs E4s rs G4s rs Bb4s rs G4s rs E4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e C2+C3e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F4+A4e F5+A5e B5e C#6e F#5+D6e D5e D5+F#5e F#5+A5e // re rs C5s rs G5s rs G5s re rs A4s rs A4s rs D5s",
+   "lh": "F3+F2e F3+F2e E3+E2e E3+E2e D3+D2e D3+D2e D3+D2e D3+D2e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; ♮si5, ♯do6, ♯fa5 (vaut pour les fa5 suivants)"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F#5+A5+C6e F#4e F#4e F#4+A4e F#4+A4+C5e C5+F#5e C5+F#5+A5e A4+C5e // re rs D4s rs D4s rs D4s rs D4s rs A4s rs A4s rs F#4s",
+   "lh": "D3+D2e D3+D2e D3+D2e D3+D2e D3+D2e D3+D2e D3+D2e D3+D2e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; ♯fa5 et ♮do6 imprimés au 1er accord, ♯fa4 ensuite"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+B4e D5e E5e F#5e B4+G5e G4e B4e D5e // re rs B4s rs C5s rs A4s re rs D4s rs G4s rs B4s",
+   "lh": "G3+G2e G3+G2e G3+G2e G3+G2e G3+G2e G3+G2e G3+G2e G3+G2e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F5e B3e B3e D4e F4e B4e D5e F4e // re rs G3s rs G3s rs B3s rs D4s rs F4s rs D4s rs D4s",
+   "lh": "G2+G1e G2+G1e G2+G1e G2+G1e G2+G1e G2+G1e G2+G1e G2+G1e",
+   "doubt": "doubles hampes (note commune aux deux voix) : voix basse notée avec des silences sur les notes communes ; ♮fa5 imprimé ; MD en lignes supplémentaires (si3, sol3)"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "rs E4s C5+E5s E4s rs G4s C5+E5s G4s rs A4s C5+E5s A4s rs A4s C5+E5s A4s",
+   "lh": "C4+C3e C4+C3e B3+B2e B3+B2e A3+A2e A3+A2e G3+G2e G3+G2e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "rs A4s C5+E5s A4s rs A4s C5+E5s A4s rs A4s C5+E5s A4s rs A4s C5+E5s A4s",
+   "lh": "F#3+F#2e F#3+F#2e F#3+F#2e F#3+F#2e F#3+F#2e F#3+F#2e F#3+F#2e F#3+F#2e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s B4+D5s C5+E5s",
+   "lh": "G3+G2e F#3+F#2e G3+G2e F#3+F#2e G3+G2e F#3+F#2e G3+G2e F#3+F#2e",
+   "doubt": "MD : liaisons (coulés) par paires de doubles croches ; MG : petit trait ressemblant à une liaison au temps 3,5 (tache ?)"
+  }
+ ]
+}
