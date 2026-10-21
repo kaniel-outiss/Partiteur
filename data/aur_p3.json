@@ -1,121 +1,117 @@
 {
- "page": 3,
- "measures": [
-  {
-   "meter": "3/4",
-   "v": "Db5~ Db5e3 C5e3 Bb4e3 Ab4e3 G4e3 F4e3",
-   "ly": "nuit, _ rends moi tes men-",
-   "rh": "Db4+F4e Db4+F4e Db4+E4e Db4+E4e C4+F4e C4+F4e",
-   "lh": "G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e Ab3e Ab3e // r C3 F2",
-   "doubt": "Suite de la page précédente (« ô nuit, »). RH accords 3-4 : bécarre lu sur le mi (Db4+E4, le réb de l'accord 1 restant valable) — pourrait être sur le ré (D4+Eb4). Les accords LH (sol-sib, lab) sont reliés par les hampes au même ligature que la MD (accords répartis sur les 2 portées). Liaison de prolongation Db5 ; liaison de phrasé à la basse."
-  },
-  {
-   "marks": [
-    ">"
-   ],
-   "v": "G4~ G4e3 Ab4e3 G4e3 F4e3 G4e3 Ab4e3",
-   "ly": "son- _ _ _ _ _",
-   "rh": "D4+F4e D4+F4e D4+F4e D4+F4e D4+F4e D4+F4e",
-   "lh": "G3e G3e G3e G3e Ab3e Ab3e // B2h C3",
-   "doubt": "Soufflet decresc. (>) au chant et au piano. Arc G4–G4 lu comme liaison de prolongation."
-  },
-  {
-   "v": "G4h G4",
-   "ly": "ges, Re-",
-   "rh": "D4+F4e D4+F4e Eb4e Eb4e D4e D4e",
-   "lh": "G3e G3e G3+B3e G3+B3e G3+B3e G3+B3e // B2 G2 F2",
-   "doubt": "Respiration (,) entre parenthèses au chant avant « Re- »."
-  },
-  {
-   "marks": [
-    "cresc.",
-    "<"
-   ],
-   "v": "C5h C5",
-   "ly": "viens, re-",
-   "rh": "C4e C4e C4+D4e C4+D4e Bb3+C4+E4e Bb3+C4+E4e",
-   "lh": "G3e G3e F3e F3e r // Eb2 Ab2 G2",
-   "doubt": "Respiration (,). Voix sup. LH : 4 croches seulement (les accords 5-6 sont à la MD), silence de noire ajouté (non imprimé). Accords 5-6 MD : la note grave lue sib3 (entre si et la). Soufflet < entre les portées du piano (m.4-5)."
-  },
-  {
-   "v": "C5h C5ed D5s",
-   "ly": "viens ra- di-",
-   "rh": "C4+F4e C4+F4e C4+G4e C4+G4e C4+F#4+A4e C4+F#4+A4e",
-   "lh": "Ab3e Ab3e G3e G3e r // F2 Eb2 D2",
-   "doubt": "Respiration (,). Voix sup. LH : silence de noire ajouté (non imprimé). Dièse (fa) et bécarre (la) imprimés devant l'accord 5."
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "Eb5hd",
-   "ly": "eu-",
-   "rh": "Bb3+Eb4+Bb4e Bb3+Eb4+Bb4e Eb4+F4+C5e Eb4+F4+C5e C4+Eb4+F4e C4+Eb4+F4e",
-   "lh": "G2 A2h",
-   "doubt": "Accords 5-6 MD : amas peu net (une tête supplémentaire possible, ré4) ; lu C4+Eb4+F4."
-  },
-  {
-   "marks": [
-    ">"
-   ],
-   "v": "D5h D5",
-   "ly": "se, Re-",
-   "rh": "D4+F4+Ab4e D4+F4+Ab4e D4+F4+G4e D4+F4+G4e D4+F4e D4+F4e",
-   "lh": "rh Ab3e Ab3e // Bb2 B2h",
-   "doubt": "Soufflet decresc. au chant ; respiration (,). Bémol de précaution sur le la (accord 1 MD). Voix sup. LH : demi-pause ajoutée (non imprimée)."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "D5h C5",
-   "ly": "viens, ô",
-   "rh": "D4+F4e D4+F4e D4+F4e D4+F4e C4+Eb4e C4+Eb4e",
-   "lh": "Ab3e Ab3e G3e G3e G3e G3e // C3h C2",
-   "doubt": "p au chant et au piano (LH)."
-  },
-  {
-   "v": "Bb4d G4e Eb4e F4e",
-   "ly": "nuit mys- té- ri-",
-   "rh": "Eb4e Eb4e Eb4e Eb4e Eb4e Eb4e",
-   "lh": "G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e // Eb2h G1+G2~",
-   "doubt": "Respiration (,) après « nuit ». Blanche grave lue mib2 (une ligne supp.). Octave sol1-sol2 liée vers m.10-11."
-  },
-  {
-   "marks": [
-    "pp"
-   ],
-   "v": "G4~ G4e3 F4e3 Eb4e3 F4e3 G4e3 Ab4e3",
-   "ly": "eu- _ _ _ _ _",
-   "rh": "Eb4e Eb4e D4e D4e C4e C4e",
-   "lh": "F3+G3+B3e F3+G3+B3e F3+G3+B3e F3+G3+B3e Eb3+G3e Eb3+G3e // G1+G2hd~",
-   "doubt": "pp au chant et au piano. Arc G4–G4 lu comme liaison de prolongation."
-  },
-  {
-   "v": "G4hd",
-   "ly": "_",
-   "rh": "C4e C4e B3e B3e B3e B3e",
-   "lh": "D3+G3e D3+G3e D3+G3e D3+G3e D3+F3+G3e D3+F3+G3e // G1+G2hd"
-  },
-  {
-   "marks": [
-    "8"
-   ],
-   "v": "C4hd",
-   "ly": "se!",
-   "rh": "C4e C4e C4e C4e C4e C4e",
-   "lh": "Eb3+G3e Eb3+G3e Eb3+G3e Eb3+G3e Eb3+G3e Eb3+G3e // C2h C2",
-   "doubt": "« 8 » imprimé sous les do graves (octave inférieure ad lib. probablement) ; notes écrites transcrites."
-  },
-  {
-   "marks": [
-    "8"
-   ],
-   "v": "rhd",
-   "ly": "",
-   "rh": "C4h r",
-   "lh": "Eb3+G3h r // C2h r",
-   "doubt": "Pause (ronde) imprimée au chant = mesure entière, notée rhd. Double barre finale. Hampe MD du do4 reliée à l'accord LH."
-  }
- ]
+"page": 3,
+"measures": [
+{
+"meter": "3/4",
+"v": "Db5~ Db5e3 C5e3 Bb4e3 Ab4e3 G4e3 F4e3",
+"ly": "nuit, _ rends moi tes men-",
+"rh": "Db4+F4e Db4+F4e Db4+E4e Db4+E4e C4+F4e C4+F4e",
+"lh": "G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e Ab3e Ab3e // r C3 F2",
+"doubt": "Suite de la page précédente (« ô nuit, »). RH accords 3-4 : bécarre lu sur le mi (Db4+E4, le réb de l'accord 1 restant valable) — pourrait être sur le ré (D4+Eb4). Les accords LH (sol-sib, lab) sont reliés par les hampes au même ligature que la MD (accords répartis sur les 2 portées). Liaison de prolongation Db5 ; liaison de phrasé à la basse."
+},
+{
+"marks": [
+">"
+],
+"v": "G4~ G4e3 Ab4e3 G4e3 F4e3 G4e3 Ab4e3",
+"ly": "son- _ _ _ _ _",
+"rh": "D4+F4e D4+F4e D4+F4e D4+F4e D4+F4e D4+F4e",
+"lh": "G3e G3e G3e G3e Ab3e Ab3e // B2h C3",
+"doubt": "Soufflet decresc. (>) au chant et au piano. Arc G4–G4 lu comme liaison de prolongation."
+},
+{
+"v": "G4h G4",
+"ly": "ges, Re-",
+"rh": "D4+F4e D4+F4e Eb4e Eb4e D4e D4e",
+"lh": "G3e G3e G3+B3e G3+B3e G3+B3e G3+B3e // B2 G2 F2",
+"doubt": "Respiration (,) entre parenthèses au chant avant « Re- »."
+},
+{
+"marks": [
+"cresc.",
+"<"
+],
+"v": "C5h C5",
+"ly": "viens, re-",
+"rh": "C4e C4e C4+D4e C4+D4e Bb3+C4+E4e Bb3+C4+E4e",
+"lh": "G3e G3e F3e F3e r // Eb2 Ab2 G2",
+"doubt": "Respiration (,). Voix sup. LH : 4 croches seulement (les accords 5-6 sont à la MD), silence de noire ajouté (non imprimé). Accords 5-6 MD : la note grave lue sib3 (entre si et la). Soufflet < entre les portées du piano (m.4-5)."
+},
+{
+"v": "C5h C5ed D5s",
+"ly": "viens ra- di-",
+"rh": "C4+F4e C4+F4e C4+G4e C4+G4e C4+F#4+A4e C4+F#4+A4e",
+"lh": "Ab3e Ab3e G3e G3e r // F2 Eb2 D2",
+"doubt": "Respiration (,). Voix sup. LH : silence de noire ajouté (non imprimé). Dièse (fa) et bécarre (la) imprimés devant l'accord 5."
+},
+{
+"marks": [
+"f"
+],
+"v": "Eb5hd",
+"ly": "eu-",
+"rh": "Bb3+Eb4+Bb4e Bb3+Eb4+Bb4e Eb4+F4+C5e Eb4+F4+C5e C4+Eb4+F4e C4+Eb4+F4e",
+"lh": "G2 A2h",
+"doubt": "Accords 5-6 MD : amas peu net (une tête supplémentaire possible, ré4) ; lu C4+Eb4+F4."
+},
+{
+"marks": [
+">"
+],
+"v": "D5h D5",
+"ly": "se, Re-",
+"rh": "D4+F4+Ab4e D4+F4+Ab4e D4+F4+G4e D4+F4+G4e D4+F4e D4+F4e",
+"lh": "rh Ab3e Ab3e // Bb2 B2h",
+"doubt": "Soufflet decresc. au chant ; respiration (,). Bémol de précaution sur le la (accord 1 MD). Voix sup. LH : demi-pause ajoutée (non imprimée)."
+},
+{
+"marks": [
+"p"
+],
+"v": "D5h C5",
+"ly": "viens, ô",
+"rh": "D4+F4e D4+F4e D4+F4e D4+F4e C4+Eb4e C4+Eb4e",
+"lh": "Ab3e Ab3e G3e G3e G3e G3e // C3h C2",
+"doubt": "p au chant et au piano (LH)."
+},
+{
+"v": "Bb4d G4e Eb4e F4e",
+"ly": "nuit mys- té- ri-",
+"rh": "Eb4e Eb4e Eb4e Eb4e Eb4e Eb4e",
+"lh": "G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e G3+Bb3e // Eb2h G1+G2~",
+"doubt": "Respiration (,) après « nuit ». Blanche grave lue mib2 (une ligne supp.). Octave sol1-sol2 liée vers m.10-11."
+},
+{
+"marks": [
+"pp"
+],
+"v": "G4~ G4e3 F4e3 Eb4e3 F4e3 G4e3 Ab4e3",
+"ly": "eu- _ _ _ _ _",
+"rh": "Eb4e Eb4e D4e D4e C4e C4e",
+"lh": "F3+G3+B3e F3+G3+B3e F3+G3+B3e F3+G3+B3e Eb3+G3e Eb3+G3e // G1+G2hd~",
+"doubt": "pp au chant et au piano. Arc G4–G4 lu comme liaison de prolongation."
+},
+{
+"v": "G4hd",
+"ly": "_",
+"rh": "C4e C4e B3e B3e B3e B3e",
+"lh": "D3+G3e D3+G3e D3+G3e D3+G3e D3+F3+G3e D3+F3+G3e // G1+G2hd"
+},
+{
+"marks": [],
+"v": "C4hd",
+"ly": "se!",
+"rh": "C4e C4e C4e C4e C4e C4e",
+"lh": "Eb3+G3e Eb3+G3e Eb3+G3e Eb3+G3e Eb3+G3e Eb3+G3e // C1+C1+C2h C1+C2",
+"doubt": "« 8 » imprimé sous les do graves (octave inférieure ad lib. probablement) ; notes écrites transcrites. « 8 » sous le do grave : rendu en octave C1+C2."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "C4h r",
+"lh": "Eb3+G3h r // C1+C2h r",
+"doubt": "Pause (ronde) imprimée au chant = mesure entière, notée rhd. Double barre finale. Hampe MD du do4 reliée à l'accord LH. « 8 » sous le do grave : rendu en octave C1+C2."
+}
+]
 }
