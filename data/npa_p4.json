@@ -1,0 +1,99 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "ten."
+   ],
+   "v": "G3 E3ed G3s C4 G3ed C4s",
+   "ly": "bel- le tur- ban- do‿il ri-",
+   "rh": "G5 E5ed G5s C6 G5ed C6s",
+   "lh": "G3 E3ed G3s C4 G3ed C4s",
+   "doubt": "m.36 : 1re mesure de la page (numéro 36 imprimé)"
+  },
+  {
+   "marks": [
+    "mf",
+    "p"
+   ],
+   "v": "E4 C4h G3ed C4s",
+   "ly": "po- so, Nar- ci-",
+   "rh": "E6 C6h G5ed C6s",
+   "lh": "E4 C4h r"
+  },
+  {
+   "v": "G3 E3ed G3s F3 D3ed G3s",
+   "ly": "set- to‿A- don- ci- no d'a-",
+   "rh": "G5e re E5e re F5e re D5ed G5s",
+   "lh": "G3+C4+E4e G4e G3+C4+E4e G4e G3+B3+D4e F4e G3+B3+D4e F4e"
+  },
+  {
+   "v": "E3 r r C3ed E3s",
+   "ly": "mor, del- le",
+   "rh": "E5 C5+E5s D5+F5s E5+G5s D5+F5s C5+E5 C5ed E5s",
+   "lh": "C4+E4 C3+E3+C4 C3+E3+C4 C3ed E3s",
+   "doubt": "LH 1er temps lu C4+E4 (au-dessus de la portée)"
+  },
+  {
+   "marks": [
+    "ten."
+   ],
+   "v": "G3 E3ed G3s C4 G3ed C4s",
+   "ly": "bel- le tur- ban- do‿il ri-",
+   "rh": "G5 E5ed G5s C6 G5ed C6s",
+   "lh": "G3 E3ed G3s C4 G3ed C4s"
+  },
+  {
+   "marks": [
+    "mf",
+    "p"
+   ],
+   "v": "E4 C4h G3ed C4s",
+   "ly": "po- so, Nar- ci-",
+   "rh": "E6 C6h G5ed C6s",
+   "lh": "E4 C4h r"
+  },
+  {
+   "v": "G3 E3ed G3s F3 D3ed G3s",
+   "ly": "set- to‿A- don- ci- no d'a-",
+   "rh": "G5e re E5e re F5e re D5ed G5s",
+   "lh": "G3+C4+E4e G4e G3+C4+E4e G4e G3+B3+D4e F4e G3+B3+D4e F4e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C3 r rh",
+   "ly": "mor.",
+   "rh": "C5 C5+C6s B5s A5s G5s C5+C6e C5+C6e C5+C6s B5s A5s G5s",
+   "lh": "C4+E4 C3+C4e G3e C3+C4e C3+C4e C3+C4e G3e"
+  },
+  {
+   "v": "r C4e G3e C4e G3e C4e G3e",
+   "ly": "Tra guer- rie- ri, pof- far",
+   "rh": "C5+C6 C5+E5+G5+C6e B4+D5+G5+B5e C5+E5+G5+C6e B4+D5+G5+B5e C5+E5+G5+C6e B4+D5+G5+B5e",
+   "lh": "C3+C4 C4+E4e G3+D4e C4+E4e G3+D4e C4+E4e G3+D4e",
+   "doubt": "accords croches RH lus C5+E5+G5+C6 / B4+D5+G5+B5 ; LH G3+D4 (tête au-dessus du 1er trait supplémentaire)"
+  },
+  {
+   "v": "C4e C4e r rh",
+   "ly": "Bac- co!",
+   "rh": "C5+E5+G5+C6 C5+C6s B5s A5s G5s C5+C6e C5+C6e C5+C6s B5s A5s G5s",
+   "lh": "C4+E4 C3+C4e G3e C3+C4e C3+C4e C3+C4e G3e"
+  },
+  {
+   "v": "r C4e G3e C4e G3e C4e G3e",
+   "ly": "Gran mu- stac- chi, stret- to",
+   "rh": "C5+C6 C5+E5+G5+C6e B4+D5+G5+B5e C5+E5+G5+C6e B4+D5+G5+B5e C5+E5+G5+C6e B4+D5+G5+B5e",
+   "lh": "C3+C4 C4+E4e G3+D4e C4+E4e G3+D4e C4+E4e G3+D4e"
+  },
+  {
+   "v": "C4e C4e r r C4e C4e",
+   "ly": "sac- co, schiop- po‿in",
+   "rh": "C5+E5+G5+C6 C5+E5ed C5+E5+G5s C5+E5+G5+C6 r",
+   "lh": "C4+E4 C3+E3+G3+C4ed C3+E3+G3+C4s C3+E3+G3+C4 r",
+   "doubt": "m.47 : dernière de la page, l'air continue page suivante"
+  }
+ ]
+}
