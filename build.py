@@ -54,7 +54,7 @@ def place(T, ms):
         k = L.pop('key', '').lower()
         for i in range(i0, len(ms)):
             ly = ms[i].get('ly', '').split()
-            if any(w.lower().strip('-,!;:.…').replace('’', "'").startswith(k) for w in ly[:2]):
+            if any(w.lower().strip('-,!;:.…').replace('’', "'").startswith(k) for w in ly):
                 L['m'] = i; i0 = i + 1; out.append(L); break
     T['lines'] = out; return T
 for w in W[1:]: clean(w['measures'])

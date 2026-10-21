@@ -79,7 +79,10 @@ function tokWorkToXML(W,opt){opt=opt||{};const DIV=TX2.DIV;const ks=W.ks||0,KM=t
         at+='<clef'+(ns>1?' number="'+(si+1)+'"':'')+'><sign>'+c+'</sign><line>'+(c==='F'?4:2)+'</line>'+(c==='G'&&S.oct8?'<clef-octave-change>-1</clef-octave-change>':'')+'</clef>';}});
       if(at)x+='<attributes>'+at+'</attributes>';
       /* directions (au-dessus de la première partie) */
-      if(gi===0){const words=[];if(m.tempo)words.push(['tempo',m.tempo]);(m.marks||[]).forEach(function(k){if(k!==m.tempo&&!/^(Ped\.|\*|✻)$/.test(k))words.push([TX2.DYN.indexOf(k)>=0?'dyn':'w',k]);});
+      /* nuances : sous la main droite du piano s'il y en a un (elles concernent surtout l'accompagnement), sinon sous le chant */
+      const pianoG=G.filter(function(q){return q.kind==='piano';})[0];
+      if(pianoG&&g===pianoG)(m.marks||[]).forEach(function(k){if(TX2.DYN.indexOf(k)>=0)x+='<direction placement="below"><direction-type><dynamics><'+k+'/></dynamics></direction-type>'+(ns>1?'<staff>1</staff>':'')+'</direction>';});
+      if(gi===0){const words=[];if(m.tempo)words.push(['tempo',m.tempo]);(m.marks||[]).forEach(function(k){if(k===m.tempo||/^(Ped\.|\*|✻)$/.test(k))return;const dyn=TX2.DYN.indexOf(k)>=0;if(dyn&&pianoG&&pianoG!==g)return;words.push([dyn?'dyn':'w',k]);});
         words.forEach(function(w,k){x+='<direction placement="'+(w[0]==='dyn'?'below':'above')+'"><direction-type>'+(w[0]==='dyn'?'<dynamics><'+w[1]+'/></dynamics>':'<words font-style="'+(w[0]==='tempo'?'normal':'italic')+'"'+(w[0]==='tempo'?' font-weight="bold"':'')+'>'+t2Esc(w[1])+'</words>')+'</direction-type>'+(k===0&&BPM[mi]!=null?'<sound tempo="'+BPM[mi]+'"/>':'')+'</direction>';});
         if(!words.length&&BPM[mi]!=null)x+='<direction><direction-type><words/></direction-type><sound tempo="'+BPM[mi]+'"/></direction>';}
       if(g.kind==='piano'&&(m.marks||[]).indexOf('Ped.')>=0)x+='<direction placement="below"><direction-type><pedal type="start" line="no"/></direction-type>'+(ns>1?'<staff>'+ns+'</staff>':'')+'</direction>';

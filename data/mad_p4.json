@@ -1,0 +1,189 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "sfp"
+   ],
+   "v": "E3 F#3h D3",
+   "ly": "spa- gna son",
+   "rh": "E4 F#4h D4 // A3w~",
+   "lh": "C#3 D3h B2+F#3",
+   "doubt": "Suite de la p.3 (A3 ronde liée). MD : la3 tenu (liaisons de prolongation) sous mi4/fa#4/ré4 — noté en 2 voix ; mi4-fa#4-ré4 sous liaison de phrasé."
+  },
+  {
+   "v": "B2h E3d E3e",
+   "ly": "già mil- le‿e",
+   "rh": "B3w // A3h G#3h",
+   "lh": "E3h E2h",
+   "doubt": "MD : si3 ronde + la3 blanche (lié de 65) puis sol#3 blanche."
+  },
+  {
+   "marks": [
+    "MG clé de sol puis fa"
+   ],
+   "v": "C#3 r rh",
+   "ly": "tre,",
+   "rh": "A3+C#4 A5h E5ed C#5s",
+   "lh": "A2 A4h E4ed C#4s",
+   "doubt": "MG passe en clé de SOL après la 1re noire."
+  },
+  {
+   "v": "rh E3 E3",
+   "ly": "mil- le‿e",
+   "rh": "E5 C#5ed A4s E5 E5",
+   "lh": "E4 C#4ed A3s E4 E4",
+   "doubt": "MG en clé de sol ; staccatos sur les 2 dernières noires."
+  },
+  {
+   "v": "C#3 r rh",
+   "ly": "tre,",
+   "rh": "C#5 A4h E4ed C#4s",
+   "lh": "C#4 A3h E3ed C#3s",
+   "doubt": "MG : clé de FA de retour après la 1re noire (do#4)."
+  },
+  {
+   "v": "rh E3 E3",
+   "ly": "mil- le‿e",
+   "rh": "E4 C#4ed A3s E4 E4",
+   "lh": "E3 C#3ed A2s E3 E3"
+  },
+  {
+   "marks": [
+    "f",
+    "sf",
+    "p"
+   ],
+   "v": "A2 A3e A3e G#3e A3e B3e C#4e",
+   "ly": "tre! V'han fra ques- te con- ta-",
+   "rh": "r A5~ A5e G#5e F#5e E5s A5t3 B5t3 C#6t3",
+   "lh": "A2e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e",
+   "doubt": "MD : imprimé mi5 CROCHE + triolet de DOUBLES croches (la5 si5 do#6) = 4,5 temps ; ramené à mi5 double + triolet de triples croches pour tenir la mesure. A5 noire liée (liaison) à A5 croche."
+  },
+  {
+   "v": "D4e C#4e B3e A3e G#3e F#3e E3e D3e",
+   "ly": "di- ne, ca- me- rie- re, ci- ta-",
+   "rh": "D5+D6e C#5+C#6e B4+B5e A4+A5e G#4+G#5e F#4+F#5e E4+E5e D4+D5e",
+   "lh": "re D4+E4e D4+E4e D4+E4e re G#3+B3+E4e G#3+B3e G#3+B3e // B3 r E3 r",
+   "doubt": "MD staccato (octaves)."
+  },
+  {
+   "marks": [
+    "f",
+    "sf",
+    "p"
+   ],
+   "v": "C#3e D3e E3e F#3e G#3e A3e B3e C#4e",
+   "ly": "di- ne, v'han con- tes- se, ba- ro-",
+   "rh": "C#4+C#5e re A5~ A5e G#5e F#5e E5s A5t3 B5t3 C#6t3",
+   "lh": "A2e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e A3+C#4+E4e",
+   "doubt": "Même problème qu'à 71 : triolet de doubles croches imprimé en surplus ; mi5 ramené à double croche, triolet en triples croches."
+  },
+  {
+   "v": "D4e C#4e B3e A3e G#3e F#3e E3e D3e",
+   "ly": "nes- se mar- che- sa- ne, prin- ci-",
+   "rh": "D5+D6e C#5+C#6e B4+B5e A4+A5e G#4+G#5e F#4+F#5e E4+E5e B4+D5e",
+   "lh": "re D4+E4e D4+E4e D4+E4e re G#3+B3+E4e G#3+B3e G#3+B3e // B3 r E3 r",
+   "doubt": "Dernier accord MD : si4+ré5 (pas d'octave)."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "C#3e D3e E3e F#3e G#3e A3e B3e C#4e",
+   "ly": "pes- se, e v'han don- ne d'o- gni",
+   "rh": "A4+C#5e B4+D5e C#5+E5e D5+F#5e E5+G#5e F#5+A5e G#5+B5e A5+C#6e",
+   "lh": "A3 A2+A3 A2+A3 A2+A3"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "D4e C#4e D4e C#4e D4e C#4e D4e C#4e",
+   "ly": "gra- do d'o- gni for- ma, d'o- gni‿e-",
+   "rh": "B5+D6e A#5+C#6e B5+D6e A#5+C#6e B5+D6e A#5+C#6e B5+D6e A#5+C#6e",
+   "lh": "E2e E3e E2e E3e E2e E3e E2e E3e",
+   "doubt": "Dièse imprimé devant la note inf. du 2e accord MD = la#5 (valable toute la mesure). Paroles imprimées « d'og ni e- »."
+  },
+  {
+   "marks": [
+    "f",
+    "p"
+   ],
+   "v": "D4 r B3d B3e",
+   "ly": "ta! d'o- gni",
+   "rh": "B5+D6 r B4s E5s G#5s B5s B5s G#5s E5s B4s",
+   "lh": "E2+E3 r E3+G#3+B3d E3+G#3+B3e"
+  },
+  {
+   "marks": [
+    "f",
+    "p",
+    "f",
+    "p"
+   ],
+   "v": "C#4h A3h",
+   "ly": "for- ma.",
+   "rh": "C#5s E5s A5s C#6s C#6s A5s E5s C#5s A4s C#5s F#5s A5s A5s F#5s C#5s A4s",
+   "lh": "A3+C#4d A3e F#3+A3+C#4d F#3+A3+C#4e"
+  },
+  {
+   "marks": [
+    "f",
+    "p",
+    "f",
+    "p"
+   ],
+   "v": "D3h E3h",
+   "ly": "d'o- gni‿e-",
+   "rh": "B4s D5s F#5s A5s A5s F#5s D5s B4s B4s D5s E5s G#5s G#5s E5s D5s B4s",
+   "lh": "D3+F#3+A3+B3d D3+F#3+A3+B3e E3+G#3+B3d E3+G#3e"
+  },
+  {
+   "marks": [
+    "f",
+    "p",
+    "f",
+    "p"
+   ],
+   "v": "F#3 r E4d E4e",
+   "ly": "tà! d'o- gni",
+   "rh": "A4s C#5s F#5s A5s A5s F#5s C#5s A4s B4s E5s G#5s B5s B5s G#5s E5s B4s",
+   "lh": "F#3+A3d A3e G#3+B3+E4d G#3+B3+E4e"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "C#4h A3h",
+   "ly": "for- ma,",
+   "rh": "C#5e A5+C#6s C#5s A5+C#6s C#5s A5+C#6s C#5s A5+C#6* C#5*",
+   "lh": "A3+C#4+E4e A2+A3e A2+A3e A2+A3e F#2+F#3e F#2+F#3e F#2+F#3e F#2+F#3e",
+   "doubt": "Fin MD : trémolo mesuré (2 barres) entre l'accord la5+do#6 (blanche) et do#5 (blanche) sur 2 temps ; noté en 2 noires *."
+  },
+  {
+   "v": "D3+D4h E3+E4h",
+   "ly": "d'o- gni‿e-",
+   "rh": "F#5+A5+B5* D5* E5+G#5+B5* D5*",
+   "lh": "D3+D4e D3+D4e D3+D4e D3+D4e E3+E4e E3+E4e E3+E4e E3+E4e",
+   "doubt": "Chant : deux notes par hampe (ré3+ré4, mi3+mi4) = ossia d'octave. MD : trémolos mesurés accord (blanche) / ré5 (blanche), 2 temps chacun."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "A3 r rh",
+   "ly": "tà!",
+   "rh": "C#5+E5+A5 C#5+E5+A5 A3 A3",
+   "lh": "A2+A3 r A1+A2 A1+A2"
+  },
+  {
+   "v": "rw^",
+   "ly": "",
+   "rh": "A3h rh^",
+   "lh": "A1+A2h rh^",
+   "doubt": "Points d'orgue sur les silences. Double barre ; passage à 3/4 (Andante con moto) ensuite."
+  }
+ ]
+}
