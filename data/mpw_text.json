@@ -1,0 +1,128 @@
+{
+"lang": "en",
+"ctx": "Le Messie (Haendel, livret de Jennens d'après la Bible du roi Jacques, 1742), 1re partie, nº 10-11. Après l'annonce de la naissance (« Behold, a virgin shall conceive ») et l'air de l'alto, la basse chante la prophétie d'Isaïe : les ténèbres couvrent la terre, mais le Seigneur se lèvera sur son peuple et les nations marcheront à sa lumière. Puis l'air décrit le peuple qui marchait dans les ténèbres et qui a vu une grande lumière. Haendel peint l'obscurité par une ligne qui tâtonne, en unisson avec la basse de l'accompagnement, sans harmonie stable, avant que la lumière n'apparaisse.",
+"diction": [
+"Anglais chanté : voyelles pures ; « darkness » [ˈdɑːknɪs], « people » [ˈpiːpl̩], « great » [ɡreɪt].",
+"Récitatif : contraste entre l'ombre (« darkness », piano, grave) et la lumière (« the Lord shall arise », plus lumineux).",
+"Air : legato sombre, la ligne doit chercher son chemin ; pas d'accents brutaux sur les longues vocalises de « walked ».",
+"« shadow of death » [ˈʃædoʊ əv dɛθ] : le [θ] final net, sans le transformer en [t].",
+"« hath the light shined » : la lumière arrive enfin — ouvrir la voix sans forcer."
+],
+"lines": [
+{
+"key": "for behold",
+"it": "For behold, darkness shall cover the earth, and gross darkness the people;",
+"ipa": "fɔː bɪˈhoʊld ˈdɑːknɪs ʃæl ˈkʌvər ði ɜːθ ænd ɡroʊs ˈdɑːknɪs ðə ˈpiːpl̩",
+"w": [
+[
+"For behold",
+"car voici"
+],
+[
+"darkness shall cover the earth",
+"les ténèbres couvriront la terre"
+],
+[
+"gross darkness",
+"une obscurité épaisse"
+],
+[
+"the people",
+"les peuples"
+]
+],
+"fr": "Car voici, les ténèbres couvriront la terre, et une obscurité épaisse les peuples ;"
+},
+{
+"key": "but the lord",
+"it": "but the Lord shall arise upon thee, and His glory shall be seen upon thee.",
+"ipa": "bʌt ðə lɔːd ʃæl əˈraɪz əˈpɒn ðiː ænd hɪz ˈɡlɔːri ʃæl biː siːn əˈpɒn ðiː",
+"w": [
+[
+"shall arise upon thee",
+"se lèvera sur toi"
+],
+[
+"His glory",
+"sa gloire"
+],
+[
+"shall be seen upon thee",
+"paraîtra sur toi"
+]
+],
+"fr": "mais le Seigneur se lèvera sur toi, et sa gloire paraîtra sur toi."
+},
+{
+"key": "and the gentiles",
+"it": "And the Gentiles shall come to thy light, and kings to the brightness of thy rising.",
+"ipa": "ænd ðə ˈdʒɛntaɪlz ʃæl kʌm tuː ðaɪ laɪt ænd kɪŋz tuː ðə ˈbraɪtnɪs əv ðaɪ ˈraɪzɪŋ",
+"w": [
+[
+"the Gentiles",
+"les nations"
+],
+[
+"shall come to thy light",
+"viendront à ta lumière"
+],
+[
+"kings",
+"les rois"
+],
+[
+"the brightness of thy rising",
+"l'éclat de ton lever"
+]
+],
+"fr": "Et les nations viendront à ta lumière, et les rois à l'éclat de ton lever."
+},
+{
+"key": "the people",
+"it": "The people that walked in darkness have seen a great light;",
+"ipa": "ðə ˈpiːpl̩ ðæt wɔːkt ɪn ˈdɑːknɪs hæv siːn ə ɡreɪt laɪt",
+"w": [
+[
+"The people that walked",
+"le peuple qui marchait"
+],
+[
+"in darkness",
+"dans les ténèbres"
+],
+[
+"have seen a great light",
+"a vu une grande lumière"
+]
+],
+"fr": "Le peuple qui marchait dans les ténèbres a vu une grande lumière ;"
+},
+{
+"key": "and they that",
+"it": "and they that dwell in the land of the shadow of death, upon them hath the light shined.",
+"ipa": "ænd ðeɪ ðæt dwɛl ɪn ðə lænd əv ðə ˈʃædoʊ əv dɛθ əˈpɒn ðɛm hæθ ðə laɪt ʃaɪnd",
+"w": [
+[
+"they that dwell",
+"ceux qui habitent"
+],
+[
+"the land of the shadow of death",
+"le pays de l'ombre de la mort"
+],
+[
+"upon them",
+"sur eux"
+],
+[
+"hath the light shined",
+"la lumière a resplendi"
+]
+],
+"fr": "et sur ceux qui habitaient le pays de l'ombre de la mort, la lumière a resplendi."
+}
+],
+"doubts": [
+"Texte (Bible du roi Jacques, Isaïe 60 et 9) vérifié sur la partition à l'assemblage."
+]
+}
