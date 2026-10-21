@@ -1,152 +1,152 @@
 {
- "page": 2,
- "measures": [
-  {
-   "meter": "6/8",
-   "v": "D5hd~",
-   "ly": "voix",
-   "rh": "B4+D5hd~",
-   "lh": "E2 B2e E3 F#3e",
-   "doubt": "Mesure 21 (suite de la p. 1) ; clé de chant = sol octaviée (8), notes écrites."
-  },
-  {
-   "v": "D5~ C5e A4 C5e",
-   "ly": "ten- dre_et so-",
-   "rh": "B4+D5 A4+C5e F#4+A4 A4+C5e",
-   "lh": "G#3d D#4d",
-   "doubt": "« dre et » élidés sur la même note (A4)."
-  },
-  {
-   "v": "D5hd~",
-   "ly": "no",
-   "rh": "B4+D5hd~",
-   "lh": "E2 B2e E3 F#3e",
-   "doubt": "bécarre de précaution sur B4 (MD)."
-  },
-  {
-   "v": "D5~ C5e A4 C5e",
-   "ly": "re Comme un",
-   "rh": "B4+D5 A4+C5e F#4+A4 A4+C5e",
-   "lh": "G#3d D#4d"
-  },
-  {
-   "marks": [
-    "<"
-   ],
-   "v": "B4hd~",
-   "ly": "chant",
-   "rh": "G4+B4hd~",
-   "lh": "B1 B2e E3 F#3e",
-   "doubt": "soufflet < au chant et sous la MD ; bécarre de précaution sur G4."
-  },
-  {
-   "v": "B4~ A4e G4 F#4e",
-   "ly": "_ de ra-",
-   "rh": "G4+B4 C4+A4e B3+D#4+G4 A3+F#4e",
-   "lh": "G3 A3e B3 re",
-   "doubt": "liaison de prolongation G4+B4 depuis m.25 ; bécarre sur G4 répété."
-  },
-  {
-   "v": "E4hd",
-   "ly": "miers.",
-   "rh": "G#3+E4hd~",
-   "lh": "E2 E3e B3 C4e",
-   "doubt": "trait de prolongation après « miers. » mais pas de liaison visible vers m.28 au chant."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "E4 re r E5e",
-   "ly": "_ Ô",
-   "rh": "G#3+E4 rd re",
-   "lh": "D4d E3 re",
-   "doubt": "E4 m.28 sans liaison visible depuis m.27 : traité comme note répétée en mélisme (\"_\")."
-  },
-  {
-   "marks": [
-    "ppp"
-   ],
-   "v": "E5hd~",
-   "ly": "nuit",
-   "rh": "C5+E5hd~",
-   "lh": "A1+A2 E3e A3 B3e"
-  },
-  {
-   "v": "E5~ D5e C5 D5e",
-   "ly": "en- chan- te-",
-   "rh": "C5+E5 B4+D5e A4+C5 B4+D5e",
-   "lh": "C4d E3 re"
-  },
-  {
-   "v": "E5hd~",
-   "ly": "res",
-   "rh": "C5+E5hd~",
-   "lh": "A1+A2 E3e A3 B3e"
-  },
-  {
-   "v": "E5~ F5e G5 A5e",
-   "ly": "_ se Di-",
-   "rh": "C5+E5 D5+F5e E5+G5 F5+A5e",
-   "lh": "C4d E3 re"
-  },
-  {
-   "v": "F5hd~",
-   "ly": "vin",
-   "rh": "D5+F5hd~",
-   "lh": "D2+D3 A2e D3 E3e"
-  },
-  {
-   "v": "F5~ E5e D5 gF5 E5e",
-   "ly": "ra- vis- se-",
-   "rh": "D5+F5 C5+E5e B4+D5 gF5 C5+E5e",
-   "lh": "F3d A2 re"
-  },
-  {
-   "v": "D5hd~",
-   "ly": "ment…",
-   "rh": "B4+D5hd~",
-   "lh": "G1+G2 D3e G3 A3e"
-  },
-  {
-   "v": "D5e re D5e E5 F5e",
-   "ly": "Ô sou- ve-",
-   "rh": "B4+D5e re B4+D5e C5+E5 D5+F5e",
-   "lh": "B3d D3 re"
-  },
-  {
-   "v": "G5hd~",
-   "ly": "nir",
-   "rh": "E5+G5hd~",
-   "lh": "E2+E3 B2e E3 F3e",
-   "doubt": "bécarre sur F3 (MG)."
-  },
-  {
-   "v": "G5~ F5e E5 D5e",
-   "ly": "_ char _",
-   "rh": "E5+G5 D5+F5e C5+E5 B4+D5e",
-   "lh": "G3d B2 re"
-  },
-  {
-   "marks": [
-    "<"
-   ],
-   "v": "C5 re D5 E5e",
-   "ly": "mant Folle i-",
-   "rh": "A4+C5d B4+D5d",
-   "lh": "A1+A2 E3e B3 A3e",
-   "doubt": "soufflet < sous la MD (m.39-40)."
-  },
-  {
-   "marks": [
-    "<",
-    "pp"
-   ],
-   "v": "G5 F5e B5 A5e",
-   "ly": "vres _ se, doux",
-   "rh": "E5+G5 D5+F5e G5+B5^ F5+A5e",
-   "lh": "D2+D3 A3e E4^ D4e",
-   "doubt": "point d'orgue sur l'accord G5+B5 (MD) et sur E4 (MG) ; pp au chant et à la MG ; phrase continue p. 3."
-  }
- ]
+"page": 2,
+"measures": [
+{
+"meter": "6/8",
+"v": "D5hd~",
+"ly": "voix",
+"rh": "B4+D5hd~",
+"lh": "E2 B2e E3 F#3e",
+"doubt": "Mesure 21 (suite de la p. 1) ; clé de chant = sol octaviée (8), notes écrites."
+},
+{
+"v": "D5~ C5e A4 C5e",
+"ly": "ten- dre_et so-",
+"rh": "B4+D5 A4+C5e F#4+A4 A4+C5e",
+"lh": "G#3d D#4d",
+"doubt": "« dre et » élidés sur la même note (A4)."
+},
+{
+"v": "D5hd~",
+"ly": "no-",
+"rh": "B4+D5hd~",
+"lh": "E2 B2e E3 F#3e",
+"doubt": "bécarre de précaution sur B4 (MD)."
+},
+{
+"v": "D5~ C5e A4 C5e",
+"ly": "re Comme un",
+"rh": "B4+D5 A4+C5e F#4+A4 A4+C5e",
+"lh": "G#3d D#4d"
+},
+{
+"marks": [
+"<"
+],
+"v": "B4hd~",
+"ly": "chant",
+"rh": "G4+B4hd~",
+"lh": "B1 B2e E3 F#3e",
+"doubt": "soufflet < au chant et sous la MD ; bécarre de précaution sur G4."
+},
+{
+"v": "B4~ A4e G4 F#4e",
+"ly": "_ de ra-",
+"rh": "G4+B4 C4+A4e B3+D#4+G4 A3+F#4e",
+"lh": "G3 A3e B3 re",
+"doubt": "liaison de prolongation G4+B4 depuis m.25 ; bécarre sur G4 répété."
+},
+{
+"v": "E4hd",
+"ly": "miers.",
+"rh": "G#3+E4hd~",
+"lh": "E2 E3e B3 C4e",
+"doubt": "trait de prolongation après « miers. » mais pas de liaison visible vers m.28 au chant."
+},
+{
+"marks": [
+"p"
+],
+"v": "E4 re r E5e",
+"ly": "_ Ô",
+"rh": "G#3+E4 rd re",
+"lh": "D4d E3 re",
+"doubt": "E4 m.28 sans liaison visible depuis m.27 : traité comme note répétée en mélisme (\"_\")."
+},
+{
+"marks": [
+"ppp"
+],
+"v": "E5hd~",
+"ly": "nuit",
+"rh": "C5+E5hd~",
+"lh": "A1+A2 E3e A3 B3e"
+},
+{
+"v": "E5~ D5e C5 D5e",
+"ly": "en- chan- te-",
+"rh": "C5+E5 B4+D5e A4+C5 B4+D5e",
+"lh": "C4d E3 re"
+},
+{
+"v": "E5hd~",
+"ly": "res-",
+"rh": "C5+E5hd~",
+"lh": "A1+A2 E3e A3 B3e"
+},
+{
+"v": "E5~ F5e G5 A5e",
+"ly": "_ se Di-",
+"rh": "C5+E5 D5+F5e E5+G5 F5+A5e",
+"lh": "C4d E3 re"
+},
+{
+"v": "F5hd~",
+"ly": "vin",
+"rh": "D5+F5hd~",
+"lh": "D2+D3 A2e D3 E3e"
+},
+{
+"v": "F5~ E5e D5 gF5 E5e",
+"ly": "ra- vis- se-",
+"rh": "D5+F5 C5+E5e B4+D5 gF5 C5+E5e",
+"lh": "F3d A2 re"
+},
+{
+"v": "D5hd~",
+"ly": "ment…",
+"rh": "B4+D5hd~",
+"lh": "G1+G2 D3e G3 A3e"
+},
+{
+"v": "D5e re D5e E5 F5e",
+"ly": "Ô sou- ve-",
+"rh": "B4+D5e re B4+D5e C5+E5 D5+F5e",
+"lh": "B3d D3 re"
+},
+{
+"v": "G5hd~",
+"ly": "nir",
+"rh": "E5+G5hd~",
+"lh": "E2+E3 B2e E3 F3e",
+"doubt": "bécarre sur F3 (MG)."
+},
+{
+"v": "G5~ F5e E5 D5e",
+"ly": "_ char- _",
+"rh": "E5+G5 D5+F5e C5+E5 B4+D5e",
+"lh": "G3d B2 re"
+},
+{
+"marks": [
+"<"
+],
+"v": "C5 re D5 E5e",
+"ly": "mant Folle i-",
+"rh": "A4+C5d B4+D5d",
+"lh": "A1+A2 E3e B3 A3e",
+"doubt": "soufflet < sous la MD (m.39-40)."
+},
+{
+"marks": [
+"<",
+"pp"
+],
+"v": "G5 F5e B5 A5e",
+"ly": "vres- _ se, doux",
+"rh": "E5+G5 D5+F5e G5+B5^ F5+A5e",
+"lh": "D2+D3 A3e E4^ D4e",
+"doubt": "point d'orgue sur l'accord G5+B5 (MD) et sur E4 (MG) ; pp au chant et à la MG ; phrase continue p. 3."
+}
+]
 }

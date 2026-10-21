@@ -1,18 +1,134 @@
-{"page":4,"measures":[
- {"meter":"6/8","v":"D5 C5e A4 C5e","ly":"les Aux vents","rh":"G#4+B4t C5t D5t C5t B4s rs A4+C5e F#4+A4 A4+C5e","lh":"G#3d D#4 re","doubt":"Page imprimée 4, mesures 58-73 (cadres 60, 65, 70 concordants). Pas de chiffrage ni d'armure rappelés : meter 6/8 mis pour chk.py, sans armure. Chant : D5 initial lié depuis la p. 3 (pas de syllabe) ; 'les' = fin de phrase de la p. 3 telle qu'imprimée. Figure MD : 4 triples croches + 1 double (le 3e trait de ligature s'arrête à la 4e note), idem à chaque retour."},
- {"marks":["<"],"v":"B4hd~","ly":"tiè-","rh":"G4+B4d G5+B5t C6t D6t C6t B5s rs re","lh":"B1+B2 B2e E3 F#3e","doubt":"Bécarre devant G4 (MD). Soufflet < entre les portées du piano (m. 59-60)."},
- {"marks":["<"],"v":"B4 A4e G4 F#4e","ly":"des du soir","rh":"G4+B4t C5t D5t C5t B4s rs C4+A4e B3+D#4+G4 A3+F#4e","lh":"G3 A3e B3 re","doubt":"Soufflet < au-dessus du chant (A4-G4)."},
- {"marks":[">"],"v":"E4hd~","ly":"_","rh":"G#3+E4d E5+G#5t A5t B5t A5t G#5s rs re","lh":"E2 E3e B3 C4e","doubt":"Soufflet > au chant et entre les portées du piano. MG : dernière croche lue C4 (ligne supplémentaire, sans altération)."},
- {"marks":["p"],"v":"E4 re r E5e","ly":"Ô","rh":"E4+G#4t A4t B4t A4t G#4s rs rd re","lh":"D4d E3 re","doubt":"E4 du chant lié depuis m. 61. MG : bécarre de précaution devant D4."},
- {"marks":["pp"],"v":"E5hd~","ly":"nuit","rh":"C5+E5d A5+C6t D6t E6t D6t C6s rs re","lh":"A1+A2 E3e A3 B3e"},
- {"v":"E5 D5e C5 D5e","ly":"en- chan- te-","rh":"A4+C5t D5t E5t D5t C5s rs B4+D5e A4+C5 B4+D5e","lh":"C4d E3 re"},
- {"v":"E5hd~","ly":"res-","rh":"C5+E5d A5+C6t D6t E6t D6t C6s rs re","lh":"A1+A2 E3e A3 B3e"},
- {"v":"E5 F5e G5 A5e","ly":"_ se Di-","rh":"A4+C5t D5t E5t D5t C5s rs D5+F5e E5+G5 F5+A5e","lh":"C4d E3 re","doubt":"Paroles : 'se' imprimé sous G5, 'Di' sous A5 ; F5 = prolongement (trait) de 'res-'."},
- {"marks":["cresc"],"v":"F5hd~","ly":"vin","rh":"D5+F5d F5+D6t E6t F6t E6t D6s rs re","lh":"D2+D3 A2e D3 E3e"},
- {"v":"F5 E5e D5 gF5 E5e","ly":"ra- vis- se-","rh":"F4+D5t E5t F5t E5t D5s rs C5+E5e B4+D5 gF5 C5+E5e","lh":"F3d A2 re","doubt":"Petite note F5 (croche barrée) avant E5, au chant et au piano."},
- {"v":"D5hd~","ly":"ment","rh":"B4+D5d G5+B5t C6t D6t C6t B5s rs re","lh":"G1+G2 D3e G3 A3e"},
- {"marks":["<"],"v":"D5e re D5e E5 F5e","ly":"Ô sou- ve-","rh":"B4t C5t D5t C5t B4s rs B4+D5e C5+E5 D5+F5e","lh":"B3d D3 re","doubt":"D5 initial lié depuis m. 69. Soufflet < sur D5-E5-F5."},
- {"v":"G5hd~","ly":"nir","rh":"E5+G5d G5+E6t F6t G6t F6t E6s rs re","lh":"E2 B2e E3 F3e","doubt":"MG : bécarre devant F3."},
- {"v":"G5 F5e E5 D5e","ly":"char- _ _","rh":"G4+E5t F5t G5t F5t E5s rs D5+F5e C5+E5 B4+D5e","lh":"G3d B2 re","doubt":"'char ___ mant' : E5-D5 liés (mélisme)."},
- {"v":"C5 re D5 E5e","ly":"mant Folle i-","rh":"A4+C5d B4+D5 C5+E5e","lh":"A2+A3 E3e B3 A3e","doubt":"'Folle' imprimé sur une seule note (e muet élidé devant 'i-vresse'). Phrase et liaison MD continuent p. 5."}
-]}
+{
+"page": 4,
+"measures": [
+{
+"meter": "6/8",
+"v": "D5 C5e A4 C5e",
+"ly": "les Aux vents",
+"rh": "G#4+B4t C5t D5t C5t B4s rs A4+C5e F#4+A4 A4+C5e",
+"lh": "G#3d D#4 re",
+"doubt": "Page imprimée 4, mesures 58-73 (cadres 60, 65, 70 concordants). Pas de chiffrage ni d'armure rappelés : meter 6/8 mis pour chk.py, sans armure. Chant : D5 initial lié depuis la p. 3 (pas de syllabe) ; 'les' = fin de phrase de la p. 3 telle qu'imprimée. Figure MD : 4 triples croches + 1 double (le 3e trait de ligature s'arrête à la 4e note), idem à chaque retour."
+},
+{
+"marks": [
+"<"
+],
+"v": "B4hd~",
+"ly": "tiè-",
+"rh": "G4+B4d G5+B5t C6t D6t C6t B5s rs re",
+"lh": "B1+B2 B2e E3 F#3e",
+"doubt": "Bécarre devant G4 (MD). Soufflet < entre les portées du piano (m. 59-60)."
+},
+{
+"marks": [
+"<"
+],
+"v": "B4 A4e G4 F#4e",
+"ly": "des du soir",
+"rh": "G4+B4t C5t D5t C5t B4s rs C4+A4e B3+D#4+G4 A3+F#4e",
+"lh": "G3 A3e B3 re",
+"doubt": "Soufflet < au-dessus du chant (A4-G4)."
+},
+{
+"marks": [
+">"
+],
+"v": "E4hd~",
+"ly": "_",
+"rh": "G#3+E4d E5+G#5t A5t B5t A5t G#5s rs re",
+"lh": "E2 E3e B3 C4e",
+"doubt": "Soufflet > au chant et entre les portées du piano. MG : dernière croche lue C4 (ligne supplémentaire, sans altération)."
+},
+{
+"marks": [
+"p"
+],
+"v": "E4 re r E5e",
+"ly": "Ô",
+"rh": "E4+G#4t A4t B4t A4t G#4s rs rd re",
+"lh": "D4d E3 re",
+"doubt": "E4 du chant lié depuis m. 61. MG : bécarre de précaution devant D4."
+},
+{
+"marks": [
+"pp"
+],
+"v": "E5hd~",
+"ly": "nuit",
+"rh": "C5+E5d A5+C6t D6t E6t D6t C6s rs re",
+"lh": "A1+A2 E3e A3 B3e"
+},
+{
+"v": "E5 D5e C5 D5e",
+"ly": "en- chan- te-",
+"rh": "A4+C5t D5t E5t D5t C5s rs B4+D5e A4+C5 B4+D5e",
+"lh": "C4d E3 re"
+},
+{
+"v": "E5hd~",
+"ly": "res-",
+"rh": "C5+E5d A5+C6t D6t E6t D6t C6s rs re",
+"lh": "A1+A2 E3e A3 B3e"
+},
+{
+"v": "E5 F5e G5 A5e",
+"ly": "_ se Di-",
+"rh": "A4+C5t D5t E5t D5t C5s rs D5+F5e E5+G5 F5+A5e",
+"lh": "C4d E3 re",
+"doubt": "Paroles : 'se' imprimé sous G5, 'Di' sous A5 ; F5 = prolongement (trait) de 'res-'."
+},
+{
+"marks": [
+"cresc"
+],
+"v": "F5hd~",
+"ly": "vin",
+"rh": "D5+F5d F5+D6t E6t F6t E6t D6s rs re",
+"lh": "D2+D3 A2e D3 E3e"
+},
+{
+"v": "F5 E5e D5 gF5 E5e",
+"ly": "ra- vis- se-",
+"rh": "F4+D5t E5t F5t E5t D5s rs C5+E5e B4+D5 gF5 C5+E5e",
+"lh": "F3d A2 re",
+"doubt": "Petite note F5 (croche barrée) avant E5, au chant et au piano."
+},
+{
+"v": "D5hd~",
+"ly": "ment",
+"rh": "B4+D5d G5+B5t C6t D6t C6t B5s rs re",
+"lh": "G1+G2 D3e G3 A3e"
+},
+{
+"marks": [
+"<"
+],
+"v": "D5e re D5e E5 F5e",
+"ly": "Ô sou- ve-",
+"rh": "B4t C5t D5t C5t B4s rs B4+D5e C5+E5 D5+F5e",
+"lh": "B3d D3 re",
+"doubt": "D5 initial lié depuis m. 69. Soufflet < sur D5-E5-F5."
+},
+{
+"v": "G5hd~",
+"ly": "nir",
+"rh": "E5+G5d G5+E6t F6t G6t F6t E6s rs re",
+"lh": "E2 B2e E3 F3e",
+"doubt": "MG : bécarre devant F3."
+},
+{
+"v": "G5 F5e E5 D5e",
+"ly": "char- _ _",
+"rh": "G4+E5t F5t G5t F5t E5s rs D5+F5e C5+E5 B4+D5e",
+"lh": "G3d B2 re",
+"doubt": "'char ___ mant' : E5-D5 liés (mélisme)."
+},
+{
+"v": "C5 re D5 E5e",
+"ly": "mant Folle i-",
+"rh": "A4+C5d B4+D5 C5+E5e",
+"lh": "A2+A3 E3e B3 A3e",
+"doubt": "'Folle' imprimé sur une seule note (e muet élidé devant 'i-vresse'). Phrase et liaison MD continuent p. 5."
+}
+]
+}
