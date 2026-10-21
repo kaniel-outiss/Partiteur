@@ -1,0 +1,211 @@
+{
+"page": 9,
+"measures": [
+{
+"meter": "6/8",
+"marks": [
+">"
+],
+"v": "C4ed G3s G3e r re",
+"ly": "Fi- ga- ro!",
+"rh": "C5e G4e E5e C5e G4e E5e",
+"lh": "C4+E4e C4+E4e C4+E4e G3e C4+E4e C4+E4e",
+"doubt": "1re mesure de la page (suite de la p.8, aucune mesure coupée apparente)"
+},
+{
+"marks": [
+">"
+],
+"v": "r re r G3e",
+"ly": "Son",
+"rh": "C5e G4e E5e C5e G4e E5e",
+"lh": "E3e G3+C4+E4e G3+C4+E4e C3e G3+C4+E4e G3+C4+E4e"
+},
+{
+"marks": [
+">"
+],
+"v": "D4 re r re",
+"ly": "qua.",
+"rh": "gE5 D5s C#5s D5s E5s D5e G4e G4e G4e",
+"lh": "G2e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e",
+"doubt": "petite note lue mi5 ; altération devant le do5 lue dièse"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gE5 D5s C#5s D5s E5s D5e G4e G4e G4e",
+"lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e",
+"doubt": "« Ehi– » est imprimé sous cette mesure alors que la portée de Figaro ne porte qu'une pause : non transcrit en paroles"
+},
+{
+"marks": [
+">"
+],
+"v": "D4ed G3s G3e r re",
+"ly": "Fi- ga- ro!",
+"rh": "B4+D5e G4e F5e B4+D5e G4e F5e",
+"lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e D3e G3+B3+D4e G3+B3+D4e"
+},
+{
+"marks": [
+">"
+],
+"v": "r re r G3e",
+"ly": "Son",
+"rh": "B4+D5e G4e F5e B4+D5e G4e F5e",
+"lh": "B2e G3+B3+D4e G3+B3+D4e G2e G3+B3+D4e G3+B3+D4e"
+},
+{
+"marks": [
+"cresc.",
+">"
+],
+"v": "C4 re G3e G3e G3e",
+"ly": "qua. Fi- ga- ro",
+"rh": "C5+E5s B4+D5s C5+E5s D5+F5s C5+E5e G4e G4e G4e",
+"lh": "C3e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e"
+},
+{
+"v": "C4 re G3e G3e G3e",
+"ly": "qua, Fi- ga- ro",
+"rh": "C5+E5s B4+D5s C5+E5s D5+F5s C5+E5e G4e G4e G4e",
+"lh": "C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e C4+E4e"
+},
+{
+"marks": [
+">"
+],
+"v": "C4 re G3e G3e G3e",
+"ly": "là, Fi- ga- ro",
+"rh": "C5+E5e G4e G5e C5+E5e G4e G5e",
+"lh": "C4+E4e C4+E4e C4+E4e G3e C4+E4e C4+E4e"
+},
+{
+"marks": [
+">"
+],
+"v": "C4 re G3e G3e G3e",
+"ly": "qua, Fi- ga- ro",
+"rh": "C5+E5e G4e G5e C5+E5e G4e G5e",
+"lh": "E3e C4+E4e C4+E4e C3e C4+E4e C4+E4e"
+},
+{
+"marks": [
+">"
+],
+"v": "D4 re G3e G3e G3e",
+"ly": "là, Fi- ga- ro",
+"rh": "D5+F5s E5s F5s G5s F5e G4e G4e G4e",
+"lh": "G2e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e"
+},
+{
+"v": "D4 re G3e G3e G3e",
+"ly": "su, Fi- ga- ro",
+"rh": "D5+F5s E5s F5s G5s F5e G4e G4e G4e",
+"lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e G3+B3+D4e"
+},
+{
+"marks": [
+">"
+],
+"v": "D4 re G3e G3e G3e",
+"ly": "giù, Fi- ga- ro",
+"rh": "D5+F5e G4e G5e D5+F5e G4e G5e",
+"lh": "G3+B3+D4e G3+B3+D4e G3+B3+D4e D3e G3+B3+D4e G3+B3+D4e"
+},
+{
+"marks": [
+">"
+],
+"v": "D4 re G3e G3e G3e",
+"ly": "su, Fi- ga- ro",
+"rh": "D5+F5e G4e G5e D5+F5e G4e G5e",
+"lh": "B2e G3+B3+D4e G3+B3+D4e G2e G3+B3+D4e G3+B3+D4e",
+"doubt": "1re note du chant : tête un peu haute, lue ré4 (posée sur la ligne supp. du do) comme aux mesures précédentes"
+},
+{
+"marks": [
+"rinf."
+],
+"v": "C4 re G3e G3e G3e",
+"ly": "giù! Pron- to pron-",
+"rh": "gD6 C6s B5s C6s D6s C6e G5e G5e G5e",
+"lh": "C4+E4e G3e C4+E4e C4+E4e G3e C4+E4e"
+},
+{
+"v": "D4e D4e D4e G3e G3e G3e",
+"ly": "tis- si- mo son co- me‿il",
+"rh": "gE6 D6s C#6s D6s E6s D6e G5e G5e G5e",
+"lh": "B3+F4e G3e B3+F4e B3+F4e G3e B3+F4e",
+"doubt": "« co-me il » : « me il » en élision sur une seule note ; accords MG lus si3-fa4 (sans ré)"
+},
+{
+"v": "C4e C4e C4e G3e G3e G3e",
+"ly": "ful- mi- ne, so- no‿il fac-",
+"rh": "gD6 C6s B5s C6s D6s C6e G5e G5e G5e",
+"lh": "C4+E4e G3e C4+E4e C4+E4e G3e C4+E4e",
+"doubt": "« so-no il » : « no il » en élision sur une seule note"
+},
+{
+"v": "D4 D4e G3e G3e G3e",
+"ly": "to- tum del- la cit-",
+"rh": "gE6 D6s C#6s D6s E6s D6e G5e G5e G5e",
+"lh": "B3+F4e G3e B3+F4e B3+F4e G3e B3+F4e"
+},
+{
+"marks": [
+"f"
+],
+"v": "C4d D4e E4e D4e",
+"ly": "tà, del- la cit-",
+"rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+"lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e",
+"doubt": "bécarre imprimé devant le 1er accord MD (do6 bécarre après le do#)"
+},
+{
+"v": "C4d D4e E4e D4e",
+"ly": "tà, del- la cit-",
+"rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+"lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "C4d D4e E4e D4e",
+"ly": "tà, del- la cit-",
+"rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+"lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+},
+{
+"v": "C4d D4e E4e D4e",
+"ly": "tà, del- la cit-",
+"rh": "E5+C6e D5+B5e E5+C6e F5+D6e G5+E6e F5+D6e",
+"lh": "C4+E4e G3e C4+E4e B3+D4e G3e B3+D4e"
+},
+{
+"marks": [
+"f"
+],
+"v": "C4 re r re",
+"ly": "tà!",
+"rh": "E5+C6 re gG5 gA5 gB5 C5+C6 re",
+"lh": "C3+C4 re gG3 gA3 gB3 C4 re",
+"doubt": "petites notes (3 doubles croches) lues sol-la-si ; celles de la MG peu lisibles"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gG5 gA5 gB5 C5+C6 re gG5 gA5 gB5 C5+C6 re",
+"lh": "gG3 gA3 gB3 C4 re gG3 gA3 gB3 C4 re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gG5 gA5 gB5 C5+C6 re gG4 gA4 gB4 C5 re",
+"lh": "gG3 gA3 gB3 C4 re r re",
+"doubt": "dernière mesure de la page ; l'air continue p.10"
+}
+]
+}
