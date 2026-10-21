@@ -1,0 +1,90 @@
+{
+ "page": 9,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "r G3e G3e G3e G3e G3e G3e",
+   "ly": "al- la glo- ria mi- li-",
+   "rh": "F4+D5+F5 re B4+D5s C5+E5s D5+F5e D5+F5e gE5+gG5 D5+F5e C5+E5s B4+D5s",
+   "lh": "B2+G3 G2+G3 r G2+G3",
+   "doubt": "m.92 (1re de la page, suite de la p.8)"
+  },
+  {
+   "v": "C4 r r C4ed C4s",
+   "ly": "tar! Che- ru-",
+   "rh": "C5+E5 G4+E5+G5ed G4+E5+G5s G4+E5+G5 gF5+gA5 E5+G5e D5+F5s C5+E5s",
+   "lh": "C3+C4 C4ed C4s C3+C4 C3+C4ed C3+C4s",
+   "doubt": "m.93 : petite note double lue F5+A5"
+  },
+  {
+   "v": "C4d C4e C4d C4e",
+   "ly": "bi- no‿al- la vit-",
+   "rh": "F5+A5 A5+C6ed A5+C6s A5+C6 gB5+gD6 A5+C6e G5+B5s F5+A5s",
+   "lh": "F2+F3 C4ed C4s C4 C4ed C4s // r F3 r F3",
+   "doubt": "petite note double sur lignes suppl. lue B5+D6 (incertain) ; LH : accord F2+F3 du 1er temps porté par la voix haute, voix basse F3 temps 2 et 4"
+  },
+  {
+   "v": "E4 C4 r C4ed C4s",
+   "ly": "to- ria, al- la",
+   "rh": "E5+G5 E5+G5ed E5+G5s E5+G5 gF5+gA5 E5+G5e D5+F5s C5+E5s",
+   "lh": "C3+C4 C4ed C4s C4 C3+C4",
+   "doubt": "petite note lue F5+A5"
+  },
+  {
+   "v": "G3d G3e G3d G3e",
+   "ly": "glo- ria mi- li-",
+   "rh": "B4+D5e B4+D5s B4+D5s C5+E5e C5+E5s C5+E5s D5+F5e D5+F5s D5+F5s B4+D5e B4+D5s B4+D5s",
+   "lh": "G3+D4e G3+D4s G3+D4s G3+C4+E4e G3+C4+E4s G3+C4+E4s G3+D4+F4e G3+D4+F4s G3+D4+F4s G3+D4e G3+D4s G3+D4s"
+  },
+  {
+   "v": "C4 r r C4ed C4s",
+   "ly": "tar, al- la",
+   "rh": "E4+C5+E5e3 C4e3 E4e3 G4e3 E4e3 G4e3 C5e3 G4e3 E4e3 G4e3 E4e3 C4e3",
+   "lh": "C3 r r C3",
+   "doubt": "triolets : seul le 1er groupe porte le chiffre 3, les suivants (croches par 3) lus comme triolets"
+  },
+  {
+   "v": "G3d G3e G3d G3e",
+   "ly": "glo- ria mi- li-",
+   "rh": "B4+D5e B4+D5s B4+D5s C5+E5e C5+E5s C5+E5s D5+F5e D5+F5s D5+F5s B4+D5e B4+D5s B4+D5s",
+   "lh": "G3+D4e G3+D4s G3+D4s G3+C4+E4e G3+C4+E4s G3+C4+E4s G3+D4+F4e G3+D4+F4s G3+D4+F4s G3+D4e G3+D4s G3+D4s"
+  },
+  {
+   "v": "C4 r r C4ed C4s",
+   "ly": "tar, al- la",
+   "rh": "E4+C5+E5e3 C4e3 E4e3 G4e3 E4e3 G4e3 C5e3 G4e3 E4e3 G4e3 E4e3 C4e3",
+   "lh": "C3 r r C3",
+   "doubt": "triolets : seul le 1er groupe porte le chiffre 3, les suivants (croches par 3) lus comme triolets"
+  },
+  {
+   "v": "G3d G3e G3d G3e",
+   "ly": "glo- ria mi- li-",
+   "rh": "B4+D5e B4+D5s B4+D5s C5+E5e C5+E5s C5+E5s D5+F5e D5+F5s D5+F5s B4+D5e B4+D5s B4+D5s",
+   "lh": "G3+D4e G3+D4s G3+D4s G3+C4+E4e G3+C4+E4s G3+C4+E4s G3+D4+F4e G3+D4+F4s G3+D4+F4s G3+D4e G3+D4s G3+D4s"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C3 r rh",
+   "ly": "tar!",
+   "rh": "E4+G4+C5 re G4s3 A4s3 B4s3 C4+C5 C4+C5",
+   "lh": "C3+C4 re G2s3 A2s3 B2s3 C2+C3 C2+C3"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C4+C5 re G4s3 A4s3 B4s3 C4+C5 C4+C5",
+   "lh": "C2+C3 re G2s3 A2s3 B2s3 C2+C3 C2+C3"
+  },
+  {
+   "marks": [
+    "double barre finale"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "C4+C5h rh",
+   "lh": "C2+C3h rh"
+  }
+ ]
+}
