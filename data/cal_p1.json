@@ -1,0 +1,93 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "4/4",
+   "tempo": "Allegro",
+   "marks": [
+    "p sotto voce"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "C4h~ C4e B3s C4s D4s C4s B3s C4s",
+   "lh": "C3+E3+G3w",
+   "doubt": "1re note C4 : blanche liée (liaison courte) à la croche C4 suivante, grand legato sur la mesure."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D4h re C#4s D4s E4s D4s C4s D4s",
+   "lh": "C3+F3+A3h rh"
+  },
+  {
+   "marks": [
+    "staccato sur les G4 et les accords"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "G4e re gA4 gG4 gF#4 G4e re gA4 gG4 gF#4 G4e re gA4 gG4 gF#4 G4e re",
+   "lh": "r B2+D3+F3+G3e re B2+D3+F3+G3e re B2+D3+F3+G3e re",
+   "doubt": "Petites notes (3 triples croches gravées petit) avant chaque G4 : F# effectif sur les 3 groupes (dièse imprimé au 1er groupe seulement, valable jusqu'à la barre)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G4d C5s3 E5s3 C5s3 G4 r",
+   "lh": "C3+E3+G3 r rh"
+  },
+  {
+   "marks": [
+    "Basilio"
+   ],
+   "v": "C3hd C3",
+   "ly": "La ca-",
+   "rh": "C4h~ C4e B3s C4s D4s C4s B3s C4s",
+   "lh": "C3+E3+G3w"
+  },
+  {
+   "v": "D3e D3e r rh",
+   "ly": "lun- nia",
+   "rh": "D4h re C#4s D4s E4s D4s C4s D4s",
+   "lh": "C3+F3+A3h rh"
+  },
+  {
+   "v": "r G3e re G3e re G3e re",
+   "ly": "è_un- ven- ti-",
+   "rh": "G4e re gA4 gG4 gF#4 G4e re gA4 gG4 gF#4 G4e re gA4 gG4 gF#4 G4e re",
+   "lh": "r B2+D3+F3+G3e re B2+D3+F3+G3e re B2+D3+F3+G3e re",
+   "doubt": "Petites notes (3 triples croches gravées petit) avant chaque G4 : F# effectif sur les 3 groupes (dièse imprimé au 1er groupe seulement, valable jusqu'à la barre). Barre double apparente sur la portée de chant entre m.7 et m.8 (probable artefact de gravure)."
+  },
+  {
+   "v": "G3d C4e G3 r",
+   "ly": "cel- _ lo,",
+   "rh": "G4d C5s3 E5s3 C5s3 G4 r",
+   "lh": "C3+E3+G3 r rh"
+  },
+  {
+   "v": "C3hd C3",
+   "ly": "u- n'au-",
+   "rh": "C4h~ C4e B3s C4s D4s C4s B3s C4s",
+   "lh": "C3+E3+G3w"
+  },
+  {
+   "v": "D3e D3e r rh",
+   "ly": "ret- ta",
+   "rh": "D4h re C#4s D4s E4s D4s C4s D4s",
+   "lh": "C3+F3+A3h rh"
+  },
+  {
+   "v": "r G3e re G3e re G3e re",
+   "ly": "as- sai gen-",
+   "rh": "G4e re gA4 gG4 gF#4 G4e re gA4 gG4 gF#4 G4e re gA4 gG4 gF#4 G4e re",
+   "lh": "r B2+D3+F3+G3e re B2+D3+F3+G3e re B2+D3+F3+G3e re",
+   "doubt": "Petites notes (3 triples croches gravées petit) avant chaque G4 : F# effectif sur les 3 groupes (dièse imprimé au 1er groupe seulement, valable jusqu'à la barre)."
+  },
+  {
+   "v": "G3d C4e G3 r",
+   "ly": "ti- _ le",
+   "rh": "G4d C5s3 E5s3 C5s3 G4 r",
+   "lh": "C3+E3+G3 r rh",
+   "doubt": "Bas de page : « tonalità originale: D maggiore » (transposé en do majeur dans cette édition)."
+  }
+ ]
+}

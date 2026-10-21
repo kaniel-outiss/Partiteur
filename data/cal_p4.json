@@ -1,0 +1,99 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [],
+   "v": "B2e B2e B2e B2e B2e B2e B2e B2e",
+   "ly": "vel- li fa stor- di- re, fa stor-",
+   "rh": "F#5+A5s F#5+A5s F#5+A5s F#5+A5s F#5+A5e E5+G5e D#5+F#5s D#5+F#5s D#5+F#5s D#5+F#5s D#5+F#5e C5+E5e",
+   "lh": "B2e re gA#3 B3 B2e re gA#3 B3",
+   "doubt": "m.38 (début de page) : 'vel-li' = suite de 'cervelli' de la page précédente ; staccatos (points) non notés"
+  },
+  {
+   "marks": [],
+   "v": "B2e B2e B2e B2e B2e B2e B2e B2e",
+   "ly": "di- re, fa stor- di- re_e fa gon-",
+   "rh": "B4+D#5s B4+D#5s B4+D#5s B4+D#5s B4+D#5e A4+C5e G4+B4s G4+B4s G4+B4s G4+B4s G4+B4e F#4+A4e",
+   "lh": "B2e re gA#3 B3 B2e re gA#3 B3"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "E3 r rh",
+   "ly": "fiar.",
+   "rh": "E4+G4e re red G4s G4 red G4s",
+   "lh": "E3e re red G2+G3s G2+G3 red G2+G3s"
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "rh": "G4 red G4s G4 red G4s",
+   "lh": "G2+G3 red G2+G3s G2+G3 red G2+G3s"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "C5+E5s C5+E5s C5+E5s C5+E5s C5+E5e D5+F5e E5+G5s E5+G5s E5+G5s E5+G5s E5+G5e F5+A5e",
+   "lh": "C3e G2e C3e G2e C3e G2e C3e G2e"
+  },
+  {
+   "marks": [],
+   "v": "r G3e G3e G3e G3e G3e G3e",
+   "ly": "Dal- la boc- ca fuo- ri_u-",
+   "rh": "G5+B5s G5+B5s G5+B5s G5+B5s G5+B5e A5+C6e B5+D6s B5+D6s B5+D6s B5+D6s B5+D6e C6+E6e",
+   "lh": "C3e G2e C3e G2e C3e G2e C3e G2e"
+  },
+  {
+   "marks": [],
+   "v": "G3e G3e r rh",
+   "ly": "scen- do",
+   "rh": "D6+F6s D6+F6s D6+F6s D6+F6s D6+F6e C6+E6e B5+D6s B5+D6s B5+D6s B5+D6s B5+D6e A5+C6e",
+   "lh": "B2e G2e B2e G2e B2e G2e B2e G2e"
+  },
+  {
+   "marks": [],
+   "v": "r G3e G3e G3e G3e G3e G3e",
+   "ly": "lo schia- maz- zo va cre-",
+   "rh": "G5+B5s G5+B5s G5+B5s G5+B5s G5+B5e F5+A5e E5+G5s E5+G5s E5+G5s E5+G5s E5+G5e D5+F5e",
+   "lh": "B2e G2e B2e G2e B2e G2e B2e G2e"
+  },
+  {
+   "marks": [
+    "cresc. poco a poco"
+   ],
+   "v": "G3e G3e r rh",
+   "ly": "scen- do;",
+   "rh": "C5+E5s C5+E5s C5+E5s C5+E5s C5+E5e D5+F5e E5+G5s E5+G5s E5+G5s E5+G5s E5+G5e F5+A5e",
+   "lh": "C2+C3e G2e C2+C3e G2e C2+C3e G2e C2+C3e G2e"
+  },
+  {
+   "marks": [],
+   "v": "r G3e G3e G3e G3e G3e G3e",
+   "ly": "pren- de for- za_a po- co_a",
+   "rh": "G5+B5s G5+B5s G5+B5s G5+B5s G5+B5e A5+C6e B5+D6s B5+D6s B5+D6s B5+D6s B5+D6e C6+E6e",
+   "lh": "C2+C3e G2e C2+C3e G2e C2+C3e G2e C2+C3e G2e"
+  },
+  {
+   "marks": [
+    "rinf."
+   ],
+   "v": "G3e G3e r rh",
+   "ly": "po- co,",
+   "rh": "D6+F6s D6+F6s D6+F6s D6+F6s D6+F6e C6+E6e B5+D6s B5+D6s B5+D6s B5+D6s B5+D6e A5+C6e",
+   "lh": "B1+B2e G2e B1+B2e G2e B1+B2e G2e B1+B2e G2e"
+  },
+  {
+   "marks": [],
+   "v": "r G3e G3e G3e G3e G3e G3e",
+   "ly": "vo- la già di lo- co_in",
+   "rh": "G5+B5s G5+B5s G5+B5s G5+B5s G5+B5e F5+A5e E5+G5s E5+G5s E5+G5s E5+G5s E5+G5e D5+F5e",
+   "lh": "B1+B2e G2e B1+B2e G2e B1+B2e G2e B1+B2e G2e"
+  }
+ ]
+}
