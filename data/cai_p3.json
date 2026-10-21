@@ -1,15 +1,132 @@
-{"page":3,"measures":[
-{"meter":"3/4","ks":-2,"marks":[],"v":"C5d F5~ F5s rs","ly":"vi- na,","rh":"re F6~ F6ed* F5ed* // A4hd // C4+F4e re re rd","lh":"F2e F3s C3s A3e r re","doubt":"Page imprimée 30, mesure 30 numérotée (suite d'une phrase commencée p. 29). Mesure 3/4 déduite du contenu (toutes les parties font 3 noires ; le chiffrage n'est pas rappelé sur cette page) — le guide annonçait 4/4 a priori. MD : trémolo mesuré alterné F6/F5 (5 barres) encodé F6ed* F5ed* ; noire F6 accentuée liée. A4 blanche pointée (voix intermédiaire, fin de liaison). Accord F4 + C4 (C4 sur ligne add.) croche puis 2 demi-soupirs, reste de la mesure non noté (rd ajouté). MG staccato."},
-{"v":"G4d A4e Bb4e C5e","ly":"mi- sti- _ co","rh":"G4d G4e G4e G4e // gBb3 E4hd","lh":"E2e G3s E3s Bb3e r re","doubt":"Petite note barrée sous la ligne add. du do (lue Bb3, peut-être C4) liée à E4. E4 tête blanche pointée (voix inf.). Croches G4 staccato sous liaison. MG staccato."},
-{"marks":["dolce"],"v":"D5d F#5d","ly":"ser- to","rh":"re A6~ A6ed* A5ed* // A3+F#4d rd // D4d D4d","lh":"D2e A3s F#3s D4e r re","doubt":"A6 noire accentuée liée puis trémolo alterné A6/A5. Accord A3+F#4 accentué (hampe haut) ; D4 pointée puis D4 pointée « m.s. » liées par liaison d'expression. MG staccato."},
-{"marks":["pp"],"v":"A4d A4e B4e C#5e","ly":"di lu- _ ce_e","rh":"A6d* A5d*","lh":"D4+F#4d G4e G4e G4e // A3e F#3s D3s A3e A3+C#4 re","doubt":"MD : trémolo alterné A6/A5 en blanches pointées (4 barres), encodé A6d* A5d*. MG : accord D4+F#4 noire pointée (hampe haut), puis 3 croches G4 staccato liées ; voix inf. A3 F#3 D3 A3 staccato puis accord dièsé lu A3+C#4 (lecture incertaine, notes serrées autour de la ligne du do). pp au chant et au piano. Bécarre sur B4 au chant."},
-{"marks":["8va"],"v":"D5hd","ly":"fior;","rh":"A6s* A5s* D6s* D5s* A5s* A4s* D6s* D5s* A5s* A4s* D5s* D4s*","lh":"D3+A3+F#4e! re re r re","doubt":"MD : 6 paires en trémolo alterné (3 barres), chaque paire = une croche ; « 8va » au-dessus des 3 premières paires (notes écrites telles qu'imprimées, sans l'octave). MG : accord arpégé D3+A3+F#4."},
-{"marks":["<"],"v":"F4d G4e A4e Bb4e","ly":"del mi- o pen-","rh":"D4d Eb4e F4e G4e // F3+Bb3e re re rd","lh":"Bb1+Bb2e F3s D3s Bb3e r re","doubt":"Accord MD : D4 (hampe haut, pointée) + Bb3 + F3 (bécarre de précaution sur F3, lecture). Soufflet < sous la MD et au-dessus du chant (m. 35-36)."},
-{"marks":["portate la voce","ten."],"v":"D5d F5d","ly":"sie- ro","rh":"re F6~ F6x F5x F6x F5x F6x F5x F6x F5x F6e* F5e* // Ab4d! Ab4d // D4e! re re rd","lh":"B3hd // B2+F3e F3s D3s Ab3e r re","doubt":"MD : F6 accentuée liée à 8 quadruples croches alternées F6/F5 (4 barres) puis trémolo F6/F5 : valeurs ajustées pour remplir la mesure (incertain). Accord arpégé Ab4+D4 (« ten. »), Ab4 pointée « m.s. ». MG : B3 blanche pointée (bécarre), B2 bécarre ; Ab3 bémol. Liaison F5→G5 au chant (portamento)."},
-{"marks":[">"],"v":"G5d F5 Eb5e","ly":"tu sei re-","rh":"B4 G4e Eb4+A4d // re D4e D4e re F4e D4e~","lh":"D3+F3+G3+B3e G3s F3s B3e C3+F3+A3e F3s Eb3s A3e","doubt":"Mesure 37 numérotée. B4 et A4 avec bécarre (A4 : précaution après Ab). MG : B3 bécarre ; A3 bécarre de précaution. D4 lié à la mesure suivante. Soufflet > au-dessus du chant."},
-{"marks":["<"],"v":"D5 A4e C5e Bb4e E4e","ly":"gi- na, tu di mia","rh":"C4+D4+F#4d C4+E4+G4 C#4+Bb4e","lh":"A2+D3+F#3e D3s C3s F#3e G2+Bb2+E3e C3s E3s Bb3e","doubt":"Accent ^ sur C5 (chant). E4 bécarre au chant. Accord 1 MD : C4 et D4 serrés (seconde) + F#4 ; accord 2 lu C4+E4+G4 (bécarre sur E4) ; Bb4+C#4 croche. MG : E3 bécarre, Bb2 bémol."},
-{"marks":["<",">"],"v":"F4e D5e D5e D5 C5e","ly":"vi- ta sei lo splen-","rh":"Bb4+D4e F5s* F4s* F#5s* F#4s* G5s* G4s* Ab5s* Ab4s* A5s* A4s*","lh":"F2+Bb2+D3+F3e F3s D3s Bb3e F3e re re // rd Eb4+F4 Eb4e","doubt":"MD : 5 paires en trémolo alterné (4 barres), chaque paire = une croche, octaves chromatiques F/F#/G/Ab/A (bécarres sur F et A). D5 staccato au chant. MG : accord lu F2+Bb2+D3+F3 (bécarre sur F3) ; F3 bécarre ; Eb4+F4 seconde serrée (bémol)."},
-{"marks":["p","espressivo"],"v":"Bb4 re r re","ly":"dor.","rh":"Bb4+Bb5e re re F5 Db5e // rd F4ed* E4ed*","lh":"D4s F4t E4t F4t E4t F4t E4t F4t E4t F4t E4t Db4 Bb3e // Bb2+F3e re re rd","doubt":"Mesure 40 numérotée. MG voix sup. (au-dessus de la portée) : D4 imprimé avec un seul trait de ligature (croche ?) puis 10 triples croches F4/E4 bécarre — D4 transcrit en double croche pour que la mesure tombe juste. MD : trémolo alterné F4/E4 bécarre (4 barres)."},
-{"v":"rhd","ly":"","rh":"Bb4e Db5e Bb4e C5e Db5e Eb5e // F4ed* E4ed* F4ed* E4ed*","lh":"F3e Bb3e F3e A3e Bb3e C4e","doubt":"Chant : pause. D5 en 2e moitié sans altération : Db5 (bémol du début de mesure), Eb5 porte un bémol imprimé (précaution). Trémolos alternés F4/E4 bécarre."},
-{"marks":["sempre dolciss."],"v":"rd F5e F5e Db5e","ly":"Il tuo bel","rh":"Db5 Bb4e F5 Db5e // F4ed* E4ed* F4ed* E4ed*","lh":"Bb3 F3e Db4 Bb3e","doubt":"F5 accentuée (MD). 2e D5 MD sans altération : Db5 (bémol en début de mesure). Phrase continue p. 31."}
-]}
+{
+"page": 3,
+"measures": [
+{
+"meter": "6/8",
+"ks": -2,
+"marks": [],
+"v": "C5d F5~ F5s rs",
+"ly": "vi- na,",
+"rh": "re F6~ F6ed* F5ed* // A4hd // C4+F4e re re rd",
+"lh": "F2e F3s C3s A3e r re",
+"doubt": "Page imprimée 30, mesure 30 numérotée (suite d'une phrase commencée p. 29). Mesure 3/4 déduite du contenu (toutes les parties font 3 noires ; le chiffrage n'est pas rappelé sur cette page) — le guide annonçait 4/4 a priori. MD : trémolo mesuré alterné F6/F5 (5 barres) encodé F6ed* F5ed* ; noire F6 accentuée liée. A4 blanche pointée (voix intermédiaire, fin de liaison). Accord F4 + C4 (C4 sur ligne add.) croche puis 2 demi-soupirs, reste de la mesure non noté (rd ajouté). MG staccato."
+},
+{
+"v": "G4d A4e Bb4e C5e",
+"ly": "mi- sti- _ co",
+"rh": "G4d G4e G4e G4e // gBb3 E4hd",
+"lh": "E2e G3s E3s Bb3e r re",
+"doubt": "Petite note barrée sous la ligne add. du do (lue Bb3, peut-être C4) liée à E4. E4 tête blanche pointée (voix inf.). Croches G4 staccato sous liaison. MG staccato."
+},
+{
+"marks": [
+"dolce"
+],
+"v": "D5d F#5d",
+"ly": "ser- to",
+"rh": "re A6~ A6ed* A5ed* // A3+F#4d rd // D4d D4d",
+"lh": "D2e A3s F#3s D4e r re",
+"doubt": "A6 noire accentuée liée puis trémolo alterné A6/A5. Accord A3+F#4 accentué (hampe haut) ; D4 pointée puis D4 pointée « m.s. » liées par liaison d'expression. MG staccato."
+},
+{
+"marks": [
+"pp"
+],
+"v": "A4d A4e B4e C#5e",
+"ly": "di lu- _ ce_e",
+"rh": "A6d* A5d*",
+"lh": "D4+F#4d G4e G4e G4e // A3e F#3s D3s A3e A3+C#4 re",
+"doubt": "MD : trémolo alterné A6/A5 en blanches pointées (4 barres), encodé A6d* A5d*. MG : accord D4+F#4 noire pointée (hampe haut), puis 3 croches G4 staccato liées ; voix inf. A3 F#3 D3 A3 staccato puis accord dièsé lu A3+C#4 (lecture incertaine, notes serrées autour de la ligne du do). pp au chant et au piano. Bécarre sur B4 au chant."
+},
+{
+"marks": [
+"8va"
+],
+"v": "D5hd",
+"ly": "fior;",
+"rh": "A6s* A5s* D6s* D5s* A5s* A4s* D6s* D5s* A5s* A4s* D5s* D4s*",
+"lh": "D3+A3+F#4e! re re r re",
+"doubt": "MD : 6 paires en trémolo alterné (3 barres), chaque paire = une croche ; « 8va » au-dessus des 3 premières paires (notes écrites telles qu'imprimées, sans l'octave). MG : accord arpégé D3+A3+F#4."
+},
+{
+"marks": [
+"<"
+],
+"v": "F4d G4e A4e Bb4e",
+"ly": "del mi- o pen-",
+"rh": "D4d Eb4e F4e G4e // F3+Bb3e re re rd",
+"lh": "Bb1+Bb2e F3s D3s Bb3e r re",
+"doubt": "Accord MD : D4 (hampe haut, pointée) + Bb3 + F3 (bécarre de précaution sur F3, lecture). Soufflet < sous la MD et au-dessus du chant (m. 35-36)."
+},
+{
+"marks": [
+"portate la voce",
+"ten."
+],
+"v": "D5d F5d",
+"ly": "sie- ro",
+"rh": "re F6~ F6x F5x F6x F5x F6x F5x F6x F5x F6e* F5e* // Ab4d! Ab4d // D4e! re re rd",
+"lh": "B3hd // B2+F3e F3s D3s Ab3e r re",
+"doubt": "MD : F6 accentuée liée à 8 quadruples croches alternées F6/F5 (4 barres) puis trémolo F6/F5 : valeurs ajustées pour remplir la mesure (incertain). Accord arpégé Ab4+D4 (« ten. »), Ab4 pointée « m.s. ». MG : B3 blanche pointée (bécarre), B2 bécarre ; Ab3 bémol. Liaison F5→G5 au chant (portamento)."
+},
+{
+"marks": [
+">"
+],
+"v": "G5d F5 Eb5e",
+"ly": "tu sei re-",
+"rh": "B4 G4e Eb4+A4d // re D4e D4e re F4e D4e~",
+"lh": "D3+F3+G3+B3e G3s F3s B3e C3+F3+A3e F3s Eb3s A3e",
+"doubt": "Mesure 37 numérotée. B4 et A4 avec bécarre (A4 : précaution après Ab). MG : B3 bécarre ; A3 bécarre de précaution. D4 lié à la mesure suivante. Soufflet > au-dessus du chant."
+},
+{
+"marks": [
+"<"
+],
+"v": "D5 A4e C5e Bb4e E4e",
+"ly": "gi- na, tu di mia",
+"rh": "C4+D4+F#4d C4+E4+G4 C#4+Bb4e",
+"lh": "A2+D3+F#3e D3s C3s F#3e G2+Bb2+E3e C3s E3s Bb3e",
+"doubt": "Accent ^ sur C5 (chant). E4 bécarre au chant. Accord 1 MD : C4 et D4 serrés (seconde) + F#4 ; accord 2 lu C4+E4+G4 (bécarre sur E4) ; Bb4+C#4 croche. MG : E3 bécarre, Bb2 bémol."
+},
+{
+"marks": [
+"<",
+">"
+],
+"v": "F4e D5e D5e D5 C5e",
+"ly": "vi- ta sei lo splen-",
+"rh": "Bb4+D4e F5s* F4s* F#5s* F#4s* G5s* G4s* Ab5s* Ab4s* A5s* A4s*",
+"lh": "F2+Bb2+D3+F3e F3s D3s Bb3e F3e re re // rd Eb4+F4 Eb4e",
+"doubt": "MD : 5 paires en trémolo alterné (4 barres), chaque paire = une croche, octaves chromatiques F/F#/G/Ab/A (bécarres sur F et A). D5 staccato au chant. MG : accord lu F2+Bb2+D3+F3 (bécarre sur F3) ; F3 bécarre ; Eb4+F4 seconde serrée (bémol)."
+},
+{
+"marks": [
+"p",
+"espressivo"
+],
+"v": "Bb4 re r re",
+"ly": "dor.",
+"rh": "Bb4+Bb5e re re F5 Db5e // rd F4ed* E4ed*",
+"lh": "D4s F4t E4t F4t E4t F4t E4t F4t E4t F4t E4t Db4 Bb3e // Bb2+F3e re re rd",
+"doubt": "Mesure 40 numérotée. MG voix sup. (au-dessus de la portée) : D4 imprimé avec un seul trait de ligature (croche ?) puis 10 triples croches F4/E4 bécarre — D4 transcrit en double croche pour que la mesure tombe juste. MD : trémolo alterné F4/E4 bécarre (4 barres)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Bb4e Db5e Bb4e C5e Db5e Eb5e // F4ed* E4ed* F4ed* E4ed*",
+"lh": "F3e Bb3e F3e A3e Bb3e C4e",
+"doubt": "Chant : pause. D5 en 2e moitié sans altération : Db5 (bémol du début de mesure), Eb5 porte un bémol imprimé (précaution). Trémolos alternés F4/E4 bécarre."
+},
+{
+"marks": [
+"sempre dolciss."
+],
+"v": "rd F5e F5e Db5e",
+"ly": "Il tuo bel",
+"rh": "Db5 Bb4e F5 Db5e // F4ed* E4ed* F4ed* E4ed*",
+"lh": "Bb3 F3e Db4 Bb3e",
+"doubt": "F5 accentuée (MD). 2e D5 MD sans altération : Db5 (bémol en début de mesure). Phrase continue p. 31."
+}
+]
+}
