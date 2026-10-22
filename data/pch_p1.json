@@ -1,0 +1,110 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "3/4",
+"tempo": "Moderato",
+"marks": [
+"pp",
+"legato",
+"sostenuto sempre"
+],
+"v": "rhd",
+"ly": "",
+"rh": "rhd",
+"lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"doubt": "Main gauche : C2 et C3 sur une même hampe à double crochet (écrit en accord de doubles croches ; le C2 grave est peut-être tenu). Page 1 : pas de numéro imprimé (titre, nº 3, Ténor ou Soprano, ton original)."
+},
+{
+"marks": [
+"p"
+],
+"v": "rhd",
+"ly": "",
+"rh": "C6+C7~ C6+C7ed C6+C7s Bb5+Bb6ed Bb5+Bb6s",
+"lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé) (8va de la mesure 2 à la 1re note de la mesure 9)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Ab5+Ab6h~ Ab5+Ab6e re",
+"lh": "C2+C3s Eb3s Ab3s Eb3s C4s Ab3s Eb4s C4s Eb4s C4s Ab3s Eb3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Ab5+Ab6~ Ab5+Ab6ed Ab5+Ab6s G5+G6ed G5+G6s",
+"lh": "C2+C3s Eb3s Ab3s Eb3s C4s Ab3s Eb4s C4s Eb4s C4s Ab3s Eb3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F5+F6h~ F5+F6e rs F5+F6s",
+"lh": "C2+C3s D3s F3s D3s Ab3s F3s C4s Ab3s C4s Ab3s F3s D3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F5+F6d D5+D6e Eb5+Eb6e F5+F6e",
+"lh": "C2+C3s D3s F3s D3s Ab3s F3s C4s Ab3s C4s Ab3s F3s D3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G5+G6h~ G5+G6e rs G5+G6s",
+"lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G5+G6d A5+A6e B5+B6ed C6+C7s",
+"lh": "C2+C3s D3s G3s D3s B3s G3s F4s B3s F4s B3s G3s D3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé) ; La et Si bécarres imprimés (MD) ; Si bécarre à la MG."
+},
+{
+"marks": [
+"legato"
+],
+"v": "rhd",
+"ly": "",
+"rh": "C6+C7s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+C3e re r r",
+"doubt": "Le crochet de fin du 8va semble couvrir le 1er accord (C5+C6 imprimé → C6+C7 joué) ; à vérifier."
+},
+{
+"v": "G4h G4e G4e",
+"ly": "Ma belle a-",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+Eb3hd"
+},
+{
+"v": "F4h C5",
+"ly": "mie est",
+"rh": "rs F3s C4s F3s D4s C4s F4s D4s F4s D4s C4s F3s",
+"lh": "C2+D3hd",
+"doubt": "Accent (>) sur le C5 du chant."
+},
+{
+"marks": [
+"sf"
+],
+"v": "C5hd",
+"ly": "mor-",
+"rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+"lh": "C2+Ab2+Eb3hd"
+},
+{
+"v": "C4 r r",
+"ly": "te,",
+"rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+"lh": "C2+Ab2+Eb3hd",
+"doubt": "Note de bas de page (N.B. … Stances de Sapho) ignorée."
+}
+]
+}

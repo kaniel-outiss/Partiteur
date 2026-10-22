@@ -1,0 +1,111 @@
+{
+"page": 2,
+"measures": [
+{
+"meter": "3/4",
+"v": "Eb4h Eb4e F4e",
+"ly": "Je pleu- re-",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+G2+Eb3hd",
+"doubt": "Pas de numéro de page imprimé visible."
+},
+{
+"v": "G4h~ G4e G4e",
+"ly": "rai tou-",
+"rh": "rs G3s B3s G3s F4s B3s G4s F4s G4s F4s B3s G3s",
+"lh": "C2+G2+D3hd",
+"doubt": "Si bécarre imprimé (MD, 2e note)."
+},
+{
+"v": "G4hd~",
+"ly": "jours!",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+G2+Eb3hd"
+},
+{
+"v": "G4 r r",
+"ly": "",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+G2+Eb3hd"
+},
+{
+"v": "C5h~ C5e C5e",
+"ly": "Sous la",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+G2hd"
+},
+{
+"v": "D5h D5e D5e",
+"ly": "tom- be,elle em-",
+"rh": "rs Bb3s D4s Bb3s F4s D4s Bb4s F4s Bb4s F4s D4s Bb3s",
+"lh": "Bb1+Bb2hd",
+"doubt": "« be,elle » imprimé sous une seule croche (élision)."
+},
+{
+"v": "G5hd",
+"ly": "por-",
+"rh": "rs Bb3s Eb4s Bb3s G4s Eb4s Bb4s G4s Bb4s G4s Eb4s Bb3s",
+"lh": "Eb2+Bb2hd"
+},
+{
+"v": "Bb4 r re Eb5e",
+"ly": "te Mon",
+"rh": "rs Bb3s Eb4s Bb3s G4s Eb4s Bb4s G4s Bb4s G4s Eb4s Bb3s",
+"lh": "Eb2+Bb2hd"
+},
+{
+"v": "Eb5h~ Eb5e D5e",
+"ly": "â- me‿et",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+C3hd",
+"doubt": "« me et » imprimé sous une seule croche (élision)."
+},
+{
+"v": "F5h~ F5s Eb5s D5s Eb5s",
+"ly": "mes _ a- _",
+"rh": "rs F3s A3s F3s Eb4s A3s F4s Eb4s F4s Eb4s A3s F3s",
+"lh": "C2+F2+C3hd",
+"doubt": "Chant : arc de la blanche F5 vers la double F5 lu comme liaison de prolongation ; petites liaisons par paires sur les doubles ; placement de « a- » sous le D5 incertain. MD : La bécarre imprimé."
+},
+{
+"v": "F5hd~",
+"ly": "mours!",
+"rh": "rs F3s Bb3s F3s D4s Bb3s F4s D4s F4s D4s Bb3s F3s",
+"lh": "Bb1+F2+D3hd~",
+"doubt": "MG : liaison de prolongation sur le D3 seulement (vers mesure suivante)."
+},
+{
+"v": "F5 r r",
+"ly": "",
+"rh": "rs F3s Bb3s F3s D4s Bb3s F4s D4s F4s D4s Bb3s Ab3s",
+"lh": "Bb2+D3hd",
+"doubt": "MG : D3 lié depuis la mesure précédente. MD : bémol de précaution sur le dernier La (Ab3)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+"lh": "Eb2+Eb3hd"
+},
+{
+"v": "Eb5e Eb5e C5e D5e Eb5e Ab5e",
+"ly": "Dans le ciel, _ sans m'at-",
+"rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+"lh": "Eb2+C3+Eb3hd",
+"doubt": "Liaison C5–D5 (mélisme sur « ciel »)."
+},
+{
+"v": "G5h Eb5e re",
+"ly": "ten- dre,",
+"rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+"lh": "Eb2+Bb2+Eb3hd"
+},
+{
+"v": "Eb5 C5e D5e Eb5e Ab5e",
+"ly": "El- le s'en re- tour-",
+"rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+"lh": "Eb2+C3+Eb3hd",
+"doubt": "Phrase « re-tour-na » coupée entre p. 2 et p. 3."
+}
+]
+}

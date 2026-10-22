@@ -1,0 +1,114 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "3/4",
+"v": "G5hd",
+"ly": "na;",
+"rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+"lh": "Eb2+Bb2+Eb3hd",
+"doubt": "Suite de « re-tour- » (p. 2). Respiration (,) imprimée en fin de mesure au chant. Pas de numéro de page imprimé visible."
+},
+{
+"v": "G5 D5ed D5s E5ed E5s",
+"ly": "L'an- ge qui l'em- me-",
+"rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s E4s C4s G3s",
+"lh": "D3h E3 // D2+G2hd",
+"doubt": "Mi bécarre imprimé (chant et MD), Si bécarre (MD) ; MG à 2 voix : D3 blanche + E3 bécarre noire / D2+G2 blanche pointée."
+},
+{
+"v": "D5h~ D5e re",
+"ly": "na",
+"rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+"lh": "D2+G2+D3hd"
+},
+{
+"v": "G5 D5e D5e Eb5ed Eb5s",
+"ly": "Ne vou- lut pas me",
+"rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s Eb4s C4s G3s",
+"lh": "D3h Eb3 // D2+G2hd",
+"doubt": "Bémols de précaution sur Mi (chant, MD, MG)."
+},
+{
+"v": "D5h D5e re",
+"ly": "pren- dre:",
+"rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+"lh": "D2+G2+D3hd"
+},
+{
+"v": "Eb5ed D5s C5 Eb5ed F5s",
+"ly": "Que mon sort est a-",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+C3hd"
+},
+{
+"v": "G5hd~",
+"ly": "mer!",
+"rh": "rs G3s D4s G3s F4s D4s G4s F4s G4s F4s D4s G3s",
+"lh": "B1+G2+D3hd~",
+"doubt": "MG : Si bécarre grave ; liaison de prolongation sur le G2 vers la mesure suivante."
+},
+{
+"v": "G5h~ G5e re",
+"ly": "",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C2+G2+Eb3hd"
+},
+{
+"v": "Db5h Eb5e F5e",
+"ly": "Ah! sans a-",
+"rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+"lh": "F1+F2hd"
+},
+{
+"v": "Ab4h C5e Db5e",
+"ly": "mour s'en al-",
+"rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+"lh": "F1+F2hd"
+},
+{
+"v": "F4h G4e Ab4e",
+"ly": "ler, s'en al-",
+"rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+"lh": "F1+F2hd"
+},
+{
+"v": "D4hd",
+"ly": "ler",
+"rh": "rs Ab3s D4s Ab3s F4s D4s Ab4s F4s Ab4s F4s D4s Ab3s",
+"lh": "F1+F2hd",
+"doubt": "Ré bécarre (chant et MD). Respiration (,) en fin de mesure."
+},
+{
+"v": "G4hd~",
+"ly": "sur",
+"rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+"lh": "G1+G2hd"
+},
+{
+"v": "G4h~ G4e G4e",
+"ly": "la",
+"rh": "rs G3s B3s G3s D4s B3s G4s F4s G4s F4s B3s G3s",
+"lh": "G1+G2hd",
+"doubt": "Chant : point (?) après la 1re croche, ignoré (lu comme croche simple liée à la blanche)."
+},
+{
+"v": "G4hd~",
+"ly": "mer!",
+"rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"lh": "C1+C2hd",
+"doubt": "« 8a bassa » sous la MG : écrit à la hauteur jouée (imprimé C2+C3) ; portée de l'8a bassa (cette seule mesure ?) à vérifier."
+},
+{
+"marks": [
+"p",
+"pp"
+],
+"v": "G4 r r",
+"ly": "",
+"rh": "C6+C7~ C6+C7ed C6+C7s Bb5+Bb6ed Bb5+Bb6s",
+"lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+"doubt": "8va pointillé : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé) — reprise de l'interlude (cf. mes. 2), 8va se poursuit p. 4. p = MD, pp = MG."
+}
+]
+}

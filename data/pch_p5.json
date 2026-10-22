@@ -1,0 +1,112 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "3/4",
+   "ks": -3,
+   "v": "D5h D5ed D5s",
+   "ly": "dans la na-",
+   "rh": "rs Bb3s D4s Bb3s F4s D4s Bb4s F4s Bb4s F4s D4s Bb3s",
+   "lh": "Bb1+Bb2hd",
+   "doubt": "Suite directe de p.4 (« Comme dans la nature ») ; pas de numéro de page imprimé."
+  },
+  {
+   "v": "G5hd",
+   "ly": "tu-",
+   "rh": "rs Bb3s Eb4s Bb3s G4s Eb4s Bb4s G4s Bb4s G4s Eb4s Bb3s",
+   "lh": "Eb2+Bb2hd"
+  },
+  {
+   "v": "Bb4 r r",
+   "ly": "re",
+   "rh": "rs Bb3s Eb4s Bb3s G4s Eb4s Bb4s G4s Bb4s G4s Eb4s Bb3s",
+   "lh": "Eb2+Bb2hd"
+  },
+  {
+   "v": "Eb5h Eb5ed D5s",
+   "ly": "Tout me pa-",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+C3hd"
+  },
+  {
+   "v": "F5d Eb5e D5e Eb5e",
+   "ly": "raît _ en _",
+   "rh": "rs F3s A3s F3s Eb4s A3s F4s Eb4s F4s Eb4s A3s F3s",
+   "lh": "C2+F2+C3hd",
+   "doubt": "Liaisons F5-Eb5 (raît) et D5-Eb5 (en) ; bécarre sur A3 (RH)."
+  },
+  {
+   "v": "F5hd~",
+   "ly": "deuil.",
+   "rh": "rs F3s Bb3s F3s D4s Bb3s F4s D4s F4s D4s Bb3s F3s",
+   "lh": "Bb1+F2+D3hd~",
+   "doubt": "LH : liaison de prolongation imprimée seulement sur D3 (vers m.7)."
+  },
+  {
+   "v": "F5 r r",
+   "ly": "",
+   "rh": "rs F3s Bb3s F3s D4s Bb3s F4s D4s F4s D4s Bb3s Ab3s",
+   "lh": "Bb2+D3hd",
+   "doubt": "Dernière double croche RH : bémol de précaution imprimé (Ab3)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+   "lh": "Eb2+Eb3hd"
+  },
+  {
+   "v": "Eb5ed Eb5s C5e D5e Eb5e Ab5e",
+   "ly": "La co- lom- be ou- bli-",
+   "rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+   "lh": "Eb2+C3+Eb3hd",
+   "doubt": "Liaison C5-D5 imprimée (lom-be) ; « colom » imprimé sous 2 notes."
+  },
+  {
+   "v": "G5h Eb5e re",
+   "ly": "é- e",
+   "rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+   "lh": "Eb2+Bb2+Eb3hd"
+  },
+  {
+   "v": "Eb5ed Eb5s C5e D5e Eb5e Ab5e",
+   "ly": "Pleure et son- ge à l'ab-",
+   "rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+   "lh": "Eb2+C3+Eb3hd",
+   "doubt": "« Pleure » imprimé sous une seule note (élision devant « et »)."
+  },
+  {
+   "v": "G5h~ G5e G5e",
+   "ly": "sent, Mon",
+   "rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+   "lh": "Eb2+Bb2+Eb3hd",
+   "doubt": "Liaison G5h-G5e lue comme prolongation ; signe de respiration (virgule) avant « Mon »."
+  },
+  {
+   "v": "G5d D5e E5ed E5s",
+   "ly": "â- me pleure et",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s E4s C4s G3s",
+   "lh": "D3h E3 // D2+G2hd",
+   "doubt": "Bécarres : E5 (chant), B3 et E4 (RH), E3 (LH). « pleure » sous une seule note. LH à 2 voix."
+  },
+  {
+   "v": "D5hd",
+   "ly": "sent",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+   "lh": "D2+G2+D3hd"
+  },
+  {
+   "v": "G5 D5ed D5s Eb5ed Eb5s",
+   "ly": "Qu'elle est dé- pa- reil-",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s Eb4s C4s G3s",
+   "lh": "D3h Eb3 // D2+G2hd",
+   "doubt": "« Qu'elle » élidé = une note ; bémols de précaution sur Eb5 (chant), Eb4 (RH), Eb3 (LH)."
+  },
+  {
+   "v": "D5h D5e re",
+   "ly": "lé- e,",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+   "lh": "D2+G2+D3hd"
+  }
+ ]
+}
