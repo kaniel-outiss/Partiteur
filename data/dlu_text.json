@@ -1,0 +1,108 @@
+{
+"lang": "it",
+"ctx": "La bohème (Puccini, livret d'Illica et Giacosa, 1896), acte III. Février, aube glaciale à la barrière d'Enfer. Mimì, malade de la tuberculose, a surpris Rodolfo avouant à Marcello qu'il la quitte parce que, pauvre, il ne peut la soigner. Elle décide de partir sans reproche : elle retournera seule à sa chambre, demande à Rodolfo de lui renvoyer ses quelques affaires — l'anneau d'or, le livre de prières — et lui laisse, s'il le veut, le petit bonnet rose en souvenir. Un adieu d'une tendresse déchirante.",
+"diction": [
+"« Donde lieta uscì » : [ˈdonde ˈljɛːta uʃˈʃi] — pianissimo, voix intime et fragile, mais toujours timbrée.",
+"Doubles consonnes : « Addio » [adˈdiːo], « intesser », « lasciai » [laʃˈʃai], « cassetto », « cerchietto », « cuffietta ».",
+"« rancor » : r roulé doux ; « guanciale » [ɡwanˈtʃaːle].",
+"Rubato puccinien (rit., a tempo, col canto) : suivre le texte, comme une conversation douloureuse.",
+"« ricordo d'amor » : seul vrai élan de l'air, généreux puis aussitôt retenu."
+],
+"lines": [
+{
+"key": "donde lieta",
+"it": "Donde lieta uscì al tuo grido d'amore, torna sola Mimì al solitario nido. Ritorna un'altra volta a intesser finti fior.",
+"ipa": "ˈdonde ˈljɛːta uʃˈʃi al ˈtuːo ˈɡriːdo daˈmoːre ˈtorna ˈsoːla miˈmi al soliˈtaːrjo ˈniːdo riˈtorna unˈaltra ˈvɔlta a inˈtesser ˈfinti fjor",
+"w": [
+[
+"Donde lieta uscì",
+"d'où elle sortit joyeuse"
+],
+[
+"al tuo grido d'amore",
+"à ton appel d'amour"
+],
+[
+"torna sola",
+"revient seule"
+],
+[
+"al solitario nido",
+"au nid solitaire"
+],
+[
+"a intesser finti fior",
+"tisser des fleurs artificielles"
+]
+],
+"fr": "Là d'où elle est sortie joyeuse à ton appel d'amour, Mimì retourne seule, à son nid solitaire. Elle retourne encore une fois tisser des fleurs artificielles."
+},
+{
+"key": "addio",
+"it": "Addio, senza rancor. Ascolta, ascolta. Le poche robe aduna che lasciai sparse. Nel mio cassetto stan chiusi quel cerchietto d'or e il libro di preghiere.",
+"ipa": "adˈdiːo ˈsɛntsa raŋˈkor asˈkolta le ˈpɔːke ˈrɔːbe aˈduːna ke laʃˈʃai ˈsparse nel ˈmiːo kasˈsetto stan ˈkjuːzi kwel kerˈkjetto dɔr e il ˈliːbro di preˈɡjɛːre",
+"w": [
+[
+"senza rancor",
+"sans rancune"
+],
+[
+"Le poche robe aduna",
+"rassemble les quelques affaires"
+],
+[
+"che lasciai sparse",
+"que j'ai laissées éparses"
+],
+[
+"Nel mio cassetto",
+"dans mon tiroir"
+],
+[
+"quel cerchietto d'or",
+"ce petit anneau d'or"
+],
+[
+"il libro di preghiere",
+"le livre de prières"
+]
+],
+"fr": "Adieu, sans rancune. Écoute, écoute. Rassemble les quelques affaires que j'ai laissées. Dans mon tiroir sont rangés ce petit anneau d'or et le livre de prières."
+},
+{
+"key": "involgi",
+"it": "Involgi tutto quanto in un grembiale e manderò il portiere… Bada, sotto il guanciale c'è la cuffietta rosa. Se vuoi… serbarla a ricordo d'amor! Addio, senza rancor.",
+"ipa": "inˈvɔldʒi ˈtutto ˈkwanto in un ɡremˈbjaːle e mandeˈrɔ il porˈtjɛːre ˈbaːda ˈsotto il ɡwanˈtʃaːle tʃɛ la kufˈfjetta ˈrɔːza se vwɔi serˈbarla a riˈkɔrdo daˈmor adˈdiːo ˈsɛntsa raŋˈkor",
+"w": [
+[
+"Involgi tutto quanto",
+"enveloppe le tout"
+],
+[
+"in un grembiale",
+"dans un tablier"
+],
+[
+"manderò il portiere",
+"j'enverrai le concierge"
+],
+[
+"sotto il guanciale",
+"sous l'oreiller"
+],
+[
+"la cuffietta rosa",
+"le petit bonnet rose"
+],
+[
+"serbarla a ricordo d'amor",
+"la garder en souvenir d'amour"
+]
+],
+"fr": "Enveloppe le tout dans un tablier et j'enverrai le concierge… Fais attention : sous l'oreiller, il y a le petit bonnet rose. Si tu veux… garde-le en souvenir de notre amour ! Adieu, sans rancune."
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
