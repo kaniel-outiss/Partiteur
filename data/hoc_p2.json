@@ -1,0 +1,124 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "cresc."
+   ],
+   "v": "G3 A3 G3 A3",
+   "ly": "fo, no, no, no,",
+   "rh": "E5+G5e C5e F5+A5e C5e E5+G5e C5e F5+A5e C5e",
+   "lh": "C3e C4e C3e C4e C3e C4e C3e C4e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "G3 A3 G3 A3",
+   "ly": "no, no, no, non",
+   "rh": "E5+G5e C5e F5+A5e C5e E5+G5e C5e F5+A5e C5e",
+   "lh": "C3e C4e C3e C4e C3e C4e C3e C4e"
+  },
+  {
+   "v": "G3 r rh",
+   "ly": "fo.",
+   "rh": "E5+G5 r rh",
+   "lh": "C3 r rh"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+G5h F#4+F#5h",
+   "lh": "rw",
+   "doubt": "octaves G4+G5 → F#4+F#5 liées par une liaison d'expression"
+  },
+  {
+   "v": "rh D3d E3e",
+   "ly": "Ca- va-",
+   "rh": "D4+F4+B4+D5hd E4+C5+E5",
+   "lh": "G2e G3e G2e G3e G2e G3e G2e G3e",
+   "doubt": "bécarres imprimés devant B4 et F4 (annule le F# de mes. 20)"
+  },
+  {
+   "v": "F3 F3 F3 G3",
+   "ly": "lier voi sie- te",
+   "rh": "F4+B4+D5+F5 F4+B4+D5+F5 F4+B4+D5+F5 G4+B4+D5+G5",
+   "lh": "G2e G3e G2e G3e G2e G3e G2e G3e",
+   "doubt": "bécarre devant B4 au 1er accord, valable toute la mesure"
+  },
+  {
+   "v": "E3 r rh",
+   "ly": "già,",
+   "rh": "E4+C5+E5e D5e C5e B4e C5e D5e E5e F5e",
+   "lh": "C3 r rh",
+   "doubt": "bécarre imprimé devant B4 (4e croche)"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G4+G5h F#4+F#5h",
+   "lh": "rw"
+  },
+  {
+   "v": "rh D3d E3e",
+   "ly": "du- bi-",
+   "rh": "D4+F4+B4+D5hd E4+C5+E5",
+   "lh": "G2e G3e G2e G3e G2e G3e G2e G3e",
+   "doubt": "idem mes. 21 (bécarres sur B4 et F4)"
+  },
+  {
+   "v": "F3 F3 F3 G3",
+   "ly": "tar non pos- so‿af-",
+   "rh": "F4+B4+D5+F5 F4+B4+D5+F5 F4+B4+D5+F5 G4+B4+D5+G5",
+   "lh": "G2e G3e G2e G3e G2e G3e G2e G3e"
+  },
+  {
+   "v": "E3 r F3 A3",
+   "ly": "fé, me lo",
+   "rh": "G4+C5+E5e D5e E5e C5e A4+F5e E5e F5e A5e",
+   "lh": "C3 E3+G3+C4 C3 F3+A3+C4",
+   "doubt": "croches mdr piquées (staccato) mes. 27-32"
+  },
+  {
+   "v": "G3 C4 F3 A3",
+   "ly": "di- ce la bon-",
+   "rh": "E5+G5e F5e G5e E5e A4+F5e E5e F5e A5e",
+   "lh": "C3 E3+G3+C4 C3 F3+A3+C4"
+  },
+  {
+   "v": "G3h F3 A3",
+   "ly": "tà che vo-",
+   "rh": "E5+G5e F5e G5e E5e A4+F5e E5e F5e A5e",
+   "lh": "C3 E3+G3+C4 C3 F3+A3+C4"
+  },
+  {
+   "v": "G3 C4 F3 A3",
+   "ly": "le- te‿a- ver per",
+   "rh": "E5+G5e F5e G5e E5e A4+F5e E5e F5e A5e",
+   "lh": "C3 E3+G3+C4 C3 F3+A3+C4"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "G3 C4 F3 A3",
+   "ly": "me, a- ver per",
+   "rh": "E5+G5e F5e G5e E5e A4+F5e E5e F5e A5e",
+   "lh": "C3 E3+G3+C4 C3 F3+A3+C4"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "G3 C4 F3 A3",
+   "ly": "me, a- ver per",
+   "rh": "E5+G5e F5e G5e E5e A4+F5e E5e F5e A5e",
+   "lh": "C3 E3+G3+C4 C3 F3+A3+C4",
+   "doubt": "paroles continuent p. 3 (« me »)"
+  }
+ ]
+}

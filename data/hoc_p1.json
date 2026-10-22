@@ -1,0 +1,119 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "4/4",
+   "tempo": "Allegro molto",
+   "marks": [
+    "f"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "A3+F4w",
+   "lh": "F2+F3w"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A3+F4h A3+F4h",
+   "lh": "F2+F3h F2+F3h"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "A3+F4 re C4e re F4e re A4e",
+   "lh": "F2+F3 C3 F3 A3",
+   "doubt": "croches/noires piano piquées (staccato)"
+  },
+  {
+   "v": "rh G3d A3e",
+   "ly": "Ho ca-",
+   "rh": "re C5e re A4e re G4e re C4e",
+   "lh": "C4 A3 E3+Bb3h // rh G3 C3",
+   "doubt": "indication scénique « (a Don Giovanni) » au-dessus de l'entrée de Masetto ; main gauche à deux voix (blanche E3+Bb3 hampe haut liée vers mes. 5, G3/C3 noires piquées hampe bas)"
+  },
+  {
+   "v": "F3 F3 rh",
+   "ly": "pi- to,",
+   "rh": "re F4e re C4e re F4e re A4e",
+   "lh": "F3+A3 C3 F3 A3"
+  },
+  {
+   "v": "rh G3d A3e",
+   "ly": "Si- gnor,",
+   "rh": "re C5e re A4e re G4e re C4e",
+   "lh": "C4 A3 E3+Bb3h // rh G3 C3"
+  },
+  {
+   "v": "F3 r rh",
+   "ly": "sì!",
+   "rh": "re F4e re C4e re F4e re A4e",
+   "lh": "F3+A3 C3 F3 A3"
+  },
+  {
+   "v": "rh G3d A3e",
+   "ly": "Si- gnor,",
+   "rh": "re C5e re A4e re G4e re C4e",
+   "lh": "C4 A3 E3+Bb3h // rh G3 C3"
+  },
+  {
+   "v": "F3 r rh",
+   "ly": "sì!",
+   "rh": "F4 r rh",
+   "lh": "F3+A3 r rh"
+  },
+  {
+   "v": "F3hd F3",
+   "ly": "Chi- no‿il",
+   "rh": "F4e G4e F4e E4e F4e G4e A4e F4e",
+   "lh": "F3w"
+  },
+  {
+   "v": "E3h E3h",
+   "ly": "ca- po‿e",
+   "rh": "E4e F4e E4e D4e E4e F4e G4e E4e",
+   "lh": "E3w"
+  },
+  {
+   "v": "D3h D3h",
+   "ly": "me ne",
+   "rh": "D4e E4e D4e C#4e D4e E4e F4e D4e",
+   "lh": "D3w"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "C3 r G3 G3",
+   "ly": "vo; già che",
+   "rh": "C4 r G5d F5s G5s",
+   "lh": "C3e C4e C3e C4e C3+E3e C4e C3e C4e",
+   "doubt": "bécarre de précaution imprimé devant C4 (mdr) ; tr sur G5 pointée, liaison vers A5 mes. 14"
+  },
+  {
+   "v": "A3 F3 C4 A3",
+   "ly": "pia- ce‿a voi co-",
+   "rh": "A5e re C6e re F5e re A5e re",
+   "lh": "C3+F3e C4e C3e C4e C3+A3e C4e C3+F3e C4e"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "G3 r G3 G3",
+   "ly": "sì, al- tre",
+   "rh": "G5 r G5d F5s G5s",
+   "lh": "C3+E3e C4e C3e C4e C3+E3e C4e C3e C4e"
+  },
+  {
+   "v": "A3 F3 C4 A3",
+   "ly": "re- pli- che non",
+   "rh": "A5e re C6e re F5e re A5e re",
+   "lh": "C3+F3e C4e C3e C4e C3+A3e C4e C3+F3e C4e",
+   "doubt": "paroles « re-pli-che non » continuent p. 2 (mes. 17 « fo, »)"
+  }
+ ]
+}
