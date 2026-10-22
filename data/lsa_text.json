@@ -1,0 +1,92 @@
+{
+"lang": "it",
+"ctx": "Turandot (Puccini, livret d'Adami et Simoni, 1926), acte I. Pékin, devant le palais impérial. Calaf, prince inconnu, a décidé de tenter les trois énigmes de la princesse Turandot — tout prétendant qui échoue est décapité. Liù, jeune esclave qui l'aime en secret parce qu'un jour, au palais, il lui a souri, le supplie de renoncer : s'il meurt, son vieux père aveugle Timur et elle-même perdront tout. Air bref et intime, d'une douceur suppliante.",
+"diction": [
+"Pianissimo et legato : voix de tête légère, « dolcissimo », sans jamais forcer.",
+"Doubles consonnes : « ascolta » (simple t), « reggo » [ˈrɛɡɡo], « cammino » [kamˈmiːno], « sorriso » (simple r).",
+"« Liù » [liˈu] : deux syllabes.",
+"Le si♭ aigu final « pietà » : filé pianissimo, en voix mixte, comme un souffle.",
+"Rubato puccinien : suivre la parole, rit. et a tempo bien marqués."
+],
+"lines": [
+{
+"key": "signore",
+"it": "Signore, ascolta! Ah, Signore, ascolta! Liù non regge più! Si spezza il cuor!",
+"ipa": "siɲˈɲoːre asˈkolta a siɲˈɲoːre asˈkolta liˈu non ˈrɛddʒe pju si ˈspɛttsa il kwɔr",
+"w": [
+[
+"Signore, ascolta!",
+"Seigneur, écoute !"
+],
+[
+"Liù non regge più",
+"Liù n'en peut plus"
+],
+[
+"Si spezza il cuor",
+"son cœur se brise"
+]
+],
+"fr": "Seigneur, écoute ! Ah, Seigneur, écoute ! Liù n'en peut plus ! Son cœur se brise !"
+},
+{
+"key": "ahimè",
+"it": "Ahimè, quanto cammino col tuo nome nell'anima, col nome tuo sulle labbra!",
+"ipa": "aiˈmɛ ˈkwanto kamˈmiːno kol ˈtuːo ˈnoːme nelˈlaːnima kol ˈnoːme ˈtuːo ˈsulle ˈlabbra",
+"w": [
+[
+"quanto cammino",
+"que de chemin (parcouru)"
+],
+[
+"col tuo nome nell'anima",
+"avec ton nom dans l'âme"
+],
+[
+"sulle labbra",
+"sur les lèvres"
+]
+],
+"fr": "Hélas, que de chemin parcouru avec ton nom dans l'âme, ton nom sur les lèvres !"
+},
+{
+"key": "ma se",
+"it": "Ma se il tuo destino doman sarà deciso, noi morrem sulla strada dell'esilio. Ei perderà suo figlio… io l'ombra d'un sorriso! Liù non regge più! Ah, pietà!",
+"ipa": "ma se il ˈtuːo desˈtiːno doˈman saˈra deˈtʃiːzo noi morˈrɛm ˈsulla ˈstraːda delleˈziːljo ɛi perdeˈra ˈsuːo ˈfiʎʎo ˈiːo ˈlombra dun sorˈriːzo liˈu non ˈrɛddʒe pju a pjeˈta",
+"w": [
+[
+"se il tuo destino",
+"si ton destin"
+],
+[
+"doman sarà deciso",
+"se décide demain"
+],
+[
+"noi morrem",
+"nous mourrons"
+],
+[
+"sulla strada dell'esilio",
+"sur la route de l'exil"
+],
+[
+"Ei perderà suo figlio",
+"lui (Timur) perdra son fils"
+],
+[
+"io l'ombra d'un sorriso",
+"moi, l'ombre d'un sourire"
+],
+[
+"pietà",
+"pitié"
+]
+],
+"fr": "Mais si ton destin se décide demain, nous mourrons sur la route de l'exil. Lui perdra son fils… et moi, l'ombre d'un sourire ! Liù n'en peut plus ! Ah, pitié !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}

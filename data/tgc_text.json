@@ -1,0 +1,60 @@
+{
+"lang": "it",
+"ctx": "Turandot (Puccini, livret d'Adami et Simoni, 1926), acte III. Calaf a résolu les énigmes, mais a offert à Turandot de mourir si elle découvre son nom avant l'aube. Les gardes ont saisi Liù et le vieux Timur, qu'on a vus avec lui. Torturée, Liù refuse de révéler le nom : c'est l'amour, dit-elle, qui lui donne cette force. Puis elle se tourne vers la princesse : « Toi qui es ceinte de glace, tu l'aimeras toi aussi… » Elle arrache un poignard à un garde et se tue pour ne pas parler. C'est la dernière page que Puccini acheva avant sa mort.",
+"diction": [
+"Legato expressif, « con dolorosa espressione » ; voix pleine mais jamais dure.",
+"Doubles consonnes : « vinta » (simple), « fiamma » [ˈfjamma], « ardore », « chiuderò » [kjudeˈrɔ], « occhi » [ˈɔkki].",
+"« gel » [dʒɛl] ; « cinta » [ˈtʃinta] ; « Principessa » [printʃiˈpessa].",
+"Montée « l'amerai anche tu » : cresc. e allarg., la voix s'ouvre sans crier.",
+"Fin « per non vederlo più » : a tempo, ma morendo — la voix s'éteint."
+],
+"lines": [
+{
+"key": "tu che",
+"it": "Tu che di gel sei cinta, da tanta fiamma vinta, l'amerai anche tu!",
+"ipa": "tu ke di dʒɛl sɛi ˈtʃinta da ˈtanta ˈfjamma ˈvinta lameˈrai ˈaŋke tu",
+"w": [
+[
+"Tu che di gel sei cinta",
+"toi qui es ceinte de glace"
+],
+[
+"da tanta fiamma vinta",
+"vaincue par une si grande flamme"
+],
+[
+"l'amerai anche tu",
+"tu l'aimeras toi aussi"
+]
+],
+"fr": "Toi qui es ceinte de glace, vaincue par une flamme si grande, tu l'aimeras toi aussi !"
+},
+{
+"key": "prima di",
+"it": "Prima di quest'aurora io chiudo stanca gli occhi, perché egli vinca ancora… per non vederlo più!",
+"ipa": "ˈpriːma di kwestauˈrɔːra ˈiːo ˈkjuːdo ˈstaŋka ʎi ˈɔkki perˈke ˈeʎʎi ˈviŋka anˈkoːra per non veˈderlo pju",
+"w": [
+[
+"Prima di quest'aurora",
+"avant cette aurore"
+],
+[
+"io chiudo stanca gli occhi",
+"je ferme, lasse, les yeux"
+],
+[
+"perché egli vinca ancora",
+"pour qu'il gagne encore"
+],
+[
+"per non vederlo più",
+"pour ne plus le voir"
+]
+],
+"fr": "Avant cette aurore, je ferme mes yeux las, pour qu'il gagne encore… pour ne plus le voir !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
