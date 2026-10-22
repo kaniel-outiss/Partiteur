@@ -1,8 +1,72 @@
-{"page":1,"measures":[
-{"meter":"4/4","tempo":"Adagio","marks":["pp"],"v":"rh re Db5e Db5e Eb5e","ly":"Si- gno- re‿a-","rh":"Db5w~ // Bb4w~","lh":"Gb4w~ // Db4w~","doubt":"Tempo imprimé « Adagio (♩ = 50) ». Liaisons de prolongation supposées (arcs au-dessus et au-dessous des accords ronde) vers m.2."},
-{"marks":[],"v":"Db5s Bb4s Bb4d Eb4e rs Eb4s Gb4e Eb4e","ly":"scol- _ ta! Ah, si- gno- re‿a-","rh":"Db5w // Bb4h Ab4 Bb4e Gb4e","lh":"Gb4h F4 Gb4e Eb4e // Db4w","doubt":"Voix : Db5-Bb4 en doubles croches liées sous « scol- » (mélisme), puis Bb4 noire pointée « ta! »."},
-{"marks":["<"],"v":"Bb4 Bb4 re Db5 Eb5e","ly":"scol- ta! Liù non","rh":"Bb4+Db5h~ Db5d Eb5e","lh":"Gb4w // Db4h~ Db4d Eb4e","doubt":"Arc long accord blanche → Db5 noire pointée (MD) et Db4 blanche → Db4 noire pointée (MG) : lu comme liaison de prolongation, pourrait être un legato. Petite liaison en début de mesure MD venant de m.2. Soufflet < sous la MD (temps 3-4)."},
-{"marks":[">","p"],"v":"Db5e Ab4e Db5 Db5e Eb5s Db5s Bb4e Db5e","ly":"reg- ge più! _ Si _ spez- za‿il","rh":"Db5e Ab4e Db5 Db5e Eb5s Db5s Bb4e Db5e","lh":"F4+Ab4 F4+Ab4 Eb4+Gb4 Db4","doubt":"« più! » (Db5 noire) → Db5 croche : arc avec trait de prolongation, lu comme mélisme (pourrait être une liaison de prolongation)."},
-{"marks":["<",">","rit."],"v":"Eb5e Ab5e Gb5e Eb5e Db5e re Eb53 Db5s3 Bb4s3","ly":"cuor! Ahi- mè, ahi- mè, quan- to cam-","rh":"Eb5e Ab5e Gb5e Eb5e Db5s Eb5s Gb5s Ab5s Eb53 Db5s3 Bb4s3","lh":"Gb4 Eb4e Gb4e~ Gb4h // Cb4h Bb3h","doubt":"Triolet « 3 » = noire + 2 doubles croches (valeur d'une noire), voix et MD. « rit. » imprimé au-dessus du chant et sous la MD."},
-{"marks":["a tempo","p","<",">"],"v":"Ab4 Ab4 Bb4e Eb5s Db5s Bb4e Eb4s Db4s","ly":"mi- no col tuo _ no- me nell'","rh":"Ab4~ Ab4e re Bb4e Eb5s Db5s Bb4e Eb4s Db4s // rh Gb4d F4e","lh":"Db4+F4~ Db4+F4e re re Bb3e C4e Cb4e // rh r re Db3e","doubt":"MG : clé de fa au temps 3 (accord initial en clé de sol, lu Db4+F4 — accord serré, Db4 incertain). C♮4 puis Cb4 (bémol de rappel). Voix inférieure MG : soupir, demi-soupir, Db3 croche. Dernière double croche MD/voix lue Db4 (incertain Eb4/Db4)."}
-]}
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Adagio",
+"marks": [
+"pp"
+],
+"v": "rh re Db5e Db5e Eb5e",
+"ly": "Si- gno- re‿a-",
+"rh": "Db5w~ // Bb4w~",
+"lh": "Gb4w~ // Db4w~",
+"doubt": "Tempo imprimé « Adagio (♩ = 50) ». Liaisons de prolongation supposées (arcs au-dessus et au-dessous des accords ronde) vers m.2.",
+"bpm": 50
+},
+{
+"marks": [],
+"v": "Db5s Bb4s Bb4d Eb4e rs Eb4s Gb4e Eb4e",
+"ly": "scol- _ ta! Ah, si- gno- re‿a-",
+"rh": "Db5w // Bb4h Ab4 Bb4e Gb4e",
+"lh": "Gb4h F4 Gb4e Eb4e // Db4w",
+"doubt": "Voix : Db5-Bb4 en doubles croches liées sous « scol- » (mélisme), puis Bb4 noire pointée « ta! »."
+},
+{
+"marks": [
+"<"
+],
+"v": "Bb4 Bb4 re Db5 Eb5e",
+"ly": "scol- ta! Liù non",
+"rh": "Bb4+Db5h~ Db5d Eb5e",
+"lh": "Gb4w // Db4h~ Db4d Eb4e",
+"doubt": "Arc long accord blanche → Db5 noire pointée (MD) et Db4 blanche → Db4 noire pointée (MG) : lu comme liaison de prolongation, pourrait être un legato. Petite liaison en début de mesure MD venant de m.2. Soufflet < sous la MD (temps 3-4)."
+},
+{
+"marks": [
+">",
+"p"
+],
+"v": "Db5e Ab4e Db5 Db5e Eb5s Db5s Bb4e Db5e",
+"ly": "reg- ge più! _ Si _ spez- za‿il",
+"rh": "Db5e Ab4e Db5 Db5e Eb5s Db5s Bb4e Db5e",
+"lh": "F4+Ab4 F4+Ab4 Eb4+Gb4 Db4",
+"doubt": "« più! » (Db5 noire) → Db5 croche : arc avec trait de prolongation, lu comme mélisme (pourrait être une liaison de prolongation)."
+},
+{
+"marks": [
+"<",
+">",
+"rit."
+],
+"v": "Eb5e Ab5e Gb5e Eb5e Db5e re Eb53 Db5s3 Bb4s3",
+"ly": "cuor! Ahi- mè, ahi- mè, quan- to cam-",
+"rh": "Eb5e Ab5e Gb5e Eb5e Db5s Eb5s Gb5s Ab5s Eb53 Db5s3 Bb4s3",
+"lh": "Gb4 Eb4e Gb4e~ Gb4h // Cb4h Bb3h",
+"doubt": "Triolet « 3 » = noire + 2 doubles croches (valeur d'une noire), voix et MD. « rit. » imprimé au-dessus du chant et sous la MD."
+},
+{
+"marks": [
+"a tempo",
+"p",
+"<",
+">"
+],
+"v": "Ab4 Ab4 Bb4e Eb5s Db5s Bb4e Eb4s Db4s",
+"ly": "mi- no col tuo _ no- me nell'",
+"rh": "Ab4~ Ab4e re Bb4e Eb5s Db5s Bb4e Eb4s Db4s // rh Gb4d F4e",
+"lh": "Db4+F4~ Db4+F4e re re Bb3e C4e Cb4e // rh r re Db3e",
+"doubt": "MG : clé de fa au temps 3 (accord initial en clé de sol, lu Db4+F4 — accord serré, Db4 incertain). C♮4 puis Cb4 (bémol de rappel). Voix inférieure MG : soupir, demi-soupir, Db3 croche. Dernière double croche MD/voix lue Db4 (incertain Eb4/Db4)."
+}
+]
+}

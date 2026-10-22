@@ -17,8 +17,8 @@
 14. ✅ (0.53) Donde lieta uscì — sop_arias.pdf
 15. ✅ (0.54) Ah ! Je ris de me voir (air des bijoux) — sop_arias.pdf
 16. ✅ (0.55) Je veux vivre — sop_arias.pdf
-17. Signore, ascolta ! — sop_arias.pdf
-18. Tu che di gel sei cinta — sop_arias.pdf
+17. ✅ (0.56) Signore, ascolta ! — sop_arias.pdf
+18. ✅ (0.56) Tu che di gel sei cinta — sop_arias.pdf
 19. Batti, batti — sop_arias.pdf
 20. Vedrai, carino — sop_arias.pdf
 21. Voi che sapete — nozze.pdf (Nr. 12)

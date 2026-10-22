@@ -2,7 +2,7 @@
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#14110f">
-<title>Le partiteur 0.55.0</title>
+<title>Le partiteur 0.56.0</title>
 <style>
 :root{--bg:#14110f;--bg2:#1c1815;--card:#26201a;--card2:#2f2820;--or:#E8B04B;--or2:#f3c873;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf7ef;--line:#3a322a;--rouge:#e06a5a;--vert:#4fb873;--bleu:#5b8def;
   --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
@@ -127,7 +127,7 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
   <input type="file" id="fimp" multiple hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
- <div class="hint" style="margin-top:28px">Le partiteur 0.55.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
+ <div class="hint" style="margin-top:28px">Le partiteur 0.56.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
 <div id="app" hidden>
  <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bAnn" class="ghost" title="Annoter la partition">🖍</button><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
  <div id="annbar" hidden></div>
@@ -718,7 +718,7 @@ function t2Tuplets(V){const T=V.map(function(){return null;});let st=-1,acc=0;
   if(st>=0){T[st]='start';T[V.length-1]=T[V.length-1]==='start'?'single':'stop';}
   return T;}
 /* clé automatique au piano (médiane de la mesure, avec hystérésis) */
-function t2AutoClefs(meas,key,def){let cur=def;return meas.map(function(m){const a=[];String(m[key]||'').split('//').forEach(function(v){t2Voice(v).forEach(function(e){if(!e.grace)e.notes.forEach(function(n){a.push(n.midi);});});});
+function t2AutoClefs(meas,key,def){let cur=def;return meas.map(function(m){const a=[];String(m[key]||'').split('//').forEach(function(v){t2Voice(v).forEach(function(e){e.notes.forEach(function(n){a.push(n.midi);});});});
   if(a.length){a.sort(function(x,y){return x-y;});const med=a[a.length>>1],lo=a[0],hi=a[a.length-1];
     if(def==='F'){if(cur==='F'&&lo>=57)cur='G';else if(cur==='G'&&(lo<=45||med<=53))cur='F';}
     else{if(cur==='G'&&hi<=57)cur='F';else if(cur==='F'&&hi>=60&&med>=57)cur='G';}}return cur;});}

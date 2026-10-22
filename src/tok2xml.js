@@ -43,7 +43,7 @@ function t2Tuplets(V){const T=V.map(function(){return null;});let st=-1,acc=0;
   if(st>=0){T[st]='start';T[V.length-1]=T[V.length-1]==='start'?'single':'stop';}
   return T;}
 /* clé automatique au piano (médiane de la mesure, avec hystérésis) */
-function t2AutoClefs(meas,key,def){let cur=def;return meas.map(function(m){const a=[];String(m[key]||'').split('//').forEach(function(v){t2Voice(v).forEach(function(e){if(!e.grace)e.notes.forEach(function(n){a.push(n.midi);});});});
+function t2AutoClefs(meas,key,def){let cur=def;return meas.map(function(m){const a=[];String(m[key]||'').split('//').forEach(function(v){t2Voice(v).forEach(function(e){e.notes.forEach(function(n){a.push(n.midi);});});});
   if(a.length){a.sort(function(x,y){return x-y;});const med=a[a.length>>1],lo=a[0],hi=a[a.length-1];
     if(def==='F'){if(cur==='F'&&lo>=57)cur='G';else if(cur==='G'&&(lo<=45||med<=53))cur='F';}
     else{if(cur==='G'&&hi<=57)cur='F';else if(cur==='F'&&hi>=60&&med>=57)cur='G';}}return cur;});}

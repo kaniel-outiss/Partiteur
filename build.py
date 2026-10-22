@@ -254,7 +254,7 @@ add_air('lsa', {'id': 'puccini-signore-ascolta', 'title': 'Signore, ascolta!', '
                 'role': 'Liù', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -6, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 169-171'},
         50, {'name': 'Liù (soprano)', 'short': 'Liù', 'vt': 'S', 'clef': 'G', 'oct': 0})
 add_air('tgc', {'id': 'puccini-tu-che-di-gel', 'title': 'Tu che di gel sei cinta', 'composer': 'Giacomo Puccini', 'work': 'Turandot, acte III',
-                'role': 'Liù', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 0, 'mode': 'minor', 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 172-175'},
+                'role': 'Liù', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -6, 'mode': 'minor', 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 172-175'},
         69, {'name': 'Liù (soprano)', 'short': 'Liù', 'vt': 'S', 'clef': 'G', 'oct': 0})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
