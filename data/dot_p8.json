@@ -1,0 +1,86 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "Eb3e re r",
+   "ly": "prà.",
+   "rh": "Eb4e Eb4s G3s D4s F3s Eb4s G3s",
+   "lh": "Eb3e re r",
+   "doubt": "mes. 62 imprimée en tête de page 73 (Allegro vivace, 2/4 depuis mes. 53)"
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "F4s Ab3s Bb3s D3s C4s Eb3s D4s F3s",
+   "lh": "Bb1+Bb2e re r"
+  },
+  {
+   "v": "re Eb3s Eb3s D3s D3s Eb3s Eb3s",
+   "ly": "Si- gno- ri- na‿u- n'al- tra",
+   "rh": "Eb4s G3s G4s Eb4s F4s D4s G4s Eb4s",
+   "lh": "Eb2e Bb2e Bb2e Bb2e"
+  },
+  {
+   "v": "F3s F3s Bb2s Bb2s C3s C3s D3s D3s",
+   "ly": "vol- ta quan- do Bar- to- lo‿an- drà",
+   "rh": "Ab4s F4s D4s Bb3s Eb4s C4s F4s D4s",
+   "lh": "Bb1e Bb2e Bb2e Bb2e"
+  },
+  {
+   "v": "Eb3s Eb3s Eb4s Eb4s D4s D4s C4s C4s",
+   "ly": "fuo- ri, si- gno- ri- na‿u- n'al- tra",
+   "rh": "G4s Eb4s G5s Eb5s F5s D5s Eb5s C5s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e"
+  },
+  {
+   "v": "Bb3s Bb3s Ab3s Ab3s G3s G3s F#3s F#3s",
+   "ly": "vol- ta quan- do Bar- to- lo‿an- drà",
+   "rh": "D5s Bb4s C5s Ab4s Bb4s G4s A4s F#4s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e"
+  },
+  {
+   "v": "Ab3s G3s G3s G3s G3s F3s F3s F3s",
+   "ly": "fuo- ri, la con- se- gna‿ai ser- vi-",
+   "rh": "Ab4+C5s G4+Bb4s G4+Bb4s G4+Bb4s G4+Bb4s F4+Ab4s F4+Ab4s F4+Ab4s",
+   "lh": "Eb2e Eb3+G3e Ab2e F3+Ab3e",
+   "doubt": "bécarres de courtoisie sur F3 (chant) et F4 (RH)"
+  },
+  {
+   "v": "F3s Eb3s Eb3s Eb3s Eb3s D3s D3s D3s",
+   "ly": "to- ri a suo mo- do dar sa-",
+   "rh": "F4+Ab4s Eb4+G4s Eb4+G4s Eb4+G4s Eb4+G4s D4+F4s D4+F4s D4+F4s",
+   "lh": "Bb2e Eb3+G3e Bb2e D3+F3e"
+  },
+  {
+   "v": "Eb3e re r",
+   "ly": "prà.",
+   "marks": [
+    "VI-"
+   ],
+   "rh": "Eb4e rs G5s rs Eb5s rs B4s",
+   "lh": "Eb3+G3e G4e Eb4e B3e",
+   "doubt": "« VI- » = début de coupure (Vi-de) imprimé au-dessus de la RH ; B4 et B3 bécarre"
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "rs C5s rs G4s rs Ab4s rs F#4s",
+   "lh": "C4e G3e Ab3e F#3e"
+  },
+  {
+   "v": "re G3s G3s G3s G3s G3s G3s",
+   "ly": "Eh non ser- vo- no le",
+   "rh": "G4e G4s G4s G4s G4s G4s G4s",
+   "lh": "G3e re F4e re",
+   "doubt": "LH : F4 avec bécarre (courtoisie après F#3)"
+  },
+  {
+   "v": "C4s C4s C4s C4s D4s D4s D4s D4s",
+   "ly": "smor- fie; fac- cia pur la gat- ta",
+   "rh": "C5s G4s C5s G4s D5s G4s D5s G4s",
+   "lh": "Eb4e re B3e re",
+   "doubt": "LH : B3 bécarre"
+  }
+ ]
+}

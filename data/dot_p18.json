@@ -1,0 +1,120 @@
+{
+ "page": 18,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "Eb4 r",
+   "ly": "vrà.",
+   "rh": "Eb5+G5+Eb6 r",
+   "lh": "Eb3+Eb4 r",
+   "doubt": "Page imprimée 83, mes. 180-195 ; 2/4 maintenu (pas de changement de mesure ni de tempo imprimé). « -DE » imprimé au-dessus de la MD = fin de la coupure (Vi-de), non transcrit. Point d'orgue imprimé sur la barre 180/181 (chant et MD) : reporté sur le silence initial de la mes. 181."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "r^ Eb4ed Eb4s",
+   "ly": "Un dot-",
+   "rh": "r^ Eb5+Eb6ed Eb5+Eb6s",
+   "lh": "rh",
+   "doubt": "Point d'orgue placé sur la barre de mesure 180/181 (voir mes. 180). pp sous la MD."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "Eb4dd Bb3s",
+   "ly": "tor del-",
+   "rh": "Eb5+Eb6dd Bb4+Bb5s",
+   "lh": "Eb2+Eb3e G2e Eb3e Bb2e",
+   "doubt": "pp sous la MG. MG : croches piquées."
+  },
+  {
+   "v": "Bb3dd C4s",
+   "ly": "la mia",
+   "rh": "Bb4+Bb5dd C5+C6s",
+   "lh": "G3e Eb3e Bb2e G2e",
+   "doubt": "MG : croches piquées."
+  },
+  {
+   "v": "C4dd F3s",
+   "ly": "sor- _",
+   "rh": "C5+C6dd F4+F5s",
+   "lh": "Ab2e C3e F3e C3e",
+   "doubt": "Liaison C4-F3 au chant (mélisme sur « sor- ») et C-F à la MD. MG piquée."
+  },
+  {
+   "v": "F3 F3ed G3s",
+   "ly": "te non si",
+   "rh": "F4+F5 F5ed G5s",
+   "lh": "Ab3e F3e C3e Ab2e",
+   "doubt": "Liaison F5-G5 (MD)."
+  },
+  {
+   "v": "Bb3e Ab3e G3e Ab3e",
+   "ly": "la- _ scia in-",
+   "rh": "Bb5e Ab5e G5e Ab5e",
+   "lh": "F2e C3e F3+Ab3e C3e",
+   "doubt": "Liaison Bb3-Ab3 (chant) ; MD liée sur toute la mesure."
+  },
+  {
+   "v": "C3e D3s Eb3s D3e Eb3s F3s",
+   "ly": "fi- _ _ noc- _ _",
+   "rh": "C5e D5s Eb5s D5e Eb5s F5s",
+   "lh": "F3+Ab3e C4e Bb2+F3e Bb3e",
+   "doubt": "Liaisons par temps (chant et MD)."
+  },
+  {
+   "v": "Eb3e F3s G3s F3e G3s Ab3s",
+   "ly": "chiar, _ _ no, _ _",
+   "rh": "Eb5e F5s G5s F5e G5s Ab5s",
+   "lh": "Eb3+G3e Eb3e D3e F3e",
+   "doubt": "Liaisons par temps ; MG piquée."
+  },
+  {
+   "v": "G3e re Eb4ed Eb4s",
+   "ly": "no, un dot-",
+   "rh": "G5e re Eb5+Eb6ed Eb5+Eb6s",
+   "lh": "Eb3e re r"
+  },
+  {
+   "v": "Eb4dd Bb3s",
+   "ly": "tor del-",
+   "rh": "Eb5+Eb6dd Bb4+Bb5s",
+   "lh": "Eb2+Eb3e G2e Eb3e Bb2e"
+  },
+  {
+   "v": "Bb3dd C4s",
+   "ly": "la mia",
+   "rh": "Bb4+Bb5dd C5+C6s",
+   "lh": "G3e Eb3e Bb2e G2e"
+  },
+  {
+   "v": "C4 Bb3e3 Ab3e3 G3e3",
+   "ly": "sor- _ _ _",
+   "rh": "C5+C6 Bb5e3 Ab5e3 G5e3",
+   "lh": "Ab2e C3e F3e C3e",
+   "doubt": "Triolet de croches (chant et MD) ; accent sur C5+C6 (MD) ; liaison sur toute la mesure."
+  },
+  {
+   "v": "F3 F3ed G3s",
+   "ly": "te non si",
+   "rh": "F5 F5ed G5s",
+   "lh": "Ab3e F3e C3e Ab2e",
+   "doubt": "MD : F5 seul au 1er temps (pas de F4, contrairement à la mes. 185)."
+  },
+  {
+   "v": "Bb3e Ab3e G3e Ab3e",
+   "ly": "la- _ scia in-",
+   "rh": "Bb5e Ab5e G5e Ab5e",
+   "lh": "F2e C3e F3+Ab3e C3e"
+  },
+  {
+   "v": "C3e D3s Eb3s D3e Eb3s F3s",
+   "ly": "fi- _ _ noc- _ _",
+   "rh": "C5e D5s Eb5s D5e Eb5s F5s",
+   "lh": "F3+Ab3e C4e Bb2+F3e Bb3e",
+   "doubt": "Mot « innoc- » coupé : suite page suivante (mes. 196)."
+  }
+ ]
+}

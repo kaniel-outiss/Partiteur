@@ -1,0 +1,93 @@
+{
+ "page": 16,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [
+    "pp"
+   ],
+   "v": "Eb4e re r",
+   "ly": "trà.",
+   "rh": "Eb5e Bb4s Bb5s Eb5s Eb6s F5s F6s",
+   "lh": "Eb4e re r",
+   "doubt": "Page imprimée 81, mes. 156-167 ; 2/4 (Allegro vivace). « VI- » imprimé au-dessus de la MD = début d'une coupure (Vi-de), non transcrit. Staccato sur Eb5 (MD) et Eb4 (MG). Toutes les notes aiguës de la MD lues sur lignes supplémentaires (octaves brisées)."
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "G5s G6s Ab5s Ab6s G5s G6s F5s F6s",
+   "lh": "Eb3+B3+D4h",
+   "doubt": "MG : bécarre sur si (B3), accent, liaison de phrasé vers la mes. suivante."
+  },
+  {
+   "v": "r Eb4e C4e",
+   "ly": "E Ro-",
+   "rh": "Eb5s Eb6s D5s D6s Eb5s Eb6s C5s C6s",
+   "lh": "Eb3+C4+Eb4e re r"
+  },
+  {
+   "v": "Bb3e C4e F3e Bb3e",
+   "ly": "si- na‿in- no- cen-",
+   "rh": "Bb4s Bb5s C5s C6s F4s F5s Bb4s Bb5s",
+   "lh": "Eb3+F3+D4h",
+   "doubt": "MG : accent ; Eb3 et F3 en tête décalée (seconde)."
+  },
+  {
+   "v": "gAb3 G3e G3e r",
+   "ly": "ti- na,",
+   "rh": "G4s G5s Bb4s Bb5s Eb5s Eb6s F5s F6s",
+   "lh": "Eb3+G3+Eb4e re r",
+   "doubt": "Chant : petite note (croche) sur la 5e ligne = Ab3 (appoggiature)."
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "G5s G6s Ab5s Ab6s G5s G6s F5s F6s",
+   "lh": "Eb3+B3+D4h",
+   "doubt": "Comme mes. 157 : bécarre sur B3, accent."
+  },
+  {
+   "v": "r Eb4e C4e",
+   "ly": "scon- so-",
+   "rh": "Eb5s Eb6s D5s D6s Eb5s Eb6s C5s C6s",
+   "lh": "Eb3+C4+Eb4e re r"
+  },
+  {
+   "v": "Bb3e C4e F3e Bb3e",
+   "ly": "la- ta, di- spe-",
+   "rh": "Bb4s Bb5s C5s C6s F4s F5s Bb4s Bb5s",
+   "lh": "Eb3+F3+D4h",
+   "doubt": "MG : accent."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G3e G3e r",
+   "ly": "ra- ta,",
+   "rh": "Eb5+G5e Eb4s G3s D4s F3s Eb4s G3s",
+   "lh": "Eb3+G3+Eb4e Eb3e Eb3e Eb3e",
+   "doubt": "MG : croches piquées. G3/F3 de la MD sur 2e et 3e lignes supplémentaires inférieures."
+  },
+  {
+   "v": "re C4s C4s C4s C4s D4s D4s",
+   "ly": "Eh non ser- vo- no le",
+   "rh": "F4s Ab3s C4s Ab3s C4s Ab3s D4s Ab3s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e",
+   "doubt": "MD : accent sur le 3e double-croche (C4). MG : croches piquées."
+  },
+  {
+   "v": "Eb4s Eb4s re r",
+   "ly": "smor- fie;",
+   "rh": "Eb4s G3s G4s Eb4s F4s D4s G4s Eb4s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e"
+  },
+  {
+   "v": "re C4s C4s C4s C4s D4s D4s",
+   "ly": "fac- cia pur la gat- ta",
+   "rh": "Ab4s F4s Eb4s C4s Eb4s C4s F4s D4s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e",
+   "doubt": "MD : accent sur Eb4 (3e double-croche)."
+  }
+ ]
+}

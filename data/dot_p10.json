@@ -1,0 +1,98 @@
+{
+ "page": 10,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "gEb3 D3e D3e r",
+   "ly": "ti- na",
+   "rh": "Bb4+D5e F4s F5s Bb4s Bb5s C5s C6s",
+   "lh": "Bb2+D3+Bb3e re r",
+   "doubt": "Mes. 86 = 1re de la page (numéro imprimé). Mesure 2/4 (Allegro vivace depuis mes. 53, et non C). Liaisons arrivant à l'accord MG depuis la page précédente."
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "D5s D6s Eb5s Eb6s D5s D6s C5s C6s",
+   "lh": "Bb2+F#3+A3h~",
+   "doubt": "Chant : pause de mesure. MG : accent sur l'accord ; (b) de précaution sur Bb2 ; liaison de prolongation sur Bb2 seulement vers mes. 88, et liaison d'expression (A3→G3)."
+  },
+  {
+   "v": "r Bb3e G3e",
+   "ly": "scon- so-",
+   "rh": "Bb4s Bb5s A4s A5s Bb4s Bb5s G4s G5s",
+   "lh": "Bb2+G3+Bb3e re r"
+  },
+  {
+   "v": "F3e G3e C3e D3e",
+   "ly": "la- ta, di- spe-",
+   "rh": "F4s F5s G4s G5s C4s C5s F4s F5s",
+   "lh": "Bb2+C3+A3h~",
+   "doubt": "MG : accent ; Bb2 lié à mes. 90 (liaison inférieure), liaison supérieure d'expression."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "D3e D3e r",
+   "ly": "ra- ta,",
+   "rh": "D5e Bb4s D4s A4s C4s Bb4s D4s",
+   "lh": "Bb2+D3+Bb3e Bb2e Bb2e Bb2e",
+   "doubt": "MG : Bb2 staccato."
+  },
+  {
+   "v": "re G3s G3s G3s G3s A3s A3s",
+   "ly": "Eh non ser- vo- no le",
+   "rh": "C5s Eb4s G4s Eb4s G4s Eb4s A4s Eb4s",
+   "lh": "Bb1e Bb2e Bb2e Bb2e",
+   "doubt": "MD : accent sur le 3e G4. MG staccato."
+  },
+  {
+   "v": "Bb3s Bb3s re r",
+   "ly": "smor- fie;",
+   "rh": "Bb4s D4s Bb4s D4s A4s C4s Bb4s D4s",
+   "lh": "Bb1e Bb2e Bb2e Bb2e",
+   "doubt": "MG staccato."
+  },
+  {
+   "v": "re G3s G3s G3s G3s A3s A3s",
+   "ly": "fac- cia pur la gat- ta",
+   "rh": "C5s Eb4s G4s Eb4s G4s Eb4s A4s Eb4s",
+   "lh": "Bb1e Bb2e Bb2e Bb2e",
+   "doubt": "MD : accent sur G4. MG staccato."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "Bb3s Bb3s re r",
+   "ly": "mor- ta.",
+   "rh": "Bb4s D4s D5s Bb4s C5s A4s D5s Bb4s",
+   "lh": "Bb2e Bb3e Bb2e Bb3e",
+   "doubt": "MG staccato."
+  },
+  {
+   "v": "re G3s G3s G3s G3s A3s A3s",
+   "ly": "Co- spet- ton! per quel- la",
+   "rh": "Eb5s C5s Bb4s G4s Bb4s G4s C5s A4s",
+   "lh": "Bb2e Bb3e Bb2e Bb3e",
+   "doubt": "MD : accent sur Bb4. MG staccato."
+  },
+  {
+   "marks": [
+    "rinf."
+   ],
+   "v": "Bb3s Bb3s re r",
+   "ly": "por- ta",
+   "rh": "D5s Bb4s D5s Bb4s C5s A4s D5s Bb4s",
+   "lh": "Bb2e Bb3e Bb2e Bb3e",
+   "doubt": "MG staccato."
+  },
+  {
+   "v": "re G3s G3s G3s G3s A3s A3s",
+   "ly": "nem- men l'a- ria‿en- trar po-",
+   "rh": "Eb5s C5s Bb4s G4s Bb4s G4s C5s A4s",
+   "lh": "Bb2e Bb3e Bb2e Bb3e",
+   "doubt": "MD : accent sur Bb4. Syllabe « po- » continuée page suivante."
+  }
+ ]
+}

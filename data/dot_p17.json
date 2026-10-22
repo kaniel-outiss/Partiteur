@@ -1,0 +1,93 @@
+{
+ "page": 17,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [
+    "cresc."
+   ],
+   "v": "Eb4s Eb4s re r",
+   "ly": "mor- ta.",
+   "rh": "G4s Eb4s Eb5s G4s D5s F4s Eb5s G4s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e",
+   "doubt": "Page imprimée 82, mes. 168-179 ; 2/4. MG : croches piquées."
+  },
+  {
+   "v": "re C4s C4s C4s C4s D4s D4s",
+   "ly": "Co- spet- ton! per quel- la",
+   "rh": "F5s Ab4s C5s Ab4s C5s Ab4s D5s Ab4s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e",
+   "doubt": "MD : accent sur C5 (3e double-croche)."
+  },
+  {
+   "marks": [
+    "rinf."
+   ],
+   "v": "Eb4s Eb4s re r",
+   "ly": "por- ta",
+   "rh": "Eb5s G4s G5s Eb5s F5s D5s G5s Eb5s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e"
+  },
+  {
+   "v": "re C4s C4s C4s C4s D4s D4s",
+   "ly": "nem- men l'a- ria‿en- trar po-",
+   "rh": "Ab5s F5s Eb5s C5s Eb5s C5s F5s D5s",
+   "lh": "Eb2e Eb3e Eb3e Eb3e",
+   "doubt": "MD : accent sur Eb5."
+  },
+  {
+   "v": "Eb4e Eb4s Eb4s D4s D4s Eb4s Eb4s",
+   "ly": "trà. E Ro- si- na‿in- no- cen-",
+   "rh": "G5s Eb5s Eb6s G5s D6s F5s Eb6s G5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s"
+  },
+  {
+   "v": "F4s F4s C4s C4s C4s C4s D4s D4s",
+   "ly": "ti- na, e Ro- si- na‿in- no- cen-",
+   "rh": "F6s Ab5s C6s Ab5s C6s Ab5s D6s Ab5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s",
+   "doubt": "MD : accent sur C6."
+  },
+  {
+   "v": "Eb4s Eb4s Eb4s Eb4s D4s D4s Eb4s Eb4s",
+   "ly": "ti- na, scon- so- la- ta, di- spe-",
+   "rh": "Eb6s G5s Eb6s G5s D6s F5s Eb6s G5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s"
+  },
+  {
+   "v": "F4s F4s C4s C4s C4s C4s D4s D4s",
+   "ly": "ra- ta, scon- so- la- ta, di- spe-",
+   "rh": "F6s Ab5s C6s Ab5s C6s Ab5s D6s Ab5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s",
+   "doubt": "MD : accent sur C6."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Eb4s Eb4s D4s D4s C4s C4s D4s D4s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s"
+  },
+  {
+   "v": "Eb4s Eb4s D4s D4s C4s C4s D4s D4s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s"
+  },
+  {
+   "v": "Eb4s Eb4s D4s D4s C4s C4s D4s D4s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Bb5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s",
+   "doubt": "MD : dernière note au-dessus de la 1re ligne supplémentaire = Bb5 (et non Ab5 comme aux mes. 176-177, 179)."
+  },
+  {
+   "v": "Eb4s Eb4s D4s D4s C4s C4s D4s D4s",
+   "ly": "ra- ta fin ch'io vo- glio star do-",
+   "rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+   "lh": "Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s Eb3s Eb4s"
+  }
+ ]
+}

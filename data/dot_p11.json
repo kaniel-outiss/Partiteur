@@ -1,0 +1,61 @@
+{
+ "page": 11,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "Bb3e Bb3s Bb3s A3s A3s Bb3s Bb3s",
+   "ly": "trà. E Ro- si- na‿in- no- cen-",
+   "rh": "D5s Bb4s Bb5s D5s A5s C5s Bb5s D5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s",
+   "doubt": "Mes. 98 = 1re de la page (numéro imprimé) ; « trà. » termine le mot coupé en fin de p. 75."
+  },
+  {
+   "v": "C4s C4s G3s G3s G3s G3s A3s A3s",
+   "ly": "ti- na, e Ro- si- na‿in- no- cen-",
+   "rh": "C6s Eb5s G5s Eb5s G5s Eb5s A5s Eb5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s",
+   "doubt": "MD : accent sur le 1er G5."
+  },
+  {
+   "v": "Bb3s Bb3s Bb3s Bb3s A3s A3s Bb3s Bb3s",
+   "ly": "ti- na, scon- so- la- ta, di- spe-",
+   "rh": "Bb5s D5s Bb5s D5s A5s C5s Bb5s D5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s"
+  },
+  {
+   "v": "C4s C4s G3s G3s G3s G3s A3s A3s",
+   "ly": "ra- ta, scon- so- la- ta, di- spe-",
+   "rh": "C6s Eb5s G5s Eb5s G5s Eb5s A5s Eb5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s",
+   "doubt": "MD : accent sur le 1er G5."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Bb3s Bb3s A3s A3s G3s G3s A3s A3s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Bb5s D5s A5s D5s G5s Eb5s A5s Eb5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s"
+  },
+  {
+   "v": "Bb3s Bb3s A3s A3s G3s G3s A3s A3s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Bb5s D5s A5s D5s G5s Eb5s A5s Eb5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s"
+  },
+  {
+   "v": "Bb3s Bb3s A3s A3s G3s G3s A3s A3s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Bb5s D5s A5s D5s G5s Eb5s A5s Eb5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s"
+  },
+  {
+   "v": "Bb3s Bb3s A3s A3s G3s G3s A3s A3s",
+   "ly": "ra- ta fin ch'io vo- glio star do-",
+   "rh": "Bb5s D5s A5s D5s G5s Eb5s A5s Eb5s",
+   "lh": "Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s",
+   "doubt": "Syllabe « do- » continuée page suivante."
+  }
+ ]
+}

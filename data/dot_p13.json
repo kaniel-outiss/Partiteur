@@ -1,0 +1,15 @@
+{"page":13,"measures":[
+{"meter":"2/4","v":"D4e Eb4e D4e Eb4e","ly":"sì, sì, sì, sì,","rh":"Bb5+D6s F5s A5+Eb6s Gb5s Bb5+D6s F5s A5+Eb6s Gb5s","lh":"Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e","doubt":"Page imprimée 78, mes. 119-131. Le guide annonce C (4/4) mais chaque mesure imprimée ne contient que 2 noires (4 croches au chant) : transcrit en 2/4. MG : octaves staccato. MD 3e et 7e double : bécarre sur A5 (A5+Eb6) ; Gb5 bémol imprimé."},
+{"v":"D4e A3e Bb3e A3e","ly":"sì, sì, sì, sì,","rh":"Bb5+D6s F5s Gb5+A5s Eb5s F5+Bb5s D5s Gb5+A5s Eb5s","lh":"Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e","doubt":"Bécarre imprimé sur A3 (chant) et sur A5 (MD), bémol sur G5 : agrégat de seconde Gb5+A5 en MD."},
+{"v":"Bb3e A3e Bb3e A3e","ly":"sì, sì, sì, sì,","rh":"F5+Bb5s D5s Gb5+A5s Eb5s F5+Bb5s D5s Gb5+A5s Eb5s","lh":"Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e","doubt":"A3 bécarre imprimé (chant) ; MD bémol/bécarre réimprimés sur l'agrégat Gb5+A5."},
+{"v":"Bb3e re r","ly":"sì.","rh":"D5+F5+Bb5e rs G5s rs Ab5s rs F5s","lh":"Bb1+Bb2e G4e Ab4e F4e","doubt":"Soufflet (cresc./dim.) au-dessus de la MD. Bécarre de précaution sur G5 (MD) et G4 (MG), bémol sur Ab ; notes MD/MG staccato. Accord MD lu D5+F5+Bb5 (têtes serrées)."},
+{"marks":["pp"],"v":"rh","ly":"","rh":"rs G5s rs Eb5s rs F5s rs D5s","lh":"G4e Eb4e F4e D4e","doubt":"Staccato partout."},
+{"v":"rh","ly":"","rh":"rs Eb5s rs B4s rs C5s rs G4s","lh":"Eb4e B3e C4e G3e","doubt":"Bécarre imprimé sur B4 (MD) et B3 (MG)."},
+{"v":"rh","ly":"","rh":"rs Ab4s rs E4s rs F4s rs D4s","lh":"Ab3e E3e F3e D3e","doubt":"Bécarre imprimé sur E4 (MD) et E3 (MG)."},
+{"marks":["pp"],"v":"rh","ly":"","rh":"Eb4e Eb4s G3s D4s F3s Eb4s G3s","lh":"Eb2+Eb3e re r","doubt":"MD 1er temps : 1re note lue croche (une seule poutre), puis 2 doubles. F3 sous 3 lignes supplémentaires."},
+{"v":"rh","ly":"","rh":"F4s Ab3s Bb3s D3s C4s Eb3s D4s F3s","lh":"Bb1+Bb2e re r","doubt":"Notes graves MD sur 3-4 lignes supplémentaires (D3, Eb3, F3) : lecture à vérifier."},
+{"v":"re Eb3s Eb3s D3s D3s Eb3s Eb3s","ly":"Si- gno- ri- na,‿u- n'al- tra","rh":"Eb4s G3s G4s Eb4s F4s D4s G4s Eb4s","lh":"Eb2e Bb2e Bb2e Bb2e","doubt":"MG staccato."},
+{"v":"F3s F3s Bb2s Bb2s C3s C3s D3s D3s","ly":"vol- ta quan- do Bar- to- lo‿an- drà","rh":"Ab4s F4s D4s Bb3s Eb4s C4s F4s D4s","lh":"Bb1e Bb2e Bb2e Bb2e","doubt":"MG staccato."},
+{"v":"Eb3s Eb3s Eb4s Eb4s D4s D4s C4s C4s","ly":"fuo- ri, si- gno- ri- na,‿u- n'al- tra","rh":"G4s Eb4s G5s Eb5s F5s D5s Eb5s C5s","lh":"Eb2e Eb3e Eb3e Eb3e","doubt":"MG staccato."},
+{"v":"Bb3s Bb3s Ab3s Ab3s G3s G3s F#3s F#3s","ly":"vol- ta quan- do Bar- to- lo‿an- drà","rh":"D5s Bb4s C5s Ab4s Bb4s G4s A4s F#4s","lh":"Eb2e Eb3e Eb3e Eb3e","doubt":"Dièse sur F#3 (chant) et F#4 (MD), bécarre sur A4 (MD). MG staccato."}
+]}
