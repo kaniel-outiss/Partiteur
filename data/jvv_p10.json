@@ -1,0 +1,169 @@
+{
+"page": 10,
+"measures": [
+{
+"v": "D5 Bb4 G4",
+"ly": "Com- me‿un tré-",
+"rh": "rhd",
+"lh": "rhd",
+"meter": "3/4",
+"marks": [
+"(ad lib.)",
+"col canto"
+]
+},
+{
+"v": "E4 r r",
+"ly": "sor",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "C5hd",
+"ly": "long-",
+"rh": "E4+G4+Bb4+C5 r r",
+"lh": "C2+C3 r r",
+"marks": [
+"tr",
+"ff"
+],
+"doubt": "Trille sur C5 ; petites notes de terminaison B4 (bécarre) et C5 imprimées en fin de m.3, codées en tête de m.4."
+},
+{
+"v": "gB4 gC5 D5hd",
+"ly": "_",
+"rh": "F4+G4+Bb4+D5 r r",
+"lh": "C2+C3 r r",
+"marks": [
+"tr"
+],
+"doubt": "Trille sur D5 ; petites notes C#5 D5 imprimées en fin de m.4, codées en tête de m.5."
+},
+{
+"v": "gC#5 gD5 E5 gD5 gE5 A5 G5e C6e^",
+"ly": "temps _ en- _",
+"rh": "G4+Bb4+C5+E5 r r^",
+"lh": "C2+C3 r r^",
+"marks": [
+"tr"
+],
+"doubt": "Trille sur E5 puis petites notes D5 E5 avant A5 (noire, avec ligne suppl.) ; virgule de respiration avant G5 ; point d'orgue sur C6 et sur les silences du piano."
+},
+{
+"v": "F5hd~",
+"ly": "cor!",
+"rh": "A4+A5 r r",
+"lh": "F2+F3e re A3+C4e re A3+C4e re",
+"marks": [
+"a tempo",
+"ff"
+],
+"doubt": "Arc F5 m.6 → F5 m.7 lu comme liaison de prolongation (pourrait être une liaison de phrasé)."
+},
+{
+"v": "F5 r r",
+"ly": "",
+"rh": "gG#5 A4+A5 r r",
+"lh": "F3e re A3+C#4e re A3+C#4e re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gG#5 A4+A5 E4+E5 G4+G5",
+"lh": "F3e re A3+D4e re A3+D4e re",
+"doubt": "Fin de la partie de Juliette ; postlude piano seul jusqu'à la double barre. M.d. : bécarres imprimés sur G4 et G5 (3e temps)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F4+F5 D5+D6 C5+C6",
+"lh": "F3e re A3+Eb4e re A3+Eb4e re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gC6 Bb4+Bb5 r r",
+"lh": "Bb2e re F3+Bb3+D4e re F3+Bb3+D4e re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gA5 Bb4+Bb5 r r",
+"lh": "Bb2e re Gb3+C4+Eb4e re Gb3+C4+Eb4e re",
+"doubt": "M.g. : bémols imprimés sur Eb4 et G3 (→ Gb3)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gA5 Bb4+Bb5 F#4+F#5 A4+A5",
+"lh": "Bb2e re G3+C#4+E4e re G3+C#4+E4e re",
+"doubt": "Petite note lue A5 (sur la ligne suppl.). M.g. : bécarres de précaution sur E4 et G3, dièse sur C4."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G4+G5 E5+E6 D5+D6",
+"lh": "B2e re G#3+D4+F4e re G#3+D4+F4e re",
+"doubt": "M.g. : bécarre sur B2, dièse sur G3."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gD6 C5+C6 r r",
+"lh": "C3e re F3+A3+C4e re F3+A3+C4e re",
+"doubt": "Petite note au-dessus de la 2e ligne suppl. : D6 (ou C6 ?)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gB5 C5+C6 r r",
+"lh": "C3e re F#3+G3+C4e re F#3+G3+C4e re",
+"doubt": "Petite note avec bécarre = B5 bécarre. M.g. : dièse sur F3 (têtes F#3/G3 décalées)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "gB5 C5+C6e re F4e C4e A4e F4e",
+"lh": "C3e re C3+F3+A3+C4e re C3+F3+A3+C4e re",
+"doubt": "Petite note avec bécarre = B5."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C5e A4e F5e C5e A5e F5e",
+"lh": "C3+F3+A3+C4e re C3+F3+A3+C4e re C3+F3+A3+C4e re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C6e re B4+B5e re C5+C6e re",
+"lh": "C3+E3+G3+Bb3e re C3+E3+G3+Bb3e re C3+E3+G3+Bb3e re",
+"doubt": "M.d. : bécarres sur B4/B5. M.g. : (b) de précaution imprimé sur Bb3 du 2e accord."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C#5+C#6e re D5+D6e re E5+E6e re",
+"lh": "C3+E3+G3+Bb3e re C3+E3+G3+Bb3e re C3+E3+G3+Bb3e re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "F5+F6 r r",
+"lh": "F3+A3 r r"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C5+F5+A5 r r",
+"lh": "F2+F3 r r"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "A4+C5+F5 r r",
+"lh": "F1+F2 r r",
+"doubt": "Double barre finale (fin de l'air, p. 110)."
+}
+]
+}

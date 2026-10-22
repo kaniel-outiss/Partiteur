@@ -1,0 +1,142 @@
+{
+"page": 9,
+"measures": [
+{
+"v": "G5hd",
+"ly": "res-",
+"rh": "r D5+F5+B5e D5+F5+B5e D5+F5+B5e re",
+"lh": "r C3+G3+B3e C3+G3+B3e C3+G3+B3e re",
+"meter": "3/4",
+"doubt": "Mesure 1 de la p. 109 (suite de la p. 108). M.d. : B5 avec bécarre ; m.g. : B3 bécarre, basse lue C3 (interligne sous D3)."
+},
+{
+"v": "F5 D5 B4",
+"ly": "te dans mon",
+"rh": "D5+F5+B5e re D5+F5+B5e re D5+F5+B5e re",
+"lh": "C3+G3+B3e re C3+G3+B3e re C3+G3+B3e re",
+"doubt": "Chant : bécarre imprimé sur B4."
+},
+{
+"v": "D5hd",
+"ly": "â-",
+"rh": "r C5+F5+C6e C5+F5+C6e C5+F5+C6e re",
+"lh": "r C3+F3+A3e C3+F3+A3e C3+F3+A3e re"
+},
+{
+"v": "C5h r",
+"ly": "me",
+"rh": "C5+F5+C6e re C5+F5+C6e re C5+F5+C6e re",
+"lh": "C3+F3+A3e re C3+F3+A3e re C3+F3+A3e re"
+},
+{
+"v": "C#5h D5",
+"ly": "comme un",
+"rh": "r C#5+C#6e re D5+D6e re",
+"lh": "r B2+F3+Ab3e re B2+F3+Ab3e re",
+"doubt": "« comme » imprimé sous une seule note (C#5 blanche), « un » sur D5 : pas d'élision ‿ imprimée ici. M.g. : bémol sur A3, bécarre sur B2."
+},
+{
+"v": "E5h D5",
+"ly": "doux tré-",
+"rh": "r E5+E6e re D5+D6e re",
+"lh": "r B2+F3+Ab3e re B2+F3+Ab3e re"
+},
+{
+"v": "F5h~ F5e re",
+"ly": "sor",
+"rh": "r C5+C6e re B4+B5e re",
+"lh": "r C3+F3+A3e re D3+F#3+G3e re",
+"doubt": "M.d. : bécarres sur B4/B5. M.g. : bécarre (A3) puis dièse F#3 ; 2e accord D3+F#3+G3 (têtes F#3/G3 décalées)."
+},
+{
+"v": "F5hd",
+"ly": "long-",
+"rh": "r C5+C6e re B4+B5e re",
+"lh": "r C3+F3+A3e re D3+F#3+G3e re"
+},
+{
+"v": "F5hd",
+"ly": "temps",
+"rh": "r C5+C6e re B4+B5e re",
+"lh": "r C3+F3+A3e re D3+F#3+G3e re"
+},
+{
+"v": "F5hd",
+"ly": "en-",
+"rh": "r C5+C6e re B4+B5e re",
+"lh": "r C3+F3+A3e re D3+F#3+G3e re"
+},
+{
+"v": "C5hd~",
+"ly": "cor!",
+"rh": "C5+F5+A5+C6e re C4+F4e A3e F4+A4e C4e",
+"lh": "C2d* C3d*",
+"marks": [
+"ff"
+],
+"doubt": "M.g. m.11-14 : trémolo mesuré alterné C2↔C3 (deux blanches pointées reliées par 3 barres, liaison) codé noire pointée*+noire pointée* ; trait horizontal sous la portée de m.11 à m.14 (crochet final), sans texte lisible (8va bassa ?)."
+},
+{
+"v": "C5hd~",
+"ly": "",
+"rh": "A4+C5e F4e F4+A4e C4e C4+F4e A3e",
+"lh": "C2d* C3d*"
+},
+{
+"v": "C5 r r",
+"ly": "",
+"rh": "C5+F5e A4e A4+C5e F4e F4+A4e C4e",
+"lh": "C2d* C3d*"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "A4+C5e F4e C5+F5e A4e F5+A5e C5e",
+"lh": "C2d* C3d*"
+},
+{
+"v": "E5hd~",
+"ly": "Ah!",
+"rh": "E5+G5+Bb5+C6 r r",
+"lh": "C2 r r",
+"doubt": "Début de la vocalise sur « Ah! » (liaison de phrasé jusqu'à m.21)."
+},
+{
+"v": "E5e D5e C5e D5e E5e F5e",
+"ly": "_ _ _ _ _",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "G5e F5e E5e F5e G5e A5e",
+"ly": "_ _ _ _ _ _",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "Bb5e A5e G5e A5e Bb5e C6e",
+"ly": "_ _ _ _ _ _",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "D6e C6e Bb5e A5e G5e A5e",
+"ly": "_ _ _ _ _ _",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "Bb5e A5e G5e F5e E5e D5e",
+"ly": "_ _ _ _ _ _",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "C5 C#5 E5",
+"ly": "_ _ _",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "Fin de page : la vocalise continue p. 110 (« Comme‿un trésor ») ; E5 final sans liaison vers la p. suivante visible."
+}
+]
+}
