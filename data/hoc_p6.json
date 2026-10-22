@@ -1,0 +1,129 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "p"
+   ],
+   "v": "F3 r A3d F3e",
+   "ly": "te, fac cia‿il",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "F2+F3 r A2+A3d F3e",
+   "doubt": "Mes. 81 = 1re de la page imprimée 131 (p-132.png). Liaison de prolongation sur l'accord MD (fin de mesure) vers la mes. 82."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "A3d F3e A3d F3e",
+   "ly": "no stro ca va-",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "A2+A3d F3e A2+A3d F3e"
+  },
+  {
+   "v": "A3d F3e A3d F3e",
+   "ly": "lie re, ca va",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "A2+A3d F3e A2+A3d F3e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C4d C4e C3d C3e",
+   "ly": "lie ra‿an co ra",
+   "rh": "C5+F5+A5 C5+F5+A5 C5+E5+G5+C6 C5+E5+G5+C6",
+   "lh": "C3+C4d C4e C3d C3e",
+   "doubt": "f au 2e temps."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F3 r A3d F3e",
+   "ly": "te, ca va",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "F3 r A2+A3d F3e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C4d C4e C3d C3e",
+   "ly": "lie ra‿an co ra",
+   "rh": "C5+F5+A5 C5+F5+A5 C5+E5+G5+C6 C5+E5+G5+C6",
+   "lh": "C3+C4d C4e C3d C3e",
+   "doubt": "f au 2e temps."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F3 r A3d F3e",
+   "ly": "te, ca va",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "F2+F3 r A2+A3d F3e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C4d C4e C3d C3e",
+   "ly": "lie ra‿an co ra",
+   "rh": "C5+F5+A5 C5+F5+A5 C5+E5+G5+C6 C5+E5+G5+C6",
+   "lh": "C3+C4d C4e C3d C3e",
+   "doubt": "f au 2e temps."
+  },
+  {
+   "v": "F3 r rh",
+   "ly": "te.",
+   "rh": "A4+C5+F5h F5e G5e A5e Bb5e",
+   "lh": "F3+A3e C4e F3+A3e C4e F3+A3e C4e F3+A3e C4e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C6e C5e C6e C5e C6e D6e C6e Bb5e",
+   "lh": "E3+G3e C4e E3+G3e C4e E3+G3e C4e E3+G3e C4e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A5e F5e F5e F5e F5e G5e A5e Bb5e",
+   "lh": "F3+A3e C4e F3+A3e C4e F3e G3e A3e Bb3e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C6e C5e C6e C5e C6e C5e C6e C5e",
+   "lh": "C4 C3e C4e C3e C4e C3e C4e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D5 r D5+G5+Bb5 r",
+   "lh": "D2+D3 r Bb1+Bb2 r",
+   "doubt": "Mes. 93-96 : système sans portée de chant → silences."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C5+E5+G5 r C5+E5+G5+C6 r",
+   "lh": "C2+C3 r C2+C3 r"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C5+F5+A5 red A3+F4s A3+F4 red A3+F4s",
+   "lh": "F2+F3 r F2+F3 r"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A3+F4h rh",
+   "lh": "F1+F2h rh",
+   "doubt": "Double barre finale ; aucun autre air après."
+  }
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "cresc."
+   ],
+   "v": "F3 F3 rh",
+   "ly": "re sta!",
+   "rh": "re F4e re C4e re F4e re A4e",
+   "lh": "F3+A3 C3 F3 A3",
+   "doubt": "Mes. 65 = 1re de la page imprimée 130 (p-131.png). Accord F3+A3 lié (liaison venant de la mes. 64). Staccatos MD/MG."
+  },
+  {
+   "v": "C3h E3h",
+   "ly": "È‿u na",
+   "rh": "re C5e re A4e re G4e re C4e",
+   "lh": "C4 A3 E3+Bb3h // rh G3 C3",
+   "doubt": "Main gauche : accord E3+Bb3 (blanche, hampe haut) + voix inférieure G3, C3 (noires, hampe bas, staccato) ; liaison de phrasé vers la mesure suivante. Staccatos partout."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "F3h A3d F3e",
+   "ly": "co sa _",
+   "rh": "re F4e re C4e re F4e re A4e",
+   "lh": "F3+A3 C3 F3 A3",
+   "doubt": "Liaison A3–F3 au chant (mélisme sur « sa »)."
+  },
+  {
+   "v": "C3hd E3",
+   "ly": "mol to‿o-",
+   "rh": "re C5e re A4e re G4e re C4e",
+   "lh": "C4 A3 E3+Bb3h // rh G3 C3",
+   "doubt": "Main gauche : accord E3+Bb3 (blanche, hampe haut) + voix inférieure G3, C3 (noires, hampe bas, staccato) ; liaison de phrasé vers la mesure suivante. Staccatos partout."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F3 F3 rh",
+   "ly": "ne sta:",
+   "rh": "F4 r F5e G5e A5e Bb5e",
+   "lh": "F3+A3 r F3e G3e A3e Bb3e",
+   "doubt": "Staccatos sur les croches et noires (MD/MG)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C6 C6 C6e D6e C6e Bb5e",
+   "lh": "C4 C4 C4e D4e C4e Bb3e"
+  },
+  {
+   "v": "rh F3e G3e A3e Bb3e",
+   "ly": "fac _ cia il",
+   "rh": "A5 F5 F5e G5e A5e Bb5e",
+   "lh": "A3 F3 F3e G3e A3e Bb3e",
+   "doubt": "Liaison F3–G3 au chant (mélisme « fac »). « cia il » imprimé sans signe d'élision : deux notes."
+  },
+  {
+   "v": "C4 C4 C4 C4",
+   "ly": "no stro ca va-",
+   "rh": "C6 C6 C6e D6e C6e Bb5e",
+   "lh": "C4 C4 C4e D4e C4e Bb3e"
+  },
+  {
+   "v": "A3 F3 F3e G3e A3e Bb3e",
+   "ly": "lie re, ca _ va _",
+   "rh": "A5 F5 F5e G5e A5e Bb5e",
+   "lh": "A3 F3 F3e G3e A3e Bb3e",
+   "doubt": "Liaisons F3–G3 et A3–Bb3 au chant."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "C4 C4 C4 C4",
+   "ly": "lie ra‿an co ra",
+   "rh": "C6 C6 C6 C6",
+   "lh": "C4 C4 C4 C4"
+  },
+  {
+   "marks": [
+    "f",
+    "p"
+   ],
+   "v": "D3h Bb3d Bb3e",
+   "ly": "te, ca va",
+   "rh": "D5h D5+F5+G5+Bb5d D5+F5+G5+Bb5e",
+   "lh": "D3+D4h Bb2d Bb2e",
+   "doubt": "Signe de respiration (’) avant Bb3 au chant. f sur le 1er temps, p au 3e temps (MD). Accord MD lu D5+F5+G5+Bb5 (F5/G5 en seconde, têtes décalées) — à vérifier. Staccatos sur les accords."
+  },
+  {
+   "v": "G3d G3e C4d C4e",
+   "ly": "lie ra‿an co ra",
+   "rh": "C5+F5+G5d C5+F5+G5e C5+E5+C6d C5+E5+C6e",
+   "lh": "C3d C3e C3d C3e",
+   "doubt": "Accords MD : F5/G5 en seconde ; 3e accord lu C5+E5+C6 (sans G5) — à vérifier."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F3 r A3d F3e",
+   "ly": "te, fac cia‿il",
+   "rh": "A4+F5 C5+F5+A5h C5+F5+A5~",
+   "lh": "F3 r A2+A3d F3e",
+   "doubt": "Liaison de prolongation sur l'accord MD vers la mes. suivante."
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "A3d F3e A3d F3e",
+   "ly": "no stro ca va-",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "A2+A3d F3e A2+A3d F3e"
+  },
+  {
+   "v": "A3d F3e A3d F3e",
+   "ly": "lie re, ca va",
+   "rh": "C5+F5+A5 C5+F5+A5h C5+F5+A5~",
+   "lh": "A2+A3d F3e A2+A3d F3e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "C4d C4e C3d C3e",
+   "ly": "lie ra‿an co ra",
+   "rh": "C5+F5+A5 C5+F5+A5 C5+E5+G5+C6 C5+E5+G5+C6",
+   "lh": "C3+C4d C4e C3d C3e",
+   "doubt": "f imprimé au 2e temps (MD)."
+  }
+ ]
+}
