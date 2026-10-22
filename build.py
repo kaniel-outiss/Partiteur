@@ -261,7 +261,7 @@ add_air('bat', {'id': 'mozart-batti-batti', 'title': 'Batti, batti, o bel Masett
         80, {'name': 'Zerlina (soprano)', 'short': 'Zer.', 'vt': 'S', 'clef': 'G', 'oct': 0})
 add_air('ved', {'id': 'mozart-vedrai-carino', 'title': 'Vedrai, carino', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Don Giovanni, acte II',
                 'role': 'Zerlina', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': 0, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 57-60'},
-        96, {'name': 'Zerlina (soprano)', 'short': 'Zer.', 'vt': 'S', 'clef': 'G', 'oct': 0})
+        60, {'name': 'Zerlina (soprano)', 'short': 'Zer.', 'vt': 'S', 'clef': 'G', 'oct': 0})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
