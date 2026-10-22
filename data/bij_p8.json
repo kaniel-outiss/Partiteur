@@ -1,0 +1,167 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "meter": "3/4",
+   "marks": [
+    "f"
+   ],
+   "v": "G#5e F#5e E5e D#5e C#5e B4e",
+   "ly": "Comme u- ne de- moi-",
+   "rh": "E6e re r r",
+   "lh": "C#3+E3+G#3+C#4e re r r",
+   "doubt": "Page imprimée 95 (ta page 8 = p-095.png, ordre OK). 1er sol#5 lié depuis la page précédente (pas de syllabe)."
+  },
+  {
+   "marks": [
+    "dim."
+   ],
+   "v": "A#4e G#4e F#4e A#4e C#5e E5e",
+   "ly": "selle il me trou- ve- rait",
+   "rh": "A#3+C#4hd",
+   "lh": "F#2+E3hd",
+   "doubt": "1re note chant : dièse (la#), confirmé par l'harmonie F#7. MD : dièses décalés sous les têtes, lus la# et do#."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "E5h B4",
+   "ly": "bel- le,",
+   "rh": "B3 E4 G#4 // B3hd~",
+   "lh": "B2+G#3hd~"
+  },
+  {
+   "marks": [],
+   "v": "re B4e D#5e F#5e E5e G#4e",
+   "ly": "comme u- ne de- moi-",
+   "rh": "B4 G#4 E4 // B3hd",
+   "lh": "B2+G#3hd"
+  },
+  {
+   "marks": [
+    "rit."
+   ],
+   "v": "G#4e F#4e E#4e F#4e C#4e E4e",
+   "ly": "selle il me trou- ve- rait",
+   "rh": "A#3+C#4hd",
+   "lh": "B2+F#3hd~",
+   "doubt": "Chant mi# (dièse) puis mi bécarre en dernière croche. MD dièses lus la# et do# (comme p. 95 m. 2)."
+  },
+  {
+   "marks": [
+    "colla voce"
+   ],
+   "v": "D#4e C#5e B4h",
+   "ly": "bel _ _",
+   "rh": "A3+D#4hd",
+   "lh": "B2+F#3hd",
+   "doubt": "MD la bécarre. Mélisme sur « bel » (ré#-do#-si)."
+  },
+  {
+   "marks": [
+    "a tempo",
+    "p"
+   ],
+   "v": "E4 r r",
+   "ly": "le!",
+   "rh": "G#3+E4 E4+G#4e F#4+A4e G#4+B4e A4+C#5e",
+   "lh": "E2e E3e E3e E3e E3e E3e"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "B4+D5e G#4+B4e E5+G#5e D5+F#5e C#5+E5e B4+D5e",
+   "lh": "E3+G#3+D4hd",
+   "doubt": "Système sans portée de chant (piano seul) : chant = silences. MD ré bécarre (1re tierce) ; MG ré bécarre (E7)."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+C#5 A5+C#6e G#5+B5e F#5+A5e E5+G#5e",
+   "lh": "E3e E3e E3e E3e E3e E3e // A3+C#4hd",
+   "doubt": "Piano seul."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "D#5+F#5e A5e B5+D#6e A5+C#6e G#5+B5e F#5+A5e",
+   "lh": "E3+B3+D#4hd",
+   "doubt": "Piano seul. MD 2e croche : une seule tête (la5) lue. MG : dièse de précaution sur ré."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+G#5d B5e A5e D#5e",
+   "lh": "E3+B3+E4 E3+G#3 G#3+B3",
+   "doubt": "Piano seul. MD : tierce pointée, si5 croche à crochet, puis la5-ré#5 ligaturées (lecture incertaine du ré#5)."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e E5e G#5e E5e C#5e E5e",
+   "lh": "G#3+B3 G#3+B3+E4 A#3+E4+F#4",
+   "doubt": "Piano seul. MG 3e accord : dièse lu sur le la (la#3), mi4-fa#4 en seconde."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5e A4e C#5e B4e E4e G#4e",
+   "lh": "B3+E4+G#4h B2+A3+B3",
+   "doubt": "Piano seul. MD : signe devant le la lu comme bécarre de précaution (après la# m. 12) — à vérifier. MG blanche (non pointée) B3-E4-G#4 puis noire B2-A3-B3."
+  },
+  {
+   "marks": [
+    "dim."
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "G#4h F#4 // C#4 D4 D#4",
+   "lh": "B2+A3hd",
+   "doubt": "Chant : pause (mesure entière). MD 2 voix : ré bécarre puis ré#."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4e G#4e B4e D#5e F#5e E5e",
+   "lh": "E3+G#3 r r",
+   "doubt": "MG : noire E3+G#3 (liaisons venant de B2+A3), puis 2 soupirs."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "B4+D5hd // re E4e D#4e E4e F#4e E4e",
+   "lh": "E3+G#3+B3hd",
+   "doubt": "Chant : pause. MD ré bécarre (E7)."
+  },
+  {
+   "marks": [],
+   "v": "r r C#5e C#5e",
+   "ly": "A- che-",
+   "rh": "A4+C#5hd // re E4e D#4e E4e F#4e E4e",
+   "lh": "E3+A3+C#4hd"
+  },
+  {
+   "marks": [],
+   "v": "E5 E4e E#4e F#4e G#4e",
+   "ly": "vons la mé- ta- mor-",
+   "rh": "B4e G#4e E4e D4e B3e E4e",
+   "lh": "E3+B3+D4 r r",
+   "doubt": "Chant mi# (dièse). MD ré bécarre ; MG ré bécarre. Mesure suivante sur la page 96."
+  }
+ ]
+}
