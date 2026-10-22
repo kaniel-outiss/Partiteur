@@ -1,0 +1,139 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "C5 r",
+   "ly": "ciar.",
+   "rh": "gC4 C5ed D5s C5+E5s D5+F5s E5+G5s F5+A5s",
+   "lh": "C3+E3s G3s C4s B3s Bb3s A3s G3s F3s",
+   "doubt": "Page imprimée 53 (ordre OK). MD : do4 avec crochet traité en petite note (sinon la mesure déborde) ; do5 lu croche pointée (point non visible, demi-barre sur ré5). MG : si bécarre puis si bémol."
+  },
+  {
+   "marks": [],
+   "v": "rh",
+   "ly": "",
+   "rh": "Bb5s C6s A5s Bb5s G5s A5s F5s G5s // G5s G5e F5s~ F5s E5e D5s~",
+   "lh": "E3s E4s F4s D4s E4s C4s D4s B3s",
+   "doubt": "MD 2 voix (voix inférieure syncopée, liaisons fa5 et ré5→mesure suivante)."
+  },
+  {
+   "marks": [],
+   "v": "r C5s D5s Bb4s C5s",
+   "ly": "Bat- _ ti, _",
+   "rh": "E5s F5s D5s E5s C5s D5s Bb4s C5s // D5s C5e Bb4s~ Bb4s A4e G4s",
+   "lh": "C4s A3s Bb3s G3s A3s F#3s G3s E3s"
+  },
+  {
+   "marks": [],
+   "v": "A4s Bb4s G4s A4s F4ed G4s",
+   "ly": "bat- _ ti o bel Ma-",
+   "rh": "A4s Bb4s G4s A4s F4ed G4s",
+   "lh": "F3h // F3s C4s Bb3s C4s A3s C4s Bb3s C4s",
+   "doubt": "MG : fa3 blanche (bécarre de précaution) hampe en haut + doubles croches."
+  },
+  {
+   "marks": [],
+   "v": "F4e E4e Bb4s C5s A4s Bb4s",
+   "ly": "set- to, la _ tua _",
+   "rh": "F4e E4e Bb4s C5s A4s Bb4s",
+   "lh": "A3s C4s G3s C4s G3s C4s F3s C4s // C3 r"
+  },
+  {
+   "marks": [],
+   "v": "F#4s G4s Bb4s D5s gD5 C5ed Bb4s",
+   "ly": "po- _ ve- _ ra Zer-",
+   "rh": "F#4s G4s Bb4s D5s gD5 C5ed Bb4s",
+   "lh": "C3+E3s C4s G3s Bb3s C3+E3s G3s C3s E3s",
+   "doubt": "Petite note ré5 (croche) avant do5, chant et MD."
+  },
+  {
+   "marks": [],
+   "v": "C5s Bb4s A4e F5e C5e",
+   "ly": "li- _ na! Sta- rò",
+   "rh": "C5s Bb4s A4e F5e C5e",
+   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "A4ed C5s F5e C5e",
+   "ly": "qui co- me‿a- gnel-",
+   "rh": "A4ed C5s F5e C5e",
+   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "A4ed C5s F5e C5e",
+   "ly": "li- na le tue",
+   "rh": "A4ed C5s F5e C5e",
+   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "A4e Bb4s C5s D5s C5s Bb4s A4s",
+   "ly": "bot- te ad a- _ spet- _",
+   "rh": "F4+A4s F4+A4s G4+Bb4s A4+C5s Bb4+D5s A4+C5s G4+Bb4s F4+A4s",
+   "lh": "F3 F2",
+   "doubt": "Paroles imprimées « te ad a » sans liaison d'élision : une syllabe par note."
+  },
+  {
+   "marks": [],
+   "v": "G4 r",
+   "ly": "tar.",
+   "rh": "E4+G4 C5s D5s Bb4s C5s",
+   "lh": "C3s C4s B3s Bb3s A3s C4s G3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "re C5e F5ed G5s",
+   "ly": "O bel Ma-",
+   "rh": "A4s Bb4s G4s A4s F4ed G4s",
+   "lh": "F3h // F3s C4s Bb3s C4s A3s C4s Bb3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "F5e E5e r",
+   "ly": "set- to!",
+   "rh": "F4e E4e Bb4s C5s A4s Bb4s",
+   "lh": "A3s C4s G3s C4s G3s C4s F3s C4s // C3 r"
+  },
+  {
+   "marks": [],
+   "v": "r G5ed Bb4s",
+   "ly": "Bat- ti,",
+   "rh": "F#4s G4s Bb4s D5s C5ed Bb4s",
+   "lh": "C3+E3s C4s G3s C4s E3s G3s C3s E3s"
+  },
+  {
+   "marks": [],
+   "v": "C5s Bb4s A4e F5e C5e",
+   "ly": "bat- _ ti! sta- rò",
+   "rh": "C5s Bb4s A4e F5e C5e",
+   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s",
+   "doubt": "Accord MG mi3-sol3-sib3 (3 notes) ici, alors que mes. 7-9 n'ont que mi3-sol3."
+  },
+  {
+   "marks": [],
+   "v": "A4ed C5s F5e C5e",
+   "ly": "qui, _ sta- rò",
+   "rh": "A4ed C5s F5e C5e",
+   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "A4ed C5s F5e C5e",
+   "ly": "qui _ le tue",
+   "rh": "A4ed C5s F5e C5e",
+   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+  },
+  {
+   "marks": [],
+   "v": "A4s C5s F4s A4s C4ed E4s",
+   "ly": "bot- _ te ad a- spet-",
+   "rh": "A4s C5s F4s A4s C5ed E5s",
+   "lh": "F3e A3e A3s C4s Bb3s G3s // r C3",
+   "doubt": "Fin de page au milieu de la phrase (« spet-|tar » continue p. 54). MG : 2e voix = do3 noire au 2e temps ; le soupir du 1er temps n'est pas imprimé."
+  }
+ ]
+}
