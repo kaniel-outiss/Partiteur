@@ -1,0 +1,18 @@
+{"page":6,"measures":[
+ {"meter":"4/4","v":"r F#4h F#4","ly":"A- gnus","rh":"F#4w~ // A#3dd B3s C#4 B3","lh":"C#3dd D3s E3 D3 // F#2h F#2 F#2","doubt":"m.81 (p. imprimée 41) : F#4 ronde liée depuis la m.80."},
+ {"marks":["ppp"],"v":"F#4h F#4e re r","ly":"De- i,","rh":"F#4e re C#4 A#4h~ // A#3e re r r A#3","lh":"F#2+C#3e re r r F#2+C#3+F#3~","doubt":"Accent ^ sur A#4 blanche ; demi-soupir/soupir de la voix inférieure MD non imprimés (ajoutés)."},
+ {"v":"A#4h F#4d F#4e","ly":"Fi- li- us","rh":"A#4e re C#4 A#4h~ // F#4e re r r A#3","lh":"F#2+C#3+F#3e re r r F#2+C#3+F#3~","doubt":"Accent ^ sur A#4 blanche."},
+ {"v":"F#4h F#4e re r","ly":"Pa- tris,","rh":"A#4e re C#4 A4h~ // F#4e re r r A3","lh":"F#2+C#3+F#3e re r r F#2+C#3+F#3~","doubt":"1er accord F#4+A#4 sur une seule hampe ; bécarres sur A4 (blanche, accent ^) et A3."},
+ {"v":"A4h F#4d F#4e","ly":"Fi- li- us","rh":"A4e re C#4 A4h~ // F#4e re r r A3","lh":"F#2+C#3+F#3e re r r F#2+C#3+F#3~","doubt":"Accent ^ sur A4 blanche."},
+ {"v":"F#4hd G4","ly":"Pa- _","rh":"F#4+A4e re A3e re A4e re A3e re","lh":"F#2+C#3+F#3e re r rh","doubt":"Bécarre de précaution sur G4 (chant) ; croches A3/A4 staccato."},
+ {"marks":["<"],"v":"A4w","ly":"tris.","rh":"A4e re A3e re A4e re A3e re","lh":"E3+G3h~ E3+G3e re r","doubt":"Soufflet (crescendo) sous la MD ; croches staccato ; bécarre sur G3."},
+ {"v":"A4 F#5h E5ed F#5s","ly":"Do- mi- ne _","rh":"r A3+D4+F#4e re r A3+C#4+G4e re","lh":"D2+D3e re r A1+A2e re r"},
+ {"marks":["pp"],"v":"E5d D5e A4h","ly":"De- _ us,","rh":"r A3+D4+F#4e re r A3+D4+A4e re","lh":"D2+D3e re r F#3e3 A3e3 G3e3 F#3e3 E3e3 D3e3","doubt":"Triolets de croches MG liés jusqu'à la m.90."},
+ {"v":"A4 G5h F#5ed G5s","ly":"Rex _ coe- _","rh":"r A3+E4+G4e re r A3+D4+F#4e re","lh":"C#3e re r D2+D3e re r"},
+ {"marks":["pp"],"v":"F#5d E5e A4h","ly":"les- _ tis,","rh":"r A3+C#4+A4e re r E4+G4+A4e re","lh":"A1+A2e re r C#3e3 E3e3 D3e3 C#3e3 B2e3 A2e3"},
+ {"v":"A4 F#5h E5ed F#5s","ly":"De- _ us _","rh":"r A4+D5+F#5e re r F#4+A#4+E5e re","lh":"D3e re r C#3+C#4e re r"},
+ {"v":"E5 D5h C#5~","ly":"Pa- ter om-","rh":"r F#4+B4+D5e re r E4+G4+C#5e re","lh":"B2+B3e re r E2+E3e re r"},
+ {"marks":["<"],"v":"C#5 B4h A#4","ly":"ni- po-","rh":"r D4+F#4+B4e re r C#4+F#4+A#4e re","lh":"F#2+F#3e re r F#3e re r","doubt":"Arc C#5 (m.93) → C#5 lu comme liaison de prolongation (tiret seul sous la 2e note)."},
+ {"marks":["ff",">"],"v":"A4h~ A4e re r","ly":"tens.","rh":"C#4+E4+A4e re C#4+E4+A4h C#4+E4+A4","lh":"G3 G3e3 F#3e3 E3e3 G3 G3e3 F#3e3 E3e3","doubt":"Bécarre sur A4 (chant et MD) ; accents ^ sur la blanche et la noire MD ; soufflet decrescendo fin de mesure."},
+ {"marks":["pp"],"v":"A4 F5h E5ed F5s","ly":"Do- mi- ne _","rh":"r A3+D4+F4e re r A3+C#4+G4e re","lh":"D3e re r A1+A2e re r","doubt":"F bécarre (chant F5 et MD F4)."}
+]}

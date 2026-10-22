@@ -1,0 +1,116 @@
+{
+"page": 5,
+"measures": [
+{
+"meter": "4/4",
+"v": "rw",
+"ly": "",
+"rh": "F#4w~ // A#3e re red B3s C#4e re A#3e re",
+"lh": "F#2+C#3+F#3e re red F#2+D3+F#3s F#2+E3+F#3e re F#2+C#3+F#3e re",
+"doubt": "m.65 (p. imprimée 40) : le F#4 ronde de la MD est lié depuis la m.64 (page précédente)."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "F#4e re B3e re D5h // B3e re r r D4+G#4",
+"lh": "B2+D3+F#3e re r r F#3~ // rh r B2",
+"doubt": "Accent ^ (marcato) imprimé sur D5 blanche, liaison d'expression vers m.67 ; B3 (2e croche) avec point de staccato."
+},
+{
+"v": "C#5h C#5h",
+"ly": "A- gnus",
+"rh": "C#5h~ C#5 r // A4d G#4e F#4 B3+C#4+E#4 // C#4h~ C#4 r",
+"lh": "F#3d G#3e A3 G#3 // C#3h~ C#3 C#3",
+"doubt": "MD à 3 voix ; arcs C#5 blanche→C#5 noire et C#4 blanche→C#4 noire lus comme liaisons de prolongation ; demi-soupir/soupir du 4e temps des voix 1 et 3 non imprimés (ajoutés)."
+},
+{
+"v": "F#5h F#4e re r",
+"ly": "De- i,",
+"rh": "A3+C#4+F#4e re F#3e re F#4h // rh r A3+C#4e re",
+"lh": "F#2+F#3e re r r F#2+F#3e re",
+"doubt": "Accord du 1er temps MD : A3 sans dièse visible (A naturel ?). Accent ^ sur F#4 blanche."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "G4dd G4s G4e re G4e re // B3+D4e re red B3+D4s C#4+E4e re B3+D4e re",
+"lh": "F#2+F#3e re red F#2+F#3s E2+E3e re E2+E3e re",
+"doubt": "Bécarre de précaution sur G4."
+},
+{
+"v": "r F#4 F#5 B4",
+"ly": "Fi- li- us",
+"rh": "A#3+C#4+F#4e re F#3e re F#4h // rh r F#3+B3",
+"lh": "E2+E3e re r r E2+E3",
+"doubt": "Accent ^ sur F#4 blanche ; accord du 4e temps (F#3+B3) à vérifier."
+},
+{
+"v": "E5hd F#5",
+"ly": "Pa- _",
+"rh": "G#3+B3+E4dd G#3+B3+E4s A3+C#4+E4e re F#3+A3+E4e re",
+"lh": "D2+D3h C#2+C#3e re C#2+C#3e re"
+},
+{
+"v": "D#5e re r rh",
+"ly": "tris,",
+"rh": "F#3+B3+D#4e re F#3e re D4h // rh r D3e re",
+"lh": "B1+B2e re r r B1+F#2e re",
+"doubt": "Clé de FA à la MD après le 1er accord. Bécarre (précaution) sur D4 blanche avec accent ^, liaison vers m.73 ; D3 (4e temps) lu naturel."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "C4dd C4s C4e re B3e re // G3e re red G3s G3e re G#3e re",
+"lh": "E2+E3e re red E2+E3s E2+E3e re E#2+D3e re",
+"doubt": "MD en clé de FA ; C4 bécarre (accord napolitain C/E) ; 4e temps : G#3 (dièse) MD, D3 bécarre + E#2 MG."
+},
+{
+"v": "r C#5 A#4 F#4",
+"ly": "Fi- li- us",
+"rh": "F#3+A#3e re C#3e re A#3h // rh r F#3",
+"lh": "F#2+C#3e re r r F#2+C#3",
+"doubt": "MD en clé de FA ; dièse de précaution sur C#3 ; accent ^ sur A#3 blanche."
+},
+{
+"v": "G#4h A#4 G#4",
+"ly": "Pa- _ _",
+"rh": "F#3+G#3dd F#3+G#3s E#3+A#3e re C#3+E#3+G#3e re",
+"lh": "D#2+B#2dd D#2+B#2s C#2+B2e re C#2+B2e re",
+"doubt": "MD en clé de FA. B2 bécarre au 3e temps MG."
+},
+{
+"v": "F#4e re r rh",
+"ly": "tris.",
+"rh": "C#3+F#3e re C#4e re C#5h~ // rh r F#4",
+"lh": "F#2+A#2e re r r A#3 // rh r C#3",
+"doubt": "Retour en clé de SOL à la MD après le 1er accord ; accent ^ sur C#5 blanche."
+},
+{
+"v": "r C#5h C#5e C#5e",
+"ly": "Do- mi- ne",
+"rh": "C#5w~ // E#4dd F#4s G#4 E#4",
+"lh": "G#3dd A#3s B3 G#3 // C#3h C#3 C#3"
+},
+{
+"v": "C#5h A#4e re r",
+"ly": "De- us,",
+"rh": "C#5e re C#4e re A#4h~ // F#4e re r r D#4",
+"lh": "F#3+A#3e re r r F#3 // rh r A#2",
+"doubt": "Dièse de précaution sur C#4 ; accent ^ sur A#4 blanche."
+},
+{
+"v": "r A#4h A#4",
+"ly": "A- gnus",
+"rh": "A#4w~ // C##4dd D#4s E#4 C##4",
+"lh": "E#3dd F#3s G#3 E#3 // A#2h A#2 A#2",
+"doubt": "C##4 = do double dièse (x) imprimé."
+},
+{
+"v": "A#4h F#4e re r",
+"ly": "De- i,",
+"rh": "A#4e re F#3e re F#4h~ // D#4e re r r B3",
+"lh": "D#3+F#3e re r r D3 // rh r F#2",
+"doubt": "Accent ^ sur F#4 blanche, liée à la ronde F#4 de la m.81 (page suivante) ; D3 bécarre au 4e temps MG."
+}
+]
+}
