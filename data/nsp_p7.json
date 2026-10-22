@@ -1,0 +1,18 @@
+{"page":7,"measures":[
+{"meter":"2/2","v":"B4 C5 G4 Ab4","ly":"suon de' va- ni‿ac-","rh":"G4+B4 Ab4+C5 E4+G4 F4+Ab4","lh":"G3+B3 Ab3+C4 E3+G3 F3+Ab3","doubt":"Page imprimée 73, mesures 85-100. Mesures 85-87 identiques aux m. 66-68 (vérifié). Bécarres sur B et E."},
+{"marks":["cresc."],"v":"F4 G4 Ab4 Bb4","ly":"cen- _ ti _","rh":"D4+F4e D4+F4e Eb4+G4e Eb4+G4e F4+Ab4e F4+Ab4e G4+Bb4e G4+Bb4e","lh":"D3+F3 Eb3+G3 F3+Ab3 G3+Bb3","doubt":"Bémol de précaution sur Bb4 (chant) et sur Eb (piano)."},
+{"marks":["f"],"v":"C5 D5e D5e Eb5 F5","ly":"por- ta- no via con","rh":"Ab4+C5e Ab4+C5e F4+Bb4+D5e F4+Bb4+D5e G4+Bb4+Eb5e G4+Bb4+Eb5e Ab4+D5+F5e Ab4+D5+F5e","lh":"Ab3+C4 Ab2+Ab3 G2+G3 F2+F3"},
+{"v":"G5h^ Eb5 r","ly":"se _","rh":"G4+Bb4+Eb5+G5h rh^","lh":"Eb2+Eb3h rh^","doubt":"Identique à m. 69."},
+{"marks":["p"],"v":"C5h D5d Eb5e","ly":"por- ta- no","rh":"r Eb4+Ab4 r C5+Eb5 // C4w","lh":"Ab2+Ab3 r Ab2+Ab3 r"},
+{"v":"G4h F4h","ly":"via con","rh":"r Eb4+G4 r D4+F4 // Bb3w","lh":"Bb2 r Ab2+Ab3 r","doubt":"Diffère de m. 71 : RH voix basse Bb3 RONDE ; LH 3e temps Ab2+Ab3 (lu)."},
+{"v":"Bb4h^~ Bb4d A4e","ly":"se E","rh":"Bb3+Eb4+Bb4h^ r re re","lh":"G2+G3h^ r re re","doubt":"Chant : Bb4 blanche (point d'orgue) liée à Bb4 noire pointée (lu comme liaison de prolongation), puis A♮4 croche. Double barre après cette mesure."},
+{"marks":["Adagio"],"v":"Ab4 re Ab4e G4 re G4e","ly":"se non ho chi","rh":"Bb3+F4+Ab4 r Bb3+Eb4+G4 r","lh":"D3 r Eb3 r","doubt":"Bémol de précaution sur Ab4 (chant). RH 1er accord : amas serré lu Bb3+F4+Ab4."},
+{"v":"F4e F4e r r re F4e","ly":"m'o- da, e","rh":"Bb3+D4+F4 r rh","lh":"Ab2 r rh","doubt":"Petite portée d'ossia au-dessus du chant (2 croches ornementales) non transcrite."},
+{"v":"Bb4 re Bb4e Ab4 re Ab4e","ly":"se non ho chi","rh":"Bb3+Eb4+Bb4 r D4+F4+Ab4 r","lh":"G2 r B2 r","doubt":"LH bécarre sur B2."},
+{"v":"G4 G4 rh","ly":"m'o- da,","rh":"Eb4+G4 r rh","lh":"C3+G3 r rh","doubt":"Ossia au-dessus du chant (2 petites notes) non transcrite."},
+{"marks":["Primo tempo","cresc."],"v":"Bb4 Bb4e Bb4e Bb4 B4","ly":"par- lo d'a- mor con","rh":"Eb4+G4+Bb4hd D4+F4+B4","lh":"G2+G3w","doubt":"Bécarre sur B4 (chant et RH). LH ronde G2+G3 sous un long phrasé."},
+{"marks":["f"],"v":"B4 C5 r D5","ly":"me _ con","rh":"D4+F4+B4 C4+Eb4+C5 r F4+Ab4+D5","lh":"Ab2+Ab3 r F2+F3 r","doubt":"f au 3e temps (piano)."},
+{"marks":["p"],"v":"D5h^ Eb5 r^","ly":"me _","rh":"G4+Bb4+D5h^ G4+Bb4+Eb5 r^","lh":"G2+G3h^ rh^","doubt":"RH : G4 et Bb4 liés de la blanche à la noire (liaisons non codées)."},
+{"marks":["f"],"v":"F5 F5e F5e D5 D5","ly":"par- lo d'a- mor con","rh":"Bb4+D5+F5 r Bb4+D5+F5+Ab5 r","lh":"Ab2+Ab3 r Bb2+Bb3 r","doubt":"RH 1er accord : amas, possible Ab4 en plus. LH 1er accord lu Ab2+Ab3."},
+{"len":1,"v":"Eb5","ly":"me.","rh":"Eb4+G4+Bb4+Eb5","lh":"Eb2+Eb3","doubt":"Mesure 100 incomplète (« 100=1 ») : seule la 1re noire appartient à l'air ; suivent double barre, changement d'armure (bécarres) et le récitatif, non transcrits."}
+]}
