@@ -1,0 +1,92 @@
+{
+"lang": "it",
+"ctx": "Gianni Schicchi (Puccini, livret de Forzano, 1918), opéra en un acte, dernier volet du Trittico. Florence, 1299. La riche famille Donati découvre que le vieux Buoso a légué sa fortune aux moines. Rinuccio, neveu du défunt, veut épouser Lauretta, fille du rusé Gianni Schicchi, que la famille méprise. Schicchi refuse d'aider ces gens hautains ; Lauretta le supplie avec une tendresse désarmante — et une menace à peine sérieuse de se jeter dans l'Arno. Schicchi cède. Air bref et célébrissime, d'une simplicité « ingénue ».",
+"diction": [
+"Legato et simplicité : « Andantino ingenuo » — pas d'effets véristes, une ligne pure.",
+"Doubles consonnes : « babbino » [babˈbiːno], « bello » [ˈbɛllo], « anello » [aˈnɛllo], « Vecchio » [ˈvɛkkjo], « buttarmi ».",
+"« struggo » [ˈstruɡɡo] : double g bien posé ; « tormento » sans durcir.",
+"Le la♭ aigu de « Porta Rossa » / « andare » : léger, en voix de tête, porté par le souffle.",
+"« pietà, pietà » final : pianissimo, la voix s'éteint doucement."
+],
+"lines": [
+{
+"key": "o mio",
+"it": "O mio babbino caro, mi piace, è bello, bello; vo' andare in Porta Rossa a comperar l'anello!",
+"ipa": "o ˈmiːo babˈbiːno ˈkaːro mi ˈpjaːtʃe ɛ ˈbɛllo ˈbɛllo vɔ anˈdaːre in ˈpɔrta ˈrossa a komperˈar laˈnɛllo",
+"w": [
+[
+"O mio babbino caro",
+"ô mon petit papa chéri"
+],
+[
+"mi piace, è bello",
+"il me plaît, il est beau"
+],
+[
+"vo' andare",
+"je veux aller"
+],
+[
+"in Porta Rossa",
+"à Porta Rossa (rue de Florence)"
+],
+[
+"a comperar l'anello",
+"acheter l'anneau"
+]
+],
+"fr": "Ô mon petit papa chéri, il me plaît, il est beau ; je veux aller à Porta Rossa acheter l'anneau !"
+},
+{
+"key": "sì sì",
+"it": "Sì, sì, ci voglio andare! E se l'amassi indarno, andrei sul Ponte Vecchio, ma per buttarmi in Arno!",
+"ipa": "si si tʃi ˈvɔʎʎo anˈdaːre e se laˈmassi inˈdarno anˈdrɛi sul ˈponte ˈvɛkkjo ma per butˈtarmi in ˈarno",
+"w": [
+[
+"ci voglio andare",
+"je veux y aller"
+],
+[
+"se l'amassi indarno",
+"si je l'aimais en vain"
+],
+[
+"andrei sul Ponte Vecchio",
+"j'irais sur le Ponte Vecchio"
+],
+[
+"per buttarmi in Arno",
+"pour me jeter dans l'Arno"
+]
+],
+"fr": "Oui, oui, je veux y aller ! Et si je l'aimais en vain, j'irais sur le Ponte Vecchio, mais pour me jeter dans l'Arno !"
+},
+{
+"key": "mi struggo",
+"it": "Mi struggo e mi tormento! O Dio, vorrei morir! Babbo, pietà, pietà!",
+"ipa": "mi ˈstruɡɡo e mi torˈmento o ˈdiːo vorˈrɛi moˈrir ˈbabbo pjeˈta pjeˈta",
+"w": [
+[
+"Mi struggo",
+"je me consume"
+],
+[
+"mi tormento",
+"je me tourmente"
+],
+[
+"vorrei morir",
+"je voudrais mourir"
+],
+[
+"Babbo, pietà",
+"papa, pitié"
+]
+],
+"fr": "Je me consume et je me tourmente ! Ô Dieu, je voudrais mourir ! Papa, pitié, pitié !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
