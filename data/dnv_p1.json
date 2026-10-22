@@ -1,0 +1,125 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "3/4",
+"ks": 1,
+"tempo": "Allegretto vivace",
+"marks": [
+"pp",
+"rall. poco a poco"
+],
+"v": "rhd",
+"ly": "",
+"rh": "D5s rs A5s D6s D5 Eb5s F5s G5s Bb5s",
+"lh": "C3+D3+A3h Bb2+Eb3+G3",
+"doubt": "p.161 (titre), mesures 1-13, numéros imprimés 5/8/11 conformes. Pas de portée de chant au 1er système (mes. 1-4) → silences. MD temps 1 : D5 double, demi-soupir (double croche) puis A5–D6 (D6 piqué, liaison) ; dernière note du groupe montant lue Bb5 (au-dessus de la 1re ligne supp.)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D5s rs A5s D6s D5 Eb5s F5s G5s Bb5s",
+"lh": "C3+D3+A3h Bb2+Eb3+G3",
+"doubt": "Bande de scan effacée sur la portée MD : altérations du 3e temps illisibles (1re ressemble à ♮, 2e à ♭) — reprises identiques à mes. 1 (Eb5 F♮5 G5 Bb5). MG supposée identique à mes. 1 (portée partiellement effacée)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "D5s rs A5s D6s D5h",
+"lh": "D2+A2+F#3hd~",
+"doubt": "MG : blanches pointées liées vers mes. 4 ; D2 sous la 1re ligne supp. (pourrait être C2)."
+},
+{
+"v": "rhd",
+"ly": "",
+"marks": [
+"(pp)"
+],
+"rh": "D5s rs A5s D6s D5^ F4+F5",
+"lh": "D2+A2+F#3h^ C2+C3",
+"doubt": "MD : D5 du 2e temps avec point d'orgue ; 3e temps F4+F5 (bécarres) liés vers mes. 5 (liaison non transcrite). MG : accord lié de mes. 3 avec point d'orgue ; 3e temps C2+C3 (C2 sur 2e ligne supp., lecture incertaine) avec soupir dans la voix supérieure. Double barre + armure 2 bémols."
+},
+{
+"ks": -2,
+"tempo": "Andante lento (♩ = 63)",
+"marks": [
+"p",
+"con accento appassionato",
+"con espress. dolce"
+],
+"v": "Bb4 Bb4ed Bb4s A4ed G4s",
+"ly": "Don- na non vi- di",
+"rh": "Bb4+D5+F5+Bb5h A4+A5ed G4+G5s",
+"lh": "gBb1 Bb2s D3s F3s Bb3s D4e F3+Bb3+D4e r",
+"doubt": "Pas de nouveau chiffrage imprimé : la mesure reste 3/4 (le chant fait bien 3 noires : ♩ ♪. ♬ ♪. ♬), et non 4/4 comme prévu par le guide. Figure de tempo peu nette (♩ ou 𝅗𝅥). MD : accord serré de blanches empilées (lu Bb4 D5 F5 Bb5, notes intérieures incertaines), lié depuis F4/F5 de mes. 4 (liaison non transcrite). MG : petite note acciaccatura Bb1 liée depuis mes. 4."
+},
+{
+"v": "C5 C5 r",
+"ly": "ma- i",
+"rh": "C5+Eb5+G5+C6h D5+D6ed Eb5+Eb6s",
+"lh": "gBb1 Bb2s Eb3s G3s C4s Eb4e G3+C4+Eb4e r",
+"doubt": "MD accord de blanches empilées lu C5 Eb5 G5 C6 (intérieur incertain)."
+},
+{
+"v": "F5 G5d F5e",
+"ly": "si- mi- le‿a",
+"rh": "F5+F6 G5+G6d F5+F6e // A5hd",
+"lh": "gBb1 Bb2s F3s A3s D4s Eb4h",
+"doubt": "MD : A5 blanche pointée hampe en haut (2e voix). MG : dernière note blanche lue Eb4."
+},
+{
+"v": "F5 F5~ F5e re",
+"ly": "que- sta!",
+"rh": "F5+Bb5+D6+F6h F4+F5",
+"lh": "gBb1 Bb2s D3s F3s Bb3s D4e F3+Bb3+D4e A1+A2e F3+Bb3+D4e",
+"doubt": "MD : accord de blanches empilées (lu F5 Bb5 D6 F6, intérieur incertain), F6 lié depuis mes. 7 ; 3e temps : ligne supp. au-dessus de F5 sans tête visible (A5 possible)."
+},
+{
+"v": "re Bb4e Bb4 C5e D5e",
+"ly": "A dir- le: io",
+"rh": "Bb4+D5+F5+Bb5d Bb4+Bb5e C5+C6e D5+D6e",
+"lh": "gG1 G2s D3s F3s Bb3s D4e D2+D3e C2+C3e Bb1+Bb2e",
+"doubt": "Soufflet de crescendo (lignes sous la MD) de mes. 9 vers le f de mes. 10."
+},
+{
+"marks": [
+"f"
+],
+"v": "C5 C5e re re D5e",
+"ly": "t'a- mo, a",
+"rh": "C5+C6d F5+F6e Bb5+D6+F6+Bb6ed A5+A6s",
+"lh": "A1+A2e E3+A3+C4e D2+D3e F3+A3+C4e G1+G2e F3+Bb3+D4e",
+"doubt": "MD 3e temps : accord serré lu Bb5 D6 F6 Bb6. MG : bécarre sur E3."
+},
+{
+"v": "A5e C5e C5s C5s C5s C5s G5ed F5s",
+"ly": "nuo- va vi- ta l'al- ma mia si",
+"rh": "A5+A6 C5+C6 G5+G6ed F5+F6s",
+"lh": "C2s C3s F3s A3s C4e A3+C4+F4e gC3 gG3 gBb3 D4e E4e",
+"doubt": "Soufflet (decrescendo ?) sous la MD. MG : trois petites notes (doubles) avant D4, bécarre sur E4. MD : G5 du 3e temps partiellement effacé."
+},
+{
+"marks": [
+"pp",
+"dolciss."
+],
+"v": "F5 F5~ F5e re",
+"ly": "de- sta.",
+"rh": "F5+F6s A3s C4s F4s A4s C5s F5s A5s C6e F5+A5+C6+F6e!",
+"lh": "F2e C3e F3e A3e C4e F4e",
+"doubt": "MD 1er accord : F5+F6, notes intérieures effacées. Dernier accord arpégé avec accent (>) lu F5 A5 C6 F6 ; accent aussi sur F4 MG."
+},
+{
+"marks": [
+"p",
+"con semplicità",
+"rall."
+],
+"v": "r3 Eb5e3 Eb53 D5e3 C53 D5e3",
+"ly": "“Ma- non Les- caut mi",
+"rh": "Eb5+G5+Bb5+Eb6~ Eb5+G5+Bb5+Eb63 D5+F5+A5+D6e3 C5+Eb5+G5+C63 D5+D6e3",
+"lh": "Eb4e3 Eb3e3 F3e3 G3e3 A3e3 Bb3e3 C4e3 F33",
+"doubt": "Triolets noire+croche. MD : accords serrés, notes intérieures incertaines (Bb5 ou C6 dans le 1er ; A5 ou Bb5 dans le 3e ; G5 ou A5 dans le 4e). Rall. imprimé au chant et au piano. Phrase continue p. 162."
+}
+]
+}
