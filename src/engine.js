@@ -22,7 +22,7 @@ function xmlVoiceClef(xml,vc){const doc=new DOMParser().parseFromString(xml,'app
 /* — options de gravure — */
 function vrvOpts(width,scale,extra){return Object.assign({pageWidth:Math.round(width*100/scale),pageHeight:60000,scale:scale,adjustPageHeight:true,breaks:'auto',
   footer:'none',header:'none',xmlIdSeed:7,pageMarginLeft:40,pageMarginRight:30,pageMarginTop:30,pageMarginBottom:20,spacingSystem:(typeof PN!=='undefined'&&PN.chords?16:10),/* place pour le chiffrage sous la portée */
-  lyricSize:4.6,lyricTopMinMargin:3,justifyVertically:false},extra||{});}
+  lyricSize:4.6,lyricTopMinMargin:3,justifyVertically:false},/* œuvres avec chœur ponctuel : on masque les portées vides d'un système */(typeof ST!=='undefined'&&ST.W&&ST.W.condense)?{condense:'encoded',condenseFirstPage:true,systemDivider:'none'}:{condense:'none'},extra||{});}
 /* charge l'œuvre : modèle (non transposé) puis gravure (transposée) */
 /* les chargements passent un par un (la bibliothèque calcule des tessitures en tâche de fond) ; probe = sans changer la pièce affichée */
 VRV.lock=Promise.resolve();
@@ -35,7 +35,7 @@ function engineRender(width,scale){const tk=VRV.tk;const hid=(ST.hidden||[]).fil
   if(hid.length>=ST.SC.staves.length)hid.length=0;
   const key=ST.W.id+'|'+ST.tr+'|'+JSON.stringify(ST.voiceClef)+'|'+hid.join(',');const tr=trInterval(ST.SC.ks,ST.tr);
   if(VRV.loadedKey!==key){const vc=ST.voiceClef||{};const xml=Object.keys(vc).length?xmlVoiceClef(VRV.base,vc):VRV.base;
-    if(hid.length){tk.setOptions(vrvOpts(width,scale,{transpose:''}));tk.loadData(xml);const mei=meiHide(tk.getMEI({}),hid);tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(mei);}
+    if(hid.length||ST.W.condense){tk.setOptions(vrvOpts(width,scale,{transpose:''}));tk.loadData(xml);let mei=tk.getMEI({});if(hid.length)mei=meiHide(mei,hid);if(ST.W.condense)mei=mei.replace(/<scoreDef(?=[\s>])/,'<scoreDef optimize="true"');tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(mei);}
     else{tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(xml);}VRV.loadedKey=key;}
   else{tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.redoLayout();}
   return tk.renderToSVG(1);}

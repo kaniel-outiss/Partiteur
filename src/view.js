@@ -21,8 +21,10 @@ function vwIndex(){const box=$('#score'),R=box.getBoundingClientRect();const SC=
   const sysEls=$$('#sv g.system');VW.geo=[];const mid={};SC.meas.forEach(function(m){mid[m.id]=m.i;});
   $$('#sv g.measure').forEach(function(g){const i=mid[g.id];if(i==null)return;const r=rel(g.getBoundingClientRect());const s=sysEls.indexOf(g.closest('g.system'));const S=VW.sys[s]||r;
     /* portées de la mesure : y de la ligne du haut et du bas, par numéro */
-    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:vwExt(sg,b.y1,rel)};}});
-    VW.geo[i]={x0:r.x0,x1:r.x1,y0:S.y0,y1:S.y1,sys:s,st:st,el:g};});
+    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=staffN(sg,k);const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:vwExt(sg,b.y1,rel)};}});
+    let y0=S.y0,y1=S.y1;if(ST.W&&ST.W.condense){const K=Object.keys(st);if(K.length){y0=Math.min.apply(null,K.map(function(n){return st[n].top;}))-12;y1=Math.max.apply(null,K.map(function(n){return st[n].bot;}))+12;}}/* systèmes condensés : le cadre du système garde les portées masquées */
+    VW.geo[i]={x0:r.x0,x1:r.x1,y0:y0,y1:y1,sys:s,st:st,el:g};});
+  if(ST.W&&ST.W.condense)VW.geo.forEach(function(G){const S=G&&VW.sys[G.sys];if(S){S.y0=G.y0;S.y1=G.y1;}});
   /* position x des événements (tête de note la plus à gauche) → ligne de temps du curseur */
   VW.noteXY={};const seen={};VW.TL=[];
   SC.ev.forEach(function(e){if(e.grace)return;const el=document.getElementById(e.base);if(!el)return;let xy=VW.noteXY[e.base];
@@ -66,6 +68,8 @@ let _rsz=null;window.addEventListener('resize',function(){if(!ST.SC||$('#app').h
   document.addEventListener('touchend',function(e){if(d0&&e.touches.length<2){const el=$('#score');el.style.transform='';if(VW.pz){zoomBy(VW.pz/ST.zoom);}d0=0;VW.pz=null;}},{passive:true});
   document.addEventListener('touchmove',function(e){if(d0&&e.touches.length===2){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);const z=Math.max(.55,Math.min(2.2,z0*d/d0));VW.pz=z;$('#score').style.transform='scale('+(z/ST.zoom)+')';$('#score').style.transformOrigin='top left';}},{passive:true});})();
 /* numéros des portées affichées (dans l'ordre) */
+/* numéro MEI d'une portée gravée (les systèmes condensés n'ont pas toutes les portées) */
+function staffN(sg,k){try{const a=VRV.tk.getElementAttr(sg.id);if(a&&a.n)return +a.n;}catch(e){}return visStaves()[k];}
 function visStaves(){const H=ST.hidden||[];return ST.SC.staves.map(function(S){return S.n;}).filter(function(n){return H.indexOf(n)<0;});}
 /* couche d'aides : un groupe par module */
 function ovGroup(id){const ov=$('#ovl');if(!ov)return null;let g=ov.querySelector('#'+id);if(!g){g=document.createElementNS('http://www.w3.org/2000/svg','g');g.id=id;ov.appendChild(g);}return g;}

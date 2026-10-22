@@ -210,7 +210,7 @@ add_air('hoc', {'id': 'mozart-ho-capito', 'title': 'Ho capito, Signor, sì!', 'c
                 'role': 'Masetto', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': -1, 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 126-131'},
         144, {'name': 'Masetto (baryton-basse)', 'short': 'Mas.', 'vt': 'Bar'})
 add_air('dqp', {'id': 'verdi-di-quella-pira', 'title': 'Di quella pira', 'composer': 'Giuseppe Verdi', 'work': 'Il trovatore, acte III',
-                'role': 'Manrico', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'src': '250 Arias de Opera para Tenor, vol. 3 (éd. Carisch), p. 39-47'},
+                'role': 'Manrico', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'src': '250 Arias de Opera para Tenor, vol. 3 (éd. Carisch), p. 39-47', 'condense': True},
         100, {'name': 'Manrico (ténor)', 'short': 'Man.', 'vt': 'T', 'clef': 'G', 'oct': -12},
         extra=[{'id': 'ct', 'name': 'Chœur — ténors', 'short': 'T.', 'clef': 'G', 'oct': -12, 'vt': 'T', 'lyKey': 'lct'},
                {'id': 'cb', 'name': 'Chœur — basses', 'short': 'B.', 'clef': 'F', 'oct': 0, 'vt': 'B', 'lyKey': 'lcb'}])
@@ -228,7 +228,7 @@ def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if T: T = place_phrases(T, [{'ly': m.get(lykey, '')} for m in ms])
     W.append(dict(dict({'ks': 0}, **meta), bpm=bpm, measures=ms, text=T, parts=parts))
 add_satb('lib', {'id': 'faure-libera-me', 'title': 'Libera me', 'composer': 'Gabriel Fauré', 'work': 'Requiem op. 48, n° VI',
-                 'role': None, 'voice': 'SATB + basse solo', 'style': 'Musique sacrée', 'period': 'Romantique', 'ks': -1, 'mode': 'minor', 'src': 'Éd. Nancho Alvarez (tomasluisdevictoria.org), p. 12-14'},
+                 'role': None, 'voice': 'SATB + basse solo', 'style': 'Musique sacrée', 'period': 'Romantique', 'ks': -1, 'mode': 'minor', 'src': 'Éd. Nancho Alvarez (tomasluisdevictoria.org), p. 12-14', 'condense': True},
          80, [{'id': 's', 'name': 'Soprano', 'short': 'S.', 'kind': 'voice', 'clef': 'G', 'oct': 0, 'vt': 'S', 'lyKey': 'ls'},
               {'id': 'a', 'name': 'Alto', 'short': 'A.', 'kind': 'voice', 'clef': 'G', 'oct': 0, 'vt': 'A', 'lyKey': 'la'},
               {'id': 't', 'name': 'Ténor', 'short': 'T.', 'kind': 'voice', 'clef': 'G', 'oct': -12, 'vt': 'T', 'lyKey': 'lt'},

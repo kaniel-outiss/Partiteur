@@ -2,7 +2,7 @@
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#14110f">
-<title>Le partiteur 0.42.0</title>
+<title>Le partiteur 0.43.0</title>
 <style>
 :root{--bg:#14110f;--bg2:#1c1815;--card:#26201a;--card2:#2f2820;--or:#E8B04B;--or2:#f3c873;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf7ef;--line:#3a322a;--rouge:#e06a5a;--vert:#4fb873;--bleu:#5b8def;
   --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
@@ -127,7 +127,7 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
   <input type="file" id="fimp" multiple hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
- <div class="hint" style="margin-top:28px">Le partiteur 0.42.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
+ <div class="hint" style="margin-top:28px">Le partiteur 0.43.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
 <div id="app" hidden>
  <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bAnn" class="ghost" title="Annoter la partition">🖍</button><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
  <div id="annbar" hidden></div>
@@ -841,7 +841,7 @@ function xmlVoiceClef(xml,vc){const doc=new DOMParser().parseFromString(xml,'app
 /* — options de gravure — */
 function vrvOpts(width,scale,extra){return Object.assign({pageWidth:Math.round(width*100/scale),pageHeight:60000,scale:scale,adjustPageHeight:true,breaks:'auto',
   footer:'none',header:'none',xmlIdSeed:7,pageMarginLeft:40,pageMarginRight:30,pageMarginTop:30,pageMarginBottom:20,spacingSystem:(typeof PN!=='undefined'&&PN.chords?16:10),/* place pour le chiffrage sous la portée */
-  lyricSize:4.6,lyricTopMinMargin:3,justifyVertically:false},extra||{});}
+  lyricSize:4.6,lyricTopMinMargin:3,justifyVertically:false},/* œuvres avec chœur ponctuel : on masque les portées vides d'un système */(typeof ST!=='undefined'&&ST.W&&ST.W.condense)?{condense:'encoded',condenseFirstPage:true,systemDivider:'none'}:{condense:'none'},extra||{});}
 /* charge l'œuvre : modèle (non transposé) puis gravure (transposée) */
 /* les chargements passent un par un (la bibliothèque calcule des tessitures en tâche de fond) ; probe = sans changer la pièce affichée */
 VRV.lock=Promise.resolve();
@@ -854,7 +854,7 @@ function engineRender(width,scale){const tk=VRV.tk;const hid=(ST.hidden||[]).fil
   if(hid.length>=ST.SC.staves.length)hid.length=0;
   const key=ST.W.id+'|'+ST.tr+'|'+JSON.stringify(ST.voiceClef)+'|'+hid.join(',');const tr=trInterval(ST.SC.ks,ST.tr);
   if(VRV.loadedKey!==key){const vc=ST.voiceClef||{};const xml=Object.keys(vc).length?xmlVoiceClef(VRV.base,vc):VRV.base;
-    if(hid.length){tk.setOptions(vrvOpts(width,scale,{transpose:''}));tk.loadData(xml);const mei=meiHide(tk.getMEI({}),hid);tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(mei);}
+    if(hid.length||ST.W.condense){tk.setOptions(vrvOpts(width,scale,{transpose:''}));tk.loadData(xml);let mei=tk.getMEI({});if(hid.length)mei=meiHide(mei,hid);if(ST.W.condense)mei=mei.replace(/<scoreDef(?=[\s>])/,'<scoreDef optimize="true"');tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(mei);}
     else{tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.loadData(xml);}VRV.loadedKey=key;}
   else{tk.setOptions(vrvOpts(width,scale,{transpose:tr}));tk.redoLayout();}
   return tk.renderToSVG(1);}
@@ -1137,8 +1137,10 @@ function vwIndex(){const box=$('#score'),R=box.getBoundingClientRect();const SC=
   const sysEls=$$('#sv g.system');VW.geo=[];const mid={};SC.meas.forEach(function(m){mid[m.id]=m.i;});
   $$('#sv g.measure').forEach(function(g){const i=mid[g.id];if(i==null)return;const r=rel(g.getBoundingClientRect());const s=sysEls.indexOf(g.closest('g.system'));const S=VW.sys[s]||r;
     /* portées de la mesure : y de la ligne du haut et du bas, par numéro */
-    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:vwExt(sg,b.y1,rel)};}});
-    VW.geo[i]={x0:r.x0,x1:r.x1,y0:S.y0,y1:S.y1,sys:s,st:st,el:g};});
+    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=staffN(sg,k);const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:vwExt(sg,b.y1,rel)};}});
+    let y0=S.y0,y1=S.y1;if(ST.W&&ST.W.condense){const K=Object.keys(st);if(K.length){y0=Math.min.apply(null,K.map(function(n){return st[n].top;}))-12;y1=Math.max.apply(null,K.map(function(n){return st[n].bot;}))+12;}}/* systèmes condensés : le cadre du système garde les portées masquées */
+    VW.geo[i]={x0:r.x0,x1:r.x1,y0:y0,y1:y1,sys:s,st:st,el:g};});
+  if(ST.W&&ST.W.condense)VW.geo.forEach(function(G){const S=G&&VW.sys[G.sys];if(S){S.y0=G.y0;S.y1=G.y1;}});
   /* position x des événements (tête de note la plus à gauche) → ligne de temps du curseur */
   VW.noteXY={};const seen={};VW.TL=[];
   SC.ev.forEach(function(e){if(e.grace)return;const el=document.getElementById(e.base);if(!el)return;let xy=VW.noteXY[e.base];
@@ -1182,6 +1184,8 @@ let _rsz=null;window.addEventListener('resize',function(){if(!ST.SC||$('#app').h
   document.addEventListener('touchend',function(e){if(d0&&e.touches.length<2){const el=$('#score');el.style.transform='';if(VW.pz){zoomBy(VW.pz/ST.zoom);}d0=0;VW.pz=null;}},{passive:true});
   document.addEventListener('touchmove',function(e){if(d0&&e.touches.length===2){const d=Math.hypot(e.touches[0].clientX-e.touches[1].clientX,e.touches[0].clientY-e.touches[1].clientY);const z=Math.max(.55,Math.min(2.2,z0*d/d0));VW.pz=z;$('#score').style.transform='scale('+(z/ST.zoom)+')';$('#score').style.transformOrigin='top left';}},{passive:true});})();
 /* numéros des portées affichées (dans l'ordre) */
+/* numéro MEI d'une portée gravée (les systèmes condensés n'ont pas toutes les portées) */
+function staffN(sg,k){try{const a=VRV.tk.getElementAttr(sg.id);if(a&&a.n)return +a.n;}catch(e){}return visStaves()[k];}
 function visStaves(){const H=ST.hidden||[];return ST.SC.staves.map(function(S){return S.n;}).filter(function(n){return H.indexOf(n)<0;});}
 /* couche d'aides : un groupe par module */
 function ovGroup(id){const ov=$('#ovl');if(!ov)return null;let g=ov.querySelector('#'+id);if(!g){g=document.createElementNS('http://www.w3.org/2000/svg','g');g.id=id;ov.appendChild(g);}return g;}
@@ -1286,7 +1290,7 @@ document.addEventListener('click',function(e){const b=e.target.closest('[data-ti
   if(b.dataset.vclef){const a=b.dataset.vclef.split('|');if(a[1])ST.voiceClef[a[0]]=a[1];else delete ST.voiceClef[a[0]];LS.set('vclef:'+ST.W.id,ST.voiceClef);stop();render();}});
 /* ma portée : marque et estompe les autres */
 function markMine(){const sv=$('#sv');if(!sv)return;const P=myPart();sv.classList.toggle('dimothers',!!(LS.get('dim',false)&&P));if(!P)return;
-  const V=visStaves();$$('#sv g.measure').forEach(function(m){$$(':scope > g.staff',m).forEach(function(s,i){s.classList.toggle('mystaff',V[i]===P.staff);});});}
+  const V=visStaves();$$('#sv g.measure').forEach(function(m){$$(':scope > g.staff',m).forEach(function(s,i){s.classList.toggle('mystaff',staffN(s,i)===P.staff);});});}
 BUS.on('drawn',markMine);
 
 /* ── fab.js ── */

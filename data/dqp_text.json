@@ -90,6 +90,30 @@
 "fr": "J'étais ton fils avant de t'aimer : ta souffrance ne peut me retenir. Mère malheureuse, je cours te sauver, ou du moins mourir avec toi !"
 },
 {
+"key": "non reggo",
+"it": "Non reggo a colpi tanto funesti… Oh quanto meglio saria morir!",
+"ipa": "non ˈrɛɡɡo a ˈkolpi ˈtanto fuˈnɛsti ɔ ˈkwanto ˈmɛʎʎo saˈriːa moˈrir",
+"w": [
+[
+"Non reggo",
+"je ne supporte pas"
+],
+[
+"a colpi tanto funesti",
+"des coups si funestes"
+],
+[
+"quanto meglio",
+"combien il vaudrait mieux"
+],
+[
+"saria morir",
+"mourir"
+]
+],
+"fr": "Je ne puis supporter des coups si funestes… Ah, combien il vaudrait mieux mourir ! (Dans l'opéra, ces mots sont ceux de Leonora ; cette édition les place dans la ligne de chant.)"
+},
+{
 "key": "allarmi",
 "it": "All'armi! All'armi! Eccone presti a pugnar teco, o teco a morir!",
 "ipa": "larˈmi larˈmi ˈɛkkone ˈprɛsti a puɲˈɲar ˈteːko o ˈteːko a moˈrir",

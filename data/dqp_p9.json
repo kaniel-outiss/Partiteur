@@ -1,173 +1,173 @@
 {
- "page": 9,
- "measures": [
-  {
-   "meter": "3/4",
-   "v": "F5e E5e F5 F#5",
-   "ly": "te- _ co al-",
-   "rh": "C5+F5s F4s C5+E5s E4s C5+F5s F4s C5+F5s F4s C5+F#5s F#4s C5+F#5s F#4s",
-   "lh": "A1+A2e Bb1+Bb2e A1+A2 Ab1+Ab2",
-   "ct": "F5e E5e F5 F#5 // C5 C5 C5",
-   "lct": "te- _ co, o",
-   "cb": "A3e Bb3e A3 Ab3+C4",
-   "lcb": "te- _ co, o",
-   "doubt": "Page imprimée 47 (dernière de l'air, double barre finale ; rien d'un autre air). Accents (>) sur toutes les octaves MG. Liaisons F5-E5 (chant, ténors) et A3-Bb3 (basses). Dièse de F#5/F#4 au 3e temps MD conservé jusqu'à la barre (2 dernières double croches lues F#). Chœur : pas de ‿ imprimé ici (« te-co al-men »), 4 syllabes sur 5 notes."
-  },
-  {
-   "v": "G5hd",
-   "ly": "men",
-   "rh": "G4+C5+E5+G5hd*",
-   "lh": "G1hd // G1e C2e E2e G2e E2e C2e",
-   "ct": "E5+G5hd",
-   "lct": "te-",
-   "cb": "G3+C4hd",
-   "lcb": "te-",
-   "doubt": "MD : trémolo mesuré (2 barres, doubles croches) entre l'accord C5-E5-G5 et G4 (blanches pointées). MG : blanche pointée G1 (hampe bas, accent) + croches G1 C2 E2 G2 E2 C2 sur la même tête."
-  },
-  {
-   "v": "G5 G5 G5",
-   "ly": "cor- ro‿a mo-",
-   "rh": "B4+D5+G5+B5hd*",
-   "lh": "G1+G2 G1+G2 G1+G2",
-   "ct": "D5+G5h D5+G5",
-   "lct": "co‿a mo-",
-   "cb": "G3+B3h G3+B3",
-   "lcb": "co‿a mo-",
-   "doubt": "MD : trémolo mesuré (2 barres) entre l'accord D5-G5-B5 et B4. Accents MG. Bécarre de précaution sur B3 (basses)."
-  },
-  {
-   "v": "C5e rs G5s G5h",
-   "ly": "rir! Al- l'ar-",
-   "rh": "E5+G5+C6 re D5+G5+B5s D5+G5+B5s D5+G5+B5e D5+G5+B5e",
-   "lh": "C2+C3 re G2+B2+D3+G3s G2+B2+D3+G3s G2+B2+D3+G3e G2+B2+D3+G3e",
-   "ct": "C5 r D5",
-   "lct": "rir! Al-",
-   "cb": "C3+C4 r G3",
-   "lcb": "rir! Al-",
-   "doubt": "Accent sur le 1er accord MD et sur l'octave MG."
-  },
-  {
-   "v": "C5e rs G5s G5h",
-   "ly": "mi! al- l'ar-",
-   "rh": "E5+G5+C6 re D5+G5+B5s D5+G5+B5s D5+G5+B5e D5+G5+B5e",
-   "lh": "C3+E3+G3 re G2+B2+D3+G3s G2+B2+D3+G3s G2+B2+D3+G3e G2+B2+D3+G3e",
-   "ct": "E5e C5e r D5",
-   "lct": "l'ar- mi! al-",
-   "cb": "C4e C3e r G3",
-   "lcb": "l'ar- mi! al-",
-   "doubt": "Accent sur le 1er accord MD et MG."
-  },
-  {
-   "v": "E5e re r r",
-   "ly": "mi!",
-   "rh": "E5+G5+C6 re D5+G5+B5s D5+G5+B5s D5+G5+B5e D5+G5+B5e",
-   "lh": "C3+E3+G3 re G1+G2s G1+G2s G1+G2e G1+G2e",
-   "ct": "E5e C5e r D5",
-   "lct": "l'ar- mi! al-",
-   "cb": "C4e C3e r G3",
-   "lcb": "l'ar- mi! al-",
-   "doubt": "Accent sur le 1er accord MD et MG."
-  },
-  {
-   "v": "r r G5",
-   "ly": "Al-",
-   "rh": "E5+G5+C6e D5+G5+B5e E5+G5+C6e D5+G5+B5e E5+G5+C6e D5+G5+B5e",
-   "lh": "C2+C3e G1+G2e C2+C3e G1+G2e C2+C3e G1+G2e",
-   "ct": "C5+E5e B4+D5e C5+E5e B4+D5e C5+E5e D5+G5e",
-   "lct": "l'ar- mi! al- l'ar- mi! al-",
-   "cb": "C4e G3e D4e G3e C4e G3e",
-   "lcb": "l'ar- mi! al- l'ar- mi! al-",
-   "doubt": "Accents sur chaque accord MD et MG. Paroles chœur imprimées « l'ar mi! al-l'ar-mi! al- »."
-  },
-  {
-   "v": "C6hd~",
-   "ly": "l'ar-",
-   "rh": "E5+C6s G5s A5s B5s E5+C6s G5s A5s B5s E5+C6s G5s A5s B5s",
-   "lh": "C2+C3s G2s A2s B2s C2+C3s G2s A2s B2s C2+C3s G2s A2s B2s",
-   "ct": "C5+E5hd",
-   "lct": "l'ar-",
-   "cb": "C4hd",
-   "lcb": "l'ar-",
-   "doubt": "Petite virgule/trait au début de la portée du chant (respiration ?). Arcs chœur m8→m9 : lus comme liaisons d'expression (« mi! » réarticulé m9), pas de ~."
-  },
-  {
-   "v": "C6hd~",
-   "ly": "",
-   "rh": "E5+C6s B5s C6s E6s G5s F#5s G5s C6s E5s D#5s E5s G5s",
-   "lh": "C2+C3 r r",
-   "ct": "C5+E5 r r",
-   "lct": "mi!",
-   "cb": "C4 r r",
-   "lcb": "mi!"
-  },
-  {
-   "v": "C6hd~",
-   "ly": "",
-   "rh": "C5s B4s C5s E5s G4s F#4s G4s C5s E4s D#4s E4s G4s",
-   "lh": "C4s B3s C4s E4s G3s F#3s G3s C4s E3s D#3s E3s G3s",
-   "ct": "rhd",
-   "cb": "rhd",
-   "doubt": "Chœur : pause (mesure entière)."
-  },
-  {
-   "v": "C6hd",
-   "ly": "",
-   "rh": "C4s F4s E4s D4s C4s F4s E4s D4s C4s F4s E4s D4s",
-   "lh": "C3s F3s E3s D3s C3s F3s E3s D3s C3s F3s E3s D3s",
-   "ct": "rhd",
-   "cb": "rhd",
-   "doubt": "Système sans portées de chœur (non imprimé) → rhd. Bécarres de précaution F4/D4 et F3/D3. Arc C6 m11→m12 : « mi! » imprimé sous m12 → lu comme liaison d'expression, pas de ~ (C6 tenu m8-m11 par ~)."
-  },
-  {
-   "v": "C6hd~",
-   "ly": "mi!",
-   "rh": "C4 re E4+G4+C5s E4+G4+C5s G4+C5+E5e C5+E5+G5e",
-   "lh": "C3 re C3+E3+G3+C4s C3+E3+G3+C4s C3+E3+G3+C4e C3+E3+G3+C4e",
-   "ct": "rhd",
-   "cb": "rhd",
-   "doubt": "Extension « mi!____ » jusqu'à m17."
-  },
-  {
-   "v": "C6hd~",
-   "ly": "",
-   "rh": "C5+E5+G5+C6 G5+C6+E6 C6+E6+G6",
-   "lh": "C3+E3+G3+C4 C3+E3+G3+C4 C3+E3+G3+C4",
-   "ct": "rhd",
-   "cb": "rhd"
-  },
-  {
-   "v": "C6hd~",
-   "ly": "",
-   "rh": "E6+G6+C7 r red C4s",
-   "lh": "C3+E3+G3+C4 r red C2+C3s",
-   "ct": "rhd",
-   "cb": "rhd",
-   "doubt": "8va pointillé (« 8va - ┐ ») sur le 1er accord MD seulement : imprimé E5+G5+C6, écrit à la hauteur jouée E6+G6+C7. Le C4 double croche est hors 8va."
-  },
-  {
-   "v": "C6hd~",
-   "ly": "",
-   "rh": "C4 r red C4s",
-   "lh": "C2+C3 r red C2+C3s",
-   "ct": "rhd",
-   "cb": "rhd"
-  },
-  {
-   "v": "C6hd~",
-   "ly": "",
-   "rh": "C4hd~",
-   "lh": "C2+C3hd~",
-   "ct": "rhd",
-   "cb": "rhd"
-  },
-  {
-   "v": "C6h r",
-   "ly": "",
-   "rh": "C4h r",
-   "lh": "C2+C3h r",
-   "ct": "rhd",
-   "cb": "rhd",
-   "doubt": "Double barre finale — fin de l'air."
-  }
- ]
+"page": 9,
+"measures": [
+{
+"meter": "3/4",
+"v": "F5e E5e F5 F#5",
+"ly": "te- _ co al-",
+"rh": "C5+F5s F4s C5+E5s E4s C5+F5s F4s C5+F5s F4s C5+F#5s F#4s C5+F#5s F#4s",
+"lh": "A1+A2e Bb1+Bb2e A1+A2 Ab1+Ab2",
+"ct": "F5e E5e F5 F#5 // C5 C5 C5",
+"lct": "te- _ co, o",
+"cb": "A3e Bb3e A3 Ab3+C4",
+"lcb": "te- _ co, o",
+"doubt": "Page imprimée 47 (dernière de l'air, double barre finale ; rien d'un autre air). Accents (>) sur toutes les octaves MG. Liaisons F5-E5 (chant, ténors) et A3-Bb3 (basses). Dièse de F#5/F#4 au 3e temps MD conservé jusqu'à la barre (2 dernières double croches lues F#). Chœur : pas de ‿ imprimé ici (« te-co al-men »), 4 syllabes sur 5 notes."
+},
+{
+"v": "G5hd",
+"ly": "men",
+"rh": "G4+C5+E5+G5hd*",
+"lh": "G1hd // G1e C2e E2e G2e E2e C2e",
+"ct": "E5+G5hd",
+"lct": "te-",
+"cb": "G3+C4hd",
+"lcb": "te-",
+"doubt": "MD : trémolo mesuré (2 barres, doubles croches) entre l'accord C5-E5-G5 et G4 (blanches pointées). MG : blanche pointée G1 (hampe bas, accent) + croches G1 C2 E2 G2 E2 C2 sur la même tête."
+},
+{
+"v": "G5 G5 G5",
+"ly": "cor- ro‿a mo-",
+"rh": "B4+D5+G5+B5hd*",
+"lh": "G1+G2 G1+G2 G1+G2",
+"ct": "D5+G5h D5+G5",
+"lct": "co‿a mo-",
+"cb": "G3+B3h G3+B3",
+"lcb": "co‿a mo-",
+"doubt": "MD : trémolo mesuré (2 barres) entre l'accord D5-G5-B5 et B4. Accents MG. Bécarre de précaution sur B3 (basses)."
+},
+{
+"v": "C5e rs G5s G5h",
+"ly": "rir! Al- l'ar-",
+"rh": "E5+G5+C6 re D5+G5+B5s D5+G5+B5s D5+G5+B5e D5+G5+B5e",
+"lh": "C2+C3 re G2+B2+D3+G3s G2+B2+D3+G3s G2+B2+D3+G3e G2+B2+D3+G3e",
+"ct": "C5 r D5",
+"lct": "rir! Al-",
+"cb": "C3+C4 r G3",
+"lcb": "rir! Al-",
+"doubt": "Accent sur le 1er accord MD et sur l'octave MG."
+},
+{
+"v": "C5e rs G5s G5h",
+"ly": "mi! al- l'ar-",
+"rh": "E5+G5+C6 re D5+G5+B5s D5+G5+B5s D5+G5+B5e D5+G5+B5e",
+"lh": "C3+E3+G3 re G2+B2+D3+G3s G2+B2+D3+G3s G2+B2+D3+G3e G2+B2+D3+G3e",
+"ct": "E5e C5e r D5",
+"lct": "l'ar- mi! al-",
+"cb": "C4e C3e r G3",
+"lcb": "l'ar- mi! al-",
+"doubt": "Accent sur le 1er accord MD et MG."
+},
+{
+"v": "E5e re r r",
+"ly": "mi!",
+"rh": "E5+G5+C6 re D5+G5+B5s D5+G5+B5s D5+G5+B5e D5+G5+B5e",
+"lh": "C3+E3+G3 re G1+G2s G1+G2s G1+G2e G1+G2e",
+"ct": "E5e C5e r D5",
+"lct": "l'ar- mi! al-",
+"cb": "C4e C3e r G3",
+"lcb": "l'ar- mi! al-",
+"doubt": "Accent sur le 1er accord MD et MG."
+},
+{
+"v": "r r G5",
+"ly": "Al-",
+"rh": "E5+G5+C6e D5+G5+B5e E5+G5+C6e D5+G5+B5e E5+G5+C6e D5+G5+B5e",
+"lh": "C2+C3e G1+G2e C2+C3e G1+G2e C2+C3e G1+G2e",
+"ct": "C5+E5e B4+D5e C5+E5e B4+D5e C5+E5e D5+G5e",
+"lct": "l'ar- mi! al- l'ar- mi! al-",
+"cb": "C4e G3e D4e G3e C4e G3e",
+"lcb": "l'ar- mi! al- l'ar- mi! al-",
+"doubt": "Accents sur chaque accord MD et MG. Paroles chœur imprimées « l'ar mi! al-l'ar-mi! al- »."
+},
+{
+"v": "C6hd~",
+"ly": "l'ar-",
+"rh": "E5+C6s G5s A5s B5s E5+C6s G5s A5s B5s E5+C6s G5s A5s B5s",
+"lh": "C2+C3s G2s A2s B2s C2+C3s G2s A2s B2s C2+C3s G2s A2s B2s",
+"ct": "C5+E5hd",
+"lct": "l'ar-",
+"cb": "C4hd",
+"lcb": "l'ar-",
+"doubt": "Petite virgule/trait au début de la portée du chant (respiration ?). Arcs chœur m8→m9 : lus comme liaisons d'expression (« mi! » réarticulé m9), pas de ~."
+},
+{
+"v": "C6hd~",
+"ly": "",
+"rh": "E5+C6s B5s C6s E6s G5s F#5s G5s C6s E5s D#5s E5s G5s",
+"lh": "C2+C3 r r",
+"ct": "C5+E5 r r",
+"lct": "mi!",
+"cb": "C4 r r",
+"lcb": "mi!"
+},
+{
+"v": "C6hd~",
+"ly": "",
+"rh": "C5s B4s C5s E5s G4s F#4s G4s C5s E4s D#4s E4s G4s",
+"lh": "C4s B3s C4s E4s G3s F#3s G3s C4s E3s D#3s E3s G3s",
+"ct": "rhd",
+"cb": "rhd",
+"doubt": "Chœur : pause (mesure entière)."
+},
+{
+"v": "C6hd",
+"ly": "",
+"rh": "C4s F4s E4s D4s C4s F4s E4s D4s C4s F4s E4s D4s",
+"lh": "C3s F3s E3s D3s C3s F3s E3s D3s C3s F3s E3s D3s",
+"ct": "rhd",
+"cb": "rhd",
+"doubt": "Système sans portées de chœur (non imprimé) → rhd. Bécarres de précaution F4/D4 et F3/D3. Arc C6 m11→m12 : « mi! » imprimé sous m12 → lu comme liaison d'expression, pas de ~ (C6 tenu m8-m11 par ~)."
+},
+{
+"v": "C6hd~",
+"ly": "mi!",
+"rh": "C4 re E4+G4+C5s E4+G4+C5s G4+C5+E5e C5+E5+G5e",
+"lh": "C3 re C3+E3+G3+C4s C3+E3+G3+C4s C3+E3+G3+C4e C3+E3+G3+C4e",
+"ct": "rhd",
+"cb": "rhd",
+"doubt": "Extension « mi!____ » jusqu'à m17."
+},
+{
+"v": "C6hd~",
+"ly": "",
+"rh": "C5+E5+G5+C6 G5+C6+E6 C6+E6+G6",
+"lh": "C3+E3+G3+C4 C3+E3+G3+C4 C3+E3+G3+C4",
+"ct": "rhd",
+"cb": "rhd"
+},
+{
+"v": "C6hd~",
+"ly": "",
+"rh": "E6+G6+C7 r red C4s",
+"lh": "C3+E3+G3+C4 r red C2+C3s",
+"ct": "rhd",
+"cb": "rhd",
+"doubt": "8va pointillé (« 8va - ┐ ») sur le 1er accord MD seulement : imprimé E5+G5+C6, écrit à la hauteur jouée E6+G6+C7. Le C4 double croche est hors 8va."
+},
+{
+"v": "C6hd~",
+"ly": "",
+"rh": "C4 r red C4s",
+"lh": "C2+C3 r red C2+C3s",
+"ct": "rhd",
+"cb": "rhd"
+},
+{
+"v": "C6hd~",
+"ly": "",
+"rh": "C4hd~",
+"lh": "C2+C3hd~",
+"ct": "rhd",
+"cb": "rhd"
+},
+{
+"v": "C6h r",
+"ly": "",
+"rh": "C4h r",
+"lh": "C2+C3h r",
+"ct": "rhd",
+"cb": "rhd",
+"doubt": "Double barre finale — fin de l'air."
+}
+]
 }

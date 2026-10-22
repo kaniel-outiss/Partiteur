@@ -1,97 +1,98 @@
 {
- "page": 1,
- "measures": [
-  {
-   "meter": "3/4",
-   "tempo": "Allegro (♩ = 100)",
-   "marks": [
-    "mf"
-   ],
-   "v": "rhd",
-   "ly": "",
-   "rh": "rhd",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "Instruments imprimés : « 4 Corni, Viole e 2° Violino » (accords MG), « Fag. e Basso pizz. » (basse). Mesure entière de silence = rhd."
-  },
-  {
-   "v": "E5 E5 E5",
-   "ly": "Di quel- la",
-   "rh": "rhd",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "Accents sur les 3 noires du chant."
-  },
-  {
-   "v": "E5s F5s E5s F5s E5h",
-   "ly": "pi- _ _ _ ra",
-   "rh": "G4+E5s A4+F5s G4+E5s A4+F5s G4+E5h",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "« Legni » au-dessus de la MD. Doubles croches liées-piquées, accent sur la blanche."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "C5 C5 C5",
-   "ly": "l'or- ren- do",
-   "rh": "Ab4+C5 Ab4+C5 Ab4+C5",
-   "lh": "C3e Ab3+C4+F4s Ab3+C4+F4s Ab3+C4+F4e Ab3+C4+F4e F3e Ab3+C4+F4e",
-   "doubt": "Accents au chant ; MD liée-piquée."
-  },
-  {
-   "v": "G4s A4s G4s A4s G4h",
-   "ly": "fo- _ _ _ co",
-   "rh": "E4+G4s F4+A4s E4+G4s F4+A4s E4+G4h",
-   "lh": "C3e G3+C4s G3+C4s G3+C4e G3+C4e E3e G3+C4e",
-   "doubt": "Bécarre de précaution sur la4 (MD, 2e accord). MG : accords à 2 sons seulement (G3+C4)."
-  },
-  {
-   "v": "G5 G5 G5",
-   "ly": "tut- te le",
-   "rh": "G5+G6 G5+G6 G5+G6",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "« 1° Violino » à la MD. 8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : G4+G5. Accents."
-  },
-  {
-   "v": "F5s G5s F5s G5s F5h",
-   "ly": "fi- _ _ _ bre",
-   "rh": "D6+F6s E6+G6s D6+F6s E6+G6s D6+F6h",
-   "lh": "G2e G3+B3+F4s G3+B3+F4s G3+B3+F4e G3+B3+F4e B2e G3+B3+F4e",
-   "doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : D5+F5 / E5+G5."
-  },
-  {
-   "v": "D5s E5s D5s E5s D5 E5",
-   "ly": "m'ar- _ _ _ se‿av- vam-",
-   "rh": "F5+D6s G5+E6s F5+D6s G5+E6s F5+D6 G5+E6",
-   "lh": "G2e G3+B3+F4s G3+B3+F4s G3+B3+F4e G3+B3+F4e G2e G3+B3+F4e",
-   "doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : F4+D5 / G4+E5. Élision « se‿av » = une note."
-  },
-  {
-   "v": "C5 r r",
-   "ly": "pò!",
-   "rh": "E5+C6 r r",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "Fin du 8va au 1er temps (« 8va - -┐ ») : imprimé E4+C5, écrit à la hauteur jouée."
-  },
-  {
-   "v": "E5 E5 E5",
-   "ly": "Em- pî, spe-",
-   "rh": "rhd",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "Accents au chant."
-  },
-  {
-   "v": "E5s F5s E5s F5s E5h",
-   "ly": "gne- _ te- _ la,",
-   "rh": "G4+E5s A4+F5s G4+E5s A4+F5s G4+E5h",
-   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
-   "doubt": "Chant : 2 groupes de 2 doubles croches liés (gne-, te-)."
-  },
-  {
-   "v": "C5 C5 C5",
-   "ly": "o ch'io fra",
-   "rh": "Ab4+C5 Ab4+C5 Ab4+C5",
-   "lh": "C3e Ab3+C4+F4s Ab3+C4+F4s Ab3+C4+F4e Ab3+C4+F4e F3e Ab3+C4+F4e",
-   "doubt": "Pas de nuance imprimée ici (contrairement à m.4)."
-  }
- ]
+"page": 1,
+"measures": [
+{
+"meter": "3/4",
+"tempo": "Allegro (♩ = 100)",
+"marks": [
+"mf"
+],
+"v": "rhd",
+"ly": "",
+"rh": "rhd",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "Instruments imprimés : « 4 Corni, Viole e 2° Violino » (accords MG), « Fag. e Basso pizz. » (basse). Mesure entière de silence = rhd.",
+"bpm": 100
+},
+{
+"v": "E5 E5 E5",
+"ly": "Di quel- la",
+"rh": "rhd",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "Accents sur les 3 noires du chant."
+},
+{
+"v": "E5s F5s E5s F5s E5h",
+"ly": "pi- _ _ _ ra",
+"rh": "G4+E5s A4+F5s G4+E5s A4+F5s G4+E5h",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "« Legni » au-dessus de la MD. Doubles croches liées-piquées, accent sur la blanche."
+},
+{
+"marks": [
+"p"
+],
+"v": "C5 C5 C5",
+"ly": "l'or- ren- do",
+"rh": "Ab4+C5 Ab4+C5 Ab4+C5",
+"lh": "C3e Ab3+C4+F4s Ab3+C4+F4s Ab3+C4+F4e Ab3+C4+F4e F3e Ab3+C4+F4e",
+"doubt": "Accents au chant ; MD liée-piquée."
+},
+{
+"v": "G4s A4s G4s A4s G4h",
+"ly": "fo- _ _ _ co",
+"rh": "E4+G4s F4+A4s E4+G4s F4+A4s E4+G4h",
+"lh": "C3e G3+C4s G3+C4s G3+C4e G3+C4e E3e G3+C4e",
+"doubt": "Bécarre de précaution sur la4 (MD, 2e accord). MG : accords à 2 sons seulement (G3+C4)."
+},
+{
+"v": "G5 G5 G5",
+"ly": "tut- te le",
+"rh": "G5+G6 G5+G6 G5+G6",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "« 1° Violino » à la MD. 8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : G4+G5. Accents."
+},
+{
+"v": "F5s G5s F5s G5s F5h",
+"ly": "fi- _ _ _ bre",
+"rh": "D6+F6s E6+G6s D6+F6s E6+G6s D6+F6h",
+"lh": "G2e G3+B3+F4s G3+B3+F4s G3+B3+F4e G3+B3+F4e B2e G3+B3+F4e",
+"doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : D5+F5 / E5+G5."
+},
+{
+"v": "D5s E5s D5s E5s D5 E5",
+"ly": "m'ar- _ _ _ se‿av- vam-",
+"rh": "F5+D6s G5+E6s F5+D6s G5+E6s F5+D6 G5+E6",
+"lh": "G2e G3+B3+F4s G3+B3+F4s G3+B3+F4e G3+B3+F4e G2e G3+B3+F4e",
+"doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : F4+D5 / G4+E5. Élision « se‿av » = une note."
+},
+{
+"v": "C5 r r",
+"ly": "pò!",
+"rh": "E5+C6 r r",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "Fin du 8va au 1er temps (« 8va - -┐ ») : imprimé E4+C5, écrit à la hauteur jouée."
+},
+{
+"v": "E5 E5 E5",
+"ly": "Em- pî, spe-",
+"rh": "rhd",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "Accents au chant."
+},
+{
+"v": "E5s F5s E5s F5s E5h",
+"ly": "gne- _ te- _ la,",
+"rh": "G4+E5s A4+F5s G4+E5s A4+F5s G4+E5h",
+"lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+"doubt": "Chant : 2 groupes de 2 doubles croches liés (gne-, te-)."
+},
+{
+"v": "C5 C5 C5",
+"ly": "o ch'io fra",
+"rh": "Ab4+C5 Ab4+C5 Ab4+C5",
+"lh": "C3e Ab3+C4+F4s Ab3+C4+F4s Ab3+C4+F4e Ab3+C4+F4e F3e Ab3+C4+F4e",
+"doubt": "Pas de nuance imprimée ici (contrairement à m.4)."
+}
+]
 }

@@ -95,5 +95,5 @@ document.addEventListener('click',function(e){const b=e.target.closest('[data-ti
   if(b.dataset.vclef){const a=b.dataset.vclef.split('|');if(a[1])ST.voiceClef[a[0]]=a[1];else delete ST.voiceClef[a[0]];LS.set('vclef:'+ST.W.id,ST.voiceClef);stop();render();}});
 /* ma portée : marque et estompe les autres */
 function markMine(){const sv=$('#sv');if(!sv)return;const P=myPart();sv.classList.toggle('dimothers',!!(LS.get('dim',false)&&P));if(!P)return;
-  const V=visStaves();$$('#sv g.measure').forEach(function(m){$$(':scope > g.staff',m).forEach(function(s,i){s.classList.toggle('mystaff',V[i]===P.staff);});});}
+  const V=visStaves();$$('#sv g.measure').forEach(function(m){$$(':scope > g.staff',m).forEach(function(s,i){s.classList.toggle('mystaff',staffN(s,i)===P.staff);});});}
 BUS.on('drawn',markMine);

@@ -1,137 +1,137 @@
 {
- "page": 7,
- "measures": [
-  {
-   "meter": "3/4",
-   "v": "E5 E5 E5",
-   "ly": "Ma- dre‿in- fe-",
-   "ct": "E5 r red E5s",
-   "lct": "mi! al-",
-   "cb": "E3 r red E4s",
-   "lcb": "mi! al-",
-   "rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
-   "lh": "E2+E3 r r",
-   "doubt": "Page imprimée 45 (OK). Accents sur les 3 notes du chant, sur l'accord de croche MD et sur E2 MG. Pas de numéros de mesure imprimés. Aucune nuance/tempo imprimé sur la page."
-  },
-  {
-   "v": "E5 E4e re r",
-   "ly": "li- ce!",
-   "ct": "E5 E4e re red E5s",
-   "lct": "l'ar- mi! al-",
-   "cb": "E4 E3e re red E4s",
-   "lcb": "l'ar- mi! al-",
-   "rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
-   "lh": "gB2s gC#3s gD#3s E2+E3 r r",
-   "doubt": "MG : 3 petites notes (B2 C#3 D#3, doubles croches liées) avant E2+E3 accentué."
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "ct": "E5 E4e re red E5s",
-   "lct": "l'ar- mi! al-",
-   "cb": "E4 E3e re red E4s",
-   "lcb": "l'ar- mi! al-",
-   "rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
-   "lh": "gB2s gC#3s gD#3s E2+E3 r r"
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "ct": "E5e D#5e E5 F#5",
-   "lct": "l'ar- mi, al- l'ar-",
-   "cb": "E4e B3e E4 D4",
-   "lcb": "l'ar- mi, al- l'ar-",
-   "rh": "G5+B5+E6e F#5+B5+D#6e G5+B5+E6 A5+C6+D6+F#6",
-   "lh": "gB2s gC#3s gD#3s E2+E3e B1+B2e E2+E3 D2+D3",
-   "doubt": "Accents sur chaque accord MD et MG. Bécarre de précaution sur D4 (basses), sur D2/D3 (MG) et sur C6 (MD, dernier accord, C6 décalé à gauche)."
-  },
-  {
-   "v": "G5 G5 G5",
-   "ly": "Cor- ro‿a sal-",
-   "ct": "G5 r r",
-   "lct": "mi!",
-   "cb": "G3 r r",
-   "lcb": "mi!",
-   "rh": "G5+B5+D6+G6e G4+G5s G4+G5s G4+G5e G4+G5e G4+G5e G4+G5e",
-   "lh": "G2+G3 r r",
-   "doubt": "Accent sur l'accord de croche MD et sur G2+G3 MG."
-  },
-  {
-   "v": "Ab5hd",
-   "ly": "var-",
-   "ct": "Eb5+Ab5hd",
-   "lct": "Ec-",
-   "cb": "Ab3+C4hd",
-   "lcb": "Ec-",
-   "rh": "C5+Eb5+Ab5d* Ab4d*",
-   "lh": "Ab1e C2e Eb2e Ab2e Eb2e C2e // Ab1hd",
-   "doubt": "MD : trémolo mesuré (3 barres) entre l'accord C5+Eb5+Ab5 (blanche pointée) et Ab4 (blanche pointée) — noté en alternance de noires pointées *. MG : Ab1 blanche pointée accentuée, tête partagée avec la 1re croche de l'arpège."
-  },
-  {
-   "v": "Ab5h Ab5",
-   "ly": "ti, o",
-   "ct": "Eb5+Ab5h Eb5+Ab5",
-   "lct": "co- ne",
-   "cb": "Ab3+C4h Ab3+C4",
-   "lcb": "co- ne",
-   "rh": "C5+Eb5+Ab5d* Ab4d*",
-   "lh": "Ab1e C2e Eb2e Ab2e Eb2e C2e // Ab1hd",
-   "doubt": "Chant 2e note (« o ») et 2e accord chœur/basses sans altération imprimée : Ab/Eb par la règle de la barre. MD trémolo comme mesure précédente."
-  },
-  {
-   "v": "G5e F#5e G5 F5",
-   "ly": "te- _ co al-",
-   "ct": "Eb5+G5e F#5e Eb5+G5 B4+F5",
-   "lct": "pre- _ sti a",
-   "cb": "Eb3+Bb3e D3e Eb3+Bb3 D3+G3",
-   "lcb": "pre- _ sti a",
-   "rh": "Bb4+G5s G4s Bb4+F#5s F#4s Bb4+G5s G4s Bb4+G5s G4s B4+F5s G4s B4+F5s G4s",
-   "lh": "Eb2+Eb3e D2+D3e Eb2+Eb3 D2+D3",
-   "doubt": "Chant : liaison G5-F#5 (mélisme), bécarre sur F5. Ténors : 2e croche = F#5 seul ; 3e accord E sans altération = Eb (règle de la barre) ; bécarres sur B4 et F5. Basses : Bb3 est une noire (voix sup., hampe haut) tenue au-dessus des croches Eb3-D3 liées — simplifié en accords. MG : accents sur chaque accord."
-  },
-  {
-   "v": "Eb5h E5",
-   "ly": "men, o",
-   "ct": "C5+Eb5h C5+E5",
-   "lct": "pu- gnar",
-   "cb": "C3+G3h Bb3",
-   "lcb": "pu- gnar",
-   "rh": "C5+Eb5s G4s C5+Eb5s G4s C5+Eb5s G4s C5+Eb5s G4s C5+E5s G4s C5+E5s G4s",
-   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e Bb1+Bb2e Bb1+Bb2e",
-   "doubt": "Bécarre sur E5 (chant, ténors, MD 3e temps). MG : accents sur les croches."
-  },
-  {
-   "v": "F5e E5e F5 F#5",
-   "ly": "te- _ co al-",
-   "ct": "C5+F5e E5e C5+F5 C5+F#5",
-   "lct": "te- _ co, o",
-   "cb": "A3e Bb3e A3 Ab3+C4",
-   "lcb": "te- _ co, o",
-   "rh": "C5+F5s F4s C5+E5s E4s C5+F5s F4s C5+F5s F4s C5+F#5s F#4s C5+F#5s F#4s",
-   "lh": "A1+A2e Bb1+Bb2e A1+A2 Ab1+Ab2",
-   "doubt": "Liaisons F5-E5 (chant, ténors) et A3-Bb3 (basses) = mélismes. Bécarre sur A3 (basses). MG : accents."
-  },
-  {
-   "v": "G5hd",
-   "ly": "men",
-   "ct": "E5+G5hd",
-   "lct": "te-",
-   "cb": "G3+C4hd",
-   "lcb": "te-",
-   "rh": "C5+E5+G5d* G4d*",
-   "lh": "G1e C2e E2e G2e E2e C2e // G1hd",
-   "doubt": "MD : trémolo mesuré (3 barres) C5+E5+G5 / G4 (blanches pointées), noté en noires pointées *. MG : G1 blanche pointée accentuée (3 lignes suppl. sous la portée, tête sous la 3e), partagée avec la 1re croche."
-  },
-  {
-   "v": "G5 G5 G5",
-   "ly": "cor- ro‿a mo-",
-   "ct": "D5+G5h D5+G5",
-   "lct": "co‿a mo-",
-   "cb": "G3+B3h G3+B3",
-   "lcb": "co‿a mo-",
-   "rh": "D5+G5+B5d* B4d*",
-   "lh": "G1+G2 G1+G2 G1+G2",
-   "doubt": "Bécarre de précaution sur B3 (basses). MD : trémolo mesuré D5+G5+B5 / B4 (blanches pointées). MG : accents. Phrase continue page suivante (mesure complète)."
-  }
- ]
+"page": 7,
+"measures": [
+{
+"meter": "3/4",
+"v": "E5 E5 E5",
+"ly": "Ma- dre‿in- fe-",
+"ct": "E5 r red E5s",
+"lct": "mi! al-",
+"cb": "E3 r red E4s",
+"lcb": "mi! al-",
+"rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
+"lh": "E2+E3 r r",
+"doubt": "Page imprimée 45 (OK). Accents sur les 3 notes du chant, sur l'accord de croche MD et sur E2 MG. Pas de numéros de mesure imprimés. Aucune nuance/tempo imprimé sur la page."
+},
+{
+"v": "E5 E4e re r",
+"ly": "li- ce!",
+"ct": "E5 E4e re red E5s",
+"lct": "l'ar- mi! al-",
+"cb": "E4 E3e re red E4s",
+"lcb": "l'ar- mi! al-",
+"rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
+"lh": "gB2s gC#3s gD#3s E2+E3 r r",
+"doubt": "MG : 3 petites notes (B2 C#3 D#3, doubles croches liées) avant E2+E3 accentué."
+},
+{
+"v": "rhd",
+"ly": "",
+"ct": "E5 E4e re red E5s",
+"lct": "l'ar- mi! al-",
+"cb": "E4 E3e re red E4s",
+"lcb": "l'ar- mi! al-",
+"rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
+"lh": "gB2s gC#3s gD#3s E2+E3 r r"
+},
+{
+"v": "rhd",
+"ly": "",
+"ct": "E5e D#5e E5 F#5",
+"lct": "l'ar- mi, al- l'ar-",
+"cb": "E4e B3e E4 D4",
+"lcb": "l'ar- mi, al- l'ar-",
+"rh": "G5+B5+E6e F#5+B5+D#6e G5+B5+E6 A5+C6+D6+F#6",
+"lh": "gB2s gC#3s gD#3s E2+E3e B1+B2e E2+E3 D2+D3",
+"doubt": "Accents sur chaque accord MD et MG. Bécarre de précaution sur D4 (basses), sur D2/D3 (MG) et sur C6 (MD, dernier accord, C6 décalé à gauche)."
+},
+{
+"v": "G5 G5 G5",
+"ly": "Cor- ro‿a sal-",
+"ct": "G5 r r",
+"lct": "mi!",
+"cb": "G3 r r",
+"lcb": "mi!",
+"rh": "G5+B5+D6+G6e G4+G5s G4+G5s G4+G5e G4+G5e G4+G5e G4+G5e",
+"lh": "G2+G3 r r",
+"doubt": "Accent sur l'accord de croche MD et sur G2+G3 MG."
+},
+{
+"v": "Ab5hd",
+"ly": "var-",
+"ct": "Eb5+Ab5hd",
+"lct": "Ec-",
+"cb": "Ab3+C4hd",
+"lcb": "Ec-",
+"rh": "C5+Eb5+Ab5d* Ab4d*",
+"lh": "Ab1e C2e Eb2e Ab2e Eb2e C2e // Ab1hd",
+"doubt": "MD : trémolo mesuré (3 barres) entre l'accord C5+Eb5+Ab5 (blanche pointée) et Ab4 (blanche pointée) — noté en alternance de noires pointées *. MG : Ab1 blanche pointée accentuée, tête partagée avec la 1re croche de l'arpège."
+},
+{
+"v": "Ab5h Ab5",
+"ly": "ti, o",
+"ct": "Eb5+Ab5h Eb5+Ab5",
+"lct": "co- ne",
+"cb": "Ab3+C4h Ab3+C4",
+"lcb": "co- ne",
+"rh": "C5+Eb5+Ab5d* Ab4d*",
+"lh": "Ab1e C2e Eb2e Ab2e Eb2e C2e // Ab1hd",
+"doubt": "Chant 2e note (« o ») et 2e accord chœur/basses sans altération imprimée : Ab/Eb par la règle de la barre. MD trémolo comme mesure précédente."
+},
+{
+"v": "G5e F#5e G5 F5",
+"ly": "te- _ co al-",
+"ct": "Eb5+G5e F#5e Eb5+G5 B4+F5",
+"lct": "pre- _ sti a",
+"cb": "Eb3+Bb3e D3e Eb3+Bb3 D3+G3",
+"lcb": "pre- _ sti a",
+"rh": "Bb4+G5s G4s Bb4+F#5s F#4s Bb4+G5s G4s Bb4+G5s G4s B4+F5s G4s B4+F5s G4s",
+"lh": "Eb2+Eb3e D2+D3e Eb2+Eb3 D2+D3",
+"doubt": "Chant : liaison G5-F#5 (mélisme), bécarre sur F5. Ténors : 2e croche = F#5 seul ; 3e accord E sans altération = Eb (règle de la barre) ; bécarres sur B4 et F5. Basses : Bb3 est une noire (voix sup., hampe haut) tenue au-dessus des croches Eb3-D3 liées — simplifié en accords. MG : accents sur chaque accord."
+},
+{
+"v": "Eb5h E5",
+"ly": "men, o",
+"ct": "C5+Eb5h C5+E5",
+"lct": "pu- gnar",
+"cb": "C3+G3h Bb3",
+"lcb": "pu- gnar",
+"rh": "C5+Eb5s G4s C5+Eb5s G4s C5+Eb5s G4s C5+Eb5s G4s C5+E5s G4s C5+E5s G4s",
+"lh": "C2+C3e C2+C3e C2+C3e C2+C3e Bb1+Bb2e Bb1+Bb2e",
+"doubt": "Bécarre sur E5 (chant, ténors, MD 3e temps). MG : accents sur les croches."
+},
+{
+"v": "F5e E5e F5 F#5",
+"ly": "te- _ co al-",
+"ct": "C5+F5e E5e C5+F5 C5+F#5",
+"lct": "te- _ co, o",
+"cb": "A3e Bb3e A3 Ab3+C4",
+"lcb": "te- _ co, o",
+"rh": "C5+F5s F4s C5+E5s E4s C5+F5s F4s C5+F5s F4s C5+F#5s F#4s C5+F#5s F#4s",
+"lh": "A1+A2e Bb1+Bb2e A1+A2 Ab1+Ab2",
+"doubt": "Liaisons F5-E5 (chant, ténors) et A3-Bb3 (basses) = mélismes. Bécarre sur A3 (basses). MG : accents."
+},
+{
+"v": "G5hd",
+"ly": "men",
+"ct": "E5+G5hd",
+"lct": "te-",
+"cb": "G3+C4hd",
+"lcb": "te-",
+"rh": "C5+E5+G5d* G4d*",
+"lh": "G1e C2e E2e G2e E2e C2e // G1hd",
+"doubt": "MD : trémolo mesuré (3 barres) C5+E5+G5 / G4 (blanches pointées), noté en noires pointées *. MG : G1 blanche pointée accentuée (3 lignes suppl. sous la portée, tête sous la 3e), partagée avec la 1re croche."
+},
+{
+"v": "G5 G5 G5",
+"ly": "cor- ro‿a mo-",
+"ct": "D5+G5h D5+G5",
+"lct": "co‿a mo-",
+"cb": "G3+B3h G3+B3",
+"lcb": "co‿a mo-",
+"rh": "D5+G5+B5d* B4d*",
+"lh": "G1+G2 G1+G2 G1+G2",
+"doubt": "Bécarre de précaution sur B3 (basses). MD : trémolo mesuré D5+G5+B5 / B4 (blanches pointées). MG : accents. Phrase continue page suivante (mesure complète)."
+}
+]
 }
