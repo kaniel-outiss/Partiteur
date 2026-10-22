@@ -1,129 +1,129 @@
 {
- "page": 4,
- "measures": [
-  {
-   "meter": "4/4",
-   "v": "rh F3e G3e A3e Bb3e",
-   "ly": "fac- _ cia il",
-   "rh": "A5 F5 F5e G5e A5e Bb5e",
-   "lh": "A3 F3 F3e G3e A3e Bb3e",
-   "doubt": "Chant : liaison F3-G3 (mélisme sur « fac- »). Staccatos MD/MG."
-  },
-  {
-   "v": "C4 C4 C4 C4",
-   "ly": "no- stro ca- va-",
-   "rh": "C6 C6 C6e D6e C6e Bb5e",
-   "lh": "C4 C4 C4e D4e C4e Bb3e"
-  },
-  {
-   "v": "A3 F3 F3e G3e A3e Bb3e",
-   "ly": "lie- re, ca- _ va- _",
-   "rh": "A5 F5 F5e G5e A5e Bb5e",
-   "lh": "A3 F3 F3e G3e A3e Bb3e",
-   "doubt": "Chant : liaisons F3-G3 et A3-Bb3 (mélismes)."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "C4 C4 C4 C4",
-   "ly": "lie- ra‿an- co- ra",
-   "rh": "C6 C6 C6 C6",
-   "lh": "C4 C4 C4 C4"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "D3h Bb3d Bb3e",
-   "ly": "te, ca- va-",
-   "rh": "D5h D5+F5+G5+Bb5d D5+F5+G5+Bb5e",
-   "lh": "D3+D4h Bb2d Bb2e",
-   "doubt": "MD accords (temps 3-4) : F5 décalée à gauche (seconde avec G5) — lu D5+F5+G5+Bb5, à vérifier."
-  },
-  {
-   "v": "G3d G3e C4d C4e",
-   "ly": "lie- ra‿an- co- ra",
-   "rh": "C5+F5+G5d C5+F5+G5e C5+E5+C6d C5+E5+C6e",
-   "lh": "C3d C3e C3d C3e",
-   "doubt": "MD : 1er accord lu C5+F5+G5 (F5 décalée), 2e accord C5+E5+C6 — à vérifier. Paroles : « ra‿an » élision."
-  },
-  {
-   "v": "F3h r Eb3e Eb3e",
-   "ly": "te. Bric- co-",
-   "rh": "A4+F5 A3+F4 A3+C4+Eb4 r",
-   "lh": "F3 F2 F3 r",
-   "doubt": "MD : liaison A3+F4 → A3+C4+Eb4."
-  },
-  {
-   "v": "D3 D3 r E3e E3e",
-   "ly": "nac- cia, ma- lan-",
-   "rh": "r Bb3+D4 G3+Bb3+E4 r",
-   "lh": "r F2 F3 r",
-   "doubt": "Bécarre de précaution sur E3 (chant) et E4 (MD). MD : liaison."
-  },
-  {
-   "v": "F3 F3 r Eb3e Eb3e",
-   "ly": "dri- na, fo- sti‿o-",
-   "rh": "r A3+F4 A3+C4+Eb4 r",
-   "lh": "r F2 F3 r",
-   "doubt": "MD : liaison."
-  },
-  {
-   "v": "D3d D3e E3d E3e",
-   "ly": "gnor la mia ru-",
-   "rh": "r Bb3+D4 G3+Bb3+E4 G4+Bb4+E5",
-   "lh": "r F2 F3 F3",
-   "doubt": "Bécarre de précaution sur E3 (chant) et E4 (MD) après les Eb de la mesure précédente. MD : liaison."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "F3d F3e G3d G3e",
-   "ly": "i- na, fo- sti‿o-",
-   "rh": "A4+F5e F4e A4+F5e F4e E5+G5e G4e E5+G5e G4e",
-   "lh": "F2e F3e F2e F3e F2e F3e F2e F3e"
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "A3d A3e Bb3d Bb3e",
-   "ly": "gnor la mia ru-",
-   "rh": "F5+A5e A4e F5+A5e A4e G5+Bb5e Bb4e G5+Bb5e Bb4e",
-   "lh": "F2e F3e F2e F3e F2e F3e F2e F3e"
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "A3 F3 rh",
-   "ly": "i- na.",
-   "rh": "F5+A5 re C4e re F4e re A4e",
-   "lh": "F3 C3 F3 A3",
-   "doubt": "Staccatos MD/MG."
-  },
-  {
-   "v": "rh G3d A3e",
-   "ly": "Ven- go,",
-   "rh": "re C5e re A4e re G4e re C4e",
-   "lh": "C4 A3 E3+Bb3h // rh G3 C3",
-   "doubt": "Indication scénique : (a Leporello). LH : liaison d'expression de G3 (voix inf.) vers l'accord F3+A3 de la mesure suivante ; staccatos."
-  },
-  {
-   "v": "F3 F3 rh",
-   "ly": "ven- go!",
-   "rh": "re F4e re C4e re F4e re A4e",
-   "lh": "F3+A3 C3 F3 A3"
-  },
-  {
-   "v": "rh G3d A3e",
-   "ly": "Re- sta,",
-   "rh": "re C5e re A4e re G4e re C4e",
-   "lh": "C4 A3 E3+Bb3h // rh G3 C3",
-   "doubt": "Indication scénique : (a Zerlina). LH : liaison d'expression de G3 (voix inf.) vers l'accord F3+A3 de la mesure suivante ; staccatos. Phrase continue page suivante."
-  }
- ]
+"page": 4,
+"measures": [
+{
+"meter": "4/4",
+"v": "rh F3e G3e A3e Bb3e",
+"ly": "fac- _ cia il",
+"rh": "A5 F5 F5e G5e A5e Bb5e",
+"lh": "A3 F3 F3e G3e A3e Bb3e",
+"doubt": "Chant : liaison F3-G3 (mélisme sur « fac- »). Staccatos MD/MG."
+},
+{
+"v": "C4 C4 C4 C4",
+"ly": "no- stro ca- va-",
+"rh": "C6 C6 C6e D6e C6e Bb5e",
+"lh": "C4 C4 C4e D4e C4e Bb3e"
+},
+{
+"v": "A3 F3 F3e G3e A3e Bb3e",
+"ly": "lie- re, ca- _ va- _",
+"rh": "A5 F5 F5e G5e A5e Bb5e",
+"lh": "A3 F3 F3e G3e A3e Bb3e",
+"doubt": "Chant : liaisons F3-G3 et A3-Bb3 (mélismes)."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "C4 C4 C4 C4",
+"ly": "lie- ra‿an- co- ra",
+"rh": "C6 C6 C6 C6",
+"lh": "C4 C4 C4 C4"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "D3h Bb3d Bb3e",
+"ly": "te, ca- va-",
+"rh": "D5h D5+F5+G5+Bb5d D5+F5+G5+Bb5e",
+"lh": "D3+D4h Bb2d Bb2e",
+"doubt": "MD accords (temps 3-4) : F5 décalée à gauche (seconde avec G5) — lu D5+F5+G5+Bb5, à vérifier."
+},
+{
+"v": "G3d G3e C4d C4e",
+"ly": "lie- ra‿an- co- ra",
+"rh": "C5+F5+G5d C5+F5+G5e C5+E5+C6d C5+E5+C6e",
+"lh": "C3d C3e C3d C3e",
+"doubt": "MD : 1er accord lu C5+F5+G5 (F5 décalée), 2e accord C5+E5+C6 — à vérifier. Paroles : « ra‿an » élision."
+},
+{
+"v": "F3h r Eb3e Eb3e",
+"ly": "te. Bric- co-",
+"rh": "A4+F5 A3+F4 A3+C4+Eb4 r",
+"lh": "F3 F2 F3 r",
+"doubt": "MD : liaison A3+F4 → A3+C4+Eb4."
+},
+{
+"v": "D3 D3 r E3e E3e",
+"ly": "nac- cia, ma- lan-",
+"rh": "r Bb3+D4 G3+Bb3+E4 r",
+"lh": "r F2 F3 r",
+"doubt": "Bécarre de précaution sur E3 (chant) et E4 (MD). MD : liaison."
+},
+{
+"v": "F3 F3 r Eb3e Eb3e",
+"ly": "dri- na, fo- sti‿o-",
+"rh": "r A3+F4 A3+C4+Eb4 r",
+"lh": "r F2 F3 r",
+"doubt": "MD : liaison."
+},
+{
+"v": "D3d D3e E3d E3e",
+"ly": "gnor la mia ru-",
+"rh": "r Bb3+D4 G3+Bb3+E4 G4+Bb4+E5",
+"lh": "r F2 F3 F3",
+"doubt": "Bécarre de précaution sur E3 (chant) et E4 (MD) après les Eb de la mesure précédente. MD : liaison."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "F3d F3e G3d G3e",
+"ly": "i- na, fo- sti‿o-",
+"rh": "A4+F5e F4e A4+F5e F4e E5+G5e G4e E5+G5e G4e",
+"lh": "F2e F3e F2e F3e F2e F3e F2e F3e"
+},
+{
+"marks": [
+"f"
+],
+"v": "A3d A3e Bb3d Bb3e",
+"ly": "gnor la mia ru-",
+"rh": "F5+A5e A4e F5+A5e A4e G5+Bb5e Bb4e G5+Bb5e Bb4e",
+"lh": "F2e F3e F2e F3e F2e F3e F2e F3e"
+},
+{
+"marks": [
+"p"
+],
+"v": "A3 F3 rh",
+"ly": "i- na.",
+"rh": "F5+A5 re C4e re F4e re A4e",
+"lh": "F3 C3 F3 A3",
+"doubt": "Staccatos MD/MG."
+},
+{
+"v": "rh G3d A3e",
+"ly": "Ven- go,",
+"rh": "re C5e re A4e re G4e re C4e",
+"lh": "C4 A3 E3+Bb3h // rh G3 C3",
+"doubt": "Indication scénique : (a Leporello). LH : liaison d'expression de G3 (voix inf.) vers l'accord F3+A3 de la mesure suivante ; staccatos."
+},
+{
+"v": "F3 F3 rh",
+"ly": "ven- go!",
+"rh": "re F4e re C4e re F4e re A4e",
+"lh": "F3+A3 C3 F3 A3"
+},
+{
+"v": "rh G3d A3e",
+"ly": "Re- sta,",
+"rh": "re C5e re A4e re G4e re C4e",
+"lh": "C4 A3 E3+Bb3h // rh G3 C3",
+"doubt": "Indication scénique : (a Zerlina). LH : liaison d'expression de G3 (voix inf.) vers l'accord F3+A3 de la mesure suivante ; staccatos. Phrase continue page suivante."
+}
+]
 }
