@@ -1,0 +1,132 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Allegro",
+"marks": [
+"f",
+"<",
+">"
+],
+"v": "rw",
+"ly": "",
+"rh": "re C5e E5e A5e G5s3 A5s3 G5s3 E5e C5e A4e",
+"lh": "re C4e E4e A4e G4s3 A4s3 G4s3 E4e C4e A3e",
+"doubt": "Début de l'air (titre « Quando men vo », p. 152). Introduction piano seule, chant en pause. MG en clé de SOL, passage en clé de FA en fin de mesure. Groupe « 3 » : triolet de doubles (G-A-G) + croche E sous la même poutre simple (lu ainsi aux deux mains). Grande liaison sur toute la mesure."
+},
+{
+"marks": [
+"affrett.",
+"<",
+"mf",
+"pp"
+],
+"v": "rw",
+"ly": "",
+"rh": "G#4s3 A4s3 G#4s3 F#4e A4e E4e A#4e D#4e B4e re",
+"lh": "G#3s3 A3s3 G#3s3 F#3e A3e E3e A#3e D#3e B3e B2e",
+"doubt": "MG en clé de FA. Triolet de doubles + croche (même lecture qu'à la m. 1). Staccatos sur la plupart des notes ; accent > sous D#4/B4 de la MD. Dièse accidentel sur A (A#4, A#3)."
+},
+{
+"marks": [
+"rall."
+],
+"v": "rw",
+"ly": "",
+"rh": "rh B4e re r",
+"lh": "B1e re r rh",
+"doubt": "B4 et B1 staccato ; B1 sous deux lignes supplémentaires."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "B4e re r B4e re r",
+"lh": "rw",
+"doubt": "Double barre + changement de chiffrage 3/4 en fin de mesure. B4 staccato."
+},
+{
+"meter": "3/4",
+"tempo": "Tempo di Valse lento",
+"marks": [
+"con molta grazia ed eleganza",
+"p",
+"pp",
+">"
+],
+"v": "E5hd",
+"ly": "Quan-",
+"rh": "E5h re%6:4 E4s%6:4 G#4s%6:4 B4s%6:4 E5s%6:4",
+"lh": "E2e re G#3+B3+E4 r",
+"doubt": "♩ = 104 imprimé (non reporté). Entrée de MUSETTA. Sextolet : le « 6 » couvre le demi-soupir (2 unités) + 4 doubles → noté re%6:4 + 4 × s%6:4 ; accent > sur E4. p au chant, pp au piano, soufflet > sous la MD."
+},
+{
+"marks": [
+">"
+],
+"v": "D#5h D#5",
+"ly": "do men",
+"rh": "D#5h re%6:4 E4s%6:4 G#4s%6:4 B4s%6:4 D#5s%6:4",
+"lh": "G#1+G#2e re G#3+B3+E4 r",
+"doubt": "Même formule qu'à la mesure précédente. G#1 sous trois lignes supplémentaires."
+},
+{
+"marks": [
+">"
+],
+"v": "C#5hd~",
+"ly": "vo,",
+"rh": "C#5hd // re E4e~ E4 F#4e G#4e",
+"lh": "A1+A2e re E3+A3+C#4 G#3e re",
+"doubt": "Voix inférieure MD : l'arc entre la croche E4 et la noire E4 est lu comme une liaison de prolongation (pourrait être un simple phrasé). C#5 du chant lié à la 1re croche de la m. suivante (prolongement « vo, ____ »)."
+},
+{
+"marks": [
+"quasi rit."
+],
+"v": "C#5e C#5e D#5e gF#5 E5e D#5e C#5e",
+"ly": "quan- do men vo so-",
+"rh": "A4+C#5e C#5e D#5e gF#5 E5e D#5e C#5e",
+"lh": "F#3e re r F#3+A3+E4e re",
+"doubt": "Petite note barrée (acciaccatura) avant E5, tête sur la 5e ligne → F#5 (lecture fine). 1re croche du chant = note liée (pas de syllabe)."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "E5e A4e A4 A4",
+"ly": "let- ta per la",
+"rh": "E5e A4e A4e re A4~",
+"lh": "B1+B2e re r F#3+C#4+E4e re",
+"doubt": "MD : A4 croche staccato ; noire A4 avec tenuto, arc vers la 1re note de la m. suivante lu comme liaison (même hauteur). Accord MG : F#3 + C#4 + E4 (têtes sur les 1re et 2e lignes supplémentaires), staccato."
+},
+{
+"marks": [
+"quasi rit."
+],
+"v": "A4e B4e C#5e gE5 D#5e C#5e B4e",
+"ly": "via la gen- te so- sta‿e",
+"rh": "A4e B4e C#5e gE5 D#5e C#5e B4e",
+"lh": "F#2+F#3e re r A3+B3+D#4e re",
+"doubt": "Respiration (,) en début de mesure au chant ; tenutos sur les croches. Petite note E5 avant D#5 (chant et MD). Accord MG : A3 décalé à gauche (seconde avec B3)."
+},
+{
+"marks": [
+"a tempo",
+">"
+],
+"v": "D#5e G#4e G#4h",
+"ly": "mi- ra... _",
+"rh": "gB4 D#5e F#4+G#4e E4+G#4 D#4+G#4",
+"lh": "E2+E3e re r G#3+B3e re",
+"doubt": "Chant : liaison de phrasé D#5→G#4, pas de liaison visible entre G#4 croche et G#4 blanche → blanche notée « _ » (mélisme). Petite note MD lue B4 (sur la 3e ligne). F#4+G#4 en seconde (têtes côte à côte)."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C#4+G#4e B3e C#4e E4e G#4e B4e // re B3 re r",
+"lh": "B1+B2e re r G#3+B3+E4e re",
+"doubt": "Pause au chant (notée rhd). MD : B3 commun aux deux voix (hampe haut + hampe bas). Fin de la p. 152 ; la mesure n'est pas coupée."
+}
+]
+}

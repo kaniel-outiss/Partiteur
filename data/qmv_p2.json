@@ -1,0 +1,143 @@
+{
+"page": 2,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+">"
+],
+"v": "E5 E5 E5",
+"ly": "e la bel-",
+"rh": "E5h re%6:4 E4s%6:4 G#4s%6:4 B4s%6:4 E5s%6:4",
+"lh": "E2e re G#3+B3+E4 r",
+"doubt": "Page imprimée 153 (ordre OK). Reprise de la formule de la p. 152 m. 5. Liaison de phrasé arrivant de la page précédente à la MD."
+},
+{
+"marks": [
+">"
+],
+"v": "D#5h D#5",
+"ly": "lez- za",
+"rh": "D#5h re%6:4 E4s%6:4 G#4s%6:4 B4s%6:4 D#5s%6:4",
+"lh": "G#1+G#2e re G#3+B3+E4 r"
+},
+{
+"marks": [
+">"
+],
+"v": "C#5h C#5~",
+"ly": "mi- a",
+"rh": "C#5hd // re E4e~ E4 F#4e G#4e",
+"lh": "A1+A2e re E3+A3+C#4 G#1+G#2e re",
+"doubt": "C#5 noire liée à la 1re croche de la mesure suivante (« a ______ »). MD voix inf. : arc E4 croche → E4 noire lu comme liaison."
+},
+{
+"marks": [
+"appena allarg.",
+"col canto"
+],
+"v": "C#5e C#5e D#5e gF#5 E5e D#5e C#5e",
+"ly": "tut- ta ri- cer- ca‿in",
+"rh": "A4+C#5e C#5e D#5e gF#5 E5e D#5e C#5e",
+"lh": "F#1+F#2e re r F#3+A3+E4e re",
+"doubt": "Respiration (,) au chant après la 1re croche. Petite note barrée lue F#5 (5e ligne). Portée légèrement inclinée en bord de page : hauteurs recoupées sur la p. 152 m. 8."
+},
+{
+"marks": [
+"a tempo",
+"(sottolineando)"
+],
+"v": "B5e G#5e gF#5 gG#5 F#5e E5e C#5e G#4e",
+"ly": "me, _ _ ri- cer- ca‿in",
+"rh": "B5e G#5e F#5e E5e C#5e G#4e~ // B4+E5e! re G#4+C#5e! re E4+G#4e! re",
+"lh": "G#1+G#2e re C#2+C#3e re A1+A2e re",
+"doubt": "Chant : deux petites notes (F#5, G#5) avant F#5 ; respiration (,) avant E5 ; « a tempo » au-dessus de E5. MD : accords arpégés (voix inf., croches séparées par des demi-soupirs). G#4 final lié au G#4 de la m. suivante."
+},
+{
+"v": "G#4e B4e B4 F#4e G#4e",
+"ly": "me da ca- po a",
+"rh": "G#4e B4e~ B4 A3+C#4+F#4e B3+D#4+G#4e // B3+E4h r",
+"lh": "B1+B2e re r B2e re",
+"doubt": "MD : arc court B4 croche → B4 noire lu comme liaison (le chant re-articule). Voix inf. : blanche B3+E4 (têtes creuses) sur la même hampe que G#4 ; la blanche n'est suivie d'aucun silence imprimé (r ajouté pour le 3e temps). Accords du 3e temps staccato."
+},
+{
+"marks": [
+"f"
+],
+"v": "E4 r r",
+"ly": "piè.",
+"rh": "E4e re A3+C#4+E4e rs B3s B3s B3s B3s B3s",
+"lh": "E2e re r B1+B2e re",
+"doubt": "E4 staccato ; accord A3+C#4+E4 avec accent > et f."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "rhd",
+"ly": "",
+"rh": "E3ed E3s E3e re r",
+"lh": "E1+E2e re re E3e E3s E3s E3s E3s",
+"doubt": "MD en clé de SOL, E3 sous trois lignes supplémentaires. « a tempo » imprimé sous la MG. Annotations au crayon ignorées."
+},
+{
+"marks": [
+"p",
+"rit. molto"
+],
+"v": "re E4e F#4 G#4",
+"ly": "Ed as- sa-",
+"rh": "re E4e F#4 G#4~ // re C#4+E4e~ C#4+E4h~",
+"lh": "re E3e F#3 G#3~ // A2hd",
+"doubt": "MD : l'accord C#4+E4 croche (hampe haut et bas) est lié à la blanche C#4+E4 (têtes creuses) puis à la m. suivante ; E4 croche répété dans les deux voix (tête commune). G#4 / G#3 liés à la mesure suivante."
+},
+{
+"marks": [
+"<"
+],
+"v": "G#4e A4e A4e F#4e G#4e A4e",
+"ly": "po- ro‿al- lor la bra- mo-",
+"rh": "G#4e A4 F#4e G#4e A4e // C#4+E4hd",
+"lh": "G#3e A3 F#3e G#3e A3e // E2e re r r"
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "gG#4 gA4 G#4e F#4e E4e F#4e G#4e A4e",
+"ly": "sia sot- til, _ che da",
+"rh": "gG#4 gA4 G#4e F#4e E4e F#4e G#4e A4e // D4hd~",
+"lh": "G#3e F#3e E3h~ // B2e re r r",
+"doubt": "Deux petites notes (G#4, A4) au chant et à la MD. MD voix inf. : bécarre → D♮4 blanche pointée, liée à la m. suivante. Respiration (,) au crayon avant « che » : non reportée (annotation manuscrite probable)."
+},
+{
+"marks": [
+"molto rall.",
+"stent.",
+">"
+],
+"v": "B4e C#5e D5e E5e E#5e F#5e",
+"ly": "gl'oc- _ chi tra- spi- ra;",
+"rh": "B4e C#5e D5~ D5e re // D4~ D4e re r",
+"lh": "E3~ E3e re E3+G#3+D4e re // E2e re r r",
+"doubt": "Chant : D♮5 (bécarre), E#5 (dièse) ; tenutos ; liaison B4-C#5 (« gl'oc- » mélisme). MD voix inf. : D♮4 lié depuis la m. précédente puis à la croche ; aucun silence imprimé pour le 3e temps (re ajouté). MG voix inf. : silence du 3e temps absent (r ajouté). Accord MG E3+G#3+D♮4 (bécarre)."
+},
+{
+"marks": [
+"rit."
+],
+"v": "re E4e F#4 G#4",
+"ly": "e dai pa-",
+"rh": "re E4e F#4 G#4~ // re C#4+E4e~ C#4+E4h~",
+"lh": "re E3e F#3 G#3~ // A2hd",
+"doubt": "Même écriture que la m. 9 de cette page."
+},
+{
+"v": "G#4e A4e A4e F#4e G#4e A4e",
+"ly": "le- si vez- zi‿in- ten- der",
+"rh": "G#4e A4 D#4+F#4e E4+G#4e F#4+A4e // C#4+E4d re r",
+"lh": "G#3e A3~ A3e C#4 // F#2e re r r",
+"doubt": "MD voix inf. : C#4+E4 noire pointée (têtes pleines + point) puis demi-soupir et soupir. Fin de la p. 153 ; la phrase continue p. 154 (mesure non coupée)."
+}
+]
+}

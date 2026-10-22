@@ -1,0 +1,124 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"a tempo",
+"f",
+"p"
+],
+"v": "gG#4 gA4 G#4e F#4e E4 G#4e A4e",
+"ly": "sa _ _ al- le‿oc-",
+"rh": "gE4+gG#4 gF#4+gA4 E4+G#4e D#4+F#4e C#4+E4e E4+G#4e G#4e A4e // rh C#5e re",
+"lh": "C#2+C#3e re re G#3+C#4e C#4+E4e re",
+"doubt": "Page imprimée 154. Mesure 1 de la page = suite d'un mélisme commencé p.153 («sa»). Petites notes MD (accords gE4+G#4, gF#4+A4) peu lisibles ; 4e accord MD (E4+G#4 ?) empâté ; C#5 croche hampe en bas sous la ligature (2e voix) — position rythmique supposée temps 3 ; accents sur les 4e et 6e croches MD et sur les accords MG."
+},
+{
+"marks": [
+"poco rall."
+],
+"v": "B4 C#5e F#5e E5",
+"ly": "cul- te bel- tà.",
+"rh": "B4 C#5e F#5e E5 // E4+F#4e re D#4+A4e! re E4+G#4e! re",
+"lh": "B3e re B1+B2e re E2+E3e E1+E2e",
+"doubt": "Soufflet (cresc./decresc.) au-dessus du chant fin de mesure. MG : les 4 notes sont sous une même ligature avec silences intercalés."
+},
+{
+"marks": [
+"(alzandosi)",
+"a tempo",
+"p",
+"pp"
+],
+"v": "re E5e F#5 C#5",
+"ly": "Co- sì l'ef-",
+"rh": "re E4+E5e F#4+F#5 G#4+G#5",
+"lh": "re C#4e~ C#4h~ // A2e E3e F#3 G#3",
+"doubt": "MD : G#4 lié vers la mesure suivante (liaison non codée dans l'accord) ; tenuto sur F#4+F#5 et G#4+G#5. MG voix basse : tenuto sur F#3 et G#3."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "C#5d C#5e gC#5 B4e A4e",
+"ly": "flu- vio del de-",
+"rh": "G#4+G#5e A4+A5 F#4+F#5e G#4+G#5e A4+A5e",
+"lh": "C#4hd // E2e A3 F#3e G#3e A3e",
+"doubt": "tenuto sur A4+A5. Petite note du chant lue C#5."
+},
+{
+"marks": [],
+"v": "D5h E4",
+"ly": "sì- o",
+"rh": "gG#5 gA5 G#4+G#5e F#4+F#5e E4+E5e F#4+F#5e G#4+G#5e A4+A5e",
+"lh": "D4hd // gD#3 G#3e F#3e E3h~",
+"doubt": "D5 et D4 avec bécarre. MD : 2 petites notes avant la ligature (lues G#5 A5, cf. m.1). MG : petite note (D#3 ?) peu lisible ; E3h lié à la mesure suivante ; D4hd lié/lié de phrasé vers m.6."
+},
+{
+"marks": [
+"rit. molto",
+"(corta)"
+],
+"v": "re C#5e D5e E5e E#5e F#5e^",
+"ly": "tut- ta m'ag- gi- ra;",
+"rh": "B4+B5e C#5+C#6e D5+D6e E5+E6e E#5+E#6e F#5+F#6e^",
+"lh": "E3+D#4 E3+D#4e re D3+G#3+D4e re^ // E2e re rh",
+"doubt": "Tenuto sur D, E, E# (chant et MD) ; D5/D6 bécarre. MG accord du 3e temps : bécarres sur D3 et D4, amas de notes (G#3 ? F#3 ?) illisible. Point d'orgue sur le silence final MG."
+},
+{
+"marks": [
+"a tempo",
+"espansivo",
+"f"
+],
+"v": "re G5e F#5 E5",
+"ly": "fe- li- ce",
+"rh": "re G4t B4t D5t G5t F#5 E5 // r G4+B4h",
+"lh": "D2+D3e re r G3+B3+C#4+E4e! re",
+"doubt": "G5/G4/D5 bécarres (chant et MD). Soufflet sous la MD. Groupe MD à 3 barres (triples croches) d'après la mesure 9. MG : accord arpégé, bécarre lu sur G3 (peut-être F3)."
+},
+{
+"marks": [],
+"v": "re F#5e E5 D5",
+"ly": "mi fa, _",
+"rh": "re F#4t A#4t C#5t F#5t F#4+A4+E5 D4+F#4+B4+D5",
+"lh": "C#2+C#3e re F#1+F#2e re B1+B2e re",
+"doubt": "D5 bécarre (chant et MD, D4 aussi). Accord final MD : notes intermédiaires (F#4 ? G#4 ?) incertaines. Soufflet sous la MD."
+},
+{
+"marks": [
+"rall.",
+"p"
+],
+"v": "re D5e C#5 B4",
+"ly": "fe- li- ce",
+"rh": "re F#4t G#4t B4t D5t E4+C#5 D4+B4 // r G#4h",
+"lh": "E2h E3e re",
+"doubt": "D5 bécarre (chant et MD), D4 bécarre MD ; dièse de précaution sur G#4. Soufflet sous la MD."
+},
+{
+"meter": "4/4",
+"marks": [
+"morendo"
+],
+"v": "re C#5e gC#5 B4 A4 r^",
+"ly": "mi fa! _",
+"rh": "re E4t F#4t G#4t C#5t D4+E4+B4 C#4+E4+A4e re^ r",
+"lh": "A1h A2e3 re3^ A3e3 A3e3 C#3e3 D#3e3",
+"doubt": "Mesure en C. Points d'orgue entre parenthèses (chant : soupir ; MD : demi-soupir ; MG : demi-soupir du triolet). D4 bécarre MD."
+},
+{
+"meter": "3/4",
+"marks": [
+"a tempo",
+"pp"
+],
+"v": "E5hd",
+"ly": "E",
+"rh": "E5+E6h re%6:4 E5s%6:4 G#5s%6:4 B5s%6:4 E6s%6:4",
+"lh": "E2+E3e re G#3+B3+E43 E3e3 E3e3 F#3e3 G#3e3",
+"doubt": "Sextolet MD (demi-soupir + 4 doubles croches sous «6»), accent sur E5. MG : triolet noire+croche puis triolet de croches. E6 MD (lignes supplémentaires) à vérifier. Mélisme «E ___» continue p.155."
+}
+]
+}
