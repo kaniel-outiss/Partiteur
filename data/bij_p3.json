@@ -1,0 +1,78 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"ks": 0,
+"v": "rw",
+"ly": "",
+"rh": "B4s D#5s F#5s E5s D#5s A5s G5s F#5s E5s C6s B5s A5s G5s E6s D6s C6s",
+"lh": "B2+D#3* F#3* B2+E3* G3*",
+"doubt": "p.90 imprimée (page 3 = p-090). Pas d'armure imprimée sur cette page (ut majeur, ks 0) — le guide annonce mi majeur, qui n'arrive qu'à la p.91. Pas de portée de chant sur ce système → chant = silence. LH : trémolos alternés (3 barres) accord en blanche ↔ note en blanche, valeur réelle une blanche par paire, codé noire*+noire* ; liaisons d'expression non codées. RH : staccatos sur toutes les doubles croches ; bécarre de précaution sur D6."
+},
+{
+"marks": [
+"f"
+],
+"v": "rw",
+"ly": "",
+"rh": "B5s A#5s C#6s A#5s B5s F#5s D#5s F#5s B4s A#4s C#5s A#4s B4s F#4s D#4s F#4s",
+"lh": "B2+D#3+F#3e re r B3s A#3s C#4s A#3s B3s F#3s D#3s F#3s",
+"doubt": "Staccatos sur les doubles croches (RH et LH)."
+},
+{
+"marks": [
+"dim.",
+"p"
+],
+"v": "rw",
+"ly": "",
+"rh": "B3s A#3s C#4s A#3s B3s A#3s C#4s A#3s B3s A#3s B3s A#3s B3s A#3s B3s A#3s",
+"lh": "B2e re r rh",
+"doubt": "dim. sous le 1er temps, p sous le 3e temps. Staccatos RH."
+},
+{
+"marks": [
+"pp"
+],
+"v": "r re B4s B4s D5 re G4s G4s",
+"ly": "Si j'o- sais seu- le-",
+"rh": "B3s D4s F#4s G4s B4e re D4s F#4s G4s B4s D5e re",
+"lh": "G2+D3+G3e re r B2+G3e re r",
+"doubt": "Staccatos RH."
+},
+{
+"v": "C5e re C5e C5e C5 D5e A4e",
+"ly": "ment me pa- rer un mo-",
+"rh": "C4s E4s G#4s A4s C5s E5s A5s G5s F#5s D5s C5s A4s G#4s E4s D4s C4s",
+"lh": "A2+E3+G3e re r D3+F#3e re r",
+"doubt": "RH : bécarre imprimé sur G5 (4e double croche du 2e temps) ; dièse réimprimé sur G#4 au 4e temps. LH 1er accord lu A2+E3+G3 (sol naturel contre G#4 à la RH) — à vérifier. Staccatos RH."
+},
+{
+"v": "B4d B4e C#5e C#5e B4e A4e",
+"ly": "ment de ces pen- dants d'o-",
+"rh": "B3s D4s F#4s A4s G4s B4s E5s D5s C#5s D5s E5s F#5s G5s A5s B5s C#6s",
+"lh": "G2+D3+G3e re r A2+E3+G3h",
+"doubt": "LH : la blanche A2+E3+G3 porte des arcs (au-dessus et au-dessous) vers la mesure suivante, mais l'accord suivant (D3+F#3) diffère → lus comme liaisons d'expression, pas de ~. Staccatos RH."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "A4 D5 rh",
+"ly": "reil- le!",
+"rh": "D6s A5s F#5s A5s D5s A4s F#4s A4s D4s C#4s D4s C#4s D4s D#4s E4s E#4s",
+"lh": "D3+F#3e re r D3s C#3s D3s C#3s D3s D#3s E3s E#3s",
+"doubt": "Fin de montée chromatique D-D#-E-E# (RH et LH), E#4/E#3 imprimés avec dièse. cresc. sous la 2e moitié avec soufflet. Staccatos."
+},
+{
+"marks": [
+"f"
+],
+"v": "r F#5 red F#4s F#4e F#4s G#4s",
+"ly": "Ah! Voi- ci jus- te-",
+"rh": "F#4h~ F#4e re r",
+"lh": "F#3e re r rh"
+}
+]
+}

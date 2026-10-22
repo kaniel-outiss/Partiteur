@@ -1,0 +1,142 @@
+{
+"page": 4,
+"measures": [
+{
+"meter": "4/4",
+"ks": 0,
+"v": "A#4e rs A#4s A#4s A#4s B4s C#5s C#5e F#4e re C#5s D#5s",
+"ly": "ment, au fond de la cas- set- te, un mi-",
+"rh": "rw",
+"lh": "rw",
+"doubt": "p.91 imprimée (page 4 = p-091). Encore en ut (ks 0) jusqu'à la double barre. Chant : C#5 du 3e temps sans dièse imprimé (dièse du 2e temps valable)."
+},
+{
+"marks": [
+"f"
+],
+"v": "B4 red B4s F#5 A4s A4s C#5s B4s",
+"ly": "roir! Com- ment n'ê- tre pas co-",
+"rh": "r B4+F#5+B5e re rh",
+"lh": "r D#2+D#3e re rh",
+"doubt": "Chant : bécarre imprimé sur A4 (n'ê-)."
+},
+{
+"v": "A4 G#4e re r re E5e",
+"ly": "quet- te? Com-",
+"rh": "r B4+E5+G#5e re E5+G#5+B5e re G#5+B5+E6e re",
+"lh": "r B2+B3e re G#2+G#3e re E2+E3e re"
+},
+{
+"marks": [
+"pp"
+],
+"v": "E5h E4e D#4e F#4e E4e",
+"ly": "ment n'ê- tre pas co-",
+"rh": "r A#3hd",
+"lh": "r C#3+E3hd",
+"doubt": "Double barre en fin de mesure, puis armure 4 dièses et 3/4."
+},
+{
+"meter": "3/4",
+"ks": 4,
+"marks": [
+"Allegretto (𝅗𝅥. = 50)",
+"leggero"
+],
+"v": "C#5 B4 r",
+"ly": "quet- te?",
+"rh": "B3d D#4e F#4e B4e",
+"lh": "B2e B2e B2e B2e B2e B2e",
+"doubt": "Mesure imprimée 3/4 (et non 3/8) ; tempo imprimé « blanche pointée = 50 » (le guide annonçait ♩. = 58). RH : liaison B3→D#4. Staccatos sur F#4/B4."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C#5e B4e A4e F#4e C#4e D#4e",
+"lh": "B2+A3e B3e B2+A3e B3e B2+A3e B3e",
+"doubt": "Staccatos RH."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "E4d G#4e B4e E5e",
+"lh": "B2+G#3e B3e B2+G#3e B3e B2+G#3e B3e",
+"doubt": "RH : liaison E4→G#4 ; staccatos."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "rhd",
+"ly": "",
+"rh": "G#5e F#5e E5e C#5e G#4e A#4e",
+"lh": "B2+E3e F#3e B2+E3e F#3e B2+E3e F#3e",
+"doubt": "Staccatos RH."
+},
+{
+"marks": [
+"poco"
+],
+"v": "rhd",
+"ly": "",
+"rh": "B4d D#5e F#5e B5e",
+"lh": "B2+D#3e F#3e B2+D#3e F#3e B2+D#3e F#3e",
+"doubt": "« poco a poco » réparti m.17-19 (poco / a / poco). RH : liaison B4→D#5 ; staccatos."
+},
+{
+"marks": [
+"a"
+],
+"v": "rhd",
+"ly": "",
+"rh": "C#6e B5e A5e F#5e C#5e D#5e",
+"lh": "B2+A3e B3e B2+A3e B3e B2+A3e B3e",
+"doubt": "Bécarres de précaution imprimés sur A5 (RH) et A3 (LH). Staccatos."
+},
+{
+"marks": [
+"poco"
+],
+"v": "rhd",
+"ly": "",
+"rh": "E5d G#5e B5e E6e",
+"lh": "B2+G#3e B3e B2+G#3e B3e B2+G#3e B3e",
+"doubt": "RH : liaison E5→G#5 ; staccatos."
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G#6e F#6e E6e C#6e G#5e A#5e",
+"lh": "B2+E3e F#3e B2+E3e F#3e B2+E3e F#3e",
+"doubt": "Staccatos RH ; aucune nuance imprimée (le crescendo continue)."
+},
+{
+"marks": [
+"f",
+"tr"
+],
+"v": "B4hd~",
+"ly": "Ah!",
+"rh": "B5e re r r",
+"lh": "B2+D#3+F#3e re r r",
+"doubt": "Trille avec ligne ondulée continue sur les blanches pointées liées B4 (m.21-23 et au-delà)."
+},
+{
+"marks": [
+"dim."
+],
+"v": "B4hd~",
+"ly": "",
+"rh": "F#4+A4hd",
+"lh": "rhd",
+"doubt": "Bécarre imprimé sur A4 ; trille continue."
+},
+{
+"v": "B4hd~",
+"ly": "",
+"rh": "E4+G#4hd",
+"lh": "rhd",
+"doubt": "Liaison B4 et ligne de trille se poursuivent sur la page suivante."
+}
+]
+}
