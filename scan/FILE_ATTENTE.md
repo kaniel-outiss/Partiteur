@@ -21,8 +21,8 @@
 18. ✅ (0.56) Tu che di gel sei cinta — sop_arias.pdf
 19. ✅ (0.57) Batti, batti — sop_arias.pdf
 20. ✅ (0.57) Vedrai, carino — sop_arias.pdf
-21. Voi che sapete — nozze.pdf (Nr. 12)
-22. Non so più cosa son — nozze.pdf (Nr. 6)
+21. ✅ (0.58) Voi che sapete — nozze.pdf (Nr. 12)
+22. ✅ (0.58) Non so più cosa son — nozze.pdf (Nr. 6)
 23. I know that my Redeemer liveth — messiah.pdf (nº 45)
 24. Rejoice greatly — messiah.pdf (nº 18)
 25. He shall feed His flock — messiah.pdf (nº 20)
