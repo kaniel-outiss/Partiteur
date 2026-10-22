@@ -1,0 +1,88 @@
+{
+"lang": "it",
+"ctx": "Manon Lescaut (Puccini, livret collectif dont Illica, Giacosa, Praga et Oliva, 1893), acte I. Amiens, devant une auberge. Le jeune étudiant Des Grieux vient de voir descendre de la diligence une jeune fille, Manon Lescaut, que son frère conduit au couvent. Il l'aborde, apprend son nom, et lui promet de la revoir. Resté seul, il s'abandonne à l'éblouissement du coup de foudre : il n'a jamais vu de femme semblable, et le nom de Manon résonne en lui comme un murmure qu'il voudrait sans fin.",
+"diction": [
+"Legato puccinien : longues phrases portées par le souffle, sans coupure entre les mots.",
+"« Donna » [ˈdɔnna] avec double n ; « questa » [ˈkwesta] ; « desta » : le s sonne [s] devant t.",
+"« Manon Lescaut » prononcé à la française par Des Grieux : [maˈnɔn lesˈko].",
+"Doubles consonnes : « sussurro » [susˈsurro], « carezzare » [karetˈtsaːre], « cessar » [tʃesˈsar].",
+"Montées vers le si♭ : ouvertes et rondes (« deh! non cessar! »), con anima mais sans forcer ; respecter les dolcissimo."
+],
+"lines": [
+{
+"key": "donna non",
+"it": "Donna non vidi mai simile a questa! A dirle: io t'amo, a nuova vita l'alma mia si desta.",
+"ipa": "ˈdɔnna non ˈviːdi mai ˈsiːmile a ˈkwesta a ˈdirle ˈiːo ˈtaːmo a ˈnwɔːva ˈviːta ˈlalma ˈmiːa si ˈdesta",
+"w": [
+[
+"Donna non vidi mai",
+"je n'ai jamais vu de femme"
+],
+[
+"simile a questa",
+"semblable à celle-ci"
+],
+[
+"A dirle: io t'amo",
+"à lui dire : je t'aime"
+],
+[
+"a nuova vita",
+"à une vie nouvelle"
+],
+[
+"l'alma mia si desta",
+"mon âme s'éveille"
+]
+],
+"fr": "Je n'ai jamais vu de femme pareille à celle-ci ! À l'idée de lui dire « je t'aime », mon âme s'éveille à une vie nouvelle."
+},
+{
+"key": "manon lescaut",
+"it": "«Manon Lescaut mi chiamo!» Come queste parole profumate mi vagan nello spirto e ascose fibre vanno a carezzare.",
+"ipa": "maˈnɔn lesˈko mi ˈkjaːmo ˈkoːme ˈkweste paˈrɔːle profuˈmaːte mi ˈvaːɡan ˈnello ˈspirto e asˈkoːze ˈfiːbre ˈvanno a karetˈtsaːre",
+"w": [
+[
+"Manon Lescaut mi chiamo",
+"je m'appelle Manon Lescaut"
+],
+[
+"queste parole profumate",
+"ces paroles parfumées"
+],
+[
+"mi vagan nello spirto",
+"errent dans mon esprit"
+],
+[
+"ascose fibre",
+"des fibres cachées"
+],
+[
+"vanno a carezzare",
+"viennent caresser"
+]
+],
+"fr": "« Je m'appelle Manon Lescaut ! » Comme ces paroles parfumées errent dans mon esprit et viennent caresser les fibres secrètes de mon être !"
+},
+{
+"key": "o sussurro",
+"it": "O sussurro gentil, deh! non cessar!",
+"ipa": "o susˈsurro dʒenˈtil dɛ non tʃesˈsar",
+"w": [
+[
+"O sussurro gentil",
+"ô doux murmure"
+],
+[
+"deh! non cessar!",
+"ah, ne cesse pas !"
+]
+],
+"fr": "Ô doux murmure, ah ! ne cesse pas !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
