@@ -1,0 +1,93 @@
+{
+"page": 5,
+"measures": [
+{
+"meter": "3/4",
+"ks": -6,
+"marks": [
+"Andante come prima",
+"con forza",
+"con molto passione",
+"ff"
+],
+"v": "Gb5~ Gb5e Eb5e Gb5e Eb5e",
+"ly": "ri- re‿al pri- mo‿in",
+"rh": "Gb5~ Gb5e Eb5e Gb5e Eb5e // re Bb4+Db5e~ Bb4+Db5d re",
+"lh": "Gb4~ Gb4e Eb4e Gb4e Eb4e",
+"doubt": "Page imprimée 164 ; 1re mesure = suite de « mo-ri-re » (p. 163). Accent > sur la 1re note du chant, accents ^ et tenutos au piano. Liaison 1re→2e note (même hauteur) lue comme liaison de prolongation."
+},
+{
+"marks": [
+">"
+],
+"v": "F5 F5e re re Db5e",
+"ly": "con- tro. Ed",
+"rh": "F5~ F5e Db5s Eb5s F5e Db5e // re Ab4+Db5e~ Ab4+Db5d re",
+"lh": "F4~ F4e Db4s Eb4s F4e Db4e",
+"doubt": "Soufflet > sous la MD."
+},
+{
+"marks": [
+"p"
+],
+"v": "Eb5s Eb5s Eb5s Eb5s Eb5e Bb4e Eb5e Bb4e",
+"ly": "e- gli‿al- quan- to‿in pe- na chia- me-",
+"rh": "Eb5~ Eb5e Bb4e Eb5e Bb4e // re Gb4+Bb4 Gb4+Bb4 re",
+"lh": "Eb4~ Eb4e Bb3e Eb4e Bb3e"
+},
+{
+"marks": [
+"rit.",
+"<",
+">"
+],
+"v": "Db5e Db5s Db5s Db5 Eb5e Db5e",
+"ly": "rà, chia- me- rà: _ Pic-",
+"rh": "Db5h Eb5e Db5e // re F4+Ab4 F4+Ab4 re",
+"lh": "Db4h Eb4e Db4e",
+"doubt": "Signe de respiration (,) après la 1re croche du chant. Tenutos sur les croches MD/MG."
+},
+{
+"marks": [
+"[a tempo]",
+"pp",
+"<"
+],
+"v": "Ab4s Ab4s Ab4s Ab4s Ab4e F4s Gb4s Ab4s Ab4s F4s F4s",
+"ly": "ci- na mo- gliet- ti- na, o- lez- zo di ver-",
+"rh": "Ab4~ Ab4e F4s Gb4s Ab4e F4e // re C4+Eb4e~ C4+Eb4h",
+"lh": "Ab3~ Ab3e F3s Gb3s Ab3e F3e",
+"doubt": "Signe de respiration (,) après « na, » (avant « o-lez-zo »)."
+},
+{
+"marks": [
+">"
+],
+"v": "Bb4 Bb4 re Gb4e",
+"ly": "be- na, i",
+"rh": "Bb4h Ab4e Gb4e // re Db4+F4 Db4+F4 re",
+"lh": "Bb3h Ab3e Gb3e"
+},
+{
+"marks": [
+"<",
+"r.h."
+],
+"v": "Db4s Db4s Db4s Db4s Db4e Db4s Eb4s F4e Db4e",
+"ly": "no- mi che mi da- va al suo ve-",
+"rh": "Db4~ Db4e Db4s Eb4s F4e Db4e // rh Db4e C4e",
+"lh": "Db3 Bb2 gAb1 Ab2 // Db3hd // re F3+C4 F3+C4e~ F3",
+"doubt": "Mesure dense : à la MG, voix de ténor (F3+C4) marquée « r.h. », reliée par un trait pointillé à la voix inférieure de la MD (Db4 C4 au 3e temps) ; la liaison F3e~F3 ne porte que sur F3 (C4 non lié). Silences de la voix inférieure MD (2 temps) non imprimés. Petite note Ab1 → Ab2."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "Gb4 Gb4d re",
+"ly": "ni- re.",
+"rh": "gGb3 Gb4hd // Bb3+Db4hd*",
+"lh": "gGb1 Gb2+Db3e Gb2+Db3 Gb2+Db3 Gb2+Db3e",
+"doubt": "MD : trémolo mesuré alterné Db4↔Bb3 (3 barres) sur blanche pointée, noté ici comme accord trémolo. Petites notes Gb3 (MD) et Gb1 (MG) en appogiature d'octave. Fin de page = fin de système."
+}
+]
+}
