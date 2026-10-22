@@ -1,0 +1,145 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "D5s Bb4s D5s F5s Ab5s Bb4s G5sd^ F5t",
+   "ly": "mis, je vais mar- cher sous vos dra-",
+   "rh": "rh^",
+   "lh": "rh^",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "doubt": "Page imprimée 133. Piano : pause (silence de mesure) avec point d'orgue, notée ici rh^. Point d'orgue sur G5 (chant).",
+   "marks": [],
+   "lsu": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "Eb5 r",
+   "ly": "peaux",
+   "rh": "re Eb5+G5+Bb5+Eb6sd Eb5+G5+Bb5+Eb6t Eb5+G5+Bb5+Eb6e Eb5+G5+Bb5+Eb6e",
+   "lh": "re Eb3+Eb4sd Eb3+Eb4t Bb2+Bb3e G2+G3e",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "doubt": "Accord MD : Eb5+G5+Bb5+Eb6 (4 têtes serrées, lecture par profil).",
+   "lsu": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "v": "rh",
+   "rh": "Eb5+G5+Bb5+Eb6e Db5sd C5t Bb4sd Ab4t G4sd F4t",
+   "lh": "Eb2+Eb3e Db4sd C4t Bb3sd Ab3t G3sd F3t",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "marks": [],
+   "ly": "",
+   "lsu": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "marks": [
+    "Rall."
+   ],
+   "v": "rh",
+   "rh": "Eb4e Db5sd C5t Bb4sd Ab4t G4sd F4t",
+   "lh": "Eb3e Db3+Db4sd C3+C4t Bb2+Bb3sd Ab2+Ab3t G2+G3sd F2+F3t",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "doubt": "Système sans portée de TONIO : v = silences. Entrée de la portée « Le CAPORAL » (pause). Double barre en fin de mesure.",
+   "ly": "",
+   "lsu": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "meter": "4/4",
+   "ks": 0,
+   "marks": [
+    "Récit."
+   ],
+   "v": "rw",
+   "rh": "Eb4e re r rh",
+   "lh": "Eb2+Eb3e re r rh",
+   "su": "r Eb3e3 Eb3e3 Eb3e3 Eb3ed Eb3s Eb3e3 F3e3 G3e3",
+   "lsu": "Le ca- ma- ra- de est a- mou-",
+   "ct": "rw",
+   "cb": "rw",
+   "doubt": "Changement d'armure (bécarres → do majeur) et de mesure (C) à la double barre. Bémol sur le 1er Eb3 du Caporal valable toute la mesure. Liaisons sur les triolets.",
+   "ly": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "marks": [
+    "Allegro."
+   ],
+   "v": "rw",
+   "rh": "r Ab4e3 C5e3 Ab4e3 G4e3 C5e3 G4e3 F4e3 C5e3 F4e3",
+   "lh": "r Ab2+Ab3e re G2+G3e re F2+F3e re",
+   "su": "Ab3 r rh",
+   "lsu": "reux!",
+   "ct": "rw",
+   "cb": "rw",
+   "doubt": "« Allegro. » au-dessus de la MD. Accents (>) et liaisons sur chaque triolet MD ; accents sur les octaves MG.",
+   "ly": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "marks": [
+    "Récit."
+   ],
+   "v": "re3 re3 C5e3 C5e3 C5e3 D5e3 Eb5 D53 C5e3",
+   "ly": "Et c'est en vous seuls que j'es-",
+   "rh": "F#4 r rh",
+   "lh": "F#2+F#3 r rh",
+   "su": "rw",
+   "ct": "rw",
+   "cb": "rw",
+   "doubt": "Nouveau système : portées TONIO, Le C(aporal), Ténors, Basses, piano. 2 premiers triolets : (silence, silence, C5) puis (C5 C5 D5). Dernier temps : triolet noire D5 + croche C5.",
+   "lsu": "",
+   "lct": "",
+   "lcb": ""
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "B4e G4e r rh",
+   "ly": "pè- re.",
+   "rh": "re3 G3e3 A3e3 B3e3 C4e3 D4e3 Eb4e re Eb4+A4+C5e re",
+   "lh": "re3 G2e3 A2e3 B2e3 C3e3 D3e3 Eb3e re F#2+F#3e re",
+   "su": "r G3 red A3s A3ed A3s",
+   "lsu": "Quoi! c'est no- tr'en-",
+   "ct": "r G4 red C5+Eb5s C5+Eb5ed C5+Eb5s",
+   "lct": "Quoi! c'est no- tr'en-",
+   "cb": "r G3 red F#3s F#3ed F#3s",
+   "lcb": "Quoi! c'est no- tr'en-",
+   "doubt": "Paroles imprimées « c'est notre en-fant » : 4 notes pour « c'est no-tre en- » → élision « tr'en- » sur une note. Piano : 1er triolet = (silence, G, A). Accent marcato (v/^) sur l'accord final MD/MG. Ténors : bémol devant l'accord (Eb5). MG : note bémolisée lue Eb3 (hauteur entre D3 et E3)."
+  },
+  {
+   "v": "rh re C5e C5e C5e",
+   "ly": "E- cou- tez",
+   "rh": "D4+G4+B4e3 G4e3 A4e3 B4e3 C5e3 D5e3 Eb5e re C5+Eb5+A5+C6e re",
+   "lh": "G2+G3e3 G2e3 A2e3 B2e3 C3e3 D3e3 Eb3e re F#2+F#3e re",
+   "su": "B3 B3ed B3s C4 r",
+   "lsu": "fant que tu veux!",
+   "ct": "B4+D5 B4+D5ed B4+D5s A4+C5 r",
+   "lct": "fant que tu veux!",
+   "cb": "G3 G3ed G3s G3 r",
+   "lcb": "fant que tu veux!",
+   "doubt": "Accents marcato sur 1er accord MD/MG, accent > sur dernier accord MD. Dernier accord Ténors lu A4+C5 (incertain, peut-être B4+D5). Fin de page, « E-coutez » continue p.6.",
+   "marks": []
+  }
+ ]
+}
