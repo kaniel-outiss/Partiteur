@@ -1,0 +1,238 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "3/4",
+   "doubt": "Page 2 = p. 215 imprimée (p-213.png), ordre OK. Suite de la ritournelle (pas de portée de chant jusqu'au 4e système). RH : bécarre sur G5 (G naturel).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A5h G5 // A4h A4",
+   "lh": "C#4+E4e B3+D4e A3+C#4e C#4+E4e B3+D4e A3+C#4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e E5e D5e F#5e E5e D5e // A4h A4",
+   "lh": "D4h D4+F#4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5h A5 // A4h C#5",
+   "lh": "C#4+E4e B3+D4e A3+C#4e C#4+E4e B3+D4e A3+C#4e"
+  },
+  {
+   "doubt": "LH 2e temps : seconde D4/E4 accolée.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "G#5e F#5e E5e G#5e F#5e E5e // B4h B4",
+   "lh": "B3+D4h D4+E4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "A5h A5 // A4h A4",
+   "lh": "C#4+E4e B3+D4e A3+C#4e D4+F#4e C#4+E4e B3+D4e"
+  },
+  {
+   "doubt": "LH : C#4 noire pointée (hampe basse) puis deux voix en croches ; silence de la voix 2 non imprimé.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5e F#5e E5e F#5e E5e F#5e // A4h A4",
+   "lh": "C#4d D4e C#4e D4e // rd A3e G3e F#3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5h G5 // G4e A4e G4e A4e G4e A4e",
+   "lh": "E4h E4 // E3e F#3e E3e F#3e E3e F#3e"
+  },
+  {
+   "doubt": "LH : point isolé sous la portée (vers B2) au 1er temps, sans tête de note visible — ignoré.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5e E5e D5e E5e D5e E5e // B4h A4e G4e",
+   "lh": "B3e C#4e B3e C#4e B3e C#4e // G3d G3e F#3e E3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5 re E5e D5e E5e // A4 r r",
+   "lh": "D3+D4 r r"
+  },
+  {
+   "doubt": "RH : A5 blanche liée à la mesure suivante.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e G5e A5h~ // r re A4+E5e B4+D5e A4+E5e",
+   "lh": "r re C#4e B3e C#4e"
+  },
+  {
+   "doubt": "RH : A5 (liée) + A4 sur une même hampe ; voix basse F#5-G5 croisée au-dessus de A4.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+A5 A5e E5e D5e E5e // F#5e G5e E5e re r",
+   "lh": "D4 C#4 A3"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e G5e A5h~ // r re A4+E5e B4+D5e A4+E5e",
+   "lh": "r re C#4e B3e C#4e"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "doubt": "RH : les 3 dernières croches sont des accords C#5+E5 / B4+D5 / C#5+E5 partagés entre les deux poutres ; répartis E5-D5-E5 (haut) / C#5-B4-C#5 (bas).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+A5 A5e E5e D5e E5e // F#5e G5e A4e C#5e B4e C#5e",
+   "lh": "D4 C#4 A3"
+  },
+  {
+   "doubt": "RH : voix basse = A4 noire seule (silences non imprimés).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5e F#4+D5e G4+D5+G5 G4+B4+G5 // A4 rh",
+   "lh": "D4 B3 E4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "C#5+G5d A5e D5+F#5e C#5+E5e // rd A4+E5e A4",
+   "lh": "A3d C#4e D4"
+  },
+  {
+   "doubt": "RH : liaison d'expression sur la noire pointée → D5 croche. LH : A2 dernière noire (hampe haute).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5e E5+G5e D5+F#5d D5e // D5e B4e A4 A4",
+   "lh": "G3 A3 A2"
+  },
+  {
+   "marks": [
+    "Bass Solo"
+   ],
+   "doubt": "Fin de la ritournelle ; « The » = levée du chant.",
+   "v": "r r D3",
+   "ly": "The",
+   "rh": "F#4+D5h r",
+   "lh": "D3h r"
+  },
+  {
+   "marks": [
+    "Segno"
+   ],
+   "doubt": "Double barre puis signe 𝄋 (repère A) au chant et au piano : début de la section reprise par le D.S.",
+   "v": "F#3 F#3 A3",
+   "ly": "trum- pet shall",
+   "rh": "rhd",
+   "lh": "rhd"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "D4hd~",
+   "ly": "sound,",
+   "rh": "r r A3+D4ed A3+C#4s",
+   "lh": "r r D3+F#3ed D3+F#3s"
+  },
+  {
+   "v": "D4hd",
+   "ly": "",
+   "rh": "D4+F#4d D4+F#4e D4+F#4ed D4+F#4s",
+   "lh": "D3+A3d D3+A3e D3+A3ed D3+A3s"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "r A3 A3",
+   "ly": "and the",
+   "rh": "E4+A4d E4+A4e E4+A4ed E4+A4s",
+   "lh": "C#3+A3d C#3+A3e C#3+A3ed C#3+A3s"
+  },
+  {
+   "doubt": "RH accords F#3+D4 (3 lignes supplémentaires sous la portée de sol).",
+   "v": "D3 D3e E3e F#3e G3e",
+   "ly": "dead shall _ be _",
+   "rh": "D4+D5d F#3+D4e F#3+D4ed F#3+D4s",
+   "lh": "B2+F#3d B2+D3e B2+D3ed B2+D3s"
+  },
+  {
+   "doubt": "LH voix haute E3 blanche seule (silence non imprimé).",
+   "v": "A3h r",
+   "ly": "raised,",
+   "rh": "A3+C#4h C#4+E4+A4",
+   "lh": "E3h r // A2d B2e A2ed G2s"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5ed E5s D5ed E5s F#5ed G5s // A4 F#4 D5",
+   "lh": "F#2 B2h"
+  },
+  {
+   "v": "r A3 A3",
+   "ly": "and the",
+   "rh": "A5d G5e F#5e E5e // C#5 A4 A4e G4e",
+   "lh": "A2 A3+C#4 A3+C#4"
+  },
+  {
+   "v": "B3 C#4 D4",
+   "ly": "dead shall be",
+   "rh": "F#4+D5 A4+E5 A4+D5+F#5",
+   "lh": "B3+D4 C#4 D4"
+  },
+  {
+   "doubt": "LH double la voix (colla parte), liaison sur tout le mélisme.",
+   "v": "E4e D4e E4e A3e B3e C#4e",
+   "ly": "raised _ _ _ _ _",
+   "rh": "G4+B4+G5d A4+C#5+F#5e D5+G5e A4+E5e",
+   "lh": "E4e D4e E4e A3e B3e C#4e"
+  },
+  {
+   "v": "D4e C#4e D4 D3",
+   "ly": "_ _ in- cor-",
+   "rh": "D5+F#5e E5+G5e F#5d E5e // A4 A4+D5h",
+   "lh": "D4e C#4e D4 D3"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "A3e A3e A3 r",
+   "ly": "rup- ti- ble;",
+   "rh": "A4+C#5+E5h A4+C#5+A5",
+   "lh": "A3d G3e A3e F#3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#4+D5d F#4+D5e G4+E5e A4+F#5e",
+   "lh": "B3e C#4e B3e A3e G3e F#3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5~ G5e F#5e G5e E5e // B4 A4+E5 A4+C#5",
+   "lh": "E3 C#4 A3"
+  },
+  {
+   "doubt": "RH : liaison d'expression D5+F#5 pointée → C#5+E5.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5e E5+G5e D5+F#5d C#5+E5e // A4e A4e A4 A4",
+   "lh": "D4e C#4e D4 D3"
+  },
+  {
+   "doubt": "« the » = levée vers la page suivante (mesure complète ici). Pas de note de bas de page sur cette page.",
+   "v": "r r E3",
+   "ly": "the",
+   "rh": "A4+C#5+E5h r",
+   "lh": "A3h r"
+  }
+ ]
+}
