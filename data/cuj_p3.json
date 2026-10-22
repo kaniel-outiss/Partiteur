@@ -1,0 +1,150 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -4,
+   "v": "rh Eb5d Db5e",
+   "ly": "per tran-",
+   "rh": "C5+C6e re C4+C5ed Db4+Db5s Eb4+Eb5 gF5 gEb5 gD5 gEb5 C5+Eb5+C6ed Bb4+Db5+Bb5s",
+   "lh": "C3+C4e re C3ed Db3s Eb3 Eb2+Eb3",
+   "doubt": "Page imprimée 91 (p-095.png), ordre OK, enchaîne avec « len-tem, » p.90. RH : 4 petites notes (triples croches) lues F5 Eb5 D5(♮?) Eb5 — bécarre sur le ré peu lisible ; petit signe (ornement ?) à gauche du C6 du 1er accord."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "gDb5 C5e C5e r rh",
+   "ly": "si- vit",
+   "rh": "Ab4+C5+Ab5e re r rh",
+   "lh": "Ab2+Ab3e re C4ed F4s Eb4e re Ab3ed Db4s",
+   "doubt": "MG : traits au-dessus de la portée (lignes suppl.), lecture C4. F4 Eb4 / Ab3. Db4 à confirmer ; liaisons d'expression."
+  },
+  {
+   "v": "rh C5d Bb4e",
+   "ly": "gla- di-",
+   "rh": "rh Ab3+C4 C4+Eb4ed Bb3+Db4s",
+   "lh": "C4e re C3ed Db3s Eb3 gF3 gEb3 gD3 gEb3 Eb2",
+   "doubt": "MG : 4 petites notes F3 Eb3 D3(♮ imprimé) Eb3. Liaison MD vers la mesure suivante."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "Ab4h rh",
+   "ly": "us.",
+   "rh": "Ab3+C4e re Ab4+C5+Ab5 rh",
+   "lh": "Ab2e re Ab2+Eb3+Ab3 rh"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "F5hd Db5ed Eb5s",
+   "ly": "O quam _",
+   "rh": "F4+Ab4+F5ed F4s F4 rh // re3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e re Bb3+Db4",
+   "lh": "F2e3 Ab2e3 Bb2e3 B2e3 C3e3 Ab2e3 F2e re F3",
+   "doubt": "Triolets : « 3 » imprimés aux 2 premiers temps (MD voix inf. et MG). MD voix sup. rythme pointé (croche pointée-double) noté tel quel. Soufflet (> ) après sf."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "F5hd Db5ed Eb5s",
+   "ly": "tris- tis _",
+   "rh": "F4+Ab4+F5ed F4s F4 rh // re3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e re Bb3+Db4",
+   "lh": "F2e3 Ab2e3 Bb2e3 B2e3 C3e3 Ab2e3 F2e re F3",
+   "doubt": "Identique à la mesure précédente (triolets sous-entendus)."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "F5h~ F5e3 B4e3 C5e3 Db5e3 C5e3 Ab4e3",
+   "ly": "et _ _ af- _ _",
+   "rh": "F4+Ab4+F5ed F4s F4 r Ab3ed Ab3s // re3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e3 Ab3+C4e re r",
+   "lh": "F2e3 Ab2e3 Bb2e3 B2e3 C3e3 Ab2e3 F2e re F3ed F3s",
+   "doubt": "Chant : F5 blanche liée à la 1re croche du triolet (petit arc), bécarre sur B4. MD : silence du 3e temps de la voix sup. non imprimé (ajouté)."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G4h gBb4 gAb4 G4e re r",
+   "ly": "flic- ta",
+   "rh": "G3e3 Bb3+C4e3 Ab3+C4e3 G3+C4e3 Bb3+C4e3 Ab3+C4e3 G3+C4e re r",
+   "lh": "C3+E3e3 G3e3 F3e3 C3+E3e3 G3e3 F3e3 C3+E3e re r",
+   "doubt": "Croches en triolets non marqués « 3 » (7 croches + silences = triolets simile). Staccatos (coins) aux deux mains. 1er accord MD : G3 seul (lignes suppl. C4/A3)."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "C5hd Ab4ed Bb4s",
+   "ly": "fu- it _",
+   "rh": "C4+E4+C5e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e re C4+F4",
+   "lh": "C3e3 E3e3 F3e3 F#3e3 G3e3 E3e3 C3e re C3+Ab3",
+   "doubt": "Triolets non marqués (simile). Bécarre de précaution sur F4 (dernier accord MD). Soufflet > après sf."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "C5hd Ab4ed Bb4s",
+   "ly": "il- la _",
+   "rh": "C4+E4+C5e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e re C4+F4",
+   "lh": "C3e3 E3e3 F3e3 F#3e3 G3e3 E3e3 C3e re C3+Ab3"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "C5h~ C5e3 G4e3 Ab4e3 Bb4e3 G4e3 C5e3",
+   "ly": "be- _ _ ne- _ _",
+   "rh": "C4+E4+C5e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e3 C4+E4e re C4+E4ed C4+E4s",
+   "lh": "C3e3 E3e3 F3e3 F#3e3 G3e3 E3e3 C3e re C3+G3ed C3+G3s",
+   "doubt": "Chant : C5 blanche liée à la 1re croche du triolet ; « ne- » imprimé sous Bb4."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Ab4h gG4 gF4 F4e re r",
+   "ly": "dic- ta,",
+   "rh": "C4+F4e3 C4+F4e3 Bb3+F4e3 Ab3+F4e3 C4+F4e3 Bb3+F4e3 Ab3+F4e re r",
+   "lh": "F3+Ab3e3 Ab3e3 G3e3 F3e3 Ab3e3 G3e3 F3e re r",
+   "doubt": "Petites notes lues G4 F4 (la 1re pourrait être Ab4). Staccatos aux deux mains ; triolets non marqués. MG passe en clé de sol en fin de mesure."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "Db5h~ Db5e F5e Eb5e Db5e",
+   "ly": "fu- _ it _",
+   "rh": "Db5h~ Db5e F5e Eb5e Db5e",
+   "lh": "F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e re r",
+   "doubt": "MG en clé de sol. Arc court Db5 blanche → Db5 croche lu comme liaison de prolongation (chant et MD)."
+  },
+  {
+   "v": "Db5h C5e re r",
+   "ly": "il- la",
+   "rh": "G5h~ G5e E5e B4e C5e // Db5h C5e re r",
+   "lh": "E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e re r",
+   "doubt": "Accent (>) sur Db5 du chant. MD : bécarres sur E5 et B4 ; G5 blanche liée à G5 croche. MG : bécarre sur E4."
+  },
+  {
+   "v": "Db5h~ Db5e F5e Eb5e Db5e",
+   "ly": "be- _ ne- _",
+   "rh": "Db5h~ Db5e F5e Eb5e Db5e",
+   "lh": "F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e re r",
+   "doubt": "MD : bémol de précaution sur Eb5."
+  },
+  {
+   "v": "Db5h C5e re r",
+   "ly": "dic- ta",
+   "rh": "G5h~ G5e E5e B4e C5e // Db5h C5e re r",
+   "lh": "E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e3 E4+G4e re r",
+   "doubt": "Chant : pas de demi-soupir imprimé après C5 (mesure incomplète à l'impression) — « re » ajouté. MG repasse en clé de fa en fin de mesure."
+  }
+ ]
+}

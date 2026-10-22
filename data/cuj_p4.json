@@ -1,0 +1,154 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -4,
+   "v": "Db5h~ Db5e F5e C5e Db5e",
+   "ly": "Ma- _ ter, _",
+   "rh": "Db5h~ Db5e F5e C5e Db5e",
+   "lh": "F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3 F3+Ab3+Db4e3",
+   "doubt": "Page imprimée 92 (p-096.png), ordre OK. Soufflet < > sous la MD. MG : 12 croches en triolets non marqués."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "Eb5h~ Eb5e Gb5e D5e Eb5e",
+   "ly": "Ma- _ ter _",
+   "rh": "Eb5h~ Eb5e Gb5e D5e Eb5e",
+   "lh": "Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3 Gb3+Bb3+Db4+Eb4e3",
+   "doubt": "Bécarre sur D5, bémol sur G5. MG : accord serré (♭ devant le sol) lu Gb3 Bb3 Db4 Eb4. f au 3e temps."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Ab4ed Db5s F5h Eb5",
+   "ly": "u- ni- ge- ni-",
+   "rh": "Ab4ed Db5s Ab4+Db5+F5h Ab4+C5+Eb5",
+   "lh": "Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+Db4+F4e3 Ab3+C4+Gb4e3 Ab3+C4+Gb4e3 Ab3+C4+Gb4e3",
+   "doubt": "Bémol de précaution sur Db5 (chant et MD)."
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "Db5h rh",
+   "ly": "ti.",
+   "rh": "Db4+F4+Db5e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Ab5e3 Db5e3 F5e3 Ab4e3 Db5e3",
+   "lh": "Db3e3 F3e3 Gb3e3 G3e3 Ab3e3 F3e3 Db3e3 Db3+F3+Ab3e3 Db3+F3+Ab3e3 Db3+F3+Ab3e3 Db3+F3+Ab3e3 Db3+F3+Ab3e3",
+   "doubt": "Armure du chant mal imprimée en tête de système (4 bémols). Petit signe après Db5 (point ?) ignoré : blanche + demi-pause. Staccatos MD/MG ; p au 3e temps."
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "r Gb5h A4",
+   "ly": "O quam",
+   "rh": "Eb4+Gb4+A4e3 Eb4+Gb4e3 Eb4+Gb4e3 Eb4+Gb4e3 Eb4+Gb4e3 Eb4+Gb4e3 Eb4+Gb4e3 Gb5e3 C5e3 Eb5e3 A4e3 C5e3",
+   "lh": "C3+Eb3+Gb3+A3e3 Eb3e3 E3e3 F3e3 Gb3e3 Eb3e3 C3e3 C3+Eb3+Gb3+A3e3 C3+Eb3+Gb3+A3e3 C3+Eb3+Gb3+A3e3 C3+Eb3+Gb3+A3e3 C3+Eb3+Gb3+A3e3",
+   "doubt": "MD : A4 (bécarre) noté en noire hampe haute au-dessus du 1er accord — fondu dans l'accord. MG : 5e note sans altération = Gb3 (bémol du 1er accord valable)."
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "Bb4h gDb5 gC5 Bb4e re r",
+   "ly": "tris- tis",
+   "rh": "Db4+F4+Db5e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 Db4+F4e3 F5e3 Bb4e3 Db5e3 F4e3 Bb4e3",
+   "lh": "Bb2+Db3+F3+Bb3e3 Db3e3 Eb3e3 E3e3 F3e3 Db3e3 Bb2e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3",
+   "doubt": "MD : Db5 en noire hampe haute au-dessus du 1er accord — fondu dans l'accord."
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "r C5h gDb5 gC5 gBb4 gC5 Db5ed Eb5s",
+   "ly": "et af- _",
+   "rh": "C4+F4+C5e3 C4+F4e3 C4+F4e3 C4+F4e3 C4+F4e3 C4+F4e3 C4+F4e3 Eb5e3 A4e3 C5e3 C4e3 Eb4e3",
+   "lh": "A2e3 C3e3 Db3e3 D3e3 Eb3e3 C3e3 A2e3 A2+C3+F3e3 A2+C3+F3e3 A2+C3+F3e3 A2+C3+F3e3 A2+C3+F3e3",
+   "doubt": "MD : C5 en noire hampe haute fondu dans le 1er accord ; bécarre sur A4. MG : bécarres sur A2 et D3."
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "Db5h gF5 gEb5 Db5e re r",
+   "ly": "flic- ta",
+   "rh": "Bb3+Db4e3 Bb3+Db4e3 Bb3+Db4e3 Bb3+Db4e3 Bb3+Db4e3 Bb3+Db4e3 Bb3+Db4e3 Bb5e3 Db5e3 F5e3 Bb4e3 Db5e3",
+   "lh": "Bb2+Db3+F3e3 Db3e3 Eb3e3 E3e3 F3e3 Db3e3 Bb2e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3 Bb2+Db3+F3e3"
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "r C5h G4",
+   "ly": "fu- it",
+   "rh": "C4+G4+C5e3 C4+G4e3 C4+G4e3 C4+G4e3 C4+G4e3 C4+G4e3 C4+G4e3 G5e3 C5e3 E5e3 G4e3 Bb4e3",
+   "lh": "E3e3 G3e3 Ab3e3 A3e3 Bb3e3 G3e3 E3e3 E3+G3+C4e3 E3+G3+C4e3 E3+G3+C4e3 E3+G3+C4e3 E3+G3+C4e3",
+   "doubt": "MD : C5 en noire hampe haute fondu dans le 1er accord ; bécarre sur E5. MG : bécarres sur E3 et A3."
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "Ab4h gC5 gBb4 Ab4e re r",
+   "ly": "il- la",
+   "rh": "F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F4+Ab4e3 F5e3 Ab4e3 C5e3 F4e3 Ab4e3",
+   "lh": "F3e3 Ab3e3 Bb3e3 B3e3 C4e3 Ab3e3 F3e3 F3+Ab3+C4e3 F3+Ab3+C4e3 F3+Ab3+C4e3 F3+Ab3+C4e3 F3+Ab3+C4e3"
+  },
+  {
+   "marks": [
+    "sf",
+    "p"
+   ],
+   "v": "r Ab5h F5",
+   "ly": "be- ne-",
+   "rh": "Ab3+B3+F4e3 Ab3+B3+F4e3 B3+F4e3 B3+F4e3 B3+F4e3 Ab3+B3+F4e3 Ab3+B3+F4e3 F5e3 F4e3 Ab4e3 B3e3 F4e3",
+   "lh": "Db3e3 F3e3 Gb3e3 G3e3 Ab3e3 F3e3 Db3e3 Db3+Ab3+B3e3 Db3+Ab3+B3e3 Db3+Ab3+B3e3 Db3+F3e3 Db3+F3e3",
+   "doubt": "MD : accords serrés (seconde Ab3-B3, bécarre sur B3) — Ab3 visible seulement sur certains accords. MG : ré sans bécarre imprimé (Db3) ; 2 derniers accords lus Db3+F3, incertains."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "E5h gD5 gC5 C5e re r",
+   "ly": "dic- ta",
+   "rh": "E4e re C5ed A5s G5 E4+G4ed E4+G4s",
+   "lh": "C3e3 E3e3 G3e3 C4e3 G3e3 E3e3 C3e3 E3e3 G3e3 C4e3 G3e3 E3e3",
+   "doubt": "Bécarres : E5 et D5 (petite note) au chant, E4 et A5 à la MD, E3 à la MG. MG : 12 croches en triolets non marqués."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G4hd F5",
+   "ly": "Ma- ter,",
+   "rh": "F4+G4e re B4ed Ab5s G5 F4+G4ed F4+G4s",
+   "lh": "Db3e3 F3e3 G3e3 B3e3 G3e3 F3e3 Db3e3 F3e3 G3e3 B3e3 G3e3 F3e3",
+   "doubt": "Bécarres sur B4 (MD) et B3 (MG) ; bémol sur Ab5."
+  },
+  {
+   "v": "E5hd C5",
+   "ly": "Ma- ter",
+   "rh": "E4+G4e re C5ed A5s G5 E4+G4ed E4+G4s",
+   "lh": "C3e3 E3e3 G3e3 C4e3 G3e3 E3e3 C3e3 E3e3 G3e3 C4e3 G3e3 E3e3",
+   "doubt": "Bécarres sur E5 (chant), E4 et A5 (MD), E3 (MG)."
+  },
+  {
+   "v": "G4hd F5",
+   "ly": "u- ni-",
+   "rh": "F4+G4e re B4ed Ab5s G5 F4+G4ed F4+G4s",
+   "lh": "Db3e3 F3e3 G3e3 B3e3 G3e3 F3e3 Db3e3 F3e3 G3e3 B3e3 G3e3 F3e3",
+   "doubt": "Suite à la p. 93 (« ge-ni-ti »). Petit arc après la dernière note MG (vers la page suivante ?)."
+  }
+ ]
+}
