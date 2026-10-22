@@ -1,0 +1,160 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "3/4",
+"v": "F5 F#5 G5",
+"ly": "me _ _",
+"rh": "r E4+G4+C5e re E4+G4+C5e re",
+"lh": "gA2 A3 r r",
+"doubt": "p.103 imprimée OK ; 'me' = fin de 'â-me' (p.102)"
+},
+{
+"v": "G#5 A5h~",
+"ly": "com- _",
+"rh": "r D4+F4+B4e re D4+F4+B4e re",
+"lh": "G2 r r",
+"doubt": "A5h→A5 m.3 : liaison de prolongation probable (double courbe)"
+},
+{
+"v": "A5 B4 F5",
+"ly": "me‿un tré-",
+"rh": "r B3+F4+G4e re B3+F4+G4e re",
+"lh": "G2 r r"
+},
+{
+"marks": [
+"f"
+],
+"v": "C5hd~",
+"ly": "sor!",
+"rh": "C4+E4+C5 E5 D5",
+"lh": "C3hd",
+"doubt": "soufflet decresc. m.4-5 (chant et piano) vers p"
+},
+{
+"v": "C5hd",
+"ly": "",
+"rh": "C5 B4 Bb4",
+"lh": "C3+E3 D3+F3 E3+G3"
+},
+{
+"marks": [
+"p",
+"pp"
+],
+"v": "gBb4 A4 r r",
+"ly": "Je",
+"rh": "A4e re F3+A3+C4e re F3+A3+C4e re",
+"lh": "F3+A3e re r r",
+"doubt": "pp sous l'accord main droite"
+},
+{
+"v": "gG#4 A4 r r",
+"ly": "veux",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"v": "gG#4 A4 E4 G4",
+"ly": "vi- _ _",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "F2 r r"
+},
+{
+"v": "F4 D5 C5",
+"ly": "vre _ _",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"v": "gC5 Bb4 r r",
+"ly": "dans",
+"rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+"lh": "G2 r r"
+},
+{
+"v": "gA4 Bb4 r r",
+"ly": "le",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "C2 r r",
+"doubt": "hauteur de la petite note (A4 ?)"
+},
+{
+"v": "gA4 Bb4 F#4 A4",
+"ly": "rê- _ _",
+"rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+"lh": "G2 r r"
+},
+{
+"v": "G4 E5 D5",
+"ly": "ve _ _",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "C2 r r"
+},
+{
+"v": "gD5 C5 r r",
+"ly": "qui",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "A2 r r"
+},
+{
+"v": "gB4 C5 r r",
+"ly": "m'en-",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "gB4 C5 D5 E5",
+"ly": "i- _ _",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "A2 r r"
+},
+{
+"v": "F5 A5 G5",
+"ly": "vre _ _",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"v": "F5 E5 r",
+"ly": "ce _",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "G2 r r"
+},
+{
+"marks": [
+"dim."
+],
+"v": "E5 D5 r",
+"ly": "jour _",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "gC2 C3 r r"
+},
+{
+"v": "D5 C5 r",
+"ly": "en- _",
+"rh": "r Bb3+C4+F4e re Bb3+C4+F4e re",
+"lh": "gD2 D3 r r",
+"doubt": "petites notes LH m.20-21 (D2/E2) peu lisibles"
+},
+{
+"v": "C5 Bb4h",
+"ly": "cor! _",
+"rh": "r Bb3+C4+G4e re Bb3+C4+G4e re",
+"lh": "gE2 E3 r r"
+},
+{
+"marks": [
+"p"
+],
+"v": "gBb4 A4 r r",
+"ly": "Dou-",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "r C3e re C3e re // F2 r r"
+}
+]
+}

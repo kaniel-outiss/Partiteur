@@ -1,0 +1,156 @@
+{
+"page": 4,
+"measures": [
+{
+"meter": "3/4",
+"v": "gG#4 A4 r r",
+"ly": "ce",
+"rh": "r F3+A3+C#4e re F3+A3+C#4e re",
+"lh": "r C#3e re C#3e re // F2 r r",
+"doubt": "p.104 imprimée OK ; deux dièses devant l'accord RH (C#4 sûr ; 2e dièse = A#3 ?)"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "gG#4 A4 E4 G4",
+"ly": "flam- _ _",
+"rh": "r F3+A3+D4e re F3+A3+D4e re",
+"lh": "r D3e re D3e re // F2 r r"
+},
+{
+"v": "F4 D5 C5",
+"ly": "me, _ _",
+"rh": "r F3+A3+Eb4e re F3+A3+Eb4e re",
+"lh": "r Eb3e re Eb3e re // F2 r r"
+},
+{
+"v": "gC5 Bb4 r r",
+"ly": "je",
+"rh": "r F3+Bb3+D4e re F3+Bb3+D4e re",
+"lh": "r D3e re D3e re // Bb2 r r"
+},
+{
+"v": "gA4 Bb4 r r",
+"ly": "te",
+"rh": "r Gb3+C4+Eb4e re Gb3+C4+Eb4e re",
+"lh": "r Eb3e re Eb3e re // Bb2 r r"
+},
+{
+"v": "gA4 Bb4 F#4 A4",
+"ly": "gar- _ _",
+"rh": "r G3+C#4+E4e re G3+C#4+E4e re",
+"lh": "r E3e re E3e re // Bb2 r r",
+"doubt": "petite note (A4 ?) ; bécarres E4/G3 + dièse C4 RH"
+},
+{
+"v": "G4 E5 D5",
+"ly": "de _ _",
+"rh": "r Ab3+D4+F4e re Ab3+D4+F4e re",
+"lh": "r F3e re F3e re // B2 r r"
+},
+{
+"marks": [
+"cresc. molto"
+],
+"v": "gD5 C5 r r",
+"ly": "dans",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C3 r r",
+"doubt": "bécarre de précaution sur A3"
+},
+{
+"v": "gB4 C5 r r",
+"ly": "mon",
+"rh": "r G#3+D4+F4e re G#3+D4+F4e re",
+"lh": "C3 r r"
+},
+{
+"v": "gB4 C5 D5 E5",
+"ly": "â- _ _",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C3 r r"
+},
+{
+"v": "F5 G5 F5",
+"ly": "me _ _",
+"rh": "r C4+F4+A4e re C4+F4+A4e re",
+"lh": "C3 r r",
+"doubt": "accord RH (C4+F4+A4 ?) peu net"
+},
+{
+"marks": [
+"dim."
+],
+"v": "E5e G5e Bb5e A5e G5e F5e // E5e F5e E5e D5e C5e Bb4e",
+"ly": "com- _ _ _ _ _",
+"rh": "r E4+G4+Bb4+C5e re E4+G4+Bb4+C5e re",
+"lh": "gC2 C3 r r",
+"doubt": "vocalise à 2 voix (au choix ?), E5 initial commun ; 3e note haute Bb5 ou A5 ?"
+},
+{
+"v": "E5e D5e C5e Bb4e A4e G4e // A4e G4e F4e E4e D4e C4e",
+"ly": "_ _ _ _ _ _",
+"rh": "r G3+Bb3+C4e re G3+Bb3+C4e re",
+"lh": "gC2 C3 r r"
+},
+{
+"marks": [
+"p"
+],
+"v": "F4e re A4e re C5e re",
+"ly": "_ me‿un tré-",
+"rh": "A3+C4+F4 r r",
+"lh": "gF2 F3e re C3e re A2e re",
+"doubt": "F4 sous un tiret (fin du mélisme 'com-') ; petite note LH F2 ?"
+},
+{
+"v": "F5 r r",
+"ly": "sor!",
+"rh": "F4+A4+C5+F5 r r",
+"lh": "F2 r r"
+},
+{
+"marks": [
+"(p)"
+],
+"v": "E5dd E4s E5~",
+"ly": "Cette i- vres-",
+"rh": "r A3+C4+E4e re A3+C4+E4e re",
+"lh": "A2 r r",
+"doubt": "'Cette' imprimé sous une seule note"
+},
+{
+"v": "E5 D5 C5",
+"ly": "_ se",
+"rh": "r A3+C4+E4e re A3+C4+E4e re",
+"lh": "E2 r r"
+},
+{
+"v": "D5dd E4s D5~",
+"ly": "de jeun- es-",
+"rh": "r G#3+D4+E4e re G#3+D4+E4e re",
+"lh": "B2 r r"
+},
+{
+"v": "D5 C5 B4",
+"ly": "_ se",
+"rh": "r G#3+D4+E4e re G#3+D4+E4e re",
+"lh": "E2 r r"
+},
+{
+"v": "C5 B4 A4",
+"ly": "ne dure, hé-",
+"rh": "r A3+C4+E4e re A3+C4+E4e re",
+"lh": "A2 r r",
+"doubt": "'dure,' imprimé sous une seule note (élision)"
+},
+{
+"v": "A4 G4 F4",
+"ly": "las! _ qu'un",
+"rh": "r A3+C4+E4e re A3+C4+E4e re",
+"lh": "E2 r r",
+"doubt": "bécarre de précaution sur G4 ; mesure suivante p.105"
+}
+]
+}
