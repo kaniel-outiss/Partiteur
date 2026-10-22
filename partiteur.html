@@ -2,7 +2,7 @@
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
 <meta name="theme-color" content="#14110f">
-<title>Le partiteur 0.44.0</title>
+<title>Le partiteur 0.45.0</title>
 <style>
 :root{--bg:#14110f;--bg2:#1c1815;--card:#26201a;--card2:#2f2820;--or:#E8B04B;--or2:#f3c873;--txt:#f3ece2;--dim:#a99c8c;--ink:#1b1712;--paper:#fbf7ef;--line:#3a322a;--rouge:#e06a5a;--vert:#4fb873;--bleu:#5b8def;
   --safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px)}
@@ -44,7 +44,7 @@ h3.gh{font:600 16px Georgia,serif;color:var(--or);margin:14px 0 6px;border-botto
 #sv g.note.play,#sv g.chord.play{fill:#d4790c;color:#d4790c}#sv g.note.play .notehead{filter:drop-shadow(0 0 2px #f5a62a)}
 #sv g.measure{cursor:pointer}
 /* paroles : police proche des métriques de Verovio (évite les chevauchements quand Georgia/Times manquent, ex. Android) */
-#sv g.syl text,#sv g.syl tspan{font-family:"Times New Roman",Times,"Liberation Serif","Nimbus Roman",serif;letter-spacing:-.02em}
+#sv g.syl text,#sv g.syl tspan:not([font-family]){font-family:"Times New Roman",Times,"Liberation Serif","Nimbus Roman",serif;letter-spacing:-.02em}
 #sv g.note.hrh{fill:#2457b8;color:#2457b8}#sv g.note.hlh{fill:#b8561c;color:#b8561c}#sv g.note.out{fill:#c0392b;color:#c0392b}
 #sv g.note.pj-ok{fill:#2f8f4e;color:#2f8f4e}#sv g.note.pj-mid{fill:#c98a12;color:#c98a12}#sv g.note.pj-bad{fill:#c0392b;color:#c0392b}
 #sv g.note.mine{fill:#0d0a06}#sv.dimothers g.staff:not(.mystaff){opacity:.42}
@@ -127,7 +127,7 @@ body.recording #bRec{background:#c0392b;border-color:#c0392b;color:#fff;animatio
   <input type="file" id="fimp" multiple hidden></div>
  <h2 class="sec">📚 Bibliothèque</h2><div id="nav"></div><div id="lib"></div>
  <h2 class="sec">🎭 Programmes</h2><div id="progs"></div>
- <div class="hint" style="margin-top:28px">Le partiteur 0.44.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
+ <div class="hint" style="margin-top:28px">Le partiteur 0.45.0 · gravure Verovio (LGPL) · échantillons MusyngKite (CC-BY-SA)</div></div>
 <div id="app" hidden>
  <header class="top"><button id="bBack" title="Bibliothèque">←</button><div id="title"></div><span id="mnum"></span><button id="bAnn" class="ghost" title="Annoter la partition">🖍</button><button id="bMeta" class="ghost" title="Fiche de la pièce">✏️</button></header>
  <div id="annbar" hidden></div>
