@@ -1,0 +1,149 @@
+{
+"page": 5,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"tr"
+],
+"v": "B4d A#4s B4s C#5s D#5s E5s F#5s",
+"ly": "_ _ _ _ _ _",
+"rh": "B3+E4hd",
+"lh": "rhd",
+"doubt": "Page imprimée 92. Allegretto 3/4 (et non 3/8 comme dit le guide ; indication p. 91 « Allegretto (♩. = 50) »). B4 lié depuis la blanche pointée de la p. 91 (trille continué) → pas de syllabe ; vocalise sur « Ah! » de la p. 91 (chk_ly signalera 7 notes / 6 syll. tant que bij_p4 n'existe pas)."
+},
+{
+"marks": [
+"pp"
+],
+"v": "G#5 re A#4e B4~",
+"ly": "_ Je ris",
+"rh": "r B3+E4+G#4e re B3+E4+G#4e re",
+"lh": "E2+E3 r r",
+"doubt": "Liaison A#4→B4 ; B4 lié à la mesure suivante."
+},
+{
+"marks": [],
+"v": "B4 E4e G#4e B4e E5e",
+"ly": "de me voir si",
+"rh": "r B3+E4+G#4e re B3+E4+G#4e re",
+"lh": "G#2+G#3 r r"
+},
+{
+"marks": [],
+"v": "D#5d B#4e C#5e F#4e",
+"ly": "belle en ce mi-",
+"rh": "r C#4+E4+F#4e re C#4+E4+F#4e re",
+"lh": "A2+A3 r r",
+"doubt": "MD : accord C#4+E4 + F#4 (tête décalée) — lecture probable."
+},
+{
+"marks": [
+"leggero"
+],
+"v": "A4h r",
+"ly": "roir!",
+"rh": "A5+C#6e G#5+B5e F#5+A5e E5+G#5e D#5+F#5e C#5+E5e",
+"lh": "F#2+F#3e re A3+C#4e re A3+C#4e re",
+"doubt": "MD : tierces staccato."
+},
+{
+"marks": [],
+"v": "A5 re C#5e D#5~",
+"ly": "Ah! Je ris",
+"rh": "B4+D#5e C#5+E5e B4+D#5e A4+C#5e G#4+B4e G4+A#4e",
+"lh": "B2+B3e re B3+D#4e re B3+D#4e re",
+"doubt": "MD : staccato ; dernier accord G♮4+A#4. MG : accord B3+D#4 (tête sur/sous la 1re ligne supplémentaire) — probable."
+},
+{
+"marks": [],
+"v": "D#5 D#4e F#4e A4e D#5e",
+"ly": "de me voir si",
+"rh": "F#4+A4e re r r",
+"lh": "B2+B3e re B3+D#4e re B3+D#4e re",
+"doubt": "MD : bécarre de précaution sur A4."
+},
+{
+"marks": [],
+"v": "C#5d A#4e B4e E4e",
+"ly": "belle en ce mi-",
+"rh": "r B3+E4+G#4e re B3+E4+G#4e re",
+"lh": "E2+E3 r r"
+},
+{
+"marks": [],
+"v": "G#4h r",
+"ly": "roir!",
+"rh": "r B3+E4+G#4e re B3+E4+G#4e re",
+"lh": "E2+E3 r r"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "r G#4d C#5e",
+"ly": "Est- ce",
+"rh": "r E4+G#4 E4+F##4+A#4",
+"lh": "C#3h C#4",
+"doubt": "Liaisons MD et MG."
+},
+{
+"marks": [],
+"v": "C#5 B4 r",
+"ly": "toi, _",
+"rh": "E4+F##4+A#4 D#4+G#4+B4 r",
+"lh": "re G#2e B2e D#3e G#3e B3e"
+},
+{
+"marks": [],
+"v": "r G#4d E5e",
+"ly": "Mar- gue-",
+"rh": "r E4+G#4 E4+F##4+A#4",
+"lh": "C#3h C#4"
+},
+{
+"marks": [],
+"v": "E5 D#5 r",
+"ly": "ri- te?",
+"rh": "E4+F##4+A#4 D#4+G#4+B4 r",
+"lh": "re G#2e B2e D#3e G#3e B3e"
+},
+{
+"marks": [
+"p"
+],
+"v": "F##4e A#4e D#5 r",
+"ly": "Est- ce toi?",
+"rh": "Eb4+G4d Eb4e Eb4e Eb4+F4e",
+"lh": "Bb3d G3+Bb3e Ab3+Cb4e Ab3+Cb4e",
+"doubt": "MD : Eb4 et G♮4 ; dernier accord Eb4+F♮4. MG : Bb3 ; G♮3+Bb3 ; Ab3+Cb4 (bémols imprimés sur la et do)."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "F##4e A#4e D#5 r",
+"ly": "Ré- ponds- moi;",
+"rh": "Eb4+G4d Eb4e Eb4e Eb4+F4e",
+"lh": "Bb3d G3+Bb3e Ab3+Cb4e Ab3+Cb4e"
+},
+{
+"marks": [],
+"v": "B4e D#5e F#5h",
+"ly": "ré- ponds- moi,",
+"rh": "F#4+A#4hd",
+"lh": "F#3+B3hd",
+"doubt": "Altérations de précaution (#F, #A en MD ; #F, ♮B en MG)."
+},
+{
+"marks": [
+"dim."
+],
+"v": "F#4e F#4e G#4e G#4e A#4e A#4e",
+"ly": "ré- ponds, ré- ponds, ré- ponds",
+"rh": "E4+F#4e re E4+G#4e re E4+A#4e re",
+"lh": "F#3+A#3e re F#3+B3e re F#3+C#4e re",
+"doubt": "Phrase continuée p. 93 (« vi-te! »)."
+}
+]
+}
