@@ -1,0 +1,77 @@
+{
+"page": 6,
+"measures": [
+{
+"meter": "4/4",
+"ks": 2,
+"tempo": "Tempo I, ma calmo",
+"marks": [
+"Tempo I, ma calmo",
+"ppp"
+],
+"v": "B4d C#5e A4d B4e",
+"ly": "fior ch'io fac- cio‿ahi-",
+"rh": "re D4+F#4+B4 D4+F#4+C#5e re D4+F#4+A4 D4+F#4+B4e",
+"lh": "B3d C#4e A3d B3e",
+"doubt": "page imprimée 151 ; chiffrage C (4/4) imprimé. D4/F#4 liés entre accords, note supérieure liée (phrasé)."
+},
+{
+"marks": [
+"poco rit.",
+"col canto"
+],
+"v": "F#4d re re F#4e F#4e A4e",
+"ly": "mè! i fior ch'io",
+"rh": "re A3+C#4+F#4 A3+C#4+F#4 A3+C#4+F#4 A3+C#4+A4e",
+"lh": "F#3h~ F#3e re r",
+"doubt": "soufflet decresc. sous la blanche MG ; arc F#3h→F#3e lu comme liaison ; A3/C#4 liés vers le dernier accord MD."
+},
+{
+"v": "E4 D5e^ C#5e gB4 gC#5 B4e A4e E4ed A4s",
+"ly": "fac- cio, ahi- mè, non han- no‿o-",
+"rh": "re B3+D4+G4^ B3+D4+G4e re A3+C#4+G4 A3+C#4+G4e",
+"lh": "E3w^ // rh gA1 A2h",
+"doubt": "soufflet <> sur le chant ; petites notes B4-C#5 (doubles croches) ; MG : petite note barrée gA1 vers A2 blanche (3e temps) ; 'rh' initial de la 2e voix MG = remplissage ; point d'orgue sous la ronde E3."
+},
+{
+"marks": [
+"a tempo",
+"rall.",
+"pp"
+],
+"v": "D4 D4e re rh",
+"ly": "do- re!",
+"rh": "re A3+D4+F#4 A3+C#4+G4e A3+B3+A4 A3+C#4+G4",
+"lh": "D2+D3e D2+A2 E2+A2e F#2+A2 E2+A2",
+"doubt": "3e accord MD : A3 et B3 en seconde décalée, lecture probable ; petits traits sous certains accords MG (lignes supp.) non interprétés ; soufflet <> MD."
+},
+{
+"marks": [
+"senza regore di tempo con naturalezza",
+"senza rigor di tempo"
+],
+"v": "r r rs%10:4 A4s%10:4 A4s%10:4 A4s%10:4 A4s%10:4 A4s%10:4 A4s%10:4 A4s%10:4 A4s%10:4 A4s%10:4 D5e D5e",
+"ly": "Al- tro di me non le sa- prei nar- ra- re.",
+"rh": "re A3+D4+F#4 A3+D4+F#4~ A3+D4+F#4d^~",
+"lh": "re D2+A2 D2+A2~ D2+A2d^~",
+"doubt": "groupe '10' imprimé (soupir de double + 9 doubles croches) : rapport non indiqué ; noté %10:4 pour remplir la mesure 4/4 (senza rigore). 'regore' tel qu'imprimé. Accords MD/MG pointés avec point d'orgue, liés vers la mesure suivante."
+},
+{
+"marks": [
+"rall."
+],
+"v": "A4s%5:4 A4s%5:4 A4s%5:4 A4s%5:4 A4s%5:4 F#4s F#4s F#4s F#4s F#4e F#4s F#4s F#4s F#4s F#4sd A4t",
+"ly": "So- no la sua vi- ci- na che la vien fuo- ri d'o- ra‿a‿im- por- tu-",
+"rh": "A3+D4+F#4w~",
+"lh": "D2+A2w~",
+"doubt": "Aucune note imprimée au piano dans cette mesure : seules les liaisons de l'accord précédent la traversent jusqu'à l'accord final ; transcrit comme ronde liée (tenue). Paroles : 9 syllabes 'fuo-ri d'o-ra‿a im-por-tu-na-re' pour 8 notes ; 'im-por-' imprimé sous la même note (F#4 pointée), 'tu-' sous A4 triple croche. Quintolet '5' imprimé. Marque manuscrite (flèche) au-dessus du chant, ignorée. 'rall.' chant et MG."
+},
+{
+"v": "D4e D4e r rh",
+"ly": "na- re.",
+"rh": "A3+D4+F#4e re r rh",
+"lh": "D2+A2e re r rh",
+"doubt": "double barre finale de l'air : fin de la transcription."
+}
+]
+}
