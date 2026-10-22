@@ -1,0 +1,132 @@
+{
+"lang": "it",
+"ctx": "La bohème (Puccini, livret d'Illica et Giacosa, 1896), acte II. Veille de Noël, terrasse du Café Momus, au Quartier latin. Musetta, ancienne maîtresse du peintre Marcello, arrive au bras du vieux et riche Alcindoro. Pour reconquérir Marcello qui fait semblant de l'ignorer, elle chante cette valse coquette et provocante : quand elle passe dans la rue, tous la regardent… et toi, Marcello, tu te consumes de jalousie. Marcello finit par céder.",
+"diction": [
+"Tempo di Valse lento : rubato élégant, « con molta grazia ed eleganza » ; ne pas traîner pour autant.",
+"Doubles consonnes : « soletta », « bellezza » [belˈlettsa], « assaporo », « sottil », « effluvio », « m'aggira » [madˈdʒiːra], « struggi », « rifuggi ».",
+"« gl'occhi » [ʎˈʎɔkki] ; « angoscie » [aŋˈɡɔʃʃe].",
+"Coquetterie dans la voix (sourire, légèreté), puis chaleur sincère dans « E tu che sai… ».",
+"Si aigu de la fin (« morir ») : brillant mais souple, sans dureté."
+],
+"lines": [
+{
+"key": "quando men vo",
+"it": "Quando men vo soletta per la via, la gente sosta e mira, e la bellezza mia tutta ricerca in me, ricerca in me da capo a piè.",
+"ipa": "ˈkwando men vɔ soˈletta per la ˈviːa la ˈdʒɛnte ˈsɔsta e ˈmiːra e la belˈlettsa ˈmiːa ˈtutta riˈtʃerka in me da ˈkaːpo a pjɛ",
+"w": [
+[
+"Quando men vo",
+"quand je m'en vais"
+],
+[
+"soletta per la via",
+"toute seule dans la rue"
+],
+[
+"la gente sosta e mira",
+"les gens s'arrêtent et regardent"
+],
+[
+"la bellezza mia",
+"ma beauté"
+],
+[
+"tutta ricerca in me",
+"ils la détaillent en moi"
+],
+[
+"da capo a piè",
+"de la tête aux pieds"
+]
+],
+"fr": "Quand je m'en vais seule dans la rue, les gens s'arrêtent et me regardent, et cherchent en moi toute ma beauté, de la tête aux pieds."
+},
+{
+"key": "ed assaporo",
+"it": "Ed assaporo allor la bramosia sottil che da gl'occhi traspira e dai palesi vezzi intender sa alle occulte beltà.",
+"ipa": "ed assaˈpɔːro alˈlor la bramoˈziːa sotˈtil ke da ʎˈʎɔkki trasˈpiːra e dai paˈleːzi ˈvettsi inˈtɛnder sa ˈalle okˈkulte belˈta",
+"w": [
+[
+"assaporo allor",
+"je savoure alors"
+],
+[
+"la bramosia sottil",
+"le désir subtil"
+],
+[
+"che da gl'occhi traspira",
+"qui transparaît dans les yeux"
+],
+[
+"dai palesi vezzi",
+"à partir des charmes visibles"
+],
+[
+"intender sa",
+"sait deviner"
+],
+[
+"alle occulte beltà",
+"les beautés cachées"
+]
+],
+"fr": "Et je savoure alors le désir subtil qui transparaît dans les regards, et qui, des charmes visibles, sait deviner les beautés cachées."
+},
+{
+"key": "così",
+"it": "Così l'effluvio del desìo tutta m'aggira, felice mi fa!",
+"ipa": "koˈzi lefˈfluːvjo del deˈziːo ˈtutta madˈdʒiːra feˈliːtʃe mi fa",
+"w": [
+[
+"l'effluvio del desìo",
+"le parfum du désir"
+],
+[
+"tutta m'aggira",
+"m'enveloppe tout entière"
+],
+[
+"felice mi fa",
+"me rend heureuse"
+]
+],
+"fr": "Ainsi le parfum du désir m'enveloppe tout entière, et me rend heureuse !"
+},
+{
+"key": "e tu",
+"it": "E tu che sai, che memori e ti struggi, da me tanto rifuggi? So ben: le angoscie tue non le vuoi dir, ma ti senti morir!",
+"ipa": "e tu ke sai ke ˈmɛːmori e ti ˈstruddʒi da me ˈtanto riˈfuddʒi sɔ bɛn le aŋˈɡɔʃʃe ˈtuːe non le ˈvwɔːi dir ma ti ˈsɛnti moˈrir",
+"w": [
+[
+"E tu che sai",
+"et toi qui sais"
+],
+[
+"che memori e ti struggi",
+"qui te souviens et te consumes"
+],
+[
+"da me tanto rifuggi?",
+"tu me fuis tant ?"
+],
+[
+"le angoscie tue",
+"tes angoisses"
+],
+[
+"non le vuoi dir",
+"tu ne veux pas les dire"
+],
+[
+"ti senti morir",
+"tu te sens mourir"
+]
+],
+"fr": "Et toi, qui sais, qui te souviens et te consumes, tu me fuis tant ? Je le sais bien : tes angoisses, tu ne veux pas les dire, mais tu te sens mourir !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
