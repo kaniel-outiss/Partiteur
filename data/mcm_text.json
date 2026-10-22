@@ -1,0 +1,180 @@
+{
+"lang": "it",
+"ctx": "La bohème (Puccini, livret d'Illica et Giacosa, 1896), acte I. Paris, la veille de Noël, dans une mansarde du Quartier latin. Le poète Rodolfo est resté seul quand on frappe : c'est sa voisine, Mimì, dont la bougie s'est éteinte. Ils perdent la clé dans le noir, leurs mains se touchent, Rodolfo se présente (« Che gelida manina »). Mimì répond par ce portrait d'elle-même, pudique puis rayonnant : une brodeuse modeste qui fabrique des fleurs artificielles et guette le premier soleil du printemps.",
+"diction": [
+"Parlando au début (« Sì. Mi chiamano Mimì ») : simple, presque parlé, sans affectation.",
+"Doubles consonnes : « tranquilla », « piaccion » [ˈpjattʃon], « stessa », « messa », « assai », « cameretta », « tetti », « faccio ».",
+"« sgelo » [ˈzdʒɛːlo] : s sonore devant g ; « Germoglia » [dʒerˈmoʎʎa].",
+"Le grand élan « Ma quando vien lo sgelo » : voix épanouie, legato, sans pousser le la aigu.",
+"Fin : « a importunare » retombe dans le parlando, timide et un peu gênée."
+],
+"lines": [
+{
+"key": "sì mi",
+"it": "Sì. Mi chiamano Mimì, ma il mio nome è Lucia. La storia mia è breve. A tela o a seta ricamo in casa e fuori.",
+"ipa": "si mi ˈkjaːmano miˈmi ma il ˈmiːo ˈnoːme ɛ luˈtʃiːa la ˈstɔːrja ˈmiːa ɛ ˈbrɛːve a ˈteːla o a ˈseːta riˈkaːmo in ˈkaːza e ˈfwɔːri",
+"w": [
+[
+"Mi chiamano Mimì",
+"on m'appelle Mimì"
+],
+[
+"il mio nome è Lucia",
+"mon nom est Lucia"
+],
+[
+"La storia mia è breve",
+"mon histoire est brève"
+],
+[
+"A tela o a seta",
+"sur toile ou sur soie"
+],
+[
+"ricamo",
+"je brode"
+],
+[
+"in casa e fuori",
+"chez moi et au-dehors"
+]
+],
+"fr": "Oui. On m'appelle Mimì, mais mon nom est Lucia. Mon histoire est brève : je brode sur toile ou sur soie, chez moi et au-dehors."
+},
+{
+"key": "son tranquilla",
+"it": "Son tranquilla e lieta, ed è mio svago far gigli e rose. Mi piaccion quelle cose che han sì dolce malìa, che parlano d'amor, di primavere, che parlano di sogni e di chimere, quelle cose che han nome poesia. Lei m'intende?",
+"ipa": "son tranˈkwilla e ˈljɛːta ed ɛ ˈmiːo ˈzvaːɡo far ˈdʒiʎʎi e ˈrɔːze mi ˈpjattʃon ˈkwelle ˈkɔːze ke an si ˈdoltʃe maˈliːa ke ˈparlano daˈmor di primaˈvɛːre ke ˈparlano di ˈsoɲɲi e di kiˈmɛːre ˈkwelle ˈkɔːze ke an ˈnoːme poeˈziːa lɛi minˈtɛnde",
+"w": [
+[
+"Son tranquilla e lieta",
+"je suis tranquille et gaie"
+],
+[
+"è mio svago",
+"mon passe-temps est"
+],
+[
+"far gigli e rose",
+"de faire des lys et des roses"
+],
+[
+"che han sì dolce malìa",
+"qui ont un charme si doux"
+],
+[
+"di sogni e di chimere",
+"de rêves et de chimères"
+],
+[
+"Lei m'intende?",
+"vous me comprenez ?"
+]
+],
+"fr": "Je suis tranquille et gaie, et mon passe-temps est de faire des lys et des roses. J'aime ces choses au charme si doux, qui parlent d'amour, de printemps, de rêves et de chimères, ces choses qui s'appellent poésie. Vous me comprenez ?"
+},
+{
+"key": "mi chiamano mimì il",
+"it": "Mi chiamano Mimì, il perché non so. Sola, mi fo il pranzo da me stessa. Non vado sempre a messa, ma prego assai il Signor. Vivo sola, soletta, là in una bianca cameretta: guardo sui tetti e in cielo.",
+"ipa": "mi ˈkjaːmano miˈmi il perˈke non sɔ ˈsoːla mi fɔ il ˈprandzo da me ˈstessa non ˈvaːdo ˈsɛmpre a ˈmessa ma ˈprɛːɡo asˈsai il siɲˈɲor ˈviːvo ˈsoːla soˈletta la in ˈuːna ˈbjaŋka kameˈretta ˈɡwardo sui ˈtetti e in ˈtʃɛːlo",
+"w": [
+[
+"il perché non so",
+"je ne sais pourquoi"
+],
+[
+"mi fo il pranzo da me stessa",
+"je fais ma cuisine moi-même"
+],
+[
+"Non vado sempre a messa",
+"je ne vais pas toujours à la messe"
+],
+[
+"prego assai il Signor",
+"je prie beaucoup le Seigneur"
+],
+[
+"soletta",
+"toute seulette"
+],
+[
+"bianca cameretta",
+"petite chambre blanche"
+],
+[
+"guardo sui tetti e in cielo",
+"je regarde les toits et le ciel"
+]
+],
+"fr": "On m'appelle Mimì, je ne sais pourquoi. Seule, je me fais à manger. Je ne vais pas toujours à la messe, mais je prie beaucoup le Seigneur. Je vis seule, toute seulette, là-haut dans une petite chambre blanche : je regarde les toits et le ciel."
+},
+{
+"key": "ma quando",
+"it": "Ma quando vien lo sgelo il primo sole è mio, il primo bacio dell'aprile è mio! Germoglia in un vaso una rosa; foglia a foglia l'aspiro. Così gentil è il profumo d'un fior!",
+"ipa": "ma ˈkwando vjɛn lo ˈzdʒɛːlo il ˈpriːmo ˈsoːle ɛ ˈmiːo il ˈpriːmo ˈbaːtʃo dellaˈpriːle ɛ ˈmiːo dʒerˈmoʎʎa in un ˈvaːzo ˈuːna ˈrɔːza ˈfɔʎʎa a ˈfɔʎʎa lasˈpiːro koˈzi dʒenˈtil ɛ il proˈfuːmo dun fjor",
+"w": [
+[
+"quando vien lo sgelo",
+"quand vient le dégel"
+],
+[
+"il primo sole è mio",
+"le premier soleil est à moi"
+],
+[
+"il primo bacio dell'aprile",
+"le premier baiser d'avril"
+],
+[
+"Germoglia in un vaso",
+"dans un vase éclot"
+],
+[
+"foglia a foglia l'aspiro",
+"pétale à pétale je la respire"
+],
+[
+"il profumo d'un fior",
+"le parfum d'une fleur"
+]
+],
+"fr": "Mais quand vient le dégel, le premier soleil est à moi, le premier baiser d'avril est à moi ! Dans un vase éclot une rose ; pétale à pétale, je la respire. Si doux est le parfum d'une fleur !"
+},
+{
+"key": "ma i fior",
+"it": "Ma i fior ch'io faccio, ahimè, non hanno odore. Altro di me non le saprei narrare. Sono la sua vicina che la vien fuori d'ora a importunare.",
+"ipa": "ma i fjor ˈkiːo ˈfattʃo aiˈmɛ non ˈanno oˈdoːre ˈaltro di me non le saˈprɛi narˈraːre ˈsoːno la ˈsuːa viˈtʃiːna ke la vjɛn ˈfwɔːri ˈdoːra a importuˈnaːre",
+"w": [
+[
+"i fior ch'io faccio",
+"les fleurs que je fais"
+],
+[
+"non hanno odore",
+"n'ont pas de parfum"
+],
+[
+"non le saprei narrare",
+"je ne saurais vous raconter"
+],
+[
+"la sua vicina",
+"votre voisine"
+],
+[
+"fuori d'ora",
+"à une heure indue"
+],
+[
+"a importunare",
+"importuner"
+]
+],
+"fr": "Mais les fleurs que je fabrique, hélas, n'ont pas de parfum. Je ne saurais rien vous dire de plus sur moi. Je suis votre voisine qui vient vous importuner à une heure indue."
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}
