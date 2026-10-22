@@ -1,19 +1,88 @@
-{"page":14,"measures":[
-{"meter":"3/8","ks":-1,"marks":["p"],
- "v":"rd","ly":"","su":"F3s F3s F3s F3s F3s F3s","lsu":"Mais pour- tant j'en- ra- ge,","ct":"rd","lct":"","cb":"F3s F3s F3s F3s F3s F3s","lcb":"Mais pour- tant j'en- ra- ge,",
- "rh":"A4+A5 Bb4+Bb5sd C5+C6t","lh":"F3+C4+Eb4e F3+C4+Eb4e F3+C4+Eb4e",
- "doubt":"DÉSORDRE : numéro imprimé « 157 » (attendu 142, après 141) — la musique semble pourtant enchaîner (« consentir; » → « Mais pourtant j'enrage »). Pas de portée TONIO → silences. DEUX portées en clé de sol (chœur ténors divisés), notées ct = portée haute // portée basse ; lct = paroles de la voix qui chante. p au-dessus de Le C. ; staccatos sur les doubles croches chantées."},
-{"v":"rd","ly":"","su":"rd","lsu":"","ct":"rd // Bb4s Bb4s Bb4s Bb4s Bb4s Bb4s","lct":"Mais pour- tant j'en- ra- ge,","cb":"rd","lcb":"",
- "rh":"D5+D6 E5+E6sd F5+F6t","lh":"F3+Bb3+D4e F3+Bb3+D4e F3+Bb3+D4e",
- "doubt":"Seule la 2e portée de ténors chante (Bb4, staccato). Bécarres de précaution sur E5/E6. Soufflet crescendo sous la rh."},
-{"v":"rd","ly":"","su":"F3e F3","lsu":"j'en- ra-","ct":"Db5s Db5s Db5s Db5s Db5e // Bb4e Bb4","lct":"Mais pour- tant j'en- ra-","cb":"F3e F3","lcb":"j'en- ra-",
- "rh":"G5+G6e A5+A6ed G5+G6s","lh":"F3+Bb3+Db4+E4e F3+Bb3+Db4+E4e F3+Bb3+Db4+E4e",
- "doubt":"Ténors : portée haute « Mais pourtant j'en-ra- » (Db5), portée basse « j'en-ra- » (Bb4). lh : bémol (Db4) + bécarre (E4) en tête ; E4 vs F4 pour la note du haut à vérifier. rh A5+A6 : A6 ou Bb6 à vérifier."},
-{"v":"rd","ly":"","su":"F3e re re","lsu":"ge,","ct":"C5e re re // A4e re re","lct":"ge,","cb":"F3e re re","lcb":"ge,",
- "rh":"G5+G6s F5+F6s E5+E6s D5+D6s C5+C6e","lh":"F3+A3+C4+F4e F3+A3+C4+F4e F3+A3+C4+F4e","doubt":"Staccatos rh."},
-{"v":"rd","ly":"","su":"F3s F3s F3s F3s F3s F3s","lsu":"Car c'est grand dom- ma- ge","ct":"rd","lct":"","cb":"F3s F3s F3s F3s F3s F3s","lcb":"Car c'est grand dom- ma- ge",
- "rh":"A4+A5 Bb4+Bb5sd C5+C6t","lh":"F3+C4+Eb4e F3+C4+Eb4e F3+C4+Eb4e","doubt":"Staccatos sur Le C."},
-{"v":"rd","ly":"","su":"rd","lsu":"","ct":"rd // Bb4s Bb4s Bb4s Bb4s Bb4s Bb4s","lct":"Car c'est grand dom- ma- ge","cb":"rd","lcb":"",
- "rh":"D5+D6 E5+E6sd F5+F6t","lh":"Bb3+D4e Bb3+D4e Bb3+D4e",
- "doubt":"Seule la 2e portée de ténors chante. Soufflet crescendo. lh : Bb3+D4 seulement (pas de F3 ici, contrairement à la m.2). Changement en clé de sol à la lh en fin de mesure (pour la page suivante). Bécarres E5/E6."}
-]}
+{
+"page": 14,
+"measures": [
+{
+"meter": "3/8",
+"ks": -1,
+"marks": [
+"p"
+],
+"v": "rd",
+"ly": "",
+"su": "F3s F3s F3s F3s F3s F3s",
+"lsu": "Mais pour- tant j'en- ra- ge,",
+"ct": "rd",
+"lct": "",
+"cb": "F3s F3s F3s F3s F3s F3s",
+"lcb": "Mais pour- tant j'en- ra- ge,",
+"rh": "A4+A5 Bb4+Bb5sd C5+C6t",
+"lh": "F3+C4+Eb4e F3+C4+Eb4e F3+C4+Eb4e",
+"doubt": "DÉSORDRE : numéro imprimé « 157 » (attendu 142, après 141) — la musique semble pourtant enchaîner (« consentir; » → « Mais pourtant j'enrage »). Pas de portée TONIO → silences. DEUX portées en clé de sol (chœur ténors divisés), notées ct = portée haute // portée basse ; lct = paroles de la voix qui chante. p au-dessus de Le C. ; staccatos sur les doubles croches chantées."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"lsu": "",
+"ct": "Bb4s Bb4s Bb4s Bb4s Bb4s Bb4s // rd",
+"lct": "Mais pour- tant j'en- ra- ge,",
+"cb": "rd",
+"lcb": "",
+"rh": "D5+D6 E5+E6sd F5+F6t",
+"lh": "F3+Bb3+D4e F3+Bb3+D4e F3+Bb3+D4e",
+"doubt": "Seule la 2e portée de ténors chante (Bb4, staccato). Bécarres de précaution sur E5/E6. Soufflet crescendo sous la rh."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "F3e F3",
+"lsu": "j'en- ra-",
+"ct": "Db5s Db5s Db5s Db5s Db5e // Bb4e Bb4",
+"lct": "Mais pour- tant j'en- ra-",
+"cb": "F3e F3",
+"lcb": "j'en- ra-",
+"rh": "G5+G6e A5+A6ed G5+G6s",
+"lh": "F3+Bb3+Db4+E4e F3+Bb3+Db4+E4e F3+Bb3+Db4+E4e",
+"doubt": "Ténors : portée haute « Mais pourtant j'en-ra- » (Db5), portée basse « j'en-ra- » (Bb4). lh : bémol (Db4) + bécarre (E4) en tête ; E4 vs F4 pour la note du haut à vérifier. rh A5+A6 : A6 ou Bb6 à vérifier."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "F3e re re",
+"lsu": "ge,",
+"ct": "C5e re re // A4e re re",
+"lct": "ge,",
+"cb": "F3e re re",
+"lcb": "ge,",
+"rh": "G5+G6s F5+F6s E5+E6s D5+D6s C5+C6e",
+"lh": "F3+A3+C4+F4e F3+A3+C4+F4e F3+A3+C4+F4e",
+"doubt": "Staccatos rh."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "F3s F3s F3s F3s F3s F3s",
+"lsu": "Car c'est grand dom- ma- ge",
+"ct": "rd",
+"lct": "",
+"cb": "F3s F3s F3s F3s F3s F3s",
+"lcb": "Car c'est grand dom- ma- ge",
+"rh": "A4+A5 Bb4+Bb5sd C5+C6t",
+"lh": "F3+C4+Eb4e F3+C4+Eb4e F3+C4+Eb4e",
+"doubt": "Staccatos sur Le C."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"lsu": "",
+"ct": "Bb4s Bb4s Bb4s Bb4s Bb4s Bb4s // rd",
+"lct": "Car c'est grand dom- ma- ge",
+"cb": "rd",
+"lcb": "",
+"rh": "D5+D6 E5+E6sd F5+F6t",
+"lh": "Bb3+D4e Bb3+D4e Bb3+D4e",
+"doubt": "Seule la 2e portée de ténors chante. Soufflet crescendo. lh : Bb3+D4 seulement (pas de F3 ici, contrairement à la m.2). Changement en clé de sol à la lh en fin de mesure (pour la page suivante). Bécarres E5/E6."
+}
+]
+}

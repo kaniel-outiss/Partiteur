@@ -4,7 +4,7 @@
 3. ✅ (0.41) A un dottor della mia sorte — bass_ricordi.pdf 67-86 (mi♭ M, C)
 4. ✅ (0.42) Ho capito, Signor, sì — bass_ricordi.pdf 127-132 (fa M, C)
 5. ✅ (0.43) Di quella pira — ten_arias.pdf (3 versions : 163-166, 167-175, 176-183 ; choisir la plus nette/complète)
-6. Ah ! mes amis, quel jour de fête — ten_album.pdf 133-157 (mi♭ M, 2/4)
+6. ✅ (0.44) Ah ! mes amis, quel jour de fête — ten_album.pdf 133-157 (mi♭ M, 2/4)
 7. Donna non vidi mai — ten_ricordi.pdf 161-163 (si♭ M, 3/4 puis 4/4)
 8. Cujus animam — ten_album.pdf 93-100 (la♭ M, 4/4)
 9. Domine Deus — ten_album.pdf 40-49 (ré M, 4/4)

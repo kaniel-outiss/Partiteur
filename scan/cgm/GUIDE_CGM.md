@@ -36,3 +36,4 @@ Mesure coupée entre deux pages ou anacrouse : signale-le dans "doubt".
 
 Dans "marks", ne mets QUE des indications imprimées (nuances, tempo, expressions) — tes remarques de lecture (accents, staccato, liaisons, clés…) vont dans "doubt".
 Levée (mesure incomplète au début) : "len": nombre de noires réelles, en plus de "meter".
+Contrôle des paroles : python3 /home/claude/partiteur/tools/chk_ly.py PX (PX = préfixe, depuis /home/claude/partiteur) → aucune ligne = OK. Une note LIÉE (~) depuis la note précédente ne reçoit PAS de syllabe ni de "_" ; dans une portée à 2 voix (" // "), les paroles suivent la 1re voix : mets en premier la voix qui porte le texte.

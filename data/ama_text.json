@@ -1,0 +1,136 @@
+{
+"lang": "fr",
+"ctx": "La fille du régiment (Donizetti, livret de Saint-Georges et Bayard, 1840), acte I. Dans le Tyrol, le 21e régiment de grenadiers français a recueilli et élevé une enfant trouvée, Marie, dont tous les soldats se disent les « pères ». Le jeune Tyrolien Tonio, amoureux d'elle, s'est engagé pour pouvoir l'épouser. Il demande sa main au régiment et au sergent Sulpice : on refuse d'abord (« Quoi ! c'est notre enfant que tu veux ! »), puis, Marie l'aimant, on cède en grommelant (« Que dire, que faire ? … De l'unir avec un pareil blanc-bec ! »). Tonio éclate de joie dans « Pour mon âme », célèbre pour ses neuf contre-ut. Cette édition enchaîne la scène avec chœur (gravure ancienne) et, à partir de la p. 148, une autre gravure qui reprend « Pour mon âme » au cours de la phrase (quelques mesures de transition absentes).",
+"diction": [
+"Français chanté : e muets chantés quand la musique leur donne une note (« fê-te », « tê-te »), liaisons « mes‿amis », « vos‿drapeaux » non (pas de liaison après « vos » devant consonne).",
+"Nasales pures et brèves : « amour », « désormais », « instant », « serment » — ne pas nasaliser la voyelle précédente.",
+"« Pour mon âme » : léger, rebondissant (3/8) ; les contre-ut (do5 écrit) en voix mixte placée haut, sans pousser ; respirer avant chaque série.",
+"R roulé ou uvulaire léger, jamais grasseyé lourdement ; articulation militaire et joyeuse dans « Ah ! mes amis ».",
+"Le comique du texte : « militaire et mari » — sourire dans la voix."
+],
+"lines": [
+{
+"key": "ah mes amis",
+"it": "Ah ! mes amis, quel jour de fête ! Je vais marcher sous vos drapeaux. L'amour qui m'a tourné la tête désormais me rend un héros.",
+"ipa": "a me zaˈmi kɛl ʒuʁ də ˈfɛtə ʒə vɛ maʁˈʃe su vo dʁaˈpo laˈmuʁ ki ma tuʁˈne la ˈtɛtə dezɔʁˈmɛ mə ʁɑ̃ œ̃ eˈʁo",
+"w": [
+[
+"quel jour de fête",
+"quel jour de joie"
+],
+[
+"marcher sous vos drapeaux",
+"servir dans votre régiment"
+],
+[
+"m'a tourné la tête",
+"m'a rendu fou"
+],
+[
+"me rend un héros",
+"fait de moi un héros"
+]
+],
+"fr": "Tonio s'est engagé dans le régiment pour pouvoir épouser Marie : l'amour a fait de lui un soldat."
+},
+{
+"key": "oui celle",
+"it": "Oui, celle pour qui je respire à mes vœux a daigné sourire, et ce doux espoir de bonheur trouble ma raison et mon cœur !",
+"ipa": "wi ˈsɛlə puʁ ki ʒə ʁɛsˈpiʁə a me ˈvø a dɛˈɲe suˈʁiʁə e sə du ɛsˈpwaʁ də bɔˈnœʁ ˈtʁublə ma ʁɛˈzɔ̃ e mɔ̃ kœʁ",
+"w": [
+[
+"celle pour qui je respire",
+"celle pour qui je vis"
+],
+[
+"à mes vœux a daigné sourire",
+"a accueilli favorablement mon amour"
+],
+[
+"trouble ma raison",
+"me fait perdre la tête"
+]
+],
+"fr": "Celle pour qui je vis a souri à mon amour, et cet espoir me bouleverse."
+},
+{
+"key": "et cest en",
+"it": "Et c'est en vous seuls que j'espère. Écoutez-moi, messieurs son père ! Car je sais qu'il dépend de vous de me rendre ici son époux.",
+"ipa": "e sɛ tɑ̃ vu sœl kə ʒɛsˈpɛʁə ekuˈte mwa meˈsjø sɔ̃ ˈpɛʁə kaʁ ʒə sɛ kil deˈpɑ̃ də vu də mə ˈʁɑ̃dʁ‿iˈsi sɔ̃ nepu",
+"w": [
+[
+"messieurs son père",
+"le régiment, qui a élevé Marie et se considère comme son père"
+],
+[
+"il dépend de vous",
+"c'est vous qui décidez"
+],
+[
+"son époux",
+"son mari"
+]
+],
+"fr": "Tonio s'adresse aux soldats du 21e régiment, « pères » collectifs de Marie, l'enfant trouvée qu'ils ont élevée."
+},
+{
+"key": "vous refusez",
+"it": "Vous refusez ? Mais j'en suis, puisqu'en cet instant je viens de m'engager, pour cela seulement !",
+"ipa": "vu ʁəfyˈze mɛ ʒɑ̃ sɥi pɥisˈkɑ̃ sɛt ɛ̃sˈtɑ̃ ʒə vjɛ̃ də mɑ̃ɡaˈʒe puʁ səˈla sœlˈmɑ̃",
+"w": [
+[
+"j'en suis",
+"je fais partie du régiment"
+],
+[
+"je viens de m'engager",
+"je viens de m'enrôler"
+]
+],
+"fr": "Les soldats refusent : Marie est promise à un soldat du régiment. Mais Tonio vient justement de s'enrôler."
+},
+{
+"key": "mais votre fille",
+"it": "Mais votre fille m'aime ! Elle m'aime, vous dis-je… j'en fais serment !",
+"ipa": "mɛ ˈvɔtʁə ˈfijə ˈmɛmə ɛl ˈmɛmə vu di ʒə ʒɑ̃ fɛ sɛʁˈmɑ̃",
+"w": [
+[
+"j'en fais serment",
+"je le jure"
+]
+],
+"fr": "Tonio jure que Marie l'aime. Sulpice et le chœur, vaincus, se résignent : « Que dire, que faire ? Puisqu'il a su plaire… mais quel dommage de l'unir à un pareil blanc-bec ! »"
+},
+{
+"key": "pour mon âme",
+"it": "Pour mon âme quel destin ! J'ai sa flamme, et j'ai sa main ! Jour prospère ! Me voici militaire, militaire et mari !",
+"ipa": "puʁ mɔ̃ ˈnɑmə kɛl dɛsˈtɛ̃ ʒe sa ˈflɑmə e ʒe sa mɛ̃ ʒuʁ pʁɔsˈpɛʁə mə vwaˈsi militˈɛʁə militˈɛʁ‿e maˈʁi",
+"w": [
+[
+"quel destin",
+"quel sort heureux"
+],
+[
+"j'ai sa flamme",
+"j'ai son amour"
+],
+[
+"j'ai sa main",
+"elle accepte de m'épouser"
+],
+[
+"Jour prospère",
+"jour heureux"
+],
+[
+"militaire et mari",
+"soldat et mari"
+]
+],
+"fr": "La célèbre cabalette aux neuf contre-ut (sur « mari », « militaire »)."
+}
+],
+"doubts": [
+"Texte vérifié sur la partition (paroles imprimées)."
+]
+}

@@ -1,129 +1,130 @@
 {
- "page": 1,
- "measures": [
-  {
-   "meter": "2/4",
-   "tempo": "Allº vivace",
-   "ks": -3,
-   "marks": [
-    "ff"
-   ],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "r rs Bb4+Bb5s C5+C6s D5+D6s",
-   "lh": "r rs Bb2+F3+Ab3s Bb2+F3+Ab3s Bb2+F3+Ab3s",
-   "doubt": "Titre « CAVATINE » ; page imprimée 129. Système à 6 portées (TONIO, LE CAPORAL, Chœur Ténors, Chœur Basses, piano) : toutes les voix en pauses mesures 1-4. Staccatos sur les doubles croches."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "Eb5+Eb6e F5+F6s D5+D6s Eb5+Eb6e F5+F6s D5+D6s",
-   "lh": "Eb3+G3e Bb2+F3+Ab3s Bb2+F3+Ab3s Eb3+G3e Bb2+F3+Ab3s Bb2+F3+Ab3s",
-   "doubt": "Accents (>) sur chaque croche ; staccatos."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "Eb5+Eb6 rs Eb5+G5s F5+Ab5s F#5+A5s",
-   "lh": "Eb3+G3 rs Eb3+G3s F3+Ab3s F#3+A3s",
-   "doubt": "Accent sur la noire."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "G5+Bb5e G5+C6e G5+D6e G5+Eb6e",
-   "lh": "Eb3+G3+Bb3e Eb3+G3+C4e Eb3+G3+D4e Eb3+G3+Eb4e",
-   "doubt": "Staccatos."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "F5+Bb5+F6 rs Bb4+Bb5s D5+D6s Eb5+Eb6s",
-   "lh": "Bb2+D3+Ab3+Bb3 rs Bb2+F3+Ab3s Bb2+F3+Ab3s Bb2+F3+Ab3s",
-   "doubt": "Pas de portées de chant à partir de ce système (piano seul) → silences. Accent sur la noire ; Bb5 du 1er accord RH et Ab3+Bb3 (seconde) LH à confirmer."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "F5+F6e G5+G6s E5+E6s F5+F6e G5+G6s E5+E6s",
-   "lh": "Bb2+D3+Ab3e Bb2+C#3+G3s Bb2+C#3+G3s Bb2+D3+Ab3e Bb2+C#3+G3s Bb2+C#3+G3s",
-   "doubt": "Accents sur les croches."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "F5+F6 rs Bb4+Bb5s D5+D6s Eb5+Eb6s",
-   "lh": "Bb2+D3+Ab3 rs Bb2+F3+Ab3s Bb2+F3+Ab3s Bb2+F3+Ab3s",
-   "doubt": "Accent sur la noire."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "F5+F6e E5+E6e F5+F6e F#5+F#6e",
-   "lh": "Bb2+D3+Ab3e Bb2+D3+Ab3e Bb2+D3+Ab3e Bb2+D3+Ab3e",
-   "doubt": "LH : accords lus Bb2+D3+Ab3 (F3 éventuel non vu)."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "G5+G6s3 G5s3 Bb5s3 Eb6s3 F6s3 G6s3 rs3 F5s3 G5s3 Ab5s3 Bb5s3 C6s3",
-   "lh": "Eb3+G3e re Ab3+C4+F4e re",
-   "doubt": "RH : 1er accord G5+G6 dessiné avec un crochet, compté comme double croche de triolet (4 triolets imprimés par mesure)."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "rs3 Eb5s3 F5s3 G5s3 Ab5s3 Bb5s3 Ab5s3 F5s3 Bb5s3 Ab5s3 F5s3 Bb5s3",
-   "lh": "Bb3+Eb4+G4e re Bb2+D3+F3+Bb3e Bb2+D3+F3+Bb3e"
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "su": "rh",
-   "ct": "rh",
-   "cb": "rh",
-   "rh": "rs3 G5s3 Bb5s3 Eb6s3 F6s3 G6s3 rs3 F5s3 G5s3 Ab5s3 Bb5s3 C6s3",
-   "lh": "Eb3+G3+Bb3e re Ab3+C4+F4e re"
-  }
- ]
+"page": 1,
+"measures": [
+{
+"meter": "2/4",
+"tempo": "Allº vivace",
+"ks": -3,
+"marks": [
+"ff"
+],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "r rs Bb4+Bb5s C5+C6s D5+D6s",
+"lh": "r rs Bb2+F3+Ab3s Bb2+F3+Ab3s Bb2+F3+Ab3s",
+"doubt": "Titre « CAVATINE » ; page imprimée 129. Système à 6 portées (TONIO, LE CAPORAL, Chœur Ténors, Chœur Basses, piano) : toutes les voix en pauses mesures 1-4. Staccatos sur les doubles croches.",
+"bpm": 132
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "Eb5+Eb6e F5+F6s D5+D6s Eb5+Eb6e F5+F6s D5+D6s",
+"lh": "Eb3+G3e Bb2+F3+Ab3s Bb2+F3+Ab3s Eb3+G3e Bb2+F3+Ab3s Bb2+F3+Ab3s",
+"doubt": "Accents (>) sur chaque croche ; staccatos."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "Eb5+Eb6 rs Eb5+G5s F5+Ab5s F#5+A5s",
+"lh": "Eb3+G3 rs Eb3+G3s F3+Ab3s F#3+A3s",
+"doubt": "Accent sur la noire."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "G5+Bb5e G5+C6e G5+D6e G5+Eb6e",
+"lh": "Eb3+G3+Bb3e Eb3+G3+C4e Eb3+G3+D4e Eb3+G3+Eb4e",
+"doubt": "Staccatos."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "F5+Bb5+F6 rs Bb4+Bb5s D5+D6s Eb5+Eb6s",
+"lh": "Bb2+D3+Ab3+Bb3 rs Bb2+F3+Ab3s Bb2+F3+Ab3s Bb2+F3+Ab3s",
+"doubt": "Pas de portées de chant à partir de ce système (piano seul) → silences. Accent sur la noire ; Bb5 du 1er accord RH et Ab3+Bb3 (seconde) LH à confirmer."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "F5+F6e G5+G6s E5+E6s F5+F6e G5+G6s E5+E6s",
+"lh": "Bb2+D3+Ab3e Bb2+C#3+G3s Bb2+C#3+G3s Bb2+D3+Ab3e Bb2+C#3+G3s Bb2+C#3+G3s",
+"doubt": "Accents sur les croches."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "F5+F6 rs Bb4+Bb5s D5+D6s Eb5+Eb6s",
+"lh": "Bb2+D3+Ab3 rs Bb2+F3+Ab3s Bb2+F3+Ab3s Bb2+F3+Ab3s",
+"doubt": "Accent sur la noire."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "F5+F6e E5+E6e F5+F6e F#5+F#6e",
+"lh": "Bb2+D3+Ab3e Bb2+D3+Ab3e Bb2+D3+Ab3e Bb2+D3+Ab3e",
+"doubt": "LH : accords lus Bb2+D3+Ab3 (F3 éventuel non vu)."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "G5+G6s3 G5s3 Bb5s3 Eb6s3 F6s3 G6s3 rs3 F5s3 G5s3 Ab5s3 Bb5s3 C6s3",
+"lh": "Eb3+G3e re Ab3+C4+F4e re",
+"doubt": "RH : 1er accord G5+G6 dessiné avec un crochet, compté comme double croche de triolet (4 triolets imprimés par mesure)."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "rs3 Eb5s3 F5s3 G5s3 Ab5s3 Bb5s3 Ab5s3 F5s3 Bb5s3 Ab5s3 F5s3 Bb5s3",
+"lh": "Bb3+Eb4+G4e re Bb2+D3+F3+Bb3e Bb2+D3+F3+Bb3e"
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"su": "rh",
+"ct": "rh",
+"cb": "rh",
+"rh": "rs3 G5s3 Bb5s3 Eb6s3 F6s3 G6s3 rs3 F5s3 G5s3 Ab5s3 Bb5s3 C6s3",
+"lh": "Eb3+G3+Bb3e re Ab3+C4+F4e re"
+}
+]
 }
