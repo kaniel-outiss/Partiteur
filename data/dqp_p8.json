@@ -1,0 +1,144 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "meter": "3/4",
+   "v": "C5 r r",
+   "ly": "rir!",
+   "rh": "E5+G5+C6e E4+G4+C5s E4+G4+C5s E4+G4+C5e E4+G4+C5e E4+G4+C5e E4+G4+C5e",
+   "lh": "C2+C3 r r",
+   "ct": "C5 r red C5s",
+   "lct": "rir! Al-",
+   "cb": "C3+C4 r red C4s",
+   "lcb": "rir! Al-",
+   "doubt": "Suite de la p.45 (« mo-rir! »). Accents (>) sur les accords RH et basses LH (toute la page). Cb : accord C3+C4 (divisi) au 1er temps."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+G5+C6e E4+G4+C5s E4+G4+C5s E4+G4+C5e E4+G4+C5e E4+G4+C5e E4+G4+C5e",
+   "lh": "gG2s gA2s gB2s C2+C3 r r",
+   "ct": "C5 C4e re red C5s",
+   "lct": "l'ar- mi! al-",
+   "cb": "C4 C3e re red C4s",
+   "lcb": "l'ar- mi! al-",
+   "doubt": "Petites notes LH liées (sol-la-si) vers C3."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+G5+C6e E4+G4+C5s E4+G4+C5s E4+G4+C5e E4+G4+C5e E4+G4+C5e E4+G4+C5e",
+   "lh": "gG2s gA2s gB2s C2+C3 r r",
+   "ct": "C5 C4e re red C5s",
+   "lct": "l'ar- mi! al-",
+   "cb": "C4 C3e re red C4s",
+   "lcb": "l'ar- mi! al-"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+G5+C6e D5+G5+B5e E5+G5+C6 F#5+B5+D#6",
+   "lh": "gG2s gA2s gB2s C2+C3e G1+G2e C2+C3 B1+B2",
+   "ct": "C5e B4e C5 D#5",
+   "lct": "l'ar- mi! al- l'ar-",
+   "cb": "C4e B3e C4 B3",
+   "lcb": "l'ar- mi! al- l'ar-"
+  },
+  {
+   "v": "E5 E5 E5",
+   "ly": "Ma- dre‿in- fe-",
+   "rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
+   "lh": "E2+E3 r r",
+   "ct": "E5 r red E5s",
+   "lct": "mi! al-",
+   "cb": "E3 r red E4s",
+   "lcb": "mi! al-",
+   "doubt": "Accents sur les 3 E5 du chant."
+  },
+  {
+   "v": "E5 E4e re r",
+   "ly": "li- ce!",
+   "rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
+   "lh": "gB2s gC#3s gD#3s E2+E3 r r",
+   "ct": "E5 E4e re red E5s",
+   "lct": "l'ar- mi! al-",
+   "cb": "E4 E3e re red E4s",
+   "lcb": "l'ar- mi! al-"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5+G5+B5+E6e G4+B4+E5s G4+B4+E5s G4+B4+E5e G4+B4+E5e G4+B4+E5e G4+B4+E5e",
+   "lh": "gB2s gC#3s gD#3s E2+E3 r r",
+   "ct": "E5 E4e re red E5s",
+   "lct": "l'ar- mi! al-",
+   "cb": "E4 E3e re red E4s",
+   "lcb": "l'ar- mi! al-"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5+B5+E6e F#5+B5+D#6e G5+B5+E6 A5+C6+D6+F#6",
+   "lh": "gB2s gC#3s gD#3s E2+E3e B1+B2e E2+E3 D2+D3",
+   "ct": "E5e D#5e E5 F#5",
+   "lct": "l'ar- mi, al- l'ar-",
+   "cb": "E4e B3e E4 D4",
+   "lcb": "l'ar- mi, al- l'ar-",
+   "doubt": "Dernier accord RH : D6 bécarre (annule D#6), F#6 ; lecture serrée des têtes (A5 C6 D6 F#6). LH D2+D3 et cb D4 avec bécarre de précaution."
+  },
+  {
+   "v": "G5 G5 G5",
+   "ly": "Cor- ro‿a sal-",
+   "rh": "G5+B5+D6+G6e G4+G5s G4+G5s G4+G5e G4+G5e G4+G5e G4+G5e",
+   "lh": "G2+G3 r r",
+   "ct": "G5 r r",
+   "lct": "mi!",
+   "cb": "G3 r r",
+   "lcb": "mi!"
+  },
+  {
+   "v": "Ab5hd",
+   "ly": "var-",
+   "rh": "C5+Eb5+Ab5hd* // Ab4hd*",
+   "lh": "Ab1hd // Ab1e C2e Eb2e Ab2e Eb2e C2e",
+   "ct": "Eb5+Ab5hd",
+   "lct": "Ec-",
+   "cb": "Ab3+C4hd",
+   "lcb": "Ec-",
+   "doubt": "RH : trémolo mesuré (double barre) entre l'accord C5+Eb5+Ab5 et Ab4, blanches pointées — noté en 2 voix avec *. LH : Ab1 blanche pointée tenue + croches Ab1 C2 Eb2 Ab2 Eb2 C2."
+  },
+  {
+   "v": "Ab5h Ab5",
+   "ly": "ti, o",
+   "rh": "C5+Eb5+Ab5hd* // Ab4hd*",
+   "lh": "Ab1hd // Ab1e C2e Eb2e Ab2e Eb2e C2e",
+   "ct": "Eb5+Ab5h Eb5+Ab5",
+   "lct": "co- ne",
+   "cb": "Ab3+C4h Ab3+C4",
+   "lcb": "co- ne",
+   "doubt": "Idem mesure précédente (trémolo RH)."
+  },
+  {
+   "v": "G5e F#5e G5 F5",
+   "ly": "te- _ co al-",
+   "rh": "Bb4+G5s G4s Bb4+F#5s F#4s Bb4+G5s G4s Bb4+G5s G4s B4+F5s G4s B4+F5s G4s",
+   "lh": "Eb2+Eb3e D2+D3e Eb2+Eb3 D2+D3",
+   "ct": "Eb5+G5e F#5e Eb5+G5 B4+F5",
+   "lct": "pre- _ sti a",
+   "cb": "Bb3 Bb3 G3 // Eb3e D3e Eb3 D3",
+   "lcb": "pre- _ sti a",
+   "doubt": "Liaison G5-F#5 (chant et ct). Pas d'élision imprimée entre « co » et « al ». ct : Eb5 tenu sous F#5 (accord écrit sur la 1re croche seulement). cb en 2 voix (Bb3 hampe haut / Eb3-D3 liées). Point (staccato?) avant le 3e temps LH."
+  },
+  {
+   "v": "Eb5h E5",
+   "ly": "men, o",
+   "rh": "C5+Eb5s G4s C5+Eb5s G4s C5+Eb5s G4s C5+Eb5s G4s C5+E5s G4s C5+E5s G4s",
+   "lh": "C2+C3e C2+C3e C2+C3e C2+C3e Bb1+Bb2e Bb1+Bb2e",
+   "ct": "C5+Eb5h C5+E5",
+   "lct": "pu- gnar",
+   "cb": "C3+G3h Bb3",
+   "lcb": "pu- gnar",
+   "doubt": "E5 bécarre au 3e temps (chant, ct, RH). Suite p.47."
+  }
+ ]
+}
