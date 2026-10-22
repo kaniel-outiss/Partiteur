@@ -1,0 +1,127 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "3/4",
+   "v": "G4s A4s G4s A4s G4h",
+   "ly": "po- _ _ _ co",
+   "rh": "E4+G4s F4+A4s E4+G4s F4+A4s E4+G4h",
+   "lh": "C3e G3+C4s G3+C4s G3+C4e G3+C4e E3e G3+C4e",
+   "doubt": "Page imprimée 40 (suite logique de 39). Bécarre de précaution sur la4 (MD)."
+  },
+  {
+   "marks": [
+    "con tutta forza",
+    "f"
+   ],
+   "v": "G5 G5 G#5",
+   "ly": "col san- gue",
+   "rh": "G5+G6 G5+G6 G#5+G#6",
+   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+   "doubt": "Soufflet < au chant. « Tromba » à la MD. 8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : G4+G5, G#4+G#5. f à la MG."
+  },
+  {
+   "v": "A5s G#5s A5s F5s D5h",
+   "ly": "vo- _ _ _ stro",
+   "rh": "gB6 A6s G#6s A6s F6s D6h",
+   "lh": "G2e G3+B3+F4s G3+B3+F4s G3+B3+F4e G3+B3+F4e B2e G3+B3+F4e",
+   "doubt": "Soufflet > au chant. 8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : petite note B5 puis A5 G#5 A5 F5 D5 (une seule voix)."
+  },
+  {
+   "v": "F5 E5 D5",
+   "ly": "la spe- gne-",
+   "rh": "F5+F6 E5+E6 D5+D6",
+   "lh": "G2e G3+B3+F4s G3+B3+F4s G3+B3+F4e G3+B3+F4e G2e G3+B3+F4e",
+   "doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : octaves F4+F5, E4+E5, D4+D5. Accents."
+  },
+  {
+   "v": "C5 r r",
+   "ly": "rò!",
+   "rh": "C5+C6 r r",
+   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+   "doubt": "Fin du 8va (« 8va - -┐ ») : imprimé C4+C5, écrit à la hauteur jouée."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Eb5 Eb5 Eb5",
+   "ly": "E- ra già",
+   "rh": "rhd",
+   "lh": "C3e G3+C4+Eb4s G3+C4+Eb4s G3+C4+Eb4e G3+C4+Eb4e Eb3e G3+C4+Eb4e",
+   "doubt": "p au chant et à la MG ; chant lié-piqué."
+  },
+  {
+   "v": "D5s Eb5s D5s Eb5s D5h",
+   "ly": "fi- _ _ _ glio",
+   "rh": "Bb4+D5s C5+Eb5s Bb4+D5s C5+Eb5s Bb4+D5h",
+   "lh": "D3e Bb3+D4+G4s Bb3+D4+G4s Bb3+D4+G4e Bb3+D4+G4e G3e Bb3+D4+G4e"
+  },
+  {
+   "v": "C5 C5 C5",
+   "ly": "pri- ma d'a-",
+   "rh": "rhd",
+   "lh": "D3e A3+D4+F#4s A3+D4+F#4s A3+D4+F#4e A3+D4+F#4e F#3e A3+D4+F#4e"
+  },
+  {
+   "v": "Bb4s C5s Bb4s C5s Bb4h",
+   "ly": "mar- _ _ _ ti,",
+   "rh": "G4+Bb4s Ab4+C5s G4+Bb4s Ab4+C5s G4+Bb4h",
+   "lh": "Eb3e Bb3+Eb4s Bb3+Eb4s Bb3+Eb4e Bb3+Eb4e G3e Bb3+Eb4e",
+   "doubt": "MG : accords à 2 sons Bb3+Eb4."
+  },
+  {
+   "v": "G5 F5 Eb5",
+   "ly": "non può fre-",
+   "rh": "rhd",
+   "lh": "C3e G3+C4+Eb4s G3+C4+Eb4s G3+C4+Eb4e G3+C4+Eb4e Eb3e G3+C4+Eb4e"
+  },
+  {
+   "v": "D5s Eb5s D5s Eb5s D5h",
+   "ly": "nar- _ _ _ mi",
+   "rh": "Bb4+D5s C5+Eb5s Bb4+D5s C5+Eb5s Bb4+D5h",
+   "lh": "D3e Bb3+D4+G4s Bb3+D4+G4s Bb3+D4+G4e Bb3+D4+G4e G3e Bb3+D4+G4e"
+  },
+  {
+   "v": "C5 Bb4 A4",
+   "ly": "il tuo mar-",
+   "rh": "rhd",
+   "lh": "D3e A3+D4+F#4s A3+D4+F#4s A3+D4+F#4e A3+D4+F#4e D3e A3+D4+F#4e",
+   "doubt": "MG : 2e croche seule = D3 (et non F#3 comme m.8)."
+  },
+  {
+   "v": "G4h r",
+   "ly": "tir…",
+   "rh": "re G4+G5s G4+G5s A4+A5e B4+B5e C5+C6e D5+D6e",
+   "lh": "G3e G2+B2+D3+F3s G2+B2+D3+F3s G2+B2+D3+F3e G2+B2+D3+F3e G2+B2+D3+F3e G2+B2+D3+F3e",
+   "doubt": "Soufflet < sous la MD. Bécarres de précaution : B4/B5 (MD), B2 et F3 (MG). MD piquée."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "E5 E5 E5",
+   "ly": "Ma- dre‿in- fe-",
+   "rh": "E5+E6 E5+E6 E5+E6",
+   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+   "doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : E4+E5. f au chant et à la MG. Élision « dre‿in » = une note."
+  },
+  {
+   "v": "E5s F5s E5s F5s E5h",
+   "ly": "li- _ _ _ ce,",
+   "rh": "G5+E6s A5+F6s G5+E6s A5+F6s G5+E6h",
+   "lh": "C3e G3+C4+E4s G3+C4+E4s G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e",
+   "doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). Imprimé : G4+E5 / A4+F5."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "C5 C5 C5",
+   "ly": "cor- ro‿a sal-",
+   "rh": "Ab5+C6 Ab5+C6 Ab5+C6",
+   "lh": "C3e Ab3+C4+F4s Ab3+C4+F4s Ab3+C4+F4e Ab3+C4+F4e F3e Ab3+C4+F4e",
+   "doubt": "8va pointillé au piano MD : notes écrites à la hauteur JOUÉE (une octave au-dessus de l'imprimé). (pointillé jusqu'en fin de page, suite p.41 à vérifier). Imprimé : Ab4+C5. « sal- » se poursuit page suivante."
+  }
+ ]
+}
