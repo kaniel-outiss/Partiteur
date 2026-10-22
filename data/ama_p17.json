@@ -1,0 +1,77 @@
+{
+ "page": 17,
+ "measures": [
+  {
+   "meter": "3/8",
+   "su": "Bb2s Bb2s Bb2s Bb2s Bb2s Bb2s",
+   "lsu": "ra- ge, Car c'est grand dom-",
+   "ct": "D5+F5s D5+F5s C#5+E5s C#5+E5s E5+G5s E5+G5s",
+   "lct": "ra- ge, Car c'est grand dom-",
+   "cb": "Bb2s Bb2s Bb2s Bb2s Bb2s Bb2s",
+   "lcb": "ra- ge, Car c'est grand dom-",
+   "rh": "F5+D6+F6e E5+C#6+E6e G5+E6+G6e",
+   "lh": "Bb1s Bb2s Bb1s Bb2s Bb1s Bb2s",
+   "doubt": "'Le C.' imprimé en tête de chaque système ; 3 portées de chant (Le C., ténors en accords, basses).",
+   "v": "rd"
+  },
+  {
+   "su": "Bb2s Bb2s Bb2s Bb2s Bb2s Bb2s",
+   "lsu": "ma- ge De l'u- nir a-",
+   "ct": "D5+F5s D5+F5s C5+E5s C5+E5s Bb4+D5s Bb4+D5s",
+   "lct": "ma- ge De l'u- nir a-",
+   "cb": "Bb2s Bb2s Bb2s Bb2s Bb2s Bb2s",
+   "lcb": "ma- ge De l'u- nir a-",
+   "rh": "F5+D6+F6e E5+C6+E6e D5+Bb5+D6e",
+   "lh": "Bb1s Bb2s Bb1s Bb2s Bb1s Bb2s",
+   "doubt": "Bécarre sur C6 du 2e accord main droite ; pas d'altération sur C5 des ténors (do naturel).",
+   "v": "rd"
+  },
+  {
+   "su": "C3s rs C3s C3s C3s C3s",
+   "lsu": "vec Un pa- reil blanc-",
+   "ct": "A4+C5s rs G#4+B4s G#4+B4s Bb4+D5s Bb4+D5s",
+   "lct": "vec Un pa- reil blanc-",
+   "cb": "C3s rs C3s C3s C3s C3s",
+   "lcb": "vec Un pa- reil blanc-",
+   "rh": "C5+A5+C6e B4+G#5+B5e D5+Bb5+D6e",
+   "lh": "C2s C3s C2s C3s C2s C3s",
+   "doubt": "Ténors : dièse + bécarre devant G#4+B4, bémol devant Bb4 ; main droite : bécarres sur B4/B5, dièse sur G5, bémol sur Bb5.",
+   "v": "rd"
+  },
+  {
+   "su": "C3s rs C3s C3s C3s C3s",
+   "lsu": "bec! De l'u- nir a-",
+   "ct": "A4+C5s rs G4+Bb4s G4+Bb4s F4+A4s F4+A4s",
+   "lct": "bec! De l'u- nir a-",
+   "cb": "C3s rs C3s C3s C3s C3s",
+   "lcb": "bec! De l'u- nir a-",
+   "rh": "C5+A5+C6e Bb4+G5+Bb5e A4+F5+A5e",
+   "lh": "C2s C3s C2s C3s C2s C3s",
+   "doubt": "Bémol de précaution sur Bb4 des ténors.",
+   "v": "rd"
+  },
+  {
+   "su": "C3s rs C3s C3s C3s C3s",
+   "lsu": "vec Un pa- reil blanc-",
+   "ct": "G4+Bb4s rs F#4+A4s F#4+A4s A4+C5s A4+C5s",
+   "lct": "vec Un pa- reil blanc-",
+   "cb": "C3s rs C3s C3s C3s C3s",
+   "lcb": "vec Un pa- reil blanc-",
+   "rh": "Bb4+G5+Bb5e A4+F#5+A5e C5+A5+C6e",
+   "lh": "C2s C3s C2s C3s C2s C3s",
+   "v": "rd"
+  },
+  {
+   "su": "C3s rs C3s C3s C3s C3s",
+   "lsu": "bec, Un pa- reil blanc-",
+   "ct": "G4+Bb4s rs F4+A4s F4+A4s E4+G4s E4+G4s",
+   "lct": "bec, Un pa- reil blanc-",
+   "cb": "C3s rs C3s C3s C3s C3s",
+   "lcb": "bec, Un pa- reil blanc-",
+   "rh": "Bb4+G5+Bb5e A4+F5+A5e G4+E5+G5e",
+   "lh": "C2s C3s C2s C3s C2s C3s",
+   "doubt": "Bécarre sur F4 (ténors) et F5 (main droite). Mot 'blanc-bec' coupé entre p.17 et p.18.",
+   "v": "rd"
+  }
+ ]
+}

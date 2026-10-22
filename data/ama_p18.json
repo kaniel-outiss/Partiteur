@@ -1,0 +1,96 @@
+{
+ "page": 18,
+ "measures": [
+  {
+   "meter": "3/8",
+   "marks": [
+    "f"
+   ],
+   "su": "F3e rs B3s C4s C4s",
+   "lsu": "bec! C'est grand dom-",
+   "ct": "F4+A4e re re",
+   "lct": "bec!",
+   "cb": "F3e rs B3s C4s C4s",
+   "lcb": "bec! C'est grand dom-",
+   "rh": "A4+F5+A5e B4s B5s C5s C6s",
+   "lh": "F2+F3e B3e C4e",
+   "doubt": "f sur Le C. et basses. Bécarres sur B3 (chant), B4/B5 (main droite), B3 (main gauche) ; accents > au piano (B4-B5 et B3), liaisons.",
+   "v": "rd"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "su": "C4e C4",
+   "lsu": "ma- ge",
+   "ct": "Bb4+E5s Bb4+E5s Bb4+E5s Bb4+E5s Bb4+E5e",
+   "lct": "C'est un grand dom- ma-",
+   "cb": "C4 C4e",
+   "lcb": "ma- ge",
+   "rh": "E5+G5+C6+E6e E5+G5+C6+E6e E5+G5+C6+E6e",
+   "lh": "C3+Bb3+C4e C3+Bb3+C4e C3+Bb3+C4e",
+   "doubt": "f au piano (main gauche, bémol de précaution sur Bb3). Accord main droite très serré : lu E5+G5+C6+E6 (Bb5 éventuel non distingué). Point douteux après la croche des basses.",
+   "v": "rd"
+  },
+  {
+   "su": "F3s F3s B3s B3s C4e",
+   "lsu": "De l'u- nir a- vec",
+   "ct": "A4+F5e re re",
+   "lct": "ge",
+   "cb": "F3s F3s B3s B3s C4e",
+   "lcb": "De l'u- nir a- vec",
+   "rh": "F5+A5+C6+F6e B4s B5s C5s C6s",
+   "lh": "F3+A3+C4e B3e C4e",
+   "doubt": "Bécarres sur B3 (chant), B4/B5, B3 (piano) ; accents >.",
+   "v": "rd"
+  },
+  {
+   "su": "C4sd C4t C4e C4e",
+   "lsu": "Un pa- reil blanc-",
+   "ct": "Bb4+E5sd Bb4+E5t Bb4+E5e Bb4+E5e",
+   "lct": "Un pa- reil blanc-",
+   "cb": "C4sd C4t C4e C4e",
+   "lcb": "Un pa- reil blanc-",
+   "rh": "E5+G5+C6+E6e E5+G5+C6+E6e E5+G5+C6+E6e",
+   "lh": "C3+Bb3+C4e C3+Bb3+C4e C3+Bb3+C4e",
+   "doubt": "Nouveau système : portée TONIO (nom imprimé) au-dessus de Le C. ; Tonio silence. Bémol de précaution sur Bb3 main gauche.",
+   "v": "rd"
+  },
+  {
+   "v": "r rs^ C5s",
+   "ly": "Eh!",
+   "su": "F3e re re^",
+   "lsu": "bec!",
+   "ct": "A4+F5e re re^",
+   "lct": "bec!",
+   "cb": "F3e re re^",
+   "lcb": "bec!",
+   "rh": "F5e F5+A5+C6+F6e re^",
+   "lh": "F3+A3+C4e F2+F3e re^",
+   "doubt": "Accent > sur l'accord main droite et sur F2+F3 main gauche. Points d'orgue sur les silences."
+  },
+  {
+   "v": "F5 re^",
+   "ly": "bien?",
+   "su": "rd^",
+   "ct": "rd^",
+   "cb": "rd^",
+   "rh": "rd^",
+   "lh": "rd^",
+   "doubt": "Pause de mesure avec point d'orgue (chœur, Le C., piano)."
+  },
+  {
+   "marks": [
+    "Rall."
+   ],
+   "su": "F3e F3e F3e",
+   "lsu": "Si tu dis",
+   "rh": "rd",
+   "lh": "rd",
+   "doubt": "Phrase de Le C. continue à la page suivante.",
+   "v": "rd",
+   "ct": "rd",
+   "cb": "rd"
+  }
+ ]
+}

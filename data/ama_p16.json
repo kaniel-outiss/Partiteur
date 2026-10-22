@@ -1,0 +1,93 @@
+{
+ "page": 16,
+ "measures": [
+  {
+   "meter": "3/8",
+   "marks": [
+    "sf"
+   ],
+   "su": "G3d",
+   "lsu": "ma-",
+   "ct": "E5d // Bb4d",
+   "lct": "ma-",
+   "cb": "G3d",
+   "lcb": "ma-",
+   "rh": "C5+E5+C6d",
+   "lh": "C3+G3+Bb3+C4d",
+   "doubt": "Pas de noms de portées imprimés : ordre déduit de la p. précédente (Le C. clé de FA ; deux portées de clé de sol = chœur ténors divisés, notés ct 'portée 1 // portée 2' ; basses clé de FA). Suite du mot 'dom-' de la page précédente. Bécarre de précaution sur G3 (su, cb), bémol de précaution sur Bb4 (ténors 2). Accents > sur toutes les voix et le piano ; sf> au piano. Liaisons longues vers m.2 au piano (lues comme liaisons de phrasé, les notes changent).",
+   "v": "rd"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "su": "F3e re rs F3s",
+   "lsu": "ge Que",
+   "ct": "F5e re rs C5s // A4e re rs A4s",
+   "lct": "ge Que",
+   "cb": "F3e re rs F3s",
+   "lcb": "ge Que",
+   "rh": "C5+F5+C6e re C5+C6e",
+   "lh": "F3+A3+C4e F2+A2+C3+F3e F2+A2+C3+F3e",
+   "v": "rd"
+  },
+  {
+   "su": "F3e F3e rs F3s",
+   "lsu": "di- re, que",
+   "ct": "C5e F5e rs C5s // A4e A4e rs A4s",
+   "lct": "di- re, que",
+   "cb": "F3e F3e rs F3s",
+   "lcb": "di- re, que",
+   "rh": "F5+F6 E5+E6sd D5+D6t",
+   "lh": "F2+A2+C3+F3e F2+A2+C3+F3e F2+A2+C3+F3e",
+   "v": "rd"
+  },
+  {
+   "su": "F3e F3e rs F3s",
+   "lsu": "fai- re? Puis-",
+   "ct": "F5e F4e rs A4s // A4e F4e rs F4s",
+   "lct": "fai- re? Puis-",
+   "cb": "F3e F3e rs F3s",
+   "lcb": "fai- re? Puis-",
+   "rh": "C5+C6 Bb4+Bb5sd A4+A5t",
+   "lh": "F2+A2+C3+F3e F2+A2+C3+F3e F2+A2+C3+F3e",
+   "v": "rd"
+  },
+  {
+   "su": "E3s rs E3s rs E3s rs",
+   "lsu": "qu'il a su",
+   "ct": "G4+Bb4s rs G4+Bb4s rs G4+Bb4s rs",
+   "lct": "qu'il a su",
+   "cb": "E3s rs E3s rs E3s rs",
+   "lcb": "qu'il a su",
+   "rh": "G4+G5e A4+A5e G4+G5e",
+   "lh": "F2+Bb2+C3+E3e F2+Bb2+C3+E3e F2+Bb2+C3+E3e",
+   "doubt": "Nouveau système : 3 portées de chant seulement (Le C., ténors en accords sur une portée, basses).",
+   "v": "rd"
+  },
+  {
+   "su": "F3s F3s F3s F3s F3s F3s",
+   "lsu": "plai- re, Mais pour- tant j'en-",
+   "ct": "F4+A4s F4+A4s F4+A4s F4+A4s G4+Bb4s G4+Bb4s",
+   "lct": "plai- re, Mais pour- tant j'en-",
+   "cb": "F3s F3s F3s F3s F3s F3s",
+   "lcb": "plai- re, Mais pour- tant j'en-",
+   "rh": "F4+F5e A4+F5+A5e Bb4+G5+Bb5e",
+   "lh": "F2+A2+C3+F3e F2s F3s F2s F3s",
+   "doubt": "Points de staccato sur les doubles croches du chant (m.6-7).",
+   "v": "rd"
+  },
+  {
+   "su": "F3s F3s F3s F3s F3s F3s",
+   "lsu": "ra- ge, Mais pour- tant j'en-",
+   "ct": "A4+C5s A4+C5s Bb4+D5s Bb4+D5s C5+E5s C5+E5s",
+   "lct": "ra- ge, Mais pour- tant j'en-",
+   "cb": "F3s F3s F3s F3s F3s F3s",
+   "lcb": "ra- ge, Mais pour- tant j'en-",
+   "rh": "C5+A5+C6e D5+Bb5+D6e E5+C6+E6e",
+   "lh": "F2s F3s F2s F3s F2s F3s",
+   "doubt": "Mot 'j'en-ra-ge' coupé entre p.16 et p.17. Note supérieure du 3e accord main droite lue E6 (3e ligne supplémentaire), à vérifier.",
+   "v": "rd"
+  }
+ ]
+}
