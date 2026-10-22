@@ -1,0 +1,16 @@
+{"page":3,"measures":[
+{"meter":"2/2","v":"Db5 C5 rh","ly":"si- o,","rh":"re G4e Bb4+C5e G4e re G4e Bb4+C5e G4e","lh":"E3 r E3 r","doubt":"Page imprimée 69, mesures 27-40. MD : Bb4+C5 en seconde (têtes décalées), pas de bémol sur le do."},
+{"v":"F5hd G5","ly":"un de-","rh":"re F4e A4+C5e F4e re F4e A4+C5e F4e","lh":"Eb3 r Eb3 r"},
+{"v":"G5 F5 Eb5 D5","ly":"si- o ch'io non","rh":"re F4e Bb4+D5e F4e re D4e Bb4+D5e D4e","lh":"D3 r G3 r","doubt":"Bécarre (de précaution) sur ré5 au chant et sur le ré5 de l'accord MD."},
+{"v":"D5 C5 Bb4 A4","ly":"pos- _ so spie-","rh":"re Eb4e G4+C5e Eb4e re C4e Eb4+A4e C4e","lh":"Eb3 r F3 r","doubt":"Chant : D5–C5 sous liaison sur « pos »."},
+{"v":"C5 C5h Db5","ly":"gar, un de-","rh":"C4+C5hd Db4+Db5","lh":"E3e G3e Bb3e G3e E3e G3e Bb3e G3e"},
+{"v":"Db5 C5 rh","ly":"si- o,","rh":"Db4+Db5 C4+C5 rh","lh":"Eb3e Gb3e Bb3e Gb3e Eb3e F3e A3e F3e","doubt":"MG : bémol sur le sol (Gb3) au 1er groupe, bécarre sur la (A3) au 2e."},
+{"v":"F5hd G5","ly":"un de-","rh":"F4+F5hd G4+G5","lh":"D3e F3e Bb3e F3e Eb3e G3e Bb3e G3e","doubt":"MG : bécarre de précaution sur G3."},
+{"v":"G5 F5 Eb5 D5","ly":"si- o ch'io non","rh":"G4+G5 F4+F5 Eb4+Eb5 D4+D5","lh":"D3e F3e Bb3e F3e G2e G3e Bb3e G3e","doubt":"Bécarres de précaution sur D5 (chant) et D4/D5 (MD)."},
+{"v":"C5 Eb5h A4","ly":"pos- so spie-","rh":"C4+C5 Eb4+Eb5h A4","lh":"Eb3e G3e C4e G3e F3e C4e Eb4e C4e"},
+{"marks":["cresc."],"v":"Bb4w~","ly":"gar","rh":"Bb4w~ // re D4e F4e D4e re D4e F4e D4e","lh":"Bb3h Ab3h","doubt":"Chant et MD : Bb4 ronde lié à la blanche de la m. 37 (trait de prolongation sous « gar »)."},
+{"marks":["p"],"v":"Bb4h r Bb4e Ab4e","ly":"Non so","rh":"Bb4h Bb4h // re Eb4e G4e Eb4e re Eb4e Ab4e Eb4e","lh":"G3h F3h","doubt":"p au temps 3. Reprise du thème (m. 37 = levée « Non so »)."},
+{"v":"G4 G4e F4e Eb4 C5e Bb4e","ly":"più co- sa son, co- sa","rh":"re Eb4e G4e Eb4e re Eb4e G4e Eb4e","lh":"Eb3e G3e Bb3e G3e Eb3e G3e C4e G3e"},
+{"marks":["f","p"],"v":"Bb4 Ab4 r C5e Bb4e","ly":"fac- cio, or di","rh":"re Eb4e Ab4e Eb4e re Eb4e Ab4e Eb4e","lh":"F3e Ab3e C4e Ab3e F3e Ab3e C4e Ab3e","doubt":"f au temps 1, p au temps 3."},
+{"v":"Ab4 Ab4e G4e F4 F5e Eb5e","ly":"fo- co,‿o- ra so- no di","rh":"re F4e Ab4e F4e re F4e Ab4e F4e","lh":"C3e Eb3e Ab3e Eb3e Ab2e C3e Eb3e C3e","doubt":"Diffère de la m. 4 : MD F4 (et non Eb4), MG C3/Ab2 (accord de la bémol)."}
+]}

@@ -1,0 +1,15 @@
+{"page":2,"measures":[
+{"meter":"2/2","v":"Bb4h Bb4d Bb4e","ly":"fa pal- pi-","rh":"re Eb4e G4+Bb4e Eb4e re D4e F4+Ab4e D4e","lh":"Bb2h Bb2h","doubt":"Page imprimée 68, mesures 14-26."},
+{"marks":["cresc."],"v":"Eb4 r rh","ly":"tar.","rh":"Eb4 F4 G4 A4 // Eb4e Bb3e F4e Bb3e Eb4e D4e Eb4e C4e","lh":"Eb3 D3 C3 F3","doubt":"MD : voix sup. en noires (hampes en haut) Eb4 F4 G4 A♮4 ; voix inf. en croches partageant les têtes des temps 1-4. Lecture des croches inférieures (Bb3, D4, C4) avec lignes supplémentaires : à vérifier."},
+{"marks":["p"],"v":"Bb4hd A4","ly":"So- lo‿ai","rh":"Bb4e F4e F5e F4e F5e F4e F5e F4e // D4e F4e Bb4h A4","lh":"Bb2+F3 Bb3h C4","doubt":"MD : voix inf. D4–F4 croches, Bb4 blanche, A♮4 noire ; voix sup. croches. « lo ai » sous une seule note."},
+{"v":"Bb4 B4e B4e C5 D5e D5e","ly":"no- mi d'a- mor di di-","rh":"re F4e F5e F4e re F4e F5e F4e // Bb4 B4 C5 D5","lh":"D4 G#3 A3 Bb3","doubt":"Chant : 3e note sans altération après le si♮ → B♮4 (altération valable jusqu'à la barre). MD temps 4 : accord D5+F5 (D5 = voix inf.)."},
+{"v":"F5 Eb5 rh","ly":"let- to,","rh":"F5 A4+Eb5h A4+Eb5 // re F4e F5e F4e F5e F4e F5e F4e","lh":"B3 C4h C4","doubt":"MD voix sup. : F5 noire, A♮4+Eb5 blanche, A♮4+Eb5 noire (hampes en haut)."},
+{"v":"C5hd B4","ly":"mi si","rh":"re F4e F5e F4e F5e F4e F5e F4e // C5hd B4","lh":"A3hd G#3"},
+{"v":"C5 C#5e C#5e D5 Eb5e Eb5e","ly":"tur- ba, mi s'al- te- ra‿il","rh":"re F4e F5e F4e re F4e F5e F4e // C5 C#5 D5 Eb5","lh":"A3 A3 Bb3 C4","doubt":"Chant : 3e note = C#5 (dièse valable jusqu'à la barre). MD temps 4 : accord Eb5+F5 (seconde)."},
+{"v":"E5 F5 rh","ly":"pet- to","rh":"re Bb4e Bb5e Bb4e Bb5e Bb4e Bb5e Bb4e // E5 F5h F5","lh":"C#4 D4h D4","doubt":"MD voix sup. : croches aiguës lues Bb5 (tête au-dessus de la ligne supp. du la5) — à vérifier. MG : C#4 lié (legato) à D4."},
+{"v":"F5 Eb5h D5","ly":"e‿a _ par-","rh":"F5w // re F4e C5+Eb5e F4e C5+Eb5e F4e Bb4+D5e F4e","lh":"r A2 A3 Bb3","doubt":"Chant : « e a » sous la même noire (élision), bémol de précaution sur Eb5. MD : bémol de précaution devant le 1er accord."},
+{"v":"D5 C5h Bb4e D5e","ly":"la- re mi _","rh":"F5w // re F4e A4+C5e F4e A4+C5e F4e Bb4e F4e","lh":"r Eb3 Eb4 D4"},
+{"v":"F5 Eb5h D5","ly":"sfor- za d'a-","rh":"F5w // re F4e C5+Eb5e F4e C5+Eb5e F4e Bb4+D5e F4e","lh":"r A2 A3 Bb3"},
+{"v":"D5 C5 rh","ly":"mo- re","rh":"F5w // re F4e A4+C5e F4e A4+C5e F4e Bb4e F4e","lh":"r Eb4 Eb3 D3"},
+{"v":"C5hd Db5","ly":"un de-","rh":"re G4e Bb4+C5e G4e re G4e Bb4+Db5e G4e","lh":"Eb3 r Eb3 r"}
+]}
