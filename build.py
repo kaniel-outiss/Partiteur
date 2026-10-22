@@ -206,6 +206,9 @@ add_air('ven', {'id': 'mozart-la-vendetta', 'title': 'La vendetta, oh, la vendet
 add_air('dot', {'id': 'rossini-a-un-dottor', 'title': 'A un dottor della mia sorte', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
                 'role': 'Bartolo', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -3, 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 66-85'},
         69, {'name': 'Bartolo (basse)', 'short': 'Bart.', 'vt': 'B'})
+add_air('hoc', {'id': 'mozart-ho-capito', 'title': 'Ho capito, Signor, sì!', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Don Giovanni, acte I',
+                'role': 'Masetto', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': -1, 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 126-131'},
+        144, {'name': 'Masetto (baryton-basse)', 'short': 'Mas.', 'vt': 'Bar'})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return

@@ -1,0 +1,104 @@
+{
+"lang": "it",
+"ctx": "Don Giovanni (Mozart, livret de Da Ponte, 1787), acte I. Les paysans Masetto et Zerlina célèbrent leurs noces. Don Giovanni, qui a jeté son dévolu sur la mariée, ordonne à Leporello d'emmener tout le monde dans son palais — sauf Zerlina. Masetto proteste, mais l'épée du gentilhomme le fait céder. Il s'incline avec une politesse pleine de rage contenue, puis se retourne vers Zerlina pour l'injurier et lâche, amer et ironique : que le cavalier fasse donc de toi une « cavaliera » ! Air bref et nerveux (Allegro molto), où la colère perce sous la soumission.",
+"diction": [
+"Italien : « Ho capito » [ɔ kaˈpiːto], le h muet ; « Signor » [siɲˈɲor].",
+"Ironie mordante : appuyer les consonnes de « Cavalier », « affé », « bontà » ; le ton reste poli mais sarcastique.",
+"« Bricconaccia, malandrina! » : éclat de colère, doubles consonnes [kk] et [ttʃ] nettes.",
+"Élisions : « Chino‿il », « capo‿e », « piace‿a », « cavaliera‿ancora » — une seule note.",
+"Allegro molto : débit rapide mais clair ; la fin « cavaliera ancora te » répétée avec une ironie croissante, en jouant les contrastes p / f."
+],
+"lines": [
+{
+"key": "ho capito",
+"it": "Ho capito, signor, sì! Chino il capo e me ne vo; già che piace a voi così, altre repliche non fo.",
+"ipa": "ɔ kaˈpiːto siɲˈɲor si ˈkiːno il ˈkaːpo e me ne vɔ dʒa ke ˈpjaːtʃe a voi koˈzi ˈaltre ˈrɛːplike non fɔ",
+"w": [
+[
+"Ho capito",
+"j'ai compris"
+],
+[
+"Chino il capo",
+"je baisse la tête"
+],
+[
+"e me ne vo",
+"et je m'en vais"
+],
+[
+"già che piace a voi così",
+"puisque cela vous plaît ainsi"
+],
+[
+"altre repliche non fo",
+"je ne réplique pas davantage"
+]
+],
+"fr": "J'ai compris, monsieur, oui ! Je baisse la tête et je m'en vais ; puisque cela vous plaît ainsi, je n'ajoute rien."
+},
+{
+"key": "cavalier",
+"it": "Cavalier voi siete già, dubitar non posso affé; me lo dice la bontà che volete aver per me.",
+"ipa": "kavaˈljɛr voi ˈsjɛːte dʒa dubiˈtar non ˈpɔsso afˈfe me lo ˈdiːtʃe la bonˈta ke voˈleːte aˈver per me",
+"w": [
+[
+"Cavalier voi siete già",
+"vous êtes bien un gentilhomme"
+],
+[
+"dubitar non posso affé",
+"je ne peux en douter, ma foi"
+],
+[
+"me lo dice la bontà",
+"la bonté me le dit"
+],
+[
+"che volete aver per me",
+"que vous voulez avoir pour moi"
+]
+],
+"fr": "Vous êtes un gentilhomme, je ne peux en douter, ma foi : la bonté que vous voulez bien avoir pour moi me le prouve."
+},
+{
+"key": "bricconaccia",
+"it": "Bricconaccia, malandrina! Fosti ognor la mia ruina! Vengo, vengo! Resta, resta. È una cosa molto onesta: faccia il nostro cavaliere cavaliera ancora te.",
+"ipa": "brikkoˈnattʃa malanˈdriːna ˈfɔsti oɲˈɲor la ˈmiːa ruˈiːna ˈvɛŋɡo ˈvɛŋɡo ˈrɛsta ˈrɛsta ɛ ˈuːna ˈkɔːza ˈmolto oˈnɛsta ˈfattʃa il ˈnɔstro kavaˈljɛːre kavaˈljɛːra anˈkoːra te",
+"w": [
+[
+"Bricconaccia, malandrina!",
+"coquine, friponne !"
+],
+[
+"Fosti ognor la mia ruina!",
+"tu as toujours été ma ruine !"
+],
+[
+"Vengo, vengo!",
+"je viens, je viens !"
+],
+[
+"Resta, resta",
+"reste, reste"
+],
+[
+"È una cosa molto onesta",
+"c'est une chose bien honnête"
+],
+[
+"faccia il nostro cavaliere",
+"que notre gentilhomme fasse"
+],
+[
+"cavaliera ancora te",
+"de toi aussi une grande dame"
+]
+],
+"fr": "Coquine, friponne ! Tu as toujours fait mon malheur ! Je viens, je viens ! Reste, reste. C'est une chose bien honnête : que notre gentilhomme fasse aussi de toi une grande dame."
+}
+],
+"doubts": [
+"Texte (Da Ponte) vérifié sur la partition à l'assemblage."
+]
+}
