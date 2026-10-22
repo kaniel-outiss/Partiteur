@@ -1,0 +1,158 @@
+{
+"page": 6,
+"measures": [
+{
+"meter": "4/4",
+"ks": 2,
+"marks": [
+"f",
+"p"
+],
+"v": "A3h A3d A3e",
+"ly": "co- no- sce",
+"rh": "A5 A5ed A5s A5d A5e // A4 A4ed A4s A4 A4",
+"lh": "A2+A3h A3d A3e",
+"doubt": "Page imprimée 50, mesures 75-92, ordre correct. m75 enchaîne directement sur m74 (« Tutta Siviglia | conosce »). RH : octaves A4/A5 ; temps 3-4 : A5 noire pointée + croche (hampes en haut) au-dessus de deux noires A4 (hampes en bas)."
+},
+{
+"v": "D4d D4e A3 r",
+"ly": "Bar- to- lo:",
+"rh": "D5+D6d C#6s B5s A5 r",
+"lh": "D4d C#4s B3s A3 r",
+"doubt": "RH et MG : liaison sur les 4 notes."
+},
+{
+"v": "r F#3 G3 A3",
+"ly": "il bir- bo",
+"rh": "r F#4+F#5 G4+G5 A4+A5",
+"lh": "r F#2+F#3 G2+G3 A2+A3",
+"doubt": "Coins (staccato) sur les octaves RH et MG."
+},
+{
+"marks": [
+"f"
+],
+"v": "B3ed G3s G3 rh",
+"ly": "Fi- ga- ro",
+"rh": "B4+B5 G4+G5 rh",
+"lh": "B2+B3 G2+G3 rh",
+"doubt": "Coins (staccato) sur les octaves."
+},
+{
+"marks": [
+"p"
+],
+"v": "r B3 A3 C#3",
+"ly": "vo- stro sa-",
+"rh": "r D5+G5+B5 D5+F#5+A5 E4+G4+C#5",
+"lh": "r G3 A3 A2",
+"doubt": "Coins (staccato) sur les accords."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "D3 D3 D3 D3",
+"ly": "rà. Tut- ta Si-",
+"rh": "D4+D5h D5d D5e",
+"lh": "D2+D3h D3d D3e"
+},
+{
+"v": "F#3h D3 r",
+"ly": "vi- glia",
+"rh": "F#5d G5s E5s D5 r",
+"lh": "F#3d G3s E3s D3 r",
+"doubt": "Liaison sur F#-G-E-D (RH et MG)."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "A3h A3d A3e",
+"ly": "co- no- sce",
+"rh": "A4+A5e A5s A4s A5e A4+A5e A4+A5e A4+A5e A4+A5e A4+A5e",
+"lh": "A2+A3h A3d A3e",
+"doubt": "RH temps 1 : A4+A5 croche puis deux doubles croches A5, A4 (2e barre sur les deux dernières) ; temps 2 : A5 croche puis A4+A5 croche."
+},
+{
+"v": "D4d D4e A3 r",
+"ly": "Bar- to- lo:",
+"rh": "D5+D6d C#6s B5s A5 r",
+"lh": "D4d C#4s B3s A3 r"
+},
+{
+"marks": [
+"p"
+],
+"v": "r F#3 G3 A3",
+"ly": "il bir- bo",
+"rh": "r F#4+F#5 G4+G5 A4+A5",
+"lh": "r F#2+F#3 G2+G3 A2+A3"
+},
+{
+"marks": [
+"f"
+],
+"v": "B3ed G3s G3 rh",
+"ly": "Fi- ga- ro",
+"rh": "B4+B5 G4+G5 rh",
+"lh": "B2+B3 G2+G3 rh"
+},
+{
+"marks": [
+"p"
+],
+"v": "r B3 A3 C#3",
+"ly": "vo- stro sa-",
+"rh": "r D5+G5+B5 D5+F#5+A5 E4+G4+C#5",
+"lh": "r G3 A3 A2"
+},
+{
+"v": "D3 D4 D4 D4",
+"ly": "rà, il bir- bo",
+"rh": "D5s F#4s D5s F#4s D5s F#4s D5s F#4s D5+F#5s A4s D5+F#5s A4s D5+F#5s A4s D5+F#5s A4s",
+"lh": "D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e",
+"doubt": "RH m87-92 : trémolos d'alternance imprimés (deux blanches reliées par 2 barres = alternance en doubles croches sur une blanche) ; transcrits en doubles croches explicites, note supérieure d'abord. m87 : D5/F#4 puis D5+F#5/A4."
+},
+{
+"v": "D4d G3e G3h",
+"ly": "Fi- ga- ro",
+"rh": "D5+E5s B4s D5+E5s B4s D5+E5s B4s D5+E5s B4s D5+E5s B4s D5+E5s B4s D5+E5s B4s D5+E5s B4s",
+"lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e",
+"doubt": "RH : trémolo d'alternance (D5+E5 en seconde, têtes décalées) / B4."
+},
+{
+"v": "A3h A3d A3e",
+"ly": "vo- stro sa-",
+"rh": "C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s C#5+E5s A4s",
+"lh": "A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e",
+"doubt": "RH : trémolo d'alternance C#5+E5 / A4."
+},
+{
+"v": "D4 D4 D4 D4",
+"ly": "rà, il bir- bo",
+"rh": "F#5+D6s D5s F#5+D6s D5s F#5+D6s D5s F#5+D6s D5s F#5+D6s D5s F#5+D6s D5s F#5+D6s D5s F#5+D6s D5s",
+"lh": "D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e D3+D4e",
+"doubt": "RH : trémolo d'alternance F#5+D6 / D5."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "D4d G3e G3h",
+"ly": "Fi- ga- ro",
+"rh": "B5+D6s E5s B5+D6s E5s B5+D6s E5s B5+D6s E5s B5+D6s E5s B5+D6s E5s B5+D6s E5s B5+D6s E5s",
+"lh": "G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e G2+G3e",
+"doubt": "RH : trémolo d'alternance B5+D6 / E5. cresc. entre les portées."
+},
+{
+"v": "A3h A3d A3e",
+"ly": "vo- stro sa-",
+"rh": "A5+C#6s E5s A5+C#6s E5s A5+C#6s E5s A5+C#6s E5s A5+C#6s E5s A5+C#6s E5s A5+C#6s E5s A5+C#6s E5s",
+"lh": "A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e A2+A3e",
+"doubt": "Fin de page : « sa- » se poursuit page suivante (« -rà »)."
+}
+]
+}
