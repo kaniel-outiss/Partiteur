@@ -1,0 +1,200 @@
+{
+"lang": "it",
+"ctx": "Il barbiere di Siviglia (Rossini, livret de Sterbini, 1816), acte I. Le vieux docteur Bartolo, tuteur de Rosine, veut l'épouser pour sa dot. Il a remarqué qu'une feuille de papier manque, que l'encre a servi et qu'une plume a été taillée : Rosine a écrit à son amoureux (Lindoro, en réalité le comte Almaviva). Elle invente des excuses — des dragées enveloppées pour la fille de Marcellina, un dessin de broderie, un doigt brûlé — mais Bartolo n'est pas dupe et la menace de l'enfermer. Air bouffe virtuose : un Andante maestoso pompeux, puis un Allegro vivace en débit syllabique très rapide (patter).",
+"diction": [
+"Italien bouffe : consonnes très en avant, voyelles brèves dans le patter ; chaque syllabe doit rester compréhensible.",
+"« A‿un dottor » : élision, une seule note ; « dottor » avec double t.",
+"Doubles consonnes : « smorfie » (s sonore [zm]), « infinocchiar » [infinokˈkjar], « corbellar », « Cospetton », « serrata ».",
+"Patter de l'Allegro vivace : appuyer sur les temps forts, respirer aux silences ; ne pas accélérer au-delà de ce que la diction permet.",
+"Andante maestoso : pompeux, faussement digne ; le contraste avec le patter fait le comique."
+],
+"lines": [
+{
+"key": "a un dottor",
+"it": "A un dottor della mia sorte queste scuse, signorina? Vi consiglio, mia carina, un po' meglio a imposturar.",
+"ipa": "a un dotˈtor ˈdella ˈmiːa ˈsɔrte ˈkweste ˈskuːze siɲɲoˈriːna vi konˈsiʎʎo ˈmiːa kaˈriːna un pɔ ˈmɛʎʎo a imposˈturar",
+"w": [
+[
+"A un dottor della mia sorte",
+"à un docteur de mon espèce"
+],
+[
+"queste scuse",
+"ces excuses"
+],
+[
+"Vi consiglio",
+"je vous conseille"
+],
+[
+"mia carina",
+"ma mignonne"
+],
+[
+"un po' meglio a imposturar",
+"de mieux mentir"
+]
+],
+"fr": "À un docteur de ma trempe, ces excuses, mademoiselle ? Je vous conseille, ma mignonne, de mentir un peu mieux."
+},
+{
+"key": "i confetti",
+"it": "I confetti alla ragazza? Il ricamo sul tamburo? Scottata la manina? Ci vuol altro, figlia mia, per potermi corbellar.",
+"ipa": "i konˈfetti ˈalla raˈɡattsa il riˈkaːmo sul tamˈbuːro skotˈtaːta la maˈniːna tʃi vwɔl ˈaltro ˈfiʎʎa ˈmiːa per poˈtermi korbelˈlar",
+"w": [
+[
+"I confetti alla ragazza?",
+"les dragées pour la petite ?"
+],
+[
+"Il ricamo sul tamburo?",
+"la broderie sur le métier ?"
+],
+[
+"Scottata la manina?",
+"la petite main brûlée ?"
+],
+[
+"Ci vuol altro",
+"il en faut bien plus"
+],
+[
+"per potermi corbellar",
+"pour pouvoir me berner"
+]
+],
+"fr": "Les dragées pour la petite ? La broderie sur le métier ? La petite main brûlée ? Il en faut bien plus, ma fille, pour me berner."
+},
+{
+"key": "perché manca",
+"it": "Perché manca là quel foglio? Vo' saper cotesto imbroglio. Sono inutili le smorfie; ferma là, non mi toccate! Figlia mia, non lo sperate ch'io mi lasci infinocchiar.",
+"ipa": "perˈke ˈmanka la kwel ˈfɔʎʎo vɔ saˈper koˈtesto imˈbrɔʎʎo ˈsɔːno inˈuːtili le ˈzmɔrfje ˈferma la non mi tokˈkaːte ˈfiʎʎa ˈmiːa non lo speˈraːte ˈkiːo mi ˈlaʃʃi infinokˈkjar",
+"w": [
+[
+"Perché manca là quel foglio?",
+"pourquoi manque-t-il cette feuille ?"
+],
+[
+"Vo' saper",
+"je veux savoir"
+],
+[
+"cotesto imbroglio",
+"cette manigance"
+],
+[
+"Sono inutili le smorfie",
+"les simagrées sont inutiles"
+],
+[
+"non mi toccate!",
+"ne me touchez pas !"
+],
+[
+"mi lasci infinocchiar",
+"que je me laisse embobiner"
+]
+],
+"fr": "Pourquoi manque-t-il une feuille là ? Je veux savoir cette manigance. Les simagrées sont inutiles ; halte-là, ne me touchez pas ! Ma fille, n'espérez pas que je me laisse embobiner."
+},
+{
+"key": "via carina",
+"it": "Via, carina, confessate; son disposto a perdonar. Non parlate? Vi ostinate? So ben io quel che ho da far.",
+"ipa": "ˈviːa kaˈriːna konfesˈsaːte son disˈposto a perdoˈnar non parˈlaːte vi ostiˈnaːte sɔ bɛn ˈiːo kwel ke ɔ da far",
+"w": [
+[
+"Via, carina, confessate",
+"allons, mignonne, avouez"
+],
+[
+"son disposto a perdonar",
+"je suis prêt à pardonner"
+],
+[
+"Vi ostinate?",
+"vous vous entêtez ?"
+],
+[
+"So ben io quel che ho da far",
+"je sais bien ce que j'ai à faire"
+]
+],
+"fr": "Allons, mignonne, avouez ; je suis prêt à pardonner. Vous ne parlez pas ? Vous vous entêtez ? Je sais bien ce que j'ai à faire."
+},
+{
+"key": "signorina",
+"it": "Signorina, un'altra volta quando Bartolo andrà fuori, la consegna ai servitori a suo modo far saprà.",
+"ipa": "siɲɲoˈriːna unˈaltra ˈvɔlta ˈkwando ˈbartolo anˈdra ˈfwɔːri la konˈseɲɲa ai serviˈtoːri a ˈsuːo ˈmɔːdo far saˈpra",
+"w": [
+[
+"un'altra volta",
+"la prochaine fois"
+],
+[
+"quando Bartolo andrà fuori",
+"quand Bartolo sortira"
+],
+[
+"la consegna ai servitori",
+"la consigne aux domestiques"
+],
+[
+"a suo modo far saprà",
+"saura la donner à sa façon"
+]
+],
+"fr": "Mademoiselle, la prochaine fois que Bartolo sortira, il saura donner ses consignes aux domestiques à sa façon."
+},
+{
+"key": "ah non servono",
+"it": "Ah, non servono le smorfie, faccia pur la gatta morta. Cospetton! Per quella porta nemmen l'aria entrar potrà.",
+"ipa": "a non ˈsɛrvono le ˈzmɔrfje ˈfattʃa pur la ˈɡatta ˈmɔrta kospetˈton per ˈkwella ˈpɔrta nemˈmen ˈlaːrja enˈtrar poˈtra",
+"w": [
+[
+"non servono le smorfie",
+"les simagrées ne servent à rien"
+],
+[
+"faccia pur la gatta morta",
+"faites donc la sainte-nitouche"
+],
+[
+"Cospetton!",
+"sapristi !"
+],
+[
+"nemmen l'aria entrar potrà",
+"même l'air ne pourra entrer"
+]
+],
+"fr": "Ah, les simagrées ne servent à rien, faites donc la sainte-nitouche. Sapristi ! Par cette porte, même l'air ne pourra plus entrer."
+},
+{
+"key": "e rosina",
+"it": "E Rosina innocentina, sconsolata, disperata, in sua camera serrata fin ch'io voglio star dovrà.",
+"ipa": "e roˈziːna innotʃenˈtiːna skonsoˈlaːta dispeˈraːta in ˈsuːa ˈkaːmera serˈraːta fin ˈkiːo ˈvɔʎʎo star doˈvra",
+"w": [
+[
+"Rosina innocentina",
+"Rosine, la petite innocente"
+],
+[
+"sconsolata, disperata",
+"inconsolable, désespérée"
+],
+[
+"in sua camera serrata",
+"enfermée dans sa chambre"
+],
+[
+"fin ch'io voglio star dovrà",
+"devra rester tant que je le voudrai"
+]
+],
+"fr": "Et Rosine, la petite innocente, inconsolable, désespérée, devra rester enfermée dans sa chambre tant que je le voudrai."
+}
+],
+"doubts": [
+"Texte (Sterbini) vérifié sur la partition à l'assemblage : l'édition Ricordi peut différer légèrement."
+]
+}

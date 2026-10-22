@@ -203,6 +203,9 @@ add_air('tsh', {'id': 'handel-messiah-trumpet-shall-sound', 'title': 'Behold, I 
 add_air('ven', {'id': 'mozart-la-vendetta', 'title': 'La vendetta, oh, la vendetta', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
                 'role': 'Bartolo', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': 2, 'src': 'Le nozze di Figaro, Bärenreiter BA 4565, p. 45-51'},
         132, {'name': 'Bartolo (basse)', 'short': 'Bart.', 'vt': 'B'})
+add_air('dot', {'id': 'rossini-a-un-dottor', 'title': 'A un dottor della mia sorte', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
+                'role': 'Bartolo', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -3, 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 66-85'},
+        69, {'name': 'Bartolo (basse)', 'short': 'Bart.', 'vt': 'B'})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
