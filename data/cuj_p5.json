@@ -1,0 +1,131 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -4,
+   "v": "E5h E53 D53 C53",
+   "ly": "ge- ni- _ _",
+   "rh": "E4+G4e re r rh",
+   "lh": "C3+G3+C4e re r rh",
+   "doubt": "Page imprimée 93 (p-097.png), ordre OK. Mesure complète (suite de la p. 92 : « u-ni- » / « ge-ni-ti »). Triolet de noires E5-D5-C5 sous liaison ; bécarres sur E5 et D5."
+  },
+  {
+   "marks": [
+    "a piacere"
+   ],
+   "v": "C5h B4 Bb4",
+   "ly": "ti; _ _",
+   "rh": "rw",
+   "lh": "rw",
+   "doubt": "B4 bécarre puis Bb4 ; « a piacere » au-dessus de cette mesure."
+  },
+  {
+   "marks": [
+    "a tempo"
+   ],
+   "v": "Ab4hd C5ed Db5s",
+   "ly": "Quae moe- _",
+   "rh": "Ab4hd C5ed Db5s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+   "doubt": "Syllabe « re » placée sous le mi♭ de la mesure suivante (Db5 = mélisme de « moe ») ; points de staccato MG non notés."
+  },
+  {
+   "v": "Eb5hd C5ed Ab4s",
+   "ly": "re- bat, _",
+   "rh": "Eb4+Eb5hd C5ed Ab4s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re"
+  },
+  {
+   "v": "Ab5hd Ab4ed F5s",
+   "ly": "et do- _",
+   "rh": "Ab4+Ab5hd Ab4ed F5s",
+   "lh": "Ab2e re F3+Ab3+Db4ed F3+Ab3+Db4s F3+Ab3+Db4e re F3+Ab3+Db4e re"
+  },
+  {
+   "v": "Eb5hd Eb4ed Eb5s",
+   "ly": "le- bat, _",
+   "rh": "Eb5hd Eb4ed Eb5s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re"
+  },
+  {
+   "v": "Db5hd Eb4ed Db5s",
+   "ly": "et tre- _",
+   "rh": "Db5hd Eb4ed Db5s",
+   "lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3e re Eb3+G3+Bb3e re",
+   "doubt": "Basse Eb2 (1re ligne supplémentaire) lue sur scan peu net."
+  },
+  {
+   "v": "C5hd F4ed C5s",
+   "ly": "me- bat, _",
+   "rh": "C5hd F4ed C5s",
+   "lh": "C3e re G3+Bb3+C4+E4ed G3+Bb3+C4+E4s F3+A3+C4+Eb4e re F3+A3+C4+Eb4e re",
+   "doubt": "Accords MG denses : 1er = do7 (E4 bécarre imprimé), 2e = fa7 (bémol sur Eb4, bécarre sur A3) ; nombre exact de têtes incertain."
+  },
+  {
+   "v": "Bb4hd Eb4ed Bb4s",
+   "ly": "cum vi- _",
+   "rh": "Bb4hd Eb4ed Bb4s",
+   "lh": "Bb2e re F3+Ab3+D4ed F3+Ab3+D4s Eb3+G3+Bb3+Db4e re Eb3+G3+Bb3+Db4e re",
+   "doubt": "MG : D4 bécarre et Ab3 (bémol de précaution) ; 2e accord Db4 bémol ; présence de Bb3 dans le 1er accord incertaine."
+  },
+  {
+   "v": "Ab4h gC5 Ab4e re r",
+   "ly": "de- bat",
+   "rh": "Ab4h r Eb4ed Eb4s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+   "doubt": "Petite note C5 (double croche d'agrément) entre Ab4 blanche et Ab4 croche ; courbe = liaison d'expression (la croche porte « bat »)."
+  },
+  {
+   "v": "Bb4hd Cb5ed Ab4s",
+   "ly": "na- ti _",
+   "rh": "Eb4 r r Eb4ed Eb4s",
+   "lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+Ab3+Cb4e re Eb3+Ab3+Cb4e re"
+  },
+  {
+   "v": "G4hd Ab4ed Cb5s",
+   "ly": "poe- nas _",
+   "rh": "Bb4hd Cb5+Eb5ed Ab4+Eb5s",
+   "lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+Ab3+Cb4e re Eb3+Ab3+Cb4e re",
+   "doubt": "MD 4e temps écrit à deux voix (Eb5 hampes haut / Cb5-Ab4 hampes bas), noté en accords."
+  },
+  {
+   "marks": [
+    "f",
+    "<"
+   ],
+   "v": "Eb5h Eb5h",
+   "ly": "in- cly-",
+   "rh": "Bb5hd Cb6ed Ab5s // re rs Eb5s Eb5ed Eb5s Eb5ed Eb5s Eb5ed Eb5s",
+   "lh": "Eb2e rs Eb3+G3+Bb3s Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+Ab3+Cb4ed Eb3+Ab3+Cb4s",
+   "doubt": "Accents > sur les deux Eb5 du chant ; soufflet < sous la MD. MD voix sup. : Bb5 blanche pointée (1 ligne suppl.), Cb6 (2 lignes) puis Ab5."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "Eb5e re r rh",
+   "ly": "ti,",
+   "rh": "Eb5ed Eb4+Eb5s E4+E5ed E4+E5s F4+F5ed F4+F5s G4+G5ed G4+G5s",
+   "lh": "Eb3+G3+Bb3e re Bb3+Db4h Eb3+C4ed Eb3+Bb3s",
+   "doubt": "Accent > sur Eb5 (chant). MD : bécarres sur E5 et E4 (temps 2), montée en octaves. MG : « f » ; liaison de la blanche Bb3+Db4 à l'accord suivant ; bécarre de précaution sur C4 et bémol sur Eb3."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Ab4hd C5ed Db5s",
+   "ly": "et tre- _",
+   "rh": "Ab4+C5+Eb5+Ab5hd C5+C6ed Db5+Db6s",
+   "lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 // Ab2h Ab2h",
+   "doubt": "« ff » au chant et au piano. MG : triolets de croches (« 3 » imprimés) sur blanches Ab2 ; la 1re croche de chaque triolet partage la tête de la blanche. Bémol de précaution sur Eb5 (MD)."
+  },
+  {
+   "v": "Eb5hd C5ed Ab4s",
+   "ly": "me- bat, _",
+   "rh": "Eb5+Gb5+C6+Eb6hd C5+C6ed Ab4+Ab5s",
+   "lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 // Ab2h Ab2h",
+   "doubt": "MG : « 3 » non imprimés (simile). MD : bémol devant G5 → Gb5 (accord la♭7) ; lecture des lignes supplémentaires de l'accord délicate."
+  }
+ ]
+}

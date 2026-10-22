@@ -1,0 +1,89 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -4,
+   "v": "Ab5hd Ab4ed Fb5s",
+   "ly": "cum vi- _",
+   "rh": "Ab5+Db6+Ab6hd Ab4+Ab5ed Fb5+Fb6s",
+   "lh": "Ab2e3 Db3e3 F3e3 Ab3e3 F3e3 Db3e3 Ab2e3 Db3e3 Fb3e3 Ab3e3 Fb3e3 Db3e3 // Ab2h Ab2h",
+   "doubt": "Page imprimée 94 (p-098.png), ordre OK. MD accord : 3 têtes (Ab5, Db6, Ab6 au-dessus de 4 lignes suppl.) — lecture de Ab6 à vérifier. MG : triolets sans « 3 » imprimés (simile)."
+  },
+  {
+   "v": "Eb5hd Eb4ed Eb5s",
+   "ly": "de- bat _",
+   "rh": "Eb5+Ab5+C6+Eb6hd Eb5ed Eb5+Eb6s",
+   "lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 // Ab2h Ab2h"
+  },
+  {
+   "v": "Db5hd Eb4ed Db5s",
+   "ly": "na- ti _",
+   "rh": "Eb5+G5+Bb5+Db6hd Eb5ed Eb5+Db6s",
+   "lh": "Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 G3e3 // Eb3h Eb3h"
+  },
+  {
+   "v": "C5hd F4ed C5s",
+   "ly": "poe- nas _",
+   "rh": "C6hd F5ed C6s // E5+G5+Bb5h Eb5+A5h",
+   "lh": "C3e3 G3e3 C4e3 C3e3 G3e3 C4e3 F3e3 A3e3 C4e3 F3e3 A3e3 C4e3 // C3 C3 F3 F3",
+   "doubt": "MD : bécarre sur E5 (do7) puis bémol de précaution Eb5 + bécarre A5 (fa7). MG : basses en noires (têtes noires), triolets de croches sans « 3 » ; bécarre sur A3."
+  },
+  {
+   "v": "Bb4hd Eb4ed Bb4s",
+   "ly": "in- cly- _",
+   "rh": "Bb5hd Eb5ed Bb5s // D5+F5+Ab5h Db5+G5h",
+   "lh": "Bb2e3 F3e3 Bb3e3 Bb2e3 F3e3 Bb3e3 Eb3e3 G3e3 Bb3e3 Eb3e3 Bb3e3 Db4e3 // Bb2 Bb2 Eb3 Eb3",
+   "doubt": "MD : bécarre sur D5, bémol de précaution Ab5, puis bémol sur Db5."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Ab4 r r Ab4ed Ab4s",
+   "ly": "ti, quae moe-",
+   "rh": "C5+Eb5+Ab5e re Ab4ed F5s Eb5 Eb4+Ab4",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3",
+   "doubt": "« p » à la MD et à la MG. MG : 12 croches par mesure groupées par 3 (triolets, « 3 » non imprimés), liaisons d'expression."
+  },
+  {
+   "v": "Ab4 G4e re r Db5ed Db5s",
+   "ly": "re- bat et do-",
+   "rh": "r G4ed F5s Eb5 Bb4+Db5",
+   "lh": "Bb2e3 Eb3e3 G3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 G3e3 Bb3e3 Eb3e3"
+  },
+  {
+   "v": "Db5 C5e re r Ab4ed Ab4s",
+   "ly": "le- bat et tre-",
+   "rh": "r Ab4ed F5s Eb5 Eb4+Ab4",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3"
+  },
+  {
+   "v": "Ab4 G4e re r Db5ed Db5s",
+   "ly": "me- bat; cum vi-",
+   "rh": "r G4ed F5s Eb5 Bb4+Db5",
+   "lh": "Bb2e3 Eb3e3 G3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 G3e3 Bb3e3 Eb3e3"
+  },
+  {
+   "v": "Db5 Cb5e re Eb5d Eb5e",
+   "ly": "de- bat, et tre-",
+   "rh": "r Ab4ed Cb5s r Eb5 // rh Gb4+Bbb4h",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 Cb4e3 Ab3e3 Eb3e3 Cb3e3 Eb3e3 Gb3e3 Cb4e3 Cb3e3 Cb4e3",
+   "doubt": "MD temps 3-4 : blanche Gb4 + double bémol sur B4 (Bbb4) lu sur scan — à vérifier ; voix sup. soupir puis Eb5. MG : bémols sur Cb4, Cb3, Gb3."
+  },
+  {
+   "v": "Fb5d Fb5e F5d F5e",
+   "ly": "me- bat, cum vi-",
+   "rh": "r Fb5 r F5 // Fb4+Ab4h Ab4+Cb5h",
+   "lh": "Fb3e3 Ab3e3 Cb4e3 Ab3e3 Cb4e3 Fb3e3 Db3e3 F3e3 Ab3e3 Db4e3 Db3e3 Db4e3",
+   "doubt": "MD : petits traits noirs vers A4 sous les noires Fb5 et F5 (temps 2 et 4) — non transcrits (sens incertain). Bécarre sur F5 (chant et MD) et sur F3 (MG)."
+  },
+  {
+   "v": "Gb5d Gb5e G5d G5e",
+   "ly": "de- bat na- ti",
+   "rh": "r Gb5 r G5 // Gb4+Bb4h Bb4+Db5h",
+   "lh": "Gb3e3 Bb3e3 Db4e3 Bb3e3 Db4e3 Gb3e3 Eb3e3 G3e3 Bb3e3 Db4e3 Eb3e3 Db4e3",
+   "doubt": "Fin de page : la phrase continue p. 95 (« ti / poe-nas »). Bécarre sur G5 et G3."
+  }
+ ]
+}
