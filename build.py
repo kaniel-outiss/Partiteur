@@ -214,6 +214,12 @@ add_air('dqp', {'id': 'verdi-di-quella-pira', 'title': 'Di quella pira', 'compos
         100, {'name': 'Manrico (ténor)', 'short': 'Man.', 'vt': 'T', 'clef': 'G', 'oct': -12},
         extra=[{'id': 'ct', 'name': 'Chœur — ténors', 'short': 'T.', 'clef': 'G', 'oct': -12, 'vt': 'T', 'lyKey': 'lct'},
                {'id': 'cb', 'name': 'Chœur — basses', 'short': 'B.', 'clef': 'F', 'oct': 0, 'vt': 'B', 'lyKey': 'lcb'}])
+add_air('ama', {'id': 'donizetti-ah-mes-amis', 'title': 'Ah ! mes amis, quel jour de fête… Pour mon âme', 'composer': 'Gaetano Donizetti', 'work': 'La fille du régiment, acte I',
+                'role': 'Tonio', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -3, 'src': 'Tenor Arias Album, p. 129-153', 'condense': True},
+        100, {'name': 'Tonio (ténor)', 'short': 'Ton.', 'vt': 'T', 'clef': 'G', 'oct': -12},
+        extra=[{'id': 'su', 'name': 'Sulpice (basse)', 'short': 'Sul.', 'clef': 'F', 'oct': 0, 'vt': 'B', 'lyKey': 'lsu'},
+               {'id': 'ct', 'name': 'Chœur — ténors', 'short': 'T.', 'clef': 'G', 'oct': -12, 'vt': 'T', 'lyKey': 'lct'},
+               {'id': 'cb', 'name': 'Chœur — basses', 'short': 'B.', 'clef': 'F', 'oct': 0, 'vt': 'B', 'lyKey': 'lcb'}])
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
