@@ -1,0 +1,68 @@
+{
+"lang": "la",
+"ctx": "Petite messe solennelle (Rossini, 1863), Gloria. Composée à la fin de sa vie (« le dernier péché mortel de ma vieillesse », écrivait-il), pour douze chanteurs, deux pianos et harmonium, cette messe mêle ferveur et élan théâtral. Le « Domine Deus », air de ténor en ré majeur, est une marche allègre et brillante sur le texte du Gloria qui célèbre Dieu le Père et le Fils.",
+"diction": [
+"Latin d'église (prononciation italienne) : « coelestis » [tʃeˈlɛstis], « unigenite » [uniˈdʒɛnite], « Agnus » [ˈaɲɲus].",
+"« Jesu Christe » : [ˈjezu ˈkriste], le J se dit [j].",
+"Allegro giusto : rythme pointé net, consonnes vives ; c'est une marche joyeuse, pas une prière recueillie.",
+"Legato dans les phrases pp (« Domine Fili ») ; les ff restent ronds et sans dureté.",
+"Fin brillante : préparer les aigus par l'appui du souffle, voyelle [a] de « Patris » bien ouverte."
+],
+"lines": [
+{
+"key": "domine deus",
+"it": "Domine Deus, Rex coelestis, Deus Pater omnipotens.",
+"ipa": "ˈdɔmine ˈdeus reks tʃeˈlɛstis ˈdeus ˈpatɛr omˈnipotɛns",
+"w": [
+[
+"Domine Deus",
+"Seigneur Dieu"
+],
+[
+"Rex coelestis",
+"Roi du ciel"
+],
+[
+"Deus Pater omnipotens",
+"Dieu le Père tout-puissant"
+]
+],
+"fr": "Seigneur Dieu, Roi du ciel, Dieu le Père tout-puissant."
+},
+{
+"key": "domine fili",
+"it": "Domine Fili unigenite, Jesu Christe.",
+"ipa": "ˈdɔmine ˈfili uniˈdʒɛnite ˈjezu ˈkriste",
+"w": [
+[
+"Domine Fili unigenite",
+"Seigneur, Fils unique"
+],
+[
+"Jesu Christe",
+"Jésus-Christ"
+]
+],
+"fr": "Seigneur, Fils unique, Jésus-Christ."
+},
+{
+"key": "agnus",
+"it": "Domine Deus, Agnus Dei, Filius Patris.",
+"ipa": "ˈdɔmine ˈdeus ˈaɲɲus ˈdei ˈfilius ˈpatris",
+"w": [
+[
+"Agnus Dei",
+"Agneau de Dieu"
+],
+[
+"Filius Patris",
+"Fils du Père"
+]
+],
+"fr": "Seigneur Dieu, Agneau de Dieu, Fils du Père."
+}
+],
+"doubts": [
+"Texte (Gloria) vérifié sur la partition à l'assemblage."
+]
+}

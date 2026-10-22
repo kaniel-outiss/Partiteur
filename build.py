@@ -226,6 +226,9 @@ add_air('dnv', {'id': 'puccini-donna-non-vidi-mai', 'title': 'Donna non vidi mai
 add_air('cuj', {'id': 'rossini-cujus-animam', 'title': 'Cujus animam', 'composer': 'Gioachino Rossini', 'work': 'Stabat Mater, nº 2',
                 'role': None, 'voice': 'ténor', 'style': 'Musique sacrée', 'period': 'Romantique', 'ks': -4, 'src': 'Tenor Arias Album (Schirmer), p. 89-96'},
         100, {'name': 'Ténor', 'short': 'T.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('ddo', {'id': 'rossini-domine-deus', 'title': 'Domine Deus', 'composer': 'Gioachino Rossini', 'work': 'Petite messe solennelle, Gloria',
+                'role': None, 'voice': 'ténor', 'style': 'Musique sacrée', 'period': 'Romantique', 'ks': 2, 'src': 'Tenor Arias Album (arr. J. Long, Chester), p. 36-45'},
+        120, {'name': 'Ténor', 'short': 'T.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
