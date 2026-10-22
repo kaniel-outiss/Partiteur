@@ -1,0 +1,92 @@
+{
+"lang": "la",
+"ctx": "Stabat Mater (Rossini, 1832-1841), nº 2, air de ténor. Le Stabat Mater est une séquence latine médiévale (attribuée à Jacopone da Todi, XIIIe s.) qui médite sur la douleur de Marie au pied de la croix. Rossini en fait une œuvre d'un lyrisme presque opératique : ce « Cujus animam », en marche solennelle, est célèbre pour son ré bémol aigu final et sa mélodie large, que certains lui reprochèrent comme trop « théâtrale » pour un texte sacré.",
+"diction": [
+"Latin d'église (prononciation italienne) : « Cujus » [ˈkujus], « gementem » [dʒeˈmɛntem], « Unigeniti » [uniˈdʒeniti].",
+"« ae » et « oe » se disent [e] : « Quae » [kwe], « moerebat » [meˈrebat], « poenas » [ˈpenas].",
+"Doubles consonnes : « afflicta » [afˈflikta], « illa » ; « inclyti » [ˈinkliti] (y = [i]).",
+"Legato noble, marcato sur les accents de la marche ; la longue montée finale vers le ré♭ aigu se prépare par le souffle, sans pousser.",
+"Contrastes dynamiques forts (ff / pp) : les pp doivent rester timbrés."
+],
+"lines": [
+{
+"key": "cujus animam",
+"it": "Cujus animam gementem, contristatam et dolentem, pertransivit gladius.",
+"ipa": "ˈkujus ˈanimam dʒeˈmɛntem kontrisˈtatam et doˈlɛntem pertranˈsivit ˈɡladjus",
+"w": [
+[
+"Cujus animam",
+"dont l'âme"
+],
+[
+"gementem",
+"gémissante"
+],
+[
+"contristatam et dolentem",
+"attristée et souffrante"
+],
+[
+"pertransivit gladius",
+"un glaive a transpercée"
+]
+],
+"fr": "Son âme gémissante, attristée et souffrante, un glaive l'a transpercée."
+},
+{
+"key": "o quam",
+"it": "O quam tristis et afflicta fuit illa benedicta Mater Unigeniti!",
+"ipa": "o kwam ˈtristis et afˈflikta ˈfuit ˈilla beneˈdikta ˈmater uniˈdʒeniti",
+"w": [
+[
+"O quam tristis",
+"oh, combien triste"
+],
+[
+"et afflicta",
+"et affligée"
+],
+[
+"fuit illa benedicta",
+"fut cette (femme) bénie"
+],
+[
+"Mater Unigeniti",
+"la Mère du Fils unique"
+]
+],
+"fr": "Oh, combien triste et affligée fut cette femme bénie, la Mère du Fils unique !"
+},
+{
+"key": "quae",
+"it": "Quae moerebat et dolebat, et tremebat cum videbat nati poenas inclyti.",
+"ipa": "kwe meˈrebat et doˈlebat et treˈmebat kum viˈdebat ˈnati ˈpenas ˈinkliti",
+"w": [
+[
+"Quae moerebat",
+"elle qui s'affligeait"
+],
+[
+"et dolebat",
+"et souffrait"
+],
+[
+"et tremebat",
+"et tremblait"
+],
+[
+"cum videbat",
+"en voyant"
+],
+[
+"nati poenas inclyti",
+"les tourments de son glorieux Fils"
+]
+],
+"fr": "Elle s'affligeait, souffrait et tremblait en voyant les tourments de son Fils glorieux."
+}
+],
+"doubts": [
+"Texte (séquence Stabat Mater) vérifié sur la partition à l'assemblage."
+]
+}

@@ -223,6 +223,9 @@ add_air('ama', {'id': 'donizetti-ah-mes-amis', 'title': 'Ah ! mes amis, quel jou
 add_air('dnv', {'id': 'puccini-donna-non-vidi-mai', 'title': 'Donna non vidi mai', 'composer': 'Giacomo Puccini', 'work': 'Manon Lescaut, acte I',
                 'role': 'Des Grieux', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -2, 'src': 'Anthology of Italian Opera — Tenor (Ricordi), p. 161-163'},
         63, {'name': 'Des Grieux (ténor)', 'short': 'DG.', 'vt': 'T', 'clef': 'G', 'oct': -12})
+add_air('cuj', {'id': 'rossini-cujus-animam', 'title': 'Cujus animam', 'composer': 'Gioachino Rossini', 'work': 'Stabat Mater, nº 2',
+                'role': None, 'voice': 'ténor', 'style': 'Musique sacrée', 'period': 'Romantique', 'ks': -4, 'src': 'Tenor Arias Album (Schirmer), p. 89-96'},
+        100, {'name': 'Ténor', 'short': 'T.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
