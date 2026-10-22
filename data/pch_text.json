@@ -1,0 +1,176 @@
+{
+"lang": "fr",
+"ctx": "La chanson du pêcheur (Gounod, 1841), sur le « Lamento » de Théophile Gautier (La Comédie de la mort, 1838). Écrite à Rome, alors que Gounod était pensionnaire de la Villa Médicis, c'est sa première mélodie connue. Un pêcheur pleure sa bien-aimée morte : elle est remontée au ciel sans lui, toute la nature lui paraît en deuil, et il part sur la mer, seul, sans amour. Le même poème a inspiré Berlioz (« Sur les lagunes », Les Nuits d'été) et Fauré (« Chanson du pêcheur »). Trois strophes, chacune close par le refrain « Que mon sort est amer ! Ah ! sans amour s'en aller sur la mer ! », sur un accompagnement de barcarolle en doubles croches qui évoque le mouvement des flots.",
+"diction": [
+"Legato soutenu, « sostenuto sempre » : la plainte doit rester chantée, jamais larmoyante.",
+"Français chanté : e muets chantés quand la note les porte (« mor-te », « tom-be », « blan-che ») ; élisions « âme‿et », « comme‿un ».",
+"Liaisons : « mes‿amours », « sans‿amour », « s'en‿aller », « est‿amer ».",
+"Nasales pures : « tombe », « ange », « linceul » [lɛ̃sœl], « romance », « entend ».",
+"Refrain : grand élan sur « Ah ! », puis « sur la mer » qui se perd, comme la barque qui s'éloigne."
+],
+"lines": [
+{
+"key": "ma belle",
+"it": "Ma belle amie est morte, je pleurerai toujours ! Sous la tombe elle emporte mon âme et mes amours.",
+"ipa": "ma bɛl ami ɛ mɔʁtə ʒə plœʁəʁe tuʒuʁ su la tɔ̃b‿ɛl ɑ̃pɔʁtə mɔ̃ nɑm‿e me zamuʁ",
+"w": [
+[
+"Ma belle amie",
+"ma bien-aimée"
+],
+[
+"je pleurerai toujours",
+"je pleurerai toujours"
+],
+[
+"Sous la tombe",
+"dans la tombe"
+],
+[
+"elle emporte",
+"elle emporte"
+],
+[
+"mon âme et mes amours",
+"mon âme et mon amour"
+]
+],
+"fr": "Ma bien-aimée est morte, je la pleurerai toujours ! Dans la tombe, elle emporte mon âme et mes amours."
+},
+{
+"key": "dans le ciel",
+"it": "Dans le ciel, sans m'attendre, elle s'en retourna ; l'ange qui l'emmena ne voulut pas me prendre.",
+"ipa": "dɑ̃ lə sjɛl sɑ̃ matɑ̃dʁə ɛl sɑ̃ ʁətuʁna lɑ̃ʒə ki lɑ̃məna nə vuly pa mə pʁɑ̃dʁə",
+"w": [
+[
+"sans m'attendre",
+"sans m'attendre"
+],
+[
+"elle s'en retourna",
+"elle est repartie"
+],
+[
+"l'ange qui l'emmena",
+"l'ange qui l'a emmenée"
+],
+[
+"ne voulut pas me prendre",
+"n'a pas voulu m'emmener"
+]
+],
+"fr": "Elle est remontée au ciel sans m'attendre ; l'ange qui l'a emmenée n'a pas voulu me prendre."
+},
+{
+"key": "que mon sort",
+"it": "Que mon sort est amer ! Ah ! sans amour s'en aller sur la mer !",
+"ipa": "kə mɔ̃ sɔʁ ɛt‿amɛʁ a sɑ̃ zamuʁ sɑ̃n‿ale syʁ la mɛʁ",
+"w": [
+[
+"Que mon sort est amer",
+"que mon destin est amer"
+],
+[
+"sans amour",
+"sans amour"
+],
+[
+"s'en aller sur la mer",
+"partir en mer"
+]
+],
+"fr": "Que mon destin est amer ! Ah ! partir en mer sans amour !"
+},
+{
+"key": "la blanche",
+"it": "La blanche créature est couchée au cercueil. Comme dans la nature tout me paraît en deuil !",
+"ipa": "la blɑ̃ʃə kʁeatyʁə ɛ kuʃe o sɛʁkœj kɔmə dɑ̃ la natyʁə tu mə paʁɛt‿ɑ̃ dœj",
+"w": [
+[
+"La blanche créature",
+"la créature pâle (la morte)"
+],
+[
+"est couchée au cercueil",
+"repose dans le cercueil"
+],
+[
+"tout me paraît en deuil",
+"tout me semble en deuil"
+]
+],
+"fr": "La blanche créature repose dans son cercueil. Comme toute la nature me paraît en deuil !"
+},
+{
+"key": "la colombe",
+"it": "La colombe oubliée pleure et songe à l'absent ; mon âme pleure et sent qu'elle est dépareillée.",
+"ipa": "la kɔlɔ̃b‿ublie plœʁ‿e sɔ̃ʒ‿a lapsɑ̃ mɔ̃ nɑmə plœʁ‿e sɑ̃ kɛl‿ɛ depaʁɛje",
+"w": [
+[
+"La colombe oubliée",
+"la colombe abandonnée"
+],
+[
+"songe à l'absent",
+"pense à celui qui est parti"
+],
+[
+"dépareillée",
+"privée de sa moitié"
+]
+],
+"fr": "La colombe abandonnée pleure et pense à l'absent ; mon âme pleure et sent qu'elle a perdu sa moitié."
+},
+{
+"key": "sur moi",
+"it": "Sur moi la nuit immense s'étend comme un linceul ; je chante ma romance que le ciel entend seul.",
+"ipa": "syʁ mwa la nɥi imɑ̃sə setɑ̃ kɔm‿œ̃ lɛ̃sœl ʒə ʃɑ̃tə ma ʁɔmɑ̃sə kə lə sjɛl ɑ̃tɑ̃ sœl",
+"w": [
+[
+"la nuit immense",
+"l'immense nuit"
+],
+[
+"s'étend comme un linceul",
+"s'étend comme un drap mortuaire"
+],
+[
+"ma romance",
+"ma chanson"
+],
+[
+"que le ciel entend seul",
+"que seul le ciel entend"
+]
+],
+"fr": "Sur moi, la nuit immense s'étend comme un linceul ; je chante ma chanson, que seul le ciel entend."
+},
+{
+"key": "ah comme",
+"it": "Ah ! comme elle était belle, et comme je l'aimais ! Je n'aimerai jamais une femme autant qu'elle.",
+"ipa": "a kɔm‿ɛl etɛ bɛlə e kɔmə ʒə lɛmɛ ʒə nɛməʁe ʒamɛ ynə fam‿otɑ̃ kɛlə",
+"w": [
+[
+"comme elle était belle",
+"comme elle était belle"
+],
+[
+"comme je l'aimais",
+"comme je l'aimais"
+],
+[
+"Je n'aimerai jamais",
+"je n'aimerai jamais"
+],
+[
+"autant qu'elle",
+"autant qu'elle"
+]
+],
+"fr": "Ah ! comme elle était belle, et comme je l'aimais ! Je n'aimerai jamais une femme autant qu'elle."
+}
+],
+"doubts": [
+"Texte (Gautier) vérifié sur la partition (paroles imprimées) ; le refrain dit « vers la mer » à la 2e strophe."
+]
+}
