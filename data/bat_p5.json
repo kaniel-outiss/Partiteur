@@ -1,140 +1,141 @@
 {
- "page": 5,
- "measures": [
-  {
-   "meter": "2/4",
-   "marks": [
-    "tr"
-   ],
-   "doubt": "Suite de l'Andante grazioso 2/4 (page précédente). MD : groupes ornés = 2 quadruples croches + 1 triple croche (figure de trille), signe tr imprimé sur chaque groupe ; 1er silence lu comme demi-soupir",
-   "v": "F4 r",
-   "ly": "tar.",
-   "rh": "F5e re Bb5x A5x Bb5t rs A5x G5x A5t rs",
-   "lh": "F3+A3s C4s F4s C4s D4s F4s C4s F4s"
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "doubt": "MD : bécarre devant fa5 du 2e groupe (annule le fa# du 1er)",
-   "v": "r E5ed E5s",
-   "ly": "Ah, lo",
-   "rh": "G5x F#5x G5t rs F5x E5x F5t rs E5t F5t G5t A5t Bb5s E5s",
-   "lh": "Bb3+D4s F4s A3+C4s F4s G3s Bb3s C4s Bb3s // r C3"
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "doubt": "MG : 4e double croche lue mi4 (sur 2e ligne suppl.), alors que la mes. 1 a do4 ; même lecture mes. 5",
-   "v": "F5s C5s C5e r",
-   "ly": "ve- _ do,",
-   "rh": "F5s A5s C6s C6s Bb5x A5x Bb5t rs A5x G5x A5t rs",
-   "lh": "F3+A3s C4s F4s E4s D4s F4s C4s F4s"
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "r E5ed E5s",
-   "ly": "non hai",
-   "rh": "G5x F#5x G5t rs F5x E5x F5t rs E5t F5t G5t A5t Bb5s E5s",
-   "lh": "Bb3+D4s F4s A3+C4s F4s G3s Bb3s C4s Bb3s // r C3"
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "F5s C5s C5e r",
-   "ly": "co- _ re,",
-   "rh": "F5s A5s C6s C6s Bb5x A5x Bb5t rs A5x G5x A5t rs",
-   "lh": "F3+A3s C4s F4s E4s D4s F4s C4s F4s"
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "re rs C5s E5ed E5s",
-   "ly": "ah, non hai",
-   "rh": "G5x F#5x G5t rs F5x E5x F5t rs E5t F5t G5t A5t Bb5s E5s",
-   "lh": "Bb3s F4s A3s F4s G3s Bb3s C4s Bb3s // r C3"
-  },
-  {
-   "doubt": "MD : 1er temps fa5 seul (hampe en bas) ; MG voix haute en triples croches (3 barres), voix basse fa3/do3 en doubles croches + soupirs",
-   "v": "F5s C5e E5s F5s C5e E5s",
-   "ly": "co- _ re, ah, _ lo",
-   "rh": "F5s rs E4+G4s rs F4+A4s rs E4+G4s rs",
-   "lh": "A3t C4t A3t F3t G3t Bb3t C4t Bb3t A3t C4t A3t F3t G3t Bb3t C4t Bb3t // F3s rs C3s rs F3s rs C3s rs"
-  },
-  {
-   "v": "F5s C5e E5s F5s C5e E5s",
-   "ly": "ve- _ do, non _ hai",
-   "rh": "F4+A4s rs E4+G4s rs F4+A4s rs E4+G4s rs",
-   "lh": "A3t C4t A3t F3t G3t Bb3t C4t Bb3t A3t C4t A3t F3t G3t Bb3t C4t Bb3t // F3s rs C3s rs F3s rs C3s rs"
-  },
-  {
-   "len": 1,
-   "marks": [
-    "f"
-   ],
-   "doubt": "Mesure incomplète (1 noire) avant la double barre ; point d'orgue chant imprimé entre fa5 et do5, attribué au do5 ; f en MG",
-   "v": "F5e C5s^ rs",
-   "ly": "co- re:",
-   "rh": "F4+A4e re^",
-   "lh": "F3+A3e re^"
-  },
-  {
-   "meter": "6/8",
-   "len": 1.5,
-   "marks": [
-    "Allegretto"
-   ],
-   "doubt": "Début de l'Allegretto 6/8 : mesure d'anacrouse (demi-mesure, 3 croches)",
-   "v": "re C5e F5e",
-   "ly": "Pa- ce,",
-   "rh": "r re",
-   "lh": "r re"
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "F5e E5e E5e E5e D5e E5e",
-   "ly": "pa- _ ce‿o vi- _ ta",
-   "rh": "re G4+Bb4e G4+Bb4e G4+Bb4e G4+Bb4e G4+Bb4e",
-   "lh": "C3+Bb3s C4s Bb3s A3s G3s F3s E3s D3s C3s Bb2s A2s G2s"
-  },
-  {
-   "v": "F5 C5e re C5e A4e",
-   "ly": "mi- a; pa- ce,",
-   "rh": "re F4+A4e F4+A4e F4+A4e F4+A4e F4+A4e",
-   "lh": "F2s A2s Bb2s C3s D3s E3s F3s G3s A3s Bb3s C4s D4s"
-  },
-  {
-   "doubt": "MG : dernière double croche lue mi3 (remonte après ré3)",
-   "v": "C5e Bb4e Bb4e Bb4e C5e Bb4e",
-   "ly": "pa- _ ce‿o vi- _ ta",
-   "rh": "re G4e E4+G4e E4+G4e G4+Bb4e G4+Bb4e",
-   "lh": "E4s F4s E4s D4s C4s Bb3s A3s G3s F3s E3s D3s E3s"
-  },
-  {
-   "doubt": "MG voix haute : le quart de soupir du 2e temps n'est pas imprimé (caché par la noire pointée fa3), ajouté pour la durée",
-   "v": "A4 C5e Bb4e D5e F5e",
-   "ly": "mi- a; in _ con-",
-   "rh": "F4+A4e A4+C5e A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
-   "lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
-  },
-  {
-   "v": "F5e C5e A4e Bb4e D5e F5e",
-   "ly": "ten- _ ti‿ed al- _ le-",
-   "rh": "re F4+A4+C5e F4+A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
-   "lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
-  },
-  {
-   "v": "F5e C5e A4e Bb4e D5e F5e",
-   "ly": "gri- _ a not- _ te‿e",
-   "rh": "re F4+A4+C5e F4+A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
-   "lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
-  }
- ]
+"page": 5,
+"measures": [
+{
+"meter": "2/4",
+"marks": [
+"tr"
+],
+"doubt": "Suite de l'Andante grazioso 2/4 (page précédente). MD : groupes ornés = 2 quadruples croches + 1 triple croche (figure de trille), signe tr imprimé sur chaque groupe ; 1er silence lu comme demi-soupir",
+"v": "F4 r",
+"ly": "tar.",
+"rh": "F5e re Bb5x A5x Bb5t rs A5x G5x A5t rs",
+"lh": "F3+A3s C4s F4s C4s D4s F4s C4s F4s"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "MD : bécarre devant fa5 du 2e groupe (annule le fa# du 1er)",
+"v": "r E5ed E5s",
+"ly": "Ah, lo",
+"rh": "G5x F#5x G5t rs F5x E5x F5t rs E5t F5t G5t A5t Bb5s E5s",
+"lh": "Bb3+D4s F4s A3+C4s F4s G3s Bb3s C4s Bb3s // r C3"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "MG : 4e double croche lue mi4 (sur 2e ligne suppl.), alors que la mes. 1 a do4 ; même lecture mes. 5",
+"v": "F5s C5s C5e r",
+"ly": "ve- _ do,",
+"rh": "F5s A5s C6s C6s Bb5x A5x Bb5t rs A5x G5x A5t rs",
+"lh": "F3+A3s C4s F4s E4s D4s F4s C4s F4s"
+},
+{
+"marks": [
+"tr"
+],
+"v": "r E5ed E5s",
+"ly": "non hai",
+"rh": "G5x F#5x G5t rs F5x E5x F5t rs E5t F5t G5t A5t Bb5s E5s",
+"lh": "Bb3+D4s F4s A3+C4s F4s G3s Bb3s C4s Bb3s // r C3"
+},
+{
+"marks": [
+"tr"
+],
+"v": "F5s C5s C5e r",
+"ly": "co- _ re,",
+"rh": "F5s A5s C6s C6s Bb5x A5x Bb5t rs A5x G5x A5t rs",
+"lh": "F3+A3s C4s F4s E4s D4s F4s C4s F4s"
+},
+{
+"marks": [
+"tr"
+],
+"v": "re rs C5s E5ed E5s",
+"ly": "ah, non hai",
+"rh": "G5x F#5x G5t rs F5x E5x F5t rs E5t F5t G5t A5t Bb5s E5s",
+"lh": "Bb3s F4s A3s F4s G3s Bb3s C4s Bb3s // r C3"
+},
+{
+"doubt": "MD : 1er temps fa5 seul (hampe en bas) ; MG voix haute en triples croches (3 barres), voix basse fa3/do3 en doubles croches + soupirs",
+"v": "F5s C5e E5s F5s C5e E5s",
+"ly": "co- _ re, ah, _ lo",
+"rh": "F5s rs E4+G4s rs F4+A4s rs E4+G4s rs",
+"lh": "A3t C4t A3t F3t G3t Bb3t C4t Bb3t A3t C4t A3t F3t G3t Bb3t C4t Bb3t // F3s rs C3s rs F3s rs C3s rs"
+},
+{
+"v": "F5s C5e E5s F5s C5e E5s",
+"ly": "ve- _ do, non _ hai",
+"rh": "F4+A4s rs E4+G4s rs F4+A4s rs E4+G4s rs",
+"lh": "A3t C4t A3t F3t G3t Bb3t C4t Bb3t A3t C4t A3t F3t G3t Bb3t C4t Bb3t // F3s rs C3s rs F3s rs C3s rs"
+},
+{
+"len": 1,
+"marks": [
+"f"
+],
+"doubt": "Mesure incomplète (1 noire) avant la double barre ; point d'orgue chant imprimé entre fa5 et do5, attribué au do5 ; f en MG",
+"v": "F5e C5s^ rs",
+"ly": "co- re:",
+"rh": "F4+A4e re^",
+"lh": "F3+A3e re^"
+},
+{
+"meter": "6/8",
+"len": 1.5,
+"marks": [
+"Allegretto"
+],
+"doubt": "Début de l'Allegretto 6/8 : mesure d'anacrouse (demi-mesure, 3 croches)",
+"v": "re C5e F5e",
+"ly": "Pa- ce,",
+"rh": "r re",
+"lh": "r re",
+"bpm": 120
+},
+{
+"marks": [
+"p"
+],
+"v": "F5e E5e E5e E5e D5e E5e",
+"ly": "pa- _ ce‿o vi- _ ta",
+"rh": "re G4+Bb4e G4+Bb4e G4+Bb4e G4+Bb4e G4+Bb4e",
+"lh": "C3+Bb3s C4s Bb3s A3s G3s F3s E3s D3s C3s Bb2s A2s G2s"
+},
+{
+"v": "F5 C5e re C5e A4e",
+"ly": "mi- a; pa- ce,",
+"rh": "re F4+A4e F4+A4e F4+A4e F4+A4e F4+A4e",
+"lh": "F2s A2s Bb2s C3s D3s E3s F3s G3s A3s Bb3s C4s D4s"
+},
+{
+"doubt": "MG : dernière double croche lue mi3 (remonte après ré3)",
+"v": "C5e Bb4e Bb4e Bb4e C5e Bb4e",
+"ly": "pa- _ ce‿o vi- _ ta",
+"rh": "re G4e E4+G4e E4+G4e G4+Bb4e G4+Bb4e",
+"lh": "E4s F4s E4s D4s C4s Bb3s A3s G3s F3s E3s D3s E3s"
+},
+{
+"doubt": "MG voix haute : le quart de soupir du 2e temps n'est pas imprimé (caché par la noire pointée fa3), ajouté pour la durée",
+"v": "A4 C5e Bb4e D5e F5e",
+"ly": "mi- a; in _ con-",
+"rh": "F4+A4e A4+C5e A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
+"lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
+},
+{
+"v": "F5e C5e A4e Bb4e D5e F5e",
+"ly": "ten- _ ti‿ed al- _ le-",
+"rh": "re F4+A4+C5e F4+A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
+"lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
+},
+{
+"v": "F5e C5e A4e Bb4e D5e F5e",
+"ly": "gri- _ a not- _ te‿e",
+"rh": "re F4+A4+C5e F4+A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
+"lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
+}
+]
 }

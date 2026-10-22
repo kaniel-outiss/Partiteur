@@ -1,111 +1,111 @@
 {
- "page": 6,
- "measures": [
-  {
-   "meter": "6/8",
-   "doubt": "MG voix haute : quart de soupir du 2e temps non imprimé (même cas p. 54), ajouté pour la durée",
-   "v": "F5e C5e A4e Bb4e D5e F5e",
-   "ly": "dì _ vo- gliam _ pas-",
-   "rh": "re F4+A4+C5e F4+A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
-   "lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
-  },
-  {
-   "doubt": "Chant : courbe courte fa5→fa5 lue comme liaison de prolongation (sous la grande liaison de phrase). MD : bécarre sur si4. MG : quart de soupir du 2e temps non imprimé, ajouté",
-   "v": "F5d~ F5e G5e F5e",
-   "ly": "sar, _ _",
-   "rh": "re F4+A4+C5e F4+A4+C5e F5e G5e F5e // r re B4d",
-   "lh": "rs A3s C4s A3s C4s A3s rs D3s G3s D3s G3s D3s // F3d G2d"
-  },
-  {
-   "doubt": "Bémol imprimé sur le 1er mi5 du 2e temps, appliqué au dernier (jusqu'à la barre) ; MD bémol de précaution sur si4",
-   "v": "E5e C5e D5e Eb5e F5e Eb5e",
-   "ly": "_ _ _ _ _ _",
-   "rh": "E5e C5e D5e Eb5e F5e Eb5e // Bb4d A4d",
-   "lh": "rs E3s G3s E3s G3s E3s rs C3s F3s C3s F3s C3s // C3d F2d"
-  },
-  {
-   "doubt": "Bécarre sur mi5 (chant et MD) ; MG bécarre de précaution sur mi4",
-   "v": "D5 re F5e E5e D5e",
-   "ly": "_ not- _ te‿e",
-   "rh": "Bb4+D5 re D5+F5e C5+E5e Bb4+D5e",
-   "lh": "Bb2s D3s Eb3s F3s G3s A3s Bb3s A3s Bb3s C4s D4s E4s"
-  },
-  {
-   "v": "C5e D5e C5e Bb4e A4e G4e",
-   "ly": "dì _ vo- gliam _ pas-",
-   "rh": "A4+C5e Bb4+D5e A4+C5e G4+Bb4e F4+A4e E4+G4e",
-   "lh": "F4s E4s D4s C4s Bb3s A3s Bb3s G3s C4s D4s E4s C4s"
-  },
-  {
-   "v": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
-   "ly": "sar, _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
-   "lh": "F4s E4s D4s C4s Bb3s A3s G3s F3s E3s D3s C3s Bb2s"
-  },
-  {
-   "v": "C5d Bb4 Bb4e",
-   "ly": "_ not- te‿e",
-   "rh": "C5d G4+Bb4d",
-   "lh": "A2s Bb2s C3s D3s E3s F3s G3s A3s Bb3s C4s D4s E4s"
-  },
-  {
-   "doubt": "MG : 1re note fa4 imprimée entre parenthèses",
-   "v": "A4e Bb4e C5e Bb4e A4e G4e",
-   "ly": "dì _ vo- gliam _ pas-",
-   "rh": "F4+A4e G4+Bb4e A4+C5e G4+Bb4e F4+A4e E4+G4e",
-   "lh": "F4s E4s D4s C4s Bb3s A3s Bb3s G3s C4s D4s E4s C4s"
-  },
-  {
-   "v": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
-   "ly": "sar, _ _ _ _ _ _ _ _ _ _ _",
-   "rh": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
-   "lh": "F4s E4s D4s C4s Bb3s A3s G3s F3s E3s D3s C3s Bb2s"
-  },
-  {
-   "v": "C5d Bb4 Bb4e",
-   "ly": "_ not- te‿e",
-   "rh": "C5d G4+Bb4d",
-   "lh": "A2s Bb2s C3s D3s E3s F3s G3s A3s Bb3s C4s D4s E4s"
-  },
-  {
-   "doubt": "MD : 1re croche la4 seul (pas de fa4). MG : bécarre sur si3",
-   "v": "A4e Bb4e C5e Bb4e A4e G4e",
-   "ly": "dì _ vo- gliam _ pas-",
-   "rh": "A4e G4+Bb4e A4+C5e G4+Bb4e F4+A4e E4+G4e",
-   "lh": "F4s E4s D4s C4s Bb3s A3s Bb3s G3s C4s B3s C4s C3s"
-  },
-  {
-   "v": "F4 re re G4e G4e",
-   "ly": "sar. Pa- ce,",
-   "rh": "F4 re re G4e G4e",
-   "lh": "rs A3s C4s A3s C4s A3s rs Bb3s C4s Bb3s C4s Bb3s // F3d E3d"
-  },
-  {
-   "doubt": "MG 2e temps : mi3 (hampe en haut) commence le groupe, do3 pointé en voix basse",
-   "v": "A4e E4e F4e Bb4e F#4e G4e",
-   "ly": "pa- _ ce‿o vi- _ ta",
-   "rh": "A4e E4e F4e Bb4e F#4e G4e",
-   "lh": "rs A3s C4s A3s C4s A3s E3s G3s C4s G3s C4s G3s // F3d C3d"
-  },
-  {
-   "doubt": "Courbe do5→do5 (3e→4e croche) lue comme liaison de prolongation ; «a;___» puis «pa-ce,» sur si♭4/sol4",
-   "v": "C5e F5e C5e~ C5e Bb4e G4e",
-   "ly": "mi- _ a; pa- ce,",
-   "rh": "C5e F5e C5e~ C5e Bb4e G4e",
-   "lh": "rs A3s C4s A3s C4s A3s rs G3s C4s G3s C4s G3s // F3d E3d"
-  },
-  {
-   "v": "C5e A4e F4e A4ed Bb4s G4e",
-   "ly": "pa- _ ce‿o vi- _ ta",
-   "rh": "C5e A4e F4e F4+A4ed G4+Bb4s E4+G4e",
-   "lh": "rs A3s C4s A3s C4s A3s F3s C4s F3s C4s C3s C4s // F3d C3d"
-  },
-  {
-   "doubt": "MD : les deux croches finales sont sol5 (au-dessus de la portée). MG 2e temps : mi3 hampe en haut + sol3 pointé en voix basse",
-   "v": "F4 F4e re G4e G4e",
-   "ly": "mi- a; in con-",
-   "rh": "F4 re re G5e G5e",
-   "lh": "rs A3s C4s A3s C4s A3s E3s Bb3s C4s Bb3s C4s Bb3s // F3d G3d"
-  }
- ]
+"page": 6,
+"measures": [
+{
+"meter": "6/8",
+"doubt": "MG voix haute : quart de soupir du 2e temps non imprimé (même cas p. 54), ajouté pour la durée",
+"v": "F5e C5e A4e Bb4e D5e F5e",
+"ly": "dì _ vo- gliam _ pas-",
+"rh": "re F4+A4+C5e F4+A4+C5e re F4+Bb4+D5e F4+Bb4+D5e",
+"lh": "rs A3s C4s A3s C4s A3s rs Bb3s D4s Bb3s D4s Bb3s // F3d F3d"
+},
+{
+"doubt": "Chant : courbe courte fa5→fa5 lue comme liaison de prolongation (sous la grande liaison de phrase). MD : bécarre sur si4. MG : quart de soupir du 2e temps non imprimé, ajouté",
+"v": "F5d~ F5e G5e F5e",
+"ly": "sar, _ _",
+"rh": "re F4+A4+C5e F4+A4+C5e F5e G5e F5e // r re B4d",
+"lh": "rs A3s C4s A3s C4s A3s rs D3s G3s D3s G3s D3s // F3d G2d"
+},
+{
+"doubt": "Bémol imprimé sur le 1er mi5 du 2e temps, appliqué au dernier (jusqu'à la barre) ; MD bémol de précaution sur si4",
+"v": "E5e C5e D5e Eb5e F5e Eb5e",
+"ly": "_ _ _ _ _ _",
+"rh": "E5e C5e D5e Eb5e F5e Eb5e // Bb4d A4d",
+"lh": "rs E3s G3s E3s G3s E3s rs C3s F3s C3s F3s C3s // C3d F2d"
+},
+{
+"doubt": "Bécarre sur mi5 (chant et MD) ; MG bécarre de précaution sur mi4",
+"v": "D5 re F5e E5e D5e",
+"ly": "_ not- _ te‿e",
+"rh": "Bb4+D5 re D5+F5e C5+E5e Bb4+D5e",
+"lh": "Bb2s D3s Eb3s F3s G3s A3s Bb3s A3s Bb3s C4s D4s E4s"
+},
+{
+"v": "C5e D5e C5e Bb4e A4e G4e",
+"ly": "dì _ vo- gliam _ pas-",
+"rh": "A4+C5e Bb4+D5e A4+C5e G4+Bb4e F4+A4e E4+G4e",
+"lh": "F4s E4s D4s C4s Bb3s A3s Bb3s G3s C4s D4s E4s C4s"
+},
+{
+"v": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
+"ly": "sar, _ _ _ _ _ _ _ _ _ _ _",
+"rh": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
+"lh": "F4s E4s D4s C4s Bb3s A3s G3s F3s E3s D3s C3s Bb2s"
+},
+{
+"v": "C5d Bb4 Bb4e",
+"ly": "_ not- te‿e",
+"rh": "C5d G4+Bb4d",
+"lh": "A2s Bb2s C3s D3s E3s F3s G3s A3s Bb3s C4s D4s E4s"
+},
+{
+"doubt": "MG : 1re note fa4 imprimée entre parenthèses",
+"v": "A4e Bb4e C5e Bb4e A4e G4e",
+"ly": "dì _ vo- gliam _ pas-",
+"rh": "F4+A4e G4+Bb4e A4+C5e G4+Bb4e F4+A4e E4+G4e",
+"lh": "F4s E4s D4s C4s Bb3s A3s Bb3s G3s C4s D4s E4s C4s"
+},
+{
+"v": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
+"ly": "sar, _ _ _ _ _ _ _ _ _ _ _",
+"rh": "A5s G5s Bb5s A5s G5s F5s E5s D5s G5s F5s E5s D5s",
+"lh": "F4s E4s D4s C4s Bb3s A3s G3s F3s E3s D3s C3s Bb2s"
+},
+{
+"v": "C5d Bb4 Bb4e",
+"ly": "_ not- te‿e",
+"rh": "C5d G4+Bb4d",
+"lh": "A2s Bb2s C3s D3s E3s F3s G3s A3s Bb3s C4s D4s E4s"
+},
+{
+"doubt": "MD : 1re croche la4 seul (pas de fa4). MG : bécarre sur si3",
+"v": "A4e Bb4e C5e Bb4e A4e G4e",
+"ly": "dì _ vo- gliam _ pas-",
+"rh": "A4e G4+Bb4e A4+C5e G4+Bb4e F4+A4e E4+G4e",
+"lh": "F4s E4s D4s C4s Bb3s A3s Bb3s G3s C4s B3s C4s C3s"
+},
+{
+"v": "F4 re re G4e G4e",
+"ly": "sar. Pa- ce,",
+"rh": "F4 re re G4e G4e",
+"lh": "rs A3s C4s A3s C4s A3s rs Bb3s C4s Bb3s C4s Bb3s // F3d E3d"
+},
+{
+"doubt": "MG 2e temps : mi3 (hampe en haut) commence le groupe, do3 pointé en voix basse",
+"v": "A4e E4e F4e Bb4e F#4e G4e",
+"ly": "pa- _ ce‿o vi- _ ta",
+"rh": "A4e E4e F4e Bb4e F#4e G4e",
+"lh": "rs A3s C4s A3s C4s A3s E3s G3s C4s G3s C4s G3s // F3d C3d"
+},
+{
+"doubt": "Courbe do5→do5 (3e→4e croche) lue comme liaison de prolongation ; «a;___» puis «pa-ce,» sur si♭4/sol4",
+"v": "C5e F5e C5e~ C5e Bb4e G4e",
+"ly": "mi- _ a; pa- ce,",
+"rh": "C5e F5e C5e~ C5e Bb4e G4e",
+"lh": "rs A3s C4s A3s C4s A3s rs G3s C4s G3s C4s G3s // F3d E3d"
+},
+{
+"v": "C5e A4e F4e A4ed Bb4s G4e",
+"ly": "pa- _ ce‿o vi- _ ta",
+"rh": "C5e A4e F4e F4+A4ed G4+Bb4s E4+G4e",
+"lh": "rs A3s C4s A3s C4s A3s F3s C4s F3s C4s C3s C4s // F3d C3d"
+},
+{
+"doubt": "MD : les deux croches finales sont sol5 (au-dessus de la portée). MG 2e temps : mi3 hampe en haut + sol3 pointé en voix basse",
+"v": "F4 F4e re G4e G4e",
+"ly": "mi- a; in con-",
+"rh": "F4 re re G5e G5e",
+"lh": "rs A3s C4s A3s C4s A3s E3s Bb3s C4s Bb3s C4s Bb3s // F3d G3d"
+}
+]
 }

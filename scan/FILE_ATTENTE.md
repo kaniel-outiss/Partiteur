@@ -19,8 +19,8 @@
 16. ✅ (0.55) Je veux vivre — sop_arias.pdf
 17. ✅ (0.56) Signore, ascolta ! — sop_arias.pdf
 18. ✅ (0.56) Tu che di gel sei cinta — sop_arias.pdf
-19. Batti, batti — sop_arias.pdf
-20. Vedrai, carino — sop_arias.pdf
+19. ✅ (0.57) Batti, batti — sop_arias.pdf
+20. ✅ (0.57) Vedrai, carino — sop_arias.pdf
 21. Voi che sapete — nozze.pdf (Nr. 12)
 22. Non so più cosa son — nozze.pdf (Nr. 6)
 23. I know that my Redeemer liveth — messiah.pdf (nº 45)

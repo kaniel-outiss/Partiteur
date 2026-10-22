@@ -1,141 +1,141 @@
 {
- "page": 3,
- "measures": [
-  {
-   "meter": "2/4",
-   "marks": [
-    "tr"
-   ],
-   "v": "rh",
-   "ly": "",
-   "rh": "G5t F#5t G5s G4s D5+G5s C5+F5s B4+E5s A4+D5s G4+C5s",
-   "lh": "C3+E3s G3s C4s B3s A3s G3s F3s E3s",
-   "doubt": "Page imprimée 52 (ordre OK). tr sur le 1er sol5 MD ; sol5-fa#5 lus en triples croches (3e barre partielle), puis 7 doubles croches. MG : liaison d'expression."
-  },
-  {
-   "marks": [],
-   "v": "re B4s C5s D5s E5s F5s B4s",
-   "ly": "La- sce- rò stra- ziar- mi‿il",
-   "rh": "F4+C5s B4s B4s C5s D5s E5s D5+F5s B4s",
-   "lh": "D3s D4s F4s E4s D4s C4s B3s F4s // G2 G3",
-   "doubt": "Paroles imprimées « Lasce-rò straziar-mi il » : découpage La-sce-rò stra-ziar-mi‿il sur 6 notes. MG 2 voix (sol2, sol3 noires hampes en bas)."
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "C5e C5e r",
-   "ly": "cri- ne,",
-   "rh": "C5e A5 B5s A5t B5t",
-   "lh": "E4s C4s F4s E4s D4s C4s B3s A3s",
-   "doubt": "tr sur si5 bécarre (MD). Rythme MD lu : do5 croche, la5 noire, si5 double + la5-si5 triples croches."
-  },
-  {
-   "marks": [],
-   "v": "rh",
-   "ly": "",
-   "rh": "C6e G5s rs G5s rs G5s rs",
-   "lh": "C3+E3s G3s E3s C3s G2s B2s D3s F3s",
-   "doubt": "MD : do6 croche (pas de point visible) + sol5 double croche."
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "rh",
-   "ly": "",
-   "rh": "G5t F#5t G5s G4s D5+G5s C5+F5s B4+E5s A4+D5s G4+C5s",
-   "lh": "C3+E3s G3s C4s B3s A3s G3s F3s E3s",
-   "doubt": "Identique à la mesure 1 de la page (tr sur sol5)."
-  },
-  {
-   "marks": [],
-   "v": "re B4s C5s D5s E5s F5s B4s",
-   "ly": "la- sce- rò ca- var- mi",
-   "rh": "F4+C5s B4s B4s C5s D5s E5s D5+F5s B4s",
-   "lh": "D3s D4s F4s E4s D4s C4s B3s F4s // G2e re G3"
-  },
-  {
-   "marks": [],
-   "v": "C5e C5e E5s G5s C5s E5s",
-   "ly": "gli‿oc- chi, e _ le _",
-   "rh": "C5 E5s G5s C5s E5s",
-   "lh": "E4s G4s C4s E4s G3s C4s rs C4s"
-  },
-  {
-   "marks": [],
-   "v": "B4s D5s rs D5s E5s G5s C5s E5s",
-   "ly": "ca- _ re tue _ ma- _",
-   "rh": "B4s D5s rs D5s E5s G5s C5s E5s",
-   "lh": "G3+D4s F4s G3s B3s G3+C4s E4s rs C4s"
-  },
-  {
-   "marks": [],
-   "v": "B4s D5s rs D5s E5s G5s C5s E5s",
-   "ly": "ni- _ ne lie- _ ta _",
-   "rh": "B4s D5s rs D5s E5s G5s C5s E5s",
-   "lh": "G3+D4s F4s G3s B3s G3+C4s E4s rs C4s"
-  },
-  {
-   "marks": [],
-   "v": "B4s D5s rs D5s E5s G5s C5s E5s",
-   "ly": "poi _ sa- prò _ ba- _",
-   "rh": "B4s D5s rs D5s E5s G5s C5s E5s",
-   "lh": "G3+D4s F4s G3s B3s G3+C4s E4s rs C4s"
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "gG5 F5d E5e",
-   "ly": "ciar, sa-",
-   "rh": "gG5 D5+F5d C5+E5e",
-   "lh": "G3s B3s D4s C4s B3s G3s C4s E3s",
-   "doubt": "Petite note sol5 (croche) au chant et à la MD."
-  },
-  {
-   "marks": [],
-   "v": "D5ed E5t F5t C5e B4e",
-   "ly": "prò _ _ _ ba-",
-   "rh": "D5 C5e B4e // A4s G4s A4s F4s E4s G4s D4s F4s",
-   "lh": "F3 G3e G2e",
-   "doubt": "MD 2 voix (ré5 noire puis do5-si5 croches hampes en haut)."
-  },
-  {
-   "marks": [
-    "fp"
-   ],
-   "v": "gG5 F5d E5e",
-   "ly": "ciar, ba-",
-   "rh": "re G4e G4+G5e G4+G5e",
-   "lh": "G3d C4e // G3s B3s D4s C4s B3s D4s C4s E4s",
-   "doubt": "Point du fa5 non visible au scan (rétabli pour la durée). MG 2 voix : sol3 noire pointée + do4 croche (hampes en haut) sur les doubles croches."
-  },
-  {
-   "marks": [
-    "fp"
-   ],
-   "v": "gG5 F5d E5e",
-   "ly": "ciar, sa-",
-   "rh": "re G4e G4+G5e G4+G5e",
-   "lh": "G3d C4e // G3s B3s D4s C4s B3s D4s C4s E4s",
-   "doubt": "Point du fa5 non visible au scan (rétabli pour la durée)."
-  },
-  {
-   "marks": [],
-   "v": "C#5s D5s C#5s D5s C#5s D5s E5s F5s",
-   "ly": "prò, _ _ _ _ _ sa- _",
-   "rh": "Bb3+E4+G4s A3+D4+F4s Bb3+E4+G4s A3+D4+F4s Bb3+E4+G4s A3+D4+F4s G3+C#4+E4s F3+D4+F4s",
-   "lh": "F3 F2"
-  },
-  {
-   "marks": [],
-   "v": "gF5 C5d E5s D5s",
-   "ly": "prò ba- _",
-   "rh": "re C4+E4e re B3+D4e",
-   "lh": "G2s E3s G3s C4s G2s F3s G3s B3s // G2e re G2e re",
-   "doubt": "Bécarre de précaution sur do5 (chant) et do4 (MD). MG : sol2 croche hampe en bas partagé avec les doubles croches. Mesure coupée ? non : la page 53 commence par « ciar. »."
-  }
- ]
+"page": 3,
+"measures": [
+{
+"meter": "2/4",
+"marks": [
+"tr"
+],
+"v": "rh",
+"ly": "",
+"rh": "G5t F#5t G5s G4s D5+G5s C5+F5s B4+E5s A4+D5s G4+C5s",
+"lh": "C3+E3s G3s C4s B3s A3s G3s F3s E3s",
+"doubt": "Page imprimée 52 (ordre OK). tr sur le 1er sol5 MD ; sol5-fa#5 lus en triples croches (3e barre partielle), puis 7 doubles croches. MG : liaison d'expression."
+},
+{
+"marks": [],
+"v": "re B4s C5s D5s E5s F5s B4s",
+"ly": "La- sce- rò stra- ziar- mi‿il",
+"rh": "F4+C5s B4s B4s C5s D5s E5s D5+F5s B4s",
+"lh": "D3s D4s F4s E4s D4s C4s B3s F4s // G2 G3",
+"doubt": "Paroles imprimées « Lasce-rò straziar-mi il » : découpage La-sce-rò stra-ziar-mi‿il sur 6 notes. MG 2 voix (sol2, sol3 noires hampes en bas)."
+},
+{
+"marks": [
+"tr"
+],
+"v": "C5e C5e r",
+"ly": "cri- ne,",
+"rh": "C5e A5 B5s A5t B5t",
+"lh": "E4s C4s F4s E4s D4s C4s B3s A3s",
+"doubt": "tr sur si5 bécarre (MD). Rythme MD lu : do5 croche, la5 noire, si5 double + la5-si5 triples croches."
+},
+{
+"marks": [],
+"v": "rh",
+"ly": "",
+"rh": "C6e G5s rs G5s rs G5s rs",
+"lh": "C3+E3s G3s E3s C3s G2s B2s D3s F3s",
+"doubt": "MD : do6 croche (pas de point visible) + sol5 double croche."
+},
+{
+"marks": [
+"tr"
+],
+"v": "rh",
+"ly": "",
+"rh": "G5t F#5t G5s G4s D5+G5s C5+F5s B4+E5s A4+D5s G4+C5s",
+"lh": "C3+E3s G3s C4s B3s A3s G3s F3s E3s",
+"doubt": "Identique à la mesure 1 de la page (tr sur sol5)."
+},
+{
+"marks": [],
+"v": "re B4s C5s D5s E5s F5s B4s",
+"ly": "la- sce- rò ca- var- mi",
+"rh": "F4+C5s B4s B4s C5s D5s E5s D5+F5s B4s",
+"lh": "D3s D4s F4s E4s D4s C4s B3s F4s // G2e re G3"
+},
+{
+"marks": [],
+"v": "C5e C5e E5s G5s C5s E5s",
+"ly": "gli‿oc- chi, e _ le _",
+"rh": "C5 E5s G5s C5s E5s",
+"lh": "E4s G4s C4s E4s G3s C4s rs C4s"
+},
+{
+"marks": [],
+"v": "B4s D5s rs D5s E5s G5s C5s E5s",
+"ly": "ca- _ re tue _ ma- _",
+"rh": "B4s D5s rs D5s E5s G5s C5s E5s",
+"lh": "G3+D4s F4s G3s B3s G3+C4s E4s rs C4s"
+},
+{
+"marks": [],
+"v": "B4s D5s rs D5s E5s G5s C5s E5s",
+"ly": "ni- _ ne lie- _ ta _",
+"rh": "B4s D5s rs D5s E5s G5s C5s E5s",
+"lh": "G3+D4s F4s G3s B3s G3+C4s E4s rs C4s"
+},
+{
+"marks": [],
+"v": "B4s D5s rs D5s E5s G5s C5s E5s",
+"ly": "poi _ sa- prò _ ba- _",
+"rh": "B4s D5s rs D5s E5s G5s C5s E5s",
+"lh": "G3+D4s F4s G3s B3s G3+C4s E4s rs C4s"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "gG5 F5d E5e",
+"ly": "ciar, sa-",
+"rh": "gG5 D5+F5d C5+E5e",
+"lh": "G3s B3s D4s C4s B3s G3s C4s E3s",
+"doubt": "Petite note sol5 (croche) au chant et à la MD."
+},
+{
+"marks": [],
+"v": "D5ed E5t F5t C5e B4e",
+"ly": "prò _ _ _ ba-",
+"rh": "D5 C5e B4e // A4s G4s A4s F4s E4s G4s D4s F4s",
+"lh": "F3 G3e G2e",
+"doubt": "MD 2 voix (ré5 noire puis do5-si5 croches hampes en haut)."
+},
+{
+"marks": [
+"fp"
+],
+"v": "gG5 F5d E5e",
+"ly": "ciar, ba-",
+"rh": "re G4e G4+G5e G4+G5e",
+"lh": "G3d C4e // G3s B3s D4s C4s B3s D4s C4s E4s",
+"doubt": "Point du fa5 non visible au scan (rétabli pour la durée). MG 2 voix : sol3 noire pointée + do4 croche (hampes en haut) sur les doubles croches."
+},
+{
+"marks": [
+"fp"
+],
+"v": "gG5 F5d E5e",
+"ly": "ciar, sa-",
+"rh": "re G4e G4+G5e G4+G5e",
+"lh": "G3d C4e // G3s B3s D4s C4s B3s D4s C4s E4s",
+"doubt": "Point du fa5 non visible au scan (rétabli pour la durée)."
+},
+{
+"marks": [],
+"v": "C#5s D5s C#5s D5s C#5s D5s E5s F5s",
+"ly": "prò, _ _ _ _ _ sa- _",
+"rh": "Bb3+E4+G4s A3+D4+F4s Bb3+E4+G4s A3+D4+F4s Bb3+E4+G4s A3+D4+F4s G3+C#4+E4s F3+D4+F4s",
+"lh": "F3 F2"
+},
+{
+"marks": [],
+"v": "gF5 C5d E5s D5s",
+"ly": "prò ba- _",
+"rh": "re C4+E4e re B3+D4e",
+"lh": "G2s E3s G3s C4s G2s F3s G3s B3s // G2e re G2e re",
+"doubt": "Bécarre de précaution sur do5 (chant) et do4 (MD). MG : sol2 croche hampe en bas partagé avec les doubles croches. Mesure coupée ? non : la page 53 commence par « ciar. »."
+}
+]
 }

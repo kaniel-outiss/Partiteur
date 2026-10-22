@@ -1,91 +1,92 @@
 {
- "page": 1,
- "measures": [
-  {
-   "meter": "4/4",
-   "len": 2,
-   "ks": 0,
-   "tempo": "secco recitativo",
-   "marks": [
-    "secco recitativo"
-   ],
-   "v": "re B4s B4s B4e A4s B4s",
-   "ly": "Ma se col- pa‿io non",
-   "rh": "rh",
-   "lh": "D3+E3+G#3+B3h~",
-   "doubt": "Page imprimée 50 (titre « Batti, batti, o bel Masetto », Mozart). Récitatif « Ma se colpa io non ho! » (et non « Masetto, senti un po' » comme indiqué dans le guide). Mesure de chiffrage « (4/4) » entre parenthèses, sans armure (ks 0). 1re mesure incomplète (2 temps : demi-pause implicite avant l'entrée de Zerlina, len 2). Le piano n'a qu'UNE portée (clé de FA) : accords mis dans lh, rh = silences. Ici 1re note = croche-pause puis 2 doubles croches."
-  },
-  {
-   "v": "G#4 rs G#4s G#4s A4s B4e B4s B4s D5e D5s C5s",
-   "ly": "ho! Ma se da lui in- gan- na- ta ri-",
-   "rh": "rw",
-   "lh": "D3+E3+G#3+B3w",
-   "doubt": "Accord de la basse lié depuis la mesure précédente (ronde, sans altération réimprimée : G# conservé par la liaison). Les 2 G4 de « Ma se » portent le dièse de « ho! » (même mesure)."
-  },
-  {
-   "v": "A4e A4e rs A4s A4s B4s C#5e C#5e re E5e",
-   "ly": "ma- si... E poi che te- mi? Tran-",
-   "rh": "rw",
-   "lh": "C3+A3+E4h G3+A3+C#4+E4h~",
-   "doubt": "Astérisque (appoggiatura recommended) sur « ma-si » (1re note) : non appliquée, notes écrites transcrites. Bécarre de précaution devant C3."
-  },
-  {
-   "v": "C#5ed C#5s C#5e D5e D5e A4e rs A4s A4s A4s",
-   "ly": "quil- la- ti, mia vi- ta: non mi toc-",
-   "rh": "rw",
-   "lh": "G3+A3+C#4+E4h F#3+A3+D4h~"
-  },
-  {
-   "v": "D5e rs D5s F#5s F#5s E5s F#5s D5e D5e rs A4s A4s A4s",
-   "ly": "cò la pun- ta del- le di- ta. Non me lo",
-   "rh": "rw",
-   "lh": "F#3+A3+D4w~",
-   "doubt": "Astérisque (appoggiatura recommended) sur « di-ta » : non appliquée. Dièse de précaution entre parenthèses « (♯) » devant F3 à la basse."
-  },
-  {
-   "v": "D5e D5e re D5e B4e B4e re G4e",
-   "ly": "cre- di? In- gra- to! Vien",
-   "rh": "rw",
-   "lh": "F#3+A3+D4h F3+G3+B3+D4h~",
-   "doubt": "Astérisque (appoggiatura recommended) sur « gra-to » : non appliquée. 1er accord (blanche) lié depuis la mesure précédente, lu F#3+A3+D4 (tête médiane un peu ambiguë). 2e accord : bécarre sur F3."
-  },
-  {
-   "v": "B4 D5e G4s G4s re G4e B4e B4s B4s",
-   "ly": "qui, sfo- ga- ti, am- maz- za- mi—",
-   "rh": "rw",
-   "lh": "F3+G3+B3+D4w~"
-  },
-  {
-   "v": "re B4e B4e B4s C5s D5e D5e D5e E5e",
-   "ly": "fa' tut- to di me quel che ti",
-   "rh": "rw",
-   "lh": "F3+G3+B3+D4w",
-   "doubt": "Accord de basse lié depuis la mesure précédente (même accord F3 G3 B3 D4)."
-  },
-  {
-   "v": "C5e C5e re G4e C5e C5e E5ed C5s",
-   "ly": "pia- ce; ma poi, Ma- set- to",
-   "rh": "rw",
-   "lh": "E3+C4+G4w",
-   "doubt": "Astérisque (appoggiatura recommended) sur « pia-ce » : non appliquée."
-  },
-  {
-   "v": "B4e B4e r F5 B4ed B4s",
-   "ly": "mi- o, ma poi fa'",
-   "rh": "rw",
-   "lh": "D3+G3+B3+F4w",
-   "doubt": "Astérisque (appoggiatura recommended) sur « mi-o » : non appliquée."
-  },
-  {
-   "len": 1,
-   "marks": [
-    "attacca l'aria"
-   ],
-   "v": "C5e C5e",
-   "ly": "pa- ce.",
-   "rh": "r",
-   "lh": "C3+G3+C4+E4",
-   "doubt": "Dernière mesure du récitatif incomplète (1 temps, len 1), suivie de la double barre ; armure fa majeur (1 bémol) et 2/4 annoncés en fin de système pour l'air (p. 51)."
-  }
- ]
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"len": 2,
+"ks": 0,
+"tempo": "secco recitativo",
+"marks": [
+"secco recitativo"
+],
+"v": "re B4s B4s B4e A4s B4s",
+"ly": "Ma se col- pa‿io non",
+"rh": "rh",
+"lh": "D3+E3+G#3+B3h~",
+"doubt": "Page imprimée 50 (titre « Batti, batti, o bel Masetto », Mozart). Récitatif « Ma se colpa io non ho! » (et non « Masetto, senti un po' » comme indiqué dans le guide). Mesure de chiffrage « (4/4) » entre parenthèses, sans armure (ks 0). 1re mesure incomplète (2 temps : demi-pause implicite avant l'entrée de Zerlina, len 2). Le piano n'a qu'UNE portée (clé de FA) : accords mis dans lh, rh = silences. Ici 1re note = croche-pause puis 2 doubles croches.",
+"bpm": 88
+},
+{
+"v": "G#4 rs G#4s G#4s A4s B4e B4s B4s D5e D5s C5s",
+"ly": "ho! Ma se da lui in- gan- na- ta ri-",
+"rh": "rw",
+"lh": "D3+E3+G#3+B3w",
+"doubt": "Accord de la basse lié depuis la mesure précédente (ronde, sans altération réimprimée : G# conservé par la liaison). Les 2 G4 de « Ma se » portent le dièse de « ho! » (même mesure)."
+},
+{
+"v": "A4e A4e rs A4s A4s B4s C#5e C#5e re E5e",
+"ly": "ma- si... E poi che te- mi? Tran-",
+"rh": "rw",
+"lh": "C3+A3+E4h G3+A3+C#4+E4h~",
+"doubt": "Astérisque (appoggiatura recommended) sur « ma-si » (1re note) : non appliquée, notes écrites transcrites. Bécarre de précaution devant C3."
+},
+{
+"v": "C#5ed C#5s C#5e D5e D5e A4e rs A4s A4s A4s",
+"ly": "quil- la- ti, mia vi- ta: non mi toc-",
+"rh": "rw",
+"lh": "G3+A3+C#4+E4h F#3+A3+D4h~"
+},
+{
+"v": "D5e rs D5s F#5s F#5s E5s F#5s D5e D5e rs A4s A4s A4s",
+"ly": "cò la pun- ta del- le di- ta. Non me lo",
+"rh": "rw",
+"lh": "F#3+A3+D4w~",
+"doubt": "Astérisque (appoggiatura recommended) sur « di-ta » : non appliquée. Dièse de précaution entre parenthèses « (♯) » devant F3 à la basse."
+},
+{
+"v": "D5e D5e re D5e B4e B4e re G4e",
+"ly": "cre- di? In- gra- to! Vien",
+"rh": "rw",
+"lh": "F#3+A3+D4h F3+G3+B3+D4h~",
+"doubt": "Astérisque (appoggiatura recommended) sur « gra-to » : non appliquée. 1er accord (blanche) lié depuis la mesure précédente, lu F#3+A3+D4 (tête médiane un peu ambiguë). 2e accord : bécarre sur F3."
+},
+{
+"v": "B4 D5e G4s G4s re G4e B4e B4s B4s",
+"ly": "qui, sfo- ga- ti, am- maz- za- mi—",
+"rh": "rw",
+"lh": "F3+G3+B3+D4w~"
+},
+{
+"v": "re B4e B4e B4s C5s D5e D5e D5e E5e",
+"ly": "fa' tut- to di me quel che ti",
+"rh": "rw",
+"lh": "F3+G3+B3+D4w",
+"doubt": "Accord de basse lié depuis la mesure précédente (même accord F3 G3 B3 D4)."
+},
+{
+"v": "C5e C5e re G4e C5e C5e E5ed C5s",
+"ly": "pia- ce; ma poi, Ma- set- to",
+"rh": "rw",
+"lh": "E3+C4+G4w",
+"doubt": "Astérisque (appoggiatura recommended) sur « pia-ce » : non appliquée."
+},
+{
+"v": "B4e B4e r F5 B4ed B4s",
+"ly": "mi- o, ma poi fa'",
+"rh": "rw",
+"lh": "D3+G3+B3+F4w",
+"doubt": "Astérisque (appoggiatura recommended) sur « mi-o » : non appliquée."
+},
+{
+"len": 1,
+"marks": [
+"attacca l'aria"
+],
+"v": "C5e C5e",
+"ly": "pa- ce.",
+"rh": "r",
+"lh": "C3+G3+C4+E4",
+"doubt": "Dernière mesure du récitatif incomplète (1 temps, len 1), suivie de la double barre ; armure fa majeur (1 bémol) et 2/4 annoncés en fin de système pour l'air (p. 51)."
+}
+]
 }

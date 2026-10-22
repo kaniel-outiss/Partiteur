@@ -1,136 +1,137 @@
 {
- "page": 2,
- "measures": [
-  {
-   "meter": "2/4",
-   "len": 1,
-   "ks": -1,
-   "tempo": "Andante grazioso",
-   "marks": [
-    "Andante grazioso",
-    "p sempre legato"
-   ],
-   "v": "C5e Bb4e",
-   "ly": "Bat- ti,",
-   "rh": "C5e Bb4e",
-   "lh": "C3s E3s G3s E3s",
-   "doubt": "Page imprimée 51. Levée d'un temps (len 1) au début de l'air. Pas de numéros de mesure imprimés."
-  },
-  {
-   "v": "A4e G4e F4ed G4s",
-   "ly": "bat- ti‿o bel Ma-",
-   "rh": "A4e G4e F4ed G4s",
-   "lh": "F3s C4s Bb3s C4s A3s C4s Bb3s C4s // F3h",
-   "doubt": "LH : blanche F3 (hampe haut) à l'unisson de la 1re double croche F3."
-  },
-  {
-   "v": "F4e E4e Bb4e A4e",
-   "ly": "set- to, la tua",
-   "rh": "F4e E4e Bb4e A4e",
-   "lh": "A3s C4s G3s C4s G3s C4s F3s C4s // C3 r"
-  },
-  {
-   "v": "G4e D5e C5ed Bb4s",
-   "ly": "po- ve- ra Zer-",
-   "rh": "G4e D5e C5ed Bb4s",
-   "lh": "E3s C4s F3s C4s E3s C4s G3s C4s // C3 C3",
-   "doubt": "LH : têtes E3+C3 groupées au 1er et 3e quart ; E3 attribué aux doubles croches (hampe haut), C3 aux noires (hampe bas)."
-  },
-  {
-   "v": "C5s Bb4s A4e F5e C5e",
-   "ly": "li- _ na. Sta- rò",
-   "rh": "C5s Bb4s A4e F5e C5e",
-   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
-  },
-  {
-   "v": "A4ed C5s F5e C5e",
-   "ly": "qui co- me‿a- gnel-",
-   "rh": "A4ed C5s F5e C5e",
-   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
-  },
-  {
-   "v": "A4ed C5s F5e C5e",
-   "ly": "li- na le tue",
-   "rh": "A4ed C5s F5e C5e",
-   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
-  },
-  {
-   "v": "A4e Bb4s C5s D5s C5s Bb4s A4s",
-   "ly": "bot- te ad a- _ spet- _",
-   "rh": "A4s F4+A4s G4+Bb4s A4+C5s Bb4+D5s A4+C5s G4+Bb4s F4+A4s",
-   "lh": "F3 F2",
-   "doubt": "« te ad » imprimés sans signe d'élision : deux notes distinctes. Liaisons D5-C5 et Bb4-A4 = mélismes."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "G4 r",
-   "ly": "tar.",
-   "rh": "E4+G4 C5+C6e Bb4+Bb5e",
-   "lh": "C3s C4s B3s C4s A3s C4s G3s C4s",
-   "doubt": "Bémols de précaution imprimés devant Bb4 et Bb5 (RH) ; bécarre sur B3 (LH)."
-  },
-  {
-   "v": "r C5ed F5s",
-   "ly": "Bat- ti,",
-   "rh": "A4+A5e G4+G5e F4+F5ed G4+G5s",
-   "lh": "F3s C4s Bb3s C4s A3s C4s Bb3s C4s // F3h",
-   "doubt": "LH : bémol de précaution devant Bb3 ; blanche F3 à l'unisson de la 1re double croche."
-  },
-  {
-   "v": "F5e E5e r",
-   "ly": "bat- ti",
-   "rh": "F4+F5e E4+E5e Bb4+Bb5e A4+A5e",
-   "lh": "A3s C4s G3s C4s G3s C4s F3s C4s // C3 r"
-  },
-  {
-   "v": "re D5e C5ed Bb4s",
-   "ly": "la tua Zer-",
-   "rh": "G4+G5e D5+D6e C5+C6ed Bb4+Bb5s",
-   "lh": "E3s C4s F3s C4s E3s C4s G3s C4s // C3 C3"
-  },
-  {
-   "v": "C5s Bb4s A4e F5e C5e",
-   "ly": "li- _ na: Sta- rò",
-   "rh": "C5+C6s Bb4+Bb5s A4+A5e F5+F6e C5+C6e",
-   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
-  },
-  {
-   "v": "A4ed C5s F5e C5e",
-   "ly": "qui, _ sta- rò",
-   "rh": "A4+A5ed C5+C6s F5+F6e C5+C6e",
-   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
-  },
-  {
-   "v": "A4ed C5s F5e C5e",
-   "ly": "qui _ le tue",
-   "rh": "A4+A5ed C5+C6s F5+F6e C5+C6e",
-   "lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
-  },
-  {
-   "v": "A4s C5s F4s A4s C4ed E4s",
-   "ly": "bot- _ te ad a- spet-",
-   "rh": "A5s C6s F5s A5s C5ed E5s",
-   "lh": "F3s A3s C4s Bb3s A3s C4s Bb3s G3s // r C3e C3e",
-   "doubt": "Liaison A4-C5 (« bot- » mélisme). « te ad » : petit signe ambigu sous le texte (élision ?) mais 2 notes F4/A4 → syllabes séparées. LH : 2e voix (croches C3 C3) seulement sur le 2e temps, pas de silence imprimé au 1er temps (r ajouté)."
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "F4 r",
-   "ly": "tar.",
-   "rh": "F5e A5 B5s A5t B5t",
-   "lh": "F3s C4s F4s E4s D4s C4s B3s A3s // F3h",
-   "doubt": "RH : trille (tr) sur B5 bécarre ; B5 A5 B5 = double croche + 2 triples croches (lecture des ligatures). LH : bécarre sur B3 ; blanche F3 à l'unisson."
-  },
-  {
-   "v": "rh",
-   "ly": "",
-   "rh": "C6e G5s rs G5s rs G5s rs",
-   "lh": "E3s G3s E3s C3s G2s B2s D3s F3s // C3e re G2e re",
-   "doubt": "Chant : pause (mesure entière). LH : bécarre sur B2 ; G2 partagé entre les deux voix."
-  }
- ]
+"page": 2,
+"measures": [
+{
+"meter": "2/4",
+"len": 1,
+"ks": -1,
+"tempo": "Andante grazioso",
+"marks": [
+"Andante grazioso",
+"p sempre legato"
+],
+"v": "C5e Bb4e",
+"ly": "Bat- ti,",
+"rh": "C5e Bb4e",
+"lh": "C3s E3s G3s E3s",
+"doubt": "Page imprimée 51. Levée d'un temps (len 1) au début de l'air. Pas de numéros de mesure imprimés.",
+"bpm": 66
+},
+{
+"v": "A4e G4e F4ed G4s",
+"ly": "bat- ti‿o bel Ma-",
+"rh": "A4e G4e F4ed G4s",
+"lh": "F3s C4s Bb3s C4s A3s C4s Bb3s C4s // F3h",
+"doubt": "LH : blanche F3 (hampe haut) à l'unisson de la 1re double croche F3."
+},
+{
+"v": "F4e E4e Bb4e A4e",
+"ly": "set- to, la tua",
+"rh": "F4e E4e Bb4e A4e",
+"lh": "A3s C4s G3s C4s G3s C4s F3s C4s // C3 r"
+},
+{
+"v": "G4e D5e C5ed Bb4s",
+"ly": "po- ve- ra Zer-",
+"rh": "G4e D5e C5ed Bb4s",
+"lh": "E3s C4s F3s C4s E3s C4s G3s C4s // C3 C3",
+"doubt": "LH : têtes E3+C3 groupées au 1er et 3e quart ; E3 attribué aux doubles croches (hampe haut), C3 aux noires (hampe bas)."
+},
+{
+"v": "C5s Bb4s A4e F5e C5e",
+"ly": "li- _ na. Sta- rò",
+"rh": "C5s Bb4s A4e F5e C5e",
+"lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+},
+{
+"v": "A4ed C5s F5e C5e",
+"ly": "qui co- me‿a- gnel-",
+"rh": "A4ed C5s F5e C5e",
+"lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+},
+{
+"v": "A4ed C5s F5e C5e",
+"ly": "li- na le tue",
+"rh": "A4ed C5s F5e C5e",
+"lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+},
+{
+"v": "A4e Bb4s C5s D5s C5s Bb4s A4s",
+"ly": "bot- te ad a- _ spet- _",
+"rh": "A4s F4+A4s G4+Bb4s A4+C5s Bb4+D5s A4+C5s G4+Bb4s F4+A4s",
+"lh": "F3 F2",
+"doubt": "« te ad » imprimés sans signe d'élision : deux notes distinctes. Liaisons D5-C5 et Bb4-A4 = mélismes."
+},
+{
+"marks": [
+"p"
+],
+"v": "G4 r",
+"ly": "tar.",
+"rh": "E4+G4 C5+C6e Bb4+Bb5e",
+"lh": "C3s C4s B3s C4s A3s C4s G3s C4s",
+"doubt": "Bémols de précaution imprimés devant Bb4 et Bb5 (RH) ; bécarre sur B3 (LH)."
+},
+{
+"v": "r C5ed F5s",
+"ly": "Bat- ti,",
+"rh": "A4+A5e G4+G5e F4+F5ed G4+G5s",
+"lh": "F3s C4s Bb3s C4s A3s C4s Bb3s C4s // F3h",
+"doubt": "LH : bémol de précaution devant Bb3 ; blanche F3 à l'unisson de la 1re double croche."
+},
+{
+"v": "F5e E5e r",
+"ly": "bat- ti",
+"rh": "F4+F5e E4+E5e Bb4+Bb5e A4+A5e",
+"lh": "A3s C4s G3s C4s G3s C4s F3s C4s // C3 r"
+},
+{
+"v": "re D5e C5ed Bb4s",
+"ly": "la tua Zer-",
+"rh": "G4+G5e D5+D6e C5+C6ed Bb4+Bb5s",
+"lh": "E3s C4s F3s C4s E3s C4s G3s C4s // C3 C3"
+},
+{
+"v": "C5s Bb4s A4e F5e C5e",
+"ly": "li- _ na: Sta- rò",
+"rh": "C5+C6s Bb4+Bb5s A4+A5e F5+F6e C5+C6e",
+"lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+},
+{
+"v": "A4ed C5s F5e C5e",
+"ly": "qui, _ sta- rò",
+"rh": "A4+A5ed C5+C6s F5+F6e C5+C6e",
+"lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+},
+{
+"v": "A4ed C5s F5e C5e",
+"ly": "qui _ le tue",
+"rh": "A4+A5ed C5+C6s F5+F6e C5+C6e",
+"lh": "F3s A3s C4s Bb3s A3s C4s E3+G3+Bb3s C4s"
+},
+{
+"v": "A4s C5s F4s A4s C4ed E4s",
+"ly": "bot- _ te ad a- spet-",
+"rh": "A5s C6s F5s A5s C5ed E5s",
+"lh": "F3s A3s C4s Bb3s A3s C4s Bb3s G3s // r C3e C3e",
+"doubt": "Liaison A4-C5 (« bot- » mélisme). « te ad » : petit signe ambigu sous le texte (élision ?) mais 2 notes F4/A4 → syllabes séparées. LH : 2e voix (croches C3 C3) seulement sur le 2e temps, pas de silence imprimé au 1er temps (r ajouté)."
+},
+{
+"marks": [
+"tr"
+],
+"v": "F4 r",
+"ly": "tar.",
+"rh": "F5e A5 B5s A5t B5t",
+"lh": "F3s C4s F4s E4s D4s C4s B3s A3s // F3h",
+"doubt": "RH : trille (tr) sur B5 bécarre ; B5 A5 B5 = double croche + 2 triples croches (lecture des ligatures). LH : bécarre sur B3 ; blanche F3 à l'unisson."
+},
+{
+"v": "rh",
+"ly": "",
+"rh": "C6e G5s rs G5s rs G5s rs",
+"lh": "E3s G3s E3s C3s G2s B2s D3s F3s // C3e re G2e re",
+"doubt": "Chant : pause (mesure entière). LH : bécarre sur B2 ; G2 partagé entre les deux voix."
+}
+]
 }
