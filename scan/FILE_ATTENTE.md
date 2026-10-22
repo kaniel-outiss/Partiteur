@@ -7,7 +7,7 @@
 6. ✅ (0.44) Ah ! mes amis, quel jour de fête — ten_album.pdf 133-157 (mi♭ M, 2/4)
 7. ✅ (0.46) Donna non vidi mai — ten_ricordi.pdf 161-163 (si♭ M, 3/4 puis 4/4)
 8. ✅ (0.47) Cujus animam — ten_album.pdf 93-100 (la♭ M, 4/4)
-9. Domine Deus — ten_album.pdf 40-49 (ré M, 4/4)
+9. ✅ (0.48) Domine Deus — ten_album.pdf 40-49 (ré M, 4/4)
 
 ## Ajout du 22/10 (femmes + Messie ténor), après la liste ci-dessus
 10. O mio babbino caro — sop_arias.pdf
