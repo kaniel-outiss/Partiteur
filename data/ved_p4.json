@@ -1,0 +1,221 @@
+{
+"page": 4,
+"measures": [
+{
+"meter": "3/8",
+"doubt": "m.g. en clé de SOL ; accords m.d. et m.g. piqués ; le # vaut pour toute la mesure",
+"v": "D5s C#5s D5s C#5s D5s C#5s",
+"ly": "Sen- _ ti- _ lo _",
+"rh": "A5+D6s Bb5+C#6s A5+D6s Bb5+C#6s A5+D6s Bb5+C#6s",
+"lh": "F4s E4+G4s F4s E4+G4s F4s E4+G4s"
+},
+{
+"doubt": "m.g. repasse en clé de FA en fin de mesure",
+"v": "D5s C#5s D5s C#5s D5s E5s",
+"ly": "bat- _ te- _ re, _",
+"rh": "A5+D6s Bb5+C#6s A5+D6s Bb5+C#6s A5+D6s rs",
+"lh": "F4s E4+G4s F4s E4+G4s F4s rs"
+},
+{
+"doubt": "liaisons vers m. suivante",
+"v": "F5ed D5s B4e",
+"ly": "toc- ca- mi",
+"rh": "D4+F4+B4d",
+"lh": "G3d"
+},
+{
+"doubt": "bécarre de précaution sur C5 (chant)",
+"v": "C5e E5e re",
+"ly": "qua, qua,",
+"rh": "E4+C5e re G4+C5e",
+"lh": "C3+C4e re E3e"
+},
+{
+"v": "E5ed F5s D5e",
+"ly": "toc- ca- mi",
+"rh": "C4+E4ed D4+F4s B3+D4e",
+"lh": "G3d"
+},
+{
+"v": "C5e E5e re",
+"ly": "qua, qua,",
+"rh": "C4e re G4+C5e",
+"lh": "C3e re E3e"
+},
+{
+"doubt": "m.g. : F3 et G3 accolés (seconde) sur la croche",
+"v": "E5ed F5s D5e",
+"ly": "toc- ca- mi",
+"rh": "C4+E4ed D4+F4s B3+D4e",
+"lh": "G3 F3+G3e"
+},
+{
+"marks": [
+"cresc."
+],
+"doubt": "E5 chant : crochet non visible, lu croche (durée de mesure)",
+"v": "G5e F5e E5e",
+"ly": "qua, _ qua,",
+"rh": "C4+G4e F4+B4e E4+C5e",
+"lh": "E3+G3e D3+G3e C3+G3e"
+},
+{
+"doubt": "hauteurs des 4 dernières doubles croches m.d. lues avec l'inclinaison de la portée",
+"v": "gE5 D5e C5e B4e",
+"ly": "toc- ca- mi",
+"rh": "F4+D5s F4+D5s E4+C5s E4+C5s D4+B4s D4+B4s",
+"lh": "F3e G3e G2+G3e"
+},
+{
+"marks": [
+"f"
+],
+"doubt": "dernière note chantée de l'air ; liaisons m.g. vers m. suivante",
+"v": "C5 re",
+"ly": "qua.",
+"rh": "E4+C5e E4+C5e E4+C5e",
+"lh": "C3+C4d~"
+},
+{
+"doubt": "système sans portée de chant",
+"v": "rd",
+"ly": "",
+"rh": "gC5 gD5 G4+E5ed F4+D5s E4+C5e",
+"lh": "C4d // C3d~"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "F4+B4e F4+B4e G4+C5e",
+"lh": "D3 E3e // C3d~"
+},
+{
+"marks": [
+"tr"
+],
+"v": "rd",
+"ly": "",
+"rh": "G4+B4e F4+A4e E4+G4e",
+"lh": "F3s G3s A3s B3s C4e // C3d"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "E4+C5e E4+C5e E4+C5e",
+"lh": "C3e E3e C3e"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "gC5 gD5 G4+E5ed F4+D5s E4+C5e",
+"lh": "G2+G3d~"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "différent de m.7 : B4 seul (pas d'accord G4+B4) et D4 seul en voix basse",
+"v": "rd",
+"ly": "",
+"rh": "C5s B4t C5t D5e B4e // E4e F4e D4e",
+"lh": "G2+G3 G3e"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "D4+B4 E4+C5s rs",
+"lh": "G3 C3s rs"
+},
+{
+"marks": [
+"tr",
+"p"
+],
+"v": "rd",
+"ly": "",
+"rh": "F5ed E5t F5t E5s rs",
+"lh": "G3+B3+D4 C4+E4s rs"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "clé de SOL à la m.g. en fin de mesure",
+"v": "rd",
+"ly": "",
+"rh": "B5ed A5t B5t C6s rs",
+"lh": "G3+D4+F4 C4+E4s rs"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "A5+D6s Bb5+C#6s A5+D6s Bb5+C#6s A5+D6s Bb5+C#6s",
+"lh": "F4s E4+G4s F4s E4+G4s F4s E4+G4s"
+},
+{
+"doubt": "clé de FA à la m.g. en fin de mesure",
+"v": "rd",
+"ly": "",
+"rh": "A5+D6s Bb5+C#6s A5+D6s Bb5+C#6s A5+D6s rs",
+"lh": "F4s E4+G4s F4s E4+G4s F4s rs"
+},
+{
+"doubt": "bécarre devant l'accord m.g. (annule le Bb)",
+"v": "rd",
+"ly": "",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "accord final m.d. lu E4+C5 (peu net)",
+"v": "rd",
+"ly": "",
+"rh": "G5s F5t G5t A5e E4+C5e",
+"lh": "C4+E4e F3+F4e G3e"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "E4+C5e G4e B4e",
+"lh": "C3s E3s G3s E3s F3s D3s // C3 G2e"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "C5e G4e B4e",
+"lh": "C3s E3s G3s E3s F3s D3s // C3 G2e"
+},
+{
+"marks": [
+"pp"
+],
+"doubt": "liaisons vers la dernière mesure (m.d. et m.g.)",
+"v": "rd",
+"ly": "",
+"rh": "G4+C5+E5d",
+"lh": "G2+G3d"
+},
+{
+"doubt": "double barre finale ; note grave m.g. lue C3 (peut-être D3)",
+"v": "rd",
+"ly": "",
+"rh": "E4+C5e re re",
+"lh": "C3+G3e re re"
+}
+]
+}
