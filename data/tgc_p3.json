@@ -1,0 +1,88 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "2/4",
+   "ks": -6,
+   "marks": [
+    "a tempo",
+    "pp"
+   ],
+   "v": "Bb4 Bb4",
+   "ly": "co- ra...",
+   "rh": "Bb4 Bb4 // re Eb4+Gb4 Eb4+Gb4e~",
+   "lh": "Bb3 Bb3 // red Eb4s Bb3e rs Eb3s",
+   "doubt": "p.174 (page imprimée vérifiée). Armure imprimée : 6 bémols (mi♭ mineur), pas « sans armure » comme dit le guide ; altérations effectives écrites. Liaisons d'expression Eb3→Bb2 (lh) non notées."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "poco rit."
+   ],
+   "v": "rh re Gb5e Eb5e C5e",
+   "ly": "ei vin- ca‿an-",
+   "rh": "Bb4 C5e Db5e Eb5e F5e Db5e C5e // Eb4+Gb4e Eb4+Gb4 Gb4+Ab4e Ab4+Bb4e Bb4+C5e F4+Gb4",
+   "lh": "Bb3 C4e Db4e Eb4e F4e Db4e C4e // Bb2e re r rh",
+   "doubt": "rh voix sup. temps 3½ : F5 (tête sur la ligne, le chant a Gb5) ; temps 4 : Db5 ou Eb5 (lu Db5, doublure de lh Db4). Soufflets < > non notés."
+  },
+  {
+   "meter": "2/4",
+   "marks": [
+    "a tempo"
+   ],
+   "v": "Bb4 Bb4",
+   "ly": "co- ra...",
+   "rh": "Bb4 Bb4 // re Eb4+Gb4 Eb4+Gb4e~",
+   "lh": "Bb3 Bb2+Bb3~ // red Eb3s Bb2e rs Eb2s",
+   "doubt": "lh : seul le Bb3 est lié à la mesure suivante (Bb2 non lié)."
+  },
+  {
+   "v": "r re Gb4e",
+   "ly": "per",
+   "rh": "Bb4 F4e Gb4e // Eb4+Gb4e Eb4+Gb4e Cb4+Eb4e Cb4+Eb4e",
+   "lh": "Bb3 Bb3s Ab3s Gb3e // Bb1h~",
+   "doubt": "lh grave : blanche sous 2 lignes supplémentaires lue Bb1 (liée à la mesure suivante). Pas de chiffre de mesure imprimé : 2/4 continue."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "rall."
+   ],
+   "v": "Ab4 re Gb4e Ab4e Bb4e Gb4e F4e",
+   "ly": "non... per non ve- der- lo",
+   "rh": "Ab4e Ab4e F4e Gb4e Cb4+Eb4+Ab4e Cb4+Eb4+Bb4e Cb4+Eb4+Gb4e D4+F4e // Cb4+Eb4e Cb4+Eb4e Cb4+Eb4 rh",
+   "lh": "F3 re Bb3s Ab3s F3e Gb3e Ab3e Bb3e // Bb1e re r rh",
+   "doubt": "rh dernier accord : bécarre devant D4 (D4♮+F4). Trait oblique imprimé de rh vers lh (conduite de voix) non noté."
+  },
+  {
+   "meter": "2/4",
+   "marks": [
+    "a tempo"
+   ],
+   "v": "Eb4h",
+   "ly": "più!",
+   "rh": "Eb4 Eb4 // re Bb3s Cb4s re Db4s Cb4s",
+   "lh": "re Gb3s Ab3s re Bb3s Ab3s // Eb3 Eb3",
+   "doubt": "rh : bémol (de précaution) imprimé devant Db4."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "cresc. con calore"
+   ],
+   "v": "rh Ab4e Bb4s Bb4s Db5e Cb5e",
+   "ly": "Pri- ma di que- sta‿au-",
+   "rh": "Eb4 F4e Gb4e Ab4e Bb4e Db5e Cb5e // re Ab3s Bb3s re Ab3+Db4e Bb3+Eb4e Cb4+F4e Eb4+Ab4",
+   "lh": "re F3s Gb3s F3e Gb3e Ab3e Bb3e Db4e Cb4e // Eb3 rhd",
+   "doubt": "« cresc. con calore » : chant au temps 3, piano au temps 2."
+  },
+  {
+   "marks": [],
+   "v": "Bb4 C5e D5e Eb5e F5e Ab5e^ Gb5e",
+   "ly": "ro- ra, di que _ sta au-",
+   "rh": "Bb4 C5e D5e Eb5e F5e Ab5e^ Gb5e // re F4s Gb4s~ Gb4e Eb4+Ab4e F4+Cb5e Gb4+C5e Bb4+Eb5",
+   "lh": "re D4s Eb4s~ C4+Eb4e D4e Eb4e F4e Ab4e^ Gb4e // Bb3 rhd",
+   "doubt": "C5♮ et D5♮ imprimés (puis Cb5 avec bémol, puis C5♮ de nouveau). Fin de mesure : clé de SOL à la main gauche pour la p.175. Mesure 4/4 continue (pas de chiffre)."
+  }
+ ]
+}

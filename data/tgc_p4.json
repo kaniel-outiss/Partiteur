@@ -1,0 +1,85 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "2/4",
+   "ks": -6,
+   "v": "F5 F5~",
+   "ly": "ro- ra,",
+   "rh": "F5 F5 // rs Db5+F5s Bb4+Db5s C5+Eb5s rs Db5+F5s Bb4+Db5s C5+Eb5s",
+   "lh": "Bb3+F4e Db4+Ab4e Bb3+F4e Db4+Ab4e // Bb3 Bb3",
+   "doubt": "p.175 (page imprimée vérifiée). Armure imprimée : 6 bémols (mi♭ mineur), pas « sans armure » comme dit le guide ; altérations effectives écrites. lh en clé de SOL. rh : F6 entre parenthèses au-dessus de chaque F5 (ad lib., non transcrit). Bécarre sur C5."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "p",
+    "pp",
+    "cominciando a rall."
+   ],
+   "v": "F5e re re Gb5e Eb5e F5e Eb5e Cb5e",
+   "ly": "io chiu- do stan- ca",
+   "rh": "F5 F5e Gb5e Eb5e F5e Eb5e Cb5e // Db5s Db5+F5s F5+Bb5s Ab5s Db5e Bb4e C5 Cb5e Gb4e",
+   "lh": "F4e Bb4s Ab4s F4e Gb4e Eb4e F4e Eb4e Cb4e // Bb3e Db4e Bb3e Db4e Bb3 Bb3",
+   "doubt": "Chant « io » lu Gb5 (tête juste au-dessus de la ligne F5). (♭) de précaution sur Cb5 (« ca »). rh : (F6) entre parenthèses au temps 1 ; points de staccato sous les doubles croches ; C5♮ au temps 3 puis Cb5 (bémol) au temps 4. lh : clé de SOL."
+  },
+  {
+   "meter": "2/4",
+   "v": "F5 F5~",
+   "ly": "gli‿oc- chi",
+   "rh": "F5 F5 // rs Ab4+Cb5s Bb4+D5s Cb5+Eb5s rs Ab4+Cb5s Bb4+D5s Cb5+Eb5s",
+   "lh": "Bb3+F4ed F4+Ab4s Bb3+F4ed F4+Ab4s // Bb3 Bb3",
+   "doubt": "rh : (F6) entre parenthèses ; bécarre sur D5. Ligne de prolongation de « chi » jusqu'au temps 2 de la mesure suivante."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "cresc. e allarg."
+   ],
+   "v": "F5~ F5e Gb5e Ab5e Bb5e^ Gb5e^ F5e^",
+   "ly": "per non ve- der- lo",
+   "rh": "F5 F5e Gb5e Ab5e Bb5e^ Gb5e^ F5e^ // rs Ab4+Cb5s Bb4+D5s Cb5+Eb5s re Bb4+Db5 Cb5+Eb5 Ab4+Cb5e",
+   "lh": "F4e D4s Ab4s F4e Gb4e Ab4e Bb4e^ Gb4e^ F4e^ // Bb3 Bb3hd",
+   "doubt": "Chant : F5 noire → F5 croche reliés par un arc lu comme liaison de prolongation (pas de syllabe) ; signe de respiration (,) avant « per ». rh : (F6) entre parenthèses. lh : D4♮ avec (Bb4) entre parenthèses ad lib. (non transcrit) ; clé de FA en fin de mesure."
+  },
+  {
+   "meter": "2/4",
+   "marks": [
+    "a tempo, ma sostenendo",
+    "ff",
+    "con molta espress."
+   ],
+   "v": "Eb5 r",
+   "ly": "più!",
+   "rh": "Bb4+Bb5 Bb4+Bb5 // re Eb5+Gb5 Eb5+Gb5e~",
+   "lh": "Eb1+Eb2e Bb1+Bb2s Bb1+Bb2s Eb1+Eb2e Bb1+Bb2e",
+   "doubt": "lh clé de FA, octaves accentuées (>)."
+  },
+  {
+   "meter": "4/4",
+   "v": "rw",
+   "ly": "",
+   "rh": "Bb4+Bb5 C5+C6e Db5+Gb5+Ab5+Db6e Eb5+Ab5+Bb5+Eb6e F5+Bb5+C6+F6e Db5+Gb5+Ab5+Db6e C5+Gb5+Ab5+C6e // Eb5+Gb5e Eb5+Gb5e C4e Db4+Gb4+Ab4e Eb4+Ab4+Bb4e F4+Bb4+C5e Db4+Gb4+Ab4e C4+Gb4+Ab4e",
+   "lh": "Eb1+Eb2e Bb1+Bb2s Bb1+Bb2s~ Bb1+Bb2h~ Bb1+Bb2e re",
+   "doubt": "rh : bécarres sur C4, C5, C6 au temps 2 (valables toute la mesure). Accords denses (secondes décalées) : relire si besoin."
+  },
+  {
+   "meter": "2/4",
+   "marks": [
+    "rit."
+   ],
+   "v": "rh",
+   "ly": "",
+   "rh": "Bb4+Bb5 Bb4+Bb5 // re Eb5+Gb5 Eb5+Gb5e~",
+   "lh": "Eb1+Eb2e Bb1+Bb2s Bb1+Bb2s Eb1+Eb2e Bb1+Bb2e",
+   "doubt": "Chant : pause (mesure entière) → rh. rh : une croche/silence entre parenthèses sous le 1er temps, non transcrit."
+  },
+  {
+   "v": "rh^",
+   "ly": "",
+   "rh": "Bb4+Eb5+Gb5+Bb5h^",
+   "lh": "Eb1+Eb2h^",
+   "doubt": "Double barre finale : fin de l'air. Pause du chant avec point d'orgue."
+  }
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "2/4",
+   "ks": 0,
+   "tempo": "Allegro moderato (♩ = 116)",
+   "marks": [
+    "p",
+    "sostenendo",
+    "espress."
+   ],
+   "v": "rh",
+   "ly": "",
+   "rh": "r E4ed D#4s",
+   "lh": "r G#3 // F#1e* F#2e* F2e* B2e*",
+   "doubt": "Introduction sans portée de chant (chant = silences). Pas d'armure dans l'intro. MG voix inf. : trémolos à deux notes (têtes noires = durée d'une noire par paire), codés en 2 croches '*'. F#1 lu avec 4 lignes suppl. (à vérifier). Tenuto sur E4."
+  },
+  {
+   "marks": [],
+   "v": "rh",
+   "ly": "",
+   "rh": "Bb3 Db4ed C4s",
+   "lh": "Ab3 A3 // Fb2e* Bb2e* Eb2e* A2e*",
+   "doubt": "MG : bécarres entre parenthèses (de précaution) sur A3 et A2. Fb2 lu sous la 1re ligne (bémol imprimé). Tenuto sur Db4."
+  },
+  {
+   "meter": "3/4",
+   "marks": [
+    "pp"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "G#3h B3ed A#3s",
+   "lh": "F#3h E3~ // D2* G#2* C#2e* G2e*",
+   "doubt": "MD : G#3 avec 2 lignes suppl. (sous A3), puis passage en clé de FA pour B3–A#3. MG voix inf. : trémolo D2↔G#2 en blanches (= blanche), puis C#2↔G♮2 (= noire). pp imprimé aux deux mains."
+  },
+  {
+   "marks": [
+    "rall.",
+    "<"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#3~ F#3ed G3s G#3ed A3s~",
+   "lh": "E3h Eb3 // C2* F#2* Cb2e* F2e*",
+   "doubt": "MD en clé de FA. Liaison F#3→F#3 lue comme prolongation. MG : trémolos C♮2↔F#2 (blanches) et Cb2↔F2 (noires) ; Cb2 = bémol + ligne suppl. du do."
+  },
+  {
+   "marks": [
+    ">"
+   ],
+   "v": "rhd",
+   "ly": "",
+   "rh": "A3 Bb3h~",
+   "lh": "D3hd~ // Bb1d* F2d*",
+   "doubt": "MG voix inf. : trémolo Bb1↔F2 en blanches pointées, codé en 2 noires pointées '*'."
+  },
+  {
+   "marks": [],
+   "v": "rhd",
+   "ly": "",
+   "rh": "Bb3hd",
+   "lh": "D3+F2+Bb1e re r r",
+   "doubt": "Fin de l'intro : double barre, MD repasse en clé de SOL, armure de 6 bémols posée en fin de système."
+  },
+  {
+   "meter": "2/4",
+   "ks": -6,
+   "tempo": "Andantino mosso (♩ = 69)",
+   "marks": [
+    "con dolorosa espressione",
+    "con un poco d'agitazione",
+    "p"
+   ],
+   "v": "r Bb4",
+   "ly": "Tu",
+   "rh": "Bb4 Bb4 // re Eb4+Gb4 Eb4+Gb4e~",
+   "lh": "Bb3 Bb3",
+   "doubt": "Armure IMPRIMÉE : 6 bémols (le guide dit 0) → ks=-6 ; altérations effectives écrites de toute façon. Tenutos sur les noires MD/MG et sur le chant."
+  },
+  {
+   "meter": "4/4",
+   "marks": [],
+   "v": "r C5e Db5e Eb5e F5e Db5e C5e",
+   "ly": "che di gel _ se- i",
+   "rh": "Bb4 C5e Db5e Eb5e F5e Db5e C5e // Eb4+Gb4e Eb4+Gb4 Eb4+Gb4e~ Eb4+Gb4e Gb4e~ Gb4",
+   "lh": "Bb3 C4e Db4e Eb4e F4e Db4e C4e",
+   "doubt": "C♮ imprimé sur le 1er do (chant, MD, MG) ; le dernier C5/C4 de la mesure reste bécarre (altération valable jusqu'à la barre)."
+  },
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "Bb4 Bb4~",
+   "ly": "cin- ta,",
+   "rh": "Bb4 Bb4 // re Eb4+Gb4 Eb4+Gb4e~",
+   "lh": "Bb3 Bb3"
+  },
+  {
+   "meter": "4/4",
+   "marks": [],
+   "v": "Bb4e re Ab4e Bb4e Cb5e Db5e Bb4e Ab4e",
+   "ly": "da _ tan- ta fiam- ma",
+   "rh": "Bb4 Ab4e Bb4e Cb5e Db5e Bb4e Ab4e // Eb4+Gb4e Eb4+Gb4 Eb4+Gb4e~ Eb4+Gb4~ Eb4+Gb4e re",
+   "lh": "Bb3 Ab3e Bb3e Cb4e Db4e Bb3e Ab3e",
+   "doubt": "(b) de précaution sur Cb (chant, MD, MG). 1re croche du chant liée depuis la mesure précédente (pas de syllabe)."
+  },
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "Eb4 Eb4~",
+   "ly": "vin- ta,",
+   "rh": "Eb4 Eb4 // re Gb3+Bb3 Gb3+Bb3e~",
+   "lh": "Eb3 Eb3",
+   "doubt": "Accord MD inférieur Gb3+Bb3 lu avec 2 lignes suppl. (do et la) ; tenutos. Liaison du chant vers la page suivante."
+  }
+ ]
+}
