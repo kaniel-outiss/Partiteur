@@ -1,0 +1,99 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5+G6d A5+A6e B5+B6ed C6+C7s",
+   "lh": "C2+C3s D3s G3s D3s B3s G3s F4s B3s F4s B3s G3s D3s",
+   "meter": "3/4",
+   "ks": -3,
+   "marks": [],
+   "doubt": "Pas de numéro de page imprimé (seulement « A.C. 10,095 ») ; enchaînement avec p.6 cohérent (fin de l'interlude). MD sous 8va pointillé (« 8 - - - ┐ » commencé p.6, fini sur le 1er accord de m.2) : notes écrites à la hauteur JOUÉE ; imprimé G4+G5 noire pointée, A♮4+A♮5 croche, B♮4+B♮5 croche pointée, C5+C6 double croche. MG : B♮3 imprimé une fois (vaut pour la mesure)."
+  },
+  {
+   "v": "r r re G4e",
+   "ly": "Sur",
+   "rh": "C6+C7s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+C3e re r r",
+   "marks": [
+    "legato"
+   ],
+   "doubt": "1er accord MD (imprimé C5+C6, double croche) encore sous le 8va : écrit une octave plus haut. Fin du 8va ensuite."
+  },
+  {
+   "v": "G4h~ G4e G4e",
+   "ly": "moi, la",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+Eb3hd"
+  },
+  {
+   "v": "F4h~ F4e C5e",
+   "ly": "nuit im-",
+   "rh": "rs F3s C4s F3s D4s C4s F4s D4s F4s D4s C4s F3s",
+   "lh": "C2+D3hd"
+  },
+  {
+   "v": "C5hd",
+   "ly": "men-",
+   "rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+   "lh": "C2+Ab2+Eb3hd",
+   "doubt": "Paroles : « im-men-se », tirets de prolongation sous la blanche pointée."
+  },
+  {
+   "v": "C4 r re Eb4e",
+   "ly": "se S'é-",
+   "rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+   "lh": "C2+Ab2+Eb3hd"
+  },
+  {
+   "v": "G4hd",
+   "ly": "tend",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+G2+Eb3hd"
+  },
+  {
+   "v": "G4h G4e G4e",
+   "ly": "com- me‿un lin-",
+   "rh": "rs G3s B3s G3s F4s B3s G4s F4s G4s F4s B3s G3s",
+   "lh": "C2+G2+D3hd",
+   "doubt": "« me un » imprimé avec liaison d'élision sous une seule croche. MD : B♮3 (bécarre imprimé sur la 1re)."
+  },
+  {
+   "v": "G4hd~",
+   "ly": "ceul.",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+G2+Eb3hd"
+  },
+  {
+   "v": "G4 r re G4e",
+   "ly": "Je",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+G2+Eb3hd"
+  },
+  {
+   "v": "C5h~ C5e C5e",
+   "ly": "chan- te",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+G2hd"
+  },
+  {
+   "v": "D5h~ D5e D5e",
+   "ly": "ma ro-",
+   "rh": "rs Bb3s D4s Bb3s F4s D4s Bb4s F4s Bb4s F4s D4s Bb3s",
+   "lh": "Bb1+Bb2hd"
+  },
+  {
+   "v": "G5hd",
+   "ly": "man-",
+   "rh": "rs Bb3s Eb4s Bb3s G4s Eb4s Bb4s G4s Bb4s G4s Eb4s Bb3s",
+   "lh": "Eb2+Bb2hd"
+  },
+  {
+   "v": "Bb4 r r",
+   "ly": "ce",
+   "rh": "rs Bb3s Eb4s Bb3s G4s Eb4s Bb4s G4s Bb4s G4s Eb4s Bb3s",
+   "lh": "Eb2+Bb2hd"
+  }
+ ]
+}

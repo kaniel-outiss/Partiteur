@@ -1,0 +1,114 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "v": "Eb5h~ Eb5e D5e",
+   "ly": "Que le",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+C3hd",
+   "meter": "3/4",
+   "ks": -3,
+   "doubt": "Pas de numéro de page imprimé ; suite directe de p.7 (« ma romance / Que le ciel entend seul »)."
+  },
+  {
+   "v": "F5d Eb5e D5e Eb5e",
+   "ly": "ciel _ en- tend",
+   "rh": "rs F3s A3s F3s Eb4s A3s F4s Eb4s F4s Eb4s A3s F3s",
+   "lh": "C2+F2+C3hd",
+   "doubt": "MD : A♮3 (bécarre imprimé sur la 1re). Liaison de phrasé F5→Eb5 au chant (mélisme)."
+  },
+  {
+   "v": "D5hd~",
+   "ly": "seul.",
+   "rh": "rs F3s Bb3s F3s D4s Bb3s F4s D4s F4s D4s Bb3s F3s",
+   "lh": "Bb1+F2+D3hd~",
+   "doubt": "MG : liaison de prolongation sur D3 seulement (vers D3 de m.4) ; « ~ » mis sur l'accord faute de mieux."
+  },
+  {
+   "v": "D5 r r",
+   "ly": "",
+   "rh": "rs F3s Bb3s F3s D4s Bb3s F4s D4s F4s D4s Bb3s Ab3s",
+   "lh": "Bb2+D3hd",
+   "doubt": "MD : dernière double croche Ab3 (bémol imprimé). MG : D3 lié depuis m.3 ; hampe longue vers le bas."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+   "lh": "Eb2+Eb3hd"
+  },
+  {
+   "v": "Eb5 C5e D5e Eb5e Ab5e",
+   "ly": "Ah! comme elle é- tait",
+   "rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+   "lh": "Eb2+C3+Eb3hd",
+   "doubt": "Paroles imprimées « comme elle é-tait » : un mot par croche (élisions chantées com-m'el-l'é-tait), placement imprimé conservé."
+  },
+  {
+   "v": "G5h Eb5e re",
+   "ly": "bel- le,",
+   "rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+   "lh": "Eb2+Bb2+Eb3hd"
+  },
+  {
+   "v": "Eb5 C5e D5e Eb5e Ab5e",
+   "ly": "Et com- me je l'ai-",
+   "rh": "rs Ab3s C4s Ab3s Eb4s C4s Ab4s Eb4s Ab4s Eb4s C4s Ab3s",
+   "lh": "Eb2+C3+Eb3hd",
+   "doubt": "« comme » imprimé sous deux croches (com-me)."
+  },
+  {
+   "v": "G5hd^",
+   "ly": "mais!",
+   "rh": "rs G3s Bb3s G3s Eb4s Bb3s G4s Eb4s G4s Eb4s Bb3s G3s",
+   "lh": "Eb2+Bb2+Eb3hd",
+   "doubt": "Point d'orgue au-dessus de la blanche pointée G5 ; signe de respiration (virgule) en fin de mesure au chant."
+  },
+  {
+   "v": "G5 D5ed D5s E5ed E5s",
+   "ly": "Je n'ai- me- rai ja-",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s E4s C4s G3s",
+   "lh": "D3h E3 // D2+G2hd",
+   "doubt": "Chant : bécarre sur la 1re E5 (E♮ vaut pour la 2e). MD : B♮3 et E♮4 imprimés. MG 2 voix : D3 blanche + E♮3 noire (hampes haut) / D2+G2 blanche pointée (hampe bas)."
+  },
+  {
+   "v": "D5hd",
+   "ly": "mais",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+   "lh": "D2+G2+D3hd"
+  },
+  {
+   "v": "G5ed B4s D5 Eb5e Eb5e",
+   "ly": "U- ne femme au- tant",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s Eb4s C4s G3s",
+   "lh": "D3h Eb3 // D2+G2hd",
+   "doubt": "Chant : B♮4 imprimé ; bémol de précaution sur la 1re Eb5. MD : B♮3, Eb4 avec bémol de précaution. MG : Eb3 noire avec bémol de précaution."
+  },
+  {
+   "v": "D5h D5e re",
+   "ly": "qu'el- le!",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+   "lh": "D2+G2+D3hd"
+  },
+  {
+   "v": "Eb5ed D5s C5 Eb5ed F5s",
+   "ly": "Que mon sort est a-",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+C3hd"
+  },
+  {
+   "v": "G5hd~",
+   "ly": "mer!",
+   "rh": "rs G3s D4s G3s F4s D4s G4s F4s G4s F4s D4s G3s",
+   "lh": "B1+G2+D3hd~",
+   "doubt": "MG : B♮1 (bécarre imprimé) ; liaison de prolongation sur G2 seulement (vers m.16) ; « ~ » mis sur l'accord faute de mieux."
+  },
+  {
+   "v": "G5h~ G5e re",
+   "ly": "",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+G2+Eb3hd",
+   "doubt": "Chant : deux liaisons de prolongation (m.15→m.16 et blanche→croche) ; extension de « mer! » jusqu'au bout du système."
+  }
+ ]
+}

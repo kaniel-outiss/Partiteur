@@ -1,0 +1,120 @@
+{
+ "page": 9,
+ "measures": [
+  {
+   "v": "Db5h Eb5e F5e",
+   "ly": "Ah! sans a-",
+   "rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+   "lh": "F1+F2hd",
+   "meter": "3/4",
+   "ks": -3,
+   "doubt": "Pas de numéro de page imprimé ; suite directe de p.8 (« Que mon sort est amer! / Ah! sans amour s'en aller »). Db5 : bémol imprimé (vaut pour la mesure)."
+  },
+  {
+   "v": "Ab4h C5e Db5e",
+   "ly": "mour s'en al-",
+   "rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+   "lh": "F1+F2hd"
+  },
+  {
+   "v": "F4h G4e Ab4e",
+   "ly": "ler, s'en al-",
+   "rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+   "lh": "F1+F2hd"
+  },
+  {
+   "v": "D4hd",
+   "ly": "ler",
+   "rh": "rs Ab3s D4s Ab3s F4s D4s Ab4s F4s Ab4s F4s D4s Ab3s",
+   "lh": "F1+F2hd",
+   "doubt": "Chant D4 et MD D4 avec bécarre de précaution (après les Db)."
+  },
+  {
+   "v": "G4hd~",
+   "ly": "sur",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+   "lh": "G1+G2hd",
+   "doubt": "Signe de respiration (virgule) avant « sur ». MD : B♮3 imprimé."
+  },
+  {
+   "v": "G4h~ G4e G4e",
+   "ly": "la",
+   "rh": "rs G3s B3s G3s D4s B3s G4s F4s G4s F4s B3s G3s",
+   "lh": "G1+G2hd",
+   "doubt": "Chant : G4 lié depuis m.5, puis liaison blanche→croche ; « la » sur la dernière croche. MD : 2e groupe D4 B3 G4 F4 (lecture G4/F4 serrée)."
+  },
+  {
+   "v": "G4hd~",
+   "ly": "mer!",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C1+C2hd",
+   "doubt": "MG « 8a bassa - - - ┘ » sous cette mesure : écrit à la hauteur JOUÉE (imprimé C2+C3)."
+  },
+  {
+   "v": "G4 r r",
+   "ly": "",
+   "rh": "C6+C7~ C6+C7ed C6+C7s Bb5+Bb6ed Bb5+Bb6s",
+   "lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "marks": [
+    "p",
+    "pp"
+   ],
+   "doubt": "Postlude. MD sous 8va pointillé (m.8 à m.15) : notes écrites à la hauteur JOUÉE (imprimé C5+C6, Bb4+Bb5). « p » à la MD, « pp » à la MG. Chant : G4 lié depuis m.7."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Ab5+Ab6h~ Ab5+Ab6e re",
+   "lh": "C2+C3s Eb3s Ab3s Eb3s C4s Ab3s Eb4s C4s Eb4s C4s Ab3s Eb3s",
+   "doubt": "MD 8va (imprimé Ab4+Ab5)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "C6+C7~ C6+C7ed C6+C7s Bb5+Bb6ed Bb5+Bb6s",
+   "lh": "C2+C3s Eb3s Ab3s Eb3s C4s Ab3s Eb4s C4s Eb4s C4s Ab3s Eb3s",
+   "doubt": "MD 8va."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5+F6h~ F5+F6e rs F5+F6s",
+   "lh": "C2+C3s D3s F3s D3s Ab3s F3s C4s Ab3s C4s Ab3s F3s D3s",
+   "doubt": "MD 8va (imprimé F4+F5)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5+F6d D5+D6e Eb5+Eb6e F5+F6e",
+   "lh": "C2+C3s D3s F3s D3s Ab3s F3s C4s Ab3s C4s Ab3s F3s D3s",
+   "doubt": "MD 8va (imprimé F4+F5, D4+D5, Eb4+Eb5, F4+F5)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5+G6h~ G5+G6e rs G5+G6s",
+   "lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "doubt": "MD 8va (imprimé G4+G5)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5+G6d A5+A6e B5+B6ed C6+C7s",
+   "lh": "C2+C3s D3s G3s D3s B3s G3s F4s B3s F4s B3s G3s D3s",
+   "marks": [
+    "Rall."
+   ],
+   "doubt": "MD 8va (imprimé G4+G5, A♮4+A♮5, B♮4+B♮5, C5+C6). Soufflet decrescendo après « Rall. ». MG : B♮3 imprimé."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "C6+C7e re r r",
+   "lh": "C2+C3e re r r",
+   "marks": [
+    "pp"
+   ],
+   "doubt": "MD : accord C5+C6 imprimé, fin du 8va (crochet) → C6+C7 joué. Double barre finale : fin de l'air."
+  }
+ ]
+}
