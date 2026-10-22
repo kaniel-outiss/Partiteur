@@ -12,7 +12,7 @@
 ## Ajout du 22/10 (femmes + Messie ténor), après la liste ci-dessus
 10. ✅ (0.49) O mio babbino caro — sop_arias.pdf
 11. ✅ (0.50) Un bel dì vedremo — sop_arias.pdf
-12. Mi chiamano Mimì — sop_arias.pdf
+12. ✅ (0.51) Mi chiamano Mimì — sop_arias.pdf
 13. Quando men vo — sop_arias.pdf
 14. Donde lieta uscì — sop_arias.pdf
 15. Ah ! Je ris de me voir (air des bijoux) — sop_arias.pdf

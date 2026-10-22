@@ -1,113 +1,114 @@
 {
- "page": 5,
- "measures": [
-  {
-   "meter": "4/4",
-   "ks": 2,
-   "marks": [
-    "dim."
-   ],
-   "v": "E5h D5d re",
-   "ly": "mi- o!",
-   "rh": "E5+E6h D5+D6h~",
-   "lh": "F#1+F#2e F#3+A3+E4 F#3+A3+E4 F#3+A3+D4 F#3+A3+D4e",
-   "doubt": "page imprimée 150 ; mesure entière (pas de mesure coupée). Soufflet decresc. sur le chant ; liaison E6→D6 (phrasé)."
-  },
-  {
-   "marks": [
-    "(con espressione intensa)",
-    "a tempo",
-    "pp"
-   ],
-   "v": "r D5 G#4d C#5e",
-   "ly": "il pri- mo",
-   "rh": "D5+D6h G#4+G#5d C#5+C#6e",
-   "lh": "E#1+E#2e D3e E#3e G#3e B3e D4e E#4e G#4e",
-   "doubt": "accent sur C#5+C#6 (MD) ; basse E#1+E#2 (dièses imprimés) ; arpège MG en croches."
-  },
-  {
-   "marks": [
-    "rall. molto"
-   ],
-   "v": "B4h A4d C#5e",
-   "ly": "so- le è",
-   "rh": "B4+C#5+G5+B5h B4+C#5+G5+A5d C#4+C#5e",
-   "lh": "E1+E2e C#3e G3e B3e C#4e E4e G4e re",
-   "doubt": "bécarre imprimé sur G5 (MD) et sur E/G (MG) ; B4,C#5,G5 liés vers l'accord suivant, B5→A5 lié (phrasé) ; staccatos MG ; accent sur C#5 du chant."
-  },
-  {
-   "v": "B4h A4~ A4e rs A4s",
-   "ly": "mi- o! Ger-",
-   "rh": "gB3 gC#4 gG4 B4h A4d re",
-   "lh": "gA1 A2e E3e G3e B3e C#4e E4e G4e re",
-   "doubt": "tête de la blanche B4 (chant) légèrement au-dessus de la ligne : B4 retenu ; petites notes MD B3-C#4-G4 (doubles croches) ; gA1 = petite note MG ; staccatos MG."
-  },
-  {
-   "meter": "4/4",
-   "tempo": "Tempo I-Andante",
-   "marks": [
-    "Tempo I-Andante",
-    "agitando appena",
-    "pp"
-   ],
-   "v": "A4 F#4e F#4e E4 G4e G4e",
-   "ly": "mo- glia‿in un va- so‿u- na",
-   "rh": "A4 F#4 E4 G4 // re D4+F#4e re A3+D4e re B3+D4e re B3+D4+E4e",
-   "lh": "A3 F#3 E3 G3",
-   "doubt": "meter répété pour contrôle (pas de changement imprimé). Accord du 4e temps MD : D4 et E4 en seconde décalée, lecture probable."
-  },
-  {
-   "marks": [
-    "sostenendo"
-   ],
-   "v": "F#4 A4 re3 B4e3 C#5e3 D5e3 B4e3 D5e3",
-   "ly": "ro- sa... fo- glia‿a fo- glia la",
-   "rh": "F#4 A4 re3 B4e3 C#5e3 D5e3 B4e3 D5e3 // re A3+D4e re D4+F#4e rh",
-   "lh": "F#3 A3 re D4+F#4 D4+F#4e // rh B3h",
-   "doubt": "MG passe en clé de SOL au 3e temps. 2e voix MD : silence rh non imprimé (remplissage) ; 2e voix MG : 'rh' initial = remplissage, B3 blanche accentuée imprimée."
-  },
-  {
-   "v": "C#5 C#5 re E5e F#5ed G#5s",
-   "ly": "spi- o! Co- sì gen-",
-   "rh": "C#5h re E5e F#5ed G#5s",
-   "lh": "re F#4+A4 F#4+A4e re F#4+G#4+D5 F#4+G#4+D5e // C#4h D4h",
-   "doubt": "MG en clé de SOL ; blanches C#4 et D4 accentuées (hampes bas) ; G#5 de la MD : dièse peu net, tête entre G5 et A5."
-  },
-  {
-   "marks": [
-    "allarg.",
-    "ten.",
-    "col canto"
-   ],
-   "v": "E5 E5e E5e F#5 A5ed G#5s",
-   "ly": "til il pro- fu- mo d'un",
-   "rh": "E5h F#4+F#5 A4+A5ed G#4+G#5s // rh re A4+D5e r",
-   "lh": "re A4+C#5 A4+C#5e re F#2+D3+A3d! // E4h rh",
-   "doubt": "'ten.' au-dessus de A5 (chant). MD 2e voix : rh et r finaux = remplissage non imprimés. MG : clé de SOL puis clé de FA au 3e temps ; E4 blanche accentuée ; accord F#2+D3+A3 arpégé pointé."
-  },
-  {
-   "marks": [
-    "calma come prima",
-    "tr",
-    "tr"
-   ],
-   "v": "G#5s E5s~ E5e~ E5h~ E5e re",
-   "ly": "fior! _",
-   "rh": "G#4+G#5s E5s~ E5e G#5 gF##5 gG#5 C#6e re C#6 gB#5 gC#6",
-   "lh": "C#2+G#2+E3e! E4+G#4+C#5 E4+G#4+C#5 E4+G#4+C#5 E4+G#4+C#5e",
-   "doubt": "accent sur G#5 (chant et MD) ; arcs E5-E5 lus comme liaisons de prolongation ; trilles sur G#5 et C#6 avec terminaisons en petites notes (F##5-G#5 ; B#5-C#6, ces dernières juste avant la barre) ; MG : accord arpégé en clé de FA (C#2 par l'armure), puis clé de SOL ; soufflet decresc."
-  },
-  {
-   "meter": "2/4",
-   "marks": [
-    "p",
-    "pp"
-   ],
-   "v": "r re B4e",
-   "ly": "Ma‿i",
-   "rh": "F#5+B5+D6+F#6e! F#3+B3+D4+F#4 F#3+B3+D4+F#4e",
-   "lh": "B1+F#2+B2!~ B1+F#2+B2e re",
-   "doubt": "accords graves MD : têtes serrées sous lignes supplémentaires, F#3 incertain ; MG en clé de FA ; mesure suivante en C (4/4) sur la page 151 ; 'Ma‿i' = élision sur une note."
-  }
- ]
+"page": 5,
+"measures": [
+{
+"meter": "4/4",
+"ks": 2,
+"marks": [
+"dim."
+],
+"v": "E5h D5d re",
+"ly": "mi- o!",
+"rh": "E5+E6h D5+D6h~",
+"lh": "F#1+F#2e F#3+A3+E4 F#3+A3+E4 F#3+A3+D4 F#3+A3+D4e",
+"doubt": "page imprimée 150 ; mesure entière (pas de mesure coupée). Soufflet decresc. sur le chant ; liaison E6→D6 (phrasé)."
+},
+{
+"marks": [
+"(con espressione intensa)",
+"a tempo",
+"pp"
+],
+"v": "r D5 G#4d C#5e",
+"ly": "il pri- mo",
+"rh": "D5+D6h G#4+G#5d C#5+C#6e",
+"lh": "E#1+E#2e D3e E#3e G#3e B3e D4e E#4e G#4e",
+"doubt": "accent sur C#5+C#6 (MD) ; basse E#1+E#2 (dièses imprimés) ; arpège MG en croches."
+},
+{
+"marks": [
+"rall. molto"
+],
+"v": "B4h A4d C#5e",
+"ly": "so- le è",
+"rh": "B4+C#5+G5+B5h B4+C#5+G5+A5d C#4+C#5e",
+"lh": "E1+E2e C#3e G3e B3e C#4e E4e G4e re",
+"doubt": "bécarre imprimé sur G5 (MD) et sur E/G (MG) ; B4,C#5,G5 liés vers l'accord suivant, B5→A5 lié (phrasé) ; staccatos MG ; accent sur C#5 du chant."
+},
+{
+"v": "B4h A4~ A4e rs A4s",
+"ly": "mi- o! Ger-",
+"rh": "gB3 gC#4 gG4 B4h A4d re",
+"lh": "gA1 A2e E3e G3e B3e C#4e E4e G4e re",
+"doubt": "tête de la blanche B4 (chant) légèrement au-dessus de la ligne : B4 retenu ; petites notes MD B3-C#4-G4 (doubles croches) ; gA1 = petite note MG ; staccatos MG."
+},
+{
+"meter": "4/4",
+"tempo": "Tempo I-Andante",
+"marks": [
+"Tempo I-Andante",
+"agitando appena",
+"pp"
+],
+"v": "A4 F#4e F#4e E4 G4e G4e",
+"ly": "mo- glia‿in un va- so‿u- na",
+"rh": "A4 F#4 E4 G4 // re D4+F#4e re A3+D4e re B3+D4e re B3+D4+E4e",
+"lh": "A3 F#3 E3 G3",
+"doubt": "meter répété pour contrôle (pas de changement imprimé). Accord du 4e temps MD : D4 et E4 en seconde décalée, lecture probable.",
+"bpm": 40
+},
+{
+"marks": [
+"sostenendo"
+],
+"v": "F#4 A4 re3 B4e3 C#5e3 D5e3 B4e3 D5e3",
+"ly": "ro- sa... fo- glia‿a fo- glia la",
+"rh": "F#4 A4 re3 B4e3 C#5e3 D5e3 B4e3 D5e3 // re A3+D4e re D4+F#4e rh",
+"lh": "F#3 A3 re D4+F#4 D4+F#4e // rh B3h",
+"doubt": "MG passe en clé de SOL au 3e temps. 2e voix MD : silence rh non imprimé (remplissage) ; 2e voix MG : 'rh' initial = remplissage, B3 blanche accentuée imprimée."
+},
+{
+"v": "C#5 C#5 re E5e F#5ed G#5s",
+"ly": "spi- o! Co- sì gen-",
+"rh": "C#5h re E5e F#5ed G#5s",
+"lh": "re F#4+A4 F#4+A4e re F#4+G#4+D5 F#4+G#4+D5e // C#4h D4h",
+"doubt": "MG en clé de SOL ; blanches C#4 et D4 accentuées (hampes bas) ; G#5 de la MD : dièse peu net, tête entre G5 et A5."
+},
+{
+"marks": [
+"allarg.",
+"ten.",
+"col canto"
+],
+"v": "E5 E5e E5e F#5 A5ed G#5s",
+"ly": "til il pro- fu- mo d'un",
+"rh": "E5h F#4+F#5 A4+A5ed G#4+G#5s // rh re A4+D5e r",
+"lh": "re A4+C#5 A4+C#5e re F#2+D3+A3d! // E4h rh",
+"doubt": "'ten.' au-dessus de A5 (chant). MD 2e voix : rh et r finaux = remplissage non imprimés. MG : clé de SOL puis clé de FA au 3e temps ; E4 blanche accentuée ; accord F#2+D3+A3 arpégé pointé."
+},
+{
+"marks": [
+"calma come prima",
+"tr",
+"tr"
+],
+"v": "G#5s E5s~ E5e~ E5h~ E5e re",
+"ly": "fior! _",
+"rh": "G#4+G#5s E5s~ E5e G#5 gF##5 gG#5 C#6e re C#6 gB#5 gC#6",
+"lh": "C#2+G#2+E3e! E4+G#4+C#5 E4+G#4+C#5 E4+G#4+C#5 E4+G#4+C#5e",
+"doubt": "accent sur G#5 (chant et MD) ; arcs E5-E5 lus comme liaisons de prolongation ; trilles sur G#5 et C#6 avec terminaisons en petites notes (F##5-G#5 ; B#5-C#6, ces dernières juste avant la barre) ; MG : accord arpégé en clé de FA (C#2 par l'armure), puis clé de SOL ; soufflet decresc."
+},
+{
+"meter": "2/4",
+"marks": [
+"p",
+"pp"
+],
+"v": "r re B4e",
+"ly": "Ma‿i",
+"rh": "F#5+B5+D6+F#6e! F#3+B3+D4+F#4 F#3+B3+D4+F#4e",
+"lh": "B1+F#2+B2!~ B1+F#2+B2e re",
+"doubt": "accords graves MD : têtes serrées sous lignes supplémentaires, F#3 incertain ; MG en clé de FA ; mesure suivante en C (4/4) sur la page 151 ; 'Ma‿i' = élision sur une note."
+}
+]
 }

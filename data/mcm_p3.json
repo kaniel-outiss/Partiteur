@@ -1,168 +1,169 @@
 {
- "page": 3,
- "measures": [
-  {
-   "meter": "4/4",
-   "marks": [
-    "rall."
-   ],
-   "v": "E4 D5e^ C#5e gB4 gC#5 B4e A4e E4ed A4s",
-   "ly": "co- se che‿han no- me po- e-",
-   "rh": "B3+D4+G4e B3+D4+G4^ B3+D4+G4e A3+C#4+G4e A3+C#4+G4 A3+C#4+G4e",
-   "lh": "E3w // rh gA1 A2h",
-   "doubt": "Page imprimée 148 (ordre OK). 1re mesure : chiffrage 4/4 supposé d'après la page précédente (non réimprimé ici), durée vérifiée = 4 noires. Chant : soufflet/hairpin au-dessus ; petites notes lues B4 C#5 (incertaines). Point d'orgue du piano imprimé entre le 2e et le 3e accord : placé sur le 2e. Tenutos sous les accords. MG : demi-pause (voix inf.) puis petite note A1 → A2 blanche ; E3 ronde en voix sup."
-  },
-  {
-   "marks": [
-    "a tempo",
-    "rall."
-   ],
-   "v": "D4 D4 r re A4s A4s",
-   "ly": "si- a. Lei m'in-",
-   "rh": "A3+D4+F#4e A3+D4+F#4 A3+C#4+G4e A3+B3+A4 A3+C#4+G4",
-   "lh": "A2+D2e A2+D2 A2+E2e A2+F#2 A2+E2",
-   "doubt": "Long soufflet (diminuendo) sous la MD. Tenutos. Accord A3+B3+A4 : seconde A3/B3 décalée."
-  },
-  {
-   "marks": [],
-   "v": "D5e D5e r rh",
-   "ly": "ten- de?",
-   "rh": "A3+D4+F#4e A3+D4+F#4 A3+D4+F#4e A3+F#4e re r // rh D4h~",
-   "lh": "D2+A2e D2+A2 D2+A2e D2+A2e re r",
-   "doubt": "MD : blanche D4 (hampe bas) liée vers la mesure suivante (Lentamente). Tenuto au-dessus du 4e accord. Double barre + 2/4 en fin de système."
-  },
-  {
-   "meter": "2/4",
-   "marks": [
-    "Lentamente",
-    "molto espressivo"
-   ],
-   "v": "r re F#4e",
-   "ly": "Mi",
-   "rh": "E4 F#4 // D4h",
-   "lh": "rh",
-   "doubt": "Dièse de précaution imprimé sur F#4 (chant et piano). MD : D4 blanche liée depuis la mesure précédente."
-  },
-  {
-   "marks": [
-    "pp"
-   ],
-   "v": "G4e A4e Bb4e E5e",
-   "ly": "chia- ma- no Mi-",
-   "rh": "G4e A4e Bb4e E5e // D4 E4",
-   "lh": "Bb3 C4 // C3h~",
-   "doubt": "MG : Bb3 et C4♮ (lignes supplémentaires) en voix sup., C3♮ blanche liée en voix inf. Soufflet sous la MD."
-  },
-  {
-   "marks": [],
-   "v": "D5e re F5ed F5s",
-   "ly": "mì. Il per-",
-   "rh": "F4+D5d re",
-   "lh": "C3+A3d re",
-   "doubt": "F5♮ imprimé (chant). MD : F4♮ + D5 noires pointées ; MG : A3 + C3 (lié depuis C3♮)."
-  },
-  {
-   "marks": [
-    "pp"
-   ],
-   "v": "G#4e re re E5e",
-   "ly": "chè non",
-   "rh": "D4+G#4e re r",
-   "lh": "B2+G#3e re r",
-   "doubt": "Staccatos. E5 du chant avec point de staccato."
-  },
-  {
-   "marks": [
-    "pp"
-   ],
-   "v": "A4e re r",
-   "ly": "so.",
-   "rh": "C#4+A4e re r",
-   "lh": "A2+E3e re r",
-   "doubt": "Double barre en fin de mesure."
-  },
-  {
-   "bpm": 144,
-   "marks": [
-    "Allegretto moderato",
-    "con semplicità",
-    "p"
-   ],
-   "v": "A4 B4e C#5e",
-   "ly": "So- la, mi",
-   "rh": "re D4e F#4e A4e",
-   "lh": "A3h~",
-   "doubt": "Chiffrage 2/4 inchangé (pas de nouveau chiffrage imprimé). Staccatos MD ; accent sur A3 MG ; liaisons A3–A3 lues comme liaisons de prolongation."
-  },
-  {
-   "marks": [],
-   "v": "D5d C#5e",
-   "ly": "fo il",
-   "rh": "D5e F#5e A5e F#5e",
-   "lh": "A3h~",
-   "doubt": "Staccatos."
-  },
-  {
-   "marks": [],
-   "v": "B4e C#5e D5e E5e",
-   "ly": "pran- zo da me",
-   "rh": "B4e C#5e D5e E5e",
-   "lh": "G4e re E4e re // A3h~",
-   "doubt": "MG voix sup. sur lignes supplémentaires (G4, E4) en clé de FA, staccato."
-  },
-  {
-   "marks": [],
-   "v": "A4 A4e A4e",
-   "ly": "stes- sa. Non",
-   "rh": "A4e D5e F#5e A5e",
-   "lh": "F#4e re D4e re // A3h~",
-   "doubt": "Staccatos."
-  },
-  {
-   "marks": [],
-   "v": "gG4 gA4 G4e F#4e G4e A4e",
-   "ly": "va- do sem- pre‿a",
-   "rh": "gG5 gA5 G5e F#5e G5e A5e // A4e re C#5e re",
-   "lh": "C#4e re r // A3e re A3e re",
-   "doubt": "Petites notes lues G/A (chant et MD), incertaines. Staccatos."
-  },
-  {
-   "marks": [
-    "poco rall.",
-    "pp"
-   ],
-   "v": "F#4e D4e D5",
-   "ly": "mes- sa ma",
-   "rh": "A4+F#5e D5e D5+F#5+G#5+D6e re",
-   "lh": "D4e re B3e re",
-   "doubt": "Respiration (virgule) + tenuto sur D5 du chant. MD : A4 (hampe bas) + F#5 réunis ; accord avec dièse sur G#5 (seconde F#5/G#5 décalée), D6 sur 2 lignes sup. (lecture incertaine). « pp poco rall. » au piano."
-  },
-  {
-   "marks": [],
-   "v": "C#5e C#5e B4e B4e",
-   "ly": "pre- go‿as- sai‿il Si-",
-   "rh": "C#5+E#5+A5+C#6e re B4+E5+G#5+B5e re",
-   "lh": "C#4e re C#4e re",
-   "doubt": "1er accord MD : un dièse imprimé à hauteur de E5 → lu E#5 (accord augmenté) — à vérifier. Staccatos + tenutos."
-  },
-  {
-   "marks": [
-    "a piacere",
-    "col canto"
-   ],
-   "v": "A4e re A4e A4e",
-   "ly": "gnor. Vi- vo",
-   "rh": "A4+C#5+F#5+A5e re r",
-   "lh": "F#4e re r",
-   "doubt": "MD : F#5 lu (pas E5). MG : F#4 sur lignes supplémentaires."
-  },
-  {
-   "marks": [],
-   "v": "A4 B4e C#5e",
-   "ly": "so- la, so-",
-   "rh": "rh",
-   "lh": "rh",
-   "doubt": "Piano : pauses."
-  }
- ]
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"marks": [
+"rall."
+],
+"v": "E4 D5e^ C#5e gB4 gC#5 B4e A4e E4ed A4s",
+"ly": "co- se che‿han no- me po- e-",
+"rh": "B3+D4+G4e B3+D4+G4^ B3+D4+G4e A3+C#4+G4e A3+C#4+G4 A3+C#4+G4e",
+"lh": "E3w // rh gA1 A2h",
+"doubt": "Page imprimée 148 (ordre OK). 1re mesure : chiffrage 4/4 supposé d'après la page précédente (non réimprimé ici), durée vérifiée = 4 noires. Chant : soufflet/hairpin au-dessus ; petites notes lues B4 C#5 (incertaines). Point d'orgue du piano imprimé entre le 2e et le 3e accord : placé sur le 2e. Tenutos sous les accords. MG : demi-pause (voix inf.) puis petite note A1 → A2 blanche ; E3 ronde en voix sup."
+},
+{
+"marks": [
+"a tempo",
+"rall."
+],
+"v": "D4 D4 r re A4s A4s",
+"ly": "si- a. Lei m'in-",
+"rh": "A3+D4+F#4e A3+D4+F#4 A3+C#4+G4e A3+B3+A4 A3+C#4+G4",
+"lh": "A2+D2e A2+D2 A2+E2e A2+F#2 A2+E2",
+"doubt": "Long soufflet (diminuendo) sous la MD. Tenutos. Accord A3+B3+A4 : seconde A3/B3 décalée."
+},
+{
+"marks": [],
+"v": "D5e D5e r rh",
+"ly": "ten- de?",
+"rh": "A3+D4+F#4e A3+D4+F#4 A3+D4+F#4e A3+F#4e re r // rh D4h~",
+"lh": "D2+A2e D2+A2 D2+A2e D2+A2e re r",
+"doubt": "MD : blanche D4 (hampe bas) liée vers la mesure suivante (Lentamente). Tenuto au-dessus du 4e accord. Double barre + 2/4 en fin de système."
+},
+{
+"meter": "2/4",
+"marks": [
+"Lentamente",
+"molto espressivo"
+],
+"v": "r re F#4e",
+"ly": "Mi",
+"rh": "E4 F#4 // D4h",
+"lh": "rh",
+"doubt": "Dièse de précaution imprimé sur F#4 (chant et piano). MD : D4 blanche liée depuis la mesure précédente.",
+"bpm": 40
+},
+{
+"marks": [
+"pp"
+],
+"v": "G4e A4e Bb4e E5e",
+"ly": "chia- ma- no Mi-",
+"rh": "G4e A4e Bb4e E5e // D4 E4",
+"lh": "Bb3 C4 // C3h~",
+"doubt": "MG : Bb3 et C4♮ (lignes supplémentaires) en voix sup., C3♮ blanche liée en voix inf. Soufflet sous la MD."
+},
+{
+"marks": [],
+"v": "D5e re F5ed F5s",
+"ly": "mì. Il per-",
+"rh": "F4+D5d re",
+"lh": "C3+A3d re",
+"doubt": "F5♮ imprimé (chant). MD : F4♮ + D5 noires pointées ; MG : A3 + C3 (lié depuis C3♮)."
+},
+{
+"marks": [
+"pp"
+],
+"v": "G#4e re re E5e",
+"ly": "chè non",
+"rh": "D4+G#4e re r",
+"lh": "B2+G#3e re r",
+"doubt": "Staccatos. E5 du chant avec point de staccato."
+},
+{
+"marks": [
+"pp"
+],
+"v": "A4e re r",
+"ly": "so.",
+"rh": "C#4+A4e re r",
+"lh": "A2+E3e re r",
+"doubt": "Double barre en fin de mesure."
+},
+{
+"bpm": 144,
+"marks": [
+"Allegretto moderato",
+"con semplicità",
+"p"
+],
+"v": "A4 B4e C#5e",
+"ly": "So- la, mi",
+"rh": "re D4e F#4e A4e",
+"lh": "A3h~",
+"doubt": "Chiffrage 2/4 inchangé (pas de nouveau chiffrage imprimé). Staccatos MD ; accent sur A3 MG ; liaisons A3–A3 lues comme liaisons de prolongation."
+},
+{
+"marks": [],
+"v": "D5d C#5e",
+"ly": "fo il",
+"rh": "D5e F#5e A5e F#5e",
+"lh": "A3h~",
+"doubt": "Staccatos."
+},
+{
+"marks": [],
+"v": "B4e C#5e D5e E5e",
+"ly": "pran- zo da me",
+"rh": "B4e C#5e D5e E5e",
+"lh": "G4e re E4e re // A3h~",
+"doubt": "MG voix sup. sur lignes supplémentaires (G4, E4) en clé de FA, staccato."
+},
+{
+"marks": [],
+"v": "A4 A4e A4e",
+"ly": "stes- sa. Non",
+"rh": "A4e D5e F#5e A5e",
+"lh": "F#4e re D4e re // A3h~",
+"doubt": "Staccatos."
+},
+{
+"marks": [],
+"v": "gG4 gA4 G4e F#4e G4e A4e",
+"ly": "va- do sem- pre‿a",
+"rh": "gG5 gA5 G5e F#5e G5e A5e // A4e re C#5e re",
+"lh": "C#4e re r // A3e re A3e re",
+"doubt": "Petites notes lues G/A (chant et MD), incertaines. Staccatos."
+},
+{
+"marks": [
+"poco rall.",
+"pp"
+],
+"v": "F#4e D4e D5",
+"ly": "mes- sa ma",
+"rh": "A4+F#5e D5e D5+F#5+G#5+D6e re",
+"lh": "D4e re B3e re",
+"doubt": "Respiration (virgule) + tenuto sur D5 du chant. MD : A4 (hampe bas) + F#5 réunis ; accord avec dièse sur G#5 (seconde F#5/G#5 décalée), D6 sur 2 lignes sup. (lecture incertaine). « pp poco rall. » au piano."
+},
+{
+"marks": [],
+"v": "C#5e C#5e B4e B4e",
+"ly": "pre- go‿as- sai‿il Si-",
+"rh": "C#5+E#5+A5+C#6e re B4+E5+G#5+B5e re",
+"lh": "C#4e re C#4e re",
+"doubt": "1er accord MD : un dièse imprimé à hauteur de E5 → lu E#5 (accord augmenté) — à vérifier. Staccatos + tenutos."
+},
+{
+"marks": [
+"a piacere",
+"col canto"
+],
+"v": "A4e re A4e A4e",
+"ly": "gnor. Vi- vo",
+"rh": "A4+C#5+F#5+A5e re r",
+"lh": "F#4e re r",
+"doubt": "MD : F#5 lu (pas E5). MG : F#4 sur lignes supplémentaires."
+},
+{
+"marks": [],
+"v": "A4 B4e C#5e",
+"ly": "so- la, so-",
+"rh": "rh",
+"lh": "rh",
+"doubt": "Piano : pauses."
+}
+]
 }
