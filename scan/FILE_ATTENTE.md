@@ -9,7 +9,7 @@
 8. ✅ (0.47) Cujus animam — ten_album.pdf 93-100 (la♭ M, 4/4)
 9. ✅ (0.48) Domine Deus — ten_album.pdf 40-49 (ré M, 4/4)
 
-## Ajout du 22/10 (femmes + Messie ténor), après la liste ci-dessus
+## (en pause à la demande) Ajout du 22/10 (femmes + Messie ténor), après la liste ci-dessus
 10. ✅ (0.49) O mio babbino caro — sop_arias.pdf
 11. ✅ (0.50) Un bel dì vedremo — sop_arias.pdf
 12. ✅ (0.51) Mi chiamano Mimì — sop_arias.pdf
@@ -33,3 +33,7 @@
 30. Récitatifs des bergers (There were shepherds… nº 14-16) — messiah.pdf
 31. Comfort ye — messiah.pdf (nº 2)
 32. Every valley — messiah.pdf (nº 3)
+
+## Priorité (22/10, 17h30)
+- La chanson du pêcheur (Gounod) — pecheur.pdf
+- Le reste de la file : en pause

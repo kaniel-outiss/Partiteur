@@ -268,6 +268,9 @@ add_air('nsp', {'id': 'mozart-non-so-piu', 'title': 'Non so più cosa son, cosa 
 add_air('vcs', {'id': 'mozart-voi-che-sapete', 'title': 'Voi che sapete', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte II',
                 'role': 'Cherubino', 'voice': 'mezzo-soprano', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': -2, 'src': 'Le nozze di Figaro, Bärenreiter BA 4565, p. 147-151'},
         66, {'name': 'Cherubino (mezzo)', 'short': 'Cher.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})
+add_air('pch', {'id': 'gounod-chanson-du-pecheur', 'title': 'La chanson du pêcheur (Ma belle amie est morte)', 'composer': 'Charles Gounod', 'work': 'Mélodie, poème de Théophile Gautier (1841)',
+                'role': None, 'voice': 'ténor ou soprano', 'style': 'Mélodie française', 'period': 'Romantique', 'ks': -3, 'mode': 'minor', 'src': 'Éd. Lemoine, nº 3 (ton original), IMSLP 1005851'},
+        72, {'name': 'Voix (ténor)', 'short': 'V.', 'vt': 'T', 'clef': 'G', 'oct': -12})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
