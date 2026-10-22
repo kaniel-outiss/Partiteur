@@ -1,0 +1,169 @@
+{
+"page": 9,
+"measures": [
+{
+"meter": "3/4",
+"ks": 4,
+"marks": [],
+"v": "B4 A4 r",
+"ly": "pho- se.",
+"rh": "A3 r C#5",
+"lh": "C#3e E3e A3e E3e A3e E3e // A2hd~",
+"doubt": "Mesure imprimée en 3/4 (noires/blanches pointées), pas 3/8 comme l'indique le guide ; « pho-se » = suite d'un mot commencé p. 95 ; liaison A2 m1→m2 lue comme prolongation ; MD : liaison C#5→m2"
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "F#5d E5e C#5e A4e",
+"lh": "C#3e E3e A3e E3e A3e E3e // A2hd"
+},
+{
+"marks": [],
+"v": "r A4e A4e A4e A4e",
+"ly": "Il me tarde en-",
+"rh": "G#4 F#4 r",
+"lh": "D3e F#3e A3e F#3e A3e F#3e // A2hd~",
+"doubt": "« tarde en-cor » : e muet élidé (4 croches seulement) ; bécarre MG sur le ré"
+},
+{
+"marks": [],
+"v": "D5h F#4e F#4e",
+"ly": "cor d'es- say-",
+"rh": "G#5d F#5e D5e B4e",
+"lh": "D3e F#3e B3e F#3e B3e F#3e // A2hd",
+"doubt": "chant : bécarre sur D5"
+},
+{
+"marks": [],
+"v": "G#4d G#4e G#4e G#4e",
+"ly": "er le bra- ce-",
+"rh": "G#4 E4e re r",
+"lh": "D3e E3e B3e E3e B3e E3e // A2hd~"
+},
+{
+"marks": [],
+"v": "E5d B4e B4e B4e",
+"ly": "let et le col-",
+"rh": "E5 B4e re r",
+"lh": "D3e E3e G#3e E3e G#3e E3e // A2hd~",
+"doubt": "A2 lié vers l'accord de m7"
+},
+{
+"marks": [
+"Poco più lento",
+"trem."
+],
+"v": "C#5 r r",
+"ly": "lier!",
+"rh": "E5hd~",
+"lh": "A2+C#3+A3e re A3+C#4* E4*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; 1re croche MG : amas A2+C#3+A3 (A2 lié depuis m6) ; MD E5 lié à la 1re croche de m8 (+ grande liaison jusqu'au C#6)"
+},
+{
+"marks": [
+"<"
+],
+"v": "rhd",
+"ly": "",
+"rh": "E5e F#5e G#5e A5e B5e C#6e",
+"lh": "A3+C#4d* E4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale"
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "C#6d B5e A5e F#5e",
+"lh": "A3+B3+D#4d* F#4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; dièse de précaution sur D#4"
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "D#5e G#5e F#5e D#5e B4e C#5e",
+"lh": "A3+B3+D#4d* F#4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale"
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "D5d C#5e B4e F#4e",
+"lh": "A3+B3+D4d* E4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; bécarres sur D (MD et MG)"
+},
+{
+"marks": [
+">"
+],
+"v": "rhd",
+"ly": "",
+"rh": "G#4e B4e D5e B4e G#5e E5e",
+"lh": "A3+B3+D4d* E4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; soufflet > entre les portées"
+},
+{
+"marks": [
+"p",
+"tornando a poco a poco al tempo I"
+],
+"v": "rhd",
+"ly": "",
+"rh": "F#5d E5e A5e C#5e",
+"lh": "A3+C#4d* E4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale"
+},
+{
+"marks": [],
+"v": "E5h~ E5e re",
+"ly": "Dieu!",
+"rh": "E5 B4 r",
+"lh": "A3+B3+D4d* E4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; « Dieu! » = fin d'une phrase dont le début n'est pas sur cette page (chant en silence m8-m13)"
+},
+{
+"marks": [],
+"v": "r E4e E4e E4e E4e",
+"ly": "c'est comme u- ne",
+"rh": "E5 C#5 r",
+"lh": "A3+C#4d* G4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; bécarre sur G4 (MG)"
+},
+{
+"marks": [],
+"v": "F#4h r",
+"ly": "main,",
+"rh": "F#5 C#5 r",
+"lh": "A#3+C#4+E4d* F#4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale"
+},
+{
+"marks": [],
+"v": "F#4 B4 D#5",
+"ly": "qui sur mon",
+"rh": "G#5d F#5e B5e D#5e // B4hd",
+"lh": "B3+D#4d* F#4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; dièses de précaution D#5 (chant) et D#4 (MG)"
+},
+{
+"marks": [],
+"v": "F#4h F#4",
+"ly": "bras se",
+"rh": "F#5 C#5 r // A#4hd",
+"lh": "B3+C#4+E4d* F#4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; MG : note basse lue B3 (décalée), possible A#3"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "G#4 F#4 r",
+"ly": "po- se!",
+"rh": "G#5 F#5 r // A4hd",
+"lh": "B3+D#4d* F#4d*",
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; bécarre A4 MD"
+}
+]
+}
