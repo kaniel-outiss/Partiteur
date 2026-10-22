@@ -1,0 +1,166 @@
+{
+"page": 3,
+"measures": [
+{
+"meter": "3/8",
+"doubt": "m.g. : D3/G3 hampes en haut, C3 hampes en bas ; m.d. liaison vers m. suivante",
+"v": "G4e G4e G4e",
+"ly": "Sen- ti- lo",
+"rh": "G4+B4+F5d",
+"lh": "D3s G3s D3s G3s D3s G3s // C3e C3e C3e"
+},
+{
+"doubt": "m.g. : têtes C3+E3 partagées par les deux voix",
+"v": "G4ed A4s G4e",
+"ly": "bat- te- re,",
+"rh": "G4+C5+E5e rs C6s D6s E6s",
+"lh": "C3+E3s G3s C3+E3s G3s C3+E3s G3s // C3e C3e C3e"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "F6s D6s B5s G5s A5s B5s",
+"lh": "D3+F3s G3s D3+F3s G3s D3+F3s G3s // C3e C3e C3e"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "C6s G5s E5s C5s D5s E5s",
+"lh": "C3+E3s G3s C3+E3s G3s C3+E3s G3s // C3e C3e C3e"
+},
+{
+"v": "G4e G4e G4e",
+"ly": "toc- ca- mi",
+"rh": "G4+B4+F5d",
+"lh": "D3s G3s D3s G3s D3s G3s // C3e C3e C3e"
+},
+{
+"marks": [
+"mf"
+],
+"v": "G4e rs C5s D5s E5s",
+"ly": "qua. Sen- ti- lo",
+"rh": "G4+C5+E5e rs G4+C5s F4+D5s E4+E5s",
+"lh": "C3e rs E3+G3s D3+B3s C3+C4s"
+},
+{
+"marks": [
+"p",
+"mf"
+],
+"doubt": "p sur le 1er temps, mf sur les doubles croches",
+"v": "E5sd A4t A4s D5s E5s F5s",
+"ly": "bat- te- re, sen- ti- lo",
+"rh": "F4+A4e rs A4+D5s G4+E5s F4+F5s",
+"lh": "F3+C4e rs F3+A3s E3+C#4s D3+D4s"
+},
+{
+"marks": [
+"p"
+],
+"doubt": "accords m.g. piqués (staccato)",
+"v": "F5sd B4t B4e re",
+"ly": "bat- te- re,",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "m.g. 1er accord sans crochet visible, lu croche (sinon la mesure déborde) ; staccatos",
+"v": "E5e F5e B4e",
+"ly": "toc- ca- mi",
+"rh": "G5s F5t G5t A5e E4+G4+B4e",
+"lh": "C4+E4e F3+A3+F4e G3e"
+},
+{
+"marks": [
+"mf"
+],
+"v": "C5e rs C5s D5s E5s",
+"ly": "qua. Sen- ti- lo",
+"rh": "E4+C5e rs G4+C5s F4+D5s E4+E5s",
+"lh": "C3e rs E3+G3s D3+B3s C3+C4s"
+},
+{
+"marks": [
+"p",
+"mf"
+],
+"v": "E5sd A4t A4s D5s E5s F5s",
+"ly": "bat- te- re, sen- ti- lo",
+"rh": "F4+A4e rs A4+D5s G4+E5s F4+F5s",
+"lh": "F3+C4e rs F3+A3s E3+C#4s D3+D4s"
+},
+{
+"marks": [
+"p"
+],
+"v": "F5sd B4t B4e re",
+"ly": "bat- te- re,",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"v": "F5s B4s B4ed F5s",
+"ly": "sen- ti- lo _",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"v": "F5s B4s B4ed D5s",
+"ly": "bat- te- re, _",
+"rh": "rs D6s C6s B5s A5s G5s",
+"lh": "G3+B3+D4+F4e rs G3+B3+D4+F4s G3+B3+D4+F4s G3+B3+D4+F4s"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "m.g. 2e accord F3+F4 (sans A3, contrairement à m.66)",
+"v": "E5e F5e B4e",
+"ly": "toc- ca- mi",
+"rh": "G5s F5t G5t A5e E4+G4+B4e",
+"lh": "C4+E4e F3+F4e G3e"
+},
+{
+"v": "B4 C5e",
+"ly": "qua, _",
+"rh": "F4+D5 E4+C5s rs",
+"lh": "G3+B3 C3+C4s rs"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "arcs (liaisons) entre les deux accords m.g.",
+"v": "D5 E5e",
+"ly": "qua, _",
+"rh": "F5ed E5t F5t E5s rs",
+"lh": "G3+B3+D4 C4+E4s rs"
+},
+{
+"marks": [
+"tr"
+],
+"doubt": "points d'orgue sur F5/B5/accord m.g. et sur le dernier silence ; 2e accord m.g. peut-être avec une 3e tête (A3?) ; clé de SOL à la m.g. en fin de mesure",
+"v": "F5^ E5s rs^",
+"ly": "qua, _",
+"rh": "B5ed^ A5t B5t C6s rs^",
+"lh": "G3+D4+F4^ C4+E4s rs^"
+}
+]
+}

@@ -1,0 +1,195 @@
+{
+"page": 2,
+"measures": [
+{
+"meter": "3/8",
+"marks": [
+"tr"
+],
+"doubt": "arcs venant de la p. 57 (m.d. vers G4+B4, m.g. vers D3) ; tr sur le 1er accord",
+"v": "B4e C5e A4e",
+"ly": "non lo sa",
+"rh": "G4+B4e A4+C5e F#4+A4e",
+"lh": "D3e re D3e"
+},
+{
+"doubt": "arc partant de G5 vers m. suivante ; arc D3→G3 à la m.g.",
+"v": "G4e D5e re",
+"ly": "far, no,",
+"rh": "G4e re D5+G5e",
+"lh": "G3e re B2e"
+},
+{
+"marks": [
+"tr"
+],
+"v": "B4e C5e A4e",
+"ly": "non lo sa",
+"rh": "G4+B4e A4+C5e F#4+A4e",
+"lh": "D3e re D3e"
+},
+{
+"doubt": "liaison courte G4→G4 lue comme prolongation (chant et m.d.), plus longue liaison jusqu'à B4",
+"v": "G4d~",
+"ly": "far,",
+"rh": "G4d~",
+"lh": "G3d // G2e B2e D3e"
+},
+{
+"doubt": "F4 bécarre imprimé sur le 3e accord",
+"v": "G4e A4e B4e",
+"ly": "_ _",
+"rh": "G4e F#4+A4e F4+B4e",
+"lh": "B3e C4e D4e // G3d"
+},
+{
+"v": "C5e C5e C5e",
+"ly": "È‿un cer- to",
+"rh": "E4+C5e E4+C5e E4+C5e",
+"lh": "C3+C4d~"
+},
+{
+"v": "gC5 gD5 E5ed D5s C5e",
+"ly": "bal- sa- mo",
+"rh": "gC5 gD5 G4+E5ed F4+D5s E4+C5e",
+"lh": "C4d // C3d~"
+},
+{
+"v": "B4e B4e C5e",
+"ly": "che por- to‿ad-",
+"rh": "F4+B4e F4+B4e G4+C5e",
+"lh": "D3 E3e // C3d~"
+},
+{
+"doubt": "pas de tr imprimé",
+"v": "B4e A4e G4e",
+"ly": "dos- _ so.",
+"rh": "G4+B4e F4+A4e E4+G4e",
+"lh": "F3s G3s A3s B3s C4e // C3d"
+},
+{
+"v": "C5e C5e C5e",
+"ly": "Da- re tel",
+"rh": "E4+C5e E4+C5e E4+C5e",
+"lh": "C3e E3e C3e"
+},
+{
+"v": "gC5 gD5 E5ed D5s C5e",
+"ly": "pos- _ so,",
+"rh": "gC5 gD5 G4+E5ed F4+D5s E4+C5e",
+"lh": "G2+G3d~"
+},
+{
+"v": "C5e D5e B4e",
+"ly": "se‿il vuoi pro-",
+"rh": "E4+C5e F4+D5e D4+F4+G4+B4e",
+"lh": "G2+G3 G3e"
+},
+{
+"v": "B4 C5e",
+"ly": "var. _",
+"rh": "D4+F4+G4+B4 E4+G4+C5s rs",
+"lh": "G3 C3s rs"
+},
+{
+"marks": [
+"tr"
+],
+"v": "rd",
+"ly": "",
+"rh": "F5ed E5t F5t E5s rs",
+"lh": "G3+B3+D4 C4+E4s rs"
+},
+{
+"marks": [
+"tr"
+],
+"v": "rd",
+"ly": "",
+"rh": "B5ed A5t B5t C6s rs",
+"lh": "G3+D4+F4 C4+E4s rs"
+},
+{
+"v": "D5e E5e C5e",
+"ly": "Sa- per vor-",
+"rh": "B3+D4e C4+E4e G3+C4e",
+"lh": "G2+G3e C3+G3e E3e"
+},
+{
+"v": "E5 D5e",
+"ly": "re- sti",
+"rh": "C4+E4 B3+D4e",
+"lh": "G3d"
+},
+{
+"marks": [
+"tr"
+],
+"v": "rd",
+"ly": "",
+"rh": "F5ed E5t F5t E5s rs",
+"lh": "G3+B3+D4 C4+E4s rs"
+},
+{
+"marks": [
+"tr"
+],
+"v": "rd",
+"ly": "",
+"rh": "B5ed A5t B5t C6s rs",
+"lh": "G3+D4+F4 C4+E4s rs"
+},
+{
+"v": "D5e E5e C5e",
+"ly": "do- ve mi",
+"rh": "B3+D4e C4+E4e G3+C4e",
+"lh": "G2+G3e C3+G3e E3e"
+},
+{
+"doubt": "m.g. sans G2 grave (contrairement aux mesures analogues)",
+"v": "D5e E5e C5e",
+"ly": "sta, do- ve,",
+"rh": "B3+D4e C4+E4e G3+C4e",
+"lh": "G3e C3+G3e E3e"
+},
+{
+"v": "D5s D5s E5s E5s C5e",
+"ly": "do- ve, do- ve mi",
+"rh": "B3+D4e C4+E4e G3+C4e",
+"lh": "G3e C3+G3e E3e"
+},
+{
+"doubt": "point d'orgue sur E5 (chant) et sur le 1er silence (piano) ; liaison E5→D5",
+"v": "E5d^",
+"ly": "sta?",
+"rh": "C4+E4e re^ re",
+"lh": "G3e re^ re"
+},
+{
+"doubt": "points d'orgue sur le dernier silence",
+"v": "D5e re re^",
+"ly": "_",
+"rh": "B3+D4e re re^",
+"lh": "G2e re re^"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "re rs C6s D6s E6s",
+"lh": "C3s C4s C3s C4s C3s C4s"
+},
+{
+"v": "rd",
+"ly": "",
+"rh": "F6s D6s B5s G5s A5s B5s",
+"lh": "D3+F3s G3s D3+F3s G3s D3+F3s G3s // C3e C3e C3e"
+},
+{
+"doubt": "m.g. : têtes C3+E3 partagées par les deux voix (hampes haut/bas) ; liaison vers la page suivante",
+"v": "rd",
+"ly": "",
+"rh": "C6s G5s E5s C5s D5s E5s",
+"lh": "C3+E3s G3s C3+E3s G3s C3+E3s G3s // C3e C3e C3e"
+}
+]
+}

@@ -10,24 +10,44 @@
 ],
 "lines": [
 {
-"key": "masetto",
-"it": "Masetto, senti un po'! Masetto, dico! … Ma se colpa io non ho! … Ma se da lui ingannata rimasi… Taci, taci, ti dico!",
-"ipa": "maˈzetto ˈsɛnti un pɔ ˈdiːko ma se ˈkolpa ˈiːo non ɔ ma se da ˈluːi iŋɡanˈnaːta riˈmaːzi ˈtaːtʃi",
+"key": "ma se colpa",
+"it": "Ma se colpa io non ho! Ma se da lui ingannata rimasi… E poi che temi? Tranquillati, mia vita: non mi toccò la punta delle dita. Non me lo credi? Ingrato! Vien qui, sfogati, ammazzami, fa' tutto di me quel che ti piace; ma poi, Masetto mio, ma poi fa' pace.",
+"ipa": "ma se ˈkolpa ˈiːo non ɔ ma se da ˈluːi iŋɡanˈnaːta riˈmaːzi e pɔi ke ˈtɛːmi trankwilˈlaːti ˈmiːa ˈviːta non mi tokˈkɔ la ˈpunta ˈdelle ˈdiːta non me lo ˈkreːdi inˈɡraːto vjɛn kwi ˈsfɔːɡati amˈmattsami fa ˈtutto di me kwel ke ti ˈpjaːtʃe ma pɔi maˈzetto ˈmiːo ma pɔi fa ˈpaːtʃe",
 "w": [
-[
-"senti un po'",
-"écoute un peu"
-],
 [
 "se colpa io non ho",
 "si je ne suis pas coupable"
 ],
 [
-"da lui ingannata",
-"trompée par lui"
+"da lui ingannata rimasi",
+"c'est lui qui m'a trompée"
+],
+[
+"che temi?",
+"que crains-tu ?"
+],
+[
+"Tranquillati",
+"calme-toi"
+],
+[
+"non mi toccò la punta delle dita",
+"il ne m'a pas touché le bout des doigts"
+],
+[
+"sfogati, ammazzami",
+"défoule-toi, tue-moi"
+],
+[
+"fa' tutto di me quel che ti piace",
+"fais de moi ce qui te plaît"
+],
+[
+"fa' pace",
+"fais la paix"
 ]
 ],
-"fr": "(Récitatif) Masetto, écoute un peu ! Mais si je ne suis pas coupable ! Si c'est lui qui m'a trompée… Tais-toi, tais-toi !"
+"fr": "(Récitatif) Mais si je ne suis pas coupable ! Si c'est lui qui m'a trompée… Et puis, que crains-tu ? Calme-toi, ma vie : il ne m'a pas touché le bout des doigts. Tu ne me crois pas ? Ingrat ! Viens ici, défoule-toi, tue-moi, fais de moi ce qui te plaît ; mais ensuite, mon Masetto, ensuite fais la paix."
 },
 {
 "key": "batti",
