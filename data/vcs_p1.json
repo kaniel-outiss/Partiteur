@@ -1,0 +1,18 @@
+{"page":1,"measures":[
+{"meter":"2/4","ks":-2,"tempo":"Andante","marks":["p","dolce"],"v":"rh","ly":"","rh":"D4+Bb4 F4e F4e","lh":"Bb2s D3s F3s Bb3s Bb2s D3s F3s Bb3s","doubt":"Page imprimée 147 (p-157), titre « Nº 12 Arietta ». Indication scénique : « (La Susanna fa il ritornello sul chitarrino.) ». Ritournelle piano seul (m. 1-8), pas de portée de chant → silences. Liaison D4+Bb4 → F4 ; staccatos à la MG."},
+{"v":"rh","ly":"","rh":"Eb4+C5 F4e F4e","lh":"A2s Eb3s F3s C4s A2s Eb3s F3s C4s"},
+{"v":"rh","ly":"","rh":"Bb4+D5 Bb4sd A4+C5t Bb4+D5sd C5+Eb5t","lh":"Bb2s D3s F3s Bb3s G3s Bb3s Eb3s G3+C4s","doubt":"Temps 2 MD : liaisons par paires (Bb4→A4+C5, Bb4+D5→C5+Eb5)."},
+{"v":"rh","ly":"","rh":"A4+C5 r // re F4e F4e F4e","lh":"F2s C3s F3s A3s F2s C3s F3s A3s"},
+{"v":"rh","ly":"","rh":"D5+F5e Bb4+D5s rs D5+F5e Bb4+D5s rs","lh":"Bb2s D3s F3s Bb3s Bb2s D3s F3s Bb3s","doubt":"MD : liaisons sur chaque paire d'accords."},
+{"v":"rh","ly":"","rh":"G4+C5e C5+Eb5s rs Eb4+C5e G4+Eb5s rs","lh":"Eb2s Eb3s G3s C4s Eb2s Eb3s G3s C4s","doubt":"MG : Eb2 sur ligne supplémentaire (1er groupe partiellement lu, même dessin que le 2e). Liaison Eb4→G4 sous la MD."},
+{"v":"rh","ly":"","rh":"D4+Bb4 C4+A4sd D4+Bb4t Eb4+C5sd F4+D5t","lh":"F2s D3s F3s Bb3s F2s C3s Eb3s A3s","doubt":"Liaisons par paires au temps 2 MD."},
+{"v":"rh","ly":"","rh":"D4+Bb4e F4+D5e D4+Bb4e re","lh":"Bb2s D3s F3s Bb3s Bb2+Bb3e Bb2+Bb3e","doubt":"Accents/staccatos (coins) sous les accords MD."},
+{"v":"Bb4 F4e F4e","ly":"Voi che sa-","rh":"rs Bb3+D4s D4+F4s F4+Bb4s rs Bb3+D4s D4+F4s F4+Bb4s","lh":"Bb2+Bb3e re Bb2e re","doubt":"Entrée de CHERUBINO. Staccatos MD."},
+{"v":"C5 F4","ly":"pe- te","rh":"rs C4+Eb4s Eb4+F4s F4+C5s rs C4+Eb4s Eb4+F4s F4+C5s","lh":"A2e re A2e re","doubt":"3e accord MD lu F4+C5 (pas de A4 visible)."},
+{"v":"D5 Bb4sd C5t D5sd Eb5t","ly":"che co- _ sa‿è‿a- _","rh":"rs Bb3+D4s D4+F4s F4+Bb4s rs D4+Bb4s Eb4+G4s C5+Eb5s","lh":"Bb2e re G3e Eb3e","doubt":"« sa è a » imprimé sous une seule note (D5) ; C5 et Eb5 liés (mélismes)."},
+{"v":"C5 r","ly":"mor,","rh":"rs A3+F4s F4+A4s A4+C5s rs A3+F4s F4+A4s A4+C5s","lh":"F3e re F2e re"},
+{"v":"D5 Eb5e E5e","ly":"don- ne ve-","rh":"Bb4+D5 C5+Eb5e C#5+E5e","lh":"Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s","doubt":"Bécarre imprimé sur E5 (chant) ; MD ♯ sur C5 et ♮ sur E5. Grande liaison MD m. 13 → m. 14."},
+{"v":"F5ed D5s Bb4e re","ly":"de- _ te","rh":"D5+F5s D5+F5t3 G5t3 F5t3 Bb5s F5+A5s Eb5+G5s D5+F5s C5+Eb5s Bb4+D5s","lh":"Bb2s Bb3s Bb3s Bb3s Bb2s Bb3s Bb3s Bb3s","doubt":"Triolet de triples croches (« 3 ») MD. Bémol de précaution sur Eb5 et bécarre de précaution sur C5 au temps 2 (après C#/E♮ de m. 13). Staccatos."},
+{"v":"C5 Db5e D5e","ly":"s'io l'ho nel","rh":"A4+C5 Bb4+Db5e B4+D5e","lh":"F2s F3s F3s F3s F2s F3s F3s F3s","doubt":"Db5 (♭) puis D5♮ au chant ; MD ♭ sur D5 puis ♮ sur B4 et D5. Liaison MD m. 15 → m. 16."},
+{"v":"Eb5 r","ly":"cor,","rh":"C5+Eb5s Eb5t3 F5t3 Eb5t3 C6s D5+Bb5s C5+A5s Bb4+G5s A4+F5s C5+Eb5s","lh":"F2s F3s F3s F3s F2+F3s F3s F3s F3s","doubt":"Triolet de triples croches MD ; bémol de précaution sur Bb5. MG 2e groupe : une tête F3 accolée à la hampe de F2 (lu F2+F3)."}
+]}
