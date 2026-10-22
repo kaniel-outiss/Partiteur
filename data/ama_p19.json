@@ -1,0 +1,191 @@
+{
+ "page": 19,
+ "measures": [
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "A3e re F3e",
+   "lsu": "vrai, son",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "re C4+Eb4+A4e re",
+   "lh": "re F3e re",
+   "meter": "3/8",
+   "ks": -1,
+   "marks": [
+    "p"
+   ],
+   "doubt": "Page 147 : système LE CAPORAL (clé de FA, 'Le C.') + piano ; pas de portée TONIO -> v = silences. Mesure 3/8, armure fa majeur (-1) déduites de la page (pas de changement imprimé ici). Suite de la page précédente : début de phrase ('…vrai') coupé."
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "F3ed F3s G3s A3s",
+   "lsu": "pè- re,en ce mo-",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "rd",
+   "lh": "rd",
+   "doubt": "'re, en' élidé sur une seule double croche"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "Bb3e re re",
+   "lsu": "ment,",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "re Bb3+D4+Bb4e re",
+   "lh": "re G3e re"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "Bb3 Bb3e",
+   "lsu": "Te pro-",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "rd",
+   "lh": "rd",
+   "doubt": "Paroles imprimées décalées : 'Te' sous la noire, 'pro-' semble sous la mesure suivante ; répartition par nombre de notes (7 notes / 7 syllabes m4-6)"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "Eb3e Eb3e Eb3e",
+   "lsu": "met son con-",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Eb4d",
+   "lh": "Eb2+Eb3d",
+   "marks": [
+    "Tempo."
+   ],
+   "doubt": "Piano : liaison de phrasé m5-6 (rh et lh)."
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "F3 F3e",
+   "lsu": "sen- te-",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F4d",
+   "lh": "F2+F3d"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "Gb3d",
+   "lsu": "ment,",
+   "ct": "Bb4d~",
+   "lct": "Oui,",
+   "cb": "Bb3d~",
+   "lcb": "Oui,",
+   "rh": "Gb4d~",
+   "lh": "Gb2+Gb3d~",
+   "marks": [
+    "fp"
+   ],
+   "doubt": "Entrée du CHŒUR : portées 'TÉN.' (clé de sol) et 'BAS.' (clé de FA). Bémol explicite sur le si des deux voix. fp au piano."
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "rd",
+   "ct": "Bb4d",
+   "cb": "Bb3d",
+   "rh": "Gb4d",
+   "lh": "Gb2+Gb3d",
+   "doubt": "'Oui,____' : liaison de prolongation présumée (même hauteur)"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "rd",
+   "ct": "Bb4d",
+   "lct": "te",
+   "cb": "Bb3d",
+   "lcb": "te",
+   "rh": "Bb3+C#4+E4d~",
+   "lh": "G2+G3d~",
+   "marks": [
+    "p"
+   ],
+   "doubt": "p au chœur et au piano. Accord rh : mi bécarre, do dièse, si bémol (lecture serrée)."
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "rd",
+   "ct": "Bb4d",
+   "lct": "pro-",
+   "cb": "Bb3d",
+   "lcb": "pro-",
+   "rh": "Bb3+C#4+E4d",
+   "lh": "G2+G3d"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "rd",
+   "ct": "F4d",
+   "lct": "met",
+   "cb": "F3d",
+   "lcb": "met",
+   "rh": "Bb3+D4+F4d~",
+   "lh": "F2+F3d~",
+   "doubt": "Accord rh m11-12 lu Bb3+D4+F4 (lecture à confirmer)."
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "F3 F3e",
+   "lsu": "son con-",
+   "ct": "F4 F4e",
+   "lct": "son con-",
+   "cb": "F3 F3e",
+   "lcb": "son con-",
+   "rh": "Bb3+D4+F4d",
+   "lh": "F2+F3d"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "F3d",
+   "lsu": "sen-",
+   "ct": "F4d",
+   "lct": "sen-",
+   "cb": "F3d",
+   "lcb": "sen-",
+   "rh": "A3+C4d~",
+   "lh": "F2+Eb3d~",
+   "doubt": "Accord rh m13-14 lu A3+C4 (deux têtes), possible note supplémentaire."
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "F3d",
+   "lsu": "te-",
+   "ct": "F4d",
+   "lct": "te-",
+   "cb": "F3d",
+   "lcb": "te-",
+   "rh": "A3+C4d",
+   "lh": "F2+Eb3d"
+  },
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "Bb2 re",
+   "lsu": "ment…",
+   "ct": "Bb3 re",
+   "lct": "ment…",
+   "cb": "Bb2 re",
+   "lcb": "ment…",
+   "rh": "Bb3e F3+Bb3+D4e F3+Bb3+D4e",
+   "lh": "Bb2+D3e re re",
+   "doubt": "Fin de la page 147 (pas de double barre visible). ATTENTION DÉSORDRE : la page suivante (148) est une autre gravure (« Pour mon âme », mesures numérotées 21, 27…) qui commence en cours d'air (≈ mesure 10) ; la transition entre ces deux pages manque."
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "page": 20,
+ "measures": [
+  {
+   "v": "rd",
+   "ly": "",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "re re F5+D6e",
+   "lh": "rd",
+   "meter": "3/8",
+   "ks": -1,
+   "doubt": "DÉSORDRE : page 148 = autre gravure (moderne) de « Pour mon âme », qui commence en cours d'air. Mesures déduites : 10-14 pour le 1er système (le 2e système commence à 15, le 3e est numéroté 21). 1er système tronqué : ni clés ni armure ni portée main gauche imprimées -> lh = silences ; clé de sol et fa majeur supposés. 3/8 déduit des durées."
+  },
+  {
+   "v": "G5 F5e",
+   "ly": "Pour _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "G5+Eb6 F5+D6e",
+   "lh": "rd",
+   "doubt": "lh absente (système tronqué)."
+  },
+  {
+   "v": "E5 F5e",
+   "ly": "mon _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "E5+C#6 F5+D6e",
+   "lh": "rd",
+   "doubt": "Bécarre imprimé sur le mi (voix et piano)."
+  },
+  {
+   "v": "F5d",
+   "ly": "â-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6d",
+   "lh": "rd"
+  },
+  {
+   "v": "D5e re re",
+   "ly": "me",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "D5+Bb5e re D5+Bb5e",
+   "lh": "rd"
+  },
+  {
+   "v": "F5 Eb5e",
+   "ly": "quel _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6 Eb5+C6e",
+   "lh": "F3e A3+Eb4e A3+Eb4e",
+   "doubt": "Accent > sur F5 (voix). Clé de ténor (sol 8) : notes écrites en clé de sol."
+  },
+  {
+   "v": "D5 C5e",
+   "ly": "des- _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "D5+Bb5 C5+F5e",
+   "lh": "F3e A3+Eb4e A3+Eb4e"
+  },
+  {
+   "v": "Bb4d~",
+   "ly": "tin!",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Bb4+D5 D5+F5s C5+Eb5s",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e"
+  },
+  {
+   "v": "Bb4e re re",
+   "ly": "",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Bb4+D5e re F5+D6e",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e",
+   "doubt": "Liaison m17-18 interprétée comme prolongation (même hauteur)."
+  },
+  {
+   "v": "G5 F5e",
+   "ly": "J'ai _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "G5+Eb6 F5+D6e",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e",
+   "doubt": "Accent > sur G5."
+  },
+  {
+   "v": "E5 F5e",
+   "ly": "sa _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "E5+C#6 F5+D6e",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e",
+   "doubt": "Bécarre sur le mi (voix et piano)."
+  },
+  {
+   "v": "F5d",
+   "ly": "flam-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6d",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e",
+   "doubt": "Mesure 21 imprimée — compte OK."
+  },
+  {
+   "v": "D5 F5e",
+   "ly": "me, et",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "D5+Bb5e re F5+D6e",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e"
+  },
+  {
+   "v": "A5e G5e F5e",
+   "ly": "j'ai _ _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "A5+F6e G5+Eb6e F5+D6e",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e"
+  },
+  {
+   "v": "F5e Eb5e D5e",
+   "ly": "sa _ _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6e Eb5+C6e D5+Bb5e",
+   "lh": "Bb2e F3+Bb3+D4e F3+Bb3+D4e"
+  },
+  {
+   "v": "C5d~",
+   "ly": "main!",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+A5 Eb5+C6s D5+Bb5s",
+   "lh": "F2e F3+A3+C4e F3+A3+C4e"
+  },
+  {
+   "v": "C5e re re",
+   "ly": "",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+A5e re A4+F5e",
+   "lh": "F2e F3+A3+C4e F3+A3+C4e",
+   "doubt": "Liaison m25-26 interprétée comme prolongation."
+  },
+  {
+   "v": "C5d",
+   "ly": "Jour",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+A5d",
+   "lh": "F2e F3e F3e",
+   "doubt": "Mesure 27 imprimée — compte OK. lh : notes piquées."
+  },
+  {
+   "v": "D5e C5e D5e",
+   "ly": "pros- _ _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "gC6 D5+Bb5e C5+A5e D5+Bb5e",
+   "lh": "F2e F3e F3e",
+   "doubt": "Petite note barrée avant le 1er accord, lue C6."
+  },
+  {
+   "v": "D5d",
+   "ly": "pè-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "D5+B5d",
+   "lh": "F2e F3e F3e",
+   "doubt": "Bécarre sur le si aigu rh (B5 naturel)."
+  },
+  {
+   "v": "Eb5e re re",
+   "ly": "re!",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Eb5+C6e re F5e",
+   "lh": "F2e F3e F3e"
+  },
+  {
+   "v": "G5 F5e",
+   "ly": "Me _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "G5+Eb6 F5+D6e",
+   "lh": "F2e F3e F3e",
+   "doubt": "Accent > sur l’accord rh."
+  },
+  {
+   "v": "F5e Eb5e D5e",
+   "ly": "voi- _ _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6e Eb5+C6e D5+Bb5e",
+   "lh": "F2e F3e F3e",
+   "doubt": "Suite page 149 : '-ci'."
+  }
+ ]
+}

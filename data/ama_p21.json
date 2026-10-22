@@ -1,0 +1,245 @@
+{
+ "page": 21,
+ "measures": [
+  {
+   "v": "F5d",
+   "ly": "ci",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6e Eb5+C6e D5+Bb5e",
+   "lh": "F2e F3e F3e",
+   "meter": "3/8",
+   "ks": -1
+  },
+  {
+   "v": "C5e re re",
+   "ly": "",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+A5e re F5e",
+   "lh": "F2e F3e F3e",
+   "doubt": "C5 lié (phrasé) depuis F5 : mélisme sur « ci » (sans syllabe)."
+  },
+  {
+   "v": "C5d",
+   "ly": "mi-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+A5d",
+   "lh": "F2e F3e F3e"
+  },
+  {
+   "v": "Db5e C5e Db5e",
+   "ly": "li- _ _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "gC6 Db5+Bb5e C5+A5e Db5+Bb5e",
+   "lh": "F2e F3e F3e",
+   "doubt": "Petite note barrée lue C6."
+  },
+  {
+   "v": "D5d",
+   "ly": "tai-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "D5+B5d",
+   "lh": "F2e F3e F3e",
+   "doubt": "Bécarres sur ré (voix) et si (rh)."
+  },
+  {
+   "v": "Eb5e Eb5e F5e",
+   "ly": "re, mi- li-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Eb5+C6e re F5+Db6e",
+   "lh": "F2e F3e F3e"
+  },
+  {
+   "v": "Gb5 F5e",
+   "ly": "tai- re",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Gb5+Eb6 F5+Db6e",
+   "lh": "F2e F3e F3e",
+   "doubt": "Mesure 39 imprimée — compte OK. Accents > voix et rh."
+  },
+  {
+   "v": "F5e Eb5e Db5e",
+   "ly": "et _ ma-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+Db6e Eb5+C6e Db5+Bb5e",
+   "lh": "F2e F3e F3e"
+  },
+  {
+   "v": "C5e C5e C5e",
+   "ly": "ri! Mi- li-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+A5d",
+   "lh": "F2e F3s F3s F3s F3s",
+   "marks": [
+    "cresc."
+   ],
+   "doubt": "Soufflet de crescendo imprimé (m41-42) noté 'cresc.'. lh : doubles croches piquées."
+  },
+  {
+   "v": "D5e D5e D5e",
+   "ly": "taire et ma-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Bb4+D5+Bb5d",
+   "lh": "F2e F3s F3s F3s F3s",
+   "doubt": "Bécarre sur ré (voix et rh). 'taire' une seule syllabe (élision)."
+  },
+  {
+   "v": "Eb5d",
+   "ly": "ri!",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C5+Eb5+C6d",
+   "lh": "F2e F3s F3s F3s F3s"
+  },
+  {
+   "v": "E5d",
+   "ly": "Ah!",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C#5+E5+C#6d",
+   "lh": "F2e F3s F3s F3s F3s",
+   "marks": [
+    "poco rit."
+   ]
+  },
+  {
+   "v": "G5 F5e",
+   "ly": "Pour _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Eb5+G5+Eb6 D5+F5+D6e",
+   "lh": "Bb2e F3e Bb3e",
+   "marks": [
+    "a tempo"
+   ],
+   "doubt": "Accents > voix et rh."
+  },
+  {
+   "v": "E5 F5e",
+   "ly": "mon _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "C#5+E5+C#6 D5+F5+D6e",
+   "lh": "Bb2e F3e Bb3e"
+  },
+  {
+   "v": "F5d",
+   "ly": "â-",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "D5+F5+D6d",
+   "lh": "Bb2e F3e Bb3e"
+  },
+  {
+   "v": "D5 re",
+   "ly": "me",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Bb4+D5+Bb5e re F5+D6+F6e",
+   "lh": "Bb2e F3e Bb3e"
+  },
+  {
+   "v": "F5 Ab5e",
+   "ly": "quel _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6+F6 Ab5+F6+Ab6e",
+   "lh": "G2e G3e B3e",
+   "doubt": "Accords aigus (3 lignes suppl.) : lecture serrée. lh : si bécarre."
+  },
+  {
+   "v": "G5 F5e",
+   "ly": "des- _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "G5+B5+G6 F5+D6+F6e",
+   "lh": "G2e G3e B3e",
+   "doubt": "Portée de chant inclinée : G5/F5 lus par cohérence avec la doublure rh. Bécarre rh lu sur le si (B5)."
+  },
+  {
+   "v": "F5d",
+   "ly": "tin!",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6+F6d",
+   "lh": "C3e G3e C4e"
+  },
+  {
+   "v": "Eb5e re re",
+   "ly": "",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Eb5+C6+Eb6e re Eb5+C6+Eb6e",
+   "lh": "C3e G3e C4e",
+   "doubt": "Eb5 lié (phrasé) depuis F5 : mélisme sur « tin »."
+  },
+  {
+   "v": "A5 G5e",
+   "ly": "J'ai _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "A5+F6+A6 G5+Eb6+G6e",
+   "lh": "Eb3e G3e C4e",
+   "doubt": "Accents > ; bécarres de précaution sur la (rh)."
+  },
+  {
+   "v": "F5 Eb5e",
+   "ly": "sa _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "F5+D6+F6 Eb5+C6+Eb6e",
+   "lh": "Eb3e G3e C4e"
+  },
+  {
+   "v": "G5 F5e",
+   "ly": "flam- _",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "G5+Eb6+G6 F5+D6+F6e",
+   "lh": "F3e Bb3e D4e",
+   "doubt": "Accents >."
+  },
+  {
+   "v": "Eb5 D5e",
+   "ly": "me et",
+   "su": "rd",
+   "ct": "rd",
+   "cb": "rd",
+   "rh": "Eb5+C6+Eb6 D5+Bb5+D6e",
+   "lh": "F3e Bb3e D4e",
+   "doubt": "Suite page 150."
+  }
+ ]
+}
