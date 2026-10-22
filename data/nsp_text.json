@@ -1,0 +1,140 @@
+{
+"lang": "it",
+"ctx": "Le nozze di Figaro (Mozart, livret de Da Ponte, 1786), acte I. Le jeune page Chérubin — rôle travesti, chanté par une mezzo ou une soprano — vient d'être chassé par le Comte, qui l'a surpris seul avec Barberina. Il supplie Susanna d'intercéder pour lui auprès de la Comtesse, dont il est éperdument amoureux. Puis il déverse son trouble d'adolescent : toutes les femmes le font rougir et trembler, il parle d'amour à l'eau, à l'ombre, aux montagnes, aux fleurs, au vent… et, si personne ne l'écoute, il parle d'amour à lui-même. Allegro vivace haletant, comme un cœur qui s'emballe.",
+"diction": [
+"Allegro vivace : débit rapide mais articulé, essoufflement « joué », jamais réel — souffle bien géré.",
+"Doubles consonnes : « faccio » [ˈfattʃo], « foco », « ghiaccio » [ˈɡjattʃo], « petto », « favellar », « palpitar » (simple).",
+"« Ogni donna cangiar di colore » : [ˈoɲɲi], [kanˈdʒar].",
+"Adagio final « E se non ho chi m'oda » : suspendu, intime, puis reprise vive « parlo d'amor con me ».",
+"Voix de jeune homme : timbre clair et franc, sans maniérisme."
+],
+"lines": [
+{
+"key": "non so più",
+"it": "Non so più cosa son, cosa faccio, or di foco, ora sono di ghiaccio, ogni donna cangiar di colore, ogni donna mi fa palpitar.",
+"ipa": "non sɔ pju ˈkɔːza son ˈkɔːza ˈfattʃo or di ˈfɔːko ˈoːra ˈsoːno di ˈɡjattʃo ˈoɲɲi ˈdɔnna kanˈdʒar di koˈloːre ˈoɲɲi ˈdɔnna mi fa palpiˈtar",
+"w": [
+[
+"Non so più cosa son",
+"je ne sais plus ce que je suis"
+],
+[
+"cosa faccio",
+"ce que je fais"
+],
+[
+"or di foco",
+"tantôt de feu"
+],
+[
+"ora sono di ghiaccio",
+"tantôt je suis de glace"
+],
+[
+"ogni donna",
+"chaque femme"
+],
+[
+"cangiar di colore",
+"(me fait) changer de couleur"
+],
+[
+"mi fa palpitar",
+"me fait palpiter"
+]
+],
+"fr": "Je ne sais plus ce que je suis, ce que je fais : tantôt je suis de feu, tantôt de glace ; chaque femme me fait changer de couleur, chaque femme me fait palpiter."
+},
+{
+"key": "solo ai nomi",
+"it": "Solo ai nomi d'amor, di diletto, mi si turba, mi s'altera il petto, e a parlare mi sforza d'amore un desio ch'io non posso spiegar.",
+"ipa": "ˈsoːlo ai ˈnoːmi daˈmor di diˈlɛtto mi si ˈturba mi ˈsaltera il ˈpɛtto e a parˈlaːre mi ˈsfɔrtsa daˈmoːre un deˈziːo ˈkiːo non ˈpɔsso spjeˈɡar",
+"w": [
+[
+"Solo ai nomi d'amor",
+"au seul mot d'amour"
+],
+[
+"di diletto",
+"de plaisir"
+],
+[
+"mi si turba",
+"se trouble"
+],
+[
+"mi s'altera il petto",
+"s'agite ma poitrine"
+],
+[
+"mi sforza",
+"me pousse"
+],
+[
+"un desio",
+"un désir"
+],
+[
+"ch'io non posso spiegar",
+"que je ne peux expliquer"
+]
+],
+"fr": "Au seul mot d'amour, de plaisir, mon cœur se trouble et s'agite, et un désir que je ne peux expliquer me pousse à parler d'amour."
+},
+{
+"key": "parlo d'amor",
+"it": "Parlo d'amor vegliando, parlo d'amor sognando, all'acqua, all'ombra, ai monti, ai fiori, all'erbe, ai fonti, all'eco, all'aria, ai venti, che il suon de' vani accenti portano via con sé.",
+"ipa": "ˈparlo daˈmor veʎˈʎando ˈparlo daˈmor soɲˈɲando alˈlakkwa alˈlombra ai ˈmonti ai ˈfjoːri alˈlɛrbe ai ˈfonti alˈlɛːko alˈlaːrja ai ˈvɛnti ke il swɔn de ˈvaːni atˈtʃɛnti ˈpɔrtano ˈviːa kon se",
+"w": [
+[
+"vegliando",
+"éveillé"
+],
+[
+"sognando",
+"en rêvant"
+],
+[
+"all'acqua, all'ombra",
+"à l'eau, à l'ombre"
+],
+[
+"ai monti, ai fiori",
+"aux montagnes, aux fleurs"
+],
+[
+"all'erbe, ai fonti",
+"à l'herbe, aux sources"
+],
+[
+"il suon de' vani accenti",
+"le son de mes vaines paroles"
+],
+[
+"portano via con sé",
+"emportent avec eux"
+]
+],
+"fr": "Je parle d'amour éveillé, je parle d'amour en rêvant, à l'eau, à l'ombre, aux montagnes, aux fleurs, à l'herbe, aux sources, à l'écho, à l'air, aux vents, qui emportent avec eux le son de mes vaines paroles."
+},
+{
+"key": "e se non",
+"it": "E se non ho chi m'oda, parlo d'amor con me.",
+"ipa": "e se non ɔ ki ˈmɔːda ˈparlo daˈmor kon me",
+"w": [
+[
+"se non ho chi m'oda",
+"si je n'ai personne pour m'entendre"
+],
+[
+"parlo d'amor con me",
+"je parle d'amour à moi-même"
+]
+],
+"fr": "Et si je n'ai personne pour m'entendre, je parle d'amour à moi-même."
+}
+],
+"doubts": [
+"Texte (Da Ponte) vérifié sur la partition à l'assemblage."
+]
+}

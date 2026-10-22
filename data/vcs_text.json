@@ -1,0 +1,144 @@
+{
+"lang": "it",
+"ctx": "Le nozze di Figaro (Mozart, livret de Da Ponte, 1786), acte II. Dans la chambre de la Comtesse, Susanna accompagne à la guitare Chérubin, qui chante devant sa marraine la chanson qu'il a composée pour elle. Le page interroge les dames, qui « savent ce qu'est l'amour » : est-ce bien de l'amour, ce qu'il ressent ? Désir, trouble, glace et feu, soupirs sans savoir pourquoi… Arietta d'une grâce et d'une simplicité parfaites, sur un accompagnement en pizzicato imitant la guitare.",
+"diction": [
+"Legato simple et pur, « p dolce » : c'est une chanson, pas un grand air.",
+"Doubles consonnes : « donne » [ˈdɔnne], « provo » (simple), « affetti », « gelar », « avvampar » [avvamˈpar], « sospiro », « pace ».",
+"Élision « che cosa è amor » : [ˈkɔːza ɛ aˈmor], liée.",
+"Les modulations centrales (« Gelo, e poi sento l'alma avvampar ») : plus de couleur, sans perdre la ligne.",
+"Respirer aux virgules, terminer les phrases sans appuyer."
+],
+"lines": [
+{
+"key": "voi che sapete",
+"it": "Voi che sapete che cosa è amor, donne, vedete s'io l'ho nel cor.",
+"ipa": "voi ke saˈpeːte ke ˈkɔːza ɛ aˈmor ˈdɔnne veˈdeːte ˈsiːo lɔ nel kɔr",
+"w": [
+[
+"Voi che sapete",
+"vous qui savez"
+],
+[
+"che cosa è amor",
+"ce qu'est l'amour"
+],
+[
+"donne, vedete",
+"dames, voyez"
+],
+[
+"s'io l'ho nel cor",
+"si je l'ai dans le cœur"
+]
+],
+"fr": "Vous qui savez ce qu'est l'amour, mesdames, voyez si je l'ai dans le cœur."
+},
+{
+"key": "quello ch'io",
+"it": "Quello ch'io provo vi ridirò; è per me nuovo, capir nol so. Sento un affetto pien di desir, ch'ora è diletto, ch'ora è martir.",
+"ipa": "ˈkwello ˈkiːo ˈprɔːvo vi ridiˈrɔ ɛ per me ˈnwɔːvo kaˈpir nol sɔ ˈsɛnto un afˈfɛtto pjɛn di deˈzir ˈkoːra ɛ diˈlɛtto ˈkoːra ɛ marˈtir",
+"w": [
+[
+"Quello ch'io provo",
+"ce que j'éprouve"
+],
+[
+"vi ridirò",
+"je vais vous le dire"
+],
+[
+"è per me nuovo",
+"c'est nouveau pour moi"
+],
+[
+"capir nol so",
+"je ne sais pas le comprendre"
+],
+[
+"un affetto pien di desir",
+"un sentiment plein de désir"
+],
+[
+"ch'ora è diletto",
+"qui tantôt est plaisir"
+],
+[
+"ch'ora è martir",
+"tantôt martyre"
+]
+],
+"fr": "Ce que j'éprouve, je vais vous le dire ; c'est nouveau pour moi, je ne sais pas le comprendre. Je sens un sentiment plein de désir, qui tantôt est plaisir, tantôt martyre."
+},
+{
+"key": "gelo",
+"it": "Gelo, e poi sento l'alma avvampar, e in un momento torno a gelar. Ricerco un bene fuori di me, non so chi'l tiene, non so cos'è.",
+"ipa": "ˈdʒɛːlo e pɔi ˈsɛnto ˈlalma avvamˈpar e in un moˈmento ˈtorno a dʒeˈlar riˈtʃerko un ˈbɛːne ˈfwɔːri di me non sɔ kil ˈtjɛːne non sɔ kɔˈzɛ",
+"w": [
+[
+"Gelo",
+"je gèle"
+],
+[
+"l'alma avvampar",
+"mon âme s'embraser"
+],
+[
+"torno a gelar",
+"je recommence à geler"
+],
+[
+"Ricerco un bene",
+"je cherche un bien"
+],
+[
+"fuori di me",
+"hors de moi"
+],
+[
+"non so chi'l tiene",
+"je ne sais qui le détient"
+]
+],
+"fr": "Je gèle, puis je sens mon âme s'embraser, et en un instant je gèle à nouveau. Je cherche un bien hors de moi, je ne sais qui le détient, je ne sais ce que c'est."
+},
+{
+"key": "sospiro",
+"it": "Sospiro e gemo senza voler, palpito e tremo senza saper; non trovo pace notte né dì, ma pur mi piace languir così.",
+"ipa": "sosˈpiːro e ˈdʒɛːmo ˈsɛntsa voˈler ˈpalpito e ˈtrɛːmo ˈsɛntsa saˈper non ˈtrɔːvo ˈpaːtʃe ˈnɔtte ne di ma pur mi ˈpjaːtʃe laŋˈɡwir koˈzi",
+"w": [
+[
+"Sospiro e gemo",
+"je soupire et je gémis"
+],
+[
+"senza voler",
+"sans le vouloir"
+],
+[
+"palpito e tremo",
+"je palpite et je tremble"
+],
+[
+"senza saper",
+"sans savoir (pourquoi)"
+],
+[
+"non trovo pace",
+"je ne trouve pas de paix"
+],
+[
+"notte né dì",
+"ni nuit ni jour"
+],
+[
+"mi piace languir così",
+"il me plaît de languir ainsi"
+]
+],
+"fr": "Je soupire et je gémis sans le vouloir, je palpite et je tremble sans savoir pourquoi ; je ne trouve la paix ni la nuit ni le jour, et pourtant il me plaît de languir ainsi."
+}
+],
+"doubts": [
+"Texte (Da Ponte) vérifié sur la partition à l'assemblage."
+]
+}
