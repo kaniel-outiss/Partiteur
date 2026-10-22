@@ -1,0 +1,144 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "F5d G4e F5d Eb5e",
+   "ly": "in- _ cly- _",
+   "rh": "F5d G4e F5d Eb5e // Bb4+Db5h Bb4+Db5h",
+   "lh": "Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 Eb3e3 // Eb3h Eb3h",
+   "doubt": "Suite de p.7 (« in-cly-ti »). LH : croches par groupes de 3 (« 3 » imprimé à partir de m.8) → triolets."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Ab4 r rh",
+   "ly": "ti,",
+   "rh": "Ab4e re Ab4ed F5s Eb5 C4e rs Db4s",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3",
+   "doubt": "RH 4e temps : C4 croche, soupir de double, Db4 double (hauteur Db4/C4 à vérifier)."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Eb5w",
+   "ly": "na-",
+   "rh": "Eb4e re Db4e rs Cb4s Bb3e re Db4+Eb4+G4~",
+   "lh": "Eb2e3 Eb3e3 G3e3 Bb3e3 G3e3 Eb3e3 r Eb3+Bb3~",
+   "doubt": "RH : bémol devant la double (Cb4). Accord final lié à la mesure suivante (arcs). « na- » : syllabe sur ronde Eb5."
+  },
+  {
+   "v": "C5 r rh",
+   "ly": "ti",
+   "rh": "B3+Eb4+Ab4e re Ab4ed Eb4+F5s Eb5 C4e rs Db4s",
+   "lh": "Ab2+Ab3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3",
+   "doubt": "RH 1er accord : B3 bécarre + Eb4 + Ab4 (Eb4 lié depuis m.3, jeton '~' placé sur l'accord précédent). 2e temps : la double Eb4+F5 (Eb4 peut-être simple bout de ligature). LH 1re croche : Ab3 au-dessus de Ab2 sur la même hampe (incertain)."
+  },
+  {
+   "v": "Eb5w~",
+   "ly": "poe-",
+   "rh": "Eb4e re Db4e rs Cb4s Bb3e re Db4+Eb4+G4~",
+   "lh": "Eb2e3 Eb3e3 G3e3 Bb3e3 G3e3 Eb3e3 r Eb3+Bb3~",
+   "doubt": "Arc Eb5 ronde → Eb5 blanche (m.6) lu comme liaison de prolongation."
+  },
+  {
+   "v": "Eb5h gEb5 gD5 gEb5 Db6e3 Bb5e3 G5e3 Eb5e3 D5e3 Eb5e3",
+   "ly": "_ _ _ _ _ _",
+   "rh": "Db4+Eb4+G4e re r rh",
+   "lh": "Eb3+Bb3e re r rh",
+   "doubt": "Cadence vocale : 6 croches ligaturées sans chiffre lues en triolets pour remplir la mesure (Db6 ♭, D5 ♮). Petites notes : 3 lues (Eb5 D5♮ Eb5), une 4e possible avant. Eb5 blanche liée depuis m.5 (pas de syllabe)."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "Fb5e Db5e Bb4e Ab4e G4e F5^ Eb5e",
+   "ly": "_ _ _ _ nas in- cly-",
+   "rh": "rw^",
+   "lh": "rw^",
+   "doubt": "Fb5 (♭) puis F5 ♮ avec point d'orgue ; f au-dessus du F5. Piano : pauses avec point d'orgue."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "Ab4h rh",
+   "ly": "ti.",
+   "rh": "C4+Eb4+Ab4hd C5ed G4+Db5s",
+   "lh": "Ab2e3 C3e3 Eb3e3 C4ed Ab3s Eb3 r",
+   "doubt": "RH accord blanche pointée déduit des têtes + points (C4 Eb4 Ab4). 4e temps : la double G4+Db5 (G4 peut-être fragment de ligature)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Gb4+A4+Eb5w",
+   "lh": "Ab2e3 Eb3e3 Gb3e3 Eb4ed C4s A3 r",
+   "doubt": "RH : ♭ (Gb4) et ♮ (A4) devant la ronde ; LH A3 ♮."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F4+Bb4+D5hd Bb4ed Eb4+C5s",
+   "lh": "Ab2e3 D3e3 F3e3 D4ed Bb3s F3 r",
+   "doubt": "RH ♮ sur D5 ; têtes déduites des points (F4, Bb4, D5). LH : ♭ cautionnaire sur Ab2, ♮ sur D3 et D4 (D4 vs E4 à vérifier). 4e temps RH : Eb4 incertain."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Fb4+Ab4+Db5w",
+   "lh": "Ab2e3 Db3e3 Fb3e3 Db4ed Ab3s Fb3 r",
+   "doubt": "Plus de portée de chant à partir d'ici (systèmes piano seul) → chant = silences. RH ♭ devant F4 et D5."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Eb4+Ab4+C5hd Ab4ed Bb4+F5s",
+   "lh": "Ab2e3 C3e3 Eb3e3 C4ed Ab3s Eb3 r",
+   "doubt": "RH 4e temps : double Bb4+F5 (F5 incertain)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Fb4+Ab4+Cb5w",
+   "lh": "Ab2e3 Cb3e3 Fb3e3 Cb4ed Ab3s Fb3 r",
+   "doubt": "RH ♭ devant F4 et C5."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D4+F4+Bb4hd F4ed A4+Eb5s",
+   "lh": "Ab2e3 D3e3 F3e3 Bb3ed F3s D3 r",
+   "doubt": "RH ♮ devant D4 et F4 (cautionnaire), ♮ devant A4 de la double."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Db4+G4+Bb4w",
+   "lh": "Ab2e3 Db3e3 Eb3e3 Bb3ed G3s Eb3 Db3ed Bb2+Ab3s",
+   "doubt": "LH 4e temps : Db3 croche pointée, double Bb2+Ab3 (lecture serrée)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C4+Eb4+Ab4h rh",
+   "lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 r C2+C3ed F2+F3s",
+   "doubt": "LH basse C2 (lignes supplémentaires, C2/Bb1 à vérifier)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab3+C4 r rh",
+   "lh": "Eb2+Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 r C2+C3ed Bb1+Bb2+G3s",
+   "doubt": "RH accord avec point de staccato. LH 4e temps lecture incertaine (Bb1/Bb2/G3)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab3+C4 r rh",
+   "lh": "Ab1+Ab2e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 rh",
+   "doubt": "Double barre finale de l'air (fin de la transcription)."
+  }
+ ]
+}
