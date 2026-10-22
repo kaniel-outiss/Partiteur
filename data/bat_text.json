@@ -1,0 +1,108 @@
+{
+"lang": "it",
+"ctx": "Don Giovanni (Mozart, livret de Da Ponte, 1787), acte I. Le jour de ses noces, la paysanne Zerlina a failli céder aux avances de Don Giovanni. Son fiancé Masetto, jaloux et furieux, lui fait la tête. Zerlina l'apaise avec une coquetterie irrésistible : « Bats-moi, bats ta Zerlina, je resterai comme un agneau… » — sachant bien qu'il n'en fera rien. La première partie, Andante grazioso, est tendre et câline ; l'Allegretto final en 6/8 célèbre la paix retrouvée : « Pace, pace, o vita mia ».",
+"diction": [
+"Récitatif : naturel, rapide, comme une conversation ; appoggiatures d'usage sur les fins de phrase (non écrites).",
+"Legato souriant, « p sempre legato » ; la voix doit caresser.",
+"Doubles consonnes : « Batti » [ˈbatti], « bello », « agnellina » [aɲɲelˈliːna], « strappare », « occhi » [ˈɔkki], « goder ».",
+"« Pace, pace » : [ˈpaːtʃe], légèreté du 6/8.",
+"Vocalises (« voglia‿m pa-sar ») : souples, sur le souffle, sans aspiration."
+],
+"lines": [
+{
+"key": "masetto",
+"it": "Masetto, senti un po'! Masetto, dico! … Ma se colpa io non ho! … Ma se da lui ingannata rimasi… Taci, taci, ti dico!",
+"ipa": "maˈzetto ˈsɛnti un pɔ ˈdiːko ma se ˈkolpa ˈiːo non ɔ ma se da ˈluːi iŋɡanˈnaːta riˈmaːzi ˈtaːtʃi",
+"w": [
+[
+"senti un po'",
+"écoute un peu"
+],
+[
+"se colpa io non ho",
+"si je ne suis pas coupable"
+],
+[
+"da lui ingannata",
+"trompée par lui"
+]
+],
+"fr": "(Récitatif) Masetto, écoute un peu ! Mais si je ne suis pas coupable ! Si c'est lui qui m'a trompée… Tais-toi, tais-toi !"
+},
+{
+"key": "batti",
+"it": "Batti, batti, o bel Masetto, la tua povera Zerlina: starò qui come agnellina le tue botte ad aspettar.",
+"ipa": "ˈbatti ˈbatti o bɛl maˈzetto la ˈtuːa ˈpɔːvera dzerˈliːna staˈrɔ kwi ˈkoːme aɲɲelˈliːna le ˈtuːe ˈbɔtte ad aspetˈtar",
+"w": [
+[
+"Batti",
+"bats"
+],
+[
+"la tua povera Zerlina",
+"ta pauvre Zerlina"
+],
+[
+"come agnellina",
+"comme un petit agneau"
+],
+[
+"le tue botte ad aspettar",
+"à attendre tes coups"
+]
+],
+"fr": "Bats, bats, mon beau Masetto, ta pauvre Zerlina : je resterai là comme un petit agneau, à attendre tes coups."
+},
+{
+"key": "lascerò",
+"it": "Lascerò straziarmi il crine, lascerò cavarmi gli occhi, e le care tue manine lieta poi saprò baciar.",
+"ipa": "laʃʃeˈrɔ stratˈtsjarmi il ˈkriːne kaˈvarmi ʎi ˈɔkki e le ˈkaːre ˈtuːe maˈniːne ˈljɛːta pɔi saˈprɔ baˈtʃar",
+"w": [
+[
+"straziarmi il crine",
+"m'arracher les cheveux"
+],
+[
+"cavarmi gli occhi",
+"m'arracher les yeux"
+],
+[
+"le care tue manine",
+"tes chères petites mains"
+],
+[
+"lieta poi saprò baciar",
+"je saurai ensuite les baiser joyeusement"
+]
+],
+"fr": "Je te laisserai m'arracher les cheveux, m'arracher les yeux, et tes chères petites mains, je saurai ensuite les baiser avec joie."
+},
+{
+"key": "ah lo vedo",
+"it": "Ah, lo vedo, non hai core! Pace, pace, o vita mia, in contento ed allegria notte e dì vogliam passar.",
+"ipa": "a lo ˈveːdo non ai ˈkɔːre ˈpaːtʃe ˈpaːtʃe o ˈviːta ˈmiːa in konˈtɛnto ed alleˈɡriːa ˈnɔtte e di voʎˈʎam pasˈsar",
+"w": [
+[
+"non hai core",
+"tu n'as pas le cœur (de le faire)"
+],
+[
+"Pace, o vita mia",
+"paix, ô ma vie"
+],
+[
+"in contento ed allegria",
+"dans le bonheur et la gaîté"
+],
+[
+"notte e dì vogliam passar",
+"nous voulons passer nuits et jours"
+]
+],
+"fr": "Ah, je le vois, tu n'en as pas le cœur ! Paix, paix, ô ma vie : dans le bonheur et la gaîté, nous voulons passer nos nuits et nos jours."
+}
+],
+"doubts": [
+"Texte (Da Ponte) vérifié sur la partition à l'assemblage."
+]
+}

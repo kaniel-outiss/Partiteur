@@ -1,0 +1,88 @@
+{
+"lang": "it",
+"ctx": "Don Giovanni (Mozart, livret de Da Ponte, 1787), acte II. Masetto, parti avec des paysans armés pour tuer Don Giovanni, a été berné et rossé par lui (déguisé en Leporello). Zerlina le trouve gémissant de douleur. Tendre et malicieuse, elle lui promet un remède souverain, naturel, qu'aucun apothicaire ne vend : son amour. Et elle pose la main de Masetto sur son cœur : « Sens-le battre… touche-moi ici. »",
+"diction": [
+"Andante 3/8 léger, berceur : sourire dans la voix.",
+"Doubles consonnes : « carino » (simple r), « bello », « rimedio » (simple), « speziale » [speˈtsjaːle], « dove » (simple), « tocca » [ˈtɔkka].",
+"« Sentilo battere » : [ˈsɛntilo ˈbattere], le rythme imite le cœur, staccato léger au piano.",
+"« Toccami qua » : [ˈtɔkkami kwa], intime, pianissimo.",
+"Trilles et ornements délicats, jamais appuyés."
+],
+"lines": [
+{
+"key": "vedrai",
+"it": "Vedrai, carino, se sei buonino, che bel rimedio ti voglio dar. È naturale, non dà disgusto, e lo speziale non lo sa far.",
+"ipa": "veˈdrai kaˈriːno se sɛi bwoˈniːno ke bɛl riˈmɛːdjo ti ˈvɔʎʎo dar ɛ natuˈraːle non da dizˈɡusto e lo speˈtsjaːle non lo sa far",
+"w": [
+[
+"Vedrai, carino",
+"tu verras, mon chéri"
+],
+[
+"se sei buonino",
+"si tu es bien sage"
+],
+[
+"che bel rimedio",
+"quel beau remède"
+],
+[
+"non dà disgusto",
+"il n'est pas désagréable"
+],
+[
+"lo speziale non lo sa far",
+"l'apothicaire ne sait pas le faire"
+]
+],
+"fr": "Tu verras, mon chéri, si tu es bien sage, quel beau remède je vais te donner. Il est naturel, il n'est pas désagréable, et l'apothicaire ne sait pas le faire."
+},
+{
+"key": "è un certo",
+"it": "È un certo balsamo che porto addosso: dare tel posso, s'il vuoi provar. Saper vorresti dove mi sta?",
+"ipa": "ɛ un ˈtʃɛrto ˈbalsamo ke ˈpɔrto adˈdɔsso ˈdaːre tel ˈpɔsso sil ˈvwɔːi proˈvar saˈper vorˈresti ˈdoːve mi sta",
+"w": [
+[
+"un certo balsamo",
+"un certain baume"
+],
+[
+"che porto addosso",
+"que je porte sur moi"
+],
+[
+"dare tel posso",
+"je peux te le donner"
+],
+[
+"s'il vuoi provar",
+"si tu veux l'essayer"
+],
+[
+"dove mi sta?",
+"où il se trouve ?"
+]
+],
+"fr": "C'est un certain baume que je porte sur moi : je peux te le donner, si tu veux l'essayer. Tu voudrais savoir où il se trouve ?"
+},
+{
+"key": "sentilo",
+"it": "Sentilo battere, toccami qua!",
+"ipa": "ˈsɛntilo ˈbattere ˈtɔkkami kwa",
+"w": [
+[
+"Sentilo battere",
+"sens-le battre"
+],
+[
+"toccami qua",
+"touche-moi ici"
+]
+],
+"fr": "Sens-le battre, touche-moi ici !"
+}
+],
+"doubts": [
+"Texte (Da Ponte) vérifié sur la partition à l'assemblage."
+]
+}
