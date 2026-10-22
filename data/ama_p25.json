@@ -1,0 +1,136 @@
+{
+"page": 25,
+"measures": [
+{
+"v": "F5e B4e C5e",
+"ly": "ri, mi- li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+A5+C6+F6e B4s B5s C5s C6s",
+"lh": "F3+A3+C4e B3e C4e",
+"meter": "3/8",
+"ks": -1,
+"doubt": "Page imprimée 153 (dernière page de l'air, double barre finale). B bécarres. Accent sur B4 (RH) et B3 (LH) ; liaisons B4-B5, C5-C6, B3-C4. RH 1er accord F5+A5+C6+F6 à vérifier."
+},
+{
+"v": "E5e E5e E5e",
+"ly": "taire et ma-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "E5+G5+C6+E6e E5+G5+C6+E6e E5+G5+C6+E6e",
+"lh": "C3+Bb3+C4e C3+Bb3+C4e C3+Bb3+C4e"
+},
+{
+"v": "F5e B4e C5e",
+"ly": "ri, mi- li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+F6s C6s D6s C6s D6s C6s",
+"lh": "F3+A3+C4e re re",
+"marks": [
+"rit."
+],
+"doubt": "RH : doubles croches sous liaison."
+},
+{
+"v": "C6d^",
+"ly": "tai-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G5+C6+E6e re^ re",
+"lh": "C3+E3+G3+C4e re^ re",
+"doubt": "Points d'orgue sur la note du chant et sur les silences du piano. RH : note grave de l'accord G5 (ou A5) incertaine."
+},
+{
+"v": "F5d~",
+"ly": "re!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+F6e C6e A5e",
+"lh": "F2+F3e A2e C3e",
+"marks": [
+"a tempo",
+"ff"
+],
+"doubt": "'tai - re!' : la syllabe 're!' tombe ici ; tenue liée jusqu'à la fin."
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+F6e C6e A5e",
+"lh": "F2+F3e A2e C3e"
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+F6e C6e A5e",
+"lh": "F2+F3e A2e C3e"
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+F6e C6e A5e",
+"lh": "F2+F3e A2e C3e"
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+F6 re",
+"lh": "F2+F3 re"
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5+F5+A5 re",
+"lh": "F3+A3+C4 re"
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5+F5 re",
+"lh": "F2+F3 re"
+},
+{
+"v": "F5d~",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5+F5+A5 re",
+"lh": "F3+A3+C4 re"
+},
+{
+"v": "F5d^",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A3+C4+F4d^",
+"lh": "F1+F2d^",
+"doubt": "Point d'orgue final ; double barre finale. RH accord grave A3+C4+F4 (lignes supplémentaires)."
+}
+]
+}
