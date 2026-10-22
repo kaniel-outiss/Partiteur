@@ -31,7 +31,7 @@ function pnChordsSVG(){const SC=ST.SC,ks=ksAfter(SC.ks,ST.tr);const PP=pianoPart
   const low={};VW.geo.forEach(function(G){const t=G&&G.st[top.staff];if(t)low[G.sys]=Math.max(low[G.sys]||0,t.ext||t.bot);});
   on.forEach(function(q){const snd=[];let lo=999,att=999,ev0=null;E.forEach(function(e){if(e.q<=q+1e-6&&e.q+e.d>q+1e-6)e.midi.forEach(function(m){snd.push(m+ST.tr);lo=Math.min(lo,m);if(Math.abs(e.q-q)<1e-6){att=Math.min(att,m);ev0=ev0||e;}});});
     if(!ev0||att!==lo&&q-Math.floor(q)>1e-6)return;const n=pnChordName(snd,ks);if(!n||n.key===prev)return;const xy=VW.noteXY[ev0.base],G=VW.geo[ev0.mi];if(!xy||!G||!G.st[top.staff])return;
-    if(G.sys===lastSys&&xy.x<lastX+4)return;out+='<text x="'+(xy.x-6)+'" y="'+(Math.max(G.st[top.staff].bot+SPX()*1.6,(low[G.sys]||0)+SPX()*1.2))+'" class="chs">'+esc(n.txt)+'</text>';prev=n.key;lastX=xy.x+n.txt.length*7.5;lastSys=G.sys;});
+    if(G.sys===lastSys&&xy.x<lastX+4)return;out+='<text x="'+(xy.x-6)+'" y="'+(Math.max(G.st[top.staff].bot+SPX()*1.6,(low[G.sys]||0)+SPX()*1.7))+'" class="chs">'+esc(n.txt)+'</text>';prev=n.key;lastX=xy.x+n.txt.length*7.5;lastSys=G.sys;});
   return out;}
 function SPX(){return 14*ST.zoom;}
 /* — clavier à l'écran — */

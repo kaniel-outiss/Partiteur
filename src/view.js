@@ -1,6 +1,8 @@
 /* ═══════════ 🖼 PARTITION — gravure Verovio, géométrie, curseur, surlignage, zoom, sélection ═══════════
    Les modules dessinent leurs aides dans la couche #ovl (un <g> chacun) à l'événement BUS « drawn ». */
 'use strict';
+/* bas réel d'une portée : feuilles graphiques (têtes, hampes, lignes supplémentaires, liaisons) — le bbox d'un <g> n'inclut pas toujours les <use> sur Android */
+function vwExt(sg,y,rel){$$('path,use,rect,polygon,polyline,ellipse',sg).forEach(function(e){if(e.closest('g.verse,g.dir,g.dynam'))return;const r=e.getBoundingClientRect();if(r.height>0&&r.height<400)y=Math.max(y,rel(r).y1);});return y;}
 const VW={geo:[],sys:[],TL:[],noteXY:{},lit:[],sysCur:-1,sel:null,w:0};
 function vwScale(){const w=$('#score').clientWidth||800;return Math.round((w<480?33:(w<820?38:44))*ST.zoom);}
 function drawScore(){if(!ST.SC)return;const box=$('#score');const w=Math.max(300,box.clientWidth);VW.w=w;
@@ -19,7 +21,7 @@ function vwIndex(){const box=$('#score'),R=box.getBoundingClientRect();const SC=
   const sysEls=$$('#sv g.system');VW.geo=[];const mid={};SC.meas.forEach(function(m){mid[m.id]=m.i;});
   $$('#sv g.measure').forEach(function(g){const i=mid[g.id];if(i==null)return;const r=rel(g.getBoundingClientRect());const s=sysEls.indexOf(g.closest('g.system'));const S=VW.sys[s]||r;
     /* portées de la mesure : y de la ligne du haut et du bas, par numéro */
-    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:Math.max(b.y1,rel(sg.getBoundingClientRect()).y1)};}});
+    const st={};$$(':scope > g.staff',g).forEach(function(sg,k){const n=visStaves()[k];const ls=$$(':scope > path',sg);if(ls.length>=5){const a=rel(ls[0].getBoundingClientRect()),b=rel(ls[ls.length-1].getBoundingClientRect());st[n]={top:a.y0,bot:b.y1,ext:vwExt(sg,b.y1,rel)};}});
     VW.geo[i]={x0:r.x0,x1:r.x1,y0:S.y0,y1:S.y1,sys:s,st:st,el:g};});
   /* position x des événements (tête de note la plus à gauche) → ligne de temps du curseur */
   VW.noteXY={};const seen={};VW.TL=[];
