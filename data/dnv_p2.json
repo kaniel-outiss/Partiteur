@@ -1,0 +1,89 @@
+{
+"page": 2,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"a tempo",
+"dolciss. armonioso"
+],
+"v": "Bb4 F4 r",
+"ly": "chia- mo!”",
+"rh": "Bb4+D5+F5+Bb5 F4+F5e re gD4 gF4 Bb4e3 A4e3 G4e3",
+"lh": "Bb2s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 Bb3s%6:4 F3s%6:4 // gBb1 Bb2hd",
+"doubt": "Page imprimée 162, mesures 14-22 (numéros 14, 16, 19, 21 imprimés : compte vérifié). Mesure 3/4 déduite du contenu (3 sextolets main gauche ; chiffrage non réimprimé). Chant : F4 lu comme noire (hampe/crochet peu lisible ; fait sinon 2,5 temps). Main gauche : la 1re double du sextolet partage la tête du Bb2 tenu (blanche pointée) ; petite note Bb1 liée vers Bb2 (même figure m.14-17, 19)."
+},
+{
+"marks": [],
+"v": "C5e C5e C5 D53 Eb5e3",
+"ly": "Co- me que- ste pa-",
+"rh": "gC4 gEb4 gG4 C5h D4+D53 Eb4+Eb5e3",
+"lh": "Bb2s%6:4 G3s%6:4 C4s%6:4 G3s%6:4 C4s%6:4 G3s%6:4 C4s%6:4 G3s%6:4 C4s%6:4 G3s%6:4 C4s%6:4 G3s%6:4 Bb3s%6:4 G3s%6:4 Bb3s%6:4 G3s%6:4 Bb3s%6:4 G3s%6:4 // gBb1 Bb2hd",
+"doubt": "Petite note C4 (rh) : ligne supplémentaire effacée par le scan, hauteur déduite de l'espacement."
+},
+{
+"marks": [],
+"v": "F5e F5e G5d F5e",
+"ly": "ro- le pro- fu-",
+"rh": "gF4 gA4 gD5 F5 gA4 gC5 gEb5 G5d F4+F5e",
+"lh": "Bb2s%6:4 F3s%6:4 D4s%6:4 F3s%6:4 D4s%6:4 F3s%6:4 Eb4s%6:4 C4s%6:4 Eb4s%6:4 C4s%6:4 Eb4s%6:4 C4s%6:4 Eb4s%6:4 C4s%6:4 Eb4s%6:4 C4s%6:4 Eb4s%6:4 C4s%6:4 // gBb1 Bb2hd",
+"doubt": "Accent (>) sur G5 au chant et à la main droite. Portée de main gauche très effacée par le scan : hauteurs mesurées sur les lignes supplémentaires (C4) et l'armure."
+},
+{
+"marks": [],
+"v": "F5 F5~ F5e re",
+"ly": "ma- te",
+"rh": "gF4 gBb4 gD5 F5~ F5e3 D5+F5+Bb5e3 Bb4+D5+F5e3 gEb5 D5e3 C5e3 D5e3 // rh F4",
+"lh": "Bb2s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 A2+A3 // gBb1 Bb2h r",
+"doubt": "Arc F5→F5 (chant et main droite) lu comme liaison de prolongation. Main droite 3e temps : acciaccatura Eb5 + triolet D5-C5-D5 sur un F4 noire (hampe en bas) ; silences de la 2e voix non imprimés. Main gauche : Bb2 tenu = blanche."
+},
+{
+"marks": [],
+"v": "re Bb4e Bb4e Bb4e C5e D5e",
+"ly": "mi va- gan nel- lo",
+"rh": "Bb4d C4+Bb4e C4+F4+A4+C5e D4+D5e // rs%6:4 D4s%6:4 F4s%6:4 D4s%6:4 F4s%6:4 D4s%6:4~ D4+G4e re r",
+"lh": "G2+G3e F2+F3 E2+E3e D2+D3e C2+C3e",
+"doubt": "Main droite : point du Bb4 à peine visible (déduit de la durée) ; 2e voix = soupir de double + 5 doubles sous « 6 », D4 lié vers la croche D4+G4. Main gauche : bécarres sur E2 et E3 ; grande liaison de phrasé sur la ligne de basse."
+},
+{
+"marks": [
+"f",
+"ten."
+],
+"v": "C5 C5e F5e Bb5ed A5s",
+"ly": "spir- to e‿a- sco- se",
+"rh": "gC4 gE4 gG4 C5d F4+F5e gBb4 gD5 gF5 Bb5ed A4+A5s",
+"lh": "Bb2s%6:4 E3s%6:4 G3s%6:4 E3s%6:4 G3s%6:4 E3s%6:4 A2e F3+A3e D2+D3e F3+Bb3e // gBb1 Bb2 rh",
+"doubt": "Soufflet de crescendo au-dessus du chant (début de mesure) ; respiration (’) après « to » ; accent > sur Bb5 (chant et main droite) ; « ten. » au chant et sous la main droite, avec soufflet < > autour du « ten. » piano. Petites notes rh C4-E♮4-G4 (C4 : ligne suppl. effacée). Point du C5 rh peu net. Main gauche : bécarre sur le 1er E3 du sextolet ; Bb2 tenu lu comme noire (têtes pleines)."
+},
+{
+"marks": [
+"p"
+],
+"v": "A5e C5e C5e C5e G5ed F5s",
+"ly": "fi- bre van- no‿a ca- rez-",
+"rh": "gA4 gC5 gF5 A5 C4+C5 gG4 gC5 gE5 G5ed F4+F5s",
+"lh": "C3s%6:4 F3s%6:4 A3s%6:4 F3s%6:4 A3s%6:4 F3s%6:4 A3s%6:4 F3s%6:4 A3s%6:4 F3s%6:4 A3s%6:4 F3s%6:4 G1+G2e E3+G3+C4e // gC2 C3h r",
+"doubt": "« p » à la main gauche. Petites notes rh G4-C5-E♮5 (bécarre imprimé). Main gauche : bécarre sur E3 du dernier accord ; C3 tenu = blanche."
+},
+{
+"marks": [],
+"v": "F5 F5~ F5e re",
+"ly": "za- re.",
+"rh": "F4+F5h~ F4+F5ed E4+E5s",
+"lh": "A2s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 C4s%6:4 F3s%6:4 // gA1 A2hd",
+"doubt": "Main droite : octave F4+F5 blanche liée à la croche pointée ; E4/E5 avec bécarres. Main gauche : lignes de portée presque effacées, hauteurs mesurées (F3/C4, petite note A1 sous 3 lignes suppl.)."
+},
+{
+"marks": [
+"p",
+"pp"
+],
+"v": "re3 E5e3 E5e3 D5 F53 E5e3",
+"ly": "O sus- sur- ro gen-",
+"rh": "E5 D5~ D53 E5e3 // F4+B4h!~ F4+B43 E4e3",
+"lh": "G#2s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 B3s%6:4 F3s%6:4 // gG#1 G#2hd",
+"doubt": "« p » au chant, « pp » au piano. Chant : bécarre sur le 1er E5, valable pour « gen » (E5). Main droite : accord arpégé (ondulation sur tout l'accord) E♮5 / F4+B♮4 ; tenuto sur E5 et D5 ; arc D5→D5 et F4+B4→F4+B4 lus comme liaisons de prolongation ; E4 bécarre. Main gauche : dièses sur G#1 et G#2, bécarre sur le 1er B3."
+}
+]
+}
