@@ -1,0 +1,124 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "rinf.",
+    "<"
+   ],
+   "v": "D#5d E5e E5h",
+   "ly": "ge- ni- te,",
+   "rh": "D#5+C6 C5+C6ed B4+B5s B4+B5 E5e re",
+   "lh": "G3e re C#4+E4+G4e re G3e re B3+E4+G4e re",
+   "doubt": "do6 et ré#5 liés depuis m.48 (page précédente) ; MG en clé de SOL, retour en clé de FA à la fin de la mesure ; 2e accord MD : bécarres sur do"
+  },
+  {
+   "marks": [
+    "mf"
+   ],
+   "v": "E5h D5e C#5e B4e A4e",
+   "ly": "u- ni- _ _ _",
+   "rh": "E5h D5e C#5e B4e A4e",
+   "lh": "G2e re G3+A3+C#4+E4e re G2e re G3+C#4+E4e re",
+   "doubt": "ré bécarre (chant et MD) ; 2e accord MG : la3 incertain (non vu)"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "A5h~ A5e G5e B4e C#5e",
+   "ly": "ge- _ ni- te,",
+   "rh": "A4+C#5+D5+A5 A4+C#5+D5+A5 r G4+B4+E5+G5",
+   "lh": "F#2+F#3 F#3+F#4 E2+E3 E3+E4",
+   "doubt": "1er accord MD : bécarre et dièse (do#5/ré5 en seconde) ; accord de 4 sons sur le 4e temps lu sol4-si4-mi5-sol5 (incertain) ; accents sur si4 et do#5 du chant"
+  },
+  {
+   "v": "D5ed A4s F#5h E5",
+   "ly": "Je- su Chris- _",
+   "rh": "r F#4+A4+D5+F#5 r E4+G4+C#5+E5",
+   "lh": "A1+A2 A2+A3 A1+A2 A2+A3",
+   "doubt": "bécarre de précaution devant l'accord MD du 2e temps"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "D5h rh",
+   "ly": "te.",
+   "rh": "D4+F#4+A4+D5e re F#3+F#4h G3+G4ed F#3+F#4s",
+   "lh": "D2e re A2+D3e re D2e re A2+D3e re"
+  },
+  {
+   "v": "rw",
+   "rh": "A3+A4e re A3+A4h B3+B4ed A3+A4s",
+   "lh": "C#2e re C#3+E3e re C#2e re C#3+E3e re",
+   "doubt": "accent ^ sur la blanche ; liaisons d'expression"
+  },
+  {
+   "v": "rw",
+   "rh": "D4+D5e re D4+D5h E4+E5ed D4+D5s",
+   "lh": "B1e re F#2+B2e re B1e re F#2+B2e re"
+  },
+  {
+   "v": "rw",
+   "rh": "F#4+F#5e re F#4+F#5hd",
+   "lh": "A#1e re A#2+C#3e re A#1e re A#2+C#3e re",
+   "doubt": "blanche pointée avec accent ^"
+  },
+  {
+   "v": "rw",
+   "rh": "F#3+F#4e re E4+E5h D4+D5ed C#4+C#5s",
+   "lh": "F#1+F#2e re A#2+F#3e re F#1+F#2e re A#2+F#3e re",
+   "doubt": "système sans portée de chant (m.57-60) → chant = silences ; blanche MD lue mi4+mi5"
+  },
+  {
+   "v": "rw",
+   "rh": "F#3+F#4e re D4+D5h D4+D5ed C#4+C#5s",
+   "lh": "F#1+F#2e re B2+F#3e re F#1+F#2e re D3+F#3e re"
+  },
+  {
+   "v": "rw",
+   "rh": "F#3+F#4e re C#4+C#5h B3+B4ed A#3+A#4s",
+   "lh": "F#1+F#2e re A#2+E3e re F#1+F#2e re C#3+E3e re"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "rw",
+   "rh": "B3+B4e re red B3+B4s B3+B4 r",
+   "lh": "B1+B2e re red B1+B2s B1+B2 r",
+   "doubt": "accents ^ sur la noire finale"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "rw",
+   "rh": "B3+D4e re red B3+D4s B3+D4e re B3+E4e re",
+   "lh": "B2+F#3e re red B2+F#3s B2+F#3e re C#3+F#3e re",
+   "doubt": "points de staccato"
+  },
+  {
+   "v": "rw",
+   "rh": "B3+F#4e re B3e re B4h~ // rh r B3+F#4~",
+   "lh": "D3+F#3e re r r B2+D#3",
+   "doubt": "accent ^ sur la blanche si4 (liée vers m.63) ; MG : dièse lu sur le ré3"
+  },
+  {
+   "v": "B4h B4d C#5e",
+   "ly": "Do- mi- ne",
+   "rh": "B4w // B3+G4d B3+F#4e B3+E4e re B3+G4e re",
+   "lh": "E3d F#3e G3e re E3e re // B2h~ B2e re B2e re",
+   "doubt": "ronde si4 liée depuis m.62, grande liaison vers m.64"
+  },
+  {
+   "v": "D5h B4e re r",
+   "ly": "De- us,",
+   "rh": "B3+F#4+B4e re F#3e re F#4h~ // rh r B3e re",
+   "lh": "B2+D3e re r r F#2+D3+F#3e re",
+   "doubt": "fa#4 blanche (accent ^) liée vers la page suivante (m.65) ; bécarre de précaution sur le ré3 (MG)"
+  }
+ ]
+}

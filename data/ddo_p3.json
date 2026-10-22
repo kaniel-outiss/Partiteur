@@ -1,0 +1,160 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "ff",
+    ">"
+   ],
+   "v": "G#4h~ G#4e re r",
+   "ly": "te,",
+   "rh": "B3+D4+G#4e re B3+D4+G#4h B3+D4+G#4",
+   "lh": "F3d E3s D3s F3d E3s D3s",
+   "doubt": "m.33 : bécarre sous le 1er accord MD (sur si3 ?, de précaution) ; sol# MD appliqué aux accords suivants (altération valable jusqu'à la barre) ; accents ^ (marcato) sur les accords MD ; MG fa bécarre, mi bécarre de précaution ; liaisons d'expression MG"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G4h G4h",
+   "ly": "Je- su",
+   "rh": "r Bb3+C#4+G4e re r Bb3+D4+G4e re",
+   "lh": "E3e re r D3e re r",
+   "doubt": "1er accord MD : sib3 et do#4 en seconde (têtes côte à côte), sol bécarre ; 2e accord lu sib3+ré4+sol4 (sib par report de l'altération)"
+  },
+  {
+   "v": "G4~ G4ed F#4s G4e re r",
+   "ly": "Chris- _ te,",
+   "rh": "r Bb3+Eb4+G4e re r Bb3+E4+G4e re",
+   "lh": "C#3e re r C3e re r",
+   "doubt": "2e accord MD : bécarre lu sur le mi (sib conservé) ; MG do#3 puis do bécarre 3"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "E5h E5h",
+   "ly": "Je- su",
+   "rh": "r E4+G4+B4+E5e re r E4+G#4+D5+E5e re",
+   "lh": "B2+B3e re r Bb2+Bb3e re r",
+   "doubt": "accents ^ sur les mi5 du chant ; MG si bécarre (octave) puis sib (octave)"
+  },
+  {
+   "v": "E5~ E5ed D#5s E5e re r",
+   "ly": "Chris- _ te,",
+   "rh": "E4+A4+C#5+E5e re A3+A4e3 A3+A4e3 A3+A4e3 A3+A4e re A3+A4e re",
+   "lh": "A2+A3e re A2e3 A2e3 A2e3 A2e re A2e re",
+   "marks": [
+    "f",
+    "ff"
+   ],
+   "doubt": "accent ^ sur le 1er mi5 du chant ; triolets imprimés (3)"
+  },
+  {
+   "marks": [
+    "f",
+    "sf"
+   ],
+   "v": "A4 G5h F#5ed G5s",
+   "ly": "Do- mi- ne _",
+   "rh": "A3e re A4+C#5+G5h A4+D5+F#5ed G5s",
+   "lh": "A1+A2e re A2 A3e re A3e re",
+   "doubt": "MG : accent ^ sur le 1er accord, accents sur les la3, liaison la2→la3"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "F#5 E5h D5ed E5s",
+   "ly": "De- _ us, _",
+   "rh": "F#5e re E5h D5ed E5s // r G4+B4h F#4+A4",
+   "lh": "A1+A2e re A2 A3e re A3e re"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "D5 C#5h B4ed C#5s",
+   "ly": "Rex _ coe- _",
+   "rh": "D5e re C#5h B4ed C#5s // r E4+G4h D4+F#4",
+   "lh": "A1+A2e re A2 A3e re A3e re"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "B4 A4 rh",
+   "ly": "les- tis,",
+   "rh": "B4e re C#4+A4e3 C#4+A4e3 C#4+A4e3 C#4+A4e re C#4+G4e re",
+   "lh": "A1+A2e re E3+A3e3 E3+A3e3 E3+A3e3 E3+A3e re E3+B3e re",
+   "doubt": "MD : liaison venant de la mesure précédente sur le si4 ; accents ; notes graves MD lues do#4 (sur la 1re ligne supplémentaire)"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "F#4 E5h D5ed E5s",
+   "ly": "De- _ us _",
+   "rh": "A#3+E4+F#4e re F#4+A#4+E5h F#4+B4+D5ed E5s",
+   "lh": "F#1+F#2e re F#2 F#3e re F#3e re",
+   "doubt": "1er accord MD : fa#4/mi4 en seconde + la#3 ; dièses devant la blanche (la#4, fa# de précaution)"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "D5 C#5h B4ed C#5s",
+   "ly": "Pa- ter om- _",
+   "rh": "D5e re C#5h B4ed C#5s // r E4+G4h D4+F#4",
+   "lh": "F#1+F#2e re F#2 F#3e re F#3e re"
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "B4 A4h G4ed A4s",
+   "ly": "ni- _ po- _",
+   "rh": "B4e re A4h G4ed A4s // r C#4+E4h B3+D4",
+   "lh": "F#1+F#2e re F#2 F#3e re F#3e re",
+   "doubt": "bécarre de précaution sur le la (chant et MD) après la# de m.42"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "F#4h rh",
+   "ly": "tens.",
+   "rh": "A#3+C#4+F#4e re F#4e3 F#4e3 F#4e3 F#4e re F#4e re",
+   "lh": "F#1+F#2e re r rh",
+   "doubt": "liaison au-dessus du 1er accord MD (venant de m.44) ; accent sous le 1er accord"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G4h A#4d A#4e",
+   "ly": "Do- mi- ne",
+   "rh": "rh G5h~ // G4h A#4h~",
+   "lh": "E3e re B3+E4e re E3e re G3+C#4+E4e re",
+   "doubt": "MD : grande liaison sous sol4→la#4 ; liaisons de prolongation sol5 et la#4 vers m.47 ; accents sur les croches MG ; 1er accord MG si3 (ou do4 ?) + mi4"
+  },
+  {
+   "v": "A#4d B4e B4h",
+   "ly": "Fi- _ li",
+   "rh": "A#4+G5 G4+G5ed F#4+F#5s F#4+F#5 B4e re",
+   "lh": "D3e re A#3+C#4+E4e re D3e re F#3+B3+D4e re",
+   "doubt": "MD lue en une voix (sol5 et la#4 liés depuis m.46) ; MG : changement en clé de SOL à la fin de la mesure"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "C5h D#5h",
+   "ly": "u- ni-",
+   "rh": "rh C6h~ // C5h D#5h~",
+   "lh": "A3e re E4+A4e re A3e re C4+F#4+A4e re",
+   "doubt": "MG en clé de SOL ; do6 et ré#5 liés vers la page suivante (m.49) ; bécarres sur do et la (MG)"
+  }
+ ]
+}
