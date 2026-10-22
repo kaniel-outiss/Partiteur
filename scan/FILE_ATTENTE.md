@@ -14,7 +14,7 @@
 11. ✅ (0.50) Un bel dì vedremo — sop_arias.pdf
 12. ✅ (0.51) Mi chiamano Mimì — sop_arias.pdf
 13. ✅ (0.52) Quando men vo — sop_arias.pdf
-14. Donde lieta uscì — sop_arias.pdf
+14. ✅ (0.53) Donde lieta uscì — sop_arias.pdf
 15. Ah ! Je ris de me voir (air des bijoux) — sop_arias.pdf
 16. Je veux vivre — sop_arias.pdf
 17. Signore, ascolta ! — sop_arias.pdf

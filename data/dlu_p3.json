@@ -1,42 +1,89 @@
-{"page":3,"measures":[
- {"meter":"4/4","ks":-5,"marks":["pp","leggiero"],
-  "v":"Ab4 Ab4e C5e Eb5 Eb5","ly":"set- to stan chiu- si",
-  "rh":"re gC5 gDb5 C5e re gC5 gDb5 C5e re gEb5 gF5 Eb5e re gEb5 gF5 Eb5e",
-  "lh":"F4+Ab4 F4+Ab4 Eb4+G4+Bb4 Eb4+G4+Bb4",
-  "doubt":"page imprimée 158 OK ; suite de la mesure de la p.157 (« set-to » : syllabe commencée p.157). LH en clé de SOL. Bécarre du 3e accord LH lu sur G (G♮4). Notes RH piquées (staccato), petites notes = 2 doubles croches liées."},
- {"meter":"5/4","marks":["poco rit."],
-  "v":"Ab4e C5e Eb5e Bb4e F5d F4e G4s Ab4s Bb4s C5s","ly":"quel cer- chiet- to d'or, e‿il li- bro di pre-",
-  "rh":"re gAb5 gBb5 Ab5e Eb6s Bb5s G5s Eb5s Db5e gC5 gDb5 C5s Bb4s Db5e F4e G4s Ab4s Bb4s C5s",
-  "lh":"F4+Ab4+C5 Eb4+G4+Bb4+Eb5! Bb3+F4 Bb3+F4 Eb3+Db4",
-  "doubt":"F5 « d'or » : tenuto + point lu comme noire pointée. Petites notes RH (Ab5-Bb5) lues approx. LH : clé de SOL puis clé de FA au dernier temps (Eb3+Db4). Bécarre de l'accord arpégé sur G. Long trait (soufflet ?) entre les portées du piano."},
- {"marks":["a tempo","pp"],
-  "v":"Ab4 Ab4e re r rh","ly":"ghie- re.",
-  "rh":"Ab4s Eb4s Ab4s C5s Eb5s Ab5s C6s Eb6s F5s G5s Ab5s Bb5s Eb5ed C5s gEb5 Db5s C5s Db5s Eb5s // r r Db5e Bb4e C5e Ab4e Bb4e Eb4e",
-  "lh":"C4~ C4e re rhd // Ab3hd~ Ab3e re r",
-  "doubt":"Voix inférieure RH (croches hampes en bas) marquée « l.h. » (jouée main gauche). Petite note barrée avant le dernier groupe lue Eb5 (ou Db5). Accent > sous Ab3 (LH). Clé de FA à la LH."},
- {"meter":"4/4","marks":["espressivo"],
-  "v":"r re Ab4e Ab4e Ab4e Gb4e F4e","ly":"In- vol- gi tut- to",
-  "rh":"Ab4+C5e re Ab3+C4+Eb4 Ab3+C4+Eb4 Ab3+C4+Eb4",
-  "lh":"rh re Ab3e Gb3e F3e",
-  "doubt":"1er accord RH : croche à double hampe (haut/bas), piquée ; tête Ab4 incertaine."},
- {"marks":["poco rit."],
-  "v":"Eb4 Eb4 Db5 C5e Bb4e","ly":"quan- to in un grem-",
-  "rh":"Bb3+Db4+Gb4 Bb3+Db4+Gb4 Eb4+Gb4+Bb4 Eb4+Gb4+Bb4",
-  "lh":"Eb3h Db4 C4e Bb3e",
-  "doubt":"« poco rit. » imprimé au chant et au piano, suivi d'un long trait."},
- {"marks":["a tempo"],
-  "v":"C5e Ab4e F4e Gb4e Ab4 Eb4e F4e","ly":"bia- le‿e man- de- rò il por-",
-  "rh":"Db4+F4+Ab4 Db4+F4+Ab4 C4+Gb4+Ab4 C4+Gb4+Ab4",
-  "lh":"C4e Ab3e F3e Gb3e Ab3 Eb3e F3e",
-  "doubt":"2e accord RH peut-être à 4 sons (tête supplémentaire vers Bb4) ; lu Db4+F4+Ab4."},
- {"marks":["ppp"],
-  "v":"Db4 Db4e re rh","ly":"tie- re...",
-  "rh":"Ab5 F5 Eb5 Gb5 // Db5s Eb5s F5s C5s Bb4s C5s Db5s Ab4s Gb4s Ab4s Bb4s Db5s C5s Db5s Eb5s Ab4s",
-  "lh":"r Db4+Ab4! Db4+Gb4! Db4+Eb4! // Db3w~",
-  "doubt":"Doubles croches RH piquées. Accords arpégés de la LH écrits avec lignes suppl. au-dessus de la portée de FA (lecture Db4+…)."},
- {"marks":[],
-  "v":"rw","ly":"",
-  "rh":"F5 Ab5~ Ab5~ Ab5e re // Db5s C5s Bb4e Bb4s C5s Db5e~ Db5~ Db5e re",
-  "lh":"Db4+Ab4! Db4+F4! Db4+F4! Db4+F4! // Db3h~ Db3~ Db3e re",
-  "doubt":"Fin de page : double barre, clé de SOL à la LH puis armure 3 dièses (changement pour la p.159). 1re tête haute RH lue F5 (ou Gb5)."}
-]}
+{
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"ks": -5,
+"marks": [
+"pp",
+"leggiero"
+],
+"v": "Ab4 Ab4e C5e Eb5 Eb5",
+"ly": "set- to stan chiu- si",
+"rh": "re gC5 gDb5 C5e re gC5 gDb5 C5e re gEb5 gF5 Eb5e re gEb5 gF5 Eb5e",
+"lh": "F4+Ab4 F4+Ab4 Eb4+G4+Bb4 Eb4+G4+Bb4",
+"doubt": "page imprimée 158 OK ; suite de la mesure de la p.157 (« set-to » : syllabe commencée p.157). LH en clé de SOL. Bécarre du 3e accord LH lu sur G (G♮4). Notes RH piquées (staccato), petites notes = 2 doubles croches liées."
+},
+{
+"meter": "5/4",
+"marks": [
+"poco rit."
+],
+"v": "Ab4e C5e Eb5e Bb4e F5d F4e G4s Ab4s Bb4s C5s",
+"ly": "quel cer- chiet- to d'or, e‿il li- bro di pre-",
+"rh": "re gAb5 gBb5 Ab5e Eb6s Bb5s G5s Eb5s Db5e gC5 gDb5 C5s Bb4s Db5e F4e G4s Ab4s Bb4s C5s",
+"lh": "F4+Ab4+C5 Eb4+G4+Bb4+Eb5! Bb3+F4 Bb3+F4 Eb3+Db4",
+"doubt": "F5 « d'or » : tenuto + point lu comme noire pointée. Petites notes RH (Ab5-Bb5) lues approx. LH : clé de SOL puis clé de FA au dernier temps (Eb3+Db4). Bécarre de l'accord arpégé sur G. Long trait (soufflet ?) entre les portées du piano."
+},
+{
+"marks": [
+"a tempo",
+"pp"
+],
+"v": "Ab4 Ab4e re r rh",
+"ly": "ghie- re.",
+"rh": "Ab4s Eb4s Ab4s C5s Eb5s Ab5s C6s Eb6s F5s G5s Ab5s Bb5s Eb5ed C5s gEb5 Db5s C5s Db5s Eb5s // r r Db5e Bb4e C5e Ab4e Bb4e Eb4e",
+"lh": "C4~ C4e re rhd // Ab3hd~ Ab3e re r",
+"doubt": "Voix inférieure RH (croches hampes en bas) marquée « l.h. » (jouée main gauche). Petite note barrée avant le dernier groupe lue Eb5 (ou Db5). Accent > sous Ab3 (LH). Clé de FA à la LH."
+},
+{
+"meter": "4/4",
+"marks": [
+"espressivo"
+],
+"v": "r re Ab4e Ab4e Ab4e Gb4e F4e",
+"ly": "In- vol- gi tut- to",
+"rh": "Ab4+C5e re Ab3+C4+Eb4 Ab3+C4+Eb4 Ab3+C4+Eb4",
+"lh": "rh re Ab3e Gb3e F3e",
+"doubt": "1er accord RH : croche à double hampe (haut/bas), piquée ; tête Ab4 incertaine."
+},
+{
+"marks": [
+"poco rit."
+],
+"v": "Eb4 Eb4 Db5 C5e Bb4e",
+"ly": "quan- to in un grem-",
+"rh": "Bb3+Db4+Gb4 Bb3+Db4+Gb4 Eb4+Gb4+Bb4 Eb4+Gb4+Bb4",
+"lh": "Eb3h Db4 C4e Bb3e",
+"doubt": "« poco rit. » imprimé au chant et au piano, suivi d'un long trait."
+},
+{
+"marks": [
+"a tempo"
+],
+"v": "C5e Ab4e F4e Gb4e Ab4 Eb4e F4e",
+"ly": "bia- le‿e man- de- rò il por-",
+"rh": "Db4+F4+Ab4 Db4+F4+Ab4 C4+Gb4+Ab4 C4+Gb4+Ab4",
+"lh": "C4e Ab3e F3e Gb3e Ab3 Eb3e F3e",
+"doubt": "2e accord RH peut-être à 4 sons (tête supplémentaire vers Bb4) ; lu Db4+F4+Ab4."
+},
+{
+"marks": [
+"ppp"
+],
+"v": "Db4 Db4e re rh",
+"ly": "tie- re...",
+"rh": "Ab5 F5 Eb5 Gb5 // Db5s Eb5s F5s C5s Bb4s C5s Db5s Ab4s Gb4s Ab4s Bb4s Db5s C5s Db5s Eb5s Ab4s",
+"lh": "r Db4+Ab4! Db4+Gb4! Db4+Eb4! // Db3w~",
+"doubt": "Doubles croches RH piquées. Accords arpégés de la LH écrits avec lignes suppl. au-dessus de la portée de FA (lecture Db4+…)."
+},
+{
+"marks": [],
+"v": "rw",
+"ly": "",
+"rh": "F5 Ab5~ Ab5~ Ab5e re // Db5s C5s Bb4e Bb4s C5s Db5e~ Db5~ Db5e re",
+"lh": "Db4+Ab4! Db4+F4! Db4+F4! Db4+F4! // Db3h~ Db3~ Db3e re",
+"doubt": "Fin de page : double barre, clé de SOL à la LH puis armure 3 dièses (changement pour la p.159). 1re tête haute RH lue F5 (ou Gb5)."
+}
+]
+}

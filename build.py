@@ -52,7 +52,7 @@ def clean(ms):
                 k = k.strip()
                 if re.search(r"stacc|^tr$|^armure|point d.orgue|fermata|^ten\.?$", k, re.I): continue
                 # notes de transcription (pas des indications imprimées) : hors portée
-                if re.search(r"\b(MD|MG)\b|accent|bécarre|cl[eé] de|double barre|liaison|petites notes|soufflet|trait horizontal|triolet|tenuto|grupetto|respiration|coupure|^mes\. ?\d|arp[eè]g|8va \(", k, re.I): continue
+                if re.search(r"\b(MD|MG)\b|^[lr]\.h\.$|^m\.[ds]\.$|accent|bécarre|cl[eé] de|double barre|liaison|petites notes|soufflet|trait horizontal|triolet|tenuto|grupetto|respiration|coupure|^mes\. ?\d|arp[eè]g|8va \(", k, re.I): continue
                 k = re.sub(r"\s*\((voix|piano|chant)[^)]*\)$", '', k).strip()
                 if not k or k.startswith('('): continue
                 d = re.match(r'^(pppp|ppp|pp|p|mp|mf|ffff|fff|ff|f|sfz|sf|fp|rfz|rf)\s*\(', k)  # « p (2e temps…) » → « p »

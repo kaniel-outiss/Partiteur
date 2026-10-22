@@ -1,12 +1,99 @@
-{"page":1,"measures":[
-{"meter":"2/4","len":0.5,"tempo":"Lento molto","marks":["dolce","pp"],"v":"re","ly":"","rh":"D5e","lh":"re","doubt":"Levée d'une croche (page imprimée 156, titre « Donde lieta », from LA BOHÈME, Giacomo Puccini). Tempo imprimé « Lento molto ♪ = 66 ». MD : croche D♮5 (bécarre imprimé). MG : clé de fa, soupir de croche, puis changement en clé de SOL."},
-{"v":"rh","ly":"","rh":"Eb5e F5e Gb5e C6e // Bb4 C5","lh":"Gb4 Ab4 // Ab3h~","doubt":"Pause de mesure au chant. MG en clé de sol ; basse Ab3 (blanche, 2 lignes supp.) liée sur m.1-5. C6 avec deux lignes supplémentaires."},
-{"v":"re Ab4s Ab4s Ab4e Ab4s Ab4s","ly":"Don- de lie- ta u-","rh":"Bb5d Eb5e // Db5e Eb5e F5s Db5s C5s Cb5s","lh":"F4 Ab4e F4e // Ab3h~","doubt":"MIMÌ entre. MD voix haute : Bb5 noire pointée puis croche D♮5 (bécarre, hampe haut) au 2e temps et demi. Arc Bb5 (m.1 C6 → Bb5) = liaison de phrasé. 1re double-croche lue F5 (G5 peu probable)."},
-{"v":"Bb4e Bb4s Bb4s C5e C5s Ab4s","ly":"scì al tuo gri- do d'a-","rh":"Eb5e F5e Gb5e C6e // Bb4 C5e Eb5e","lh":"Gb4 Bb4s Ab4s Gb4e // Ab3h~","doubt":"MD : bécarre de précaution sur C5. Une longue ligne horizontale sous la portée de MD (début de soufflet ?) non reportée."},
-{"v":"Eb5 Db5e re","ly":"mo- re,","rh":"Ab5 Ab5e F5e // Eb5+Eb6 Db5+Db6ed C5+C6s","lh":"F4h~ // Ab3h~","doubt":"MD 1er temps : Ab5 hampe haut + octave Eb5/Eb6 hampe bas (Eb6 sur 3 lignes supp.). Soufflet de decrescendo (deux lignes) sous la MD, de m.4 à m.5. Liaisons F4 et Ab3 vers m.5."},
-{"marks":["poco rit."],"v":"Cb53 Cb5e3 Cb5e3 Cb5ed3 Bb4s3","ly":"tor- na so- la Mi-","rh":"Cb6 F53 Bb5e3 // Cb5+Eb5h","lh":"F4~ F43 Gb4s%9:4 Ab4s%9:4 Bb4s%9:4 // Ab3~ Ab33 Ab3e3","doubt":"« poco rit. » imprimé au chant et au piano. Chant : triolet noire-croche puis triolet croche / croche pointée / double. MG : triolet (noire + groupe de 3 doubles-croches en triolet, triolet imbriqué noté %9:4) ; voix basse triolet noire-croche (crochet 3 sous la portée). Clé de FA à la MG en fin de mesure. Bb5 (croche de triolet MD) posée au-dessus de la ligne supp. du la."},
-{"meter":"3/4","tempo":"Andantino","marks":["espressivo","mf","agitando un poco","p"],"v":"Ab4e Eb5e Eb5e Eb5e Eb5e Eb5e","ly":"mì al so- li- ta- rio","rh":"gAb4 gCb5 gEb5 Ab5 Eb5d Gb5e","lh":"re Ab3+Cb4+Eb4 Ab3+Cb4+Eb4 Ab3+Cb4+Eb4e // F3h Gb3","doubt":"Double barre + 3/4. MD : 3 petites notes (doubles croches barrées) Ab4-Cb5-Eb5 (bémols imprimés) vers Ab5 accentué (>). MG en clé de fa : accent > sous F3. Soufflet decrescendo de mf à p sous « agitando un poco » ; p au 3e temps et demi."},
-{"v":"Eb5 Eb5 red Eb5s","ly":"ni- do. Ri-","rh":"Gb5~ Gb5s F5s Eb5s Cb5s Ab4s G4s Gb4s F4s","lh":"re Cb4+Eb4 Cb4+Eb4 Cb4+Eb4e // Ab3hd","doubt":"MD : G♮4 (bécarre) puis Gb4 (bémol) dans le 2e groupe. Accords MG : bémol imprimé sur Cb4 (Cb4+Eb4 sur lignes supp.)."},
-{"marks":["p","cresc."],"v":"Ab5d Eb5e Eb5e Gb5e","ly":"tor- na‿un' al- tra","rh":"Ab5 Eb5d Gb5e","lh":"re Cb4+Eb4 Cb4+Eb4 Cb4+Eb4e // F3hd // rh Gb3","doubt":"Chant : point après Ab5 lu comme noire pointée. MG : F3 blanche POINTÉE imprimée (point visible) ET Gb3 noire hampe bas au 3e temps → notée en 3e voix. p sous la portée de MD, cresc. imprimé."},
-{"v":"Gb5h F5e rs Eb5s","ly":"vol- ta a‿in-","rh":"Gb5~ Gb5s F5s Eb5s Cb5s Ab4s G4s Gb4s F4s","lh":"re Cb4+Eb4 Cb4+Eb4 Cb4+Eb4e // Ab3hd","doubt":"Soufflet (deux lignes) entre les portées du piano, sens incertain. Phrase de chant « a in- » se poursuit page suivante (élision a‿in)."}
-]}
+{
+"page": 1,
+"measures": [
+{
+"meter": "2/4",
+"len": 0.5,
+"tempo": "Lento molto",
+"marks": [
+"dolce",
+"pp"
+],
+"v": "re",
+"ly": "",
+"rh": "D5e",
+"lh": "re",
+"doubt": "Levée d'une croche (page imprimée 156, titre « Donde lieta », from LA BOHÈME, Giacomo Puccini). Tempo imprimé « Lento molto ♪ = 66 ». MD : croche D♮5 (bécarre imprimé). MG : clé de fa, soupir de croche, puis changement en clé de SOL.",
+"bpm": 33
+},
+{
+"v": "rh",
+"ly": "",
+"rh": "Eb5e F5e Gb5e C6e // Bb4 C5",
+"lh": "Gb4 Ab4 // Ab3h~",
+"doubt": "Pause de mesure au chant. MG en clé de sol ; basse Ab3 (blanche, 2 lignes supp.) liée sur m.1-5. C6 avec deux lignes supplémentaires."
+},
+{
+"v": "re Ab4s Ab4s Ab4e Ab4s Ab4s",
+"ly": "Don- de lie- ta u-",
+"rh": "Bb5d Eb5e // Db5e Eb5e F5s Db5s C5s Cb5s",
+"lh": "F4 Ab4e F4e // Ab3h~",
+"doubt": "MIMÌ entre. MD voix haute : Bb5 noire pointée puis croche D♮5 (bécarre, hampe haut) au 2e temps et demi. Arc Bb5 (m.1 C6 → Bb5) = liaison de phrasé. 1re double-croche lue F5 (G5 peu probable)."
+},
+{
+"v": "Bb4e Bb4s Bb4s C5e C5s Ab4s",
+"ly": "scì al tuo gri- do d'a-",
+"rh": "Eb5e F5e Gb5e C6e // Bb4 C5e Eb5e",
+"lh": "Gb4 Bb4s Ab4s Gb4e // Ab3h~",
+"doubt": "MD : bécarre de précaution sur C5. Une longue ligne horizontale sous la portée de MD (début de soufflet ?) non reportée."
+},
+{
+"v": "Eb5 Db5e re",
+"ly": "mo- re,",
+"rh": "Ab5 Ab5e F5e // Eb5+Eb6 Db5+Db6ed C5+C6s",
+"lh": "F4h~ // Ab3h~",
+"doubt": "MD 1er temps : Ab5 hampe haut + octave Eb5/Eb6 hampe bas (Eb6 sur 3 lignes supp.). Soufflet de decrescendo (deux lignes) sous la MD, de m.4 à m.5. Liaisons F4 et Ab3 vers m.5."
+},
+{
+"marks": [
+"poco rit."
+],
+"v": "Cb53 Cb5e3 Cb5e3 Cb5ed3 Bb4s3",
+"ly": "tor- na so- la Mi-",
+"rh": "Cb6 F53 Bb5e3 // Cb5+Eb5h",
+"lh": "F4~ F43 Gb4s%9:4 Ab4s%9:4 Bb4s%9:4 // Ab3~ Ab33 Ab3e3",
+"doubt": "« poco rit. » imprimé au chant et au piano. Chant : triolet noire-croche puis triolet croche / croche pointée / double. MG : triolet (noire + groupe de 3 doubles-croches en triolet, triolet imbriqué noté %9:4) ; voix basse triolet noire-croche (crochet 3 sous la portée). Clé de FA à la MG en fin de mesure. Bb5 (croche de triolet MD) posée au-dessus de la ligne supp. du la."
+},
+{
+"meter": "3/4",
+"tempo": "Andantino",
+"marks": [
+"espressivo",
+"mf",
+"agitando un poco",
+"p"
+],
+"v": "Ab4e Eb5e Eb5e Eb5e Eb5e Eb5e",
+"ly": "mì al so- li- ta- rio",
+"rh": "gAb4 gCb5 gEb5 Ab5 Eb5d Gb5e",
+"lh": "re Ab3+Cb4+Eb4 Ab3+Cb4+Eb4 Ab3+Cb4+Eb4e // F3h Gb3",
+"doubt": "Double barre + 3/4. MD : 3 petites notes (doubles croches barrées) Ab4-Cb5-Eb5 (bémols imprimés) vers Ab5 accentué (>). MG en clé de fa : accent > sous F3. Soufflet decrescendo de mf à p sous « agitando un poco » ; p au 3e temps et demi.",
+"bpm": 60
+},
+{
+"v": "Eb5 Eb5 red Eb5s",
+"ly": "ni- do. Ri-",
+"rh": "Gb5~ Gb5s F5s Eb5s Cb5s Ab4s G4s Gb4s F4s",
+"lh": "re Cb4+Eb4 Cb4+Eb4 Cb4+Eb4e // Ab3hd",
+"doubt": "MD : G♮4 (bécarre) puis Gb4 (bémol) dans le 2e groupe. Accords MG : bémol imprimé sur Cb4 (Cb4+Eb4 sur lignes supp.)."
+},
+{
+"marks": [
+"p",
+"cresc."
+],
+"v": "Ab5d Eb5e Eb5e Gb5e",
+"ly": "tor- na‿un' al- tra",
+"rh": "Ab5 Eb5d Gb5e",
+"lh": "re Cb4+Eb4 Cb4+Eb4 Cb4+Eb4e // F3hd // rh Gb3",
+"doubt": "Chant : point après Ab5 lu comme noire pointée. MG : F3 blanche POINTÉE imprimée (point visible) ET Gb3 noire hampe bas au 3e temps → notée en 3e voix. p sous la portée de MD, cresc. imprimé."
+},
+{
+"v": "Gb5h F5e rs Eb5s",
+"ly": "vol- ta a‿in-",
+"rh": "Gb5~ Gb5s F5s Eb5s Cb5s Ab4s G4s Gb4s F4s",
+"lh": "re Cb4+Eb4 Cb4+Eb4 Cb4+Eb4e // Ab3hd",
+"doubt": "Soufflet (deux lignes) entre les portées du piano, sens incertain. Phrase de chant « a in- » se poursuit page suivante (élision a‿in)."
+}
+]
+}
