@@ -1,0 +1,18 @@
+{"page":1,"measures":[
+{"meter":"4/4","ks":2,"tempo":"Allegro giusto","marks":["ff"],"v":"rw","ly":"","rh":"F#3+F#4e re F#3+F#4h G3+G4ed F#3+F#4s","lh":"D2e re A2+D3e re D2e re A2+D3e re","doubt":"page imprimée 36 ; titre « Domine Deus » ; intro piano seul ; accents : MD 1re note, ^ (marcato, pas point d'orgue) sur la blanche des m.2-7"},
+{"marks":[],"v":"rw","ly":"","rh":"A3+A4e re A3+A4h B3+B4ed A3+A4s","lh":"C#2e re C#3+E3e re C#2e re C#3+E3e re"},
+{"marks":[],"v":"rw","ly":"","rh":"D4+D5e re D4+D5h E4+E5ed D4+D5s","lh":"B1e re F#2+B2e re B1e re F#2+B2e re"},
+{"marks":[],"v":"rw","ly":"","rh":"F#4+F#5e re F#4+F#5hd","lh":"A1e re A2+C#3e re A1e re A2+C#3e re","doubt":"MD : croche F#4 à hampe séparée vers le bas ; marcato sur la blanche pointée"},
+{"marks":[],"v":"rw","ly":"","rh":"B3+B4e re B3+B4h C#4+C#5ed B3+B4s","lh":"G2e re D3+G3e re G2e re D3+G3e re"},
+{"marks":[],"v":"rw","ly":"","rh":"D4+D5e re D4+D5h E4+E5ed D4+D5s","lh":"F#2e re F#3+A3e re F#2e re F#3+A3e re"},
+{"marks":[],"v":"rw","ly":"","rh":"A4+A5e re A4+A5h B4+B5ed A4+A5s","lh":"E2e re C#3+G3e re E2e re C#3+G3e re"},
+{"marks":["pp"],"v":"rw","ly":"","rh":"D5+D6e re B4ed A4s A4e re D5+D6ed C#5+C#6s","lh":"D2e re F#3+A3e re F#2e re F#3+A3e re","doubt":"accents (^ renversés) sur notes fortes MD/MG ; accord MG F#3+A3 lu à 2 têtes"},
+{"marks":[],"v":"rw","ly":"","rh":"G5+G6e re B4ed A4s A4e re D5+D6ed C#5+C#6s","lh":"E2e re C#3+G3e re A2e re E3+G3e re"},
+{"marks":[],"v":"rw","ly":"","rh":"F#5+F#6e re B3ed A3s A3e re D4+D5ed C#4+C#5s","lh":"D2e re D3+F#3e re F#2e re F#3+A3e re","doubt":"F#5+F#6 : nombreuses lignes supplémentaires, lecture à vérifier"},
+{"marks":[],"v":"rw","ly":"","rh":"G4+G5e re B3ed A3s A3e re D4+D5ed C#4+C#5s","lh":"E2e re C#3+G3e re A2e re E3+G3e re"},
+{"marks":["<"],"v":"rw","ly":"","rh":"F#4+F#5e re F#4ed E4s G4e re G4ed F#4s","lh":"D2e re D4ed C#4s B3e re B3ed A3s"},
+{"marks":["<","f","tr","<"],"v":"rw","ly":"","rh":"A4e re B4ed A4s gD5 C#5dd B4t C#5t","lh":"G3e re G3ed F#3s A2+E3 A#2+E3+G3","doubt":"tr sur C#5 (noire doublement pointée) ; MG 3e temps : E3 hampe haut / A2 hampe bas notés en accord"},
+{"marks":["ff"],"v":"rw","ly":"","rh":"D5e re D5+D6ed C#5+C#6s B4+B5e re B4+B5ed A4+A5s","lh":"B2+D3+F#3e re F#3ed E3s G3e re G3ed F#3s"},
+{"marks":["tr"],"v":"rw","ly":"","rh":"G4+G5e re G4+G5ed F#4+F#5s E4+E5 A4+A5","lh":"B3e re B3ed A3s gD4 C#4dd B3t C#4t","doubt":"tr sur C#4 MG ; petite note lue D4 ; marcato sur les 2 noires MD"},
+{"marks":["ff"],"v":"rw","ly":"","rh":"F#4+D5e re red D4+D5s D4+D5 r","lh":"D4e re red D2+D3s D2+D3 r","doubt":"marcato sur la dernière noire (MD et MG)"}
+]}

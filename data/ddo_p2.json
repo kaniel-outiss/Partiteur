@@ -1,0 +1,18 @@
+{"page":2,"measures":[
+{"meter":"4/4","ks":2,"marks":["pp"],"v":"rw","ly":"","rh":"r A3+D4+F#4e re r A3+D4+F#4e re","lh":"D2+D3e re r D2+D3e re r","doubt":"page imprimée 37 ; entrée du ténor m.18 (clé de sol octaviée)"},
+{"marks":[],"v":"A4 F#5h E5ed F#5s","ly":"Do- mi- ne _","rh":"r A3+D4+F#4e re r C#4+G4e re","lh":"D2+D3e re r A1+A2e re r"},
+{"marks":[],"v":"E5d D5e A4h","ly":"De- _ us,","rh":"rh A4ed B4s A4ed D5s // rh A4h","lh":"D3e re A3+D4+F#4e re D3e re A3+D4+F#4e re","doubt":"MD : demi-pause commune aux 2 voix ; voix basse = blanche A4"},
+{"marks":[],"v":"A4 G5h F#5ed G5s","ly":"Rex _ coe- _","rh":"A4e re r rh","lh":"C#3e re B3+E4+G4e re D3e re A3+D4+F#4e re","doubt":"MD : A4 à deux hampes (2 voix)"},
+{"marks":[],"v":"F#5d E5e A4h","ly":"les- _ tis,","rh":"rh A4ed B4s A4ed E5s // rh A4h","lh":"A2e re A3+C#4e re A2e re A3+C#4+G4e re"},
+{"marks":[],"v":"A4 F#5h E5ed F#5s","ly":"De- _ us _","rh":"r F#4+A4+F#5e re r F#4+A#4+E5e re","lh":"D3+D4e re r C#3+C#4e re r"},
+{"marks":[],"v":"E5 D5h C#5~","ly":"Pa- ter om-","rh":"r F#4+B4+D5e re r E4+G4+C#5e re","lh":"B2+B3e re r E2+E3e re r","doubt":"C#5 lié à la mesure suivante"},
+{"marks":["<"],"v":"C#5 B4h A#4","ly":"ni- po-","rh":"r D4+F#4+B4e re r C#4+F#4+A#4e re","lh":"F#2+F#3e re r F#3e re r"},
+{"marks":["ff",">"],"v":"A4h~ A4e re r","ly":"tens.","rh":"C#4+E4+A4e re C#4+E4+A4h C#4+E4+A4","lh":"G3d F#3s E3s G3d F#3s E3s","doubt":"bécarre de précaution sur A4 (chant et MD) ; marcato sur la blanche et la noire MD"},
+{"marks":["pp"],"v":"A4 F5h E5ed F5s","ly":"Do- mi- ne _","rh":"r A3+D4+F4e re r A3+C#4+G4e re","lh":"D3e re r A1+A2e re r","doubt":"F5 bécarre imprimé sur la blanche, la double croche F5 sans altération (bécarre valable jusqu'à la barre)"},
+{"marks":[],"v":"E5d D5e A4h","ly":"Fi- _ li","rh":"rh A4ed Bb4s A4ed D5s // rh A4h","lh":"D3e re A3+D4+F4e re D3e re A3+D4+F4e re","doubt":"bécarre sur F4 des accords MG"},
+{"marks":[],"v":"A4 G5h F5ed G5s","ly":"u- _ ni- _","rh":"A4e re r rh","lh":"C#3e re A3+E4+G4e re D3e re A3+D4+F4e re","doubt":"F5 bécarre (chant) ; MG dernier accord F4 bécarre"},
+{"marks":[],"v":"F5d E5e A4h","ly":"ge- ni- te,","rh":"rh A4ed Bb4s A4ed E5s // rh A4h","lh":"A2e re A3+C#4e re A2e re A3+C#4+G4e re","doubt":"F5 bécarre (chant)"},
+{"marks":[],"v":"A4 F5h Eb5ed F5s","ly":"Je- _ su, _","rh":"r A4+D5+F5e re r F4+A4+Eb5e re","lh":"D3+D4e re r C3+C4e re r","doubt":"bécarres sur F (chant, MD) et C (MG)"},
+{"marks":[],"v":"Eb5 D5h C5~","ly":"Je- _ su","rh":"r F4+Bb4+D5e re r Eb4+G4+C5e re","lh":"Bb2+Bb3e re r Eb2+Eb3e re r","doubt":"C5 bécarre lié à la mesure suivante"},
+{"marks":["<"],"v":"C5 Bb4h A4","ly":"Chris- _","rh":"r D4+F4+Bb4e re r C4+Eb4+A4e re","lh":"F2+F3e re r F3e re r","doubt":"C5 lié (bécarre reporté) ; mesure de fin de page, « Chris-tus » continue p.3"}
+]}
