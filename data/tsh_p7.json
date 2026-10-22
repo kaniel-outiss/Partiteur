@@ -1,0 +1,208 @@
+{
+"page": 7,
+"measures": [
+{
+"meter": "3/4",
+"len": 1,
+"v": "F#3",
+"ly": "For",
+"rh": "F#4",
+"lh": "r",
+"doubt": "Levée d'une noire : complète la mesure « Fine » (blanche) de la p. 219 ; astérisque *) = note de bas de page « This section is generally omitted » (non transcrite). Page imprimée 220 = p-218.png, ordre correct."
+},
+{
+"marks": [
+"p"
+],
+"v": "B3h C#4",
+"ly": "this cor-",
+"rh": "B4h C#5 // D4 F#4 G4",
+"lh": "B2 D3 E3"
+},
+{
+"v": "A#3h G#3e F#3e",
+"ly": "rup- ti- ble",
+"rh": "C#4+F#4+A#4h C#4+F#4+A#4",
+"lh": "F#3h E3"
+},
+{
+"v": "B3 A3d B3e",
+"ly": "must put _",
+"rh": "B4 A4d B4e // B3+F#4 E4h",
+"lh": "D3 C#3h",
+"doubt": "voix et MD : la♮ (bécarre imprimé) ; liaison la-si"
+},
+{
+"v": "G3h F#3~",
+"ly": "on in-",
+"rh": "G4h F#4~ // D4h C#4",
+"lh": "B2h A2",
+"doubt": "sol♮ imprimé (voix et MD) ; fa# lié vers la mesure suivante (voix et MD)"
+},
+{
+"v": "F#3e G3e E3h",
+"ly": "_ cor-",
+"rh": "F#4e G4e E4h // B3hd",
+"lh": "G2hd"
+},
+{
+"v": "F#3 F#3 r",
+"ly": "rup- tion,",
+"rh": "A#3+C#4+F#4 A#3+C#4+F#4h",
+"lh": "F#2 F#3 E3"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "B3+F#4 F#4+B4 E4+A#4",
+"lh": "D3 D3 C#3"
+},
+{
+"v": "r r F#3",
+"ly": "for",
+"rh": "D4+B4h F#4",
+"lh": "B2h r"
+},
+{
+"v": "D4h C#4",
+"ly": "this cor-",
+"rh": "r D5 C#5 // r F#4 G4",
+"lh": "r B2 E3",
+"doubt": "MG : petit point à droite du si2 (tache ?)"
+},
+{
+"v": "A#3h F#3e F#3e",
+"ly": "rup- ti- ble",
+"rh": "C#4+F#4+A#4hd",
+"lh": "F#3hd"
+},
+{
+"v": "B3h F#3",
+"ly": "must put",
+"rh": "r D4+F#4+B4 B3+F#4",
+"lh": "D3 B2 D3"
+},
+{
+"v": "G3hd",
+"ly": "on,",
+"rh": "G4hd // B3 D4 B3",
+"lh": "E3 B2 D3",
+"doubt": "MD : liaison (legato) du sol4 vers l'accord suivant"
+},
+{
+"v": "r A3 E3",
+"ly": "must put",
+"rh": "A3+E4h r",
+"lh": "C#3h r",
+"doubt": "MD : la liaison venant du sol4 aboutit sur le mi4 (pas une tenue)"
+},
+{
+"v": "F#3 D4h",
+"ly": "on, _",
+"rh": "A3+F#4 D4+A4 F#4~+D5~",
+"lh": "D3 F#3e E3e D3e C#3e"
+},
+{
+"v": "D4e C#4e B3e A3e G3e F#3e",
+"ly": "_ _ _ _ _ _",
+"rh": "F#4+D5 F#4+B4 D4+B4",
+"lh": "B2 D3 B2"
+},
+{
+"v": "E3 C#4h~",
+"ly": "_ _",
+"rh": "E4+G4 G4+C#5 E4+C#5",
+"lh": "C#3 E3 C#3"
+},
+{
+"v": "C#4e B3e A#3e G#3e F#3e E3e",
+"ly": "_ _ _ _ _",
+"rh": "F#4+A#4+C#5 C#4+A#4 F#4+C#5",
+"lh": "F#3 F#2 A#2",
+"doubt": "MD 1er accord : deux dièses imprimés (dont un redondant) ; voix : do#4 lié depuis la mesure précédente"
+},
+{
+"v": "D3 D3 E3",
+"ly": "_ must put",
+"rh": "F#4+D5 D4+B4 E4+A#4",
+"lh": "B2 B2 C#3"
+},
+{
+"v": "F#3 F#3 G#3",
+"ly": "on, must put",
+"rh": "F#4+B4h G#4+B4",
+"lh": "D3 D3 E3"
+},
+{
+"v": "A#3h B3~",
+"ly": "on in-",
+"rh": "A#4h B4~ // C#4+F#4d E4e D4",
+"lh": "F#3h G3"
+},
+{
+"v": "B3e C#4e A#3h",
+"ly": "_ cor-",
+"rh": "C#4+G4+B4 C#4+F#4+A#4 C#4+F#4+A#4",
+"lh": "E3 F#3 F#2",
+"doubt": "MG mesure 22 : mi3 / fa#3 / fa#2 lu sur image dense"
+},
+{
+"v": "B3 B3 r",
+"ly": "rup- tion;",
+"rh": "D4+G4+B4h E4+A#4",
+"lh": "B2 B2 C#3"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "rhd",
+"ly": "",
+"rh": "B4h A#4 // F#4 G4 F#4e E4e",
+"lh": "D3 E3 F#3"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "B4 C#5 F#4+A#4+C#5 // D4 G4+B4 r",
+"lh": "G3 E3 F#3",
+"doubt": "MD : liaison si4-do#5 ; accord du 3e temps commun aux deux voix, noté dans la voix haute (silence dans la voix basse)"
+},
+{
+"marks": [
+"p"
+],
+"v": "r B3 D4",
+"ly": "and this",
+"rh": "F#4+B4+D5 B4 D5 // F#4 r F#4",
+"lh": "B2h B3"
+},
+{
+"v": "C#4 G#3 A3",
+"ly": "mor- _ tal",
+"rh": "E#4+G#4+C#5h C#4+F#4+C#5",
+"lh": "C#4 G#3 A3"
+},
+{
+"v": "E#3 F#3ed E#3s F#3e G#3e",
+"ly": "must put _ _ _",
+"rh": "C#4+G#4 C#4+F#4+A4h",
+"lh": "E#3 F#3h",
+"doubt": "voix : 2e mi (double croche) sans altération, mi# par l'altération de la mesure"
+},
+{
+"v": "C#3h r",
+"ly": "on",
+"rh": "E#4+G#4h E#4+G#4",
+"lh": "C#3 C#4 B3",
+"doubt": "MD : dièses imprimés devant l'accord mi#/sol# (lecture serrée)"
+},
+{
+"v": "r C#4 F#3",
+"ly": "im- mor-",
+"rh": "C#4+F#4+C#5h F#4+C#5",
+"lh": "A3h A2",
+"doubt": "Mot coupé « immor- » : suite page 221"
+}
+]
+}

@@ -1,0 +1,195 @@
+{
+"page": 8,
+"measures": [
+{
+"meter": "3/4",
+"v": "D4d C#4e B3e A3e",
+"ly": "tal- _ _ _",
+"rh": "D5~ D5e C#5e B4e A4e // D4+F#4 E4 F#4",
+"lh": "B2 C#3 D3",
+"doubt": "Page imprimée 221 = p-219.png, ordre correct ; 1re mesure complète (suite de « immor- » p. 220)"
+},
+{
+"v": "G#3e F#3e E3e B3e C#4e D4e",
+"ly": "_ _ _ _ _ _",
+"rh": "G#4e F#4e E4e B4e C#5e D5e // B3 E4 E4",
+"lh": "E3 G#2 E2"
+},
+{
+"v": "C#4d B3e A3e G#3e",
+"ly": "_ _ _ _",
+"rh": "A4+C#5d B4e A4e G#4e // C#4 D4 E4",
+"lh": "A2 B2 C#3"
+},
+{
+"v": "F#3e E3e D3e A3e B3e C#4e",
+"ly": "_ _ _ _ _ _",
+"rh": "F#4e E4e D4e A4e B4e C#5e // A3 D4 F#4",
+"lh": "D3 F#3 D3"
+},
+{
+"v": "B3d A3e G#3e F#3e",
+"ly": "_ _ _ _",
+"rh": "B4~ B4e A4e G#4e F#4e // E#4 F#4 D4",
+"lh": "G#2 A2 B2",
+"doubt": "MD voix basse : dièse imprimé devant le mi4 (mi#4)"
+},
+{
+"v": "E#3e D#3e C#3e G#3e A3e B3e",
+"ly": "_ _ _ _ _ _",
+"rh": "G#3+E#4 C#4+G#4+C#5 E#4+C#5",
+"lh": "C#3 E#3 C#3"
+},
+{
+"v": "A3e G#3e F#3e A3e B3e C#4e",
+"ly": "_ _ _ _ _ _",
+"rh": "F#4+A4+C#5h F#4+A4",
+"lh": "F#3 A2 F#2"
+},
+{
+"v": "B3e A3e G#3e B3e C#4e D4e",
+"ly": "_ _ _ _ _ _",
+"rh": "B4h C#5e D5e // E#4h E#4",
+"lh": "G#2 B2 G#2",
+"doubt": "MD : liaison sur do#5-ré5"
+},
+{
+"v": "C#4d F#3e F#3",
+"ly": "_ i- ty,",
+"rh": "F#4+C#5h F#4+A4+C#5",
+"lh": "A2d A3e F#3"
+},
+{
+"v": "r D4 C#4",
+"ly": "and this",
+"rh": "F#4+B4+D5h E#4+C#5",
+"lh": "B3 B2 C#3"
+},
+{
+"v": "B3e A#3e B3h",
+"ly": "mor- _ tal",
+"rh": "F#4+B4hd",
+"lh": "D3hd"
+},
+{
+"v": "B3e A#3e B3h",
+"ly": "must _ put",
+"rh": "D4+F#4+B4hd",
+"lh": "B2hd"
+},
+{
+"v": "C#3hd",
+"ly": "on",
+"rh": "G#4+C#5h G#4 // C#4 E#4 E#4",
+"lh": "E#2 C#3 B2"
+},
+{
+"v": "r F#3 F#3",
+"ly": "im- mor-",
+"rh": "F#4 C#4 B3",
+"lh": "A2 A2 G#2"
+},
+{
+"v": "F#3hd~",
+"ly": "tal-",
+"rh": "A3 F#4h~ // A3h E4",
+"lh": "F#2 D3 C#3",
+"doubt": "MD temps 1 : la3 noté deux fois (noire hampe haute + blanche hampe basse)"
+},
+{
+"v": "F#3 G#3e F#3e E#3e F#3e",
+"ly": "_ _ _ _",
+"rh": "D4+F#4h r",
+"lh": "B2h r"
+},
+{
+"v": "G#3hd~",
+"ly": "_",
+"rh": "r G#4h~ // r D4 B3",
+"lh": "r B2 G#2"
+},
+{
+"v": "G#3 A3e G#3e F#3e G#3e",
+"ly": "_ _ _ _",
+"rh": "E#4+G#4h r",
+"lh": "C#3h r"
+},
+{
+"v": "A3hd~",
+"ly": "_",
+"rh": "r A4h~ // r E4 C#4",
+"lh": "r C#3 A2",
+"doubt": "MD : bécarre imprimé devant le mi4"
+},
+{
+"v": "A3 B3e A3e G#3e A3e",
+"ly": "_ _ _ _",
+"rh": "F#4+A4h r",
+"lh": "D3h r"
+},
+{
+"v": "B3hd~",
+"ly": "_",
+"rh": "r B4h~ // r B4e A4e G#4e F#4e",
+"lh": "r D3 B2"
+},
+{
+"v": "B3 C#4e B3e A3e G#3e",
+"ly": "_ _ _ _",
+"rh": "B4h G#4 // E#4h C#4",
+"lh": "C#3h E#3"
+},
+{
+"v": "A3 B3e A3e G#3e F#3e",
+"ly": "_ _ _ _ _",
+"rh": "A4 B4e A4e G#4e F#4e // C#4 r B3",
+"lh": "F#3 E3 D3",
+"doubt": "MD voix basse : aucun silence imprimé au 2e temps (do#4 noire puis si3 au 3e temps) ; MG : bécarre imprimé devant le mi3"
+},
+{
+"v": "C#4d C#3e C#3",
+"ly": "_ i- ty,",
+"rh": "C#4+E#4+G#4+C#5h E#4+G#4+C#5",
+"lh": "C#3h B2",
+"doubt": "MD : trois dièses devant l'accord, têtes serrées (lecture do#4-mi#4-sol#4-do#5)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C#4+F#4+C#5 E#4+B4 F#4+A4~",
+"lh": "A2 G#2 F#2"
+},
+{
+"v": "F#3 B3h",
+"ly": "im- mor-",
+"rh": "A4 B4h // F#4h~ D4+F#4",
+"lh": "D3h B2"
+},
+{
+"v": "A3e3 G#3e3 F#3e3 C#3d C#3e",
+"ly": "tal- _ _ _ i-",
+"rh": "C#4+F#4+A4h G#3+C#4+E#4",
+"lh": "C#3h C#2+C#3",
+"doubt": "voix : triolet (chiffre 3) la-sol#-fa# sous liaison"
+},
+{
+"len": 2,
+"v": "F#3h^",
+"ly": "ty.",
+"rh": "A3+C#4+F#4h^",
+"lh": "F#2h^",
+"doubt": "Mesure de 2 temps avant la double barre (complétée par la levée « The » qui renvoie au signe)"
+},
+{
+"len": 1,
+"marks": [
+"D.S. al Fine"
+],
+"v": "D3",
+"ly": "The",
+"rh": "r",
+"lh": "r",
+"doubt": "« Dal 𝄋 » imprimé : levée « The » qui renvoie au signe (reprise jusqu'à Fine)"
+}
+]
+}

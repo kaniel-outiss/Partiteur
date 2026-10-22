@@ -1,0 +1,153 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "p"
+   ],
+   "doubt": "Récitatif nº 47 (« Bass Solo »), pas d'indication de tempo imprimée ; 1re page = p. 214 imprimée (p-212.png), ordre OK.",
+   "v": "r re D3e F#3 re F#3e",
+   "ly": "Be- hold, I",
+   "rh": "D4+F#4+A4w~",
+   "lh": "D2+D3w~"
+  },
+  {
+   "v": "A3 A3e A3e D4ed D3s D3",
+   "ly": "tell you a mys- ter- y;",
+   "rh": "D4+F#4+A4h D4+F#4+B4h",
+   "lh": "D2+D3h B1+B2h"
+  },
+  {
+   "v": "r F#3e F#3e F#3 B3",
+   "ly": "we shall not all",
+   "rh": "D4+F#4+B4w",
+   "lh": "B1+B2w"
+  },
+  {
+   "v": "G3 re G3e E3e E3e F#3e G3e",
+   "ly": "sleep, but we shall all be",
+   "rh": "C#4+E4+G4w~",
+   "lh": "A#1+A#2w"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "doubt": "RH : liaisons de la ronde m.4 vers E4+G4 (voix basse) — le ~ de m.4 couvre tout l'accord ; voix haute C#5 blanche hampe haute, voix basse 3 noires hampes basses (silence de noire ajouté en voix 2, non imprimé).",
+   "v": "A2d F#3s F#3s B3e B3e re B3s B3s",
+   "ly": "chang'd in a mo- ment, in the",
+   "rh": "C#5h re F#4+B4s F#4+B4s B3+F#4+B4~ // E4+G4 C#4+F#4 D4 r",
+   "lh": "A1+A2h re G#1+G#2s G#1+G#2s G#1+G#2"
+  },
+  {
+   "doubt": "RH 1er accord : dièse imprimé devant la note du 1er interligne/ligne MI → lu E#4 (B3/B4 liés depuis m.5) ; à vérifier. Voix « of » = C#4 (tête sur la ligne supplémentaire).",
+   "v": "B3e B3e C#4e G#3e A3 r",
+   "ly": "twin- kling of an eye,",
+   "rh": "B3+E#4+B4h re C#4+F#4+A4s C#4+F#4+A4s C#4+F#4+A4e A4+D5+F#5s A4+D5+F#5s",
+   "lh": "G#1+G#2h re F#1+F#2s F#1+F#2s F#1+F#2e D2+D3s D2+D3s"
+  },
+  {
+   "v": "re D4e G#3e A3e A3e E3e r",
+   "ly": "at the last trum- pet.",
+   "rh": "A4+D5+F#5 r re B4+E5+G#5s B4+E5+G#5s B4+E5+G#5e E4+B4+D5s E4+B4+D5s",
+   "lh": "D2+D3 r re E2+E3s E2+E3s E2+E3e E1+E2s E1+E2s"
+  },
+  {
+   "doubt": "Double barre fin du récitatif nº 47.",
+   "v": "rw",
+   "ly": "",
+   "rh": "E4+A4+C#5 r rh",
+   "lh": "A1+A2 r rh"
+  },
+  {
+   "meter": "3/4",
+   "len": 1,
+   "tempo": "Pomposo, ma non allegro",
+   "bpm": 80,
+   "marks": [
+    "f"
+   ],
+   "doubt": "Nº 48 « The trumpet shall sound » : levée d'une noire (len 1). Imprimé 3/4 et (♩=80) — le GUIDE ligne 5 dit 4/4, j'ai suivi l'imprimé (3/4). Pas de portée de chant sur les 2 systèmes de l'air (ritournelle) → silences.",
+   "v": "r",
+   "ly": "",
+   "rh": "A3+D4ed A3+C#4s",
+   "lh": "D3+F#3ed D3+F#3s"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D4+F#4 re D4+F#4e D4+F#4ed D4+F#4s",
+   "lh": "D3+A3 re D3+A3e D3+A3ed D3+A3s"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4+A4 re E4+A4e E4+A4ed E4+A4s",
+   "lh": "C#3+A3 re C#3+A3e C#3+A3ed C#3+A3s"
+  },
+  {
+   "doubt": "RH 2e croche : seconde D5/E5 (têtes de part et d'autre de la hampe) + G4.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#4+D5d G4+D5+E5e F#4+D5+F#5e E5+G5e",
+   "lh": "B2+F#3d B2+B3e A2+A3e G2+G3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5+A5d A4+G5e B4+F#5e C#5+E5e",
+   "lh": "F#2+F#3d F#3+D4e G3+D4e A3+C#4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#4+D5d F#4+D5e G4+E5e A4+F#5e",
+   "lh": "B3+D4d A3+C#4e G3+B3e F#3+A3e"
+  },
+  {
+   "doubt": "LH deux voix : G3 noire pointée hampe haute + E3 blanche hampe basse ; C#3+C#4 sur une même hampe.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "B4+G5d B4+D5+F#5e A4+E5+G5e A4+E5e",
+   "lh": "G3d re C#4 // E3h C#3"
+  },
+  {
+   "doubt": "RH : liaison d'expression D5+F#5 pointée → C#5+E5.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5e E5+G5e D5+F#5d C#5+E5e // A4 A4h",
+   "lh": "D3+D4e C#3+C#4e D3+D4 D2+D3"
+  },
+  {
+   "marks": [
+    "p",
+    "Trumpet Solo"
+   ],
+   "doubt": "« Trumpet Solo » imprimé au-dessus ; l'E5 du 3e temps (hampe haute) = entrée de la trompette.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+C#5+E5h A4+E5",
+   "lh": "A2+A3d B3e C#4e A3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e E5e D5e F#5e E5e D5e // A4h A4",
+   "lh": "D4h D4+F#4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E5h A5 // A4h C#5",
+   "lh": "C#4+E4e B3+D4e A3+C#4e C#4+E4e B3+D4e A3+C#4e"
+  },
+  {
+   "doubt": "LH 2e temps : seconde D4/E4 accolée. Fin de page : mesure complète (pas de coupure).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "G#5e F#5e E5e G#5e F#5e E5e // B4h B4",
+   "lh": "B3+D4h D4+E4"
+  }
+ ]
+}
