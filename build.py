@@ -200,6 +200,9 @@ add_air('wdn', {'id': 'handel-messiah-why-do-the-nations', 'title': 'Why do the 
 add_air('tsh', {'id': 'handel-messiah-trumpet-shall-sound', 'title': 'Behold, I tell you a mystery… The trumpet shall sound', 'composer': 'Georg Friedrich Haendel', 'work': 'Le Messie, nº 47-48',
                 'role': None, 'voice': 'basse', 'style': 'Oratorio', 'period': 'Baroque', 'ks': 2, 'src': 'The Messiah, Schirmer 1912, p. 214-221'},
         80, {'name': 'Basse', 'short': 'B.', 'vt': 'B'})
+add_air('ven', {'id': 'mozart-la-vendetta', 'title': 'La vendetta, oh, la vendetta', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
+                'role': 'Bartolo', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': 2, 'src': 'Le nozze di Figaro, Bärenreiter BA 4565, p. 45-51'},
+        132, {'name': 'Bartolo (basse)', 'short': 'Bart.', 'vt': 'B'})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return

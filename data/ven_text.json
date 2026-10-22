@@ -1,0 +1,160 @@
+{
+"lang": "it",
+"ctx": "Le nozze di Figaro (Mozart, livret de Da Ponte, 1786), acte I. Le docteur Bartolo, ancien tuteur de Rosine (devenue comtesse Almaviva), n'a jamais pardonné à Figaro de lui avoir soufflé sa pupille dans « Le Barbier de Séville ». Marcellina lui montre un contrat : Figaro lui a promis de l'épouser s'il ne rembourse pas sa dette. Bartolo, ravi, jure vengeance : avec la ruse, la science du droit et quelques chicanes, il trouvera bien le moyen de forcer Figaro à épouser Marcellina. Air bouffe et pompeux, avec un célèbre passage de « patter » (débit rapide) sur « Se tutto il codice ».",
+"diction": [
+"Italien bouffe : articulation très nette, consonnes en avant, voyelles brèves dans le débit rapide.",
+"Doubles consonnes : « vendetta », « oltraggi », « arguzia » (simple), « potrebbe », « fatto », « codice » (simple), « garbuglio » [ɡarˈbuʎʎo].",
+"« Se tutto il codice… » : patter en triolets — ne pas presser, laisser les consonnes porter le rythme ; respirer aux virgules.",
+"Élisions : « l'onte, gli oltraggi », « coll'astuzia », « coll'arguzia » — enchaîner sans coup de glotte.",
+"« Tutta Siviglia conosce Bartolo » : fier et sonore ; le ré grave final « sarà » posé, pas aboyé."
+],
+"lines": [
+{
+"key": "la vendetta",
+"it": "La vendetta, oh, la vendetta è un piacer serbato ai saggi.",
+"ipa": "la venˈdetta ɔ la venˈdetta ɛ un pjaˈtʃer serˈbaːto ai ˈsaddʒi",
+"w": [
+[
+"La vendetta",
+"la vengeance"
+],
+[
+"è un piacer",
+"est un plaisir"
+],
+[
+"serbato ai saggi",
+"réservé aux sages"
+]
+],
+"fr": "La vengeance, oh, la vengeance est un plaisir réservé aux sages."
+},
+{
+"key": "lobliar",
+"it": "L'obliar l'onte, gli oltraggi è bassezza, è ognor viltà.",
+"ipa": "lobliˈar ˈlonte ʎi olˈtraddʒi ɛ basˈsettsa ɛ oɲˈɲor vilˈta",
+"w": [
+[
+"L'obliar",
+"oublier"
+],
+[
+"l'onte, gli oltraggi",
+"les affronts, les outrages"
+],
+[
+"è bassezza",
+"est une bassesse"
+],
+[
+"è ognor viltà",
+"est toujours une lâcheté"
+]
+],
+"fr": "Oublier les affronts et les outrages est une bassesse, c'est toujours une lâcheté."
+},
+{
+"key": "coll",
+"it": "Coll'astuzia, coll'arguzia, col giudizio, col criterio si potrebbe… il fatto è serio; ma credete, si farà.",
+"ipa": "kollasˈtuttsja kollarˈɡuttsja kol dʒuˈdittsjo kol kriˈtɛːrjo si poˈtrɛbbe il ˈfatto ɛ ˈsɛːrjo ma kreˈdeːte si faˈra",
+"w": [
+[
+"Coll'astuzia",
+"avec la ruse"
+],
+[
+"coll'arguzia",
+"avec la finesse"
+],
+[
+"col giudizio",
+"avec le jugement"
+],
+[
+"col criterio",
+"avec le discernement"
+],
+[
+"si potrebbe",
+"on pourrait"
+],
+[
+"il fatto è serio",
+"l'affaire est sérieuse"
+],
+[
+"ma credete, si farà",
+"mais croyez-moi, on y arrivera"
+]
+],
+"fr": "Avec la ruse, avec la finesse, avec le jugement, avec le discernement, on pourrait… l'affaire est sérieuse ; mais croyez-moi, on y arrivera."
+},
+{
+"key": "se tutto",
+"it": "Se tutto il codice dovessi volgere, se tutto l'indice dovessi leggere, con un equivoco, con un sinonimo, qualche garbuglio si troverà.",
+"ipa": "se ˈtutto il ˈkɔːditʃe doˈvessi ˈvɔldʒere se ˈtutto ˈlinditʃe doˈvessi ˈlɛddʒere kon un eˈkwiːvoko kon un siˈnɔːnimo ˈkwalke ɡarˈbuʎʎo si troveˈra",
+"w": [
+[
+"Se tutto il codice",
+"si tout le code"
+],
+[
+"dovessi volgere",
+"je devais feuilleter"
+],
+[
+"tutto l'indice",
+"tout l'index"
+],
+[
+"dovessi leggere",
+"je devais lire"
+],
+[
+"con un equivoco",
+"avec une équivoque"
+],
+[
+"con un sinonimo",
+"avec un synonyme"
+],
+[
+"qualche garbuglio",
+"quelque embrouille"
+],
+[
+"si troverà",
+"se trouvera"
+]
+],
+"fr": "Dussé-je feuilleter tout le code, dussé-je lire tout l'index, avec une équivoque, avec un synonyme, on trouvera bien quelque embrouille."
+},
+{
+"key": "tutta siviglia",
+"it": "Tutta Siviglia conosce Bartolo: il birbo Figaro vostro sarà.",
+"ipa": "ˈtutta siˈviʎʎa koˈnoʃʃe ˈbartolo il ˈbirbo ˈfiːɡaro ˈvɔstro saˈra",
+"w": [
+[
+"Tutta Siviglia",
+"tout Séville"
+],
+[
+"conosce Bartolo",
+"connaît Bartolo"
+],
+[
+"il birbo Figaro",
+"ce coquin de Figaro"
+],
+[
+"vostro sarà",
+"sera à vous"
+]
+],
+"fr": "Tout Séville connaît Bartolo : ce coquin de Figaro sera à vous."
+}
+],
+"doubts": [
+"Texte (Da Ponte) vérifié sur la partition à l'assemblage."
+]
+}
