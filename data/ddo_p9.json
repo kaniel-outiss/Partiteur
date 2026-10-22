@@ -1,0 +1,114 @@
+{
+ "page": 9,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "f"
+   ],
+   "v": "A5h~ A5e G5e B4e C#5e",
+   "ly": "ge- _ ni- te,",
+   "rh": "A4+C5+D#5+A5 A4+C5+D#5+A5 r G4+B4+E5+G5",
+   "lh": "F#2+F#3 F#3+F#4 E2+E3 E3+E4",
+   "doubt": "m.121 : la syllabe « ge » continue « U-ni-ge-ni-te » de la page précédente ; A5 blanche liée à A5 croche (double arc : liaison + phrasé jusqu'à G5). Accord MD : C♮5 et D#5 (altérations lues ♮ #)."
+  },
+  {
+   "v": "D5ed A4s F#5h E5",
+   "ly": "Je- su Chris- _",
+   "rh": "r F4+A4+D5+F5 r E4+G4+C#5+E5",
+   "lh": "A1+A2 A2+A3 A1+A2 A2+A3",
+   "doubt": "MD temps 2 : deux bécarres (F♮4, F♮5) lus."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "D5 r rh",
+   "ly": "te.",
+   "rh": "r B4ed A4s A4e re D5+D6ed C#5+C#6s",
+   "lh": "D3e3 A3e3 D4e3 F#4e3 D4e3 A3e3 F#3e3 A3e3 D4e3 F#4e3 D4e3 A3e3",
+   "doubt": "MD : A4 croche staccato ; liaison B4-A4."
+  },
+  {
+   "v": "r E5h D5ed C#5s",
+   "ly": "Do- mi- ne",
+   "rh": "G5+G6e re B4ed A4s A4e re D5+D6ed C#5+C#6s",
+   "lh": "E3e3 A3e3 C#4e3 G4e3 C#4e3 A3e3 A2e3 E3e3 G3e3 A3e3 G3e3 E3e3",
+   "doubt": "MD G5+G6 staccato."
+  },
+  {
+   "v": "D5 D5e re rh",
+   "ly": "De- us,",
+   "rh": "F#5+F#6e re B4ed A4s A4e re D5+D6ed C#5+C#6s",
+   "lh": "D3e3 A3e3 D4e3 F#4e3 D4e3 A3e3 F#3e3 A3e3 D4e3 F#4e3 D4e3 A3e3"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "r E5h D5ed C#5s",
+   "ly": "A- gnus _",
+   "rh": "G5+G6e re B4ed A4s A4e re D5+D6ed C#5+C#6s",
+   "lh": "E3e3 A3e3 C#4e3 G4e3 C#4e3 A3e3 A2e3 E3e3 G3e3 A3e3 G3e3 E3e3"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "D5 D5e re rh",
+   "ly": "De- i,",
+   "rh": "F#5+F#6e re D5e3 A4e3 D4e3 G5e3 D5e3 G4e3 F#5e3 D5e3 F#4e3",
+   "lh": "D3e re D3+F#3 D3+B3 D3+A3",
+   "doubt": "MG : accords des temps 2-4 avec accents (^)."
+  },
+  {
+   "v": "D5h D5d D5e",
+   "ly": "Fi- li- us",
+   "rh": "D5e3 A4e3 D4e3 D5e3 A4e3 D4e3 G5e3 D5e3 G4e3 F#5e3 D5e3 F#4e3",
+   "lh": "D3+F#3e re D3+F#3 D3+B3 D3+A3"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "D5h D5h",
+   "ly": "Pa- tris,",
+   "rh": "D5e3 A4e3 D4e3 D5e3 A4e3 D4e3 G5e3 D5e3 G4e3 F#5e3 D5e3 F#4e3",
+   "lh": "D3+F#3e re D3+F#3 D3+Bb3 D3+A3"
+  },
+  {
+   "v": "D5h D5d D5e",
+   "ly": "Fi- li- us",
+   "rh": "D5e3 A4e3 D4e3 D5e3 A4e3 D4e3 G5e3 D5e3 G4e3 F5e3 Ab4e3 F4e3",
+   "lh": "D3+F#3e re D3+F#3 D3+Bb3 D3+Bb3",
+   "doubt": "MD 4e triolet : F♮5, Ab4, F♮4 (♮ ♭ ♮ imprimés)."
+  },
+  {
+   "v": "G5w~",
+   "ly": "Pa-",
+   "rh": "Eb5e3 G4e3 Eb4e3 Eb5e3 G4e3 Eb4e3 D5e3 G4e3 D4e3 D5e3 G4e3 D4e3",
+   "lh": "Eb3+Bb3h Eb3+Bb3h",
+   "doubt": "Chant : arc G5 (m.131) → G5 (m.132) interprété comme liaison de prolongation."
+  },
+  {
+   "marks": [
+    "smorz."
+   ],
+   "v": "G5h F#5h",
+   "ly": "tris,",
+   "rh": "C#5e3 G4e3 C#4e3 C#5e3 G4e3 C#4e3 D5e3 A4e3 D4e3 D5e3 A4e3 D4e3",
+   "lh": "E3+A3h F#3+A3h",
+   "doubt": "MG temps 1 : bécarre sur E3 (annule Eb)."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "F#5e E5e A#4e B4e C#5e B4e F#5e E5e",
+   "ly": "Fi- _ _ _ li- _ us _",
+   "rh": "D5e3 B4e3 E4e3 D5e3 B4e3 E4e3 D5e3 B4e3 E4e3 D5e3 B4e3 E4e3",
+   "lh": "G#3+B3h G#2+E3h",
+   "doubt": "MG : G#3+B3 (hampe bas) puis G#2+E3 (hampe haut), lus successivement ; grand arc pp jusqu'à m.134."
+  }
+ ]
+}

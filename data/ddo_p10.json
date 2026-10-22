@@ -1,0 +1,94 @@
+{
+ "page": 10,
+ "measures": [
+  {
+   "meter": "4/4",
+   "v": "E5 A4h C#5",
+   "ly": "Pa- _ _",
+   "rh": "A4e3 F#4e3 D4e3 A4e3 F#4e3 D4e3 A4e3 G4e3 C#4e3 A4e3 G4e3 C#4e3",
+   "lh": "A2+F#3+A3h A2+E3+G3+A3h",
+   "doubt": "Page imprimée 45, mesures 134-144 OK. MG : arcs du 1er au 2e accord (A3 et A2 probablement liés, non notés en ~) ; bécarre sur G3. Chant : bécarre de précaution sur A4."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "D5e re D5 C#5 D5",
+   "ly": "tris, Fi- li- us",
+   "rh": "D4e re D4+D5ed D4+D5s C#4+C#5 D4+D5",
+   "lh": "D3+F#3e re D2+D3ed D2+D3s C#2+C#3 D2+D3",
+   "doubt": "Accents (^) sur les 3 dernières noires (chant et piano)."
+  },
+  {
+   "marks": [
+    "ff",
+    "sf",
+    "sf"
+   ],
+   "v": "F#5h G#5 C#5",
+   "ly": "Pa- _ _",
+   "rh": "F#4+A#4+C#5+F#5h G#4+C#5+E#5+G#5h",
+   "lh": "F#2+A#2+C#3+F#3h C#2+E#2+G#2+C#3h",
+   "doubt": "2e accord MD (G#4 C#5 E#5 G#5) et MG (C#2 E#2 G#2 C#3) : notes serrées, à vérifier."
+  },
+  {
+   "v": "F#5e re F#5 E#5 F#5",
+   "ly": "tris, Fi- li- us",
+   "rh": "F#4+A#4+C#5+F#5e re F#4+F#5ed F#4+F#5s E#4+E#5 F#4+F#5",
+   "lh": "F#2+A#2+C#3+F#3e re F#2+F#3ed F#2+F#3s E#2+E#3 F#2+F#3",
+   "doubt": "Syllabe imprimée « -tris, » (suite de « Pa- » m.136)."
+  },
+  {
+   "marks": [
+    "sf",
+    "sf"
+   ],
+   "v": "G5h A5h",
+   "ly": "Pa- _",
+   "rh": "G4+B4+D5+E5+G5h G4+C#5+E5+A5h",
+   "lh": "E2+E3h A1+C#2+E2+A2h",
+   "doubt": "Bécarres sur G5/G4 (MD) et E3/E2 (MG)."
+  },
+  {
+   "v": "D5w~",
+   "ly": "tris.",
+   "rh": "D5+F#5+A5+D6e! re F#4+F#5h G4+G5ed F#4+F#5s",
+   "lh": "D2+D3e3 F#3e3 A3e3 D4e3 A3e3 F#3e3 D3e3 F#3e3 A3e3 D4e3 A3e3 F#3e3",
+   "doubt": "Chant : D5 ronde liée à D5 noire m.140 (trait de mélisme). MD 1er accord arpégé."
+  },
+  {
+   "v": "D5 r rh",
+   "ly": "",
+   "rh": "A4+A5e re A4+A5h B4+B5ed A4+A5s",
+   "lh": "D3e3 F#3e3 A3e3 C4e3 A3e3 F#3e3 D3e3 F#3e3 A3e3 C4e3 A3e3 F#3e3",
+   "doubt": "MD A4+A5 croche avec staccato (coin) ; MG bécarre sur C4."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "E5+E6e re E5+E6h F#5+F#6ed E5+E6s",
+   "lh": "D3e3 G#3e3 B3e3 D4e3 B3e3 G#3e3 D3e3 G#3e3 B3e3 D4e3 B3e3 G#3e3",
+   "doubt": "Fin du chant : piano seul jusqu'à la fin."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "A5+A6e re A5+A6h B4+B5ed A4+A5s",
+   "lh": "D3e3 G3e3 A3e3 C#4e3 A3e3 G3e3 D3e3 G3e3 A3e3 C#4e3 A3e3 G3e3",
+   "doubt": "MD : B4+B5 / A4+A5 (octave inférieure à A5+A6) — à vérifier ; MG bécarre sur G3."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D5+D6e re red F#3+A3+D4s F#3+A3+D4e re red F#3+A3+D4s",
+   "lh": "D3e re red D2+D3s D2+D3e re red D2+D3s"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F#3+A3+D4hd r",
+   "lh": "D2+D3hd r",
+   "doubt": "Double barre finale."
+  }
+ ]
+}
