@@ -1,0 +1,151 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "G5s A4s Eb5^ C5s F5s",
+   "ly": "mais, me rend un hé-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "rh^",
+   "lh": "rh^",
+   "doubt": "Page imprimée 131 ; seule la portée TONIO est imprimée. Chant : sol et la notés comme doubles croches (le la a un aspect de croche) pour que la mesure tienne ; la bécarre. Piano : pauses avec point d’orgue."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Bb4e re rs C5s D5s C5s",
+   "ly": "ros. Ah! quel bon-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "r rs A4+C5s Bb4+D5s A4+C5s // rs F4s F4s F4s F4",
+   "lh": "r rs F3+Eb4s Bb3+D4s F3+Eb4s",
+   "doubt": "RH 2 voix ; la bécarre ; le F4 noire se lie à la mesure suivante (liaison)."
+  },
+  {
+   "marks": [],
+   "v": "Bb4e re rs C5s D5s C5s",
+   "ly": "heur oui mes a-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Bb4e re rs A4+C5s Bb4+D5s A4+C5s // F4s F4s F4s F4s F4",
+   "lh": "Bb3+D4e re rs F3+Eb4s Bb3+D4s F3+Eb4s"
+  },
+  {
+   "marks": [],
+   "v": "Bb4s D5s Eb5s D5s C5s Eb5s F5s Eb5s",
+   "ly": "mis Je vais mar- cher sous vos dra-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "F4+Bb4s D5s Eb5s D5s C5s Eb5s F5s Eb5s",
+   "lh": "Bb3+D4e re Bb2+Eb3+F3+A3e re",
+   "doubt": "Le 1er si (chant et RH) porte un crochet de croche mais 8 valeurs → doubles croches. RH : fa grave lié depuis la mesure précédente (2e voix). LH 2e accord : la bécarre imprimé."
+  },
+  {
+   "marks": [],
+   "v": "D5s F5s G5s F5s Eb5s G5s Ab5s G5s",
+   "ly": "peaux. Je vais mar- cher sous vos dra-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "D5s F5s G5s F5s Eb5s G5s Ab5s G5s",
+   "lh": "Bb2+D3+F3+Ab3e re Bb2+Eb3+G3e re",
+   "doubt": "Staccatos (chant et RH)."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "F5^ re Bb4e",
+   "ly": "peaux. Oui,",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "F5e re^ r",
+   "lh": "Bb2+D3+F3+Bb3e re^ r"
+  },
+  {
+   "marks": [
+    "Rall."
+   ],
+   "v": "Eb5e Eb5sd Eb5t Eb5e Eb5s Eb5s",
+   "ly": "cel- le pour qui je res-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Eb4+Cb5h",
+   "lh": "Cb3+Gb3h",
+   "doubt": "Grandes liaisons piano sur plusieurs mesures (pas de prolongation : accords différents)."
+  },
+  {
+   "marks": [],
+   "v": "Gb5 Db5e Eb5s Db5s",
+   "ly": "pi- re, A mes",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Db4+Bb4h",
+   "lh": "Gb2+Gb3h",
+   "doubt": "Liaison Gb5-Db5 au chant."
+  },
+  {
+   "marks": [],
+   "v": "Cb5e Cb5s Cb5s Cb5e Cb5e",
+   "ly": "vœux a dai- gné sou-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Cb4+Ab4h",
+   "lh": "Ab2+Eb3h"
+  },
+  {
+   "marks": [],
+   "v": "Eb5 Bb4e Eb5s Eb5s",
+   "ly": "ri- re Et ce",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Bb3+G4h",
+   "lh": "Eb2+Eb3h",
+   "doubt": "Liaison Eb5-Bb4 au chant."
+  },
+  {
+   "marks": [],
+   "v": "Eb5ed Eb5s Eb5e Eb5s Eb5s",
+   "ly": "doux es- poir de bon-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Eb4+Cb5h",
+   "lh": "Cb3+Gb3h"
+  },
+  {
+   "marks": [],
+   "v": "Gb5e Gb5e Gb5s Fb5s Eb5s Db5s",
+   "ly": "heur Trou- _ ble ma rai-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Db4+Bb4h",
+   "lh": "Gb2+Gb3h",
+   "doubt": "Accent + liaison sur le 2e Gb5."
+  },
+  {
+   "marks": [],
+   "v": "Cb5 A4ed A4s",
+   "ly": "son et mon",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Cb4+Ab4 Eb4+A4",
+   "lh": "Eb3h // Ab2 Cb3",
+   "doubt": "Liaisons vers la page suivante (mesure probablement complète)."
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "rh",
+   "ly": "",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "rs3 Eb5s3 F5s3 G5s3 Ab5s3 Bb5s3 Ab5s3 F5s3 Bb5s3 Ab5s3 F5s3 Bb5s3",
+   "lh": "Bb3+Eb4+G4e re Bb2+D3+F3+Bb3e Bb2+D3+F3+Bb3e",
+   "doubt": "Page imprimée 130. Seule la portée TONIO (« T. ») est imprimée sur cette page : su/ct/cb = silences. TONIO : pause mesure."
+  },
+  {
+   "marks": [],
+   "v": "r^ rs Bb4s C5s D5s",
+   "ly": "Ah! mes a-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Eb5e Eb5+G5+Bb5+Eb6s rs^ r",
+   "lh": "Eb3+G3+Bb3e Eb2+Eb3s rs^ r",
+   "doubt": "Points d’orgue sur la pause du chant et sur le soupir de double croche du piano ; accent sur l’accord."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Eb5e F5s D5s Eb5e F5s D5s",
+   "ly": "mis, quel _ jour de _",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "re F4+Ab4+D5e G4+Eb5e F4+Ab4+D5e",
+   "lh": "re Bb3e Eb4e Bb3e",
+   "doubt": "Chant : accents + liaisons sur F5-D5."
+  },
+  {
+   "marks": [],
+   "v": "Eb5e Bb4e rs G4s Ab4s A4s",
+   "ly": "fê- te! Je vais mar-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "G4+Eb5 rs G4s F4+Ab4s F#4+A4s",
+   "lh": "Eb4 rs Eb4s Eb4s Eb4s"
+  },
+  {
+   "marks": [],
+   "v": "Bb4e C5e D5e Eb5e",
+   "ly": "cher sous vos dra-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "G4+Bb4e Ab4+C5e F4+D5e G4+Eb5e",
+   "lh": "Eb4e Eb4e Eb4e Eb4e"
+  },
+  {
+   "marks": [],
+   "v": "F5 rs Bb4s D5s Eb5s",
+   "ly": "peaux. Ah! mes a-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Ab4+Bb4+F5e re rs Bb4s Ab4+D5s G4+Eb5s",
+   "lh": "D4e re rs Bb3s Bb3+F4s Bb3+Eb4s",
+   "doubt": "LH 1re croche : D4 seul lu."
+  },
+  {
+   "marks": [],
+   "v": "F5e G5s E5s F5e G5s E5s",
+   "ly": "mis, quel _ jour de _",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Ab4+F5e G4+E5e Ab4+F5e G4+E5e",
+   "lh": "Bb3+D4e Bb3+C#4e Bb3+D4e Bb3+C#4e",
+   "doubt": "Mi bécarre (chant et RH)."
+  },
+  {
+   "marks": [],
+   "v": "F5e Bb4e rs A4s Bb4s C5s",
+   "ly": "fê- te! Je vais mar-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Ab4+F5e re rs A4s Bb4s C5s",
+   "lh": "Bb3+D4e re rs Eb4+Gb4s D4+F4s C4+Eb4s",
+   "doubt": "LH : bémol imprimé devant le sol du 1er accord (Gb4) ; C4 éventuel dans cet accord non vu."
+  },
+  {
+   "marks": [],
+   "v": "D5e Eb5e F5e F#5e",
+   "ly": "cher sous vos dra-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "D5e G4+Eb5e Ab4+F5e Ab4+F#5e",
+   "lh": "Bb3+D4e Bb3e Bb3e Bb3+D4e",
+   "doubt": "RH dernier accord : seul le # du fa est imprimé (la reste Ab4). RH 1re croche : D5 seul lu."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "G5d^ G4e",
+   "ly": "peaux. L'a-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "G4+G5e re r^",
+   "lh": "Eb3+Bb3+Eb4e re r^",
+   "doubt": "p sur le sol grave du chant."
+  },
+  {
+   "marks": [
+    "Rall."
+   ],
+   "v": "Eb5ed Eb5s D5s C5s D5s Eb5s",
+   "ly": "mour qui m'a tour- né la",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Eb4+G4 F4+Ab4",
+   "lh": "C4 B3 // C3h",
+   "doubt": "Grande liaison piano vers la mesure suivante."
+  },
+  {
+   "marks": [
+    "f",
+    "Tempo."
+   ],
+   "v": "C5 G4s rs Eb5s C5s",
+   "ly": "tê- te Dé- sor-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "Eb4+G4~ Eb4+G4e re",
+   "lh": "C3+C4~ C3+C4e re",
+   "doubt": "Chant : le sol (te) semble avoir un seul crochet mais seule une double croche tient dans la mesure (4 valeurs égales après la noire) → G4s."
+  },
+  {
+   "marks": [],
+   "v": "F5d Eb5s F5s",
+   "ly": "mais, dé- sor-",
+   "su": "rh",
+   "ct": "rh",
+   "cb": "rh",
+   "rh": "rs F4+D5s Eb4+C5s D4+Bb4s C4+A4e re",
+   "lh": "rs F3s F3s F3s F3e re",
+   "doubt": "Staccatos piano."
+  }
+ ]
+}
