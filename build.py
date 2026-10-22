@@ -250,6 +250,12 @@ add_air('bij', {'id': 'gounod-air-des-bijoux', 'title': 'Ah ! Je ris de me voir 
 add_air('jvv', {'id': 'gounod-je-veux-vivre', 'title': 'Ah ! Je veux vivre (valse de Juliette)', 'composer': 'Charles Gounod', 'work': 'Roméo et Juliette, acte I',
                 'role': 'Juliette', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -1, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 101-110'},
         160, {'name': 'Juliette (soprano)', 'short': 'Jul.', 'vt': 'S', 'clef': 'G', 'oct': 0})
+add_air('lsa', {'id': 'puccini-signore-ascolta', 'title': 'Signore, ascolta!', 'composer': 'Giacomo Puccini', 'work': 'Turandot, acte I',
+                'role': 'Liù', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -6, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 169-171'},
+        50, {'name': 'Liù (soprano)', 'short': 'Liù', 'vt': 'S', 'clef': 'G', 'oct': 0})
+add_air('tgc', {'id': 'puccini-tu-che-di-gel', 'title': 'Tu che di gel sei cinta', 'composer': 'Giacomo Puccini', 'work': 'Turandot, acte III',
+                'role': 'Liù', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 0, 'mode': 'minor', 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 172-175'},
+        69, {'name': 'Liù (soprano)', 'short': 'Liù', 'vt': 'S', 'clef': 'G', 'oct': 0})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
