@@ -1,0 +1,104 @@
+{
+"lang": "fr",
+"ctx": "Roméo et Juliette (Gounod, livret de Barbier et Carré d'après Shakespeare, 1867), acte I. Vérone, bal masqué chez les Capulet. Juliette, quatorze ans, vient d'être présentée à la société ; sa nourrice Gertrude lui parle de mariage avec le comte Pâris. Juliette refuse de songer déjà à l'amour et au mariage : elle veut vivre encore dans le rêve et l'insouciance de la jeunesse. Quelques instants plus tard, elle rencontrera Roméo. Cette valse brillante, avec ses vocalises et ses trilles, est l'un des grands airs de soprano léger.",
+"diction": [
+"Français chanté : e muets chantés quand la musique leur donne une note (« vi-vre », « rê-ve », « flam-me », « â-me »).",
+"Élision « comme‿un trésor » sur une note ; liaison « mon‿âme ».",
+"Valse : légèreté, élan, sourire ; ne pas alourdir le premier temps.",
+"Vocalises et trilles sur « Ah ! » : voyelle [a] claire et constante, souplesse du souffle.",
+"Nasales brèves : « encor », « flamme », « jeunesse » sans nasaliser ; « longtemps » [lɔ̃tɑ̃]."
+],
+"lines": [
+{
+"key": "ah je veux",
+"it": "Ah ! Je veux vivre dans le rêve qui m'enivre ce jour encor ! Douce flamme, je te garde dans mon âme comme un trésor !",
+"ipa": "a ʒə vø vivʁə dɑ̃ lə ʁɛvə ki mɑ̃nivʁə sə ʒuʁ ɑ̃kɔʁ dusə flamə ʒə tə ɡaʁdə dɑ̃ mɔ̃ nɑmə kɔm œ̃ tʁezɔʁ",
+"w": [
+[
+"dans le rêve qui m'enivre",
+"dans le rêve qui m'enivre (qui me grise)"
+],
+[
+"ce jour encor",
+"aujourd'hui encore"
+],
+[
+"Douce flamme",
+"douce flamme (l'élan de la jeunesse)"
+],
+[
+"je te garde",
+"je te garde"
+]
+],
+"fr": "Juliette veut encore vivre dans son rêve et garder en elle la flamme de la jeunesse comme un trésor."
+},
+{
+"key": "cette ivresse",
+"it": "Cette ivresse de jeunesse ne dure, hélas ! qu'un jour. Puis vient l'heure où l'on pleure ; le cœur cède à l'amour, et le bonheur fuit sans retour !",
+"ipa": "sɛt ivʁɛsə də ʒœnɛsə nə dyʁə elas kœ̃ ʒuʁ pɥi vjɛ̃ lœʁ u lɔ̃ plœʁə lə kœʁ sɛdə a lamuʁ e lə bɔnœʁ fɥi sɑ̃ ʁətuʁ",
+"w": [
+[
+"Cette ivresse de jeunesse",
+"cette ivresse de la jeunesse"
+],
+[
+"ne dure qu'un jour",
+"ne dure qu'un jour"
+],
+[
+"le cœur cède à l'amour",
+"le cœur se rend à l'amour"
+],
+[
+"fuit sans retour",
+"s'enfuit pour toujours"
+]
+],
+"fr": "L'ivresse de la jeunesse est brève : vient l'heure des larmes, quand le cœur cède à l'amour et que le bonheur s'en va."
+},
+{
+"key": "loin de",
+"it": "Loin de l'hiver morose, laisse-moi sommeiller et respirer la rose avant de l'effeuiller.",
+"ipa": "lwɛ̃ də livɛʁ mɔʁozə lɛsə mwa sɔmɛje e ʁɛspiʁe la ʁozə avɑ̃ də lefœje",
+"w": [
+[
+"l'hiver morose",
+"l'hiver triste (l'âge mûr, les soucis)"
+],
+[
+"laisse-moi sommeiller",
+"laisse-moi rêver encore"
+],
+[
+"respirer la rose",
+"sentir le parfum de la rose"
+],
+[
+"avant de l'effeuiller",
+"avant d'en arracher les pétales"
+]
+],
+"fr": "Loin de l'hiver triste, laisse-moi rêver encore et respirer la rose avant de l'effeuiller."
+},
+{
+"key": "douce flamme reste",
+"it": "Douce flamme, reste dans mon âme comme un doux trésor longtemps encor !",
+"ipa": "dusə flamə ʁɛstə dɑ̃ mɔ̃ nɑmə kɔm œ̃ du tʁezɔʁ lɔ̃tɑ̃ ɑ̃kɔʁ",
+"w": [
+[
+"reste dans mon âme",
+"demeure en moi"
+],
+[
+"longtemps encor",
+"longtemps encore"
+]
+],
+"fr": "Douce flamme, demeure longtemps encore dans mon âme comme un doux trésor !"
+}
+],
+"doubts": [
+"Texte vérifié sur la partition (paroles imprimées)."
+]
+}

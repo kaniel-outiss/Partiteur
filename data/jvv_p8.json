@@ -1,21 +1,142 @@
-{"page":8,"measures":[
-{"meter":"3/4","v":"G4 Bb4d^ E4e","ly":"de l'ef- feuil-","rh":"Db5 r^ r","lh":"F2+Bb2+D3+Eb3 r^ r","doubt":"suite de la p. 107 : accord MG (Sib2-Ré3-Mib3 // Fa2) lié depuis la mesure précédente ; points d'orgue sur le Sib4 du chant et sur les silences du piano"},
-{"marks":["Tempo I","p"],"v":"F4h r","ly":"ler.","rh":"r A3+C4+F4e re A3+C4+F4e re","lh":"F2+F3 r r"},
-{"v":"F#4e G4e A4e Bb4e C5e D5e","ly":"Ah! _ _ _ _ _","rh":"r C4+D4+F#4e re C4+D4+F#4e re","lh":"D3 r r","doubt":"bécarre (Do4) et dièse (Fa#4) dans l'accord MD ; bécarre de précaution devant le Ré3 MG"},
-{"v":"Eb5e D5e C#5e D5e G4e re","ly":"_ _ _ _ _","rh":"r Bb3+D4+G4e re Bb3+D4+G4e re","lh":"G2 r r"},
-{"v":"G#4e A4e B4e C5e D5e E5e","ly":"Ah! _ _ _ _ _","rh":"r D4+E4+G#4e re D4+E4+G#4e re","lh":"E3 r r","doubt":"Si bécarre et Do bécarre (précaution) au chant"},
-{"v":"F5e E5e D#5e E5e A4e re","ly":"_ _ _ _ _","rh":"r C4+E4+A4e re C4+E4+A4e re","lh":"A2 r r"},
-{"v":"A4e Bb4e C5e D5e Eb5e F5e","ly":"Ah! _ _ _ _ _","rh":"r Eb4+F4+A4e re Eb4+F4+A4e re","lh":"F3 r r","doubt":"bémol (redondant) sur Sib4 et bécarre de précaution sur Ré5 au chant"},
-{"v":"G5e F5e E5e F5e Bb4e re","ly":"_ _ _ _ _","rh":"r D4+F4+Bb4e re D4+F4+Bb4e re","lh":"Bb2 r r","doubt":"Mi bécarre au chant"},
-{"v":"B4e C5e D5e E5e F5e G5e","ly":"Ah! _ _ _ _ _","rh":"r D4+E4+G4+B4e re D4+E4+G4+B4e re","lh":"G3 r r","doubt":"Si bécarre au chant et à la MD"},
-{"v":"A5e G5e F5e E5e D5e C5e","ly":"_ _ _ _ _ _","rh":"r C4+E4+G4+C5e re C4+E4+G4+C5e re","lh":"C3 r r"},
-{"marks":["cresc."],"v":"A5e G5e F5e E5e D5e C5e","ly":"_ _ _ _ _ _","rh":"r C4+E4+G4+C5e re C4+E4+G4+C5e re","lh":"C3 r r"},
-{"v":"A5e G5e F5e E5e D5e C5e","ly":"_ _ _ _ _ _","rh":"r C4+E4+G4+C5e re C4+E4+G4+C5e re","lh":"Bb2 r r"},
-{"v":"A5e G5e F5e E5e D5e C5e","ly":"_ _ _ _ _ _","rh":"r C4+E4+G4+C5e re C4+E4+G4+C5e re","lh":"Bb1+Bb2 r r"},
-{"marks":["f","tr"],"v":"A5hd~","ly":"_","rh":"r C#4+E4+A4+C#5e re C#4+E4+A4+C#5e re","lh":"A1+A2 r r","doubt":"f au chant et au piano ; trille sur La5 blanche pointée, liée à la mesure suivante"},
-{"v":"A5hd","ly":"","rh":"r Eb4+F4+A4+C5e re Eb4+F4+A4+C5e re","lh":"F1+F2 r r","doubt":"La5 lié (suite du trille) ; deux petites notes (triples croches) Sol5-La5 en fin de mesure, notées en préfixe g sur la mesure suivante ; bécarre de précaution sur Do5 MD"},
-{"v":"gG5 gA5 Bb5hd","ly":"_","rh":"D4+F4+Bb4+D5e re F4+F5e re Bb4+Bb5e re","lh":"Bb1+Bb2e re Bb2+D3+F3+Bb3e re Bb2+D3+F3+Bb3e re","doubt":"grande liaison de phrasé du La5 au Sib5 ; Sib5 sur « Ah! » (mélisme)"},
-{"v":"D5 E5 F5","ly":"Dou- _ ce","rh":"D5+D6 r r","lh":"Bb2+D3+F3+Bb3 r r","doubt":"liaison Ré5-Mi5 (mélisme sur « Dou- »)"},
-{"v":"F5hd","ly":"flam-","rh":"r C5+F5+C6e C5+F5+C6e C5+F5+C6e re","lh":"r C3+F3+A3e C3+F3+A3e C3+F3+A3e re"},
-{"v":"C5 r r","ly":"me,","rh":"C5+F5+C6e re C5+F5+C6e re C5+F5+C6e re","lh":"C3+F3+A3e re C3+F3+A3e re C3+F3+A3e re"}
-]}
+{
+"page": 8,
+"measures": [
+{
+"meter": "3/4",
+"v": "G4 Bb4d^ E4e",
+"ly": "de l'ef- feuil-",
+"rh": "Db5 r^ r",
+"lh": "F2+Bb2+D3+Eb3 r^ r",
+"doubt": "suite de la p. 107 : accord MG (Sib2-Ré3-Mib3 // Fa2) lié depuis la mesure précédente ; points d'orgue sur le Sib4 du chant et sur les silences du piano"
+},
+{
+"marks": [
+"Tempo I",
+"p"
+],
+"v": "F4h r",
+"ly": "ler.",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "F2+F3 r r",
+"bpm": 160
+},
+{
+"v": "F#4e G4e A4e Bb4e C5e D5e",
+"ly": "Ah! _ _ _ _ _",
+"rh": "r C4+D4+F#4e re C4+D4+F#4e re",
+"lh": "D3 r r",
+"doubt": "bécarre (Do4) et dièse (Fa#4) dans l'accord MD ; bécarre de précaution devant le Ré3 MG"
+},
+{
+"v": "Eb5e D5e C#5e D5e G4e re",
+"ly": "_ _ _ _ _",
+"rh": "r Bb3+D4+G4e re Bb3+D4+G4e re",
+"lh": "G2 r r"
+},
+{
+"v": "G#4e A4e B4e C5e D5e E5e",
+"ly": "Ah! _ _ _ _ _",
+"rh": "r D4+E4+G#4e re D4+E4+G#4e re",
+"lh": "E3 r r",
+"doubt": "Si bécarre et Do bécarre (précaution) au chant"
+},
+{
+"v": "F5e E5e D#5e E5e A4e re",
+"ly": "_ _ _ _ _",
+"rh": "r C4+E4+A4e re C4+E4+A4e re",
+"lh": "A2 r r"
+},
+{
+"v": "A4e Bb4e C5e D5e Eb5e F5e",
+"ly": "Ah! _ _ _ _ _",
+"rh": "r Eb4+F4+A4e re Eb4+F4+A4e re",
+"lh": "F3 r r",
+"doubt": "bémol (redondant) sur Sib4 et bécarre de précaution sur Ré5 au chant"
+},
+{
+"v": "G5e F5e E5e F5e Bb4e re",
+"ly": "_ _ _ _ _",
+"rh": "r D4+F4+Bb4e re D4+F4+Bb4e re",
+"lh": "Bb2 r r",
+"doubt": "Mi bécarre au chant"
+},
+{
+"v": "B4e C5e D5e E5e F5e G5e",
+"ly": "Ah! _ _ _ _ _",
+"rh": "r D4+E4+G4+B4e re D4+E4+G4+B4e re",
+"lh": "G3 r r",
+"doubt": "Si bécarre au chant et à la MD"
+},
+{
+"v": "A5e G5e F5e E5e D5e C5e",
+"ly": "_ _ _ _ _ _",
+"rh": "r C4+E4+G4+C5e re C4+E4+G4+C5e re",
+"lh": "C3 r r"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "A5e G5e F5e E5e D5e C5e",
+"ly": "_ _ _ _ _ _",
+"rh": "r C4+E4+G4+C5e re C4+E4+G4+C5e re",
+"lh": "C3 r r"
+},
+{
+"v": "A5e G5e F5e E5e D5e C5e",
+"ly": "_ _ _ _ _ _",
+"rh": "r C4+E4+G4+C5e re C4+E4+G4+C5e re",
+"lh": "Bb2 r r"
+},
+{
+"v": "A5e G5e F5e E5e D5e C5e",
+"ly": "_ _ _ _ _ _",
+"rh": "r C4+E4+G4+C5e re C4+E4+G4+C5e re",
+"lh": "Bb1+Bb2 r r"
+},
+{
+"marks": [
+"f",
+"tr"
+],
+"v": "A5hd~",
+"ly": "_",
+"rh": "r C#4+E4+A4+C#5e re C#4+E4+A4+C#5e re",
+"lh": "A1+A2 r r",
+"doubt": "f au chant et au piano ; trille sur La5 blanche pointée, liée à la mesure suivante"
+},
+{
+"v": "A5hd",
+"ly": "",
+"rh": "r Eb4+F4+A4+C5e re Eb4+F4+A4+C5e re",
+"lh": "F1+F2 r r",
+"doubt": "La5 lié (suite du trille) ; deux petites notes (triples croches) Sol5-La5 en fin de mesure, notées en préfixe g sur la mesure suivante ; bécarre de précaution sur Do5 MD"
+},
+{
+"v": "gG5 gA5 Bb5hd",
+"ly": "_",
+"rh": "D4+F4+Bb4+D5e re F4+F5e re Bb4+Bb5e re",
+"lh": "Bb1+Bb2e re Bb2+D3+F3+Bb3e re Bb2+D3+F3+Bb3e re",
+"doubt": "grande liaison de phrasé du La5 au Sib5 ; Sib5 sur « Ah! » (mélisme)"
+},
+{
+"v": "D5 E5 F5",
+"ly": "Dou- _ ce",
+"rh": "D5+D6 r r",
+"lh": "Bb2+D3+F3+Bb3 r r",
+"doubt": "liaison Ré5-Mi5 (mélisme sur « Dou- »)"
+},
+{
+"v": "F5hd",
+"ly": "flam-",
+"rh": "r C5+F5+C6e C5+F5+C6e C5+F5+C6e re",
+"lh": "r C3+F3+A3e C3+F3+A3e C3+F3+A3e re"
+},
+{
+"v": "C5 r r",
+"ly": "me,",
+"rh": "C5+F5+C6e re C5+F5+C6e re C5+F5+C6e re",
+"lh": "C3+F3+A3e re C3+F3+A3e re C3+F3+A3e re"
+}
+]
+}

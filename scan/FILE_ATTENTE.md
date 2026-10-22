@@ -16,7 +16,7 @@
 13. ✅ (0.52) Quando men vo — sop_arias.pdf
 14. ✅ (0.53) Donde lieta uscì — sop_arias.pdf
 15. ✅ (0.54) Ah ! Je ris de me voir (air des bijoux) — sop_arias.pdf
-16. Je veux vivre — sop_arias.pdf
+16. ✅ (0.55) Je veux vivre — sop_arias.pdf
 17. Signore, ascolta ! — sop_arias.pdf
 18. Tu che di gel sei cinta — sop_arias.pdf
 19. Batti, batti — sop_arias.pdf

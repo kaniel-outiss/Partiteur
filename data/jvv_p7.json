@@ -1,23 +1,162 @@
-{"page":7,"measures":[
-{"meter":"3/4","marks":["molto"],"v":"gD5 C5 r r","ly":"dans","rh":"gD5 C5 r r","lh":"C3e re F3+A3+C4e re F3+A3+C4e re","doubt":"«molto» imprimé au-dessus du chant et sous la portée MD (suite probable d'un cresc. de la p. 106) ; bécarre de précaution devant le La3 de l'accord MG"},
-{"v":"gB4 C5 r r","ly":"mon","rh":"gB4 C5 r r","lh":"C3e re F3+G#3+C4e re F3+G#3+C4e re","doubt":"petite note avec bécarre (Si4) ; accord MG : dièse lu devant le Sol3 (Fa3 à gauche de la hampe, Sol#3 à droite) — vérifier"},
-{"v":"gB4 C5 D5 E5","ly":"â- _ _","rh":"gB4 C5 D5 E5","lh":"C3e re F3+A3+C4e re F3+A3+C4e re","doubt":"petite note avec bécarre ; liaison de phrasé chant/MD"},
-{"v":"F5 G5 F5","ly":"me _ _","rh":"F5 G5 F5","lh":"C3e re F3+A3+C4e re F3+A3+C4e re"},
-{"marks":["f"],"v":"E5 Bb5h~","ly":"com- _","rh":"E5 r r","lh":"C3+G3+Bb3+C4 r r","doubt":"f au chant et à la MG ; Sib5 blanche liée au Sib5 de la mesure suivante"},
-{"v":"Bb5 D5 E5","ly":"me‿un tré-","rh":"rhd","lh":"rhd","doubt":"pause (mesure entière) aux deux mains"},
-{"marks":["Un poco meno allegro, ma poco","pp"],"v":"F5 r F5~","ly":"sor! Loin","rh":"r re A3e C4e F4e","lh":"F2e C3e F3h","doubt":"Fa5 lié au Fa5 suivant (« Loin ___ ») ; grande liaison MG→MD"},
-{"v":"F5 C5 D5","ly":"de l'hi-","rh":"A4e re r r","lh":"F2hd"},
-{"v":"Eb5h A4","ly":"ver mo-","rh":"r re F#3e A3e C4e","lh":"F2e C3e Eb3h"},
-{"v":"C5h C5","ly":"ro- se","rh":"F#3+Eb4hd","lh":"F2hd","doubt":"bécarre de précaution devant le Fa2 MG ; liaisons (non de prolongation) de l'accord MD vers la mesure suivante"},
-{"v":"r B4 D5","ly":"lais- se","rh":"G3+D4 re D4e G4e B4e","lh":"F2e D3e G3h","doubt":"Si bécarre au chant et à la MD"},
-{"v":"G5hd~","ly":"moi","rh":"D5 r r","lh":"F2+B2+D3hd","doubt":"bécarre sur le Si2 de l'accord MG"},
-{"v":"G5 G4 A4","ly":"lais- se-","rh":"r re Db4e E4e G4e","lh":"F2e Db3e G3h","doubt":"« lais-se-moi » : trait d'union du mot composé ; Mi4 avec bécarre de précaution"},
-{"v":"Bb4 A4 G4","ly":"moi som- meil-","rh":"Db5 r r","lh":"F2+Bb2+E3hd","doubt":"Réb5 MD (bémol lu sur la 4e ligne) ; clé de FA à la MD en fin de mesure"},
-{"v":"C5 r F5~","ly":"ler et","rh":"C3e F3e A3e C4e F4e A4e","lh":"A2hd // F2 r r","doubt":"MD : 3 premières croches en clé de FA, puis clé de SOL ; Fa5 chant lié (« et ___ »)"},
-{"v":"F5 C5 D5","ly":"res- pi-","rh":"C5 r r","lh":"A2hd // F2 r r"},
-{"v":"Eb5h A4","ly":"rer la","rh":"F#3e A3e C4e Eb4e F#4e A4e","lh":"C3+Eb3hd~ // F2 r r","doubt":"bécarre devant le Fa2 MG (précaution) ; accord MG lié à la mesure suivante"},
-{"v":"C5h C5","ly":"ro- se,","rh":"C5 r r","lh":"C3+Eb3hd // F2 r r","doubt":"accord MG tenu par liaison depuis la mesure précédente (Mib conservé)"},
-{"v":"r B4 D5","ly":"res- pi-","rh":"re G3e B3e D4e G4e B4e","lh":"B2+D3hd~ // F2 r r","doubt":"Si bécarre (chant, MD, MG)"},
-{"v":"G5h F5","ly":"rer la","rh":"D5 r r","lh":"B2+D3hd // F2 r r"},
-{"marks":["rit."],"v":"E5 Bb4 Db5","ly":"rose a- vant","rh":"re G3e Bb3e Db4e E4e G4e","lh":"Bb2+D3+Eb3hd~ // F2hd~","doubt":"« rose » imprimé sur une seule note ; rit. au chant et à la MD/MG ; liaisons MG vers la p. 108"}
-]}
+{
+"page": 7,
+"measures": [
+{
+"meter": "3/4",
+"marks": [
+"molto"
+],
+"v": "gD5 C5 r r",
+"ly": "dans",
+"rh": "gD5 C5 r r",
+"lh": "C3e re F3+A3+C4e re F3+A3+C4e re",
+"doubt": "«molto» imprimé au-dessus du chant et sous la portée MD (suite probable d'un cresc. de la p. 106) ; bécarre de précaution devant le La3 de l'accord MG"
+},
+{
+"v": "gB4 C5 r r",
+"ly": "mon",
+"rh": "gB4 C5 r r",
+"lh": "C3e re F3+G#3+C4e re F3+G#3+C4e re",
+"doubt": "petite note avec bécarre (Si4) ; accord MG : dièse lu devant le Sol3 (Fa3 à gauche de la hampe, Sol#3 à droite) — vérifier"
+},
+{
+"v": "gB4 C5 D5 E5",
+"ly": "â- _ _",
+"rh": "gB4 C5 D5 E5",
+"lh": "C3e re F3+A3+C4e re F3+A3+C4e re",
+"doubt": "petite note avec bécarre ; liaison de phrasé chant/MD"
+},
+{
+"v": "F5 G5 F5",
+"ly": "me _ _",
+"rh": "F5 G5 F5",
+"lh": "C3e re F3+A3+C4e re F3+A3+C4e re"
+},
+{
+"marks": [
+"f"
+],
+"v": "E5 Bb5h~",
+"ly": "com- _",
+"rh": "E5 r r",
+"lh": "C3+G3+Bb3+C4 r r",
+"doubt": "f au chant et à la MG ; Sib5 blanche liée au Sib5 de la mesure suivante"
+},
+{
+"v": "Bb5 D5 E5",
+"ly": "me‿un tré-",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "pause (mesure entière) aux deux mains"
+},
+{
+"marks": [
+"Un poco meno allegro, ma poco",
+"pp"
+],
+"v": "F5 r F5~",
+"ly": "sor! Loin",
+"rh": "r re A3e C4e F4e",
+"lh": "F2e C3e F3h",
+"doubt": "Fa5 lié au Fa5 suivant (« Loin ___ ») ; grande liaison MG→MD",
+"bpm": 132
+},
+{
+"v": "F5 C5 D5",
+"ly": "de l'hi-",
+"rh": "A4e re r r",
+"lh": "F2hd"
+},
+{
+"v": "Eb5h A4",
+"ly": "ver mo-",
+"rh": "r re F#3e A3e C4e",
+"lh": "F2e C3e Eb3h"
+},
+{
+"v": "C5h C5",
+"ly": "ro- se",
+"rh": "F#3+Eb4hd",
+"lh": "F2hd",
+"doubt": "bécarre de précaution devant le Fa2 MG ; liaisons (non de prolongation) de l'accord MD vers la mesure suivante"
+},
+{
+"v": "r B4 D5",
+"ly": "lais- se",
+"rh": "G3+D4 re D4e G4e B4e",
+"lh": "F2e D3e G3h",
+"doubt": "Si bécarre au chant et à la MD"
+},
+{
+"v": "G5hd~",
+"ly": "moi",
+"rh": "D5 r r",
+"lh": "F2+B2+D3hd",
+"doubt": "bécarre sur le Si2 de l'accord MG"
+},
+{
+"v": "G5 G4 A4",
+"ly": "lais- se-",
+"rh": "r re Db4e E4e G4e",
+"lh": "F2e Db3e G3h",
+"doubt": "« lais-se-moi » : trait d'union du mot composé ; Mi4 avec bécarre de précaution"
+},
+{
+"v": "Bb4 A4 G4",
+"ly": "moi som- meil-",
+"rh": "Db5 r r",
+"lh": "F2+Bb2+E3hd",
+"doubt": "Réb5 MD (bémol lu sur la 4e ligne) ; clé de FA à la MD en fin de mesure"
+},
+{
+"v": "C5 r F5~",
+"ly": "ler et",
+"rh": "C3e F3e A3e C4e F4e A4e",
+"lh": "A2hd // F2 r r",
+"doubt": "MD : 3 premières croches en clé de FA, puis clé de SOL ; Fa5 chant lié (« et ___ »)"
+},
+{
+"v": "F5 C5 D5",
+"ly": "res- pi-",
+"rh": "C5 r r",
+"lh": "A2hd // F2 r r"
+},
+{
+"v": "Eb5h A4",
+"ly": "rer la",
+"rh": "F#3e A3e C4e Eb4e F#4e A4e",
+"lh": "C3+Eb3hd~ // F2 r r",
+"doubt": "bécarre devant le Fa2 MG (précaution) ; accord MG lié à la mesure suivante"
+},
+{
+"v": "C5h C5",
+"ly": "ro- se,",
+"rh": "C5 r r",
+"lh": "C3+Eb3hd // F2 r r",
+"doubt": "accord MG tenu par liaison depuis la mesure précédente (Mib conservé)"
+},
+{
+"v": "r B4 D5",
+"ly": "res- pi-",
+"rh": "re G3e B3e D4e G4e B4e",
+"lh": "B2+D3hd~ // F2 r r",
+"doubt": "Si bécarre (chant, MD, MG)"
+},
+{
+"v": "G5h F5",
+"ly": "rer la",
+"rh": "D5 r r",
+"lh": "B2+D3hd // F2 r r"
+},
+{
+"marks": [
+"rit."
+],
+"v": "E5 Bb4 Db5",
+"ly": "rose a- vant",
+"rh": "re G3e Bb3e Db4e E4e G4e",
+"lh": "Bb2+D3+Eb3hd~ // F2hd~",
+"doubt": "« rose » imprimé sur une seule note ; rit. au chant et à la MD/MG ; liaisons MG vers la p. 108"
+}
+]
+}

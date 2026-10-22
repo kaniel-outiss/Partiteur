@@ -1,186 +1,186 @@
 {
- "page": 6,
- "measures": [
-  {
-   "meter": "3/4",
-   "marks": [],
-   "v": "gG#4 A4 r r",
-   "ly": "veux",
-   "rh": "r A3+C4+F4e re A3+C4+F4e re",
-   "lh": "C2 r r",
-   "doubt": "Suite de « Je » (fin p.105)."
-  },
-  {
-   "marks": [],
-   "v": "gG#4 A4 E4 G4",
-   "ly": "vi- _ _",
-   "rh": "r F3+A3+C4e re F3+A3+C4e re",
-   "lh": "F2 r r",
-   "doubt": "G4 bécarre (annule la petite note G#4)."
-  },
-  {
-   "marks": [],
-   "v": "F4 D5 C5",
-   "ly": "vre _ _",
-   "rh": "r A3+C4+F4e re A3+C4+F4e re",
-   "lh": "C2 r r"
-  },
-  {
-   "marks": [],
-   "v": "gC5 Bb4 r r",
-   "ly": "dans",
-   "rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
-   "lh": "G2 r r",
-   "doubt": "MD : seconde Bb3-C4 + E3."
-  },
-  {
-   "marks": [],
-   "v": "gA4 Bb4 r r",
-   "ly": "le",
-   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
-   "lh": "C2 r r"
-  },
-  {
-   "marks": [],
-   "v": "gA4 Bb4 F#4 A4",
-   "ly": "rê- _ _",
-   "rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
-   "lh": "G2 r r"
-  },
-  {
-   "marks": [],
-   "v": "G4 E5 D5",
-   "ly": "ve _ _",
-   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
-   "lh": "C2 r r"
-  },
-  {
-   "marks": [],
-   "v": "gD5 C5 r r",
-   "ly": "qui",
-   "rh": "r F3+A3+C4e re F3+A3+C4e re",
-   "lh": "A2 r r"
-  },
-  {
-   "marks": [],
-   "v": "gB4 C5 r r",
-   "ly": "m'en-",
-   "rh": "r A3+C4+F4e re A3+C4+F4e re",
-   "lh": "C2 r r",
-   "doubt": "Petite note B4 bécarre."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "gB4 C5 D5 E5",
-   "ly": "i- _ _",
-   "rh": "r F3+A3+C4e re F3+A3+C4e re",
-   "lh": "A2 r r",
-   "doubt": "Petite note B4 bécarre ; cresc. au chant et entre les portées du piano."
-  },
-  {
-   "marks": [],
-   "v": "F5 A5 G5",
-   "ly": "vre _ _",
-   "rh": "r A3+C4+F4e re A3+C4+F4e re",
-   "lh": "C2 r r"
-  },
-  {
-   "marks": [],
-   "v": "F5 E5 r",
-   "ly": "long- _",
-   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
-   "lh": "G2 r r"
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "E5 D5 r",
-   "ly": "temps _",
-   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
-   "lh": "gC2 C3 r r",
-   "doubt": "dim. au chant et au piano ; petites notes MG barrées (m.13-15)."
-  },
-  {
-   "marks": [],
-   "v": "D5 C5 r",
-   "ly": "en- _",
-   "rh": "r Bb3+C4+F4e re Bb3+C4+F4e re",
-   "lh": "gD2 D3 r r",
-   "doubt": "MD : seconde Bb3-C4 + F4. Petite note MG D2 (sous la 1re ligne supplémentaire) incertaine."
-  },
-  {
-   "marks": [],
-   "v": "C5 Bb4h",
-   "ly": "cor! _",
-   "rh": "r Bb3+C4+G4e re Bb3+C4+G4e re",
-   "lh": "gE2 E3 r r"
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "gBb4 A4 r r",
-   "ly": "Dou-",
-   "rh": "A4 r r",
-   "lh": "gF2 F3e re A3+C4e re A3+C4e re",
-   "doubt": "Petite note MG lue F2 (juste sous la portée), incertaine."
-  },
-  {
-   "marks": [],
-   "v": "gG#4 A4 r r",
-   "ly": "ce",
-   "rh": "gG#4 A4 r r",
-   "lh": "F3e re A3+C#4e re A3+C#4e re"
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "gG#4 A4 E4 G4",
-   "ly": "flam- _ _",
-   "rh": "gG#4 A4 E4 G4",
-   "lh": "F3e re A3+D4e re A3+D4e re",
-   "doubt": "G4 bécarre."
-  },
-  {
-   "marks": [],
-   "v": "F4 D5 C5",
-   "ly": "me, _ _",
-   "rh": "F4 D5 C5",
-   "lh": "F3e re A3+Eb4e re A3+Eb4e re"
-  },
-  {
-   "marks": [],
-   "v": "gC5 Bb4 r r",
-   "ly": "je",
-   "rh": "gC5 Bb4 r r",
-   "lh": "Bb2e re F3+D4e re F3+D4e re"
-  },
-  {
-   "marks": [],
-   "v": "gA4 Bb4 r r",
-   "ly": "te",
-   "rh": "gA4 Bb4 r r",
-   "lh": "Bb2e re Gb3+Eb4e re Gb3+Eb4e re"
-  },
-  {
-   "marks": [],
-   "v": "gA4 Bb4 F#4 A4",
-   "ly": "gar- _ _",
-   "rh": "gA4 Bb4 F#4 A4",
-   "lh": "Bb2e re G3+E4e re G3+E4e re",
-   "doubt": "MG : bécarres sur G3 et E4."
-  },
-  {
-   "marks": [],
-   "v": "G4 E5 D5",
-   "ly": "de _ _",
-   "rh": "G4 E5 D5",
-   "lh": "B2e re Ab3+F4e re Ab3+F4e re",
-   "doubt": "MG : B2 bécarre, Ab3 bémol ; « de — » se prolonge p.107."
-  }
- ]
+"page": 6,
+"measures": [
+{
+"meter": "3/4",
+"marks": [],
+"v": "gG#4 A4 r r",
+"ly": "veux",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r",
+"doubt": "Suite de « Je » (fin p.105)."
+},
+{
+"marks": [],
+"v": "gG#4 A4 E4 G4",
+"ly": "vi- _ _",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "F2 r r",
+"doubt": "G4 bécarre (annule la petite note G#4)."
+},
+{
+"marks": [],
+"v": "F4 D5 C5",
+"ly": "vre _ _",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"marks": [],
+"v": "gC5 Bb4 r r",
+"ly": "dans",
+"rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+"lh": "G2 r r",
+"doubt": "MD : seconde Bb3-C4 + E3."
+},
+{
+"marks": [],
+"v": "gA4 Bb4 r r",
+"ly": "le",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "C2 r r"
+},
+{
+"marks": [],
+"v": "gA4 Bb4 F#4 A4",
+"ly": "rê- _ _",
+"rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+"lh": "G2 r r"
+},
+{
+"marks": [],
+"v": "G4 E5 D5",
+"ly": "ve _ _",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "C2 r r"
+},
+{
+"marks": [],
+"v": "gD5 C5 r r",
+"ly": "qui",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "A2 r r"
+},
+{
+"marks": [],
+"v": "gB4 C5 r r",
+"ly": "m'en-",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r",
+"doubt": "Petite note B4 bécarre."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "gB4 C5 D5 E5",
+"ly": "i- _ _",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "A2 r r",
+"doubt": "Petite note B4 bécarre ; cresc. au chant et entre les portées du piano."
+},
+{
+"marks": [],
+"v": "F5 A5 G5",
+"ly": "vre _ _",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"marks": [],
+"v": "F5 E5 r",
+"ly": "long- _",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "G2 r r"
+},
+{
+"marks": [
+"dim."
+],
+"v": "E5 D5 r",
+"ly": "temps _",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "gC2 C3 r r",
+"doubt": "dim. au chant et au piano ; petites notes MG barrées (m.13-15)."
+},
+{
+"marks": [],
+"v": "D5 C5 r",
+"ly": "en- _",
+"rh": "r Bb3+C4+F4e re Bb3+C4+F4e re",
+"lh": "gD2 D3 r r",
+"doubt": "MD : seconde Bb3-C4 + F4. Petite note MG D2 (sous la 1re ligne supplémentaire) incertaine."
+},
+{
+"marks": [],
+"v": "C5 Bb4h",
+"ly": "cor! _",
+"rh": "r Bb3+C4+G4e re Bb3+C4+G4e re",
+"lh": "gE2 E3 r r"
+},
+{
+"marks": [
+"p"
+],
+"v": "gBb4 A4 r r",
+"ly": "Dou-",
+"rh": "A4 r r",
+"lh": "gF2 F3e re A3+C4e re A3+C4e re",
+"doubt": "Petite note MG lue F2 (juste sous la portée), incertaine."
+},
+{
+"marks": [],
+"v": "gG#4 A4 r r",
+"ly": "ce",
+"rh": "gG#4 A4 r r",
+"lh": "F3e re A3+C#4e re A3+C#4e re"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "gG#4 A4 E4 G4",
+"ly": "flam- _ _",
+"rh": "gG#4 A4 E4 G4",
+"lh": "F3e re A3+D4e re A3+D4e re",
+"doubt": "G4 bécarre."
+},
+{
+"marks": [],
+"v": "F4 D5 C5",
+"ly": "me, _ _",
+"rh": "F4 D5 C5",
+"lh": "F3e re A3+Eb4e re A3+Eb4e re"
+},
+{
+"marks": [],
+"v": "gC5 Bb4 r r",
+"ly": "je",
+"rh": "gC5 Bb4 r r",
+"lh": "Bb2e re F3+D4e re F3+D4e re"
+},
+{
+"marks": [],
+"v": "gA4 Bb4 r r",
+"ly": "te",
+"rh": "gA4 Bb4 r r",
+"lh": "Bb2e re Gb3+Eb4e re Gb3+Eb4e re"
+},
+{
+"marks": [],
+"v": "gA4 Bb4 F#4 A4",
+"ly": "gar- _ _",
+"rh": "gA4 Bb4 F#4 A4",
+"lh": "Bb2e re G3+E4e re G3+E4e re",
+"doubt": "MG : bécarres sur G3 et E4."
+},
+{
+"marks": [],
+"v": "G4 E5 D5",
+"ly": "de _ _",
+"rh": "G4 E5 D5",
+"lh": "B2e re Ab3+F4e re Ab3+F4e re",
+"doubt": "MG : B2 bécarre, Ab3 bémol ; « de — » se prolonge p.107."
+}
+]
 }

@@ -1,159 +1,160 @@
 {
- "page": 1,
- "measures": [
-  {
-   "meter": "3/4",
-   "tempo": "Tempo di Valse animato",
-   "marks": [
-    "ff"
-   ],
-   "v": "rhd",
-   "ly": "",
-   "rh": "C5+C6h C5+C6e C5+C6e",
-   "lh": "C2+C3h C2+C3e C2+C3e"
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "rh": "C5+C6e re G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e",
-   "lh": "C2+C3e re E4e E4e E4e E4e"
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "rh": "G4+Bb4+D5 G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e",
-   "lh": "C4+F4 C4+E4e E4e E4e E4e",
-   "doubt": "accents (>) sur le 1er temps des deux mains ; liaison(s) de l'accord du 1er temps vers la 1re croche (prolongation possible du Bb4) non notée"
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "rh": "G4+Bb4+D5 G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e",
-   "lh": "C4+F4 C4+E4e E4e E4e E4e",
-   "doubt": "idem m.3 (accents, liaisons)"
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "rh": "G4+Bb4+D5e re G4+Bb4+C5e re F4+Bb4+D5e re",
-   "lh": "C4+F4e re C4+E4e re C4+D4e re"
-  },
-  {
-   "v": "rhd",
-   "ly": "",
-   "rh": "Bb4+C5+E5e re Bb4+D5+F5e re B4+D#5+F#5e re",
-   "lh": "C4e re C4e re C4e re",
-   "doubt": "3e accord : dièses imprimés devant si, ré, fa ; le dièse sur si (bémolisé à l'armure) lu comme si bécarre (B4) — B#4 si on le prend littéralement"
-  },
-  {
-   "marks": [
-    "ff"
-   ],
-   "v": "C5 gD5 gC5 B4 C5",
-   "ly": "Ah! _ _",
-   "rh": "Bb4+C5+E5+G5e re r r",
-   "lh": "C3+E3+G3+C4e re r r",
-   "doubt": "JULIETTE entre ici ; B4 bécarre imprimé ; grand phrasé jusqu'à m.14"
-  },
-  {
-   "v": "Bb5 A5 Ab5",
-   "ly": "_ _ _",
-   "rh": "rhd",
-   "lh": "rhd",
-   "doubt": "marcato (^) sur chaque note"
-  },
-  {
-   "v": "G5 Gb5 F5",
-   "ly": "_ _ _",
-   "rh": "rhd",
-   "lh": "rhd",
-   "doubt": "marcato (^) sur chaque note"
-  },
-  {
-   "v": "E5 Eb5 D5",
-   "ly": "_ _ _",
-   "rh": "rhd",
-   "lh": "rhd",
-   "doubt": "marcato (^) sur chaque note"
-  },
-  {
-   "v": "Db5hd",
-   "ly": "_",
-   "rh": "rhd",
-   "lh": "rhd"
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "C5hd",
-   "ly": "_",
-   "rh": "rhd",
-   "lh": "rhd"
-  },
-  {
-   "v": "B4hd",
-   "ly": "_",
-   "rh": "rhd",
-   "lh": "rhd",
-   "doubt": "bécarre imprimé"
-  },
-  {
-   "v": "Bb4 r^ r",
-   "ly": "_",
-   "rh": "rhd^",
-   "lh": "rhd^",
-   "doubt": "point d'orgue sur le 2e temps (soupir) au chant, sur la pause au piano"
-  },
-  {
-   "marks": [
-    "p",
-    "pp"
-   ],
-   "v": "gG#4 A4 r r",
-   "ly": "Je",
-   "rh": "r F3+A3+C4e re F3+A3+C4e re",
-   "lh": "F2 r r",
-   "doubt": "p au chant, pp au piano"
-  },
-  {
-   "v": "gG#4 A4 r r",
-   "ly": "veux",
-   "rh": "r A3+C4+F4e re A3+C4+F4e re",
-   "lh": "C2 r r"
-  },
-  {
-   "v": "gG#4 A4 E4 G4",
-   "ly": "vi- _ _",
-   "rh": "r F3+A3+C4e re F3+A3+C4e re",
-   "lh": "F2 r r",
-   "doubt": "G4 avec bécarre (annule le sol# de la petite note)"
-  },
-  {
-   "v": "F4 D5 C5",
-   "ly": "vre _ _",
-   "rh": "r A3+C4+F4e re A3+C4+F4e re",
-   "lh": "C2 r r"
-  },
-  {
-   "v": "gC5 Bb4 r r",
-   "ly": "dans",
-   "rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
-   "lh": "G2 r r"
-  },
-  {
-   "v": "gC5 Bb4 r r",
-   "ly": "le",
-   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
-   "lh": "C2 r r",
-   "doubt": "petite note lue C5 (par analogie m.19)"
-  },
-  {
-   "v": "gC5 Bb4 F#4 A4",
-   "ly": "rê- _ _",
-   "rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
-   "lh": "G2 r r",
-   "doubt": "petite note lue C5 ; « rê-ve » se poursuit p.102"
-  }
- ]
+"page": 1,
+"measures": [
+{
+"meter": "3/4",
+"tempo": "Tempo di Valse animato",
+"marks": [
+"ff"
+],
+"v": "rhd",
+"ly": "",
+"rh": "C5+C6h C5+C6e C5+C6e",
+"lh": "C2+C3h C2+C3e C2+C3e",
+"bpm": 160
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "C5+C6e re G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e",
+"lh": "C2+C3e re E4e E4e E4e E4e"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G4+Bb4+D5 G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e",
+"lh": "C4+F4 C4+E4e E4e E4e E4e",
+"doubt": "accents (>) sur le 1er temps des deux mains ; liaison(s) de l'accord du 1er temps vers la 1re croche (prolongation possible du Bb4) non notée"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G4+Bb4+D5 G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e G4+Bb4+C5e",
+"lh": "C4+F4 C4+E4e E4e E4e E4e",
+"doubt": "idem m.3 (accents, liaisons)"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "G4+Bb4+D5e re G4+Bb4+C5e re F4+Bb4+D5e re",
+"lh": "C4+F4e re C4+E4e re C4+D4e re"
+},
+{
+"v": "rhd",
+"ly": "",
+"rh": "Bb4+C5+E5e re Bb4+D5+F5e re B4+D#5+F#5e re",
+"lh": "C4e re C4e re C4e re",
+"doubt": "3e accord : dièses imprimés devant si, ré, fa ; le dièse sur si (bémolisé à l'armure) lu comme si bécarre (B4) — B#4 si on le prend littéralement"
+},
+{
+"marks": [
+"ff"
+],
+"v": "C5 gD5 gC5 B4 C5",
+"ly": "Ah! _ _",
+"rh": "Bb4+C5+E5+G5e re r r",
+"lh": "C3+E3+G3+C4e re r r",
+"doubt": "JULIETTE entre ici ; B4 bécarre imprimé ; grand phrasé jusqu'à m.14"
+},
+{
+"v": "Bb5 A5 Ab5",
+"ly": "_ _ _",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "marcato (^) sur chaque note"
+},
+{
+"v": "G5 Gb5 F5",
+"ly": "_ _ _",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "marcato (^) sur chaque note"
+},
+{
+"v": "E5 Eb5 D5",
+"ly": "_ _ _",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "marcato (^) sur chaque note"
+},
+{
+"v": "Db5hd",
+"ly": "_",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"marks": [
+"dim."
+],
+"v": "C5hd",
+"ly": "_",
+"rh": "rhd",
+"lh": "rhd"
+},
+{
+"v": "B4hd",
+"ly": "_",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "bécarre imprimé"
+},
+{
+"v": "Bb4 r^ r",
+"ly": "_",
+"rh": "rhd^",
+"lh": "rhd^",
+"doubt": "point d'orgue sur le 2e temps (soupir) au chant, sur la pause au piano"
+},
+{
+"marks": [
+"p",
+"pp"
+],
+"v": "gG#4 A4 r r",
+"ly": "Je",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "F2 r r",
+"doubt": "p au chant, pp au piano"
+},
+{
+"v": "gG#4 A4 r r",
+"ly": "veux",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"v": "gG#4 A4 E4 G4",
+"ly": "vi- _ _",
+"rh": "r F3+A3+C4e re F3+A3+C4e re",
+"lh": "F2 r r",
+"doubt": "G4 avec bécarre (annule le sol# de la petite note)"
+},
+{
+"v": "F4 D5 C5",
+"ly": "vre _ _",
+"rh": "r A3+C4+F4e re A3+C4+F4e re",
+"lh": "C2 r r"
+},
+{
+"v": "gC5 Bb4 r r",
+"ly": "dans",
+"rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+"lh": "G2 r r"
+},
+{
+"v": "gC5 Bb4 r r",
+"ly": "le",
+"rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+"lh": "C2 r r",
+"doubt": "petite note lue C5 (par analogie m.19)"
+},
+{
+"v": "gC5 Bb4 F#4 A4",
+"ly": "rê- _ _",
+"rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+"lh": "G2 r r",
+"doubt": "petite note lue C5 ; « rê-ve » se poursuit p.102"
+}
+]
 }
