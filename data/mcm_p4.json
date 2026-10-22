@@ -1,0 +1,152 @@
+{
+ "page": 4,
+ "measures": [
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "A4 A4e re",
+   "ly": "let- ta,",
+   "rh": "rh",
+   "lh": "rh",
+   "doubt": "Page imprimée 149 (ordre OK). Suite de « so- » (fin p. 148). Piano : pauses."
+  },
+  {
+   "marks": [
+    "a tempo",
+    "p"
+   ],
+   "v": "A4 B4e C#5e",
+   "ly": "là‿in u- na",
+   "rh": "re D4e F#4e A4e",
+   "lh": "A3h~",
+   "doubt": "Staccatos MD ; accent sur A3 (MG)."
+  },
+  {
+   "marks": [],
+   "v": "D5d C#5e",
+   "ly": "bian- ca",
+   "rh": "D5e F#5e A5e F#5e",
+   "lh": "A3h~"
+  },
+  {
+   "marks": [],
+   "v": "B4e C#5e D5e E5e",
+   "ly": "ca- _ me- _",
+   "rh": "B4e C#5e D5e E5e",
+   "lh": "G4e re E4e re // A3h~",
+   "doubt": "Chant : liaisons B4-C#5 et D5-E5 (mélismes). MG voix sup. sur lignes supplémentaires, staccato."
+  },
+  {
+   "marks": [],
+   "v": "A4 A4",
+   "ly": "ret- ta;",
+   "rh": "A4e D5e F#5e A5e",
+   "lh": "F#4e re D4e re // A3h~",
+   "doubt": "Double barre en fin de mesure."
+  },
+  {
+   "marks": [],
+   "v": "gA4 G4e F#4e G4e A4e",
+   "ly": "guar- _ do sui",
+   "rh": "gA5 G5e F#5e G5e A5e // A4e re C#5e re",
+   "lh": "A3+C#4e re A3+C#4e re",
+   "doubt": "Petite note du chant lue A4 (et A5 à la MD). MD voix inf. et MG : Lecture approximative du piano (scan) — à vérifier."
+  },
+  {
+   "marks": [
+    "poco rall.",
+    "pp"
+   ],
+   "v": "F#4e D4e D5",
+   "ly": "tet- ti e‿in",
+   "rh": "F#5e D5e D5+F#5+A5+D6 // A4e re r",
+   "lh": "A3+D4e re A3+D4e re",
+   "doubt": "D5 du chant : hauteur incertaine (D5/E5). MG : 2e note des accords (C#4 ou D4 ?) incertaine. Lecture approximative du piano (scan) — à vérifier."
+  },
+  {
+   "marks": [],
+   "v": "C#5 B4",
+   "ly": "cie- _",
+   "rh": "C#5+E5+G5+A5e re B4+D5+G5+B5e re",
+   "lh": "A3+C#4+E4e re A3+C#4+E4e re",
+   "doubt": "Dièses imprimés devant le 1er accord MD. 2e accord MD et accords MG très incertains. Lecture approximative du piano (scan) — à vérifier."
+  },
+  {
+   "marks": [],
+   "v": "A4e re r^",
+   "ly": "lo.",
+   "rh": "D4+F#4+A4+D5+F#5+A5e re r^",
+   "lh": "A3h^",
+   "doubt": "Points d'orgue sur le soupir (chant, MD) et sur la blanche MG. Composition de l'accord MD incertaine. Double barre + C (4/4) en fin de système."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "Andante molto sostenuto",
+    "con molta anima",
+    "pp"
+   ],
+   "v": "B4h A4e G4e F#4e gA4 G4e",
+   "ly": "Ma quan- do vien lo",
+   "rh": "B4+B5h A4+A5e G4+G5e F#4+F#5e gA5 G4+G5e",
+   "lh": "G1+G2e D3+G3+B3 D3+G3+B3 D3+G3+B3 D3+G3+B3e~",
+   "doubt": "Chiffrage C (4/4), armure inchangée (2 dièses). Pas de métronome imprimé. MG : octave G1/G2 en croche puis accords syncopés (croche, 3 noires, croche liée)."
+  },
+  {
+   "marks": [
+    "cresc. poco a poco"
+   ],
+   "v": "E4h E4h",
+   "ly": "sge- lo",
+   "rh": "F#4+F#5h E4+E5e F#4+F#5e G4+G5e B4+B5e",
+   "lh": "D3+G3+B3e D3+F#3+G3+B3 D3+F#3+G3+B3 D3+F#3+A3+B3 D3+F#3+G3+B3e",
+   "doubt": "MG : F#3 en tête décalée ; 4e accord lu avec A3 (incertain). Lecture approximative du piano (scan) — à vérifier."
+  },
+  {
+   "marks": [],
+   "v": "D5h C#5e B4e A4e gC#5 B4e",
+   "ly": "il pri- mo so- le‿è",
+   "rh": "D5+D6h C#5+C#6e B4+B5e A4+A5e gC#6 B4+B5e",
+   "lh": "E1+E2e E3+G3+B3+D4 E3+G3+B3+D4 E3+G3+B3+D4 E3+G3+B3+D4e~",
+   "doubt": "Petite note lue C#5 (chant) / C#6 (MD). MG : accord final lié vers la mesure suivante."
+  },
+  {
+   "marks": [],
+   "v": "A4h G4d re",
+   "ly": "mi- o.",
+   "rh": "A4+A5h G4+G5 F#4+F#5s G4+G5s B4+B5s D5+D6s",
+   "lh": "E3+G3+B3+D4e E3+G3+B3+D4 E3+G3+B3+D4d E3s G3s B3s D4s",
+   "doubt": "MG : rythme des accords (croche, noire, noire pointée) déduit pour compléter la mesure — incertain ; doubles croches arpégées E3-G3-B3-D4 (nombre de barres incertain). Accents sur les doubles croches MD."
+  },
+  {
+   "marks": [
+    "ff",
+    "tutta forza",
+    "con grande espansione"
+   ],
+   "v": "F#5h E5d A5e",
+   "ly": "il pri- mo",
+   "rh": "F#5+F#6h E5+E6d A5+A6e",
+   "lh": "G1+G2e A3+C#4+F#4 A3+C#4+F#4 A3+C#4+E4 A3+C#4+A4e",
+   "doubt": "Accent ^ sur la blanche MD ; accents > sur l'octave et les accords MG. « con grande espansione » au chant."
+  },
+  {
+   "marks": [],
+   "v": "E5 D5 B4 D5",
+   "ly": "ba- cio del- l'a-",
+   "rh": "E5+E6 D5+D6 B4+B5 D5+D6",
+   "lh": "F#1+F#2e F#3+A3+E4 F#3+A3+D4 F#3+A3+B3 F#3+A3+D4e",
+   "doubt": "Tenutos (chant et MD). MD 1er accord : E5+E6 ou F#5+F#6 ? (lu E comme le chant). Trait oblique (respiration ?) imprimé après « cio »."
+  },
+  {
+   "marks": [
+    "poco allarg."
+   ],
+   "v": "F#5h E5d A5e",
+   "ly": "pri- le è",
+   "rh": "F#5+F#6h E5+E6d A5+A6e",
+   "lh": "G1+G2e A3+C#4+F#4 A3+C#4+F#4 A3+C#4+E4 A3+C#4+A4e",
+   "doubt": "Accent > sur A5 (« è ») et sur l'accord MD final ; accent ^ sur la blanche MD. Mesure se poursuit p. 150 (pas de double barre)."
+  }
+ ]
+}
