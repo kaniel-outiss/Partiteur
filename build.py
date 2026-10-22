@@ -247,6 +247,9 @@ add_air('dlu', {'id': 'puccini-donde-lieta', 'title': 'Donde lieta uscì (adieu 
 add_air('bij', {'id': 'gounod-air-des-bijoux', 'title': 'Ah ! Je ris de me voir si belle (air des bijoux)', 'composer': 'Charles Gounod', 'work': 'Faust, acte III',
                 'role': 'Marguerite', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 4, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 88-100'},
         60, {'name': 'Marguerite (soprano)', 'short': 'Marg.', 'vt': 'S', 'clef': 'G', 'oct': 0})
+add_air('jvv', {'id': 'gounod-je-veux-vivre', 'title': 'Ah ! Je veux vivre (valse de Juliette)', 'composer': 'Charles Gounod', 'work': 'Roméo et Juliette, acte I',
+                'role': 'Juliette', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': -1, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 101-110'},
+        160, {'name': 'Juliette (soprano)', 'short': 'Jul.', 'vt': 'S', 'clef': 'G', 'oct': 0})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
