@@ -1,0 +1,120 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "2/4",
+   "ks": 2,
+   "marks": [
+    "espress."
+   ],
+   "v": "G4e A4e Bb4e E5e",
+   "ly": "Son tran- quil- la‿e",
+   "rh": "G4e A4e Bb4e E5e // D4 E4",
+   "lh": "Bb3 C4 // C3h~",
+   "doubt": "Page imprimée 147, suite directe de la p.146 — ordre OK. Liaison Bb4→E5 au chant ; soufflet entre les portées du piano ; bécarres de précaution C3/C4 à la MG."
+  },
+  {
+   "v": "D5e D5s rt D5t F5ed G#4s",
+   "ly": "lie- ta, ed è mio",
+   "rh": "F4+D5d re",
+   "lh": "C3+A3d re",
+   "doubt": "Chant : soupir de triple croche (3 crochets) puis D5 triple croche (« ed ») ; F5 bécarre imprimé. F4 bécarre à la MD. C3 lié depuis la mesure 1."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G#4e G#4s G#4s G#4ed E5s",
+   "ly": "sva- go far gi- gli‿e",
+   "rh": "D4+G#4d re",
+   "lh": "B2+G#3d re"
+  },
+  {
+   "marks": [
+    "rall."
+   ],
+   "v": "E5s A4s A4 rs A4s",
+   "ly": "ro- _ se. Mi",
+   "rh": "C#4+A4d re",
+   "lh": "A2+G3d re",
+   "doubt": "E5-A4 doubles croches sous la même syllabe « ro- » (liaison) → mélisme ; « se. » sous la noire A4. G3 avec bécarre de précaution (MG). « rall. » imprimé au chant et au piano. Double barre avant la mesure suivante."
+  },
+  {
+   "meter": "4/4",
+   "bpm": 54,
+   "marks": [
+    "Andante calmo ♩=54",
+    "dolcemente",
+    "molto piano"
+   ],
+   "v": "A4 F#4 E4 G4",
+   "ly": "piac- cion quel- le",
+   "rh": "A3+D4+F#4+A4e A3+D4+F#4+A4 A3+D4+F#4e B3+D4+E4e B3+D4+E4 B3+D4+E4+G4e",
+   "lh": "rw",
+   "doubt": "Chiffrage C (= 4/4). « dolcemente » au chant et au piano. Traits de tenuto sous chaque accord MD. Secondes D4/E4 décalées. Liaison de phrase au chant."
+  },
+  {
+   "v": "F#4 A4 re3 B4e3 C#5e3 D5e3 B4e3 D5e3",
+   "ly": "co- se che‿han sì dol- ce ma-",
+   "rh": "A3+D4+F#4e A3+D4+F#4 A3+D4+F#4+A4e B3+D4+F#4+B4e B3+D4+F#4+B4 B3+D4+F#4+B4e",
+   "lh": "rw",
+   "doubt": "Deux triolets de croches au chant (le 1er commence par un soupir). Tenutos sous les accords MD."
+  },
+  {
+   "v": "C#5 C#5e C#5e D5e E5e F#5ed G#5s",
+   "ly": "lì- a, che par- la- no d'a-",
+   "rh": "C#4+F#4+A4+C#5e C#4+F#4+A4+C#5 C#4+F#4+A4+C#5e D4+F#4+G#4+D5e D4+F#4+G#4+D5 D4+F#4+G#4+D5e",
+   "lh": "rw",
+   "doubt": "Arc C#5 noire → C#5 croche avec deux syllabes (« lì- a, ») : lu comme liaison d'expression, pas de prolongation. Respiration (virgule) après « a, ». G#4 décalé (seconde avec F#4) dans les 3 derniers accords MD ; tenutos."
+  },
+  {
+   "marks": [
+    "rit.",
+    "col canto",
+    "pp"
+   ],
+   "v": "E5h F#5 A5ed G#5s",
+   "ly": "mor, di pri- ma-",
+   "rh": "E4+A4+C#5+E5e E4+A4+C#5+E5 E4+A4+C#5+E5e F#4+A4+D5+F#5e D5+F#5e A5ed G#5s // rh re A4 A4+D5e",
+   "lh": "rh F#2+D3+A3!~ F#2+D3+A3e re",
+   "doubt": "MD à 2 voix sur les temps 3-4 (voix basse : A4 noire puis A4+D5 croche), lecture des hampes à confirmer. « pp » sous l'accord arpégé MG. Tenuto sur l'accord F#4+A4+D5+F#5."
+  },
+  {
+   "marks": [
+    "a tempo",
+    "tr"
+   ],
+   "v": "G#5s E5s E5e~ E5h~ E5e re",
+   "ly": "ve- re, _",
+   "rh": "G#4+C#5+E5e re G#5 gF##5 gG#5 C#6e re C#6 gB#5 gC#6",
+   "lh": "C#2+G#2+E3e! C#4+E4+G#4+C#5 C#4+E4+G#4+C#5e C#4+E4+G#4+C#5e C#4+E4+G#4+C#5 C#4+E4+G#4+C#5e",
+   "doubt": "« [a tempo] » imprimé entre crochets (chant et piano) ; soufflet decresc. au chant. Trilles (tr) sur G#5 et C#6 (MD) avec terminaisons en petites notes F##5-G#5 et B#5-C#6. MG : accord arpégé en clé de FA puis passage en clé de SOL (G# accidentel tenu sur la mesure) ; retour en clé de FA en fin de mesure. Mesure 2/4 annoncée en fin de système."
+  },
+  {
+   "meter": "2/4",
+   "v": "r re B4e",
+   "ly": "che",
+   "rh": "F#5+B5+D6+F#6e! B3+D4+F#4+B4 B3+D4+F#4+B4e",
+   "lh": "B1+F#2+B2!~ B1+F#2+B2e re",
+   "doubt": "Accord MD arpégé au-dessus de la portée (lignes supplémentaires) : F#6 en haut à confirmer."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "pp"
+   ],
+   "v": "B4e B4e B4e C#5e A4e A4e A4e B4e",
+   "ly": "par- la- no di so- gni‿e di chi-",
+   "rh": "D4+F#4+B4e D4+F#4+B4 D4+F#4+C#5e D4+F#4+A4e D4+F#4+A4 D4+F#4+B4e",
+   "lh": "B3d C#4e A3d B3e",
+   "doubt": "Chiffrage C. MG : ligne mélodique en clé de FA (B3 pointée, C#4 sur ligne suppl.), grande liaison de phrase. Tenutos MD."
+  },
+  {
+   "v": "F#4 F#4~ F#4e re F#4e A4e",
+   "ly": "me- re quel- le",
+   "rh": "re A3+C#4+F#4 A3+C#4+F#4e A3+C#4+F#4e A3+C#4+F#4 A3+C#4+F#4e",
+   "lh": "F#3h~ F#3e re r",
+   "doubt": "Chant : arc F#4 noire → F#4 croche (« re___ ») lu comme liaison de prolongation. MG : accent (>) sur la blanche F#3 ; arc vers la croche F#3 lu comme liaison de prolongation (pourrait être une liaison de phrase). Ligne (soufflet ?) sous les accords MD. Liaison quel-le continue page suivante."
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "2/4",
+   "tempo": "Andante lento",
+   "bpm": 40,
+   "ks": 2,
+   "marks": [
+    "Andante lento ♩=40",
+    "pp"
+   ],
+   "v": "rh",
+   "ly": "",
+   "rh": "E4h~",
+   "lh": "rh",
+   "doubt": "Page imprimée 146, titre « Mi chiamano Mimì » (from LA BOHÈME, Giacomo Puccini) — ordre OK. Chant : pause (MIMÌ entre à la mesure 2). Pas de numéros de mesure imprimés."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "E4 re F#4e",
+   "ly": "Sì. Mi",
+   "rh": "E4~ E4e F#4e",
+   "lh": "rh",
+   "doubt": "Main droite : arc sous E4 noire → E4 croche lu comme liaison de prolongation (pourrait être une liaison d'expression) ; grande liaison de phrase vers la mesure 3."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "G4e A4e Bb4e E5e",
+   "ly": "chia- ma- no Mi-",
+   "rh": "G4e A4e Bb4e E5e // D4 E4",
+   "lh": "Bb3 C4 // C3h~",
+   "doubt": "Soufflet cresc./decresc. au-dessus du chant et entre les portées du piano ; liaison Bb4→E5 au chant. Bécarre de précaution sur C4 (MG) et C3."
+  },
+  {
+   "v": "D5 F5ed F5s",
+   "ly": "mì, ma‿il mio",
+   "rh": "F4+D5h",
+   "lh": "C3+A3h",
+   "doubt": "F5 bécarre (♮ imprimé), le 2e F5 garde le bécarre ; F4 bécarre à la MD. Soufflet decresc. au piano. C3 lié depuis la mesure 3."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "G#4 E5ed E5s",
+   "ly": "no- me‿è Lu-",
+   "rh": "D4+G#4d re",
+   "lh": "B2+G#3d re",
+   "doubt": "Bécarre de précaution sur B2 (MG)."
+  },
+  {
+   "v": "E5e A4 re",
+   "ly": "ci- a.",
+   "rh": "C#4+A4d re",
+   "lh": "A2+E3d re",
+   "doubt": "Liaison E5→A4 au chant."
+  },
+  {
+   "marks": [
+    "ppp"
+   ],
+   "v": "re A4e A4e A4e",
+   "ly": "La sto- ria",
+   "rh": "re D4+F#4+A4+D5+F#5+A5+D6 E4+F#4+A4+E5+F#5+A5+E6e~",
+   "lh": "gA1 A2h~",
+   "doubt": "MD 2e accord : E4 et F#5 décalés (secondes) ; accord à deux hampes (haut/bas) ramené en un seul accord. Petite note A1 barrée (appoggiature d'octave) à la MG. Liaison de phrase MD sur mesures 7-8."
+  },
+  {
+   "v": "A4e A4e A4e A4e~",
+   "ly": "mia è bre- ve:",
+   "rh": "E4+F#4+A4+E5+F#5+A5+E6e C#4+F#4+A4+C#5+F#5+A5+C#6 F#3+A3+C#4+F#4e!~",
+   "lh": "A2h",
+   "doubt": "Dernier accord MD arpégé avec accent (>), lié vers la mesure suivante (système suivant)."
+  },
+  {
+   "v": "A4e rs A4s A4e A4e",
+   "ly": "A te- la‿o‿a",
+   "rh": "F#3+A3+C#4+F#4e C#4+F#4+A4+C#5+F#5+A5+C#6 D4+F#4+A4+D5+F#5+A5+D6e~",
+   "lh": "gA1 A2h~",
+   "doubt": "1re note du chant (A4) liée depuis la mesure 8 (début de système). Liaison de phrase MD sur mesures 9-10."
+  },
+  {
+   "v": "A4e B4s G4s E4s E4s E4s E4s",
+   "ly": "se- ta ri- ca- mo‿in ca- sa‿e",
+   "rh": "D4+F#4+A4+D5+F#5+A5+D6e B3+C#4+G4+B4+C#5+G5+B5 E3+G3+B3+E4e!~",
+   "lh": "A2h",
+   "doubt": "2e accord MD : secondes B3/C#4 et B4/C#5 décalées, lecture à confirmer. Dernier accord arpégé avec accent (>), lié à la mesure 11."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "E4e E4e re^ re",
+   "ly": "fuo- ri.",
+   "rh": "E3+G3+B3+E4^~ E3+G3+B3+E4e F#4e",
+   "lh": "gA1 A2h^",
+   "doubt": "Points d'orgue sur le silence du chant, l'accord MD et la blanche MG. Le F#4 croche final (pp) est lié/lié d'expression vers la page suivante. Pas de double barre : l'air continue."
+  }
+ ]
+}
