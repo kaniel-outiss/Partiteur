@@ -1,0 +1,228 @@
+{
+"lang": "it",
+"ctx": "Madama Butterfly (Puccini, livret d'Illica et Giacosa, 1904), acte II. Nagasaki. Trois ans ont passé depuis que l'officier américain Pinkerton a épousé la jeune geisha Cio-Cio-San (« Butterfly ») puis est reparti, promettant de revenir « quand les rouges-gorges feront leur nid ». La servante Suzuki pleure, persuadée qu'il ne reviendra jamais. Butterfly la rabroue et lui décrit, comme si elle le voyait, le jour où le navire reviendra. L'auditeur sait, lui, que Pinkerton s'est remarié en Amérique.",
+"diction": [
+"Legato puccinien et parlando : le début « Un bel dì » est pianissimo, « come da lontano », comme une vision.",
+"Doubles consonnes : « aspetto » [asˈpɛtto], « attesa » [atˈteːza], « picciol » [ˈpittʃol], « olezzo » [oˈleddzo], « avverrà ».",
+"« Butterfly » : prononcé à l'italienne [ˈbatterflai].",
+"Les passages animés (« Chi sarà? ») : parlando léger, sans perdre la ligne.",
+"Final « l'aspetto » : la♭ / si♭ aigus pleins, con forza, soutenus jusqu'au bout."
+],
+"lines": [
+{
+"key": "piangi",
+"it": "Piangi? Perché? Perché? Ah, la fede ti manca! Senti.",
+"ipa": "ˈpjandʒi perˈke perˈke a la ˈfeːde ti ˈmanka ˈsɛnti",
+"w": [
+[
+"Piangi?",
+"tu pleures ?"
+],
+[
+"la fede ti manca",
+"tu manques de foi"
+],
+[
+"Senti",
+"écoute"
+]
+],
+"fr": "Tu pleures ? Pourquoi ? Ah, tu manques de foi ! Écoute."
+},
+{
+"key": "un bel",
+"it": "Un bel dì, vedremo levarsi un fil di fumo sull'estremo confin del mare. E poi la nave appare.",
+"ipa": "un bɛl di veˈdreːmo leˈvarsi un fil di ˈfuːmo sulleˈstreːmo konˈfin del ˈmaːre e pɔi la ˈnaːve apˈpaːre",
+"w": [
+[
+"Un bel dì",
+"un beau jour"
+],
+[
+"vedremo levarsi",
+"nous verrons s'élever"
+],
+[
+"un fil di fumo",
+"un filet de fumée"
+],
+[
+"sull'estremo confin del mare",
+"à l'extrême horizon de la mer"
+],
+[
+"la nave appare",
+"le navire apparaît"
+]
+],
+"fr": "Un beau jour, nous verrons s'élever un filet de fumée à l'extrême horizon de la mer. Et puis le navire apparaît."
+},
+{
+"key": "poi la nave",
+"it": "Poi la nave bianca entra nel porto, romba il suo saluto. Vedi? È venuto!",
+"ipa": "pɔi la ˈnaːve ˈbjaŋka ˈentra nel ˈpɔrto ˈromba il ˈsuːo saˈluːto ˈveːdi ɛ veˈnuːto",
+"w": [
+[
+"la nave bianca",
+"le navire blanc"
+],
+[
+"entra nel porto",
+"entre dans le port"
+],
+[
+"romba il suo saluto",
+"tonne son salut (coup de canon)"
+],
+[
+"È venuto!",
+"il est venu !"
+]
+],
+"fr": "Puis le navire blanc entre dans le port, son canon tonne le salut. Tu vois ? Il est venu !"
+},
+{
+"key": "io non",
+"it": "Io non gli scendo incontro. Io no. Mi metto là sul ciglio del colle e aspetto, e aspetto gran tempo e non mi pesa la lunga attesa.",
+"ipa": "ˈiːo non ʎi ˈʃendo inˈkontro ˈiːo nɔ mi ˈmetto la sul ˈtʃiʎʎo del ˈkɔlle e asˈpɛtto ɡran ˈtɛmpo e non mi ˈpeːza la ˈluŋɡa atˈteːza",
+"w": [
+[
+"non gli scendo incontro",
+"je ne descends pas à sa rencontre"
+],
+[
+"sul ciglio del colle",
+"au bord de la colline"
+],
+[
+"e aspetto gran tempo",
+"et j'attends longtemps"
+],
+[
+"non mi pesa la lunga attesa",
+"la longue attente ne me pèse pas"
+]
+],
+"fr": "Je ne descends pas à sa rencontre. Moi, non. Je me poste là-haut, au bord de la colline, et j'attends, j'attends longtemps, et la longue attente ne me pèse pas."
+},
+{
+"key": "e uscito",
+"it": "E uscito dalla folla cittadina, un uomo, un picciol punto s'avvia per la collina. Chi sarà? Chi sarà? E come sarà giunto che dirà? che dirà?",
+"ipa": "e uʃˈʃiːto ˈdalla ˈfɔlla tʃittaˈdiːna un ˈwɔːmo un ˈpittʃol ˈpunto savˈviːa per la kolˈliːna ki saˈra e ˈkoːme saˈra ˈdʒunto ke diˈra",
+"w": [
+[
+"uscito dalla folla cittadina",
+"sorti de la foule de la ville"
+],
+[
+"un picciol punto",
+"un petit point"
+],
+[
+"s'avvia per la collina",
+"s'engage sur la colline"
+],
+[
+"Chi sarà?",
+"qui sera-ce ?"
+],
+[
+"come sarà giunto",
+"une fois arrivé"
+],
+[
+"che dirà?",
+"que dira-t-il ?"
+]
+],
+"fr": "Sorti de la foule de la ville, un homme, un petit point, monte la colline. Qui sera-ce ? Et une fois arrivé, que dira-t-il ?"
+},
+{
+"key": "chiamerà",
+"it": "Chiamerà Butterfly dalla lontana. Io senza dar risposta me ne starò nascosta un po' per celia e un po' per non morire al primo incontro,",
+"ipa": "kjameˈra ˈbatterflai ˈdalla lonˈtaːna ˈiːo ˈsɛntsa dar risˈpɔsta me ne staˈrɔ nasˈkɔsta un pɔ per ˈtʃɛːlja e un pɔ per non moˈriːre al ˈpriːmo inˈkontro",
+"w": [
+[
+"dalla lontana",
+"de loin"
+],
+[
+"senza dar risposta",
+"sans répondre"
+],
+[
+"me ne starò nascosta",
+"je resterai cachée"
+],
+[
+"per celia",
+"par jeu"
+],
+[
+"per non morire al primo incontro",
+"pour ne pas mourir à la première rencontre"
+]
+],
+"fr": "Il appellera « Butterfly » de loin. Moi, sans répondre, je resterai cachée, un peu par jeu, un peu pour ne pas mourir de joie à la première rencontre,"
+},
+{
+"key": "ed egli",
+"it": "ed egli alquanto in pena chiamerà, chiamerà: «Piccina mogliettina, olezzo di verbena», i nomi che mi dava al suo venire.",
+"ipa": "ed ˈeʎʎi alˈkwanto in ˈpeːna kjameˈra pitˈtʃiːna moʎʎetˈtiːna oˈleddzo di verˈbeːna i ˈnoːmi ke mi ˈdaːva al ˈsuːo veˈniːre",
+"w": [
+[
+"alquanto in pena",
+"quelque peu inquiet"
+],
+[
+"Piccina mogliettina",
+"petite épouse chérie"
+],
+[
+"olezzo di verbena",
+"parfum de verveine"
+],
+[
+"i nomi che mi dava",
+"les noms qu'il me donnait"
+],
+[
+"al suo venire",
+"à son arrivée"
+]
+],
+"fr": "et lui, un peu inquiet, appellera : « Ma petite épouse, parfum de verveine », les noms qu'il me donnait quand il venait."
+},
+{
+"key": "tutto questo",
+"it": "Tutto questo avverrà, te lo prometto. Tienti la tua paura, io con sicura fede l'aspetto.",
+"ipa": "ˈtutto ˈkwesto avverˈra te lo proˈmetto ˈtjɛnti la ˈtuːa paˈuːra ˈiːo kon siˈkuːra ˈfeːde lasˈpɛtto",
+"w": [
+[
+"Tutto questo avverrà",
+"tout cela arrivera"
+],
+[
+"te lo prometto",
+"je te le promets"
+],
+[
+"Tienti la tua paura",
+"garde ta peur pour toi"
+],
+[
+"con sicura fede",
+"avec une foi sûre"
+],
+[
+"l'aspetto",
+"je l'attends"
+]
+],
+"fr": "Tout cela arrivera, je te le promets. Garde ta peur pour toi : moi, avec une foi inébranlable, je l'attends."
+}
+],
+"doubts": [
+"Texte vérifié sur la partition à l'assemblage."
+]
+}

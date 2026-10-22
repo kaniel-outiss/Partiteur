@@ -232,6 +232,9 @@ add_air('ddo', {'id': 'rossini-domine-deus', 'title': 'Domine Deus', 'composer':
 add_air('omb', {'id': 'puccini-o-mio-babbino-caro', 'title': 'O mio babbino caro', 'composer': 'Giacomo Puccini', 'work': 'Gianni Schicchi',
                 'role': 'Lauretta', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': -4, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 166-168'},
         60, {'name': 'Lauretta (soprano)', 'short': 'Lau.', 'vt': 'S', 'clef': 'G', 'oct': 0})
+add_air('ubd', {'id': 'puccini-un-bel-di', 'title': 'Un bel dì vedremo', 'composer': 'Giacomo Puccini', 'work': 'Madama Butterfly, acte II',
+                'role': 'Cio-Cio-San', 'voice': 'soprano', 'style': 'Air d’opéra', 'period': 'Post-romantique', 'ks': 2, 'src': 'G. Schirmer Opera Anthology — Arias for Soprano, p. 160-165'},
+        66, {'name': 'Butterfly (soprano)', 'short': 'But.', 'vt': 'S', 'clef': 'G', 'oct': 0})
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return
