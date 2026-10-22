@@ -13,7 +13,8 @@
 "ly": "",
 "rh": "re C5e E5e A5e G5s3 A5s3 G5s3 E5e C5e A4e",
 "lh": "re C4e E4e A4e G4s3 A4s3 G4s3 E4e C4e A3e",
-"doubt": "Début de l'air (titre « Quando men vo », p. 152). Introduction piano seule, chant en pause. MG en clé de SOL, passage en clé de FA en fin de mesure. Groupe « 3 » : triolet de doubles (G-A-G) + croche E sous la même poutre simple (lu ainsi aux deux mains). Grande liaison sur toute la mesure."
+"doubt": "Début de l'air (titre « Quando men vo », p. 152). Introduction piano seule, chant en pause. MG en clé de SOL, passage en clé de FA en fin de mesure. Groupe « 3 » : triolet de doubles (G-A-G) + croche E sous la même poutre simple (lu ainsi aux deux mains). Grande liaison sur toute la mesure.",
+"bpm": 132
 },
 {
 "marks": [
@@ -58,7 +59,8 @@
 "ly": "Quan-",
 "rh": "E5h re%6:4 E4s%6:4 G#4s%6:4 B4s%6:4 E5s%6:4",
 "lh": "E2e re G#3+B3+E4 r",
-"doubt": "♩ = 104 imprimé (non reporté). Entrée de MUSETTA. Sextolet : le « 6 » couvre le demi-soupir (2 unités) + 4 doubles → noté re%6:4 + 4 × s%6:4 ; accent > sur E4. p au chant, pp au piano, soufflet > sous la MD."
+"doubt": "♩ = 104 imprimé (non reporté). Entrée de MUSETTA. Sextolet : le « 6 » couvre le demi-soupir (2 unités) + 4 doubles → noté re%6:4 + 4 × s%6:4 ; accent > sur E4. p au chant, pp au piano, soufflet > sous la MD.",
+"bpm": 104
 },
 {
 "marks": [
