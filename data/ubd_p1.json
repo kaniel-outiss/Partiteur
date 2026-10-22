@@ -12,7 +12,8 @@
 "v": "rh",
 "ly": "",
 "rh": "F#4+G#4+B4+D5+F#5h~",
-"lh": "C#3+G#3* B3*"
+"lh": "C#3+G#3* B3*",
+"bpm": 116
 },
 {
 "doubt": "RH prolongée depuis m.1.",
@@ -155,7 +156,8 @@
 "v": "Gb5~ Gb5e Eb5e Gb5e Eb5e",
 "ly": "Un bel dì ve-",
 "rh": "Gb5~ Gb5e Eb5e Gb5e Eb5e // re Bb4+Db5e~ Bb4+Db5d re",
-"lh": "Gb4~ Gb4e Eb4e Gb4e Eb4e"
+"lh": "Gb4~ Gb4e Eb4e Gb4e Eb4e",
+"bpm": 42
 },
 {
 "doubt": "« le- » : croche liée vers la page 161.",

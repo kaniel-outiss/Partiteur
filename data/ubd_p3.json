@@ -1,160 +1,162 @@
 {
- "page": 3,
- "measures": [
-  {
-   "meter": "2/4",
-   "ks": -6,
-   "marks": [
-    "Tempo I",
-    "con semplicità",
-    "pp"
-   ],
-   "v": "F4e F4e Ab4e D5e",
-   "ly": "met- to là sul",
-   "rh": "C4+F4+C5h",
-   "lh": "Ab2+F3h",
-   "doubt": "Page imprimée 162 (ordre OK). « met- » : suite du mot commencé page précédente. Chant : ré bécarre. MD : do bécarres (C4, C5)."
-  },
-  {
-   "marks": [],
-   "v": "Bb4e Bb4s Bb4s Bb4e Bb4e",
-   "ly": "ci- glio del col- le",
-   "rh": "F4+Bb4+F5h",
-   "lh": "Db3+G3h",
-   "doubt": "MG : sol bécarre."
-  },
-  {
-   "marks": [],
-   "v": "re F4e Ab4e C5e",
-   "ly": "e‿a- spet- to,",
-   "rh": "C4+F4+C5h",
-   "lh": "Ab2+F3h",
-   "doubt": "Chant : do bécarre."
-  },
-  {
-   "marks": [
-    ">"
-   ],
-   "v": "re Bb4e F5e F5s F5s",
-   "ly": "e‿a- spet- to gran",
-   "rh": "F4+Bb4+F5h",
-   "lh": "Db3+G3h",
-   "doubt": "Soufflet entre les portées du piano (lu comme decresc., trait peu net). MG : sol bécarre."
-  },
-  {
-   "marks": [
-    ">"
-   ],
-   "v": "F5 F4s F4s F4s F4s",
-   "ly": "tem- po; e non mi",
-   "rh": "C4+F4+C5 F4+Bb4+F5",
-   "lh": "Ab2+F3 Db3+G3",
-   "doubt": "Soufflet decresc. au 2e temps."
-  },
-  {
-   "marks": [],
-   "v": "C5e C5d~",
-   "ly": "pe- sa,",
-   "rh": "C4+F4+C5h",
-   "lh": "Ab2+F3h",
-   "doubt": "Chant : do bécarre, lié à la mesure suivante."
-  },
-  {
-   "marks": [
-    "pp",
-    "rit."
-   ],
-   "v": "C5e Bb4e C5e gEb5 Db5e",
-   "ly": "la lun- ga‿at-",
-   "rh": "F4+Bb4+F5h",
-   "lh": "Db3+G3h",
-   "doubt": "Chant : 1er do = prolongation de la liaison ; 3e do bécarre ; petite note (acciaccatura) mi♭5 avant le ré♭5."
-  },
-  {
-   "marks": [
-    "a tempo",
-    "p"
-   ],
-   "v": "F4e F4 re",
-   "ly": "te- sa.",
-   "rh": "C4+F4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
-   "lh": "Ab2+F3e re r",
-   "doubt": "MD : do bécarres ; dernier accord lié à la mesure suivante."
-  },
-  {
-   "marks": [
-    "animando un poco"
-   ],
-   "v": "r re C5e",
-   "ly": "E‿u-",
-   "rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
-   "lh": "rh",
-   "doubt": "Chant et MD : do bécarres."
-  },
-  {
-   "marks": [],
-   "v": "C5e C5e C5e C5e",
-   "ly": "sci- to dal- la",
-   "rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
-   "lh": "rh"
-  },
-  {
-   "marks": [],
-   "v": "C5e Ab4e Bb4e3 C5e3 Db5e3",
-   "ly": "fol- la cit- _ ta-",
-   "rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5e Db4+F4+G4+Db53 Db4+F4+G4+Db5e3",
-   "lh": "r Bb1+Bb2e re",
-   "doubt": "Chant : liaison cit(si♭)→do = mélisme. MD : triolet noire+croche, sol bécarre. MG : octave si♭ avec point de staccato."
-  },
-  {
-   "marks": [],
-   "v": "C5 C5~",
-   "ly": "di- na",
-   "rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
-   "lh": "F2d re // F1e re r",
-   "doubt": "MG : fa2 noire pointée + fa1 croche (hampe vers le bas, 4 lignes suppl.) — lecture des lignes supplémentaires à vérifier."
-  },
-  {
-   "marks": [],
-   "v": "C5e re Eb5",
-   "ly": "un",
-   "rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5e Eb5 // r re Eb4+Ab4e",
-   "lh": "r C4",
-   "doubt": "Chant : do lié depuis la mesure précédente. MG : do bécarre."
-  },
-  {
-   "marks": [],
-   "v": "F5e F5e Eb5e Eb5e",
-   "ly": "uo- mo‿un pic- ciol",
-   "rh": "F5 Eb5 // re F4+Ab4e re Eb4+Ab4e",
-   "lh": "Db4 C4",
-   "doubt": "MG : do bécarre."
-  },
-  {
-   "marks": [
-    "rall. un poco",
-    "p"
-   ],
-   "v": "C5 Eb5e Eb4e",
-   "ly": "pun- to s'av-",
-   "rh": "C5 Eb4+Eb5 // re C4+Eb4e r",
-   "lh": "Ab3 Eb3",
-   "doubt": "Do bécarres (chant, MD)."
-  },
-  {
-   "marks": [],
-   "v": "Ab4 Bb4",
-   "ly": "via per",
-   "rh": "Ab4 Bb4",
-   "lh": "Ab2+Ab3 Bb2+Bb3"
-  },
-  {
-   "marks": [],
-   "v": "C5 D5e Bb4e",
-   "ly": "la col- _",
-   "rh": "C5 D5e Bb4e",
-   "lh": "C3+C4 D3+D4e Bb2+Bb3e",
-   "doubt": "Do et ré bécarres (chant, MD, MG). Liaison ré→si♭ = mélisme."
-  }
- ]
+"page": 3,
+"measures": [
+{
+"meter": "2/4",
+"ks": -6,
+"marks": [
+"Tempo I",
+"con semplicità",
+"pp"
+],
+"v": "F4e F4e Ab4e D5e",
+"ly": "met- to là sul",
+"rh": "C4+F4+C5h",
+"lh": "Ab2+F3h",
+"doubt": "Page imprimée 162 (ordre OK). « met- » : suite du mot commencé page précédente. Chant : ré bécarre. MD : do bécarres (C4, C5).",
+"bpm": 42
+},
+{
+"marks": [],
+"v": "Bb4e Bb4s Bb4s Bb4e Bb4e",
+"ly": "ci- glio del col- le",
+"rh": "F4+Bb4+F5h",
+"lh": "Db3+G3h",
+"doubt": "MG : sol bécarre."
+},
+{
+"marks": [],
+"v": "re F4e Ab4e C5e",
+"ly": "e‿a- spet- to,",
+"rh": "C4+F4+C5h",
+"lh": "Ab2+F3h",
+"doubt": "Chant : do bécarre."
+},
+{
+"marks": [
+">"
+],
+"v": "re Bb4e F5e F5s F5s",
+"ly": "e‿a- spet- to gran",
+"rh": "F4+Bb4+F5h",
+"lh": "Db3+G3h",
+"doubt": "Soufflet entre les portées du piano (lu comme decresc., trait peu net). MG : sol bécarre."
+},
+{
+"marks": [
+">"
+],
+"v": "F5 F4s F4s F4s F4s",
+"ly": "tem- po; e non mi",
+"rh": "C4+F4+C5 F4+Bb4+F5",
+"lh": "Ab2+F3 Db3+G3",
+"doubt": "Soufflet decresc. au 2e temps."
+},
+{
+"marks": [],
+"v": "C5e C5d~",
+"ly": "pe- sa,",
+"rh": "C4+F4+C5h",
+"lh": "Ab2+F3h",
+"doubt": "Chant : do bécarre, lié à la mesure suivante."
+},
+{
+"marks": [
+"pp",
+"rit."
+],
+"v": "C5e Bb4e C5e gEb5 Db5e",
+"ly": "la lun- ga‿at-",
+"rh": "F4+Bb4+F5h",
+"lh": "Db3+G3h",
+"doubt": "Chant : 1er do = prolongation de la liaison ; 3e do bécarre ; petite note (acciaccatura) mi♭5 avant le ré♭5."
+},
+{
+"marks": [
+"a tempo",
+"p"
+],
+"v": "F4e F4 re",
+"ly": "te- sa.",
+"rh": "C4+F4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
+"lh": "Ab2+F3e re r",
+"doubt": "MD : do bécarres ; dernier accord lié à la mesure suivante."
+},
+{
+"marks": [
+"animando un poco"
+],
+"v": "r re C5e",
+"ly": "E‿u-",
+"rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
+"lh": "rh",
+"doubt": "Chant et MD : do bécarres.",
+"bpm": 48
+},
+{
+"marks": [],
+"v": "C5e C5e C5e C5e",
+"ly": "sci- to dal- la",
+"rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
+"lh": "rh"
+},
+{
+"marks": [],
+"v": "C5e Ab4e Bb4e3 C5e3 Db5e3",
+"ly": "fol- la cit- _ ta-",
+"rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5e Db4+F4+G4+Db53 Db4+F4+G4+Db5e3",
+"lh": "r Bb1+Bb2e re",
+"doubt": "Chant : liaison cit(si♭)→do = mélisme. MD : triolet noire+croche, sol bécarre. MG : octave si♭ avec point de staccato."
+},
+{
+"marks": [],
+"v": "C5 C5~",
+"ly": "di- na",
+"rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5 C4+F4+Ab4+C5e~",
+"lh": "F2d re // F1e re r",
+"doubt": "MG : fa2 noire pointée + fa1 croche (hampe vers le bas, 4 lignes suppl.) — lecture des lignes supplémentaires à vérifier."
+},
+{
+"marks": [],
+"v": "C5e re Eb5",
+"ly": "un",
+"rh": "C4+F4+Ab4+C5e C4+F4+Ab4+C5e Eb5 // r re Eb4+Ab4e",
+"lh": "r C4",
+"doubt": "Chant : do lié depuis la mesure précédente. MG : do bécarre."
+},
+{
+"marks": [],
+"v": "F5e F5e Eb5e Eb5e",
+"ly": "uo- mo‿un pic- ciol",
+"rh": "F5 Eb5 // re F4+Ab4e re Eb4+Ab4e",
+"lh": "Db4 C4",
+"doubt": "MG : do bécarre."
+},
+{
+"marks": [
+"rall. un poco",
+"p"
+],
+"v": "C5 Eb5e Eb4e",
+"ly": "pun- to s'av-",
+"rh": "C5 Eb4+Eb5 // re C4+Eb4e r",
+"lh": "Ab3 Eb3",
+"doubt": "Do bécarres (chant, MD)."
+},
+{
+"marks": [],
+"v": "Ab4 Bb4",
+"ly": "via per",
+"rh": "Ab4 Bb4",
+"lh": "Ab2+Ab3 Bb2+Bb3"
+},
+{
+"marks": [],
+"v": "C5 D5e Bb4e",
+"ly": "la col- _",
+"rh": "C5 D5e Bb4e",
+"lh": "C3+C4 D3+D4e Bb2+Bb3e",
+"doubt": "Do et ré bécarres (chant, MD, MG). Liaison ré→si♭ = mélisme."
+}
+]
 }

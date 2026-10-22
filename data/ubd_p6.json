@@ -1,69 +1,148 @@
-{"page":6,"measures":[
- {"meter":"3/4","marks":[],
-  "v":"re3 re3 Gb4s3 Gb4s3 Bb43 Ab4s3 Gb4s3 Bb4ed3 Bb4s3 Bb4s3 Bb4s3","ly":"Tut- to que- sto‿av- ver- rà, te lo pro-",
-  "rh":"Bb3+Db4+F4+Ab4+Cb5hd*",
-  "lh":"Eb2+Bb2e Eb2+Bb2 Eb2+Bb2 Eb2+Bb2e",
-  "doubt":"Page imprimée 165 (dernière page de l'air, double barre finale à la fin). Chant : 3 groupes de triolet (1 par temps). MD : trémolo mesuré alterné (3 barres) entre l'accord Db4-F4-Ab4-Cb5 (blanche pointée) et Bb3 (blanche pointée), noté comme accord trémolo."},
- {"marks":["<"],
-  "v":"Db5 Db5h","ly":"met- to.",
-  "rh":"Db4+F4+Bb4+Db5hd*",
-  "lh":"Bb1+F2+Bb2e Bb2+F3 Bb2+Db3+F3e Db3+F3+Bb3e F3+Bb3+Db4e",
-  "doubt":"MD : trémolo alterné accord F4-Bb4-Db5 ↔ Db4 (blanches pointées, 3 barres). Soufflets < au-dessus du chant et sous la MD."},
- {"marks":["f"],
-  "v":"F5 F5ed F5s G5ed Eb5s","ly":"Tien- ti la tua pa-",
-  "rh":"F4+Bb4+Db5+F5h* G4+Bb4+Eb5+G5ed! Eb5s",
-  "lh":"re Bb1+F2+Bb2e! r Eb3+G3+Bb3+Eb4e! re",
-  "doubt":"Accent > sur G5 (chant). MD : trémolo alterné accord Bb4-Db5-F5 ↔ F4 (blanches, 3 barres). Accord arpégé (arpège sur les deux portées) avec bécarres : G♮4/G♮5 MD, G♮3 MG ; accents. MG : 1er accord Bb1-F2-Bb2 lu croche (crochet peu visible ici, net à la mesure suivante)."},
- {"marks":[],
-  "v":"F5 F5s F5s F5s F5s G5ed Eb5s","ly":"u- ra; io con si- cu- ra",
-  "rh":"F4+Bb4+Db5+F5h* G4+Bb4+Eb5+G5ed! Eb5s",
-  "lh":"re Bb1+F2+Bb2e! r Eb3+G3+Bb3+Eb4e! re",
-  "doubt":"Piano identique à la mesure précédente (accents, arpèges, bécarres)."},
- {"marks":["poco rall. e cresc.","<"],
-  "v":"F5h F5ed Db5s","ly":"fe- de l'a-",
-  "rh":"F4+Bb4+Db5+F5h* F5t Gb5t Ab5t Bb5t Cb6t Db6t Eb6t F6t",
-  "lh":"re Bb1+F2+Bb2e! Bb3+Db4h*",
-  "doubt":"Signe de respiration (,) avant « l'a- ». MD : trémolo accord ↔ F4 puis gamme ascendante en triples croches. MG : trémolo alterné Bb3 ↔ Db4 (blanches, 3 barres)."},
- {"marks":["Largamente","ff","fff"],
-  "v":"Bb5h~ Bb5e Bb4e // Bb5h~ Bb5e Bb5e","ly":"spet- to.",
-  "rh":"Gb5+Gb6~ Gb5+Gb6e Eb5+Eb6e Gb5+Gb6e Eb5+Eb6e",
-  "lh":"gGb1 gGb2 Gb1+Gb2hd // Gb4~ Gb4e Eb4e Gb4e Eb4e // re Gb3+Bb3+Db4 Gb3+Bb3+Db4 Gb3+Bb3+Db4e",
-  "doubt":"Chant : dernière croche divisée — Bb4 (hampe en bas) ou Bb5 (hampe en haut, ossia) ; Bb5 lu au-dessus de la ligne supplémentaire du la5. Fin de la partie de chant. MG : 2 petites notes Gb1-Gb2 (doubles croches) avant l'octave Gb1-Gb2, accent."},
- {"marks":["meno f","dim.",">"],
-  "v":"rhd","ly":"",
-  "rh":"F5+F6~ F5+F6e Db5+Db6s Eb5+Eb6s F5+F6e Db5+Db6e",
-  "lh":"gGb1 gGb2 Gb1+Gb2hd // F4~ F4e Db4s Eb4s F4e Db4e // re Gb3+Ab3+Cb4 Gb3+Ab3+Cb4 Gb3+Ab3+Cb4e",
-  "doubt":"Plus de portée de chant (systèmes 3-4 : piano seul). MG accords Gb3-Ab3-Cb4 (seconde Gb3/Ab3 décalée)."},
- {"marks":[],
-  "v":"rhd","ly":"",
-  "rh":"Eb5+Gb5+Bb5+Eb6~ Eb5+Gb5+Bb5+Eb6e Bb4+Bb5e Eb5+Eb6e Bb4+Bb5e",
-  "lh":"gGb1 gGb2 Gb1+Gb2hd // Eb4~ Eb4e Bb3e Eb4e Bb3e // re Gb3+Bb3 Gb3+Bb3 Gb3+Bb3e"},
- {"marks":["rit.","<",">"],
-  "v":"rhd","ly":"",
-  "rh":"Db5+Db6h Eb5+Eb6e Db5+Db6e // F5+Ab5hd",
-  "lh":"gGb1 gGb2 Gb1+Gb2hd // re Gb3+Ab3+Cb4+F4 Gb3+Ab3+Cb4+F4 Gb3+Ab3+Cb4+F4e"},
- {"marks":["<"],
-  "v":"rhd","ly":"",
-  "rh":"Ab4+Ab5~ Ab4+Ab5e F4+F5s Gb4+Gb5s Ab4+Ab5e F4+F5e // Cb5+Eb5hd",
-  "lh":"Gb1+Gb2hd // re Ab3+Cb4+Eb4 Ab3+Cb4+Eb4 Ab3+Cb4+Eb4e"},
- {"marks":[">"],
-  "v":"rhd","ly":"",
-  "rh":"Bb4+Db5+F5+Bb5h! Ab4+Cb5+Db5+Ab5e Gb4+Bb4+Db5+Gb5e",
-  "lh":"Gb1+Gb2hd // re Bb3+Db4+F4 Bb3+Db4+F4e Cb4+Db4+F4e Bb3+Db4e",
-  "doubt":"MD : accord arpégé en blanches, têtes serrées difficiles à compter (lu Bb4-Db5-F5 + Bb5). Liaisons Ab5→Gb5 et Db5→Db5 sur les croches. MG : liaison F4→F4 (croche 2 → croche 3) probable liaison de prolongation."},
- {"marks":["pp","sostenuto","<"],
-  "v":"rhd","ly":"",
-  "rh":"Db4+Cb5+Db5~ Db4+Cb5+Db5e Db3+Db4s Eb3+Eb4s F3+F4e Db3+Db4e // Gb4e Eb4e F4e Cb4 Cb4e",
-  "lh":"Db3 Bb1+Bb2 Ab1+Ab2 // Cb4hd",
-  "doubt":"Mesure dense : à la MD voix supérieure (hampes en haut) avec octaves graves Db3-Db4… (lignes supplémentaires sous la portée), voix inférieure Gb4 Eb4 F4 Cb4 Cb4. MG : Cb4 blanche pointée (hampe en haut, ligne supp.) au-dessus de la basse."},
- {"marks":["mf",">"],
-  "v":"rhd","ly":"",
-  "rh":"Gb3+Gb4hd // Bb3+Db4e Bb3+Db4 Bb3+Db4 Bb3+Db4e~",
-  "lh":"Gb1+Gb2hd*",
-  "doubt":"MG : trémolo alterné Gb1 ↔ Gb2 (blanches pointées, 3 barres). Gb3+Gb4 sur une même hampe (MD)."},
- {"marks":["p"],
-  "v":"rhd","ly":"",
-  "rh":"Gb3+Bb3+Db4+Gb4d re r",
-  "lh":"Gb1+Gb2* Gb1+Gb2e re r",
-  "doubt":"MG : trémolo alterné Gb1 ↔ Gb2 (noires, 3 barres), Gb2 lié vers la croche Gb1+Gb2. Double barre finale = fin de l'air."}
-]}
+{
+"page": 6,
+"measures": [
+{
+"meter": "3/4",
+"marks": [],
+"v": "re3 re3 Gb4s3 Gb4s3 Bb43 Ab4s3 Gb4s3 Bb4ed3 Bb4s3 Bb4s3 Bb4s3",
+"ly": "Tut- to que- sto‿av- ver- rà, te lo pro-",
+"rh": "Bb3+Db4+F4+Ab4+Cb5hd*",
+"lh": "Eb2+Bb2e Eb2+Bb2 Eb2+Bb2 Eb2+Bb2e",
+"doubt": "Page imprimée 165 (dernière page de l'air, double barre finale à la fin). Chant : 3 groupes de triolet (1 par temps). MD : trémolo mesuré alterné (3 barres) entre l'accord Db4-F4-Ab4-Cb5 (blanche pointée) et Bb3 (blanche pointée), noté comme accord trémolo."
+},
+{
+"marks": [
+"<"
+],
+"v": "Db5 Db5h",
+"ly": "met- to.",
+"rh": "Db4+F4+Bb4+Db5hd*",
+"lh": "Bb1+F2+Bb2e Bb2+F3 Bb2+Db3+F3e Db3+F3+Bb3e F3+Bb3+Db4e",
+"doubt": "MD : trémolo alterné accord F4-Bb4-Db5 ↔ Db4 (blanches pointées, 3 barres). Soufflets < au-dessus du chant et sous la MD."
+},
+{
+"marks": [
+"f"
+],
+"v": "F5 F5ed F5s G5ed Eb5s",
+"ly": "Tien- ti la tua pa-",
+"rh": "F4+Bb4+Db5+F5h* G4+Bb4+Eb5+G5ed! Eb5s",
+"lh": "re Bb1+F2+Bb2e! r Eb3+G3+Bb3+Eb4e! re",
+"doubt": "Accent > sur G5 (chant). MD : trémolo alterné accord Bb4-Db5-F5 ↔ F4 (blanches, 3 barres). Accord arpégé (arpège sur les deux portées) avec bécarres : G♮4/G♮5 MD, G♮3 MG ; accents. MG : 1er accord Bb1-F2-Bb2 lu croche (crochet peu visible ici, net à la mesure suivante)."
+},
+{
+"marks": [],
+"v": "F5 F5s F5s F5s F5s G5ed Eb5s",
+"ly": "u- ra; io con si- cu- ra",
+"rh": "F4+Bb4+Db5+F5h* G4+Bb4+Eb5+G5ed! Eb5s",
+"lh": "re Bb1+F2+Bb2e! r Eb3+G3+Bb3+Eb4e! re",
+"doubt": "Piano identique à la mesure précédente (accents, arpèges, bécarres)."
+},
+{
+"marks": [
+"poco rall. e cresc.",
+"<"
+],
+"v": "F5h F5ed Db5s",
+"ly": "fe- de l'a-",
+"rh": "F4+Bb4+Db5+F5h* F5t Gb5t Ab5t Bb5t Cb6t Db6t Eb6t F6t",
+"lh": "re Bb1+F2+Bb2e! Bb3+Db4h*",
+"doubt": "Signe de respiration (,) avant « l'a- ». MD : trémolo accord ↔ F4 puis gamme ascendante en triples croches. MG : trémolo alterné Bb3 ↔ Db4 (blanches, 3 barres)."
+},
+{
+"marks": [
+"Largamente",
+"ff",
+"fff"
+],
+"v": "Bb5h~ Bb5e Bb4e // Bb5h~ Bb5e Bb5e",
+"ly": "spet- to.",
+"rh": "Gb5+Gb6~ Gb5+Gb6e Eb5+Eb6e Gb5+Gb6e Eb5+Eb6e",
+"lh": "gGb1 gGb2 Gb1+Gb2hd // Gb4~ Gb4e Eb4e Gb4e Eb4e // re Gb3+Bb3+Db4 Gb3+Bb3+Db4 Gb3+Bb3+Db4e",
+"doubt": "Chant : dernière croche divisée — Bb4 (hampe en bas) ou Bb5 (hampe en haut, ossia) ; Bb5 lu au-dessus de la ligne supplémentaire du la5. Fin de la partie de chant. MG : 2 petites notes Gb1-Gb2 (doubles croches) avant l'octave Gb1-Gb2, accent.",
+"bpm": 38
+},
+{
+"marks": [
+"meno f",
+"dim.",
+">"
+],
+"v": "rhd",
+"ly": "",
+"rh": "F5+F6~ F5+F6e Db5+Db6s Eb5+Eb6s F5+F6e Db5+Db6e",
+"lh": "gGb1 gGb2 Gb1+Gb2hd // F4~ F4e Db4s Eb4s F4e Db4e // re Gb3+Ab3+Cb4 Gb3+Ab3+Cb4 Gb3+Ab3+Cb4e",
+"doubt": "Plus de portée de chant (systèmes 3-4 : piano seul). MG accords Gb3-Ab3-Cb4 (seconde Gb3/Ab3 décalée)."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "Eb5+Gb5+Bb5+Eb6~ Eb5+Gb5+Bb5+Eb6e Bb4+Bb5e Eb5+Eb6e Bb4+Bb5e",
+"lh": "gGb1 gGb2 Gb1+Gb2hd // Eb4~ Eb4e Bb3e Eb4e Bb3e // re Gb3+Bb3 Gb3+Bb3 Gb3+Bb3e"
+},
+{
+"marks": [
+"rit.",
+"<",
+">"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Db5+Db6h Eb5+Eb6e Db5+Db6e // F5+Ab5hd",
+"lh": "gGb1 gGb2 Gb1+Gb2hd // re Gb3+Ab3+Cb4+F4 Gb3+Ab3+Cb4+F4 Gb3+Ab3+Cb4+F4e"
+},
+{
+"marks": [
+"<"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Ab4+Ab5~ Ab4+Ab5e F4+F5s Gb4+Gb5s Ab4+Ab5e F4+F5e // Cb5+Eb5hd",
+"lh": "Gb1+Gb2hd // re Ab3+Cb4+Eb4 Ab3+Cb4+Eb4 Ab3+Cb4+Eb4e"
+},
+{
+"marks": [
+">"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Bb4+Db5+F5+Bb5h! Ab4+Cb5+Db5+Ab5e Gb4+Bb4+Db5+Gb5e",
+"lh": "Gb1+Gb2hd // re Bb3+Db4+F4 Bb3+Db4+F4e Cb4+Db4+F4e Bb3+Db4e",
+"doubt": "MD : accord arpégé en blanches, têtes serrées difficiles à compter (lu Bb4-Db5-F5 + Bb5). Liaisons Ab5→Gb5 et Db5→Db5 sur les croches. MG : liaison F4→F4 (croche 2 → croche 3) probable liaison de prolongation."
+},
+{
+"marks": [
+"pp",
+"sostenuto",
+"<"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Db4+Cb5+Db5~ Db4+Cb5+Db5e Db3+Db4s Eb3+Eb4s F3+F4e Db3+Db4e // Gb4e Eb4e F4e Cb4 Cb4e",
+"lh": "Db3 Bb1+Bb2 Ab1+Ab2 // Cb4hd",
+"doubt": "Mesure dense : à la MD voix supérieure (hampes en haut) avec octaves graves Db3-Db4… (lignes supplémentaires sous la portée), voix inférieure Gb4 Eb4 F4 Cb4 Cb4. MG : Cb4 blanche pointée (hampe en haut, ligne supp.) au-dessus de la basse."
+},
+{
+"marks": [
+"mf",
+">"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Gb3+Gb4hd // Bb3+Db4e Bb3+Db4 Bb3+Db4 Bb3+Db4e~",
+"lh": "Gb1+Gb2hd*",
+"doubt": "MG : trémolo alterné Gb1 ↔ Gb2 (blanches pointées, 3 barres). Gb3+Gb4 sur une même hampe (MD)."
+},
+{
+"marks": [
+"p"
+],
+"v": "rhd",
+"ly": "",
+"rh": "Gb3+Bb3+Db4+Gb4d re r",
+"lh": "Gb1+Gb2* Gb1+Gb2e re r",
+"doubt": "MG : trémolo alterné Gb1 ↔ Gb2 (noires, 3 barres), Gb2 lié vers la croche Gb1+Gb2. Double barre finale = fin de l'air."
+}
+]
+}
