@@ -1,0 +1,124 @@
+{
+ "page": 8,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "B3 r D#3e D#3e D#3e D#3e",
+   "lsu": "faut un meil- leur par-",
+   "ct": "B4 r B4e B4e B4e B4e",
+   "lct": "faut un meil- leur par-",
+   "cb": "B3 r D#3e D#3e D#3e D#3e",
+   "lcb": "faut un meil- leur par-",
+   "rh": "gG5 F#5e E#5e F#5d B5e F#5e B5e",
+   "lh": "B2e A3+B3+D#4e A3+B3+D#4e A3+B3+D#4e B2e A3+B3+D#4e A3+B3+D#4e A3+B3+D#4e",
+   "doubt": "rh : 2e note avec dièse lue E#5 (broderie inférieure de F#5) ; petite note lue G5. Pas d'armure, C = 4/4."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "rw",
+   "ly": "",
+   "su": "E3 r E3h",
+   "lsu": "ti Telle",
+   "ct": "E4 r E4h",
+   "lct": "ti Telle",
+   "cb": "E3 r E3h",
+   "lcb": "ti Telle",
+   "rh": "E5 r rh",
+   "lh": "E3+G3+B3+E4 r rh",
+   "doubt": "f + accent sur « Telle » (une seule note, élision Telle-est). lh : accord sans dièse visible → mi mineur."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "E3 F#3 G3 A3",
+   "lsu": "est la vo- lon-",
+   "ct": "E4 F#4 G4 A4",
+   "lct": "est la vo- lon-",
+   "cb": "E3 F#3 G3 A3",
+   "lcb": "est la vo- lon-",
+   "rh": "G3+C4w",
+   "lh": "C3+E3w",
+   "doubt": "Arc de phrasé sur la mesure. rh : ronde basse lue G3+C4 (sous 2 lignes supplémentaires) — à vérifier."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "B3h C4h",
+   "lsu": "té d'un",
+   "ct": "B4h C5h",
+   "lct": "té d'un",
+   "cb": "B3h C4h",
+   "lcb": "té d'un",
+   "rh": "E4w // B3h C4h",
+   "lh": "E3h E3h // G2h A2h",
+   "doubt": "Accents sur C4/C5 (chant) et sur toutes les notes piano ; arc vers la mesure suivante. lh voix basse lue G2 puis A2."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rw",
+   "ly": "",
+   "su": "E3h gG3 F#3h",
+   "lsu": "pè- _",
+   "ct": "E4h gG4 F#4h",
+   "lct": "pè- _",
+   "cb": "E3h gG3 F#3h",
+   "lcb": "pè- _",
+   "rh": "E4h D#4h // B3w",
+   "lh": "G3h A3h // B2w",
+   "doubt": "Nom TONIO en tête du système. Accent sur F#. p au piano."
+  },
+  {
+   "marks": [],
+   "v": "rh r E5e3 E5e3 E5e3",
+   "ly": "Vous re- fu-",
+   "su": "E3 r rh",
+   "lsu": "re.",
+   "ct": "E4 r rh",
+   "lct": "re.",
+   "cb": "E3 r rh",
+   "lcb": "re.",
+   "rh": "B3+E4 r rh",
+   "lh": "E3+G3 r rh"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "F5 r rh",
+   "ly": "sez?",
+   "su": "rh r G3e3 A3e3 B3e3",
+   "lsu": "com- plè- te-",
+   "ct": "rh r G4e3 A4e3 B4e3",
+   "lct": "com- plè- te-",
+   "cb": "rh r G3e3 A3e3 B3e3",
+   "lcb": "com- plè- te-",
+   "rh": "r A4+D5+F5+A5 B4+D5+G5 r",
+   "lh": "r D2+D3 G2+G3 r",
+   "doubt": "Bécarre imprimé devant F5 (Tonio). f aux voix et au piano."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "rw",
+   "ly": "",
+   "su": "C4 r rh",
+   "lsu": "ment.",
+   "ct": "C5 r rh",
+   "lct": "ment.",
+   "cb": "C4 r rh",
+   "lcb": "ment.",
+   "rh": "rw",
+   "lh": "C3e G3e C4+E4e G3e C4+E4e G3e C4+E4e G3e"
+  }
+ ]
+}

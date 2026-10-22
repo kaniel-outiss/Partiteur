@@ -1,0 +1,92 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": 0,
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "F3 A3 re A3e A3e F3e",
+   "lsu": "fil- le qui nous est",
+   "ct": "A4e re C5 re C5e F5e A4e",
+   "lct": "fil- le qui nous est",
+   "cb": "F3e re A3 re A3e A3e F3e",
+   "lcb": "fil- le qui nous est",
+   "rh": "gB5 A5e G#5e A5d C6e F6e A5e",
+   "lh": "C3e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e",
+   "doubt": "Suite de la p.6 (anacrouse « Notre »). Pas d'armure (do majeur), C = 4/4. Accents sur le 2e temps des chœurs/Caporal et sur A5 (rh). Petite note rh lue B5."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "E3 E3e re re G3e E3e G3e",
+   "lsu": "chè- re N'est pas, n'est",
+   "ct": "G4 C5e re re E5e G4e E5e",
+   "lct": "chè- re N'est pas, n'est",
+   "cb": "E3 E3e re re G3e E3e G3e",
+   "lcb": "chè- re N'est pas, n'est",
+   "rh": "G5e E6e G5d G5e E6e G5e",
+   "lh": "C3e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e",
+   "doubt": "Arc de phrasé (pas liaison) sur « chè-re » (même hauteur)."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "F#3 r F3e F3e D3e F3e",
+   "lsu": "pas pour un en- ne-",
+   "ct": "A4 r D5e D5e B4e D5e",
+   "lct": "pas pour un en- ne-",
+   "cb": "F#3 r F3e F3e D3e F3e",
+   "lcb": "pas pour un en- ne-",
+   "rh": "F#5e D6e F#5d D6e F5e D6e",
+   "lh": "D3e A3+C4+D4e A3+C4+D4e A3+C4+D4e G2e G3+B3+F4e G3+B3+F4e G3+B3+F4e",
+   "doubt": "lh : accords lus A3+C4+D4 puis G3+B3+F4 (bécarre sur F4) — la masse inférieure pourrait contenir un D4."
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "v": "rw",
+   "ly": "",
+   "su": "E3e re C4 r E3e G3e",
+   "lsu": "mi Non! il lui",
+   "ct": "C5e re C5 r C5e B4e",
+   "lct": "mi Non! il lui",
+   "cb": "E3e re C4 r E3e G3e",
+   "lcb": "mi Non! il lui",
+   "rh": "E5e C6+E6s C6+E6s B5+D6e G5+B5s F5+A5s E5+G5e C5e C6e B5e",
+   "lh": "C3e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e G3+C4+E4e",
+   "doubt": "f + accent sur « Non! ». rh : tierces descendantes en doubles croches/croches très serrées — 1re et 2e lues C6+E6 (la 1re a peut-être une 3e note), à vérifier ; dernière note lue B5."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "F3 r F3e A3e A3e F3e",
+   "lsu": "faut un meil- leur par-",
+   "ct": "A4 r A4e C5e F5e A4e",
+   "lct": "faut un meil- leur par-",
+   "cb": "F3 r F3e A3e A3e F3e",
+   "lcb": "faut un meil- leur par-",
+   "rh": "gB5 A5e G#5e A5d C6e F6e A5e",
+   "lh": "C3e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e A3+C4+F4e"
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "E3 r r E3e E3e",
+   "lsu": "ti il lui",
+   "ct": "G4 r r G4e E5e",
+   "lct": "ti il lui",
+   "cb": "E3 r r E3e E3e",
+   "lcb": "ti il lui",
+   "rh": "gA5 G5e F#5e G5d E6e G5e E6e",
+   "lh": "C3e G3+C4+E4e G3+C4+E4e G3+C4+E4e E3e G3+C4+E4e G3+C4+E4e G3+C4+E4e",
+   "doubt": "Mesure se poursuit p.8 (« faut un meilleur parti »)."
+  }
+ ]
+}

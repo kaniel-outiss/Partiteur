@@ -1,0 +1,89 @@
+{
+ "page": 9,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "r re G3e G3e C4e E3e F3e",
+   "lsu": "D'ail- leurs el- l'est pro-",
+   "ct": "r re G4e G4e C5e E4e F4e",
+   "lct": "D'ail- leurs el- l'est pro-",
+   "cb": "r re G3e G3e C4e E3e F3e",
+   "lcb": "D'ail- leurs el- l'est pro-",
+   "rh": "gA5 G5e F#5e G5d C6e E5e F5e",
+   "lh": "C3e G3e C4+E4e G3e C4+E4e G3e C4+E4e G3e",
+   "doubt": "Paroles imprimées « D'ailleurs elle est pro- » sur 5 notes : élision « el-l'est » supposée. Bécarre sur F5 (rh)."
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "G3e G3e re G3e C4e G3e E4e C4e",
+   "lsu": "mi- se à no- tre ré- gi-",
+   "ct": "G4e G4e r rh",
+   "lct": "mi- se",
+   "cb": "G3e G3e r rh",
+   "lcb": "mi- se",
+   "rh": "gA5 G5e F#5e G5d C6e C5e E5e",
+   "lh": "C3e G3e C4+E4e G3e E3e G3e C4+E4e G3e"
+  },
+  {
+   "marks": [],
+   "v": "rw",
+   "ly": "",
+   "su": "G3 r rh",
+   "lsu": "ment!",
+   "ct": "r re G4e B4e G4e D5e B4e",
+   "lct": "à no- tre ré- gi-",
+   "cb": "r re G3e B3e G3e D4e B3e",
+   "lcb": "à no- tre ré- gi-",
+   "rh": "gE5 D5e C#5e D5d G5e G4e B4e",
+   "lh": "G2e G3e B3+F4e G3e G2e G3e B3+F4e G3e"
+  },
+  {
+   "marks": [
+    "Avec force."
+   ],
+   "v": "r E5e D5e C5e re E5e D5e",
+   "ly": "Mais j'en suis, mais j'en",
+   "su": "rw",
+   "lsu": "",
+   "ct": "C5 r rh",
+   "lct": "ment!",
+   "cb": "C4 r rh",
+   "lcb": "ment!",
+   "rh": "gD5 C5e B4e C5d D5e E5e F5e",
+   "lh": "C3e G3e C4+E4e G3e C4+E4e G3e C4+E4e G3e",
+   "doubt": "TONIO entre (nom en tête de portée). Portée du Caporal absente de ce système → su silences."
+  },
+  {
+   "marks": [],
+   "v": "C5 r C5e G4e C5e G4e",
+   "ly": "suis, puis- qu'en cet ins-",
+   "su": "rw",
+   "lsu": "",
+   "ct": "rw",
+   "lct": "",
+   "cb": "rw",
+   "lcb": "",
+   "rh": "gA5 G5e F#5e G5d C6e E5e F5e",
+   "lh": "C3e G3e C4+E4e G3e C4+E4e G3e C4+E4e G3e"
+  },
+  {
+   "marks": [],
+   "v": "C5 re C5e C5e C5e E5e C5e",
+   "ly": "tant je viens de m'en- ga-",
+   "su": "rw",
+   "lsu": "",
+   "ct": "rw",
+   "lct": "",
+   "cb": "rw",
+   "lcb": "",
+   "rh": "gA5 G5e F#5e G5d C6e C5e E5e",
+   "lh": "C3e G3e C4+E4e G3e E3e G3e C4+E4e G3e",
+   "doubt": "rh : point de G5 peu visible (durée déduite). Phrase de Tonio continue p.10."
+  }
+ ]
+}
