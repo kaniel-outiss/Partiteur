@@ -264,7 +264,7 @@ add_air('ved', {'id': 'mozart-vedrai-carino', 'title': 'Vedrai, carino', 'compos
         60, {'name': 'Zerlina (soprano)', 'short': 'Zer.', 'vt': 'S', 'clef': 'G', 'oct': 0})
 add_air('nsp', {'id': 'mozart-non-so-piu', 'title': 'Non so più cosa son, cosa faccio', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte I',
                 'role': 'Cherubino', 'voice': 'mezzo-soprano', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': -3, 'src': 'Le nozze di Figaro, Bärenreiter BA 4565, p. 67-73'},
-        144, {'name': 'Cherubino (mezzo)', 'short': 'Cher.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})
+        240, {'name': 'Cherubino (mezzo)', 'short': 'Cher.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})
 add_air('vcs', {'id': 'mozart-voi-che-sapete', 'title': 'Voi che sapete', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Le nozze di Figaro, acte II',
                 'role': 'Cherubino', 'voice': 'mezzo-soprano', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': -2, 'src': 'Le nozze di Figaro, Bärenreiter BA 4565, p. 147-151'},
         66, {'name': 'Cherubino (mezzo)', 'short': 'Cher.', 'vt': 'Mz', 'clef': 'G', 'oct': 0})

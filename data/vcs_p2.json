@@ -1,0 +1,18 @@
+{"page":2,"measures":[
+{"meter":"2/4","v":"F5e D5e F5e D5e","ly":"don- _ ne ve-","rh":"F4+D5h","lh":"Bb2s D3s F3s Bb3s Bb2s D3s F3s Bb3s","doubt":"Page imprimée 148 (p-158). Liaison F5→D5 au chant (mélisme). Liaison MD m. 17 → m. 18."},
+{"v":"C5e Eb5e C5e Eb5e","ly":"de- _ te _","rh":"Eb4+C5h","lh":"Eb2s Eb3s G3s C4s Eb2s Eb3s G3s C4s","doubt":"Liaisons C5→Eb5 (×2) au chant ; trait de prolongation après « te »."},
+{"v":"Bb4 A4sd Bb4t C5sd D5t","ly":"s'io l'ho _ nel _","rh":"D5+Bb5 C5+A5sd D5+Bb5t Eb5+C6sd F5+D6t","lh":"F2s D3s F3s Bb3s F2s C3s Eb3s A3s","doubt":"Liaisons A4→Bb4 et C5→D5 (chant et MD)."},
+{"v":"Bb4 r","ly":"cor.","rh":"D5+Bb5e F5+D6e D5+Bb5e re","lh":"Bb2s D3s F3s Bb3s Bb2s D3s F3s Bb3s","doubt":"Coins (staccatos) au-dessus des accords MD."},
+{"v":"C5 C5e C5e","ly":"Quel- lo ch'io","rh":"rs A3+C4s C4+F4s F4+A4s rs A3+C4s C4+F4s F4+A4s","lh":"F3e re F3e re"},
+{"v":"D5s E5s F5s D5s C5e re","ly":"pro- _ _ _ vo","rh":"rs Bb3+D4s D4+F4s F4+Bb4s rs A3+C4s C4+F4s F4+A4s","lh":"F3e re F3e re","doubt":"Bécarre sur E5 (chant)."},
+{"v":"G4ed A4s Bb4e C5e","ly":"vi _ ri- di-","rh":"rs G3+Bb3s Bb3+E4s E4+G4s rs G3+Bb3s Bb3+E4s E4+G4s","lh":"C3e re C3e re","doubt":"Liaison G4→A4 au chant. MD : bécarre sur E4."},
+{"v":"gBb4 A4 r","ly":"rò,","rh":"re A4e A4+C5e C5+F5e","lh":"F3s A3s C4s F4s F3s A3s C4s F4s","doubt":"Appoggiature (petite croche Bb4) liée à A4. Liaison MD sur les croches."},
+{"v":"D5 E5e E5e","ly":"è per me","rh":"A5h // F5 C#5","lh":"D3s F3s A3s D4s A2s E3s A3s C#4s","doubt":"MD : A5 blanche (hampe en haut) sur F5 noire puis C#5 noire (hampes en bas) ; grande liaison A5 m. 25 → m. 26. Bécarres sur E5 (chant) et E3 (MG)."},
+{"v":"F5ed D5s A4e re","ly":"nuo- _ vo","rh":"D5+A5e F4+A4e A4+D5e D5+F5e","lh":"D3s F3s A3s D4s D3s F3s A3s D4s","doubt":"2e accord MD lu F4+A4 (tête inférieure peu nette, G4+A4 non exclu). Liaison F5→D5 au chant."},
+{"v":"A4ed D5s C5e B4e","ly":"ca- _ pir nol","rh":"F5+A5e F5+A5+D6e E5+G5+C6e D5+F5+B5e","lh":"F3s A3s D4s F4s G3s C4+E4s G3s D4+F4s","doubt":"Bécarres : B4 (chant), E5 et B5 (MD), E4 (MG). Liaison A4→D5 au chant ; grande liaison MD m. 27 → 28."},
+{"v":"C5 r","ly":"so.","rh":"C6h~ // E5e G5e Bb5e E5e","lh":"C3s E3s G3s Bb3s Bb2s C3s E3s G3s","doubt":"MD : C6 blanche (hampe en haut) au-dessus de croches E5♮ G5 Bb5 E5 (hampes en bas) ; arc C6 → C6 de m. 29 lu comme liaison de prolongation. Bécarres E5 (MD) et E3 (MG)."},
+{"v":"C5 C5e F5e","ly":"Sen- to‿un af-","rh":"F5+C6s C4+F4s F4+A4s A4+C5s rs A3+F4s F4+A4s A4+C5s","lh":"A2e re F3e re","doubt":"1re note MD : C6 lié depuis m. 28 (noté sans ~ sur l'accord F5+C6, F5 attaqué)."},
+{"v":"E5e C5e Bb4e re","ly":"fet- _ to","rh":"rs Bb3+E4s E4+G4s G4+Bb4s rs G3+C4s C4+G4s G4+Bb4s","lh":"G3e re E3e re","doubt":"Bécarres E5 (chant), E4 (MD), E3 (MG). Temps 2 MD : 1er accord lu G3+C4 (tête inférieure sous la 2e ligne supplémentaire)."},
+{"v":"A4 F4e Bb4e","ly":"pien di de-","rh":"rs A3+C4s C4+F4s F4+A4s rs A3+F4s G3+D4s G4+Bb4s","lh":"F3e re D3e Bb2e","doubt":"Temps 2 MD, 2e accord lu G3+D4 (tête basse sous la 2e ligne supplémentaire)."},
+{"v":"gA4 G4 r","ly":"sir,","rh":"re C6 C6e~ // re E5e Bb5e E5e","lh":"C3s E3s G3s Bb3s Bb2s C3s E3s G3s","doubt":"Appoggiature A4 → G4 au chant. MD : C6 noire + C6 croche liée vers m. 33 (hampes en haut) ; E5♮ Bb5 E5 croches (hampes en bas). Bécarre E3 (MG)."}
+]}

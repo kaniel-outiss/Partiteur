@@ -1,16 +1,117 @@
-{"page":5,"measures":[
-{"meter":"2/2","v":"Bb4 C5 C5h","ly":"glian- _ do,","rh":"G4+Bb4 Ab4+C5 Eb5 Eb4 // rh Ab4+C5h","lh":"Db4e Bb3e C4e Ab3e Ab2+C3e Eb3e Ab3e Eb3e // Ab3h rh","doubt":"Page imprimée 71, mesures 55-68. RH 3e temps : Eb5 (hampe haut) sur Ab4+C5 blanche (hampe bas) ; LH : Ab3 blanche (hampe bas) sous croches Db4 Bb3 C4 Ab3 ; hauteur de la blanche incertaine (Ab3 ?)."},
-{"v":"rw","ly":"","rh":"G5+Bb5w // r C5 C6 C5","lh":"C3e E3e G3e E3e C3e E3e G3e E3e","doubt":"LH bécarre sur E3. RH « 8 » au-dessus de la portée lu G5+Bb5 (ronde)."},
-{"v":"rw","ly":"","rh":"F5+Ab5w // r C5 C6 C5","lh":"C3e F3e Ab3e F3e C3e F3e Ab3e F3e"},
-{"v":"G4 G4e G4e G4 G4","ly":"par- lo d'a- mor so-","rh":"E5+G5w // r C5 C6 C5","lh":"C3e G3e Bb3e G3e C3e G3e Bb3e G3e","doubt":"RH bécarre devant la ronde : lu sur E5 (E5+G5)."},
-{"v":"G4 Ab4 Ab4 re Ab4e","ly":"gnan- _ do, al-","rh":"E5+G5 F5+Ab5 F5+Ab5+C6 C5","lh":"Bb3e G3e Ab3e F3e F2e F3e Ab3e F3e // F3h rh","doubt":"RH 1er accord E♮5+G5 (bécarre). LH : F3 blanche (hampe bas) sous les croches ; 2e groupe commence par F2."},
-{"v":"Ab4d D5e D5d F5e","ly":"l'ac- que,‿a- l'om- bre,‿ai","rh":"re D4e F4+Ab4e D4e re F4e Ab4+F5e F4e","lh":"Bb2 D3+Ab3+Bb3 Bb2 D3+Ab3+Bb3","doubt":"Élisions « que, a » et « bre, ai » sur une note."},
-{"marks":["f","p"],"v":"Eb5 D5 r re Ab4e","ly":"mon- ti, ai","rh":"Ab4+F5e Ab5e F5+Ab5e F5+Ab5e F5+Ab5 r","lh":"Bb2 D3+Ab3+Bb3 D3+Ab3+Bb3 D3+Ab3+Bb3","doubt":"Points de staccato sur les 3e et 4e croches RH. f/p au piano (RH 1er/2e temps, LH 2e/3e temps)."},
-{"v":"Ab4d D5e D5d F5e","ly":"fio- ri,‿al- l'er- be,‿ai","rh":"re D4e F4+Ab4e D4e re F4e Ab4+F5e F4e","lh":"Bb2 D3+Ab3+Bb3 Bb2 D3+Ab3+Bb3"},
-{"marks":["f","p"],"v":"Eb5 D5 r re Ab4e","ly":"fon- ti, al-","rh":"Ab4+F5e Ab5e F5+Ab5e F5+Ab5e F5+Ab5 r","lh":"Bb2 D3+Ab3+Bb3 D3+Ab3+Bb3 D3+Ab3+Bb3"},
-{"v":"Ab4d D5e D5d F5e","ly":"l'e- co,‿al- l'a- ria,‿ai","rh":"re D4e F4+Ab4e D4e re F4e Ab4+F5e F4e","lh":"Bb2 D3+Ab3+Bb3 Bb2 D3+Ab3+Bb3"},
-{"marks":["fp","p"],"v":"Eb5 D5h^ Eb5","ly":"ven- ti, che‿il","rh":"Ab4+F5+Ab5h^ r C5+Eb5","lh":"Bb2+F3+Ab3+Bb3h^ r C4+Eb4","doubt":"Points d'orgue sur la blanche (chant, RH, LH). RH accord du 4e temps lu C5+Eb5, LH C4+Eb4 (petits, incertains)."},
-{"v":"B4 C5 G4 Ab4","ly":"suon de' va- ni‿ac-","rh":"G4+B4 Ab4+C5 E4+G4 F4+Ab4","lh":"G3+B3 Ab3+C4 E3+G3 F3+Ab3","doubt":"Bécarres : B4 (chant), B4/B3 et E4/E3 (piano)."},
-{"marks":["cresc."],"v":"F4 G4 Ab4 Bb4","ly":"cen- _ ti _","rh":"D4+F4e D4+F4e Eb4+G4e Eb4+G4e F4+Ab4e F4+Ab4e G4+Bb4e G4+Bb4e","lh":"D3+F3 Eb3+G3 F3+Ab3 G3+Bb3","doubt":"Bémols de précaution sur Eb4/Eb3."},
-{"marks":["f"],"v":"C5 D5e D5e Eb5 F5","ly":"por- ta- no via con","rh":"Ab4+C5e Ab4+C5e F4+Bb4+D5e F4+Bb4+D5e G4+Bb4+Eb5e G4+Bb4+Eb5e Ab4+D5+F5e Ab4+D5+F5e","lh":"Ab3+C4 Ab2+Ab3 G2+G3 F2+F3"}
-]}
+{
+"page": 5,
+"measures": [
+{
+"meter": "2/2",
+"v": "Bb4 C5 C5h",
+"ly": "glian- _ do,",
+"rh": "G4+Bb4 Ab4+C5 Eb5 Eb4 // rh Ab4+C5h",
+"lh": "Db4e Bb3e C4e Ab3e Ab2+C3e Eb3e Ab3e Eb3e // Ab3h rh",
+"doubt": "Page imprimée 71, mesures 55-68. RH 3e temps : Eb5 (hampe haut) sur Ab4+C5 blanche (hampe bas) ; LH : Ab3 blanche (hampe bas) sous croches Db4 Bb3 C4 Ab3 ; hauteur de la blanche incertaine (Ab3 ?)."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "G5+Bb5w // r C5 C6 C5",
+"lh": "C3e E3e G3e E3e C3e E3e G3e E3e",
+"doubt": "LH bécarre sur E3. RH « 8 » au-dessus de la portée lu G5+Bb5 (ronde)."
+},
+{
+"v": "rw",
+"ly": "",
+"rh": "F5+Ab5w // r C5 C6 C5",
+"lh": "C3e F3e Ab3e F3e C3e F3e Ab3e F3e"
+},
+{
+"v": "G4 G4e G4e G4 G4",
+"ly": "par- lo d'a- mor so-",
+"rh": "E5+G5w // r C5 C6 C5",
+"lh": "C3e G3e Bb3e G3e C3e G3e Bb3e G3e",
+"doubt": "RH bécarre devant la ronde : lu sur E5 (E5+G5)."
+},
+{
+"v": "G4 Ab4 Ab4 re Ab4e",
+"ly": "gnan- _ do, al-",
+"rh": "E5+G5 F5+Ab5 F5+Ab5+C6 C5",
+"lh": "Bb3e G3e Ab3e F3e F2e F3e Ab3e F3e // F3h rh",
+"doubt": "RH 1er accord E♮5+G5 (bécarre). LH : F3 blanche (hampe bas) sous les croches ; 2e groupe commence par F2."
+},
+{
+"v": "Ab4d D5e D5d F5e",
+"ly": "l'ac- que,‿a- l'om- bre,‿ai",
+"rh": "re D4e F4+Ab4e D4e re F4e Ab4+F5e F4e",
+"lh": "Bb2 D3+Ab3+Bb3 Bb2 D3+Ab3+Bb3",
+"doubt": "Élisions « que, a » et « bre, ai » sur une note."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "Eb5 D5 r re Ab4e",
+"ly": "mon- ti, ai",
+"rh": "Ab4+F5e Ab5e F5+Ab5e F5+Ab5e F5+Ab5 r",
+"lh": "Bb2 D3+Ab3+Bb3 D3+Ab3+Bb3 D3+Ab3+Bb3",
+"doubt": "Points de staccato sur les 3e et 4e croches RH. f/p au piano (RH 1er/2e temps, LH 2e/3e temps)."
+},
+{
+"v": "Ab4d D5e D5d F5e",
+"ly": "fio- ri,‿al- l'er- be,‿ai",
+"rh": "re D4e F4+Ab4e D4e re F4e Ab4+F5e F4e",
+"lh": "Bb2 D3+Ab3+Bb3 Bb2 D3+Ab3+Bb3"
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "Eb5 D5 r re Ab4e",
+"ly": "fon- ti, al-",
+"rh": "Ab4+F5e Ab5e F5+Ab5e F5+Ab5e F5+Ab5 r",
+"lh": "Bb2 D3+Ab3+Bb3 D3+Ab3+Bb3 D3+Ab3+Bb3"
+},
+{
+"v": "Ab4d D5e D5d F5e",
+"ly": "l'e- co,‿al- l'a- ria,‿ai",
+"rh": "re D4e F4+Ab4e D4e re F4e Ab4+F5e F4e",
+"lh": "Bb2 D3+Ab3+Bb3 Bb2 D3+Ab3+Bb3"
+},
+{
+"marks": [
+"fp",
+"p"
+],
+"v": "Eb5 D5h^ Eb5",
+"ly": "ven- ti, che‿il",
+"rh": "Ab4+F5+Ab5h^ r C5+Eb5",
+"lh": "Bb2+F3+Ab3+Bb3h^ r C4+Eb4",
+"doubt": "Points d'orgue sur la blanche (chant, RH, LH). RH accord du 4e temps lu C5+Eb5, LH C4+Eb4 (petits, incertains)."
+},
+{
+"v": "B4 C5 G4 Ab4",
+"ly": "suon de' va- ni‿ac-",
+"rh": "G4+B4 Ab4+C5 E4+G4 F4+Ab4",
+"lh": "G3+B3 Ab3+C4 E3+G3 F3+Ab3",
+"doubt": "Bécarres : B4 (chant), B4/B3 et E4/E3 (piano)."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "F4 G4 Ab4 Bb4",
+"ly": "cen- _ ti _",
+"rh": "D4+F4e D4+F4e Eb4+G4e Eb4+G4e F4+Ab4e F4+Ab4e G4+Bb4e G4+Bb4e",
+"lh": "D3+F3 Eb3+G3 F3+Ab3 G3+Bb3",
+"doubt": "Bémols de précaution sur Eb4/Eb3."
+},
+{
+"marks": [
+"f"
+],
+"v": "C5 D5e D5e Eb5 F5",
+"ly": "por- ta- no via con",
+"rh": "Ab4+C5e Ab4+C5e F4+Bb4+D5e F4+Bb4+D5e G4+Bb4+Eb5e G4+Bb4+Eb5e Ab4+D5+F5e Ab4+D5+F5e",
+"lh": "Ab3+C4 Ab2+Ab3 G2+G3 F2+F3"
+}
+]
+}
