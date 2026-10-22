@@ -1,0 +1,147 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "3/4",
+   "v": "G4 E5 D5",
+   "ly": "ve _ _",
+   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+   "lh": "C2 r r"
+  },
+  {
+   "v": "gD5 C5 r r",
+   "ly": "qui",
+   "rh": "r F3+A3+C4e re F3+A3+C4e re",
+   "lh": "A2 r r"
+  },
+  {
+   "v": "gB4 C5 r r",
+   "ly": "m'en-",
+   "rh": "r A3+C4+F4e re A3+C4+F4e re",
+   "lh": "C2 r r",
+   "doubt": "petite note avec bécarre (si bécarre)"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "gB4 C5 D5 E5",
+   "ly": "i- _ _",
+   "rh": "r F3+A3+C4e re F3+A3+C4e re",
+   "lh": "A2 r r",
+   "doubt": "petite note bécarre ; cresc. au chant et au piano"
+  },
+  {
+   "v": "F5 A5 G5",
+   "ly": "vre _ _",
+   "rh": "r A3+C4+F4e re A3+C4+F4e re",
+   "lh": "C2 r r"
+  },
+  {
+   "v": "F5 E5 r",
+   "ly": "ce _",
+   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+   "lh": "G2 r r"
+  },
+  {
+   "marks": [
+    "dim."
+   ],
+   "v": "E5 D5 r",
+   "ly": "jour _",
+   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+   "lh": "gC2 C3 r r",
+   "doubt": "dim. au chant et au piano"
+  },
+  {
+   "v": "D5 C5 r",
+   "ly": "en- _",
+   "rh": "r Bb3+C4+F4e re Bb3+C4+F4e re",
+   "lh": "gD2 D3 r r",
+   "doubt": "petite note basse : D2 ou E2 (tête sur/juste sous la ligne supplémentaire), lue D2 (octave)"
+  },
+  {
+   "v": "C5 Bb4h",
+   "ly": "cor! _",
+   "rh": "r Bb3+C4+G4e re Bb3+C4+G4e re",
+   "lh": "gE2 E3 r r"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "gBb4 A4 r r",
+   "ly": "Dou-",
+   "rh": "r F3+A3+C4e re F3+A3+C4e re",
+   "lh": "gF2 F3 r r",
+   "doubt": "petite note Bb4 (sans dièse ici, contrairement aux sol# ailleurs) ; p au chant et au piano"
+  },
+  {
+   "v": "gG#4 A4 r r",
+   "ly": "ce",
+   "rh": "r A3+C4+F4e re A3+C4+F4e re",
+   "lh": "C2 r r"
+  },
+  {
+   "v": "gG#4 A4 E4 G4",
+   "ly": "flam- _ _",
+   "rh": "r F3+A3+C4e re F3+A3+C4e re",
+   "lh": "F2 r r",
+   "doubt": "G4 bécarre imprimé"
+  },
+  {
+   "v": "F4 D5 C5",
+   "ly": "me, _ _",
+   "rh": "r A3+C4+F4e re A3+C4+F4e re",
+   "lh": "C2 r r"
+  },
+  {
+   "v": "gC5 Bb4 r r",
+   "ly": "je",
+   "rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+   "lh": "G2 r r"
+  },
+  {
+   "v": "gC5 Bb4 r r",
+   "ly": "te",
+   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+   "lh": "C2 r r"
+  },
+  {
+   "v": "gC5 Bb4 F#4 A4",
+   "ly": "gar- _ _",
+   "rh": "r E3+Bb3+C4e re E3+Bb3+C4e re",
+   "lh": "G2 r r"
+  },
+  {
+   "v": "G4 E5 D5",
+   "ly": "de _ _",
+   "rh": "r Bb3+C4+E4e re Bb3+C4+E4e re",
+   "lh": "C2 r r"
+  },
+  {
+   "marks": [
+    "cresc."
+   ],
+   "v": "gD5 C5 r r",
+   "ly": "dans",
+   "rh": "r A3+C4+F4e re A3+C4+F4e re",
+   "lh": "gA2 A3 r r",
+   "doubt": "petite note basse lue A2 (octave) ; cresc. au chant et au piano"
+  },
+  {
+   "v": "gB4 C5 r r",
+   "ly": "mon",
+   "rh": "r C4+D4+F#4e re C4+D4+F#4e re",
+   "lh": "gAb2 Ab3 r r",
+   "doubt": "petite note bécarre (si) au chant ; basse Ab avec bémols imprimés"
+  },
+  {
+   "v": "gB4 C5 D5 E5",
+   "ly": "â- _ _",
+   "rh": "r C4+E4+G4e re C4+E4+G4e re",
+   "lh": "gG2 G3 r r",
+   "doubt": "petite note bécarre ; « â-me » se poursuit p.103"
+  }
+ ]
+}
