@@ -1,0 +1,16 @@
+{"page":1,"measures":[
+ {"meter": "4/4", "tempo": "Allegro", "marks": ["f", "p"], "v": "D3hd D3", "ly": "La ven-", "rh": "D4+D5hd D5", "lh": "D2+D3hd D3", "doubt": "Page imprimée 45, mes. 1 (titre « Nº 4 Aria », Allegro). f au 1er temps, p au 4e temps."},
+ {"v": "F#3 D3 rh", "ly": "det- ta,", "rh": "gG5 F#5e E5s F#5s D5 rh", "lh": "F#3 D3 rh", "doubt": "MD : petite note (croche barrée) G5 liée à F#5."},
+ {"marks": ["f", "p"], "v": "A3h A3d A3e", "ly": "oh la ven-", "rh": "A4+A5e A5s A4s A5e A4+A5e A4+A5e A4+A5e A4+A5e A4+A5e", "lh": "A2+A3h A3d A3e", "doubt": "MD 1er temps : A4+A5 croche, A5 double croche (hampe haut), A4 double croche ; 2e temps : A5 seul puis A4+A5. f au 1er temps, p au 2e temps."},
+ {"v": "D4 A3 rh", "ly": "det- ta!", "rh": "D5+D6 A4+A5 rh", "lh": "D4 A3 rh"},
+ {"marks": ["f"], "v": "rw", "ly": "", "rh": "D4s A3s B3s C#4s D4s E4s F#4s E4s D4s A3s B3s C#4s D4s E4s F#4s E4s", "lh": "D3d D3e F#3d A3e", "doubt": "MG : liaisons de phrasé (D3→F#3, A3→mes. 6)."},
+ {"marks": ["p"], "v": "F#3hd A3", "ly": "è‿un pia-", "rh": "D4s A3s B3s C#4s D4s E4s F#4s E4s D4s C#4s D4s E4s F#4s G4s A4s F#4s", "lh": "D3d A3e F#3d D3e"},
+ {"v": "G3h E3h", "ly": "cer ser-", "rh": "G4s F#4s E4s F#4s G4s F#4s G4s A4s B4s A4s G4s F#4s E4s D4s E4s F#4s", "lh": "E3d B3e G3d E3e"},
+ {"v": "A3hd G3", "ly": "ba- to‿ai", "rh": "G4s A4s G4s F#4s G4s F#4s E4s D4s C#4s B3s C#4s D4s E4s F#4s G4s E4s", "lh": "C#3d E3e A2d C#3e", "doubt": "Chant : « ba » tenu (tirets de mélisme imprimés sous la blanche pointée)."},
+ {"marks": ["f"], "v": "F#3 A3 rh", "ly": "sag- gi,", "rh": "D4s C#4s D4s E4s F#4s E4s F#4s D4s C#4s D4s E4s F#4s G4s A4s B4s C#5s", "lh": "D3d F#3e A3d G3e"},
+ {"marks": ["p"], "v": "A3hd D4", "ly": "è‿un pia-", "rh": "D5s A4s B4s C#5s D5s C#5s D5s E5s F#5s G5s A5s G5s F#5s E5s D5s C#5s", "lh": "F#3d A3e D3d F#3e"},
+ {"marks": ["cresc."], "v": "B3h G3h", "ly": "cer ser-", "rh": "B4s A4s B4s C#5s D5s C#5s B4s A4s G4s F#4s G4s A4s B4s A4s G4s F#4s", "lh": "G3d B3e E3d G3e", "doubt": "cresc. sous la MD au 3e temps."},
+ {"v": "E3hd A3", "ly": "ba- to‿ai", "rh": "E4s D4s E4s F#4s G4s F#4s E4s D4s C#4s D4s E4s F#4s G4s F#4s G4s E4s", "lh": "C#3d E3e A2d C#3e"},
+ {"marks": ["f"], "v": "F#3 D3 rh", "ly": "sag- gi:", "rh": "D4+F#4 re D5t E5t F#5t G5t A5 re A5s B5t C#6t", "lh": "D3+A3 re D3t E3t F#3t G3t A3 re A3s B3t C#4t", "doubt": "Triples croches lues aux trois barres de ligature ; liaisons de phrasé sur les traits ascendants (MD et MG à l'octave double)."},
+ {"v": "rw", "ly": "", "rh": "D6 D4ed D4s D4 r", "lh": "D4 D2+D3ed D2+D3s D2+D3 r", "doubt": "D6 (MD) et D4 (MG) reçoivent la liaison de phrasé du trait de la mes. 13. Fin de la p. 45 = mes. 14 (la p. 46 commence à 15)."}
+]}
