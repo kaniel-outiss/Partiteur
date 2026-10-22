@@ -1,0 +1,189 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "3/4",
+   "doubt": "Page imprimée 218 (p-216.png) : ordre OK. Mesure complète en début de page. MG 1er/2e accord : têtes sur les 1re et 2e lignes supplémentaires (C#4, E4) lues ainsi.",
+   "v": "E3 E3d F#3e",
+   "ly": "we shall be",
+   "rh": "G5d A5e G5e A5e",
+   "lh": "E3+C#4+E4 E3+C#4+E4d F#3+A3+D4e"
+  },
+  {
+   "v": "G3h G3",
+   "ly": "chang'd, be",
+   "rh": "D5ed E5s D5ed E5s D5ed E5s",
+   "lh": "G3+B3+D4h G3+B3+D4"
+  },
+  {
+   "doubt": "MD : A4 (hampe en bas) seulement au 3e temps ; voix inférieure complétée par un silence non imprimé.",
+   "v": "D3ed E3s D3ed E3s D3ed E3s",
+   "ly": "chang'd, _ _ _ _ _",
+   "rh": "F#5ed G5s F#5ed G5s F#5ed G5s // rh A4",
+   "lh": "D3+A3+D4ed E3s D3ed E3s D3ed E3s"
+  },
+  {
+   "v": "F#3ed G3s F#3ed G3s A3ed F#3s",
+   "ly": "_ _ _ _ _ _",
+   "rh": "A4+D5+A5d B4+G5e A4+F#5e G4+E5e",
+   "lh": "F#3ed G3s F#3ed G3s A3ed F#3s"
+  },
+  {
+   "v": "B3ed C#4s B3e A3e G3e F#3e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "D5d D5e E5e F#5e // F#4h B4e A4e",
+   "lh": "B3ed C#4s B3e A3e G3e F#3e"
+  },
+  {
+   "v": "E3e F#3e E3e D3e C#3e B2e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "G5hd // B4h E5e D5e",
+   "lh": "E3e F#3e E3e D3e C#3e B2e"
+  },
+  {
+   "v": "A2h C#4",
+   "ly": "_ and",
+   "rh": "G5e A5e G5e F#5e G5e E5e // C#5h A4",
+   "lh": "A2h C#4+E4"
+  },
+  {
+   "v": "D4e C#4e D4 D3",
+   "ly": "we _ shall be",
+   "rh": "D5+F#5e E5+G5e D5+F#5d E5e // A4h A4",
+   "lh": "D4e C#4e D4 D3"
+  },
+  {
+   "marks": [
+    "f"
+   ],
+   "doubt": "Repère E imprimé. MD 2e accord : la note sup. lue G5 (A7), tête peu nette entre G5 et A5.",
+   "v": "A3hd",
+   "ly": "chang'd,",
+   "rh": "A4+C#5+E5h A4+C#5+G5",
+   "lh": "A3 C#4 A2+A3"
+  },
+  {
+   "doubt": "Chant : pause (mesure entière). MD 1er temps : D5 peut appartenir à la voix inférieure (A4+D5).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5e E5e D5e F#5e E5e D5e // A4 A4 G#4+B4",
+   "lh": "D3+D4 F#2+F#3 B2+B3"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "doubt": "MD : G5 avec bécarre.",
+   "v": "r r C#4",
+   "ly": "and",
+   "rh": "A4+C#5+E5h A4+G5",
+   "lh": "A2+A3 C#3+C#4 A3+C#4"
+  },
+  {
+   "v": "D4 D3 D4",
+   "ly": "we shall be",
+   "rh": "F#5e E5e D5e F#5e E5e D5e // A4h A4",
+   "lh": "D4 D3 D4"
+  },
+  {
+   "v": "C#4e B3e A3e C#4e B3e A3e",
+   "ly": "chang'd, _ _ _ _ _",
+   "rh": "A4+E5h A4+A5",
+   "lh": "C#4+E4e B3+D4e A3+C#4e C#4+E4e B3+D4e A3+C#4e"
+  },
+  {
+   "doubt": "MG 1er accord : seconde D4/E4 accolée (pointée).",
+   "v": "D4d E4e D4e E4e",
+   "ly": "_ _ _ _",
+   "rh": "G#5e F#5e E5e G#5e F#5e E5e // B4h G#4+B4",
+   "lh": "D4+E4d E4e D4e E4e"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "doubt": "Trille (tr) sur A5. MG : clé de SOL au 3e temps (accord B3+D4+B4 en clé de sol).",
+   "v": "C#4 r B3",
+   "ly": "_ we",
+   "rh": "A4+E5+A5 D6e B5e A5ed G#5s",
+   "lh": "C#4 r B3+D4+B4"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "doubt": "MG en clé de SOL. Trille sur A5.",
+   "v": "C#4 r B3",
+   "ly": "shall be",
+   "rh": "A5 D6e B5e A5ed G#5s",
+   "lh": "C#4+E4+A4 r B3+D4+B4"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "doubt": "MG en clé de SOL. Trille sur A5.",
+   "v": "C#4d D4e C#4e B3e",
+   "ly": "chang'd, _ _ _",
+   "rh": "A5 D6e B5e A5ed G#5s",
+   "lh": "C#4+E4+A4 r B3+D4+B4"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "doubt": "MG en clé de SOL puis retour clé de FA en fin de mesure. Trille sur A5.",
+   "v": "C#4d D4e C#4e B3e",
+   "ly": "_ _ _ _",
+   "rh": "A5 D6e B5e A5ed G#5s",
+   "lh": "C#4+E4+A4 r B3+D4+B4"
+  },
+  {
+   "doubt": "MD : G5 avec bécarre (G naturel), valable pour toute la mesure.",
+   "v": "C#4e D4e E4 A3",
+   "ly": "_ _ _ _",
+   "rh": "A5e F#5e G5d G5e // r r C#5+E5",
+   "lh": "C#4+E4+A4e D4e E4 A3"
+  },
+  {
+   "doubt": "MD : liaison E5–E5 lue comme liaison de prolongation ; une autre liaison (phrasé) part du 1er accord.",
+   "v": "D4 G3 A3",
+   "ly": "we shall be",
+   "rh": "D5+F#5e G5e E5~ E5e D5e // A4 B4+D5 A4+C#5",
+   "lh": "D4 G3 A3"
+  },
+  {
+   "doubt": "Repère F imprimé.",
+   "v": "D3h r",
+   "ly": "chang'd,",
+   "rh": "A4+D5d A4e B4e C#5e // F#4 r D4",
+   "lh": "D3 F#3 A3"
+  },
+  {
+   "v": "r r F#3",
+   "ly": "and",
+   "rh": "F#4+D5e G4+E5e A4+F#5e G4+E5e F#4+D5e E4+C#5e",
+   "lh": "F#3 D3 F#3+A3"
+  },
+  {
+   "v": "G3 B3e A3e G3e F#3e",
+   "ly": "we shall _ be _",
+   "rh": "B4d B4e C#5e D5e // D4 re D4e E4e F#4e",
+   "lh": "G3+B3 B3+D4e A3+C#4e G3+B3e F#3+A3e"
+  },
+  {
+   "doubt": "MD 4e croche : tête qui paraît évidée (défaut d'impression ?), lue croche.",
+   "v": "E3d E3e F#3e G3e",
+   "ly": "chang'd, _ _ _",
+   "rh": "G4+E5e A4+F#5e B4+G5e A4+F#5e G4+E5e F#4+D5e",
+   "lh": "B3 r B3 // E3d E3e F#3e G3e"
+  },
+  {
+   "doubt": "Fin de page : mesure complète, mélisme « chang'd » continue p. 219.",
+   "v": "A3e B3e C#4e B3e A3e G3e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "C#5d C#5e D5e E5e // E4 re E4e F#4e G4e",
+   "lh": "A3+C#4e B3+D4e C#4+E4e B3+D4e A3+C#4e G3+B3e"
+  }
+ ]
+}

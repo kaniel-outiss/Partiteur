@@ -1,0 +1,231 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "3/4",
+   "doubt": "Page imprimée 219 (p-217.png) : ordre OK. Suite du mélisme « chang'd » de la p. 218.",
+   "v": "F#3d F#3e G3e A3e",
+   "ly": "_ _ _ _",
+   "rh": "A4+F#5e B4+G5e C#5+A5e B4+G5e A4+F#5e G4+E5e",
+   "lh": "C#4 r C#4 // F#3d F#3e G3e A3e"
+  },
+  {
+   "v": "B3e C#4e D4e C#4e B3e A3e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "D5d D5e E5e F#5e // F#4 re F#4e G4e A4e",
+   "lh": "B3+D4e C#4+E4e D4+F#4e C#4+E4e B3+D4e A3+C#4e"
+  },
+  {
+   "doubt": "MD voix inf. : B4, A4 puis G5 (hampe en bas) au 3e temps.",
+   "v": "G3 F#3 E3",
+   "ly": "_ _ _",
+   "rh": "G5e F#5e G5e A5e B5e C#6e // B4 A4 G5",
+   "lh": "D4h r // G3 F#3 E3"
+  },
+  {
+   "v": "D3 r D3",
+   "ly": "_ and",
+   "rh": "D6d F#5e E5e D5e // F#5e E5e D5e re G4+B4",
+   "lh": "A3 r r // D3 r D3"
+  },
+  {
+   "doubt": "MG : secondes D4/E4 accolées.",
+   "v": "D4 D4 D4",
+   "ly": "we shall be",
+   "rh": "G#5e F#5e E5e G#5e F#5e E5e // B4 B4 B4",
+   "lh": "D4+E4 D4+E4 D4+E4"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "doubt": "Trille sur A5. MG : clé de SOL au 3e temps (B3+D4+B4).",
+   "v": "C#4 r B3",
+   "ly": "chang'd, we",
+   "rh": "A4+A5 D6e B5e A5ed G#5s",
+   "lh": "C#4+E4 r B3+D4+B4"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "doubt": "Trille sur A5. MG en clé de SOL, retour clé de FA en fin de mesure.",
+   "v": "C#4 r B3",
+   "ly": "shall be",
+   "rh": "A5 D6e B5e A5ed G#5s",
+   "lh": "C#4+E4+A4 r B3+D4+B4"
+  },
+  {
+   "doubt": "MG : accord C#4+E4+A4 en noire hampe haute sur la 1re croche ; 2e moitié de la voix sup. non imprimée (silence ajouté).",
+   "v": "C#4e B3e A3e C#4e B3e C#4e",
+   "ly": "chang'd, _ _ _ _ _",
+   "rh": "A5d E5e D5e E5e",
+   "lh": "C#4+E4+A4 rh // C#4e B3e A3e C#4e B3e C#4e"
+  },
+  {
+   "doubt": "MD : G5 avec bécarre ; A5 blanche (tête évidée).",
+   "v": "D4e B3e C#4e A3e B3e C#4e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "F#5e G5e A5h // r re C#5+E5e B4+D5e A4+E5e",
+   "lh": "D4e B3e C#4e A3e B3e C#4e"
+  },
+  {
+   "v": "D4e B3e C#4e A3e B3e C#4e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "F#5e G5e A5e E5e D5e E5e // A4 A4+E5 r",
+   "lh": "D4e B3e C#4e A3e B3e C#4e"
+  },
+  {
+   "doubt": "MD : liaison G5–G5 lue comme prolongation ; voix inf. B4, F#5, E5, D5 (hampes en bas).",
+   "v": "D4e B3e E4e D4e C#4e B3e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "F#5e D5e G5~ G5e G5e // r B4e F#5e E5e D5e",
+   "lh": "D4e B3e E4e D4e C#4e B3e"
+  },
+  {
+   "v": "A3h B3",
+   "ly": "_ and",
+   "rh": "C#6d B5s C#6s D6 // E5+G5h D5+F#5",
+   "lh": "A3h B3"
+  },
+  {
+   "v": "G3 A3 A2",
+   "ly": "we shall be",
+   "rh": "G5 E5d D5e // B4 A4 G4",
+   "lh": "D4h C#4 // G3 A3 A2"
+  },
+  {
+   "doubt": "Points d'orgue sur chant, MD (en haut) et MG (en bas).",
+   "v": "B2hd^",
+   "ly": "chang'd,",
+   "rh": "D4+F#4+D5hd^",
+   "lh": "B2hd^"
+  },
+  {
+   "marks": [
+    "Adagio"
+   ],
+   "v": "G3 A3d A3e",
+   "ly": "we shall be",
+   "rh": "G4 E4d D4e // D4h C#4",
+   "lh": "B3 A3h // G3 A3 A2"
+  },
+  {
+   "marks": [
+    "f",
+    "a tempo"
+   ],
+   "doubt": "Repère G imprimé. MG : D2 (hampe en bas) et F#3 (hampe en haut) en blanches.",
+   "v": "D3hd",
+   "ly": "chang'd.",
+   "rh": "D4h A3+D4ed A3+D4s",
+   "lh": "D2+F#3h D3+F#3ed D3+F#3s"
+  },
+  {
+   "doubt": "Ritournelle : pas de portée de chant sur ce système.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "D4+F#4d D4+F#4e D4+F#4ed D4+F#4s",
+   "lh": "D3+A3d D3+A3e D3+A3ed D3+A3s"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "E4+A4d E4+A4e E4+A4ed E4+A4s",
+   "lh": "C#3+A3d C#3+A3e C#3+A3ed C#3+A3s"
+  },
+  {
+   "doubt": "MD 2e accord : D5 décalée à gauche de la hampe (seconde avec E5), lue G4+D5+E5.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#4+D5d G4+D5+E5e F#4+D5+F#5e E5+G5e",
+   "lh": "B2+F#3d B2+B3e A2+A3e G2+G3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+D5+A5d A4+G5e B4+F#5e C#5+E5e",
+   "lh": "F#2+F#3d F#3+D4e G3+D4e A3+C#4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#4+D5d F#4+D5e G4+E5e A4+F#5e",
+   "lh": "B3e C#4e B3e A3+C#4e G3+B3e F#3+A3e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "B4+G5d B4+F#5e A4+E5+G5e A4+E5e",
+   "lh": "E3+G3 D4 C#4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "D5+F#5e E5+G5e D5+F#5d C#5+E5e // A4e A4e A4 A4",
+   "lh": "D4e C#4e D4 D3"
+  },
+  {
+   "doubt": "MD : un point après l'accord du 1er temps (staccato ou tache ?).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+C#5+E5 re E5e D5e E5e",
+   "lh": "A3 r r"
+  },
+  {
+   "doubt": "MD : liaison A5 blanche → A5 de la mesure suivante (prolongation).",
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e G5e A5h~ // r re A4+E5e B4+D5e A4+E5e",
+   "lh": "r re C#4e B3e C#4e"
+  },
+  {
+   "doubt": "MD voix inf. : F#5, G5 (croches hampes en bas) puis E5 croche ; silences imprimés.",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+A5 A5e E5e D5e E5e // F#5e G5e E5e re r",
+   "lh": "D4 C#4 A3"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e G5e A5h~ // r re A4+E5e B4+D5e A4+E5e",
+   "lh": "r re C#4e B3e C#4e"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "A4+A5 A5e E5e D5e E5e // F#5e G5e A4e A4e B4e C#5e",
+   "lh": "D4 C#4 A3"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e D5e G5 G5 // A4 G4+D5 B4",
+   "lh": "D4 B3 E4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5d E5+A5e D5+F#5e C#5+E5e // C#5d A4e A4",
+   "lh": "A3d C#4e D4"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F#5e E5+G5e C#5+E5d D5e // D5e B4e A4h",
+   "lh": "G3 A3 A2"
+  },
+  {
+   "len": 2,
+   "marks": [
+    "Fine"
+   ],
+   "doubt": "Dernière mesure (Fine, double barre) : blanche seule (2 temps), complétée par la levée d'une noire de la reprise p. 220. Fin de page.",
+   "v": "rh",
+   "ly": "",
+   "rh": "F#4+A4+D5h",
+   "lh": "D3h"
+  }
+ ]
+}
