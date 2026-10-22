@@ -1,0 +1,102 @@
+{
+ "page": 2,
+ "measures": [
+  {
+   "meter": "4/4",
+   "ks": -6,
+   "marks": [],
+   "v": "Eb4e re F4e Gb4e Ab4e Bb4e Db5e Cb5e",
+   "ly": "l'a- me- ra- i an- che",
+   "rh": "Eb4 F4e Gb4e Ab4e Bb4e Db5e Cb5e // Gb3+Bb3e Gb3+Bb3 Ab3+Db4e Bb3+Eb4e re Eb4+Ab4",
+   "lh": "Eb3 F3e Gb3e Ab3e Bb3e Db4e Cb4e",
+   "doubt": "Page imprimée 173, suit bien 172. 1re croche du chant liée depuis p.1 (pas de syllabe) ; accord MD Gb3+Bb3 lié depuis p.1. Arc Ab3+Db4 → Bb3+Eb4 (MD inf.) lu comme liaison d'expression, non codé. Tenutos sur Eb4 (MD) et Eb3 (MG)."
+  },
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "Bb4h~",
+   "ly": "tu!",
+   "rh": "Bb4 Bb4 // re Eb4+Gb4 Eb4+Gb4e~",
+   "lh": "Bb3 Bb3",
+   "doubt": "Tenutos MD/MG."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "rit."
+   ],
+   "v": "Bb4e re C5e D5e Eb5e F5e Ab5e Gb5e",
+   "ly": "l'a- me- ra- i an- che",
+   "rh": "Bb4 C5e D5e Eb5e F5e Ab5e Gb5e // Eb4+Gb4e Eb4+Gb4 Eb4+Ab4e F4+Bb4e re Bb4+Eb5",
+   "lh": "Bb3 C4e D4e Eb4e F4e Ab4e Gb4e",
+   "doubt": "Bécarres imprimés sur C et D (chant, MD, MG). 1re croche du chant liée (pas de syllabe). MG : passage en clé de SOL en fin de mesure."
+  },
+  {
+   "meter": "2/4",
+   "marks": [
+    "a tempo"
+   ],
+   "v": "F5~ F5e re",
+   "ly": "tu!",
+   "rh": "Db5+F5 Db5+F5",
+   "lh": "F4e Db4+Ab4e F4e Db4+Ab4e // Bb3 Bb3",
+   "doubt": "MG en clé de SOL ; croches de la voix sup. staccato. Bémol imprimé (de précaution) sur Db5 de l'accord MD. Arc F5→F5 du chant lu comme liaison de prolongation. Tenutos MD."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "p",
+    "pp"
+   ],
+   "v": "rh Eb5e F5s F5s Eb5e Cb5e",
+   "ly": "Pri- ma di que- sta‿au-",
+   "rh": "F5 F5e Gb5e Eb5e F5e Eb5e Cb5e // Db5 Db5e Db5e Gb4h",
+   "lh": "F4e F4+Bb4s Eb4+Ab4s F4e Db4+Bb4e Bb3e Eb4+Ab4e Bb3e Eb4+Ab4e // Bb3 Bb3 Cb4 Cb4",
+   "doubt": "p au chant, pp à la MG. MG temps 3 et 4 : grappes de seconde Bb3 (hampe haut, voix sup.) / Cb4 (hampe bas, voix inf.) — attribution des voix d'après le sens des hampes."
+  },
+  {
+   "meter": "2/4",
+   "marks": [],
+   "v": "F5 F5~",
+   "ly": "ro- ra,",
+   "rh": "Db5+F5 Db5+F5 // F4e Gb4s Ab4s Bb4s Cb5s Bb4s Ab4s",
+   "lh": "F4e Db4+Ab4e F4e Db4+Ab4e // Bb3 Bb3",
+   "doubt": "Tenutos sur les accords MD. MG staccato (voix sup.)."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "rit."
+   ],
+   "v": "F5 Eb5e F5e Gb5e Ab5e F5e Db5e",
+   "ly": "i- o chiu- do stan- ca",
+   "rh": "F4+Db5+F5 G4+C5+Eb5e Ab4+Db5+F5e Bb4+Eb5+Gb5e Cb5+F5+Ab5e Ab4+Cb5+F5e F4+Ab4+Db5e",
+   "lh": "F4e F4+Bb4s Db4+F4s C4e Db4e Eb4e F4e r // Bb3 Bb3 Bb3 Bb3",
+   "doubt": "Chant : F5 lié depuis la mesure précédente (pas de syllabe) ; tenutos sur Ab5, F5, Db5. MD : C♮5 imprimé (2e accord), puis b imprimé sur Cb5 (5e accord). MG : C♮4 imprimé ; passage en clé de FA à la fin de la mesure."
+  },
+  {
+   "meter": "2/4",
+   "marks": [
+    "a tempo",
+    "pp",
+    "stacc."
+   ],
+   "v": "Cb5ed Db5s Cb5e re",
+   "ly": "gli‿oc- _ chi,",
+   "rh": "Eb4+Gb4+Cb5ed F4+Ab4+Db5s Eb4+Gb4+Cb5ed Db4+F4+Bb4s",
+   "lh": "Bb3+Cb4e Cb4+Db4e Bb3+Cb4e Ab3+Bb3e",
+   "doubt": "MG en clé de FA, secondes (têtes décalées), staccato. « pp stacc. » imprimé à la MG."
+  },
+  {
+   "meter": "4/4",
+   "marks": [
+    "poco rit."
+   ],
+   "v": "r re Db5e Eb5e F5e Db5e Cb5e",
+   "ly": "per- chè‿e- gli vin- ca‿an-",
+   "rh": "Eb4+Gb4+Cb5e F4+Ab4+Db5s Db4+F4+Bb4s Eb4+Gb4+Cb5e F4+Ab4+Db5e Gb4+Bb4+Eb5e Ab4+Cb5+F5e F4+Ab4+Db5e Eb4+Ab4+Cb5e",
+   "lh": "Bb3+Cb4e Cb4+Db4e Bb3+Cb4e Cb4+Db4e Db4+Eb4e Eb4+F4e Cb4+Db4e F3+Cb4e",
+   "doubt": "MG staccato, secondes. Dernier accord MD (Eb4+Ab4+Cb5) : têtes serrées, lecture à vérifier. Fin de page : « an- » se poursuit page suivante."
+  }
+ ]
+}
