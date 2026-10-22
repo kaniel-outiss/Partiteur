@@ -1,0 +1,119 @@
+{
+ "page": 6,
+ "measures": [
+  {
+   "meter": "3/4",
+   "ks": -3,
+   "v": "Eb5ed D5s C5 Eb5ed F5s",
+   "ly": "Que mon sort est a-",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+C3hd",
+   "doubt": "Suite de p.5 ; pas de numéro de page imprimé. Signe (tenuto/accent) sur D5 « mon »."
+  },
+  {
+   "v": "G5hd~",
+   "ly": "mer!",
+   "rh": "rs G3s D4s G3s F4s D4s G4s F4s G4s F4s D4s G3s",
+   "lh": "B1+G2+D3hd~",
+   "doubt": "LH : bécarre sur B1 ; liaison imprimée seulement depuis G2 vers m.3."
+  },
+  {
+   "v": "G5h~ G5e re",
+   "ly": "",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C2+G2+Eb3hd"
+  },
+  {
+   "v": "Db5h Eb5e F5e",
+   "ly": "Ah! sans a-",
+   "rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+   "lh": "F1+F2hd",
+   "doubt": "Db5 (bémol accidentel) au chant et Db4 à la RH."
+  },
+  {
+   "v": "Ab4h C5e Db5e",
+   "ly": "mour s'en al-",
+   "rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+   "lh": "F1+F2hd"
+  },
+  {
+   "v": "F4h G4e Ab4e",
+   "ly": "ler, s'en al-",
+   "rh": "rs Ab3s Db4s Ab3s F4s Db4s Ab4s F4s Ab4s F4s Db4s Ab3s",
+   "lh": "F1+F2hd",
+   "doubt": "Hauteur des 2 croches (G4, Ab4) à confirmer (lecture serrée)."
+  },
+  {
+   "v": "D4hd",
+   "ly": "ler",
+   "rh": "rs Ab3s D4s Ab3s F4s D4s Ab4s F4s Ab4s F4s D4s Ab3s",
+   "lh": "F1+F2hd",
+   "doubt": "Bécarres : D4 au chant et à la RH. Signe de respiration (virgule) en fin de mesure."
+  },
+  {
+   "v": "G4hd~",
+   "ly": "vers",
+   "rh": "rs G3s B3s G3s D4s B3s G4s D4s G4s D4s B3s G3s",
+   "lh": "G1+G2hd"
+  },
+  {
+   "v": "G4h~ G4e G4e",
+   "ly": "la",
+   "rh": "rs G3s B3s G3s D4s B3s G4s F4s G4s F4s B3s G3s",
+   "lh": "G1+G2hd"
+  },
+  {
+   "v": "G4hd~",
+   "ly": "mer!",
+   "rh": "rs G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "lh": "C1+C2hd",
+   "doubt": "« 8a bassa » sous la LH : C2+C3 écrits, joués une octave plus bas (appliqué aux deux notes)."
+  },
+  {
+   "marks": [
+    "p",
+    "pp"
+   ],
+   "v": "G4 r r",
+   "ly": "",
+   "rh": "C6+C7~ C6+C7ed C6+C7s Bb5+Bb6ed Bb5+Bb6s",
+   "lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "doubt": "8va pointillé : RH écrite à la hauteur jouée (+1 octave) (m.11-16) ; p à la RH, pp à la LH. Reprise de la ritournelle (cf. p.4 m.1-5)."
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Ab5+Ab6h~ Ab5+Ab6e re",
+   "lh": "C2+C3s Eb3s Ab3s Eb3s C4s Ab3s Eb4s C4s Eb4s C4s Ab3s Eb3s",
+   "doubt": "8va pointillé : RH écrite à la hauteur jouée (+1 octave)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "Ab5+Ab6~ Ab5+Ab6ed Ab5+Ab6s G5+G6ed G5+G6s",
+   "lh": "C2+C3s Eb3s Ab3s Eb3s C4s Ab3s Eb4s C4s Eb4s C4s Ab3s Eb3s",
+   "doubt": "Système sans portée de chant. 8va pointillé : RH écrite à la hauteur jouée (+1 octave)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5+F6h~ F5+F6e rs F5+F6s",
+   "lh": "C2+C3s D3s F3s D3s Ab3s F3s C4s Ab3s C4s Ab3s F3s D3s",
+   "doubt": "8va pointillé : RH écrite à la hauteur jouée (+1 octave)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5+F6d D5+D6e Eb5+Eb6e F5+F6e",
+   "lh": "C2+C3s D3s F3s D3s Ab3s F3s C4s Ab3s C4s Ab3s F3s D3s",
+   "doubt": "8va pointillé : RH écrite à la hauteur jouée (+1 octave)"
+  },
+  {
+   "v": "rhd",
+   "ly": "",
+   "rh": "G5+G6h~ G5+G6e rs G5+G6s",
+   "lh": "C2+C3s G3s C4s G3s Eb4s C4s G4s Eb4s G4s Eb4s C4s G3s",
+   "doubt": "8va pointillé : RH écrite à la hauteur jouée (+1 octave) (se poursuit sur p.7)"
+  }
+ ]
+}
