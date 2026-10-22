@@ -1,0 +1,138 @@
+{
+"page": 20,
+"measures": [
+{
+"meter": "2/4",
+"v": "Ab3s Bb3s C4s D4s Eb4s D4s Eb4s C4s",
+"ly": "fin _ _ _ ch'io _ _ _",
+"rh": "Ab5+C6+Eb6s Eb5s Ab5+C6+Eb6s Eb5s Ab5+C6+Eb6s Eb5s Ab5+C6+Eb6s Eb5s",
+"lh": "Ab2+Ab3e Ab2+Ab3e Ab2+Ab3e Ab2+Ab3e",
+"doubt": "Mes. 209 (numéro imprimé). 2/4 (le guide dit C). Pas de nuance imprimée sur cette page (ff de la mes. 208 en vigueur).",
+"marks": []
+},
+{
+"v": "Bb3 Bb3",
+"ly": "vo- glio",
+"rh": "G5+Bb5+Eb6s Eb5s G5+Bb5+Eb6s Eb5s G5+Bb5+Eb6s Eb5s G5+Bb5+Eb6s Eb5s",
+"lh": "Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e",
+"marks": []
+},
+{
+"marks": [
+"∾ ♮ (gruppetto)"
+],
+"v": "Bb3 C4ed D4s",
+"ly": "star _ do-",
+"rh": "F5+Bb5+D6s D5s F5+Bb5+D6s D5s F5+Bb5+D6s D5s F5+Bb5+D6s D5s",
+"lh": "Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e"
+},
+{
+"rh": "Eb5+Eb6s D6s C6s Bb5s Ab5s G5s F5s Eb5s",
+"lh": "Eb3+Eb4s D4s C4s Bb3s Ab3s G3s F3s Eb3s",
+"v": "Eb4s D4s C4s Bb3s Ab3s G3s F3s Eb3s",
+"ly": "vrà, _ sì, _ fin _ ch'io _",
+"doubt": "Staccatos sur toutes les doubles croches du piano.",
+"marks": []
+},
+{
+"v": "Bb3e Bb3e Bb3e Bb3e",
+"ly": "vo- glio star do-",
+"rh": "re G5+Bb5+Eb6e re F5+Bb5+D6e",
+"lh": "Bb2+Eb3+G3+Bb3e re Bb2+D3+F3+Bb3e re",
+"marks": []
+},
+{
+"rh": "Eb5+Eb6s D6s C6s Bb5s Ab5s G5s F5s Eb5s",
+"lh": "Eb3+Eb4s D4s C4s Bb3s Ab3s G3s F3s Eb3s",
+"v": "Eb4s D4s C4s Bb3s Ab3s G3s F3s Eb3s",
+"ly": "vrà, _ sì, _ fin _ ch'io _",
+"marks": []
+},
+{
+"v": "Bb3e Bb3e Bb3e Bb3e",
+"ly": "vo- glio star do-",
+"rh": "re G5+Bb5+Eb6e re F5+Bb5+D6e",
+"lh": "Bb2+Eb3+G3+Bb3e re Bb2+D3+F3+Bb3e re",
+"marks": []
+},
+{
+"v": "Eb4e Eb4e Bb3e Bb3e",
+"ly": "vrà, sì, star do-",
+"rh": "G5+Bb5+Eb6e G5+Bb5+Eb6e F5+Bb5+D6e F5+Bb5+D6e",
+"lh": "Eb2+Eb3e G2e Bb2e Bb1+Bb2e",
+"marks": []
+},
+{
+"v": "Eb4e Eb4e Bb3e Bb3e",
+"ly": "vrà, sì, star do-",
+"rh": "G5+Bb5+Eb6e G5+Bb5+Eb6e F5+Bb5+D6e F5+Bb5+D6e",
+"lh": "Eb2+Eb3e G2e Bb2e Bb1+Bb2e",
+"marks": []
+},
+{
+"v": "Eb4e Eb4e Bb3e Bb3e",
+"ly": "vrà, sì, star do-",
+"rh": "G5+Bb5+Eb6e G5+Bb5+Eb6e F5+Bb5+D6e F5+Bb5+D6e",
+"lh": "Eb2+Eb3e G2e Bb2e Bb1+Bb2e",
+"marks": []
+},
+{
+"v": "Eb3 r",
+"ly": "vrà.",
+"rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+"lh": "Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e",
+"doubt": "Le chant chante encore « vrà. » (Eb3 noire) mes. 219 ; silences à partir de 220 (le guide dit 219).",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+"lh": "Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e",
+"doubt": "D6 lu aux 3e et 7e doubles croches (mes. 219-222), à vérifier.",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+"lh": "Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "Eb6s G5s D6s G5s C6s Ab5s D6s Ab5s",
+"lh": "Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e Eb2+Eb3e",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "G5+Eb6 red G3+Bb3+Eb4s",
+"lh": "Eb2+Eb3 red Eb3s",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "G3+Bb3+Eb4 G3+Bb3+Eb4",
+"lh": "Bb2 G2",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "G3+Bb3+Eb4 r",
+"lh": "Eb2+Eb3 r",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "G4+Bb4+Eb5+G5 r",
+"lh": "Eb3+Bb3+Eb4 r",
+"marks": []
+},
+{
+"v": "rh",
+"rh": "G3+Bb3+Eb4h^",
+"lh": "Eb2+Bb2+Eb3h^",
+"doubt": "Dernière mesure (double barre finale, points d'orgue). Le dernier système compte 7 mesures (221-227) : le compte donne 227 mesures, pas 226 comme le dit le guide.",
+"marks": []
+}
+]
+}
