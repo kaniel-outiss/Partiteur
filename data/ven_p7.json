@@ -1,0 +1,85 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "f"
+   ],
+   "v": "D3 r rh",
+   "ly": "rà,",
+   "rh": "rs D4s E4s F#4s G4s A4s B4s C#5s D5s C#5s B4s A4s G4s F#4s E4s D4s",
+   "lh": "D3+F#3 D3+F#3+D4 D3+F#3+D4 D3+F#3+D4",
+   "doubt": "Page imprimée 51 (p-061), m. 93-104 : la partition va jusqu'à 104, pas 102 comme indiqué dans le guide. Mesure 93 = suite de « sa-rà » de la page précédente."
+  },
+  {
+   "v": "A3h A3d A3e",
+   "ly": "vo- stro sa-",
+   "rh": "rs A4s B4s C#5s D5s E5s F#5s G5s A5s G5s F#5s E5s D5s C#5s B4s A4s",
+   "lh": "A2+C#3+E3+A3 A3+C#4+E4 A3+C#4+E4 A3+C#4+E4"
+  },
+  {
+   "v": "D4 r rh",
+   "ly": "rà,",
+   "rh": "rs D4s E4s F#4s G4s A4s B4s C#5s D5s C#5s B4s A4s G4s F#4s E4s D4s",
+   "lh": "D3+F#3 D3+F#3+D4 D3+F#3+D4 D3+F#3+D4"
+  },
+  {
+   "v": "A3h A3d A3e",
+   "ly": "vo- stro sa-",
+   "rh": "rs A4s B4s C#5s D5s E5s F#5s G5s A5s G5s F#5s E5s D5s C#5s B4s A4s",
+   "lh": "A2+C#3+E3+A3 A3+C#4+E4 A3+C#4+E4 A3+C#4+E4"
+  },
+  {
+   "v": "D4 r rh",
+   "ly": "rà,",
+   "rh": "rs D5s E5s F#5s G5s A5s B5s C#6s D6s C#6s B5s A5s G5s F#5s E5s D5s",
+   "lh": "D3+F#3+D4 D4+F#4 D4+F#4 D4+F#4"
+  },
+  {
+   "v": "A3h A3d A3e",
+   "ly": "vo- stro sa-",
+   "rh": "rs A4s B4s C#5s D5s E5s F#5s G5s A5s G5s F#5s E5s D5s C#5s B4s A4s",
+   "lh": "A2+C#3+E3+A3 A3+C#4+E4 A3+C#4+E4 A3+C#4+E4"
+  },
+  {
+   "v": "D3 r rh",
+   "ly": "rà.",
+   "rh": "F#4+D5d D6s3 C#6s3 B5s3 A5d G5s3 F#5s3 E5s3",
+   "lh": "D3+D4d D5s3 C#5s3 B4s3 A4d G4s3 F#4s3 E4s3",
+   "doubt": "(parte) au-dessus du chant. MG : clé de sol après le 1er temps."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D5d D5s3 C#5s3 B4s3 A4d G4s3 F#4s3 E4s3",
+   "lh": "D4d D4s3 C#4s3 B3s3 A3d G3s3 F#3s3 E3s3",
+   "doubt": "Piano seul. MG : D4 en clé de sol, puis retour clé de fa."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D4e A3e D4e A3e D4e A3e D4e A3e",
+   "lh": "D3e A2e D3e A2e D3e A2e D3e A2e"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D4 D5+F#5+A5+D6 D5+F#5+A5+D6 D5+F#5+A5+D6",
+   "lh": "D3 F#2+F#3 A2+A3 F#2+F#3"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "D5+F#5+A5+D6 r D5+F#5+A5+D6 r",
+   "lh": "D2+D3 r D2+D3 r"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "F#5+D6h rh // D5+A5 r rh",
+   "lh": "D2+D3 r rh",
+   "doubt": "Point d'orgue sur la double barre finale (fin de l'air). MD : F#5+D6 blanches hampe haut, D5+A5 noire hampe bas."
+  }
+ ]
+}
