@@ -1,0 +1,135 @@
+{
+ "page": 3,
+ "measures": [
+  {
+   "meter": "3/4",
+   "marks": [
+    "poco rall."
+   ],
+   "v": "D5 E4 re F4e",
+   "ly": "til, _ deh!",
+   "rh": "D5+E5+Bb5+D6 E4+Bb4+D5+E5d F4+F5e",
+   "lh": "G2s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 D4s%6:4 Bb3s%6:4 r // gG1 G2h D4e F2+F3e",
+   "doubt": "Page imprimée 163 (dernière page), mesures 23-35 : le n° 32 est imprimé en tête du 4e système et la double barre finale suit la mesure 35 (pas 36 comme annoncé ; aucun autre air après). Mesure 3/4 (déduite du contenu, comme p. 161-162 ; chiffrage non réimprimé), pas de changement d'armure sur la page. Scan très déformé aux systèmes 1-3 (portées ondulées/décalées) : hauteurs recoupées par l'harmonie. Mes. 23 : têtes noircies lues comme noires (3 temps) ; bécarres sur E (chant, MD) et sur G (MG, annule le G# de la mes. 22) ; petite note G1 barrée liée à G2 ; doubles croches MG lues en sextolets (pas de « 6 » imprimé) ; points sur le 2e accord MD."
+  },
+  {
+   "v": "G4e A4e Bb4e C5e D5e E5e",
+   "ly": "non ces- sar, deh! non ces-",
+   "rh": "G4+Bb4+D5+G5e A4+C5+E5+A5e Bb4+D5+E5+Bb5e C5+E5+G5+C6e D5+G5+Bb5+D6e E5+G5+C6+E6e",
+   "lh": "E2+E3e D2+D3e C2+C3h",
+   "doubt": "Tenutos sur les accords MD et les croches MG. Bécarres : E5 (chant, MD) et E6 (MD) ; E2/E3 MG bécarre. Pas de point visible après la blanche MG."
+  },
+  {
+   "v": "G5 F5~ F5e re",
+   "ly": "sa- re!",
+   "rh": "G5+A5+G6 F5+A5+F6~ F5+A5+F6e3 re3 F5+F6e3",
+   "lh": "F23 C3e3 F3e3 C3e3 F3e3 A3e3 C4e3 F4e3",
+   "doubt": "MD : 1er accord G5+A5+G6 (appoggiature) lié par liaison d'expression au 2e ; accent sur la dernière octave F5+F6. MG : 1er triolet noire+croche (F2, C3)."
+  },
+  {
+   "marks": [
+    "a tempo"
+   ],
+   "v": "re3 G4e3 G4e3 G4 A43 Eb5e3",
+   "ly": "O sus- sur- ro gen-",
+   "rh": "Eb5+G5+Bb5+Eb6!~ Eb5+G5+Bb5+Eb63 D5+D6e3 C5+Eb5+G5+C63! D5+D6e3",
+   "lh": "C2s%6:4 G2s%6:4 C3s%6:4 Eb3s%6:4 G3s%6:4 Bb3s%6:4 Eb4e re F2+F33 F3+A3+Eb4e3",
+   "doubt": "« a tempo » au chant et au piano. Accords MD serrés (notes intérieures lues Eb5/G5/Bb5 puis C5/Eb5/G5). MG : 6 doubles croches sans « 6 » imprimé (sextolet) ; dernière double lue Bb3."
+  },
+  {
+   "marks": [
+    "con anima",
+    "f"
+   ],
+   "v": "D5~ D5e F5e G5e A5e",
+   "ly": "til, deh! non ces-",
+   "rh": "Bb4+D5+Bb5!~ Bb4+D5+Bb5e F4+F5e G4+G5e A4+A5e",
+   "lh": "G2+G33 G3+Bb3+D4e3 F3+Bb3+D4 D3+F3+Bb3",
+   "doubt": "« f » au chant et au piano ; accents (>) sur F5 G5 A5 au chant. Portée de chant très abîmée : D5 lié D5 (« til, ___ »)."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "G5 F5 C5e3 D5e3 gF5 Eb5e3",
+   "ly": "sa- re, deh! non ces-",
+   "rh": "G4+Eb5+G5~ F4+Eb5+F5 C4+C5e3 D4+D5e3 gF5 Eb4+Eb5e3",
+   "lh": "C2s%6:4 G2s%6:4 C3s%6:4 Eb3s%6:4 G3s%6:4 A3s%6:4 C4e re F2+C3+A3!",
+   "doubt": "Accent sur G5 (chant). « p » au chant (triolet) et au piano (3e temps). Petite note F5 avant Eb5 au chant et à la MD. MD : Eb5 lié entre les deux premiers accords. MG : 6e double lue A3 (bécarre d'armure)."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "D5~ D5e re r",
+   "ly": "sar!",
+   "rh": "D4+C5+D5~ D4+Bb4+D53 D5+D6e3 F5+F63 Bb5+D6+F6+Bb6e3",
+   "lh": "Bb1+Bb23 Bb2+Bb3e3 F3+F43 Bb2+Bb3e3 F2+F33 Bb1+Bb2e3",
+   "doubt": "Soufflet crescendo au piano vers « ff » ; accent sur le dernier accord MD. MG : triolet du 2e temps sans crochet imprimé."
+  },
+  {
+   "marks": [
+    "f",
+    "con anima"
+   ],
+   "v": "r3 Ab5e3 Ab53 G5e3 F53 G5e3",
+   "ly": "“Ma- non Les- caut mi",
+   "rh": "Ab5+C6+Eb6+Ab6~ Ab5+C6+Eb6+Ab63 G5+G6e3 F5+Ab5+C6+F63 G5+G6e3",
+   "lh": "gF1 F2s%6:4 Ab2s%6:4 C3s%6:4 F3s%6:4 Ab3s%6:4 C4s%6:4 F4e re C2+C33 Ab3+Bb3+D4e3",
+   "doubt": "MG : petite note F1 barrée ; sextolet « 6 » imprimé ; dernier accord lu Ab3+Bb3+D4 (têtes serrées, incertain)."
+  },
+  {
+   "marks": [
+    "pp",
+    "(pp)"
+   ],
+   "v": "Eb5 Bb4~ Bb4e re",
+   "ly": "chia- mo!”",
+   "rh": "Eb5+Bb5+Eb6 Bb4+D5+Bb5~ Bb4+Eb5+Bb5e3 re3 A4+C5+F5e3",
+   "lh": "G2s%6:4 Bb3s%6:4 G3s%6:4 Bb3s%6:4 G3s%6:4 Bb3s%6:4 Ab3s%6:4 Bb3s%6:4 Ab3s%6:4 Bb3s%6:4 Ab3s%6:4 Bb3s%6:4~ G3+Bb3e3 re3 F4e3",
+   "doubt": "Soufflets decrescendo (chant et piano). Chant très abîmé : Eb5 lu d'après la MD. MD : bécarre (courtoisie) sur A4 du dernier accord, accent ; « (pp) » entre parenthèses. MG : accent sur F4 ; liaison Bb3 → accord."
+  },
+  {
+   "marks": [
+    "pp",
+    "dolciss.",
+    "rall."
+   ],
+   "v": "r3 Eb5e3 Eb5e3 Eb5e3 D5e3 C53 D5e3",
+   "ly": "Sus- sur- ro gen- til, deh!",
+   "rh": "G4+Bb4+Eb5~ G4+Bb4+Eb53 Eb4+G4+D5e3~ Eb4+G4+C53 Eb4+G4+D5e3~",
+   "lh": "Eb43 Eb3e3 G3e3 Bb3e3 D4e3 C43 Bb3e3",
+   "doubt": "« rall. » au chant et au piano."
+  },
+  {
+   "marks": [
+    "con slancio",
+    "ff"
+   ],
+   "v": "C53 G4e3 C5e3^ re3 F5e3 Bb53^ D5e3",
+   "ly": "non ces- sar! deh! non ces-",
+   "rh": "Eb4+G4+C53 C4+Eb4+Bb4e3~ C4+Eb4+A4e3^ re3 F4+A4+C5+F5e3 Bb4+F5+Bb53^ D4+Bb4+D5e3",
+   "lh": "A33 G3e3 F3e3^ re3 Eb2+Eb3e3 D2+D33^ G2+G3e3~",
+   "doubt": "Accent (>) sur Bb5 (chant) et sur l'accord Bb MD. « ff » au piano (accord F, 2e temps)."
+  },
+  {
+   "marks": [
+    "rit.",
+    "affrett.",
+    "col canto"
+   ],
+   "v": "G5~ G53 Eb5s%9:4 F5s%9:4 Eb5s%9:4 D53 C5e3",
+   "ly": "sar! deh! _ _ non ces-",
+   "rh": "G5~ G53 Eb5e3 Eb4+F4e re // G4+F5e3 Eb5e3 D5e3 C5e3 Bb4e3 G4e3 r",
+   "lh": "C3+G3e3 Eb4e3 D4e3 C4e3 Bb3e3 G3e3 F3+A3e re",
+   "doubt": "Chant : triolet de doubles (Eb5 F5 Eb5) imbriqué dans le triolet noire+croche du 2e temps → s%9:4. MD à deux voix (hampes haut : G5 G5 Eb5 ; hampes bas : triolets de croches) ; 3e temps : seconde Eb4+F4 puis demi-soupir."
+  },
+  {
+   "v": "Bb4 r r",
+   "ly": "sar!",
+   "rh": "D4+F4+Bb4e re Bb4+D5+F5+Bb5e re r",
+   "lh": "Bb2+Bb3e re Bb1+Bb2e re r",
+   "doubt": "Accent (>) sur le 1er accord (MD et MG), marcato (^) sur le 2e. Double barre finale : fin de l'air."
+  }
+ ]
+}

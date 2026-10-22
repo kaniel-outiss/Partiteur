@@ -13,7 +13,8 @@
 "ly": "",
 "rh": "D5s rs A5s D6s D5 Eb5s F5s G5s Bb5s",
 "lh": "C3+D3+A3h Bb2+Eb3+G3",
-"doubt": "p.161 (titre), mesures 1-13, numéros imprimés 5/8/11 conformes. Pas de portée de chant au 1er système (mes. 1-4) → silences. MD temps 1 : D5 double, demi-soupir (double croche) puis A5–D6 (D6 piqué, liaison) ; dernière note du groupe montant lue Bb5 (au-dessus de la 1re ligne supp.)."
+"doubt": "p.161 (titre), mesures 1-13, numéros imprimés 5/8/11 conformes. Pas de portée de chant au 1er système (mes. 1-4) → silences. MD temps 1 : D5 double, demi-soupir (double croche) puis A5–D6 (D6 piqué, liaison) ; dernière note du groupe montant lue Bb5 (au-dessus de la 1re ligne supp.).",
+"bpm": 120
 },
 {
 "v": "rhd",
@@ -51,7 +52,8 @@
 "ly": "Don- na non vi- di",
 "rh": "Bb4+D5+F5+Bb5h A4+A5ed G4+G5s",
 "lh": "gBb1 Bb2s D3s F3s Bb3s D4e F3+Bb3+D4e r",
-"doubt": "Pas de nouveau chiffrage imprimé : la mesure reste 3/4 (le chant fait bien 3 noires : ♩ ♪. ♬ ♪. ♬), et non 4/4 comme prévu par le guide. Figure de tempo peu nette (♩ ou 𝅗𝅥). MD : accord serré de blanches empilées (lu Bb4 D5 F5 Bb5, notes intérieures incertaines), lié depuis F4/F5 de mes. 4 (liaison non transcrite). MG : petite note acciaccatura Bb1 liée depuis mes. 4."
+"doubt": "Pas de nouveau chiffrage imprimé : la mesure reste 3/4 (le chant fait bien 3 noires : ♩ ♪. ♬ ♪. ♬), et non 4/4 comme prévu par le guide. Figure de tempo peu nette (♩ ou 𝅗𝅥). MD : accord serré de blanches empilées (lu Bb4 D5 F5 Bb5, notes intérieures incertaines), lié depuis F4/F5 de mes. 4 (liaison non transcrite). MG : petite note acciaccatura Bb1 liée depuis mes. 4.",
+"bpm": 63
 },
 {
 "v": "C5 C5 r",
