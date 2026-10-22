@@ -112,7 +112,7 @@ if all(os.path.exists('data/fig_p%d.json' % k) for k in range(1, 12)):  # n'incl
                         {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}],
               'measures': fg, 'text': place_phrases(json.load(open('data/fig_text.json')), fg), 'src': 'Partition chant-piano (Schirmer)'})
 # — airs transcrits depuis les recueils : un bloc de données par air —
-def add_air(prefix, meta, bpm, voice):
+def add_air(prefix, meta, bpm, voice, extra=()):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return  # inclus seulement une fois l'air assemblé et vérifié
     ms = clean(pages(prefix))
     if ms and any('D.S. al Fine' in (m.get('marks') or []) for m in ms):  # reprise dal segno déroulée pour la lecture
@@ -126,7 +126,7 @@ def add_air(prefix, meta, bpm, voice):
     if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
     T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
     W.append(dict(dict({'ks': 0}, **meta), bpm=bpm, measures=ms, text=place_phrases(T, ms) if T else None,
-                  parts=[dict(dict({'clef': 'F', 'oct': 0}, **voice), id='v', kind='voice'), {'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}]))
+                  parts=[dict(dict({'clef': 'F', 'oct': 0}, **voice), id='v', kind='voice')] + [dict(x, kind='voice') for x in extra] + [{'id': 'rh', 'name': 'Piano MD', 'kind': 'piano'}, {'id': 'lh', 'name': 'Piano MG', 'kind': 'piano'}]))
 add_air('cal', {'id': 'rossini-calunnia', 'title': 'La calunnia è un venticello', 'composer': 'Gioachino Rossini', 'work': 'Il barbiere di Siviglia, acte I',
                 'role': 'Don Basilio', 'voice': 'basse', 'style': 'Air d’opéra', 'period': 'Romantique', 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 57-65'},
         126, {'name': 'Don Basilio (basse)', 'short': 'Bas.', 'vt': 'B'})
@@ -209,6 +209,11 @@ add_air('dot', {'id': 'rossini-a-un-dottor', 'title': 'A un dottor della mia sor
 add_air('hoc', {'id': 'mozart-ho-capito', 'title': 'Ho capito, Signor, sì!', 'composer': 'Wolfgang Amadeus Mozart', 'work': 'Don Giovanni, acte I',
                 'role': 'Masetto', 'voice': 'baryton-basse', 'style': 'Air d’opéra', 'period': 'Classique', 'ks': -1, 'src': 'Anthology of Italian Opera — Bass (Ricordi), p. 126-131'},
         144, {'name': 'Masetto (baryton-basse)', 'short': 'Mas.', 'vt': 'Bar'})
+add_air('dqp', {'id': 'verdi-di-quella-pira', 'title': 'Di quella pira', 'composer': 'Giuseppe Verdi', 'work': 'Il trovatore, acte III',
+                'role': 'Manrico', 'voice': 'ténor', 'style': 'Air d’opéra', 'period': 'Romantique', 'ks': 0, 'src': '250 Arias de Opera para Tenor, vol. 3 (éd. Carisch), p. 39-47'},
+        100, {'name': 'Manrico (ténor)', 'short': 'Man.', 'vt': 'T', 'clef': 'G', 'oct': -12},
+        extra=[{'id': 'ct', 'name': 'Chœur — ténors', 'short': 'T.', 'clef': 'G', 'oct': -12, 'vt': 'T', 'lyKey': 'lct'},
+               {'id': 'cb', 'name': 'Chœur — basses', 'short': 'B.', 'clef': 'F', 'oct': 0, 'vt': 'B', 'lyKey': 'lcb'}])
 # — pièces chorales SATB (+ portée d'orchestre) : parties s/a/t/b (paroles ls/la/lt/lb) et orc —
 def add_satb(prefix, meta, bpm, parts, lykey='lb'):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return

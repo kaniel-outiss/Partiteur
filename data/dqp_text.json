@@ -1,0 +1,120 @@
+{
+"lang": "it",
+"ctx": "Il trovatore (Verdi, livret de Cammarano, 1853), acte III, fin. Manrico, le trouvère, s'apprête à épouser Leonora dans la forteresse de Castellor qu'assiège le comte di Luna. Ruiz accourt : Azucena, la gitane que Manrico croit être sa mère, a été capturée et on dresse déjà le bûcher pour la brûler. Fou de rage, Manrico abandonne la cérémonie et appelle ses hommes aux armes. C'est la cabalette la plus célèbre du répertoire de ténor, avec son contre-ut traditionnel (non écrit par Verdi) sur la fin.",
+"diction": [
+"Italien héroïque : consonnes énergiques, voyelles larges ; « pira » [ˈpiːra], « orrendo » [orˈrɛndo] avec r roulé double.",
+"Doubles consonnes : « quella », « orrendo », « tutte », « avvampò », « spegnetela » [speɲˈɲeːtela], « corro ».",
+"Les accents (>) sur chaque note : marquer sans hacher ; les groupes de doubles croches ornementales légers et précis.",
+"« o teco almeno corro a morir » : élisions « teco‿almen », « corro‿a » — une seule note.",
+"Le contre-ut final (ajout de tradition) : uniquement s'il est sûr ; la version écrite (sol) est parfaitement légitime."
+],
+"lines": [
+{
+"key": "di quella pira",
+"it": "Di quella pira l'orrendo foco tutte le fibre m'arse, avvampò! Empi, spegnetela, o ch'io fra poco col sangue vostro la spegnerò!",
+"ipa": "di ˈkwella ˈpiːra lorˈrɛndo ˈfɔːko ˈtutte le ˈfiːbre ˈmarse avvamˈpɔ ˈɛmpi speɲˈɲeːtela o ˈkiːo fra ˈpɔːko kol ˈsaŋɡwe ˈvɔstro la speɲɲeˈrɔ",
+"w": [
+[
+"Di quella pira",
+"de ce bûcher"
+],
+[
+"l'orrendo foco",
+"le feu horrible"
+],
+[
+"tutte le fibre",
+"toutes mes fibres"
+],
+[
+"m'arse, avvampò",
+"m'a brûlé, embrasé"
+],
+[
+"Empi, spegnetela",
+"impies, éteignez-le"
+],
+[
+"o ch'io fra poco",
+"ou bien moi, bientôt"
+],
+[
+"col sangue vostro",
+"avec votre sang"
+],
+[
+"la spegnerò",
+"je l'éteindrai"
+]
+],
+"fr": "Le feu horrible de ce bûcher a brûlé, embrasé toutes mes fibres ! Impies, éteignez-le, ou bien moi, bientôt, je l'éteindrai avec votre sang !"
+},
+{
+"key": "era già",
+"it": "Era già figlio prima d'amarti, non può frenarmi il tuo martir. Madre infelice, corro a salvarti, o teco almeno corro a morir!",
+"ipa": "ˈɛːra dʒa ˈfiʎʎo ˈpriːma daˈmarti non pwɔ freˈnarmi il ˈtuːo marˈtir ˈmaːdre infeˈliːtʃe ˈkorro a salˈvarti o ˈteːko alˈmeːno ˈkorro a moˈrir",
+"w": [
+[
+"Era già figlio",
+"j'étais fils déjà"
+],
+[
+"prima d'amarti",
+"avant de t'aimer"
+],
+[
+"non può frenarmi",
+"ne peut me retenir"
+],
+[
+"il tuo martir",
+"ta souffrance"
+],
+[
+"Madre infelice",
+"mère malheureuse"
+],
+[
+"corro a salvarti",
+"je cours te sauver"
+],
+[
+"o teco almeno",
+"ou du moins avec toi"
+],
+[
+"corro a morir",
+"je cours mourir"
+]
+],
+"fr": "J'étais ton fils avant de t'aimer : ta souffrance ne peut me retenir. Mère malheureuse, je cours te sauver, ou du moins mourir avec toi !"
+},
+{
+"key": "allarmi",
+"it": "All'armi! All'armi! Eccone presti a pugnar teco, o teco a morir!",
+"ipa": "larˈmi larˈmi ˈɛkkone ˈprɛsti a puɲˈɲar ˈteːko o ˈteːko a moˈrir",
+"w": [
+[
+"All'armi!",
+"aux armes !"
+],
+[
+"Eccone presti",
+"nous voici prêts"
+],
+[
+"a pugnar teco",
+"à combattre avec toi"
+],
+[
+"o teco a morir",
+"ou à mourir avec toi"
+]
+],
+"fr": "(Chœur) Aux armes ! Aux armes ! Nous voici prêts à combattre avec toi, ou à mourir avec toi !"
+}
+],
+"doubts": [
+"Texte (Cammarano) vérifié sur la partition à l'assemblage."
+]
+}
