@@ -1,0 +1,168 @@
+{
+"page": 1,
+"measures": [
+{
+"meter": "2/4",
+"ks": 2,
+"tempo": "Allegretto moderato",
+"marks": [
+"f"
+],
+"doubt": "Page imprimée 160 ; titre « Un bel dì vedremo ». Indication métronomique imprimée (♩ = 116) non reportée. RH : F#4 décalé à gauche (seconde avec G#4), dièse lu devant G4. LH : trémolo alterné (3 barres) blanche C#3+G#3 ↔ blanche B3, codé noire*+noire*.",
+"v": "rh",
+"ly": "",
+"rh": "F#4+G#4+B4+D5+F#5h~",
+"lh": "C#3+G#3* B3*"
+},
+{
+"doubt": "RH prolongée depuis m.1.",
+"v": "rh",
+"ly": "",
+"rh": "F#4+G#4+B4+D5+F#5h",
+"lh": "C#3+G#3* B3*"
+},
+{
+"doubt": "Chant : dièse imprimé sur la note de l'interligne E5 → E#5 (lecture fine, à vérifier).",
+"v": "E#5h",
+"ly": "Pian-",
+"rh": "E#4+G#4+B4+E#5h~",
+"lh": "C#3+G#3* B3*"
+},
+{
+"doubt": "RH : notes extrêmes pointées + croche, blanches au milieu ; prolongations depuis m.3 supposées.",
+"v": "E#5 re C#5e",
+"ly": "gi? Per-",
+"rh": "E#4+E#5d C#4+C#5e // G#4+B4h",
+"lh": "C#3+G#3* B3*"
+},
+{
+"doubt": "Bécarres imprimés sur E5 (chant et piano), G4, E4 ; dièse sur A4. LH : bécarre sur G3, dièse sur A3.",
+"v": "E5h~",
+"ly": "chè?",
+"rh": "E4+G4+A#4+E5h~",
+"lh": "C#3+G3* A#3*"
+},
+{
+"v": "E5d C#5e",
+"ly": "per-",
+"rh": "E4+E5d C#4+C#5e // G4+A#4h",
+"lh": "C#3+G3* A#3*"
+},
+{
+"marks": [
+"dim."
+],
+"doubt": "LH : C#3 décalé (seconde avec D#3), dièse lu sur D3.",
+"v": "D#5h~",
+"ly": "chè?",
+"rh": "D#4+G4+B4+D#5h~",
+"lh": "C#3+D#3+G3* B3*"
+},
+{
+"v": "D#5d re",
+"ly": "",
+"rh": "D#4+G4+B4+D#5h",
+"lh": "C#3+D#3+G3* B3*"
+},
+{
+"doubt": "Triolet de noires (soupir + 2 noires). Bécarres imprimés sur D5 et D4 (RH), dièse sur A4.",
+"v": "r3 D53 D53",
+"ly": "Ah, la",
+"rh": "D4+F#4+A#4+D5h~",
+"lh": "C#3+F#3* A#3*"
+},
+{
+"marks": [
+"dim."
+],
+"doubt": "RH : crochet de triolet sur blanche + noire (A#4+C#4) → codé h3 + noire3.",
+"v": "D53 D53 A#43",
+"ly": "fe- de ti",
+"rh": "D4+F#4+A#4+D5h3 C#4+A#43",
+"lh": "C#3+F#3* A#3*"
+},
+{
+"doubt": "RH : bécarre (de précaution) sur A4, dièse sur E4. LH : B2 décalé (seconde avec C#3) ; deux dièses imprimés (lus E#3 et un autre devant C3/B2 — B2 laissé naturel) ; bécarre sur A3.",
+"v": "C#5h",
+"ly": "man-",
+"rh": "C#4+E#4+A4+C#5h~",
+"lh": "B2+C#3+E#3* A3*"
+},
+{
+"v": "C#5d re",
+"ly": "ca!",
+"rh": "C#4+E#4+A4+C#5h~",
+"lh": "B2+C#3+E#3* A3*"
+},
+{
+"marks": [
+"rall."
+],
+"v": "rh",
+"ly": "",
+"rh": "C#4+E#4+A4+C#5h~",
+"lh": "B2+C#3+E#3+A3e re r"
+},
+{
+"doubt": "Prolongation m.14→15 non visible (accord change).",
+"v": "rh",
+"ly": "",
+"rh": "C#4+E#4+A4+C#5h",
+"lh": "rh"
+},
+{
+"marks": [
+"p"
+],
+"doubt": "RH : C#5 décalé à droite (seconde avec B4), dièse sur E4. LH : octave G#1/G#2 (3 lignes supplémentaires), point (staccato ?) sous la note grave.",
+"v": "C#5h",
+"ly": "Sen-",
+"rh": "C#4+E#4+B4+C#5h~",
+"lh": "G#1+G#2e re r"
+},
+{
+"v": "C#5 r",
+"ly": "ti.",
+"rh": "C#4+E#4+B4+C#5h~",
+"lh": "rh"
+},
+{
+"marks": [
+"molto"
+],
+"doubt": "« molto » = suite de « rall. ».",
+"v": "rh",
+"ly": "",
+"rh": "C#4+E#4+B4+C#5h~",
+"lh": "rh"
+},
+{
+"doubt": "Points d'orgue sur la pause du chant, le soupir RH et la pause LH.",
+"v": "rh^",
+"ly": "",
+"rh": "C#4+E#4+B4+C#5e re r^",
+"lh": "rh^"
+},
+{
+"meter": "3/4",
+"ks": -6,
+"marks": [
+"Andante molto calmo",
+"pp",
+"come da lontano"
+],
+"doubt": "Métronome imprimé (♩ = 42) non reporté. LH en clé de SOL. Liaison courte noire→croche lue comme prolongation.",
+"v": "Gb5~ Gb5e Eb5e Gb5e Eb5e",
+"ly": "Un bel dì ve-",
+"rh": "Gb5~ Gb5e Eb5e Gb5e Eb5e // re Bb4+Db5e~ Bb4+Db5d re",
+"lh": "Gb4~ Gb4e Eb4e Gb4e Eb4e"
+},
+{
+"doubt": "« le- » : croche liée vers la page 161.",
+"v": "F5 F5 re Db5e",
+"ly": "dre- mo le-",
+"rh": "F5~ F5e Db5s Eb5s F5e Db5e // re Ab4+Db5e~ Ab4+Db5d re",
+"lh": "F4~ F4e Db4s Eb4s F4e Db4e"
+}
+]
+}

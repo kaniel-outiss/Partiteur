@@ -1,0 +1,144 @@
+{
+"page": 2,
+"measures": [
+{
+"meter": "3/4",
+"doubt": "Page imprimée 161, suite directe de la p.160. Liaison noire→croche lue comme prolongation. LH en clé de SOL (Cb4 sur ligne supplémentaire).",
+"v": "Eb5~ Eb5e Bb4e Eb5e Bb4e",
+"ly": "var- si‿un fil di",
+"rh": "Eb5~ Eb5e Bb4e Eb5e Bb4e // re Gb4+Bb4e~ Gb4+Bb4d re",
+"lh": "Eb4~ Eb4e Cb4e Eb4e Cb4e"
+},
+{
+"doubt": "Soufflet > au-dessus du chant. Tenutos sur les 2 croches. LH : retour en clé de FA en fin de mesure.",
+"v": "Db5 Db5 Eb5e Db5e",
+"ly": "fu- mo sull' e-",
+"rh": "Db5h Eb5e Db5e // re F4+Ab4 F4+Ab4d",
+"lh": "Db4h Eb4e Db4e"
+},
+{
+"v": "Ab4~ Ab4e F4s Gb4s Ab4e F4e",
+"ly": "stre- mo con- fin del",
+"rh": "Ab4~ Ab4e F4s Gb4s Ab4e F4e // re Cb4+Eb4e~ Cb4+Eb4d re",
+"lh": "Ab3~ Ab3e F3s Gb3s Ab3e F3e"
+},
+{
+"doubt": "Soufflet > sous la RH ; tenutos sur les croches. « E___ » : trait de prolongation vers « poi » (liaison, pas de prolongation : hauteurs différentes).",
+"v": "Bb4 Bb4 re Gb4e",
+"ly": "ma- re. E",
+"rh": "Bb4h Ab4e Gb4e // re Db4+F4 Db4+F4d",
+"lh": "Bb3h Ab3e Gb3e"
+},
+{
+"marks": [
+"poco rall."
+],
+"doubt": "LH très dense : crochet reliant la double croche RH à l'accord LH (F3+Cb4) ; accords de croches Bb2+Db3+F3 / Ab2+Eb3+Gb3 lus à la loupe, à vérifier.",
+"v": "Db4~ Db4e Db4s Eb4s F4e Db4e",
+"ly": "poi la _ na- ve‿ap",
+"rh": "Db4~ Db4e Db4s Eb4s F4e Db4e",
+"lh": "Db3h Bb2+Db3+F3e Ab2+Eb3+Gb3e // re Gb3+Cb4 F3+Cb4e Db4e Cb4e"
+},
+{
+"doubt": "RH voix inférieure : 1re croche lue Bb3 seul (Db4 possible), ligne supplémentaire C4 entre les deux têtes.",
+"v": "Gb4 Gb4~ Gb4e re",
+"ly": "pa- re.",
+"rh": "Gb4hd // Bb3e Bb3+Db4 Bb3+Db4 Bb3+Db4e",
+"lh": "Gb2+Db3hd"
+},
+{
+"marks": [
+"Un poco mosso",
+"p"
+],
+"v": "F4e Gb4e Ab4 Bb4",
+"ly": "Poi la na- ve",
+"rh": "F4e Gb4e Ab4 Bb4 // Bb3+Db4hd~",
+"lh": "F3e Gb3e Ab3 Bb3"
+},
+{
+"v": "Ab4e Gb4e F4h",
+"ly": "bian- _ ca",
+"rh": "Ab4e Gb4e F4h // Bb3+Db4hd",
+"lh": "Ab3e Gb3e F3h"
+},
+{
+"marks": [
+"ritenuto",
+"mf"
+],
+"doubt": "Bécarres imprimés sur C5 / C4 (2e temps). Tenutos sur les deux premières noires.",
+"v": "Bb4 C5 Bb4e3 Ab4e3 Gb4e3",
+"ly": "en- tra nel _ _",
+"rh": "Bb4 C5 Bb4e3 Ab4e3 Gb4e3 // re Db4+F4e~ Db4+F4h",
+"lh": "Bb3 C4 Bb3e3 Ab3e3 Gb3e3"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "Bb4h Bb4",
+"ly": "por- to,",
+"rh": "Bb4hd // re Db4+F4 Db4+F4 Db4+F4e",
+"lh": "Bb3hd"
+},
+{
+"marks": [
+"Un poco mosso",
+"mf"
+],
+"doubt": "Bécarres sur C5 (chant), C5 et C4 (RH), C2 (LH). RH 3e accord : F4 décalé (seconde Eb4/F4). LH : triolet de croches en octaves F1/C2 sur lignes supplémentaires, accent > puis point.",
+"v": "C5e Db5e Eb5 F5",
+"ly": "rom- ba‿il suo sa-",
+"rh": "C4+F4+Ab4+C5e Db4+F4+Ab4+Db5e Eb4+F4+Ab4+Eb5 F4+Ab4+F5",
+"lh": "F1+C2e3 F1+C2e3 re3 r r"
+},
+{
+"doubt": "Bécarres sur C5 / C4. Tenutos. LH au-dessus de la portée (lignes supplémentaires), clé de FA.",
+"v": "Eb5e Db5e C5h",
+"ly": "lu- _ to.",
+"rh": "Eb5e Db5e C5h // F4+Ab4h F4+Ab4",
+"lh": "Eb4e Db4e C4h"
+},
+{
+"marks": [
+"con passione",
+"ritenuto",
+"f"
+],
+"doubt": "Bécarres sur G5/G4 et C5 (RH grave). Triolet croche + croche pointée + double croche. Tenutos.",
+"v": "F5 G5 F5e3 Eb5ed3 Db5s3",
+"ly": "Ve- di? È _ ve-",
+"rh": "F5 G5 F5e3 Eb5ed3 Db5s3 // re Ab4+C5 Ab4+C5e~ Ab4+C5",
+"lh": "F4 G4 F4e3 Eb4ed3 Db4s3"
+},
+{
+"doubt": "Soufflet > au chant et sous la RH ; bécarre sur C5 (RH).",
+"v": "F5h F5",
+"ly": "nu- to!",
+"rh": "F5hd // re Ab4+C5 Ab4+C5 Ab4+C5e~",
+"lh": "F4hd"
+},
+{
+"marks": [
+"dolcemente",
+"rall."
+],
+"doubt": "Triolet noire + croche ; bécarres sur C5 / C4.",
+"v": "F5 Eb5e Db5e Bb43 C5e3",
+"ly": "Io non gli scen- do‿in-",
+"rh": "F5 Eb5e Db5e Bb43 C5e3 // Ab4+C5e Gb4+Bb4e~ Gb4+Bb4h",
+"lh": "F4 Eb4e Db4e Bb33 C4e3"
+},
+{
+"marks": [
+"pp"
+],
+"doubt": "« tro—io » : deux notes distinctes. Bécarre sur C5 (« Mi », levée vers la mesure 2/4 de la p.162). Points d'orgue : chant Gb4, RH Bb4 + soupir, LH Bb3. Changement de mesure 2/4 imprimé en fin de système (pour la page suivante).",
+"v": "Db5 Eb4e rs Gb4s Gb4e^ rs C5s",
+"ly": "con- tro io no. Mi",
+"rh": "Db5 Eb4ed Gb4s Bb4e^ re // re Eb4+Gb4e r r^",
+"lh": "Db4 Eb3ed Gb3s Bb3e^ re"
+}
+]
+}
