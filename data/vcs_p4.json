@@ -1,0 +1,17 @@
+{"page":4,"measures":[
+{"meter":"2/4","v":"Eb5 D5e C#5e","ly":"non so chi'l","rh":"Eb5+Eb6 D5+D6e C#5+C#6e","lh":"C3s Eb3s G3s C4s D3s G3+Bb3s Eb3s G3+Bb3s","doubt":"Page imprimée 150 (p-160). Liaison MD sur les octaves."},
+{"v":"D5 Bb4","ly":"tie- ne,","rh":"D5+F#5+D6 G5+Bb5","lh":"D3s F#3s A3s D4s Eb3s Eb3s G3s Eb4s","doubt":"Dièse MD lu sur F5 (accord D5+F#5+D6). MG : Eb4 sur 2e ligne supplémentaire."},
+{"v":"A4 D5e D5e","ly":"non so co-","rh":"A5h // Eb5+G5 D5+F#5e C5e","lh":"C3s Eb3s G3s A3s D3s F#3s A3s D4s","doubt":"MD : tête A5 creuse (blanche, hampe en haut) au 1er temps ; au 2e temps une hampe montante part aussi de D5+F#5 (lu comme 2e voix croche + C5♮ croche). Bécarre de précaution sur C5. Liaison MD."},
+{"v":"G4 rs Bb4s Bb4s Bb4s","ly":"s'è. So- spi- ro‿e","rh":"Bb4+G5e re Bb4+Bb5~","lh":"G2s D3s G3s Bb3s G2s D3s G3s Bb3s","doubt":"« ro e » sous une seule note. Liaisons de prolongation Bb4/Bb5 → m. 53."},
+{"v":"C5s Bb4s Bb4e rs Bb4s Bb4s Bb4s","ly":"ge- _ mo sen- za vo-","rh":"Bb4+F5+Ab5+Bb5h~","lh":"D3s F3s Ab3s Bb3s D3s F3s Ab3s Bb3s","doubt":"Accord MD : Ab5 (bémol) décalé à gauche de Bb5 (seconde) ; lié sur m. 54. Liaison C5→Bb4 au chant."},
+{"marks":["mfp"],"v":"G4e re C5e C5s C5s","ly":"ler, pal- pi- to‿e","rh":"Bb4+F5+Ab5+Bb5e B4+B5e C5+C6~","lh":"Eb3s Eb3s G3s Eb4s Eb3s G3s C4s Eb4s","doubt":"Bécarres sur B4 et B5 (MD). « to e » sous une seule note."},
+{"v":"D5s C5s C5e rs C5s C5s C5s","ly":"tre- _ mo sen- za sa-","rh":"C5+G5+Bb5+C6h~","lh":"E3s G3s Bb3s C4s E3s G3s Bb3s C4s","doubt":"Bécarre de précaution sur D5 (chant) ; bémol de précaution sur Bb5 (MD) ; bécarre sur E3 (MG). Liaison D5→C5."},
+{"marks":["mfp"],"v":"A4 rs D5s D5s D5s","ly":"per. Non tro- vo","rh":"C5+G5+Bb5+C6e C#5+C#6e D5+D6","lh":"F3s F3s A3s F4s F3s A3s D4s F4s","doubt":"1er accord MD lié depuis m. 55. Mesure 55-56 : mot « sa-per » coupé entre les deux mesures."},
+{"v":"Eb5s D5s D5e D5e D5s D5s","ly":"pa- _ ce not- te ne","rh":"D5+A5+C6+D6h~","lh":"F#3s A3s C4s D4s F#3s A3s C4s D4s","doubt":"Bécarre de précaution sur C6 (C6 décalé, seconde avec D6). Arcs vers m. 58 (liaison D5/D6 probable, autres notes changent). Liaison Eb5→D5 au chant."},
+{"v":"Bb4e Bb4e Eb5e Eb5e","ly":"dì, ma pur mi","rh":"G5+Bb5+D6 Eb6~ // D5e G5 Gb5e","lh":"G3s Bb3s D4s G4s C4s Eb4+G4s Bb3s Eb4+Gb4s","doubt":"MD 2 voix : haut (hampes en haut) accord puis Eb6 lié ; bas D5 croche, G5 noire, Gb5 croche (bémol). MG : bémol sur G4 au dernier accord."},
+{"v":"Eb5ed F5s D5","ly":"pia- _ ce","rh":"Eb6 D6 // F5e A5e Bb5","lh":"A3s C4+F4s F3s C4+F4s Bb3s D4+F4s G3s Bb3+D4s","doubt":"Eb6 lié depuis m. 58, liaison Eb6→D6. Liaison Eb5→F5 au chant."},
+{"v":"Db5 C5e Bb4e","ly":"lan- guir co-","rh":"Db5+Db6 C5+C6e Bb4+Bb5e","lh":"E3s G3s Bb3s Db4s E3s G3s Bb3s Db4s","doubt":"Bémols sur Db5/Db6 (MD) et Db4 (MG) ; bécarre sur E3. Liaison MD."},
+{"v":"F4h","ly":"sì.","rh":"F5h~ // A4s F4s A4+C5s F4s Bb4+D5s F4s A4+Eb5s F4s","lh":"F3e Eb3e D3e C3e","doubt":"MD : F5 blanche (hampe en haut) liée vers m. 62 ; bécarre de précaution sur D5. MG : bémol sur Eb3, bécarre de précaution sur D3. Grande liaison MD."},
+{"v":"Bb4 F4e F4e","ly":"Voi che sa-","rh":"Bb4+D5+F5s Bb3+D4s D4+F4s F4+Bb4s rs Bb3+D4s D4+F4s F4+Bb4s","lh":"Bb2e re Bb2e re","doubt":"Reprise du thème. F5 lié depuis m. 61 dans le 1er accord."},
+{"v":"C5 F4","ly":"pe- te","rh":"rs C4+Eb4s Eb4+F4s F4+C5s rs C4+Eb4s Eb4+F4s F4+C5s","lh":"A2e re A2e re","doubt":"Système de 4 mesures (60-63) ; le système précédent (53-55) n'a que 3 mesures."}
+]}

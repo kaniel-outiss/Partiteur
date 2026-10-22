@@ -1,0 +1,18 @@
+{"page":5,"measures":[
+{"meter":"2/4","v":"D5 Bb4sd C5t D5sd Eb5t","ly":"che co- _ sa‿è‿a- _","rh":"rs Bb3+D4s D4+F4s F4+Bb4s rs D4+Bb4s Eb4+G4s C5+Eb5s","lh":"Bb2e re G3e Eb3e","doubt":"Page imprimée 151 (p-161), dernière page de l'air. « sa è a » sous une seule note (D5)."},
+{"v":"C5 r","ly":"mor,","rh":"re A4+C5 A4+C#5e","lh":"F3s A3s C4s F4s F3s F4s F4s F4s","doubt":"Diffère de m. 12 : MD croche-silence, accord noire, accord croche avec dièse sur C5 ; liaison."},
+{"v":"D5 Eb5e E5e","ly":"don- ne ve-","rh":"Bb4+D5 C5+Eb5e C#5+E5e","lh":"Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s Bb2s Bb3s","doubt":"Bécarre sur E5 (chant et MD), dièse sur C5 (MD)."},
+{"v":"F5ed D5s Bb4e re","ly":"de- _ te","rh":"D5+F5s F5t3 G5t3 F5t3 D5+Bb5s F5+A5s Eb5+G5s D5+F5s C5+Eb5s Bb4+D5s","lh":"Bb2s Bb3s Bb3s Bb3s Bb2s Bb3s Bb3s Bb3s","doubt":"Triolet de triples croches (1re note F5 seule, ≠ m. 14) ; Bb5 avec D5 (≠ m. 14). Bémol de précaution Eb5, bécarre de précaution C5."},
+{"v":"C5 Db5e D5e","ly":"s'io l'ho nel","rh":"A4+C5 Bb4+Db5e B4+D5e","lh":"F2s F3s F3s F3s F2s F3s F3s F3s"},
+{"v":"Eb5 r","ly":"cor,","rh":"C5+Eb5s Eb5t3 F5t3 Eb5t3 C6s D5+Bb5s C5+A5s Bb4+G5s A4+F5s C5+Eb5s","lh":"F2s F3s F3s F3s F2+F3s F3s F3s F3s","doubt":"Comme m. 16."},
+{"v":"F5e D5e F5e D5e","ly":"don- _ ne ve-","rh":"F4+D5h","lh":"Bb2s D3s F3s Bb3s Bb2s D3s F3s Bb3s","doubt":"Liaison MD m. 70 → 71."},
+{"v":"C5e Eb5e C5e Eb5e","ly":"de- _ te _","rh":"Eb4+C5h","lh":"Eb2s Eb3s G3s C4s Eb2s Eb3s G3s C4s"},
+{"v":"Bb4 F4ed F4s","ly":"s'io l'ho nel","rh":"D4+F4+Bb4 C4+Eb4+A4","lh":"F2s D3s F3s Bb3s F2s C3s Eb3s A3s","doubt":"Liaison MD."},
+{"v":"D4 r","ly":"cor,","rh":"Bb3+D4+Bb4e Bb4+D5e D5+G5e G5+Bb5e","lh":"G2s Bb2s D3s G3s G2s D3s G3s Bb3s","doubt":"1er accord MD : Bb3+D4 sous la ligne supplémentaire, lecture serrée. 3e accord lu D5+G5 (tête au-dessus de la ligne de F5)."},
+{"v":"F5e D5e F5e D5e","ly":"don- _ ne ve-","rh":"F5+D6h","lh":"D3s F3s Bb3s D4s D3s F3s Bb3s D4s","doubt":"Liaison MD m. 74 → 75."},
+{"v":"C5e Eb5e C5e Eb5e","ly":"de- _ te _","rh":"Eb5+C6h","lh":"Eb3s G3s C4s Eb4s Eb3s G3s C4s Eb4s"},
+{"v":"Bb4 A4sd Bb4t C5sd D5t","ly":"s'io l'ho _ nel _","rh":"Bb5 A5sd Bb5t C6sd D6t // D5 C5+Eb5","lh":"F3s Bb3s D4s F4s F3s C4s Eb4s F4s","doubt":"Liaisons A4→Bb4 et C5→D5 (chant et MD)."},
+{"marks":["tr"],"v":"Bb4 r","ly":"cor.","rh":"D5+Bb5e re A5ed G5t A5t","lh":"Bb2s F3s Bb3s D4s F3s C4s Eb4s F4s","doubt":"Trille (tr) sur A5 pointé ; liaison A5 → A5."},
+{"marks":["tr"],"v":"rh","ly":"","rh":"Bb5e re C6ed Bb5t C6t","lh":"Bb2s F3s Bb3s D4s F3s A3s C4s Eb4s","doubt":"Pause au chant. Trille (tr) sur C6 pointé ; liaison C6 → C6."},
+{"v":"rh^","ly":"","rh":"Bb5e re r^","lh":"Bb3+D4e re r^","doubt":"Double barre finale m. 79 avec points d'orgue sur la barre (chant et piano) — notés sur le dernier silence. Pas d'autre air après la double barre sur cette page."}
+]}
