@@ -1,0 +1,257 @@
+{
+"page": 23,
+"measures": [
+{
+"v": "C6d~",
+"ly": "flam-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6d~",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"meter": "3/8",
+"ks": -1,
+"doubt": "Page imprimée 151. Accent sur C6 (chant). C6 lié à la mesure suivante."
+},
+{
+"v": "C6e A5e F5e",
+"ly": "_ me,",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e A5e F5e",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "C6 lié (pas de syllabe), A5 mélisme de 'flam-', 'me,' sur F5."
+},
+{
+"v": "E5e D5e C5e",
+"ly": "j'ai _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5+E5e Bb4+D5e A4+C5e",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "Bb4e G4e C5e",
+"ly": "sa _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G4+Bb4e E4+G4e E4+C5e",
+"lh": "C3e Bb3+C4e Bb3+C4e",
+"doubt": "RH 3e accord : E4+C5 (2 notes lisibles)."
+},
+{
+"v": "F4 re",
+"ly": "main!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+A4e C4+F4+A4e",
+"lh": "F3 re"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+A4e C4+F4+A4e",
+"lh": "F3 re"
+},
+{
+"v": "F5d",
+"ly": "Jour",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+Ab4e C4+F4+Ab4e",
+"lh": "F3d",
+"doubt": "Accents (>) sur F5 et G5 du chant. Grande liaison LH m7-m11."
+},
+{
+"v": "G5d",
+"ly": "pros-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re Db4+Eb4+G4+Bb4e Db4+Eb4+G4+Bb4e",
+"lh": "Eb3d"
+},
+{
+"v": "Ab5d~",
+"ly": "pè-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+Eb4+Ab4+C5e C4+Eb4+Ab4+C5e",
+"lh": "Ab2d"
+},
+{
+"v": "Ab5e C5e F5e",
+"ly": "re! _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+Eb4+Ab4e C4+Eb4+Ab4e",
+"lh": "C3d",
+"doubt": "Ab5 lié depuis la mesure préc. (pas de bémol réimprimé) ; 're!' sous C5, F5 mélisme."
+},
+{
+"v": "Eb5d~",
+"ly": "Me",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re Db4+Eb4+G4+Bb4e Db4+Eb4+G4+Bb4e",
+"lh": "Eb3 re"
+},
+{
+"v": "Eb5e Bb4e C5e",
+"ly": "_ voi-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re Db4+Eb4+G4+Bb4e Db4+Eb4+G4+Bb4e",
+"lh": "Eb3 re",
+"doubt": "Eb5 lié (pas de syllabe) ; 'voi' placé sous C5."
+},
+{
+"v": "Ab4 re",
+"ly": "ci",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+Eb4+Ab4e C4+Eb4+Ab4e",
+"lh": "Ab2 re"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+Eb4+Ab4e C4+Eb4+Ab4e",
+"lh": "Ab2 re"
+},
+{
+"v": "F5d",
+"ly": "mi-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re B3+F4+Ab4e B3+F4+Ab4e",
+"lh": "Db3 re",
+"marks": [
+"p"
+],
+"doubt": "Accent sur F5. RH : B3 bécarre (sixte augmentée sur Db)."
+},
+{
+"v": "F5d",
+"ly": "li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re B3+F4+Ab4e B3+F4+Ab4e",
+"lh": "Db3 re"
+},
+{
+"v": "C5d",
+"ly": "tai-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+A4e C4+F4+A4e",
+"lh": "C3 re",
+"doubt": "A4 bécarre imprimé."
+},
+{
+"v": "C5e E5e F5e",
+"ly": "re, mi- li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+A4e C4+F4+A4e",
+"lh": "C3 re",
+"doubt": "E5, F5 staccato."
+},
+{
+"v": "G5d~",
+"ly": "taire",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+E4+Bb4e C4+E4+Bb4e",
+"lh": "C3 re",
+"doubt": "Accent sur G5 ; G5 lié à la mesure suivante."
+},
+{
+"v": "G5e D5e E5e",
+"ly": "_ et ma-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+E4+Bb4e C4+E4+Bb4e",
+"lh": "C3 re",
+"doubt": "D5, E5 staccato."
+},
+{
+"v": "F5 re",
+"ly": "ri!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+A4e C4+F4+A4e",
+"lh": "F3 re"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "re C4+F4+A4e C4+F4+A4e",
+"lh": "A3 re"
+},
+{
+"v": "C5e re re",
+"ly": "Pour",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "C6e re re",
+"ly": "mon",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "C6d~",
+"ly": "â-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6d~",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "Accent ; C6 lié à la mesure suivante."
+},
+{
+"v": "C6e A5e F5e",
+"ly": "_ me",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e re A4+F5e",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "Liaison RH A4+F5 vers la page suivante."
+}
+]
+}

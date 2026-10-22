@@ -1,0 +1,262 @@
+{
+"page": 22,
+"measures": [
+{
+"v": "F5 Eb5e",
+"ly": "j'ai _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+D6+F6 Eb5+C6+Eb6e",
+"lh": "F3e A3e C4e",
+"meter": "3/8",
+"ks": -1,
+"doubt": "Page imprimée 150. Mesure 3/8 déduite (pas d'indication sur la page). Accent sur F5 (chant). Basse staccato."
+},
+{
+"v": "D5 C5e",
+"ly": "sa _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "D5+Bb5+D6 C5+A5+C6e",
+"lh": "F3e A3e C4e"
+},
+{
+"v": "Bb4 re",
+"ly": "main!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "D5+Bb5+D6e re re",
+"lh": "Bb2+Bb3e re re",
+"doubt": "LH : Bb2+Bb3 à vérifier (note grave sous la portée)."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+D6e A5e G5+C#6e",
+"lh": "D3+A3 A2+A3e",
+"marks": [
+"f"
+]
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+D6e A5e G5+C#6e",
+"lh": "D3+A3 A2+A3e"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+D6e A5e G5+C#6e",
+"lh": "D3+A3 A2+A3e"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F5+D6e re re",
+"lh": "D3+A3e re re",
+"doubt": "LH passe en clé de sol à la fin de la mesure."
+},
+{
+"v": "A4d",
+"ly": "J'en",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4 B4sd C#5t",
+"lh": "E4+G4d",
+"marks": [
+"f",
+"p"
+],
+"doubt": "f = chant ; p = piano. LH en clé de sol."
+},
+{
+"v": "F5d",
+"ly": "fais",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "D5 E5sd F5t",
+"lh": "D4+F4d"
+},
+{
+"v": "E5d",
+"ly": "ser-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A5e G5e E5e // C#5d",
+"lh": "A3+E4d",
+"doubt": "LH : accord A3+E4 (ligne supplémentaire du do3 traversée, pas de C#4 lisible)."
+},
+{
+"v": "D5e re re",
+"ly": "ment!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "D5e re re",
+"lh": "D4+F4e re re",
+"doubt": "LH revient en clé de fa en fin de mesure."
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "E5+C6e G5e F5+B5e",
+"lh": "C3+G3 G2+G3e",
+"marks": [
+"f"
+]
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "E5+C6e G5e F5+B5e",
+"lh": "C3+G3 G2+G3e"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "E5+C6e G5e F5+B5e",
+"lh": "C3+G3 G2+G3e"
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "E5+C6e re re",
+"lh": "C3+E3+G3e C4e C4e",
+"marks": [
+"p"
+]
+},
+{
+"v": "rd",
+"ly": "",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "rd",
+"lh": "C3e C4e C4e"
+},
+{
+"v": "C5e re re",
+"ly": "Pour",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "C6e re re",
+"ly": "mon",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "C6d~",
+"ly": "â-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6d~",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "Liaison C6 vers la mesure suivante (tenue + liaison de phrasé)."
+},
+{
+"v": "C6e A5e F5e",
+"ly": "_ me",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e re A4+F5e",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "C6 lié (pas de syllabe) ; A5 prolonge 'â', 'me' sur F5. RH : C6 lié depuis la mesure préc. ?"
+},
+{
+"v": "E5e D5e C5e",
+"ly": "quel _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5+E5e Bb4+D5e A4+C5e",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "Bb4e G4e D5e",
+"ly": "des- _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G4+Bb4e E4+G4e Bb4+D5e",
+"lh": "C3e Bb3+C4e Bb3+C4e"
+},
+{
+"v": "C5d",
+"ly": "tin!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5e F4+A4e C5+F5e",
+"lh": "C3e A3+C4e A3+C4e"
+},
+{
+"v": "A4e re re",
+"ly": "_",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5e re re",
+"lh": "C3e A3e F3e"
+},
+{
+"v": "C5e re re",
+"ly": "J'ai",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+},
+{
+"v": "C6e re re",
+"ly": "sa",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e"
+}
+]
+}

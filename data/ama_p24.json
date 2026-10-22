@@ -1,0 +1,203 @@
+{
+"page": 24,
+"measures": [
+{
+"v": "E5e D5e C5e",
+"ly": "quel _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5+E5e Bb4+D5e A4+C5e",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e",
+"meter": "3/8",
+"ks": -1,
+"doubt": "Page imprimée 152. Grande liaison RH m1-m4."
+},
+{
+"v": "Bb4e G4e D5e",
+"ly": "des- _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G4+Bb4e E4+G4e Bb4+D5e",
+"lh": "C3e Bb3+C4e Bb3+C4e"
+},
+{
+"v": "C5d",
+"ly": "tin!",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5e F4+A4e C5+F5e",
+"lh": "C3e A3+C4e A3+C4e"
+},
+{
+"v": "A4e re re",
+"ly": "_",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5e re re",
+"lh": "C3e A3e F3e",
+"doubt": "LH A3-F3 lié vers la mesure suivante."
+},
+{
+"v": "C5 re",
+"ly": "J'ai",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e",
+"doubt": "Chant : C5 noire ici (croche à la page 150)."
+},
+{
+"v": "C6e re re",
+"ly": "sa",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e re re",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e",
+"doubt": "C6 staccato."
+},
+{
+"v": "C6d~",
+"ly": "flam-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6d~",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "Accent ; C6 lié à la mesure suivante."
+},
+{
+"v": "C6e A5e F5e",
+"ly": "_ me.",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C6e A5e F5e",
+"lh": "C3e A3+C4+F4e A3+C4+F4e",
+"doubt": "C6 lié (pas de syllabe) ; 'me.' imprimé avec un point."
+},
+{
+"v": "E5e D5e C5e",
+"ly": "j'ai _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "C5+E5e Bb4+D5e A4+C5e",
+"lh": "C3e Bb3+C4+E4e Bb3+C4+E4e",
+"doubt": "Coquille imprimée « i'ai » pour « j'ai »."
+},
+{
+"v": "Bb4e G4e C5e",
+"ly": "sa _ _",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G4+Bb4e E4+G4e E4+C5e",
+"lh": "C3e Bb3+C4e Bb3+C4e"
+},
+{
+"v": "F5e F5e E5e",
+"ly": "main! Me voi-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "F4e A4+F5e C5+E5e",
+"lh": "F3+A3+C4e re re",
+"marks": [
+"p"
+],
+"doubt": "Chant et RH staccato à partir d'ici."
+},
+{
+"v": "D5e E5e D5e",
+"ly": "ci. me voi-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "Bb4+D5e C5+E5e Bb4+D5e",
+"lh": "Bb2+F3e re re"
+},
+{
+"v": "C5e B4e C5e",
+"ly": "ci mi- li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5e G#4+B4e A4+C5e",
+"lh": "C3+F3e re re",
+"doubt": "B4 bécarre (chant et RH). LH : C3+F3 à vérifier."
+},
+{
+"v": "E5e D#5e E5e",
+"ly": "taire et ma-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G4+E5e F#4+D#5e G4+E5e",
+"lh": "C2+C3e re re",
+"doubt": "LH : note grave C2 (lignes supplémentaires peu nettes)."
+},
+{
+"v": "F5e F5e E5e",
+"ly": "ri! Me voi-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+F5e A4+F5e C5+E5e",
+"lh": "F2+F3e re re",
+"doubt": "Bécarre de précaution sur F5 (RH)."
+},
+{
+"v": "D5e E5e D5e",
+"ly": "ci, me voi-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "Bb4+D5e C5+E5e Bb4+D5e",
+"lh": "Bb2+F3e re re"
+},
+{
+"v": "C5e B4e C5e",
+"ly": "ci mi- li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+C5e G#4+B4e A4+C5e",
+"lh": "C2+C3e re re"
+},
+{
+"v": "E5e D#5e E5e",
+"ly": "taire et ma-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "G4+E5e F#4+D#5e G4+E5e",
+"lh": "C2+C3e re re"
+},
+{
+"v": "F5e B4e C5e",
+"ly": "ri, mi- li-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "A4+F5e B4s B5s C5s C6s",
+"lh": "F2+F3e B3e C4e",
+"doubt": "Accent sur B4 (RH) et B3 (LH) ; liaisons B4-B5, C5-C6, B3-C4. B bécarres. Chant non staccato ici."
+},
+{
+"v": "E5e E5e E5e",
+"ly": "taire et ma-",
+"su": "rd",
+"ct": "rd",
+"cb": "rd",
+"rh": "E5+G5+C6+E6e E5+G5+C6+E6e E5+G5+C6+E6e",
+"lh": "C3+Bb3+C4e C3+Bb3+C4e C3+Bb3+C4e",
+"doubt": "RH accords à 4 sons (lignes supplémentaires) à vérifier."
+}
+]
+}

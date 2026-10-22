@@ -1,0 +1,16 @@
+{"page":15,"measures":[
+{"meter":"3/8","ks":-1,"marks":[],
+ "v":"rd","ly":"","su":"Bb2e Bb2","lsu":"j'en- ra-","ct":"D5s D5s D5s D5s D5e // Bb4e Bb4e G#4e","lct":"Car c'est grand dom- ma-","cb":"Bb2e Bb2","lcb":"j'en- ra-",
+ "rh":"G5+G6e~ G5+G6s F5+F6s E5+E6s D5+D6s","lh":"Bb3+D4+G4e Bb3+D4+G4e Bb3+D4+G#4e",
+ "doubt":"Page imprimée 143 (la page précédente portait « 157 » : numéro parasite, la suite est continue). Pas de portée TONIO → silences. Deux portées de ténors : ct = haute // basse ; lct = portée haute ; portée basse : « dom- ma- _ » (Bb4 Bb4 G#4). lh en clé de SOL toute la page. Soufflet decrescendo sous la rh."},
+{"v":"rd","ly":"","su":"A2e E3s E3s E3s E3s","lsu":"ge, De l'u- nir a-","ct":"C#5e re re // A4e re re","lct":"ge","cb":"A2e E3s E3s E3s E3s","lcb":"ge, De l'u- nir a-","marks":["p"],
+ "rh":"A5e~ A5s E5s A5s C#6s","lh":"A3+C#4+E4+A4e A3+C#4+E4+A4e A3+C#4+E4+A4e","doubt":"p sous la rh (piano)."},
+{"v":"rd","ly":"","su":"E3e re re","lsu":"vec","ct":"re D5s D5s D5s D5s // re G#4s G#4s G#4s G#4s","lct":"De l'u- nir a-","cb":"E3e re re","lcb":"vec",
+ "rh":"B5e~ B5s E5s G#5s B5s","lh":"A3+D4+E4+G#4e A3+D4+E4+G#4e A3+D4+E4+G#4e","doubt":"Bécarre sur B5 (rh). Portée basse ténors : même texte « De l'u-nir a- »."},
+{"v":"rd","ly":"","su":"re E3s E3s E3s E3s","lsu":"Un pa- reil blanc-","ct":"C#5e re re // A4e re re","lct":"vec","cb":"re E3s E3s E3s E3s","lcb":"Un pa- reil blanc-",
+ "rh":"A5e~ A5s E5s A5s C#6s","lh":"A3+C#4+E4+A4e A3+C#4+E4+A4e A3+C#4+E4+A4e"},
+{"v":"rd","ly":"","su":"E3e re re","lsu":"bec!","ct":"re D5s D5s D5s D5s // re G#4s G#4s G#4s G#4s","lct":"Un pa- reil blanc-","cb":"E3e re re","lcb":"bec!",
+ "rh":"B5e~ B5s E5s G#5s B5s","lh":"A3+D4+E4+G#4e A3+D4+E4+G#4e A3+D4+E4+G#4e","doubt":"Ténors : imprimé « Un pareil blanc- » sous 4 notes (« pareil » sans trait d'union) — découpé pa-/reil sur 2 notes."},
+{"v":"rd","ly":"","su":"rs A3s A3s A3s A3s A3s","lsu":"Oui, c'est un grand dom-","ct":"C#5s C#5s C#5s C#5s C#5s C#5s // A4s A4s A4s A4s A4s A4s","lct":"bec! Oui, c'est un grand dom-","cb":"rs A3s A3s A3s A3s A3s","lcb":"Oui, c'est un grand dom-",
+ "rh":"A5e re re","lh":"A3+C#4+E4+A4e re re","doubt":"Retour en clé de FA à la lh en fin de mesure. Phrase « grand dom-mage » coupée vers la page suivante."}
+]}
