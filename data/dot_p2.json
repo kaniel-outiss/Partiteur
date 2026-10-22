@@ -1,35 +1,69 @@
-{"page":2,"measures":[
-{"meter":"4/4","v":"Eb3s Eb3s Eb3s Eb3s D3s D3s D3s D3s Eb3e Bb3s D3s Bb3s Eb3s Bb3s D3s","ly":"ri- na, un po' me- glio‿a‿im po- stu- rar, me- glio, me- glio, me- glio,",
- "rh":"G3+Bb3+Eb4 F3+Ab3+D4 Eb3+G3+Eb4s rs F3+Ab3+D4s rs Eb3+G3+Eb4s rs F3+Ab3+D4s rs",
- "lh":"Bb2 Bb1 Eb2s rs Bb1+Bb2s rs Eb2s rs Bb1+Bb2s rs",
- "doubt":"Page imprimée 67, mesures 11-18. Élision « glio a im » sous une seule note (comme m.9). Voix piquée, liaisons sur les 'meglio'."},
-{"marks":["pp"],"v":"Bb3e Eb3e re Eb4s Eb4s Eb4edd Bb3t Bb3edd C4t","ly":"me- glio, vi con- si- glio, mia ca-",
- "rh":"Eb3+G3+Eb4e re re Eb5+Eb6sd Eb5+Eb6t Eb5+Eb6edd Bb5t Bb5edd C6t",
- "lh":"Eb2e re r Eb2s Bb2s Eb3s Bb2s G3s Eb3s Bb2s G2s",
- "doubt":"MD 1er temps : deux silences de croche. MG doubles croches piquées."},
-{"v":"C4edd F3t F3e F3sd G3t Bb3s Ab3s G3s Ab3s C3s D3t Eb3t D3s Eb3t F3t","ly":"ri- _ na, un po' me- _ glio‿a‿im _ po- _ _ stu- _ _",
- "rh":"C6edd F5t F5e F5sd G5t Bb5s Ab5s G5s Ab5s C5s D5t Eb5t D5s Eb5t F5t",
- "lh":"Ab2s C3s F3s C3s Ab3s F3s C3s Ab2s F2s C3s F3s C3s F3+Ab3s C4s Bb2+F3s Bb3s",
- "doubt":"Liaisons de phrasé : 'ri' (do4→fa3), 'me' (sib-lab), 'glio a im' (sol-lab), groupes de 3 notes du 4e temps."},
-{"v":"Eb3s F3t G3t F3s G3t Ab3t G3e Eb4sd Eb4t Eb4edd Bb3t Bb3edd C4t","ly":"rar, _ _ sì, _ _ sì, vi con- si- glio, mia ca-",
- "rh":"Eb5s F5t G5t F5s G5t Ab5t G5e Eb5+Eb6sd Eb5+Eb6t Eb5+Eb6edd Bb5t Bb5edd C6t",
- "lh":"Eb3+G3s Eb3s D3s F3s Eb3e re Eb2s Bb2s Eb3s Bb2s G3s Eb3s Bb2s G2s",
- "doubt":"Voix : 'vi' croche-double pointée (point unique) piquée."},
-{"v":"C4e Bb3s3 Ab3s3 G3s3 F3e F3sd G3t Bb3s Ab3s G3s Ab3s C3s D3t Eb3t D3s Eb3t F3t","ly":"ri- _ _ _ na, un po' me- _ glio‿a‿im _ po- _ _ stu- _ _",
- "marks":[],
- "rh":"C6e Bb5s3 Ab5s3 G5s3 F5e F5sd G5t Bb5s Ab5s G5s Ab5s C5s D5t Eb5t D5s Eb5t F5t",
- "lh":"Ab2s C3s F3s C3s Ab3s F3s C3s Ab2s F2s C3s F3s C3s F3+Ab3s C4s Bb2+F3s Bb3s",
- "doubt":"1er temps : croche + triolet de doubles croches (chiffre 3) ; accent sur do6 (MD). Élision 'glio a im' comme m.13."},
-{"v":"Eb3e Eb4t D4t C4t Bb3t Ab3s Ab3s D4t C4t Bb3t Ab3t G3s G3s C4t Bb3t Ab3t G3t F3s F3s Bb3t Ab3t G3t F3t","ly":"rar. A‿un _ dot- _ tor del- la _ mia _ sor- te que- _ ste _ scu- se, si- _ gno- _",
- "rh":"Eb5e G5+Eb6t Bb5+D6t Ab5+C6t G5+Bb5t F5+Ab5s F5+Ab5s F5+D6t Ab5+C6t G5+Bb5t F5+Ab5t Eb5+G5s Eb5+G5s Eb5+C6t G5+Bb5t F5+Ab5t Eb5+G5t D5+F5s D5+F5s D5+Bb5t F5+Ab5t Eb5+G5t D5+F5t",
- "lh":"Eb3+G3+Bb3s Eb3+G3+Bb3s re Ab2+C3+F3s Ab2+C3+F3s re Bb2+Eb3+G3s Bb2+Eb3+G3s re Bb2+D3+F3+Bb3s Bb2+D3+F3+Bb3s re",
- "doubt":"Débit rapide : paires de triples croches liées + 2 doubles croches piquées ; répartition des syllabes déduite (2e note de chaque paire liée = mélisme). Accents sur le 1er accord de chaque groupe MD."},
-{"v":"G3s G3s Eb4t D4t C4t Bb3t Ab3s Ab3s D4t C4t Bb3t Ab3t G3s G3s C4t Bb3t Ab3t G3t F3s F3s Bb3t Ab3t G3t F3t","ly":"ri- na? Vi _ con- _ si- glio, mia _ ca- _ ri- na, un _ po' _ me- glio‿a‿im po- _ stu- _",
- "rh":"Eb5+G5s Eb5+G5s G5+Eb6t Bb5+D6t Ab5+C6t G5+Bb5t F5+Ab5s F5+Ab5s F5+D6t Ab5+C6t G5+Bb5t F5+Ab5t Eb5+G5s Eb5+G5s Eb5+C6t G5+Bb5t F5+Ab5t Eb5+G5t D5+F5s D5+F5s D5+Bb5t F5+Ab5t Eb5+G5t D5+F5t",
- "lh":"Eb3+G3+Bb3s Eb3+G3+Bb3s Eb3+G3+Bb3s rs Ab2+C3+F3s Ab2+C3+F3s Ab2+C3+F3s rs Bb2+Eb3+G3s Bb2+Eb3+G3s Bb2+Eb3+G3s rs Bb2+D3+F3+Bb3s Bb2+D3+F3+Bb3s Bb2+D3+F3+Bb3s rs",
- "doubt":"Long soufflet de crescendo (MD) vers m.18. Syllabes réparties selon le même schéma que m.16 (texte imprimé serré). Élision 'glio a im'."},
-{"marks":["ff"],"v":"Eb4 C4s D4t Eb4t D4s C4s Bb3edd Bb3t D4edd C4t","ly":"rar, un _ _ _ po' me- glio‿a‿im po- stu-",
- "rh":"Eb5+G5+Bb5+Eb6s G5+Bb5+Eb6t Eb5t G5+Bb5+Eb6s Eb5+G5+Bb5+Eb6s Eb5+Ab5+C6+Eb6s Ab5+C6+Eb6t Eb5t Ab5+C6+Eb6s Eb5+Ab5+C6+Eb6s Eb5+G5+Bb5+Eb6s G5+Bb5+Eb6t Eb5t G5+Bb5+Eb6s Eb5+G5+Bb5+Eb6s D5+F5+Bb5+D6s F5+Bb5+D6t D5t F5+Bb5+D6s D5+F5+Bb5+D6s",
- "lh":"Eb2+Eb3s Eb2t Eb3t Eb2s Eb2+Eb3s Ab2+Ab3s Ab2t Ab3t Ab2s Ab2+Ab3s Bb2+Bb3s Bb2t Bb3t Bb2s Bb2+Bb3s Bb1+Bb2s Bb1t Bb2t Bb1s Bb1+Bb2s",
- "doubt":"Accords piqués écrits à deux voix (accord, puis note grave isolée en triple croche) ; transcrits en succession. Accords MD des 4e/5e frappes : présence de la note grave lue au détecteur, à vérifier."}
-]}
+{
+"page": 2,
+"measures": [
+{
+"meter": "4/4",
+"v": "Eb3s Eb3s Eb3s Eb3s D3s D3s D3s D3s Eb3e Bb3s D3s Bb3s Eb3s Bb3s D3s",
+"ly": "ri- na, un po' me- glio‿a‿im- po- stu- rar, me- glio, me- glio, me- glio,",
+"rh": "G3+Bb3+Eb4 F3+Ab3+D4 Eb3+G3+Eb4s rs F3+Ab3+D4s rs Eb3+G3+Eb4s rs F3+Ab3+D4s rs",
+"lh": "Bb2 Bb1 Eb2s rs Bb1+Bb2s rs Eb2s rs Bb1+Bb2s rs",
+"doubt": "Page imprimée 67, mesures 11-18. Élision « glio a im » sous une seule note (comme m.9). Voix piquée, liaisons sur les 'meglio'."
+},
+{
+"marks": [
+"pp"
+],
+"v": "Bb3e Eb3e re Eb4s Eb4s Eb4edd Bb3t Bb3edd C4t",
+"ly": "me- glio, vi con- si- glio, mia ca-",
+"rh": "Eb3+G3+Eb4e re re Eb5+Eb6sd Eb5+Eb6t Eb5+Eb6edd Bb5t Bb5edd C6t",
+"lh": "Eb2e re r Eb2s Bb2s Eb3s Bb2s G3s Eb3s Bb2s G2s",
+"doubt": "MD 1er temps : deux silences de croche. MG doubles croches piquées."
+},
+{
+"v": "C4edd F3t F3e F3sd G3t Bb3s Ab3s G3s Ab3s C3s D3t Eb3t D3s Eb3t F3t",
+"ly": "ri- _ na, un po' me- _ glio‿a‿im _ po- _ _ stu- _ _",
+"rh": "C6edd F5t F5e F5sd G5t Bb5s Ab5s G5s Ab5s C5s D5t Eb5t D5s Eb5t F5t",
+"lh": "Ab2s C3s F3s C3s Ab3s F3s C3s Ab2s F2s C3s F3s C3s F3+Ab3s C4s Bb2+F3s Bb3s",
+"doubt": "Liaisons de phrasé : 'ri' (do4→fa3), 'me' (sib-lab), 'glio a im' (sol-lab), groupes de 3 notes du 4e temps."
+},
+{
+"v": "Eb3s F3t G3t F3s G3t Ab3t G3e Eb4sd Eb4t Eb4edd Bb3t Bb3edd C4t",
+"ly": "rar, _ _ sì, _ _ sì, vi con- si- glio, mia ca-",
+"rh": "Eb5s F5t G5t F5s G5t Ab5t G5e Eb5+Eb6sd Eb5+Eb6t Eb5+Eb6edd Bb5t Bb5edd C6t",
+"lh": "Eb3+G3s Eb3s D3s F3s Eb3e re Eb2s Bb2s Eb3s Bb2s G3s Eb3s Bb2s G2s",
+"doubt": "Voix : 'vi' croche-double pointée (point unique) piquée."
+},
+{
+"v": "C4e Bb3s3 Ab3s3 G3s3 F3e F3sd G3t Bb3s Ab3s G3s Ab3s C3s D3t Eb3t D3s Eb3t F3t",
+"ly": "ri- _ _ _ na, un po' me- _ glio‿a‿im _ po- _ _ stu- _ _",
+"marks": [],
+"rh": "C6e Bb5s3 Ab5s3 G5s3 F5e F5sd G5t Bb5s Ab5s G5s Ab5s C5s D5t Eb5t D5s Eb5t F5t",
+"lh": "Ab2s C3s F3s C3s Ab3s F3s C3s Ab2s F2s C3s F3s C3s F3+Ab3s C4s Bb2+F3s Bb3s",
+"doubt": "1er temps : croche + triolet de doubles croches (chiffre 3) ; accent sur do6 (MD). Élision 'glio a im' comme m.13."
+},
+{
+"v": "Eb3e Eb4t D4t C4t Bb3t Ab3s Ab3s D4t C4t Bb3t Ab3t G3s G3s C4t Bb3t Ab3t G3t F3s F3s Bb3t Ab3t G3t F3t",
+"ly": "rar. A‿un _ dot- _ tor del- la _ mia _ sor- te que- _ ste _ scu- se, si- _ gno- _",
+"rh": "Eb5e G5+Eb6t Bb5+D6t Ab5+C6t G5+Bb5t F5+Ab5s F5+Ab5s F5+D6t Ab5+C6t G5+Bb5t F5+Ab5t Eb5+G5s Eb5+G5s Eb5+C6t G5+Bb5t F5+Ab5t Eb5+G5t D5+F5s D5+F5s D5+Bb5t F5+Ab5t Eb5+G5t D5+F5t",
+"lh": "Eb3+G3+Bb3s Eb3+G3+Bb3s re Ab2+C3+F3s Ab2+C3+F3s re Bb2+Eb3+G3s Bb2+Eb3+G3s re Bb2+D3+F3+Bb3s Bb2+D3+F3+Bb3s re",
+"doubt": "Débit rapide : paires de triples croches liées + 2 doubles croches piquées ; répartition des syllabes déduite (2e note de chaque paire liée = mélisme). Accents sur le 1er accord de chaque groupe MD."
+},
+{
+"v": "G3s G3s Eb4t D4t C4t Bb3t Ab3s Ab3s D4t C4t Bb3t Ab3t G3s G3s C4t Bb3t Ab3t G3t F3s F3s Bb3t Ab3t G3t F3t",
+"ly": "ri- na? Vi _ con- _ si- glio, mia _ ca- _ ri- na, un _ po' _ me- glio‿a‿im- po- _ stu- _",
+"rh": "Eb5+G5s Eb5+G5s G5+Eb6t Bb5+D6t Ab5+C6t G5+Bb5t F5+Ab5s F5+Ab5s F5+D6t Ab5+C6t G5+Bb5t F5+Ab5t Eb5+G5s Eb5+G5s Eb5+C6t G5+Bb5t F5+Ab5t Eb5+G5t D5+F5s D5+F5s D5+Bb5t F5+Ab5t Eb5+G5t D5+F5t",
+"lh": "Eb3+G3+Bb3s Eb3+G3+Bb3s Eb3+G3+Bb3s rs Ab2+C3+F3s Ab2+C3+F3s Ab2+C3+F3s rs Bb2+Eb3+G3s Bb2+Eb3+G3s Bb2+Eb3+G3s rs Bb2+D3+F3+Bb3s Bb2+D3+F3+Bb3s Bb2+D3+F3+Bb3s rs",
+"doubt": "Long soufflet de crescendo (MD) vers m.18. Syllabes réparties selon le même schéma que m.16 (texte imprimé serré). Élision 'glio a im'."
+},
+{
+"marks": [
+"ff"
+],
+"v": "Eb4 C4s D4t Eb4t D4s C4s Bb3edd Bb3t D4edd C4t",
+"ly": "rar, un _ _ _ po' me- glio‿a‿im- po- stu-",
+"rh": "Eb5+G5+Bb5+Eb6s G5+Bb5+Eb6t Eb5t G5+Bb5+Eb6s Eb5+G5+Bb5+Eb6s Eb5+Ab5+C6+Eb6s Ab5+C6+Eb6t Eb5t Ab5+C6+Eb6s Eb5+Ab5+C6+Eb6s Eb5+G5+Bb5+Eb6s G5+Bb5+Eb6t Eb5t G5+Bb5+Eb6s Eb5+G5+Bb5+Eb6s D5+F5+Bb5+D6s F5+Bb5+D6t D5t F5+Bb5+D6s D5+F5+Bb5+D6s",
+"lh": "Eb2+Eb3s Eb2t Eb3t Eb2s Eb2+Eb3s Ab2+Ab3s Ab2t Ab3t Ab2s Ab2+Ab3s Bb2+Bb3s Bb2t Bb3t Bb2s Bb2+Bb3s Bb1+Bb2s Bb1t Bb2t Bb1s Bb1+Bb2s",
+"doubt": "Accords piqués écrits à deux voix (accord, puis note grave isolée en triple croche) ; transcrits en succession. Accords MD des 4e/5e frappes : présence de la note grave lue au détecteur, à vérifier."
+}
+]
+}

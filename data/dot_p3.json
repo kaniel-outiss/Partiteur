@@ -1,33 +1,73 @@
-{"page":3,"measures":[
-{"meter":"4/4","v":"Eb4 Ab3t Bb3t C4t D4t Eb4t D4t Eb4t C4t Bb3s Eb4s D4s C4s Bb3s Ab3s G3s F3s","ly":"rar, un _ _ _ po' _ _ _ me- glio, un po' me- glio‿a‿im po- stu-",
- "rh":"Eb5+G5+Bb5+Eb6s G5+Bb5+Eb6t Eb5t G5+Bb5+Eb6s Eb5+G5+Bb5+Eb6s Eb5+Ab5+C6+Eb6s Ab5+C6+Eb6t Eb5t Ab5+C6+Eb6s Eb5+Ab5+C6+Eb6s Eb5+G5+Bb5+Eb6e Eb5+G5+Bb5+Eb6e D5+F5+Bb5+D6e D5+F5+Bb5+D6e",
- "lh":"Eb2+Eb3s Eb2t Eb3t Eb2s Eb2+Eb3s Ab2+Ab3s Ab2t Ab3t Ab2s Ab2+Ab3s Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e",
- "doubt":"Page imprimée 68, mesures 19-26. Voix : D4 (4e triple croche) sur ligne supp. lu à l'oeil. 1er temps piano = même figure qu'en m.18 (accord + note isolée)."},
-{"v":"Eb3 r rh","ly":"rar.",
- "rh":"Eb5+G5+Bb5+Eb6e G5t F5t Eb5t D5t C5t B4t C5t D5t Eb5t D5t C5t Bb4t A4t G4t A4t Bb4t C5t Bb4t A4t G4t F4t E4t F4t G4t A4t G4t F4t Eb4t",
- "lh":"Eb3+Bb3+Eb4e G4t F4t Eb4t D4t C4t B3t C4t D4t Eb4t D4t C4t Bb3t A3t G3t A3t Bb3t C4t Bb3t A3t G3t F3t E3t F3t G3t A3t G3t F3t Eb3t",
- "doubt":"Accord MD du 1er temps : Eb5+G5+Bb5 lus, Eb6 supposé (lignes supp. coupées). MG = MD à l'octave inférieure (lignes supp. au-dessus de la clé de fa). Piqué/liaisons par paires."},
-{"marks":["p","dolce","pp"],"v":"rw","ly":"",
- "rh":"D4e D5s D5s D5s D5s D5s D5s D5s G5s F5t Eb5t D5t C5t B4e D5sd C5t",
- "lh":"D3e D4+F#4e E4+G4e F4+A4e G4+Bb4e Eb3+G3+C4e F3+B3+D4e F3+A3+Eb4e",
- "doubt":"MG : clé de sol après la 1re croche (ré3), retour en clé de fa pour les 3 derniers accords ; 2e accord : bécarre lu sur mi (E4) ; 3e accord bécarre sur la (A4). Accords en clé de fa : bécarres sur si (B3) et la (A3). Hampe/durées des 3 derniers accords lues comme croches. MD : gruppetto (turn) avec bécarre au-dessus du si4 ; F5 bécarre (= fa naturel). 'p' sous la MG, soufflet <>, 'pp' à l'entrée de la clé de fa."},
-{"marks":["p"],"v":"rh re Bb3s Bb3s Bb3s Bb3s Bb3s Bb3s","ly":"I con- fet- ti‿al- la ra-",
- "rh":"Bb4e re D5s3 D5s3 D5s3 Eb5s3 Eb5s3 Eb5s3 E5s3 E5s3 E5s3 F5s3 F5s3 F5s3 G5s3 G5s3 G5s3 D5s3 D5s3 D5s3",
- "lh":"Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s",
- "doubt":"Élision imprimée « ti al » (une note). Groupes de 3 doubles croches à la MD lus comme triolets (6 groupes sur 3 temps). Hauteur des 6 notes de chant toutes lues sib3."},
-{"v":"A3e C4e r re Eb3s Eb3s Eb3s Eb3s Eb3s Eb3s","ly":"gaz- za? Il ri- ca- mo sul tam-",
- "rh":"F5s3 F5s3 F5s3 E5s3 E5s3 E5s3 Eb6s3 Eb5s3 Eb6s3 C6s3 C5s3 C6s3 G5s3 G4s3 G5s3 Bb5s3 Bb4s3 Bb5s3 A5s3 A4s3 A5s3 C6s3 C5s3 C6s3",
- "lh":"A2s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s C3s F3+A3+Eb4s F3+A3+Eb4s F3+A3+Eb4s F3s A3+Eb4+F4s A3+Eb4+F4s A3+Eb4+F4s",
- "doubt":"Accent sur le 1er fa5. 3e groupe MD : bémols devant mib6 (haut) et mib5 (annule le bécarre) — haut lu Eb6 (peut-être Db6). MG : accords à seconde (mib3-fa3 ; mib4-fa4) lus à l'oeil ; bécarres sur la2 et la3."},
-{"v":"D3e F3e r r Bb3ed Bb3s","ly":"bu- ro? Vi scot-",
- "rh":"Bb5s3 Bb4s3 Bb5s3 F5s3 F4s3 F5s3 D5s3 D5s3 D5s3 Eb5s3 Eb5s3 Eb5s3 E5s3 E5s3 E5s3 F5s3 F5s3 F5s3 G5s3 G5s3 G5s3 D5s3 D5s3 D5s3",
- "lh":"Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s",
- "doubt":"Accent sur 'Vi'. MD : groupes 1-2 lus sib5/sib4 et fa5/fa4 (oeil, vue d'ensemble)."},
-{"v":"A3e C4e red F3s F3e F3e red Eb3s","ly":"ta- ste? Eh vi- a! eh",
- "rh":"F5s3 F5s3 F5s3 E5s3 E5s3 E5s3 Eb6s3 Eb5s3 Eb6s3 C6s3 C5s3 C6s3 G5s3 G4s3 G5s3 Bb5s3 Bb4s3 Bb5s3 A5s3 A4s3 A5s3 C6s3 C5s3 C6s3",
- "lh":"A2s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s C3s F3+A3+Eb4s F3+A3+Eb4s F3+A3+Eb4s F3s A3+Eb4+F4s A3+Eb4+F4s A3+Eb4+F4s",
- "doubt":"Piano identique à m.23 (mêmes doutes)."},
-{"marks":["p"],"v":"D3e D3e re^ Bb3s Bb3s Ab3~ Ab3s Bb3t C4t Bb3s Ab3s","ly":"vi- a! Ci vuol al- _ tro, _ fi- glia",
- "rh":"Bb4+Bb5 re^ re C4+Eb4+Ab4h","lh":"Bb3+D4 re^ re Ab2h",
- "doubt":"Points d'orgue sur les silences (chant, MD, MG). Accent sur lab3 (chant) et sur l'accord / le lab2 final ; soufflet <> ; 'p'. Mesure 27 en haut de la page suivante."}
-]}
+{
+"page": 3,
+"measures": [
+{
+"meter": "4/4",
+"v": "Eb4 Ab3t Bb3t C4t D4t Eb4t D4t Eb4t C4t Bb3s Eb4s D4s C4s Bb3s Ab3s G3s F3s",
+"ly": "rar, un _ _ _ po' _ _ _ me- glio, un po' me- glio‿a‿im- po- stu-",
+"rh": "Eb5+G5+Bb5+Eb6s G5+Bb5+Eb6t Eb5t G5+Bb5+Eb6s Eb5+G5+Bb5+Eb6s Eb5+Ab5+C6+Eb6s Ab5+C6+Eb6t Eb5t Ab5+C6+Eb6s Eb5+Ab5+C6+Eb6s Eb5+G5+Bb5+Eb6e Eb5+G5+Bb5+Eb6e D5+F5+Bb5+D6e D5+F5+Bb5+D6e",
+"lh": "Eb2+Eb3s Eb2t Eb3t Eb2s Eb2+Eb3s Ab2+Ab3s Ab2t Ab3t Ab2s Ab2+Ab3s Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e Bb2+Bb3e",
+"doubt": "Page imprimée 68, mesures 19-26. Voix : D4 (4e triple croche) sur ligne supp. lu à l'oeil. 1er temps piano = même figure qu'en m.18 (accord + note isolée)."
+},
+{
+"v": "Eb3 r rh",
+"ly": "rar.",
+"rh": "Eb5+G5+Bb5+Eb6e G5t F5t Eb5t D5t C5t B4t C5t D5t Eb5t D5t C5t Bb4t A4t G4t A4t Bb4t C5t Bb4t A4t G4t F4t E4t F4t G4t A4t G4t F4t Eb4t",
+"lh": "Eb3+Bb3+Eb4e G4t F4t Eb4t D4t C4t B3t C4t D4t Eb4t D4t C4t Bb3t A3t G3t A3t Bb3t C4t Bb3t A3t G3t F3t E3t F3t G3t A3t G3t F3t Eb3t",
+"doubt": "Accord MD du 1er temps : Eb5+G5+Bb5 lus, Eb6 supposé (lignes supp. coupées). MG = MD à l'octave inférieure (lignes supp. au-dessus de la clé de fa). Piqué/liaisons par paires."
+},
+{
+"marks": [
+"p",
+"dolce",
+"pp"
+],
+"v": "rw",
+"ly": "",
+"rh": "D4e D5s D5s D5s D5s D5s D5s D5s G5s F5t Eb5t D5t C5t B4e D5sd C5t",
+"lh": "D3e D4+F#4e E4+G4e F4+A4e G4+Bb4e Eb3+G3+C4e F3+B3+D4e F3+A3+Eb4e",
+"doubt": "MG : clé de sol après la 1re croche (ré3), retour en clé de fa pour les 3 derniers accords ; 2e accord : bécarre lu sur mi (E4) ; 3e accord bécarre sur la (A4). Accords en clé de fa : bécarres sur si (B3) et la (A3). Hampe/durées des 3 derniers accords lues comme croches. MD : gruppetto (turn) avec bécarre au-dessus du si4 ; F5 bécarre (= fa naturel). 'p' sous la MG, soufflet <>, 'pp' à l'entrée de la clé de fa."
+},
+{
+"marks": [
+"p"
+],
+"v": "rh re Bb3s Bb3s Bb3s Bb3s Bb3s Bb3s",
+"ly": "I con- fet- ti‿al- la ra-",
+"rh": "Bb4e re D5s3 D5s3 D5s3 Eb5s3 Eb5s3 Eb5s3 E5s3 E5s3 E5s3 F5s3 F5s3 F5s3 G5s3 G5s3 G5s3 D5s3 D5s3 D5s3",
+"lh": "Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s",
+"doubt": "Élision imprimée « ti al » (une note). Groupes de 3 doubles croches à la MD lus comme triolets (6 groupes sur 3 temps). Hauteur des 6 notes de chant toutes lues sib3."
+},
+{
+"v": "A3e C4e r re Eb3s Eb3s Eb3s Eb3s Eb3s Eb3s",
+"ly": "gaz- za? Il ri- ca- mo sul tam-",
+"rh": "F5s3 F5s3 F5s3 E5s3 E5s3 E5s3 Eb6s3 Eb5s3 Eb6s3 C6s3 C5s3 C6s3 G5s3 G4s3 G5s3 Bb5s3 Bb4s3 Bb5s3 A5s3 A4s3 A5s3 C6s3 C5s3 C6s3",
+"lh": "A2s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s C3s F3+A3+Eb4s F3+A3+Eb4s F3+A3+Eb4s F3s A3+Eb4+F4s A3+Eb4+F4s A3+Eb4+F4s",
+"doubt": "Accent sur le 1er fa5. 3e groupe MD : bémols devant mib6 (haut) et mib5 (annule le bécarre) — haut lu Eb6 (peut-être Db6). MG : accords à seconde (mib3-fa3 ; mib4-fa4) lus à l'oeil ; bécarres sur la2 et la3."
+},
+{
+"v": "D3e F3e r r Bb3ed Bb3s",
+"ly": "bu- ro? Vi scot-",
+"rh": "Bb5s3 Bb4s3 Bb5s3 F5s3 F4s3 F5s3 D5s3 D5s3 D5s3 Eb5s3 Eb5s3 Eb5s3 E5s3 E5s3 E5s3 F5s3 F5s3 F5s3 G5s3 G5s3 G5s3 D5s3 D5s3 D5s3",
+"lh": "Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s Bb2s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s F3+Bb3+D4s",
+"doubt": "Accent sur 'Vi'. MD : groupes 1-2 lus sib5/sib4 et fa5/fa4 (oeil, vue d'ensemble)."
+},
+{
+"v": "A3e C4e red F3s F3e F3e red Eb3s",
+"ly": "ta- ste? Eh vi- a! eh",
+"rh": "F5s3 F5s3 F5s3 E5s3 E5s3 E5s3 Eb6s3 Eb5s3 Eb6s3 C6s3 C5s3 C6s3 G5s3 G4s3 G5s3 Bb5s3 Bb4s3 Bb5s3 A5s3 A4s3 A5s3 C6s3 C5s3 C6s3",
+"lh": "A2s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s Eb3+F3+C4s C3s F3+A3+Eb4s F3+A3+Eb4s F3+A3+Eb4s F3s A3+Eb4+F4s A3+Eb4+F4s A3+Eb4+F4s",
+"doubt": "Piano identique à m.23 (mêmes doutes)."
+},
+{
+"marks": [
+"p"
+],
+"v": "D3e D3e re^ Bb3s Bb3s Ab3~ Ab3s Bb3t C4t Bb3s Ab3s",
+"ly": "vi- a! Ci vuol al- _ tro, _ fi- glia",
+"rh": "Bb4+Bb5 re^ re C4+Eb4+Ab4h",
+"lh": "Bb3+D4 re^ re Ab2h",
+"doubt": "Points d'orgue sur les silences (chant, MD, MG). Accent sur lab3 (chant) et sur l'accord / le lab2 final ; soufflet <> ; 'p'. Mesure 27 en haut de la page suivante."
+}
+]
+}

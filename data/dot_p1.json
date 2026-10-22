@@ -1,36 +1,87 @@
-{"page":1,"measures":[
-{"meter":"4/4","tempo":"Andante maestoso","marks":["mf"],"v":"rw","ly":"",
- "rh":"Bb3+F4+Bb4 Bb3+Eb4+G4h C4+F4+A4","lh":"D3 Eb3h Eb3",
- "doubt":"Page imprimée 66, titre en tête. m.1 MD 1er accord : Bb3+F4+Bb4 (un ré4 possible, illisible). Legato (liaison) aux deux mains."},
-{"v":"rh Bb3dd Bb3s","ly":"A‿un dot-",
- "rh":"Bb3+F4+Bb4hd r","lh":"D3hd r"},
-{"marks":["p"],"v":"Eb3dd Eb3s Eb3dd Eb3s","ly":"tor del- la mia",
- "rh":"G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4e re G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4e re",
- "lh":"Eb2s Eb3s Eb2s Eb3s Eb2e re D2s D3s D2s D3s D2e re",
- "doubt":"Piano : notes piquées sous liaison (portato). MD 2e groupe lu identique au 1er (G3+Eb4+G4) malgré la basse ré."},
-{"v":"G3 Eb3 r C4edd Ab3t","ly":"sor- te que- ste",
- "rh":"G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4e re rh",
- "lh":"C2s C3s C2s C3s C2e re rh"},
-{"v":"F3dd F3s F3dd F3s","ly":"scu- se, si- gno-",
- "rh":"Ab3+F4+Ab4s Ab3+F4+Ab4s Ab3+F4+Ab4s Ab3+F4+Ab4s Ab3+F4+Ab4e re Cb4+F4+Ab4s Cb4+F4+Ab4s Cb4+F4+Ab4s Cb4+F4+Ab4s Cb4+F4+Ab4e re",
- "lh":"F2s F3s F2s F3s F2e re Eb2s Eb3s Eb2s Eb3s Eb2e re",
- "doubt":"MD 2e groupe : bémol devant la note sur la 1re ligne supp. (Cb4)."},
-{"v":"Ab3 F3 r Bb3edd Bb3t","ly":"ri- na? A‿un dot-",
- "rh":"Bb3+F4+Ab4s Bb3+F4+Ab4s Bb3+F4+Ab4s Bb3+F4+Ab4s Bb3+F4+Ab4e re rh gF5 gG5 gAb5 gBb5 gC6 gD6",
- "lh":"D2s D3s D2s D3s D2e re rh gF3 gG3 gAb3 gBb3 gC4 gD4",
- "doubt":"Fin de mesure : gamme de 6 petites notes (double croches en petit) aux deux mains, liée vers le 1er temps de m.7 ; notées en g. Hauteurs Ab5/C6 déduites des lignes supp. (peu nettes)."},
-{"marks":["ff"],"v":"Eb4~ Eb4sd D4t C4sd B3t C4sd Bb3t Ab3sd G3t Ab3sd G3t F3sd Eb3t","ly":"tor del- la mia sor- te que- ste scu- se, si- gno-",
- "rh":"Eb5+Eb6sd Bb5t Eb5+Eb6sd Bb5t Eb5+Eb6sd D5+D6t C5+C6sd B4+B5t C5+C6sd Bb4+Bb5t Ab4+Ab5sd G4+G5t Ab4+Ab5sd G4+G5t F4+F5sd Eb4+Eb5t",
- "lh":"Eb4+G4sd Bb3t Eb3+Eb4sd Bb3t Eb3+Eb4sd D3+D4t C3+C4sd B2+B3t C3+C4sd Bb2+Bb3t Ab2+Ab3sd G2+G3t Ab2+Ab3sd G2+G3t F2+F3sd Eb2+Eb3t",
- "doubt":"MG 1er accord lu Eb4+G4 (sans Eb3). Voix : 'tor' tenu (trait de prolongation) puis note liée."},
-{"marks":["p"],"v":"Bb3e Bb2e re^ Bb3s Bb3s Ab3~ Ab3s Bb3t C4t Bb3s Ab3s","ly":"ri- na? Vi con- si- glio, _ mia ca-",
- "rh":"Bb4+D5+F5+Ab5 re^ re C4+Eb4+Ab4h","lh":"Bb1+Bb2 re^ re C3h",
- "doubt":"Voix : Vi, con, mia, ca piqués ; accent sur 'si'. Accord MD final : C4+Eb4+Ab4 (tête intermédiaire possible, empâtée), accent, soufflet < >."},
-{"v":"G3s G3s G3s G3s F#3s F#3s F#3s F#3s G3e D4s F#3s D4s G3s D4s F#3s","ly":"ri- na, un po' me- glio‿a‿im po- stu- rar, me- glio, me- glio, me- glio,",
- "rh":"Bb3+Eb4+G4 A3+C4+F#4 G3+Bb3+G4s rs A3+C4+F#4s rs G3+Bb3+G4s rs A3+C4+F#4s rs",
- "lh":"D3 D2 G2s rs D2+D3s rs G2s rs D2+D3s rs",
- "doubt":"Élision imprimée sous « glio a im » (une seule note). Voix piquée ; 'meglio' D4-F#3/G3 sous liaisons."},
-{"v":"D4e G3e re G3s G3s F3~ F3s G3t Ab3t G3s F3s","ly":"me- glio, vi con- si- glio, _ mia ca-",
- "rh":"G3+Bb3+G4e re r Ab3+C4+F4h","lh":"G2e re r Ab2h",
- "doubt":"Bécarre de précaution sur fa (voix et MD) ; accent sur l'accord final, soufflet < >. Mesure suivante (11) en haut de la page 2."}
-]}
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Andante maestoso",
+"marks": [
+"mf"
+],
+"v": "rw",
+"ly": "",
+"rh": "Bb3+F4+Bb4 Bb3+Eb4+G4h C4+F4+A4",
+"lh": "D3 Eb3h Eb3",
+"doubt": "Page imprimée 66, titre en tête. m.1 MD 1er accord : Bb3+F4+Bb4 (un ré4 possible, illisible). Legato (liaison) aux deux mains."
+},
+{
+"v": "rh Bb3dd Bb3s",
+"ly": "A‿un dot-",
+"rh": "Bb3+F4+Bb4hd r",
+"lh": "D3hd r"
+},
+{
+"marks": [
+"p"
+],
+"v": "Eb3dd Eb3s Eb3dd Eb3s",
+"ly": "tor del- la mia",
+"rh": "G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4e re G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4e re",
+"lh": "Eb2s Eb3s Eb2s Eb3s Eb2e re D2s D3s D2s D3s D2e re",
+"doubt": "Piano : notes piquées sous liaison (portato). MD 2e groupe lu identique au 1er (G3+Eb4+G4) malgré la basse ré."
+},
+{
+"v": "G3 Eb3 r C4edd Ab3t",
+"ly": "sor- te que- ste",
+"rh": "G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4s G3+Eb4+G4e re rh",
+"lh": "C2s C3s C2s C3s C2e re rh"
+},
+{
+"v": "F3dd F3s F3dd F3s",
+"ly": "scu- se, si- gno-",
+"rh": "Ab3+F4+Ab4s Ab3+F4+Ab4s Ab3+F4+Ab4s Ab3+F4+Ab4s Ab3+F4+Ab4e re Cb4+F4+Ab4s Cb4+F4+Ab4s Cb4+F4+Ab4s Cb4+F4+Ab4s Cb4+F4+Ab4e re",
+"lh": "F2s F3s F2s F3s F2e re Eb2s Eb3s Eb2s Eb3s Eb2e re",
+"doubt": "MD 2e groupe : bémol devant la note sur la 1re ligne supp. (Cb4)."
+},
+{
+"v": "Ab3 F3 r Bb3edd Bb3t",
+"ly": "ri- na? A‿un dot-",
+"rh": "Bb3+F4+Ab4s Bb3+F4+Ab4s Bb3+F4+Ab4s Bb3+F4+Ab4s Bb3+F4+Ab4e re rh gF5 gG5 gAb5 gBb5 gC6 gD6",
+"lh": "D2s D3s D2s D3s D2e re rh gF3 gG3 gAb3 gBb3 gC4 gD4",
+"doubt": "Fin de mesure : gamme de 6 petites notes (double croches en petit) aux deux mains, liée vers le 1er temps de m.7 ; notées en g. Hauteurs Ab5/C6 déduites des lignes supp. (peu nettes)."
+},
+{
+"marks": [
+"ff"
+],
+"v": "Eb4~ Eb4sd D4t C4sd B3t C4sd Bb3t Ab3sd G3t Ab3sd G3t F3sd Eb3t",
+"ly": "tor del- la mia sor- te que- ste scu- se, si- gno-",
+"rh": "Eb5+Eb6sd Bb5t Eb5+Eb6sd Bb5t Eb5+Eb6sd D5+D6t C5+C6sd B4+B5t C5+C6sd Bb4+Bb5t Ab4+Ab5sd G4+G5t Ab4+Ab5sd G4+G5t F4+F5sd Eb4+Eb5t",
+"lh": "Eb4+G4sd Bb3t Eb3+Eb4sd Bb3t Eb3+Eb4sd D3+D4t C3+C4sd B2+B3t C3+C4sd Bb2+Bb3t Ab2+Ab3sd G2+G3t Ab2+Ab3sd G2+G3t F2+F3sd Eb2+Eb3t",
+"doubt": "MG 1er accord lu Eb4+G4 (sans Eb3). Voix : 'tor' tenu (trait de prolongation) puis note liée."
+},
+{
+"marks": [
+"p"
+],
+"v": "Bb3e Bb2e re^ Bb3s Bb3s Ab3~ Ab3s Bb3t C4t Bb3s Ab3s",
+"ly": "ri- na? Vi con- si- glio, _ mia ca-",
+"rh": "Bb4+D5+F5+Ab5 re^ re C4+Eb4+Ab4h",
+"lh": "Bb1+Bb2 re^ re C3h",
+"doubt": "Voix : Vi, con, mia, ca piqués ; accent sur 'si'. Accord MD final : C4+Eb4+Ab4 (tête intermédiaire possible, empâtée), accent, soufflet < >."
+},
+{
+"v": "G3s G3s G3s G3s F#3s F#3s F#3s F#3s G3e D4s F#3s D4s G3s D4s F#3s",
+"ly": "ri- na, un po' me- glio‿a‿im- po- stu- rar, me- glio, me- glio, me- glio,",
+"rh": "Bb3+Eb4+G4 A3+C4+F#4 G3+Bb3+G4s rs A3+C4+F#4s rs G3+Bb3+G4s rs A3+C4+F#4s rs",
+"lh": "D3 D2 G2s rs D2+D3s rs G2s rs D2+D3s rs",
+"doubt": "Élision imprimée sous « glio a im » (une seule note). Voix piquée ; 'meglio' D4-F#3/G3 sous liaisons."
+},
+{
+"v": "D4e G3e re G3s G3s F3~ F3s G3t Ab3t G3s F3s",
+"ly": "me- glio, vi con- si- glio, _ mia ca-",
+"rh": "G3+Bb3+G4e re r Ab3+C4+F4h",
+"lh": "G2e re r Ab2h",
+"doubt": "Bécarre de précaution sur fa (voix et MD) ; accent sur l'accord final, soufflet < >. Mesure suivante (11) en haut de la page 2."
+}
+]
+}

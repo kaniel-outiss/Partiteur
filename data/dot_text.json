@@ -39,8 +39,8 @@
 },
 {
 "key": "i confetti",
-"it": "I confetti alla ragazza? Il ricamo sul tamburo? Scottata la manina? Ci vuol altro, figlia mia, per potermi corbellar.",
-"ipa": "i konˈfetti ˈalla raˈɡattsa il riˈkaːmo sul tamˈbuːro skotˈtaːta la maˈniːna tʃi vwɔl ˈaltro ˈfiʎʎa ˈmiːa per poˈtermi korbelˈlar",
+"it": "I confetti alla ragazza? Il ricamo sul tamburo? Vi scottaste? Eh via! Ci vuol altro, figlia mia, per potermi corbellar.",
+"ipa": "i konˈfetti ˈalla raˈɡattsa il riˈkaːmo sul tamˈbuːro vi skotˈtaste e ˈviːa tʃi vwɔl ˈaltro ˈfiʎʎa ˈmiːa per poˈtermi korbelˈlar",
 "w": [
 [
 "I confetti alla ragazza?",
@@ -51,8 +51,8 @@
 "la broderie sur le métier ?"
 ],
 [
-"Scottata la manina?",
-"la petite main brûlée ?"
+"Vi scottaste? Eh via!",
+"vous vous êtes brûlée ? allons donc !"
 ],
 [
 "Ci vuol altro",
@@ -63,11 +63,11 @@
 "pour pouvoir me berner"
 ]
 ],
-"fr": "Les dragées pour la petite ? La broderie sur le métier ? La petite main brûlée ? Il en faut bien plus, ma fille, pour me berner."
+"fr": "Les dragées pour la petite ? La broderie sur le métier ? Vous vous êtes brûlée ? Allons donc ! Il en faut bien plus, ma fille, pour me berner."
 },
 {
 "key": "perché manca",
-"it": "Perché manca là quel foglio? Vo' saper cotesto imbroglio. Sono inutili le smorfie; ferma là, non mi toccate! Figlia mia, non lo sperate ch'io mi lasci infinocchiar.",
+"it": "Perché manca là quel foglio? Vo' saper cotesto imbroglio. Sono inutili le smorfie… ferma là, non mi toccate! No, figlia mia, non lo sperate ch'io mi lasci infinocchiar.",
 "ipa": "perˈke ˈmanka la kwel ˈfɔʎʎo vɔ saˈper koˈtesto imˈbrɔʎʎo ˈsɔːno inˈuːtili le ˈzmɔrfje ˈferma la non mi tokˈkaːte ˈfiʎʎa ˈmiːa non lo speˈraːte ˈkiːo mi ˈlaʃʃi infinokˈkjar",
 "w": [
 [
@@ -122,8 +122,8 @@
 "fr": "Allons, mignonne, avouez ; je suis prêt à pardonner. Vous ne parlez pas ? Vous vous entêtez ? Je sais bien ce que j'ai à faire."
 },
 {
-"key": "signorina",
-"it": "Signorina, un'altra volta quando Bartolo andrà fuori, la consegna ai servitori a suo modo far saprà.",
+"key": "signorina unaltra",
+"it": "Signorina, un'altra volta quando Bartolo andrà fuori, la consegna ai servitori a suo modo dar saprà.",
 "ipa": "siɲɲoˈriːna unˈaltra ˈvɔlta ˈkwando ˈbartolo anˈdra ˈfwɔːri la konˈseɲɲa ai serviˈtoːri a ˈsuːo ˈmɔːdo far saˈpra",
 "w": [
 [
@@ -146,9 +146,9 @@
 "fr": "Mademoiselle, la prochaine fois que Bartolo sortira, il saura donner ses consignes aux domestiques à sa façon."
 },
 {
-"key": "ah non servono",
-"it": "Ah, non servono le smorfie, faccia pur la gatta morta. Cospetton! Per quella porta nemmen l'aria entrar potrà.",
-"ipa": "a non ˈsɛrvono le ˈzmɔrfje ˈfattʃa pur la ˈɡatta ˈmɔrta kospetˈton per ˈkwella ˈpɔrta nemˈmen ˈlaːrja enˈtrar poˈtra",
+"key": "eh non servono",
+"it": "Eh, non servono le smorfie; faccia pur la gatta morta. Cospetton! Per quella porta nemmen l'aria entrar potrà.",
+"ipa": "e non ˈsɛrvono le ˈzmɔrfje ˈfattʃa pur la ˈɡatta ˈmɔrta kospetˈton per ˈkwella ˈpɔrta nemˈmen ˈlaːrja enˈtrar poˈtra",
 "w": [
 [
 "non servono le smorfie",
@@ -167,7 +167,7 @@
 "même l'air ne pourra entrer"
 ]
 ],
-"fr": "Ah, les simagrées ne servent à rien, faites donc la sainte-nitouche. Sapristi ! Par cette porte, même l'air ne pourra plus entrer."
+"fr": "Eh, les simagrées ne servent à rien ; faites donc la sainte-nitouche. Sapristi ! Par cette porte, même l'air ne pourra plus entrer."
 },
 {
 "key": "e rosina",
@@ -195,6 +195,6 @@
 }
 ],
 "doubts": [
-"Texte (Sterbini) vérifié sur la partition à l'assemblage : l'édition Ricordi peut différer légèrement."
+"Texte aligné sur l'édition Ricordi (« Vi scottaste? Eh via! », « dar saprà », « Eh, non servono »)."
 ]
 }
