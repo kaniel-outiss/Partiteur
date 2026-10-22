@@ -39,7 +39,38 @@ def from_work(W):
         sc = {'type': 'musicxml', 'xml': W['xml'], 'partMeta': W.get('partMeta') or {}}
     else:
         sc = {'type': 'tokens', 'parts': W['parts'], 'measures': W['measures'], 'partMeta': W.get('partMeta') or {}}
-    return make(W, sc, W.get('text'))
+    o = make(W, sc, W.get('text'), hist=None if W.get('xml') else tok_hist(W))
+    if not W.get('xml'):
+        o['instr'] = any(P.get('kind') != 'voice' for P in W['parts'])
+    return o
+
+
+_PC = {'C': 0, 'D': 2, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'B': 11}
+_AC = {'': 0, '#': 1, '##': 2, 'b': -1, 'bb': -2}
+_DU = {'w': 4, 'h': 2, '': 1, 'q': 1, 'e': .5, 's': .25, 't': .125, 'x': .0625}
+_TOK = re.compile(r'^(g?)(r|([A-G])(bb|##|b|#)?(-?\d))([whestqx]?)(dd|d)?(3|%\d+:\d+)?')
+
+
+def tok_hist(W):
+    """tessiture précalculée (même forme que partHist côté appli) : évite l'analyse Verovio de chaque chant au démarrage"""
+    out = {}
+    for P in W['parts']:
+        if P.get('kind') != 'voice':
+            continue
+        h, n, oc = {}, 0, P.get('oct', 0) or 0
+        for m in W['measures']:
+            for t in str(m.get(P['id'], '')).split('//')[0].split():
+                g = _TOK.match(t.split('+')[-1])
+                if not g or g.group(1) or g.group(2) == 'r':
+                    continue
+                d = _DU[g.group(6)] * (1.5 if g.group(7) == 'd' else 1.75 if g.group(7) == 'dd' else 1)
+                if g.group(8) == '3': d *= 2 / 3
+                elif g.group(8):
+                    a, b = g.group(8)[1:].split(':'); d *= int(b) / int(a)
+                midi = 12 * (int(g.group(5)) + 1) + _PC[g.group(3)] + _AC[g.group(4) or ''] + oc
+                h[str(midi)] = h.get(str(midi), 0) + max(.25, d); n += 1
+        out[P['id']] = {'name': P.get('name', ''), 'vt': P.get('vt', ''), 'h': h, 'n': n}
+    return out
 
 
 def dumps(o):
