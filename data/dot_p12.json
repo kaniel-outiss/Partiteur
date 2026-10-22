@@ -1,0 +1,116 @@
+{
+ "page": 12,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "Bb3e A3e Bb3e A3e",
+   "ly": "vrà, sì, sì, sì,",
+   "rh": "Bb4+D5+Bb5 r",
+   "lh": "Bb2+Bb3 r",
+   "doubt": "Mes. 106 = 1re de la page (numéro imprimé). Chant : accents sur les 3 derniers « sì »."
+  },
+  {
+   "v": "Bb3e A3e Bb3e A3e",
+   "ly": "sì, sì, sì, sì,",
+   "rh": "rh",
+   "lh": "rh",
+   "doubt": "Chant : accent sur chaque note. Piano : pause de mesure."
+  },
+  {
+   "v": "Bb3e A3e Bb3e A3e",
+   "ly": "sì, sì, sì, sì,",
+   "rh": "rh",
+   "lh": "rh",
+   "doubt": "Chant : accents. Piano : pause de mesure."
+  },
+  {
+   "v": "Bb3e A3e Bb3e C4e",
+   "ly": "sì, sì, sì, sì,",
+   "rh": "rh",
+   "lh": "rh",
+   "doubt": "Chant : accents. Piano : pause de mesure."
+  },
+  {
+   "marks": [
+    "ff",
+    "tutta forza"
+   ],
+   "v": "Db4e Db4 Db4e",
+   "ly": "sì, in sua",
+   "rh": "Db5+Db6e Db5+Db6 gEb6 Db6s C6t Db6t",
+   "lh": "Db3+F3+Ab3s Db4s Db3+F3+Ab3s Db4s Db3+F3+Ab3s Db4s Db3+F3+Ab3s Db4s",
+   "doubt": "MD : 1er accord staccato, 2e accentué ; petite note (triple croche barrée) Eb6 liée au groupe Db6-C6-Db6 sous une liaison. MG : bémols de précaution sur Db3 et Ab3 au 1er accord."
+  },
+  {
+   "v": "Eb4e Ab3e Bb3e C4e",
+   "ly": "ca- me- ra ser-",
+   "rh": "Eb6e Ab4+Ab5e Bb4+Bb5e C5+C6e",
+   "lh": "Db3+Gb3+Ab3s C4s Db3+Gb3+Ab3s C4s Db3+Gb3+Ab3s C4s Db3+Gb3+Ab3s C4s",
+   "doubt": "MD : staccato sur la note supérieure de chaque croche."
+  },
+  {
+   "v": "Db4e Db4 Db4s Db4s",
+   "ly": "ra- ta fin ch'io",
+   "rh": "Db5+Db6e Db5+Db6 gEb6 Db6s C6t Db6t",
+   "lh": "Db3+F3+Ab3s Db4s Db3+F3+Ab3s Db4s Db3+F3+Ab3s Db4s Db3+F3+Ab3s Db4s",
+   "doubt": "MD : 1er accord staccato, 2e accentué ; petite note Eb6 + liaison comme mes. 110."
+  },
+  {
+   "v": "Eb4e Ab3e Bb3e C4e",
+   "ly": "vo- glio star do-",
+   "rh": "Eb6e Ab4+Ab5e Bb4+Bb5e C5+C6e",
+   "lh": "Db3+Gb3+Ab3s C4s Db3+Gb3+Ab3s C4s Db3+Gb3+Ab3s C4s Db3+Gb3+Ab3s C4s",
+   "doubt": "MD : staccato sur les notes supérieures."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "Db4e Db4s Db4s Db4s Db4s Db4s Db4s",
+   "ly": "vrà, in sua ca- me- ra ser-",
+   "rh": "F5+Db6s Db5s F5+Db6s Db5s F5+Db6s Db5s F5+Db6s Db5s",
+   "lh": "Db3+F3+Ab3+Db4e Db3+Db4 gDb4 Cb4s Bb3t Cb4t",
+   "doubt": "sf suivi d'un soufflet decrescendo (MD). MG : accent sur Db4 (noire) ; petite note (triple croche barrée) Db4 avant le groupe Cb4-Bb3-Cb4 sous liaison."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "D4s D4s D4s D4s D4s D4s D4s D4s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "F5+D6s D5s F5+D6s D5s F5+D6s D5s F5+D6s D5s",
+   "lh": "Bb3e Ab2+Ab3e Gb2+Gb3e F2+F3e",
+   "doubt": "Bécarres imprimés sur D4 (chant), D6 et D5 (MD). sf + soufflet decrescendo. MG staccato."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "Eb4s Eb4s Eb4s Eb4s Eb4s Eb4s Eb4s Eb4s",
+   "ly": "ra- ta, in sua ca- me- ra ser-",
+   "rh": "Gb5+Eb6s Eb5s Gb5+Eb6s Eb5s Gb5+Eb6s Eb5s Gb5+Eb6s Eb5s",
+   "lh": "Eb2+Eb3e Eb3+Eb4 gEb4 Db4s Cb4t Db4t",
+   "doubt": "sf + soufflet decrescendo. MG : Eb2 staccato, accent sur Eb4 (noire) ; petite note Eb4 + liaison sur le groupe final."
+  },
+  {
+   "marks": [
+    "sf"
+   ],
+   "v": "Cb4s Cb4s Cb4s Cb4s Cb4s Cb4s Cb4s Cb4s",
+   "ly": "ra- ta fin ch'io vo- glio star do-",
+   "rh": "A5+Eb6s Eb5s A5+Eb6s Eb5s A5+Eb6s Eb5s A5+Eb6s Eb5s",
+   "lh": "Cb4e Cb3+Cb4e Cb2+Cb3e Cb2+Cb3e",
+   "doubt": "Bécarre sur A5 (MD). sf + soufflet decrescendo. MG staccato."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "D4e Eb4e D4e Eb4e",
+   "ly": "vrà, sì, sì, sì,",
+   "rh": "Bb5+D6s F5s A5+Eb6s Gb5s Bb5+D6s F5s A5+Eb6s Gb5s",
+   "lh": "Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e Bb1+Bb2e",
+   "doubt": "MD : bécarre sur A5, bémol sur G5. MG staccato. Le chant continue page suivante."
+  }
+ ]
+}
