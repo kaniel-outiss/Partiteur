@@ -1,171 +1,171 @@
 {
- "page": 12,
- "measures": [
-  {
-   "meter": "3/4",
-   "ks": 4,
-   "marks": [],
-   "v": "G#5hd",
-   "ly": "",
-   "rh": "F#5e G#5e A#5e B#5e C#6e D#6e",
-   "lh": "D#3+F#3+G#3+B#3hd",
-   "doubt": "Page imprimée 99 (ordre OK). Mesure 3/4 déduite. G#5 lié depuis p. 98 (pas de syllabe). Staccatos rh."
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "G#5e F#5e E5e D#5e C#5e B4e",
-   "ly": "Com- me u- ne de- moi-",
-   "rh": "E6e re r r",
-   "lh": "C#3+E3+G#3+C#4e re r r",
-   "doubt": "6 notes pour « Comme u-ne de-moi- » : « Comme » imprimé sous les 2 premières notes, découpé Com- me (e muet chanté) — à vérifier."
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "A4e G#4e F#4e A4e C#5e E5e",
-   "ly": "selle il me trou- ve- rait",
-   "rh": "A#3+C#4hd",
-   "lh": "F#2+E3hd",
-   "doubt": "Chant A♮4 (bécarre) mais rh lit un dièse sur A3 (A#3+C#4, accord F#7) — conflit apparent, lecture du dièse incertaine."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "E5h B4",
-   "ly": "bel- le,",
-   "rh": "B3 E4 G#4 // B3hd~",
-   "lh": "B2+G#3hd~",
-   "doubt": "Arcs vers mesure suivante lus comme tenues."
-  },
-  {
-   "marks": [],
-   "v": "re B4e D#5e F#5e E5e G#4e",
-   "ly": "comme u- ne de- moi-",
-   "rh": "B4 G#4 E4 // B3hd",
-   "lh": "B2+G#3hd"
-  },
-  {
-   "marks": [
-    "rit.",
-    "pp",
-    "colla voce"
-   ],
-   "v": "G#4e F#4e E#4e F#4e C#4e E4e",
-   "ly": "selle il me trou- ve- rait",
-   "rh": "A#3+C#4hd",
-   "lh": "B2+F#3hd~",
-   "doubt": "rh dièse lu A#3 (F#7 sur pédale de si)."
-  },
-  {
-   "marks": [],
-   "v": "D#4e C#5e B4h",
-   "ly": "bel- _ _",
-   "rh": "A3+D#4hd",
-   "lh": "B2+F#3hd",
-   "doubt": "rh bécarre sur A3 ; liaison D#4–C#5 (mélisme sur « bel- »)."
-  },
-  {
-   "marks": [
-    "a tempo",
-    "p"
-   ],
-   "v": "E4 r r",
-   "ly": "le!",
-   "rh": "G#3+E4e re r r",
-   "lh": "E2+E3e re E3+G#3* B3*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "E5h D#5",
-   "ly": "Mar- gue-",
-   "rh": "E5+E6h D#5+D#6",
-   "lh": "F#2+A2+C#3d* E3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Accord lh à 3 têtes (F#2 A2 C#3) — à vérifier."
-  },
-  {
-   "marks": [
-    "poco"
-   ],
-   "v": "D#5h C#5",
-   "ly": "ri- te,",
-   "rh": "D#5+D#6h C#5+C#6",
-   "lh": "A2+C#3d* F#3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [
-    "a"
-   ],
-   "v": "C#5 B4 A4",
-   "ly": "ce n'est plus",
-   "rh": "C#5+C#6 B4+B5 A4+A5",
-   "lh": "B2+D#3d* A3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [
-    "poco"
-   ],
-   "v": "G#4h r",
-   "ly": "toi!",
-   "rh": "G#4+G#5 F#4+F#5 E4+E5",
-   "lh": "C#3+E3d* G#3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "E5h F#5",
-   "ly": "Ce n'est",
-   "rh": "E5+E6h F#5+F#6",
-   "lh": "G#2+B2d* E3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "E5 D#5 C#5",
-   "ly": "plus ton vi-",
-   "rh": "E5+E6 D#5+D#6 C#5+C#6",
-   "lh": "A2+C#3d* F#3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "B4h A4",
-   "ly": "sa- _",
-   "rh": "B4+B5h A4+A5",
-   "lh": "B2+D#3d* A3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Liaison B4–A4 au chant (mélisme)."
-  },
-  {
-   "marks": [],
-   "v": "G#4 r r",
-   "ly": "ge!",
-   "rh": "G#4+G#5 F#4+F#5 E4+E5",
-   "lh": "C#3+E3d* G#3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "C#5hd",
-   "ly": "Non!",
-   "rh": "C#5+E5+A5+C#6 r r",
-   "lh": "A2+C#3+E3+A3hd~"
-  },
-  {
-   "marks": [],
-   "v": "r D#5 E5",
-   "ly": "c'est la",
-   "rh": "rhd",
-   "lh": "A2+C#3+E3+A3e re r r"
-  }
- ]
+"page": 12,
+"measures": [
+{
+"meter": "3/4",
+"ks": 4,
+"marks": [],
+"v": "G#5hd",
+"ly": "",
+"rh": "F#5e G#5e A#5e B#5e C#6e D#6e",
+"lh": "D#3+F#3+G#3+B#3hd",
+"doubt": "Page imprimée 99 (ordre OK). Mesure 3/4 déduite. G#5 lié depuis p. 98 (pas de syllabe). Staccatos rh."
+},
+{
+"marks": [
+"f"
+],
+"v": "G#5e F#5e E5e D#5e C#5e B4e",
+"ly": "Com- me u- ne de- moi-",
+"rh": "E6e re r r",
+"lh": "C#3+E3+G#3+C#4e re r r",
+"doubt": "6 notes pour « Comme u-ne de-moi- » : « Comme » imprimé sous les 2 premières notes, découpé Com- me (e muet chanté) — à vérifier."
+},
+{
+"marks": [
+"dim."
+],
+"v": "A4e G#4e F#4e A4e C#5e E5e",
+"ly": "selle il me trou- ve- rait",
+"rh": "A#3+C#4hd",
+"lh": "F#2+E3hd",
+"doubt": "Chant A♮4 (bécarre) mais rh lit un dièse sur A3 (A#3+C#4, accord F#7) — conflit apparent, lecture du dièse incertaine."
+},
+{
+"marks": [
+"p"
+],
+"v": "E5h B4",
+"ly": "bel- le,",
+"rh": "B3 E4 G#4 // B3hd~",
+"lh": "B2+G#3hd~",
+"doubt": "Arcs vers mesure suivante lus comme tenues."
+},
+{
+"marks": [],
+"v": "re B4e D#5e F#5e E5e G#4e",
+"ly": "comme u- ne de- moi-",
+"rh": "B4 G#4 E4 // B3hd",
+"lh": "B2+G#3hd"
+},
+{
+"marks": [
+"rit.",
+"pp",
+"colla voce"
+],
+"v": "G#4e F#4e E#4e F#4e C#4e E4e",
+"ly": "selle il me trou- ve- rait",
+"rh": "A#3+C#4hd",
+"lh": "B2+F#3hd~",
+"doubt": "rh dièse lu A#3 (F#7 sur pédale de si)."
+},
+{
+"marks": [],
+"v": "D#4e C#5e B4h",
+"ly": "bel- _ _",
+"rh": "A3+D#4hd",
+"lh": "B2+F#3hd",
+"doubt": "rh bécarre sur A3 ; liaison D#4–C#5 (mélisme sur « bel- »)."
+},
+{
+"marks": [
+"a tempo",
+"p"
+],
+"v": "E4 r r",
+"ly": "le!",
+"rh": "G#3+E4e re r r",
+"lh": "E2+E3e re E3+G#3* B3*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "E5h D#5",
+"ly": "Mar- gue-",
+"rh": "E5+E6h D#5+D#6",
+"lh": "F#2+A2+C#3d* E3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Accord lh à 3 têtes (F#2 A2 C#3) — à vérifier."
+},
+{
+"marks": [
+"poco"
+],
+"v": "D#5h C#5",
+"ly": "ri- te,",
+"rh": "D#5+D#6h C#5+C#6",
+"lh": "A2+C#3d* F#3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [
+"a"
+],
+"v": "C#5 B4 A4",
+"ly": "ce n'est plus",
+"rh": "C#5+C#6 B4+B5 A4+A5",
+"lh": "B2+D#3d* A3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [
+"poco"
+],
+"v": "G#4h r",
+"ly": "toi!",
+"rh": "G#4+G#5 F#4+F#5 E4+E5",
+"lh": "C#3+E3d* G#3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "E5h F#5",
+"ly": "Ce n'est",
+"rh": "E5+E6h F#5+F#6",
+"lh": "G#2+B2d* E3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "E5 D#5 C#5",
+"ly": "plus ton vi-",
+"rh": "E5+E6 D#5+D#6 C#5+C#6",
+"lh": "A2+C#3d* F#3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "B4h A4",
+"ly": "sa- _",
+"rh": "B4+B5h A4+A5",
+"lh": "B2+D#3d* A3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Liaison B4–A4 au chant (mélisme)."
+},
+{
+"marks": [],
+"v": "G#4 r r",
+"ly": "ge!",
+"rh": "G#4+G#5 F#4+F#5 E4+E5",
+"lh": "C#3+E3d* G#3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [
+"f"
+],
+"v": "C#5hd",
+"ly": "Non!",
+"rh": "C#5+E5+A5+C#6 r r",
+"lh": "A2+C#3+E3+A3hd~"
+},
+{
+"marks": [],
+"v": "r D#5 E5",
+"ly": "c'est la",
+"rh": "rhd",
+"lh": "A2+C#3+E3+A3e re r r"
+}
+]
 }

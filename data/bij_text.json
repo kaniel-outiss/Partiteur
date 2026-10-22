@@ -1,0 +1,128 @@
+{
+"lang": "fr",
+"ctx": "Faust (Gounod, livret de Barbier et Carré, 1859), acte III. Le jardin de Marguerite. Méphistophélès a déposé devant sa porte un coffret de bijoux, pour que Faust puisse la séduire. Rêveuse — elle vient de chanter la ballade du Roi de Thulé en pensant au jeune homme rencontré —, Marguerite découvre le coffret, hésite, l'ouvre, se pare des bijoux et s'admire dans un miroir. L'air, une valse brillante pleine de trilles et de vocalises, est l'un des grands airs de bravoure du soprano lyrique.",
+"diction": [
+"Français chanté : e muets chantés quand une note leur est donnée (« bel-le », « co-quet-te », « vi-sa-ge »).",
+"Liaisons : « Est-ce‿un rêve », « s'il‿était‿ici », « une‿demoiselle » ; pas de liaison forcée ailleurs.",
+"Récitatif : naturel, presque parlé, curiosité et hésitation.",
+"Valse (Allegretto) : légère, souriante, « leggiero » ; trilles égaux et vocalises nettes sur la voyelle [a] d'« Ah ! ».",
+"Nasales pures et brèves : « tremble », « charmant », « moment », « vraiment »."
+],
+"lines": [
+{
+"key": "que vois",
+"it": "Que vois-je là ? D'où ce riche coffret peut-il venir ? Je n'ose y toucher, et pourtant… Voici la clef, je crois ! Si je l'ouvrais ! Ma main tremble ! Pourquoi ? Je ne fais, en l'ouvrant, rien de mal, je suppose !",
+"ipa": "kə vwa ʒə la du sə ʁiʃ kɔfʁɛ pø til vəniʁ ʒə noz i tuʃe e puʁtɑ̃ vwasi la kle ʒə kʁwa si ʒə luvʁɛ ma mɛ̃ tʁɑ̃blə puʁkwa",
+"w": [
+[
+"coffret",
+"petit coffre"
+],
+[
+"Je n'ose y toucher",
+"je n'ose pas y toucher"
+],
+[
+"Si je l'ouvrais !",
+"et si je l'ouvrais !"
+]
+],
+"fr": "Marguerite découvre devant sa porte un coffret mystérieux — un cadeau déposé par Méphistophélès pour Faust."
+},
+{
+"key": "ô dieu",
+"it": "Ô Dieu ! que de bijoux ! Est-ce un rêve charmant qui m'éblouit, ou si je veille ? Mes yeux n'ont jamais vu de richesse pareille ! Si j'osais seulement me parer un moment de ces pendants d'oreille !",
+"ipa": "o djø kə də biʒu ɛ sœ̃ ʁɛvə ʃaʁmɑ̃ ki mebluj u si ʒə vɛjə me zjø nɔ̃ ʒamɛ vy də ʁiʃɛsə paʁɛjə",
+"w": [
+[
+"m'éblouit",
+"m'aveugle de son éclat"
+],
+[
+"ou si je veille",
+"ou bien suis-je éveillée"
+],
+[
+"me parer",
+"me faire belle avec"
+],
+[
+"pendants d'oreille",
+"boucles d'oreilles"
+]
+],
+"fr": "Elle ouvre le coffret, éblouie par les bijoux, et n'ose d'abord que les boucles d'oreilles."
+},
+{
+"key": "voici justement",
+"it": "Voici justement, au fond de la cassette, un miroir ! Comment n'être pas coquette ?",
+"ipa": "vwasi ʒystəmɑ̃ o fɔ̃ də la kasɛtə œ̃ miʁwaʁ kɔmɑ̃ nɛtʁə pa kɔkɛtə",
+"w": [
+[
+"cassette",
+"coffret à bijoux"
+],
+[
+"coquette",
+"soucieuse de plaire"
+]
+],
+"fr": "Au fond du coffret, un miroir : comment résister ?"
+},
+{
+"key": "je ris",
+"it": "Ah ! je ris de me voir si belle en ce miroir ! Est-ce toi, Marguerite ? Réponds-moi, réponds vite ! Non ! non ! ce n'est plus toi ! Ce n'est plus ton visage ; c'est la fille d'un roi qu'on salue au passage !",
+"ipa": "a ʒə ʁi də mə vwaʁ si bɛl ɑ̃ sə miʁwaʁ ɛs twa maʁɡəʁitə ʁepɔ̃ mwa ʁepɔ̃ vitə nɔ̃ nɔ̃ sə nɛ ply twa sə nɛ ply tɔ̃ vizaʒə sɛ la fij dœ̃ ʁwa kɔ̃ saly o pasaʒə",
+"w": [
+[
+"si belle",
+"si belle"
+],
+[
+"qu'on salue au passage",
+"que l'on salue quand elle passe"
+]
+],
+"fr": "La célèbre valse : Marguerite se mire, ne se reconnaît plus — elle se voit en fille de roi."
+},
+{
+"key": "ah sil",
+"it": "Ah, s'il était ici ! S'il me voyait ainsi ! Comme une demoiselle il me trouverait belle !",
+"ipa": "a sil etɛt isi sil mə vwajɛt ɛ̃si kɔm yn dəmwazɛlə il mə tʁuvəʁɛ bɛlə",
+"w": [
+[
+"s'il",
+"si lui (Faust)"
+],
+[
+"comme une demoiselle",
+"comme une dame de qualité"
+]
+],
+"fr": "Elle pense au jeune homme rencontré (Faust) : s'il la voyait ainsi parée !"
+},
+{
+"key": "achevons",
+"it": "Achevons la métamorphose. Il me tarde encor d'essayer le bracelet et le collier ! Dieu ! c'est comme une main qui sur mon bras se pose !",
+"ipa": "aʃəvɔ̃ la metamɔʁfozə il mə taʁd ɑ̃kɔʁ desɛje lə bʁaslɛ e lə kɔlje djø sɛ kɔm yn mɛ̃ ki syʁ mɔ̃ bʁa sə pozə",
+"w": [
+[
+"Achevons la métamorphose",
+"terminons la transformation"
+],
+[
+"Il me tarde",
+"j'ai hâte"
+],
+[
+"qui sur mon bras se pose",
+"qui se pose sur mon bras"
+]
+],
+"fr": "Elle essaie le bracelet et le collier ; le contact du bracelet lui fait l'effet d'une main posée sur son bras."
+}
+],
+"doubts": [
+"Texte vérifié sur la partition (paroles imprimées)."
+]
+}

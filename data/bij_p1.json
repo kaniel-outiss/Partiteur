@@ -1,28 +1,70 @@
-{"page":1,"measures":[
- {"meter":"4/4","tempo":"Andantino","marks":["(Tempo della Canzone)","p"],"v":"rw","ly":"",
-  "rh":"r re F4+D5e E4+C#5ed F4+D5s G4+E5e E4+C#5e",
-  "lh":"D4 A3e A3e Bb3s3 C4s3 Bb3s3 A3e A3e re // D3w",
-  "doubt":"pas d'armure imprimée p.88 (récitatif en do) ; armure de mi majeur à venir. LH : D4 lié (liaison d'expression) vers A3 ; staccatos sur les croches."},
- {"marks":["cresc."],"v":"rw","ly":"",
-  "rh":"F4+D5ed G4+E5s A4+F5e D5+F5e C#5+E5ed D5+F5s E5+G5e C#5+E5e",
-  "lh":"D4 A3e A3e Bb3s3 C4s3 Bb3s3 A3e A3 // D3w",
-  "doubt":"LH triolet : un bécarre imprimé devant la 2e note (do) — lu C4 ; peut-être B♮3 visé."},
- {"marks":["Recit.","f"],"v":"r rs A4s A4s A4s D5e re re A4s A4s","ly":"Que vois- je là? D'où ce",
-  "rh":"A4+D5+F#5e re r rh",
-  "lh":"D4w~ // C3e re r rh",
-  "doubt":"LH : bécarre de précaution sur C3 ; D4 ronde liée vers m.4."},
- {"marks":["pp"],"v":"A4e A4s A4s A4s A4s G4s F#4s D5 r","ly":"ri- che cof- fret peut- il ve- nir?",
-  "rh":"rh r D4s D4s D4+E4s D4+E4s",
-  "lh":"D4h~ D4 r // rh r C3+F#3s C3+F#3s C3+G3s C3+G3s"},
- {"v":"red D4s D4e D4s E4s F#4 r","ly":"Je n'ose y tou- cher,",
-  "rh":"F#4e re r r D4+A4s D4+A4s D4+B4s D4+B4s // D4hd r",
-  "lh":"C3+A3e re r r C3+F#3s C3+F#3s B2+F#3s B2+F#3s",
-  "doubt":"paroles : « n'ose » imprimé sous une seule note (élision n'o-s'y). Bécarres de précaution devant B4 (RH) et B2 (LH)."},
- {"v":"re F#4s A4s C5 r rs C5s C5s D5s","ly":"et pour- tant... Voi- ci la",
-  "rh":"C5e re r rh // D4w~",
-  "lh":"A2+F#3e re r rh"},
- {"v":"B4ed G4s G4e re r rs B4s B4s A4s","ly":"clef, je crois! Si je l'ou-",
-  "rh":"r B3+G4s B3+G4s B3+G4s B3+G4s B3+G4e re r // D4h D4h",
-  "lh":"r G2+G3s G2+G3s G2+G3s G2+G3s F2+F3e re r",
-  "doubt":"RH : 2e D4 blanche (temps 3) sous la croche B3+G4. LH : bécarres sur F3/F2."}
-]}
+{
+"page": 1,
+"measures": [
+{
+"meter": "4/4",
+"tempo": "Andantino",
+"marks": [
+"(Tempo della Canzone)",
+"p"
+],
+"v": "rw",
+"ly": "",
+"rh": "r re F4+D5e E4+C#5ed F4+D5s G4+E5e E4+C#5e",
+"lh": "D4 A3e A3e Bb3s3 C4s3 Bb3s3 A3e A3e re // D3w",
+"doubt": "pas d'armure imprimée p.88 (récitatif en do) ; armure de mi majeur à venir. LH : D4 lié (liaison d'expression) vers A3 ; staccatos sur les croches.",
+"ks": 0,
+"bpm": 66
+},
+{
+"marks": [
+"cresc."
+],
+"v": "rw",
+"ly": "",
+"rh": "F4+D5ed G4+E5s A4+F5e D5+F5e C#5+E5ed D5+F5s E5+G5e C#5+E5e",
+"lh": "D4 A3e A3e Bb3s3 C4s3 Bb3s3 A3e A3 // D3w",
+"doubt": "LH triolet : un bécarre imprimé devant la 2e note (do) — lu C4 ; peut-être B♮3 visé."
+},
+{
+"marks": [
+"Recit.",
+"f"
+],
+"v": "r rs A4s A4s A4s D5e re re A4s A4s",
+"ly": "Que vois- je là? D'où ce",
+"rh": "A4+D5+F#5e re r rh",
+"lh": "D4w~ // C3e re r rh",
+"doubt": "LH : bécarre de précaution sur C3 ; D4 ronde liée vers m.4."
+},
+{
+"marks": [
+"pp"
+],
+"v": "A4e A4s A4s A4s A4s G4s F#4s D5 r",
+"ly": "ri- che cof- fret peut- il ve- nir?",
+"rh": "rh r D4s D4s D4+E4s D4+E4s",
+"lh": "D4h~ D4 r // rh r C3+F#3s C3+F#3s C3+G3s C3+G3s"
+},
+{
+"v": "red D4s D4e D4s E4s F#4 r",
+"ly": "Je n'ose y tou- cher,",
+"rh": "F#4e re r r D4+A4s D4+A4s D4+B4s D4+B4s // D4hd r",
+"lh": "C3+A3e re r r C3+F#3s C3+F#3s B2+F#3s B2+F#3s",
+"doubt": "paroles : « n'ose » imprimé sous une seule note (élision n'o-s'y). Bécarres de précaution devant B4 (RH) et B2 (LH)."
+},
+{
+"v": "re F#4s A4s C5 r rs C5s C5s D5s",
+"ly": "et pour- tant... Voi- ci la",
+"rh": "C5e re r rh // D4w~",
+"lh": "A2+F#3e re r rh"
+},
+{
+"v": "B4ed G4s G4e re r rs B4s B4s A4s",
+"ly": "clef, je crois! Si je l'ou-",
+"rh": "r B3+G4s B3+G4s B3+G4s B3+G4s B3+G4e re r // D4h D4h",
+"lh": "r G2+G3s G2+G3s G2+G3s G2+G3s F2+F3e re r",
+"doubt": "RH : 2e D4 blanche (temps 3) sous la croche B3+G4. LH : bécarres sur F3/F2."
+}
+]
+}

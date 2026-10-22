@@ -47,7 +47,8 @@
 "ly": "quet- te?",
 "rh": "B3d D#4e F#4e B4e",
 "lh": "B2e B2e B2e B2e B2e B2e",
-"doubt": "Mesure imprimée 3/4 (et non 3/8) ; tempo imprimé « blanche pointée = 50 » (le guide annonçait ♩. = 58). RH : liaison B3→D#4. Staccatos sur F#4/B4."
+"doubt": "Mesure imprimée 3/4 (et non 3/8) ; tempo imprimé « blanche pointée = 50 » (le guide annonçait ♩. = 58). RH : liaison B3→D#4. Staccatos sur F#4/B4.",
+"bpm": 150
 },
 {
 "v": "rhd",

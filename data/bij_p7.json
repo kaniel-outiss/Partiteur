@@ -1,177 +1,177 @@
 {
- "page": 7,
- "measures": [
-  {
-   "meter": "3/4",
-   "marks": [],
-   "v": "E4h r",
-   "ly": "toi,",
-   "rh": "B4+D#5 A4+C5 G4+B4 // E4hd",
-   "lh": "G#3 A3 B3 // C3hd",
-   "doubt": "Page imprimée 94 (ta page 7 = p-094.png, ordre OK). Mesure à 3/4 imprimée (Allegretto p. 91), non 3/8 comme l'indique le guide. MD : liaisons de prolongation venant de la page précédente sur la tierce si-ré#. MD 2e accord do bécarre, 3e sol bécarre ; MG do3 bécarre."
-  },
-  {
-   "marks": [],
-   "v": "E5 D5 C5",
-   "ly": "ce n'est plus",
-   "rh": "F#4+A4hd~",
-   "lh": "D3+C4hd",
-   "doubt": "Chant ré et do bécarres. MG ré bécarre + do bécarre (D7)."
-  },
-  {
-   "marks": [],
-   "v": "B4hd~",
-   "ly": "toi!",
-   "rh": "F#4+A4 F#4+A4 F#4+A4",
-   "lh": "D#3+B3 D#3+B3 D#3+B3"
-  },
-  {
-   "marks": [],
-   "v": "B4e re B4 B4",
-   "ly": "C'est la",
-   "rh": "E4+G4 E4+G4 E4+G4",
-   "lh": "E3+B3 E3+B3 E3+B3",
-   "doubt": "MD sol bécarre (mi mineur)."
-  },
-  {
-   "marks": [
-    "f"
-   ],
-   "v": "B4 D#5 F#5",
-   "ly": "fil- le d'un",
-   "rh": "D#4+F#4hd~",
-   "lh": "F#3+B3hd~",
-   "doubt": "Chant : dièse de précaution sur ré."
-  },
-  {
-   "marks": [],
-   "v": "F#4 C#5 B4",
-   "ly": "roi qu'on sa-",
-   "rh": "D#4+F#4hd",
-   "lh": "F#3+B3hd"
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "D#4 A#4 G#4",
-   "ly": "lue au pas-",
-   "rh": "B3+D#4hd",
-   "lh": "F#2+F#3hd~",
-   "doubt": "Liaison MD m.7→8 au-dessus des hampes : lue comme liaison d'expression, pas de prolongation."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "F#4hd",
-   "ly": "sa-",
-   "rh": "D#4h C#4 // A#3hd",
-   "lh": "F#2+F#3hd"
-  },
-  {
-   "marks": [
-    "<"
-   ],
-   "v": "B3 r r",
-   "ly": "ge!",
-   "rh": "B3e C#4e D#4e E4e F#4e G4e",
-   "lh": "B2+D#3e re r r",
-   "doubt": "MD croches staccato, sol bécarre final."
-  },
-  {
-   "marks": [],
-   "v": "D5h C#5e B4e",
-   "ly": "Ah, s'il é-",
-   "rh": "D4+G#4hd",
-   "lh": "E#3+B3hd",
-   "doubt": "Chant ré bécarre ; MD ré bécarre ; MG mi# (dièse sur la ligne/interligne du mi, lecture C#7/mi#). Accents > MD et MG."
-  },
-  {
-   "marks": [
-    "<"
-   ],
-   "v": "A4e G#4e F#4 r",
-   "ly": "tait i- ci!",
-   "rh": "C#4+A4e C#4e D#4e E#4e F#4e G#4e",
-   "lh": "F#3+A3e re r r",
-   "doubt": "MD : mi# (dièse) en 4e croche, croches staccato."
-  },
-  {
-   "marks": [],
-   "v": "E5h D#5e C#5e",
-   "ly": "S'il me vo-",
-   "rh": "E4+A#4hd",
-   "lh": "F##3+C#4hd",
-   "doubt": "MD bécarre de précaution sur mi, la# ; MG fa double-dièse (x) + do#. Accents >."
-  },
-  {
-   "marks": [
-    "rit.",
-    ">"
-   ],
-   "v": "B4e A#4e G#4 r",
-   "ly": "yait ain- si!",
-   "rh": "D#4+B4e B3e C#4e D#4e E4e E#4e",
-   "lh": "G#3+B3e re r r",
-   "doubt": "MD croches staccato, dernier = mi#."
-  },
-  {
-   "marks": [
-    "a tempo",
-    "pp"
-   ],
-   "v": "B4 A4e G#4e F#4e D#5e",
-   "ly": "Comme u- ne de- moi-",
-   "rh": "F#4hd",
-   "lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd",
-   "doubt": "« Comme » sur une seule note (élision). Chant la bécarre de précaution."
-  },
-  {
-   "marks": [],
-   "v": "C#5 B4 r",
-   "ly": "sel- le",
-   "rh": "E4e C#5e B4e A#4e A4e G#4e",
-   "lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
-  },
-  {
-   "marks": [],
-   "v": "B4 A4e G#4e F#4e D#5e",
-   "ly": "il me trou- ve- rait",
-   "rh": "F#4hd",
-   "lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd"
-  },
-  {
-   "marks": [],
-   "v": "C#5 B4 r",
-   "ly": "bel- le.",
-   "rh": "E4e C#5e B4e A#4e A4e G#4e",
-   "lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
-  },
-  {
-   "marks": [],
-   "v": "re B4e C#5e D#5e E5e F#5e",
-   "ly": "Ah! _ _ _ _",
-   "rh": "B4h A4",
-   "lh": "B3e D#4e B3e D#4e B3e D#4e // F#3hd"
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "G#5hd~",
-   "ly": "_",
-   "rh": "G#4e A4e B4e C#5e D#5e E5e",
-   "lh": "E3+G#3+B3hd",
-   "doubt": "MD croches staccato."
-  },
-  {
-   "marks": [],
-   "v": "G#5hd~",
-   "ly": "",
-   "rh": "F#5e G#5e A#5e B#5e C#6e D#6e",
-   "lh": "D#3+F#3+G#3+B#3hd",
-   "doubt": "Chant : sol# lié vers la page suivante. MD : la# et si# (dièses), croches staccato. MG : dièse lu sur le si (si#), fa# décalé (seconde avec sol#)."
-  }
- ]
+"page": 7,
+"measures": [
+{
+"meter": "3/4",
+"marks": [],
+"v": "E4h r",
+"ly": "toi,",
+"rh": "B4+D#5 A4+C5 G4+B4 // E4hd",
+"lh": "G#3 A3 B3 // C3hd",
+"doubt": "Page imprimée 94 (ta page 7 = p-094.png, ordre OK). Mesure à 3/4 imprimée (Allegretto p. 91), non 3/8 comme l'indique le guide. MD : liaisons de prolongation venant de la page précédente sur la tierce si-ré#. MD 2e accord do bécarre, 3e sol bécarre ; MG do3 bécarre."
+},
+{
+"marks": [],
+"v": "E5 D5 C5",
+"ly": "ce n'est plus",
+"rh": "F#4+A4hd~",
+"lh": "D3+C4hd",
+"doubt": "Chant ré et do bécarres. MG ré bécarre + do bécarre (D7)."
+},
+{
+"marks": [],
+"v": "B4hd~",
+"ly": "toi!",
+"rh": "F#4+A4 F#4+A4 F#4+A4",
+"lh": "D#3+B3 D#3+B3 D#3+B3"
+},
+{
+"marks": [],
+"v": "B4e re B4 B4",
+"ly": "C'est la",
+"rh": "E4+G4 E4+G4 E4+G4",
+"lh": "E3+B3 E3+B3 E3+B3",
+"doubt": "MD sol bécarre (mi mineur)."
+},
+{
+"marks": [
+"f"
+],
+"v": "B4 D#5 F#5",
+"ly": "fil- le d'un",
+"rh": "D#4+F#4hd~",
+"lh": "F#3+B3hd~",
+"doubt": "Chant : dièse de précaution sur ré."
+},
+{
+"marks": [],
+"v": "F#4 C#5 B4",
+"ly": "roi qu'on sa-",
+"rh": "D#4+F#4hd",
+"lh": "F#3+B3hd"
+},
+{
+"marks": [
+"dim."
+],
+"v": "D#4 A#4 G#4",
+"ly": "lue au pas-",
+"rh": "B3+D#4hd",
+"lh": "F#2+F#3hd~",
+"doubt": "Liaison MD m.7→8 au-dessus des hampes : lue comme liaison d'expression, pas de prolongation."
+},
+{
+"marks": [
+"p"
+],
+"v": "F#4hd",
+"ly": "sa-",
+"rh": "D#4h C#4 // A#3hd",
+"lh": "F#2+F#3hd"
+},
+{
+"marks": [
+"<"
+],
+"v": "B3 r r",
+"ly": "ge!",
+"rh": "B3e C#4e D#4e E4e F#4e G4e",
+"lh": "B2+D#3e re r r",
+"doubt": "MD croches staccato, sol bécarre final."
+},
+{
+"marks": [],
+"v": "D5h C#5e B4e",
+"ly": "Ah, s'il é-",
+"rh": "D4+G#4hd",
+"lh": "E#3+B3hd",
+"doubt": "Chant ré bécarre ; MD ré bécarre ; MG mi# (dièse sur la ligne/interligne du mi, lecture C#7/mi#). Accents > MD et MG."
+},
+{
+"marks": [
+"<"
+],
+"v": "A4e G#4e F#4 r",
+"ly": "tait i- ci!",
+"rh": "C#4+A4e C#4e D#4e E#4e F#4e G#4e",
+"lh": "F#3+A3e re r r",
+"doubt": "MD : mi# (dièse) en 4e croche, croches staccato."
+},
+{
+"marks": [],
+"v": "E5h D#5e C#5e",
+"ly": "S'il me vo-",
+"rh": "E4+A#4hd",
+"lh": "F##3+C#4hd",
+"doubt": "MD bécarre de précaution sur mi, la# ; MG fa double-dièse (x) + do#. Accents >."
+},
+{
+"marks": [
+"rit.",
+">"
+],
+"v": "B4e A#4e G#4 r",
+"ly": "yait ain- si!",
+"rh": "D#4+B4e B3e C#4e D#4e E4e E#4e",
+"lh": "G#3+B3e re r r",
+"doubt": "MD croches staccato, dernier = mi#."
+},
+{
+"marks": [
+"a tempo",
+"pp"
+],
+"v": "B4 A4e G#4e F#4e D#5e",
+"ly": "Comme u- ne de- moi-",
+"rh": "F#4hd",
+"lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd",
+"doubt": "« Comme » sur une seule note (élision). Chant la bécarre de précaution."
+},
+{
+"marks": [],
+"v": "C#5 B4 r",
+"ly": "sel- le",
+"rh": "E4e C#5e B4e A#4e A4e G#4e",
+"lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
+},
+{
+"marks": [],
+"v": "B4 A4e G#4e F#4e D#5e",
+"ly": "il me trou- ve- rait",
+"rh": "F#4hd",
+"lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd"
+},
+{
+"marks": [],
+"v": "C#5 B4 r",
+"ly": "bel- le.",
+"rh": "E4e C#5e B4e A#4e A4e G#4e",
+"lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
+},
+{
+"marks": [],
+"v": "re B4e C#5e D#5e E5e F#5e",
+"ly": "Ah! _ _ _ _",
+"rh": "B4h A4",
+"lh": "B3e D#4e B3e D#4e B3e D#4e // F#3hd"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "G#5hd~",
+"ly": "_",
+"rh": "G#4e A4e B4e C#5e D#5e E5e",
+"lh": "E3+G#3+B3hd",
+"doubt": "MD croches staccato."
+},
+{
+"marks": [],
+"v": "G#5hd~",
+"ly": "",
+"rh": "F#5e G#5e A#5e B#5e C#6e D#6e",
+"lh": "D#3+F#3+G#3+B#3hd",
+"doubt": "Chant : sol# lié vers la page suivante. MD : la# et si# (dièses), croches staccato. MG : dièse lu sur le si (si#), fa# décalé (seconde avec sol#)."
+}
+]
 }

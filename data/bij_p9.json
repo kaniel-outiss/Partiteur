@@ -58,7 +58,8 @@
 "ly": "lier!",
 "rh": "E5hd~",
 "lh": "A2+C#3+A3e re A3+C#4* E4*",
-"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; 1re croche MG : amas A2+C#3+A3 (A2 lié depuis m6) ; MD E5 lié à la 1re croche de m8 (+ grande liaison jusqu'au C#6)"
+"doubt": "trémolo alterné accord↔note (barres de trémolo) codé en deux moitiés '*' de durée égale ; 1re croche MG : amas A2+C#3+A3 (A2 lié depuis m6) ; MD E5 lié à la 1re croche de m8 (+ grande liaison jusqu'au C#6)",
+"bpm": 126
 },
 {
 "marks": [

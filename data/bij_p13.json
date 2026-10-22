@@ -1,236 +1,236 @@
 {
- "page": 13,
- "measures": [
-  {
-   "meter": "3/4",
-   "ks": 4,
-   "marks": [],
-   "v": "F#5 G#5 A5",
-   "ly": "fil- le d'un",
-   "rh": "rhd",
-   "lh": "rhd",
-   "doubt": "Page imprimée 100 (ordre OK), se termine par la double barre finale (aucun autre air). Mesure 3/4 déduite."
-  },
-  {
-   "marks": [
-    "f",
-    "p"
-   ],
-   "v": "B4hd~",
-   "ly": "roi",
-   "rh": "E4+G#4hd",
-   "lh": "B1d* B2d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. f à la rh, p à la lh. Basse B1 (2 lignes supp.) à vérifier."
-  },
-  {
-   "marks": [],
-   "v": "B4hd~",
-   "ly": "",
-   "rh": "B3+E4 E4+G#4 B3+E4",
-   "lh": "B1d* B2d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "B4e re E4 G#4",
-   "ly": "qu'on sa-",
-   "rh": "B3+E4hd",
-   "lh": "B1e re r r"
-  },
-  {
-   "marks": [],
-   "v": "B4 D#5 E5",
-   "ly": "lue au pas-",
-   "rh": "B3+E4+G#4+B4hd",
-   "lh": "rhd",
-   "doubt": "Dernière note chant lue E5 (interligne) ; accord rh à 4 sons à vérifier."
-  },
-  {
-   "marks": [
-    "tr"
-   ],
-   "v": "F#5hd~",
-   "ly": "sa-",
-   "rh": "A#3+C#4+E4+F#4hd~",
-   "lh": "B1+B2 r r",
-   "doubt": "Trille (ligne ondulée) sur F#5 jusqu'à la m. 8. Accord rh dense (A#3 C#4 E4 F#4, F#7) — lecture incertaine."
-  },
-  {
-   "marks": [],
-   "v": "F#5hd~",
-   "ly": "",
-   "rh": "A#3+C#4+E4+F#4hd",
-   "lh": "rhd",
-   "doubt": "Trille continue."
-  },
-  {
-   "marks": [],
-   "v": "F#5hd gE#5s gF#5s",
-   "ly": "",
-   "rh": "A3+B3+D#4+F#4hd~",
-   "lh": "B1+B2 r r",
-   "doubt": "Fin de trille : 2 petites notes E#5 F#5 avant la barre. rh bécarre sur A3 (B7)."
-  },
-  {
-   "marks": [],
-   "v": "B5hd^",
-   "ly": "_",
-   "rh": "A3+B3+D#4+F#4 r r^",
-   "lh": "rhd^",
-   "doubt": "Points d'orgue sur la note chantée, le dernier silence rh et la pause lh."
-  },
-  {
-   "marks": [
-    "ff"
-   ],
-   "v": "E5 r r",
-   "ly": "ge!",
-   "rh": "E5+E6hd~",
-   "lh": "E3+G#3d* B3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "E5+E6 D#5+D#6 C#5+C#6",
-   "lh": "E3+G#3d* B3d*",
-   "doubt": "Postlude piano seul : pas de portée de chant → silences. 2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "B4+B5 A#4+A#5 A4+A5",
-   "lh": "E3+G#3d* B3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "G#4+G#5 F#4+F#5 E4+E5",
-   "lh": "E3+G#3d* B3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "D#4+D#5 C#4+C#5 r",
-   "lh": "E3+F#3d* A3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "E#4+E#5 F#4+F#5 r",
-   "lh": "E3+A3d* C#4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "G#4+G#5 F#4+F#5 r",
-   "lh": "E3+A3+B3d* D#4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "C#5+C#6 B4+B5 r",
-   "lh": "E3+A3+B3d* D#4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "G#5+G#6hd~",
-   "lh": "E3+G#3+B3d* E4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Arcs vers m. suivante lus comme tenues."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "G#5+G#6 F#5+F#6 E5+E6",
-   "lh": "E3+G#3+B3d* E4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "D#5+D#6 C#5+C#6 B4+B5",
-   "lh": "E3+G#3+B3d* E4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "A#4+A#5 A4+A5 G#4+G#5",
-   "lh": "E3+G#3+B#3d* E4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Dièse devant l'accord lh centré sur B3 → B#3 (accord augmenté) — à vérifier."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "E#4+E#5 F#4+F#5 r",
-   "lh": "E3+A3+C#4d* E4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "G#4+G#5 A4+A5 r",
-   "lh": "E3+A3+C#4d* E4d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "A#4+A#5 B4+B5 B#4+B#5",
-   "lh": "E3+F#3+A3d* B3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Accord lh dense (E3 F#3 A3, peut-être G#3) — à vérifier."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "C#5+C#6 D5+D6 D#5+D#6",
-   "lh": "E3+F#3+A3d* B3d*",
-   "doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Montée chromatique rh (bécarre sur D)."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "E5+E6 r r",
-   "lh": "E3+G#3 r r"
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "B4+D#5+F#5+B5 r r",
-   "lh": "B2+B3 r r",
-   "doubt": "Accord rh à 4 sons lu B4 D#5 F#5 B5 — à vérifier."
-  },
-  {
-   "marks": [],
-   "v": "rhd",
-   "ly": "",
-   "rh": "E5+G#5+B5+E6 r r",
-   "lh": "E2+E3 r r",
-   "doubt": "Double barre finale. Accord rh lu E5 G#5 B5 E6 — à vérifier."
-  }
- ]
+"page": 13,
+"measures": [
+{
+"meter": "3/4",
+"ks": 4,
+"marks": [],
+"v": "F#5 G#5 A5",
+"ly": "fil- le d'un",
+"rh": "rhd",
+"lh": "rhd",
+"doubt": "Page imprimée 100 (ordre OK), se termine par la double barre finale (aucun autre air). Mesure 3/4 déduite."
+},
+{
+"marks": [
+"f",
+"p"
+],
+"v": "B4hd~",
+"ly": "roi",
+"rh": "E4+G#4hd",
+"lh": "B1d* B2d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. f à la rh, p à la lh. Basse B1 (2 lignes supp.) à vérifier."
+},
+{
+"marks": [],
+"v": "B4hd~",
+"ly": "",
+"rh": "B3+E4 E4+G#4 B3+E4",
+"lh": "B1d* B2d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "B4e re E4 G#4",
+"ly": "qu'on sa-",
+"rh": "B3+E4hd",
+"lh": "B1e re r r"
+},
+{
+"marks": [],
+"v": "B4 D#5 E5",
+"ly": "lue au pas-",
+"rh": "B3+E4+G#4+B4hd",
+"lh": "rhd",
+"doubt": "Dernière note chant lue E5 (interligne) ; accord rh à 4 sons à vérifier."
+},
+{
+"marks": [
+"tr"
+],
+"v": "F#5hd~",
+"ly": "sa-",
+"rh": "A#3+C#4+E4+F#4hd~",
+"lh": "B1+B2 r r",
+"doubt": "Trille (ligne ondulée) sur F#5 jusqu'à la m. 8. Accord rh dense (A#3 C#4 E4 F#4, F#7) — lecture incertaine."
+},
+{
+"marks": [],
+"v": "F#5hd~",
+"ly": "",
+"rh": "A#3+C#4+E4+F#4hd",
+"lh": "rhd",
+"doubt": "Trille continue."
+},
+{
+"marks": [],
+"v": "F#5hd gE#5s gF#5s",
+"ly": "",
+"rh": "A3+B3+D#4+F#4hd~",
+"lh": "B1+B2 r r",
+"doubt": "Fin de trille : 2 petites notes E#5 F#5 avant la barre. rh bécarre sur A3 (B7)."
+},
+{
+"marks": [],
+"v": "B5hd^",
+"ly": "_",
+"rh": "A3+B3+D#4+F#4 r r^",
+"lh": "rhd^",
+"doubt": "Points d'orgue sur la note chantée, le dernier silence rh et la pause lh."
+},
+{
+"marks": [
+"ff"
+],
+"v": "E5 r r",
+"ly": "ge!",
+"rh": "E5+E6hd~",
+"lh": "E3+G#3d* B3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "E5+E6 D#5+D#6 C#5+C#6",
+"lh": "E3+G#3d* B3d*",
+"doubt": "Postlude piano seul : pas de portée de chant → silences. 2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "B4+B5 A#4+A#5 A4+A5",
+"lh": "E3+G#3d* B3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "G#4+G#5 F#4+F#5 E4+E5",
+"lh": "E3+G#3d* B3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "D#4+D#5 C#4+C#5 r",
+"lh": "E3+F#3d* A3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "E#4+E#5 F#4+F#5 r",
+"lh": "E3+A3d* C#4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "G#4+G#5 F#4+F#5 r",
+"lh": "E3+A3+B3d* D#4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "C#5+C#6 B4+B5 r",
+"lh": "E3+A3+B3d* D#4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "G#5+G#6hd~",
+"lh": "E3+G#3+B3d* E4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Arcs vers m. suivante lus comme tenues."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "G#5+G#6 F#5+F#6 E5+E6",
+"lh": "E3+G#3+B3d* E4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "D#5+D#6 C#5+C#6 B4+B5",
+"lh": "E3+G#3+B3d* E4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "A#4+A#5 A4+A5 G#4+G#5",
+"lh": "E3+G#3+B#3d* E4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Dièse devant l'accord lh centré sur B3 → B#3 (accord augmenté) — à vérifier."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "E#4+E#5 F#4+F#5 r",
+"lh": "E3+A3+C#4d* E4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "G#4+G#5 A4+A5 r",
+"lh": "E3+A3+C#4d* E4d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "A#4+A#5 B4+B5 B#4+B#5",
+"lh": "E3+F#3+A3d* B3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Accord lh dense (E3 F#3 A3, peut-être G#3) — à vérifier."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "C#5+C#6 D5+D6 D#5+D#6",
+"lh": "E3+F#3+A3d* B3d*",
+"doubt": "2 voix alternées en trémolo mesuré (double barre) : chaque élément = moitié de la durée imprimée. Montée chromatique rh (bécarre sur D)."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "E5+E6 r r",
+"lh": "E3+G#3 r r"
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "B4+D#5+F#5+B5 r r",
+"lh": "B2+B3 r r",
+"doubt": "Accord rh à 4 sons lu B4 D#5 F#5 B5 — à vérifier."
+},
+{
+"marks": [],
+"v": "rhd",
+"ly": "",
+"rh": "E5+G#5+B5+E6 r r",
+"lh": "E2+E3 r r",
+"doubt": "Double barre finale. Accord rh lu E5 G#5 B5 E6 — à vérifier."
+}
+]
 }

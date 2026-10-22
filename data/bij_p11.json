@@ -1,144 +1,144 @@
 {
- "page": 11,
- "measures": [
-  {
-   "meter": "3/4",
-   "ks": 4,
-   "marks": [],
-   "v": "E5 D#5 r",
-   "ly": "ri- te?",
-   "rh": "E4+F##4+A#4 D#4+G#4+B4 r",
-   "lh": "re G#2e B2e D#3e G#3e B3e",
-   "doubt": "Page imprimée 98 (ordre OK). Le guide annonce 3/8 mais les rythmes imprimés font 3 noires/mesure (aucune indication de mesure sur la page) → 3/4. « ri- te? » = fin de « Margue-rite? » (p. 97). Liaison rh."
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "F##4e A#4e D#5 r",
-   "ly": "Est- ce toi?",
-   "rh": "Eb4+G4hd // r re Eb4e Eb4e Eb4+F4e",
-   "lh": "Bb3d G3+Bb3e Ab3+Cb4e Ab3+Cb4e",
-   "doubt": "rh : accord ♭/♮ (Eb4+G4) ; voix intérieure sans silences imprimés (r re déduits) ; dernier accord E♭4+F♮4. lh : 2e et 3e accords ♭♭ lus Ab3+Cb4."
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "F##4e A#4e D#5 r",
-   "ly": "Ré- ponds- moi,",
-   "rh": "Eb4+G4hd // r re Eb4e Eb4e Eb4+F4e",
-   "lh": "Bb3d G3+Bb3e Ab3+Cb4e Ab3+Cb4e",
-   "doubt": "Identique à la mesure précédente."
-  },
-  {
-   "marks": [],
-   "v": "B4e D#5e F#5h",
-   "ly": "ré- ponds- moi,",
-   "rh": "D#4+F#4hd",
-   "lh": "F#3+B3hd",
-   "doubt": "rh dièses de précaution D#/F# ; lh B♮3 (bécarre) + F#3."
-  },
-  {
-   "marks": [
-    "dim."
-   ],
-   "v": "F#4e F#4e G#4e G#4e A#4e A#4e",
-   "ly": "ré- ponds, ré- ponds, ré- ponds",
-   "rh": "E4+F#4e re E4+G#4e re E4+A#4e re",
-   "lh": "F#3+A#3e re F#3+B3e re F#3+C#4e re"
-  },
-  {
-   "marks": [
-    "p"
-   ],
-   "v": "C#5 B4 r",
-   "ly": "vi- te!",
-   "rh": "D#4+B4e C#4e D#4e E4e F#4e G#4e",
-   "lh": "B2+B3e re r r"
-  },
-  {
-   "marks": [],
-   "v": "D5h C#5e B4e",
-   "ly": "Ah, s'il é-",
-   "rh": "D4+G#4hd",
-   "lh": "E#3+B3hd",
-   "doubt": "Accents (>) sur les accords piano ; rh D♮4 (bécarre) ; lh dièse lu E#3 (accord E#°7). Liaisons vers la mesure suivante (pas des tenues)."
-  },
-  {
-   "marks": [],
-   "v": "A4e G#4e F#4 r",
-   "ly": "tait i- ci!",
-   "rh": "C#4+A4e C#4e D#4e E#4e F#4e G#4e",
-   "lh": "F#3+A3e re r r",
-   "doubt": "Staccatos + soufflet (cresc.) rh."
-  },
-  {
-   "marks": [],
-   "v": "E5h D#5e C#5e",
-   "ly": "S'il me vo-",
-   "rh": "E4+A#4hd",
-   "lh": "F##3+C#4hd",
-   "doubt": "Accents ; rh E♮4 (bécarre de précaution)."
-  },
-  {
-   "marks": [
-    "rit."
-   ],
-   "v": "B4e A#4e G#4 r",
-   "ly": "yait ain- si!",
-   "rh": "D#4+B4e B3e C#4e D#4e E4e E#4e",
-   "lh": "G#3+B3e re r r",
-   "doubt": "rh 5e croche E4 / 6e E#4 (même ligne, dièse) — à vérifier ; staccatos + soufflet."
-  },
-  {
-   "marks": [
-    "a tempo",
-    "pp"
-   ],
-   "v": "B4 A4e G#4e F#4e D#5e",
-   "ly": "Comme u- ne de- moi-",
-   "rh": "F#4hd",
-   "lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd",
-   "doubt": "« Comme » sur une seule note (élision imprimée)."
-  },
-  {
-   "marks": [],
-   "v": "C#5 B4 r",
-   "ly": "sel- le",
-   "rh": "E4e C#5e B4e A#4e A4e G#4e",
-   "lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
-  },
-  {
-   "marks": [],
-   "v": "B4 A4e G#4e F#4e D#5e",
-   "ly": "il me trou- ve- rait",
-   "rh": "F#4hd",
-   "lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd"
-  },
-  {
-   "marks": [],
-   "v": "C#5 B4 r",
-   "ly": "bel- le!",
-   "rh": "E4e C#5e B4e A#4e A4e G#4e",
-   "lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
-  },
-  {
-   "marks": [],
-   "v": "re B4e C#5e D#5e E5e F#5e",
-   "ly": "Ah! _ _ _ _",
-   "rh": "B4h A4",
-   "lh": "B3e D#4e B3e D#4e B3e D#4e // F#3hd"
-  },
-  {
-   "marks": [
-    "cresc."
-   ],
-   "v": "G#5hd~",
-   "ly": "_",
-   "rh": "G#4e A4e B4e C#5e D#5e E5e",
-   "lh": "E3+G#3+B3hd",
-   "doubt": "G#5 lié au G#5 du début de p. 99 (arc de tenue). Staccatos rh."
-  }
- ]
+"page": 11,
+"measures": [
+{
+"meter": "3/4",
+"ks": 4,
+"marks": [],
+"v": "E5 D#5 r",
+"ly": "ri- te?",
+"rh": "E4+F##4+A#4 D#4+G#4+B4 r",
+"lh": "re G#2e B2e D#3e G#3e B3e",
+"doubt": "Page imprimée 98 (ordre OK). Le guide annonce 3/8 mais les rythmes imprimés font 3 noires/mesure (aucune indication de mesure sur la page) → 3/4. « ri- te? » = fin de « Margue-rite? » (p. 97). Liaison rh."
+},
+{
+"marks": [
+"p"
+],
+"v": "F##4e A#4e D#5 r",
+"ly": "Est- ce toi?",
+"rh": "Eb4+G4hd // r re Eb4e Eb4e Eb4+F4e",
+"lh": "Bb3d G3+Bb3e Ab3+Cb4e Ab3+Cb4e",
+"doubt": "rh : accord ♭/♮ (Eb4+G4) ; voix intérieure sans silences imprimés (r re déduits) ; dernier accord E♭4+F♮4. lh : 2e et 3e accords ♭♭ lus Ab3+Cb4."
+},
+{
+"marks": [
+"cresc."
+],
+"v": "F##4e A#4e D#5 r",
+"ly": "Ré- ponds- moi,",
+"rh": "Eb4+G4hd // r re Eb4e Eb4e Eb4+F4e",
+"lh": "Bb3d G3+Bb3e Ab3+Cb4e Ab3+Cb4e",
+"doubt": "Identique à la mesure précédente."
+},
+{
+"marks": [],
+"v": "B4e D#5e F#5h",
+"ly": "ré- ponds- moi,",
+"rh": "D#4+F#4hd",
+"lh": "F#3+B3hd",
+"doubt": "rh dièses de précaution D#/F# ; lh B♮3 (bécarre) + F#3."
+},
+{
+"marks": [
+"dim."
+],
+"v": "F#4e F#4e G#4e G#4e A#4e A#4e",
+"ly": "ré- ponds, ré- ponds, ré- ponds",
+"rh": "E4+F#4e re E4+G#4e re E4+A#4e re",
+"lh": "F#3+A#3e re F#3+B3e re F#3+C#4e re"
+},
+{
+"marks": [
+"p"
+],
+"v": "C#5 B4 r",
+"ly": "vi- te!",
+"rh": "D#4+B4e C#4e D#4e E4e F#4e G#4e",
+"lh": "B2+B3e re r r"
+},
+{
+"marks": [],
+"v": "D5h C#5e B4e",
+"ly": "Ah, s'il é-",
+"rh": "D4+G#4hd",
+"lh": "E#3+B3hd",
+"doubt": "Accents (>) sur les accords piano ; rh D♮4 (bécarre) ; lh dièse lu E#3 (accord E#°7). Liaisons vers la mesure suivante (pas des tenues)."
+},
+{
+"marks": [],
+"v": "A4e G#4e F#4 r",
+"ly": "tait i- ci!",
+"rh": "C#4+A4e C#4e D#4e E#4e F#4e G#4e",
+"lh": "F#3+A3e re r r",
+"doubt": "Staccatos + soufflet (cresc.) rh."
+},
+{
+"marks": [],
+"v": "E5h D#5e C#5e",
+"ly": "S'il me vo-",
+"rh": "E4+A#4hd",
+"lh": "F##3+C#4hd",
+"doubt": "Accents ; rh E♮4 (bécarre de précaution)."
+},
+{
+"marks": [
+"rit."
+],
+"v": "B4e A#4e G#4 r",
+"ly": "yait ain- si!",
+"rh": "D#4+B4e B3e C#4e D#4e E4e E#4e",
+"lh": "G#3+B3e re r r",
+"doubt": "rh 5e croche E4 / 6e E#4 (même ligne, dièse) — à vérifier ; staccatos + soufflet."
+},
+{
+"marks": [
+"a tempo",
+"pp"
+],
+"v": "B4 A4e G#4e F#4e D#5e",
+"ly": "Comme u- ne de- moi-",
+"rh": "F#4hd",
+"lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd",
+"doubt": "« Comme » sur une seule note (élision imprimée)."
+},
+{
+"marks": [],
+"v": "C#5 B4 r",
+"ly": "sel- le",
+"rh": "E4e C#5e B4e A#4e A4e G#4e",
+"lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
+},
+{
+"marks": [],
+"v": "B4 A4e G#4e F#4e D#5e",
+"ly": "il me trou- ve- rait",
+"rh": "F#4hd",
+"lh": "B3e D#4e B3e D#4e B3e D#4e // A3hd"
+},
+{
+"marks": [],
+"v": "C#5 B4 r",
+"ly": "bel- le!",
+"rh": "E4e C#5e B4e A#4e A4e G#4e",
+"lh": "B3e E4e B3e E4e B3e E4e // G#3hd"
+},
+{
+"marks": [],
+"v": "re B4e C#5e D#5e E5e F#5e",
+"ly": "Ah! _ _ _ _",
+"rh": "B4h A4",
+"lh": "B3e D#4e B3e D#4e B3e D#4e // F#3hd"
+},
+{
+"marks": [
+"cresc."
+],
+"v": "G#5hd~",
+"ly": "_",
+"rh": "G#4e A4e B4e C#5e D#5e E5e",
+"lh": "E3+G#3+B3hd",
+"doubt": "G#5 lié au G#5 du début de p. 99 (arc de tenue). Staccatos rh."
+}
+]
 }
