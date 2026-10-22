@@ -115,6 +115,14 @@ if all(os.path.exists('data/fig_p%d.json' % k) for k in range(1, 12)):  # n'incl
 def add_air(prefix, meta, bpm, voice):
     if not os.path.exists('data/%s_p1.json' % prefix) or not os.path.exists('data/%s_done' % prefix): return  # inclus seulement une fois l'air assemblé et vérifié
     ms = clean(pages(prefix))
+    if ms and any('D.S. al Fine' in (m.get('marks') or []) for m in ms):  # reprise dal segno déroulée pour la lecture
+        a = next(i for i, m in enumerate(ms) if 'Segno' in (m.get('marks') or []))
+        f = next(i for i, m in enumerate(ms) if 'Fine' in (m.get('marks') or []))
+        cp = json.loads(json.dumps(ms[a:f + 1]))
+        for m in cp:
+            m['marks'] = [k for k in (m.get('marks') or []) if k != 'Segno']
+        cp[0]['marks'] = ['Dal segno (𝄋)'] + cp[0]['marks']
+        ms = ms + cp
     if ms and not ms[0].get('bpm'): ms[0]['bpm'] = bpm
     T = json.load(open('data/%s_text.json' % prefix)) if os.path.exists('data/%s_text.json' % prefix) else None
     W.append(dict(dict({'ks': 0}, **meta), bpm=bpm, measures=ms, text=place_phrases(T, ms) if T else None,
