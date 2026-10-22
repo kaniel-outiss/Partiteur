@@ -1,0 +1,179 @@
+{
+ "page": 1,
+ "measures": [
+  {
+   "meter": "4/4",
+   "tempo": "Allegro maestoso",
+   "marks": [
+    "ff"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "Eb4 Db4ed Cb4s Bb3d^ re",
+   "lh": "Eb2+Eb3 Db2+Db3ed Cb2+Cb3s Bb1+Bb2d^ re",
+   "doubt": "Page imprimée 89 (titre « Nº 2. Cujus animam. », « Air. ») ; tempo imprimé « Allegro maestoso. (♩ = 100) ». Piano seul jusqu'à la m. 20. Accent > + point d'orgue sur la dernière note (main gauche ; point d'orgue au-dessus de la main droite)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Db4 Cb4ed Bb3s Ab3d^ re",
+   "lh": "Db2+Db3 Cb2+Cb3ed Bb1+Bb2s Ab1+Ab2d^ re",
+   "doubt": "Accent > + point d'orgue sur la dernière note."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "rw",
+   "lh": "Cb3h Bb2~ Bb2ed Ab2s",
+   "doubt": "Liaison Cb-Bb-Ab ; Bb2 noire liée à la croche pointée."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "rh Bb3h",
+   "lh": "Gb2w"
+  },
+  {
+   "marks": [
+    "tr"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab3+Cb4h Db4h",
+   "lh": "Fb2w gEb2 gFb2",
+   "doubt": "Trille (tr~~) sur Fb2 avec terminaison en 2 petites notes (lues Eb2 Fb2, très petites, incertaines). Liaison RH Bb3 (m.4) → Db4."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "G3+Eb4 r rh",
+   "lh": "Eb2 r Db2+Db3 r",
+   "doubt": "RH : bécarre imprimé devant G3 ; un arc (point d'orgue renversé ?) sous l'accord — incertain, non noté. LH : accents (^) sous le 3e temps."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "rw",
+   "lh": "Bb1+Bb2 r Eb2+Eb3 r",
+   "doubt": "Accents (^) sous les 1er et 3e temps. Octave basse Bb1 lue avec 2 lignes supplémentaires — incertaine."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "rw",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+   "doubt": "Points de staccato sur les accords."
+  },
+  {
+   "marks": [
+    "dolce"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab4hd C5ed Db5s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Eb4+Eb5hd C5ed Ab4s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+   "doubt": "Eb4 (hampe bas) et Eb5 (hampe haut) en blanches pointées."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab4+Ab5hd Ab4ed F5s",
+   "lh": "Ab2e re F3+Ab3+Db4ed F3+Ab3+Db4s F3+Ab3+Db4e re F3+Ab3+Db4e re"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Eb5hd Eb4ed Eb5s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Db5hd Eb4ed Db5s",
+   "lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3e re Eb3+G3+Bb3e re",
+   "doubt": "Accord LH serré : lu Eb3+G3+Bb3 (Db4 possible au sommet)."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C5hd F4ed C5s",
+   "lh": "C3e re G3+Bb3+C4+E4ed G3+Bb3+C4+E4s F3+A3+C4+Eb4e re F3+A3+C4+Eb4e re",
+   "doubt": "LH : bécarre sur E4 (1re moitié), puis ♭ (Eb4) et ♮ (A3) — accords très serrés, composition lue C7 puis F7."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Bb4hd Eb4ed Bb4s",
+   "lh": "Bb2e re F3+Ab3+D4ed F3+Ab3+D4s Eb3+G3+Bb3+Db4e re Eb3+G3+Bb3+Db4e re",
+   "doubt": "LH : ♭ (Ab3, de précaution) et ♮ D4 ; puis ♭ Db4."
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab4e re C5+C6ed F5+F6s Eb5+Eb6e re Ab4+Ab5ed Db5+Db6s",
+   "lh": "Ab3+C4e re C3+C4ed F3+F4s Eb3+Eb4e re Ab2+Ab3ed Db3+Db4s"
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "C5+C6e re C4+C5ed Db4+Db5s Eb4+Eb5 gF5 gEb5 gD5 gEb5 C5+Eb5+C6ed Bb4+Db5+Bb5s",
+   "lh": "C3+C4e re C2+C3ed Db2+Db3s Eb2+Eb3 Eb2+Eb3",
+   "doubt": "Gruppetto en 4 petites notes (F5 Eb5 D♮5 Eb5, bécarre sur D) avant le 4e temps, noté en petites notes. Accords RH du 4e temps serrés (C5+Eb5+C6 / Bb4+Db5+Bb5 avec ♭ sur Db5) — incertains."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab4+C5+Ab5e re r rh",
+   "lh": "Ab2+Ab3e re C4ed F4s Eb4e re Ab3ed Db4s",
+   "doubt": "Accord RH serré (Ab4+C5 sous Ab5) incertain. LH : liaisons C4-F4 et Ab3-Db4-(C4 m.19)."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "rw",
+   "ly": "",
+   "rh": "rh Ab3+C4 C4+Eb4ed Bb3+Db4s",
+   "lh": "C4e re C3ed Db3s Eb3 gF3 gEb3 gD3 gEb3 Eb2",
+   "doubt": "« pp » imprimé entre les portées du piano (m.19). LH : gruppetto 4 petites notes F Eb D♮ Eb (bécarre sur D3). Liaison RH vers m.20. Le chant (« Tenor. ») entre à la m. 21."
+  },
+  {
+   "v": "rw",
+   "ly": "",
+   "rh": "Ab3+C4e re r rh",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re"
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Ab4hd C5ed Db5s",
+   "ly": "Cu- jus _",
+   "rh": "Ab4hd C5ed Db5s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+   "doubt": "Entrée « Tenor. » ; liaison C5-Db5 (mélisme)."
+  },
+  {
+   "v": "Eb5hd C5ed Ab4s",
+   "ly": "a- ni- _",
+   "rh": "Eb4+Eb5hd C5ed Ab4s",
+   "lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+   "doubt": "Liaison C5-Ab4 (mélisme). Le mot « animam » se poursuit page suivante."
+  }
+ ]
+}

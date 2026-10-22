@@ -1,0 +1,141 @@
+{
+"page": 2,
+"measures": [
+{
+"meter": "4/4",
+"v": "Ab5hd Ab4ed F5s",
+"ly": "mam ge- _",
+"rh": "Ab4+Ab5hd Ab4ed F5s",
+"lh": "Ab2e re F3+Ab3+Db4ed F3+Ab3+Db4s F3+Ab3+Db4e re F3+Ab3+Db4e re",
+"doubt": "Page imprimée 90, enchaîne bien avec p.89. Syllabe imprimée « man » (coquille probable pour « mam » d'animam) — transcrite telle quelle."
+},
+{
+"v": "Eb5hd Eb4ed Eb5s",
+"ly": "men- tem, _",
+"rh": "Eb5hd Eb4ed Eb5s",
+"lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re"
+},
+{
+"v": "Db5hd Eb4ed Db5s",
+"ly": "con tris- _",
+"rh": "Db5hd Eb4ed Db5s",
+"lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3e re Eb3+G3+Bb3e re"
+},
+{
+"v": "C5hd F4ed C5s",
+"ly": "tan- tem _",
+"rh": "C5hd F4ed C5s",
+"lh": "C3e re G3+Bb3+C4+E4ed G3+Bb3+C4+E4s F3+A3+C4+Eb4e re F3+A3+C4+Eb4e re",
+"doubt": "Mêmes accords LH qu'à la m.14 (♮ E4, puis ♭ Eb4 / ♮ A3)."
+},
+{
+"v": "Bb4hd Eb4ed Bb4s",
+"ly": "et do- _",
+"rh": "Bb4hd Eb4ed Bb4s",
+"lh": "Bb2e re F3+Ab3+D4ed F3+Ab3+D4s Eb3+G3+Bb3+Db4e re Eb3+G3+Bb3+Db4e re"
+},
+{
+"v": "Ab4h gC5 gBb4 Ab4e re r",
+"ly": "len- tem,",
+"rh": "Ab4hd Eb4ed Eb4s",
+"lh": "Ab2e re Eb3+Ab3+C4ed Eb3+Ab3+C4s Eb3+Ab3+C4e re Eb3+Ab3+C4e re",
+"doubt": "Chant : 2 petites notes (C5 Bb4) liées depuis Ab4 avant la croche."
+},
+{
+"v": "Bb4hd Cb5ed Ab4s",
+"ly": "per- tran- _",
+"rh": "Eb4 r r Eb4ed Eb4s",
+"lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3e re Eb3+Ab3+Cb4e re",
+"doubt": "Dernier accord LH : ♭ sur Cb4 (Eb3+Ab3+Cb4)."
+},
+{
+"v": "G4hd Ab4ed Cb5s",
+"ly": "si- vit _",
+"rh": "Bb4hd Cb5+Eb5ed Ab4+Eb5s",
+"lh": "Eb2e re Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3e re Eb3+Ab3+Cb4e re",
+"doubt": "RH 4e temps à 2 voix (Eb5 hampe haut / Cb5→Ab4 hampe bas) fusionnées en accords."
+},
+{
+"marks": [
+"f"
+],
+"v": "Eb5h Eb5h",
+"ly": "gla- di-",
+"rh": "Bb5hd Bb5ed Ab5s // red Eb5s Eb5ed Eb5s Eb5ed Eb5s Eb5ed Eb5s",
+"lh": "Eb2e rs Eb3+G3+Bb3s Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+G3+Bb3ed Eb3+G3+Bb3s Eb3+Ab3+Cb4ed Eb3+Ab3+Cb4s",
+"doubt": "Chant : accents > sur les deux blanches. RH voix haute Bb5 (♭ de précaution sur la 2e) ; soufflet crescendo entre les portées (m.31-32). LH 2e moitié : ♭ Cb4."
+},
+{
+"marks": [
+"f"
+],
+"v": "Eb5e re r rh",
+"ly": "us.",
+"rh": "Eb5ed Eb4+Eb5s E4+E5ed E4+E5s F4+F5ed F4+F5s G4+G5ed G4+G5s",
+"lh": "Eb3+G3+Bb3e re Bb3+Db4h Eb3+C4ed Eb3+Bb3s",
+"doubt": "RH : bécarres sur E4/E5 (montée chromatique en octaves). « f » sous la RH au 2e temps. LH : ♮ (de précaution, après Cb) sur C4 et ♭ sur Eb3 au 4e temps — lecture incertaine."
+},
+{
+"marks": [
+"ff"
+],
+"v": "Ab4hd C5ed Db5s",
+"ly": "Cu- jus _",
+"rh": "Ab4+C5+Eb5+Ab5hd C5+C6ed Db5+Db6s",
+"lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 // Ab2h Ab2h",
+"doubt": "LH en triolets de croches (« 3 », staccato) sur basse Ab2 en blanches ; ♭ de précaution sur Eb5 RH."
+},
+{
+"v": "Eb5hd C5ed Ab4s",
+"ly": "a- ni- _",
+"rh": "Eb5+Gb5+Ab5+C6+Eb6hd C5+C6ed Ab4+Ab5s",
+"lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 // Ab2h Ab2h",
+"doubt": "Accord RH très serré (♭ Gb5) incertain. Triolets LH sans chiffre « 3 » imprimé (simile)."
+},
+{
+"v": "Ab5hd Ab4ed Fb5s",
+"ly": "mam ge- _",
+"rh": "Ab5+Db6+Ab6hd Ab4+Ab5ed Fb5+Fb6s",
+"lh": "Ab2e3 Db3e3 F3e3 Ab3e3 F3e3 Db3e3 Ab2e3 Db3e3 Fb3e3 Ab3e3 Fb3e3 Db3e3 // Ab2h Ab2h",
+"doubt": "Accord RH du 1er temps (Ab5+Db6+Ab6) lu sur lignes supplémentaires — incertain. ♭ Fb3 LH (2e moitié)."
+},
+{
+"v": "Eb5hd Eb4ed Eb5s",
+"ly": "men- tem, _",
+"rh": "Eb5+Ab5+C6+Eb6hd Eb5ed Eb5+Eb6s",
+"lh": "Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 Ab2e3 C3e3 Eb3e3 Ab3e3 Eb3e3 C3e3 // Ab2h Ab2h",
+"doubt": "Accord RH serré incertain."
+},
+{
+"v": "Db5hd Eb4ed Db5s",
+"ly": "con tris- _",
+"rh": "Eb5+G5+Bb5+Db6hd Eb5ed Eb5+Db6s",
+"lh": "Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 G3e3 // Eb3h Eb3h",
+"doubt": "Accord RH serré incertain ; note basse du 16e lue Eb5 (Db5 possible)."
+},
+{
+"v": "C5hd F4ed C5s",
+"ly": "tan- tem _",
+"rh": "E5+G5+Bb5+C6h Eb5+F5+A5 F5ed C6s",
+"lh": "C3e3 G3e3 C4e3 C3e3 G3e3 C4e3 F3e3 A3e3 C4e3 F3e3 A3e3 C4e3",
+"doubt": "RH : 1er accord ♮ E5 (blanche, un point visible près de la note haute), 2e accord ♭ Eb5 / ♮ A5 en têtes blanches mais placé au 3e temps → noté noire. LH : plus de basse en blanches, triolets simples ; ♮ A3."
+},
+{
+"v": "Bb4hd Eb4ed Bb4s",
+"ly": "et do- _",
+"rh": "D5+F5+Ab5+Bb5hd Eb5ed Bb5s",
+"lh": "Bb2e3 F3e3 Bb3e3 Bb2e3 F3e3 Bb3e3 Eb3e3 G3e3 Bb3e3 Eb3e3 G3e3 Bb3e3",
+"doubt": "RH : ♮ sur D5, ♭ (de précaution) sur Bb5. LH 2e moitié lue Eb3 G3 Bb3 — incertaine."
+},
+{
+"marks": [
+"ff"
+],
+"v": "gBb4 Ab4e Ab4e r rh",
+"ly": "len- tem,",
+"rh": "C5+Eb5+Ab5e re C5+C6ed F5+F6s Eb5+Eb6e re Ab4+Ab5ed Db5+Db6s",
+"lh": "Ab3+C4e re C3+C4ed F3+F4s Eb3+Eb4e re Ab2+Ab3ed Db3+Db4s",
+"doubt": "Petite note (Bb4) liée avant la 1re croche. « lentem, » imprimé d'un bloc sous les deux croches → découpé len-/tem,. 1er accord RH serré incertain."
+}
+]
+}

@@ -1,0 +1,96 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "4/4",
+   "marks": [
+    "ff"
+   ],
+   "v": "Ab5h Bbb5h",
+   "ly": "poe- _",
+   "rh": "Ab5 Eb5ed Ab5s r Bbb5 // Ab4+C5+Eb5h Db5+Fb5h",
+   "lh": "C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 Db3e3 Fb3e3 Bbb3e3 Db4e3 Bbb3e3 Fb3e3 // C3h Db3h",
+   "doubt": "Suite de p.6 (« poe-nas »). LH : croches groupées par 3 (6 par demi-mesure), « 3 » non imprimé → transcrites en triolets. RH : voix inf. = accords en blanches (Ab4+C5+Eb5, puis Db5+Fb5), voix sup. Ab5 / Eb5-Ab5 / soupir / Bbb5 ; la blanche de basse (C3, Db3) partage la tête de la 1re croche de chaque demi-mesure."
+  },
+  {
+   "v": "Bb5 Ab5~ Ab5e Eb5e D5e Eb5e",
+   "ly": "_ _ _ nas _",
+   "rh": "Bb5 Ab5~ Ab5e Eb5e D5e Eb5e // C5+Eb5h Ab4+C5h",
+   "lh": "Eb3e3 Ab3e3 C4e3 Eb4e3 C4e3 Ab3e3 Eb3e3 Ab3e3 C4e3 Eb4e3 C4e3 Ab3e3 // Eb3h Eb3h",
+   "doubt": "Arc Ab5 noire → Ab5 croche (chant et RH) lu comme liaison de prolongation ; « nas » placé sous le D5 (liaison D5-Eb5)."
+  },
+  {
+   "v": "F5d G4e F5d Eb5e",
+   "ly": "in- _ cly- _",
+   "rh": "F5d G4e F5d Eb5e // Bb4+Db5h Bb4+Db5h",
+   "lh": "Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 Db4e3 Bb3e3 Eb3e3 // Eb3h Eb3h",
+   "doubt": "LH 2e demi-mesure : dernière croche Eb3 (et non G3) ; une croche Eb3 décalée à gauche de la blanche Eb3 (unisson)."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "Ab4 r r Ab4ed Ab4s",
+   "ly": "ti, quae moe-",
+   "rh": "Ab4e re Ab4ed F5s Eb5 Eb4+Ab4",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3",
+   "doubt": "p imprimé aux deux portées du piano. RH Ab4 croche = fin de liaison venant de la mesure précédente."
+  },
+  {
+   "v": "Ab4 G4e re r Db5ed Db5s",
+   "ly": "re- bat et do-",
+   "rh": "r G4ed F5s Eb5 Bb4+Db5",
+   "lh": "Bb2e3 Eb3e3 G3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 G3e3 Bb3e3 Eb3e3",
+   "doubt": "LH 2e demi-mesure : Eb3 G3 Bb3 G3 Bb3 Eb3 tel que lu (4e croche G3, pas Db4)."
+  },
+  {
+   "v": "Db5 C5e re r Ab4ed Ab4s",
+   "ly": "le- bat et tre-",
+   "rh": "r Ab4ed F5s Eb5 Eb4+Ab4",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3"
+  },
+  {
+   "v": "Ab4 G4e re r Db5ed Db5s",
+   "ly": "me- bat, cum vi-",
+   "rh": "r G4ed F5s Eb5 Bb4+Db5",
+   "lh": "Bb2e3 Eb3e3 G3e3 Db4e3 Bb3e3 G3e3 Eb3e3 G3e3 Bb3e3 G3e3 Bb3e3 Eb3e3"
+  },
+  {
+   "v": "Db5 Cb5e re Eb5d Eb5e",
+   "ly": "de- bat; et tre-",
+   "rh": "r Ab4ed Cb5s r Eb5 // rh Gb4+Bbb4h",
+   "lh": "Ab2e3 Eb3e3 Ab3e3 Cb4e3 Ab3e3 Eb3e3 Cb3e3 Eb3e3 Gb3e3 Cb4e3 Cb3e3 Cb4e3",
+   "doubt": "RH : accord blanc Gb4+Bbb4 (bémol + double bémol) sous le soupir. LH fin : Cb4 Cb3 Cb4 (bémol de C4 valable jusqu'à la barre)."
+  },
+  {
+   "v": "Fb5d Fb5e F5d F5e",
+   "ly": "me- bat cum vi-",
+   "rh": "r Fb5 r F5 // Fb4+Ab4h Ab4+Cb5h",
+   "lh": "Fb3e3 Ab3e3 Cb4e3 Ab3e3 Cb4e3 Fb3e3 Db3e3 F3e3 Ab3e3 Db4e3 Db3e3 Db4e3 // rh Db3h",
+   "doubt": "LH 1re moitié : Fb3 Ab3 Cb4 Ab3 Cb4 Fb3 (C4 avec ledger + bémol). 2e moitié : blanche Db3 (tête creuse) + F3 bécarre."
+  },
+  {
+   "v": "Gb5d Gb5e G5d G5e",
+   "ly": "de- bat na- ti",
+   "rh": "r Gb5 r G5 // Gb4+Bb4h Bb4+Db5h",
+   "lh": "Gb3e3 Bb3e3 Db4e3 Bb3e3 Db4e3 Gb3e3 Eb3e3 G3e3 Bb3e3 Eb4e3 Eb3e3 Eb4e3"
+  },
+  {
+   "marks": [
+    "ff"
+   ],
+   "v": "Ab5h Bbb5h",
+   "ly": "poe- _",
+   "rh": "Ab5 Eb5ed Ab5s r Bbb5 // Ab4+C5+Eb5h Db5+Fb5h",
+   "lh": "C3e3 Eb3e3 Ab3e3 C4e3 Ab3e3 Eb3e3 Db3e3 Fb3e3 Bbb3e3 Db4e3 Bbb3e3 Fb3e3 // C3h Db3h",
+   "doubt": "Reprise exacte de la mesure 1 de la page."
+  },
+  {
+   "v": "Bb5 Ab5~ Ab5e Eb5e D5e Eb5e",
+   "ly": "_ _ _ nas _",
+   "rh": "Bb5 Ab5~ Ab5e Eb5e D5e Eb5e // C5+Eb5h Ab4+C5h",
+   "lh": "Eb3e3 Ab3e3 C4e3 Eb4e3 C4e3 Ab3e3 Eb3e3 Ab3e3 C4e3 Eb4e3 C4e3 Ab3e3 // Eb3h Eb3h",
+   "doubt": "Comme m.2 ; suite « in-cly-ti » p.8."
+  }
+ ]
+}
