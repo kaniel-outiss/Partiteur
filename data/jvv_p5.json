@@ -1,0 +1,190 @@
+{
+ "page": 5,
+ "measures": [
+  {
+   "meter": "3/4",
+   "marks": [],
+   "v": "E4hd~",
+   "ly": "jour,",
+   "rh": "E4 G#3+G#4 B3+B4",
+   "lh": "G#2e re D3+E3e re D3+E3e re",
+   "doubt": "p.105 : « jour, » termine la phrase de la p.104 (pas de levée). MD : liaison d'expression sur les 3 temps."
+  },
+  {
+   "marks": [],
+   "v": "E4 r r",
+   "ly": "",
+   "rh": "D4+D5 C4+C5 B3+B4",
+   "lh": "E2e re D3+E3e re D3+E3e re",
+   "doubt": "E4 lié depuis la mesure précédente."
+  },
+  {
+   "marks": [],
+   "v": "E5dd E4s E5~",
+   "ly": "Puis vient l'heu-",
+   "rh": "C4+C5 A3+C4+E4e re A3+C4+E4e re",
+   "lh": "A2 r r",
+   "doubt": "E5 noire doublement pointée ; E5 final lié (petite liaison) + liaison de phrasé jusqu'au D5 de la mesure suivante."
+  },
+  {
+   "marks": [],
+   "v": "E5 D5 C5",
+   "ly": "_ re",
+   "rh": "r A3+C4+E4e re A3+C4+E4e re",
+   "lh": "E2 r r"
+  },
+  {
+   "marks": [],
+   "v": "D5dd E4s D5~",
+   "ly": "où l'on pleu-",
+   "rh": "r G#3+D4+E4e re G#3+D4+E4e re",
+   "lh": "B2 r r",
+   "doubt": "D5 final lié au D5 du système suivant (double arc : liaison + phrasé)."
+  },
+  {
+   "marks": [],
+   "v": "D5 C5 B4",
+   "ly": "_ re;",
+   "rh": "r G#3+D4+E4e re G#3+D4+E4e re",
+   "lh": "E2 r r",
+   "doubt": "B4 bécarre."
+  },
+  {
+   "marks": [],
+   "v": "C5 B4 A4~",
+   "ly": "le cœur cè-",
+   "rh": "r A3+C4+E4e re A3+C4+E4e re",
+   "lh": "A2 r r",
+   "doubt": "Arc A4→A4 lu comme liaison de prolongation."
+  },
+  {
+   "marks": [],
+   "v": "A4 B4 G#4",
+   "ly": "de‿à l'a-",
+   "rh": "r B3+D4+E4e re B3+D4+E4e re",
+   "lh": "E2 r r",
+   "doubt": "« de‿à » élision sur B4 bécarre."
+  },
+  {
+   "marks": [],
+   "v": "A4h r",
+   "ly": "mour,",
+   "rh": "r C4+E4e re E4+A4e re",
+   "lh": "A2 r r"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "F5e G5e A5h",
+   "ly": "et _ _",
+   "rh": "r D4+F4e re F4+A4e re",
+   "lh": "gG#3 A3hd",
+   "doubt": "MG : accent > sur A3 ; petite note G#3 barrée."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "E5e D5e C5h",
+   "ly": "le _ _",
+   "rh": "r C4+E4e re E4+A4e re",
+   "lh": "gG#3 A3hd"
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "D5e E5e F5h",
+   "ly": "bon- _ _",
+   "rh": "r B3+D4e re D4+A4e re",
+   "lh": "gG#3 A3hd",
+   "doubt": "MG accent > ; MD 1er accord B3 bécarre."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "C5e B4e A4d re",
+   "ly": "heur _ _",
+   "rh": "r C4+E4e re E4+A4e re",
+   "lh": "gG#3 A3hd",
+   "doubt": "B4 bécarre."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "F5e G5e A5h",
+   "ly": "fuit _ _",
+   "rh": "r D4+F4e re F4+A4e re",
+   "lh": "gG#3 A3hd",
+   "doubt": "MG accent >."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "E5 gF5 D5 C5",
+   "ly": "sans _ re-",
+   "rh": "r C4+E4e re E4+A4e re",
+   "lh": "gG#3 A3hd",
+   "doubt": "Petite note (double croche) F5 avant D5."
+  },
+  {
+   "marks": [
+    "<"
+   ],
+   "v": "F5h~ F5e re",
+   "ly": "tour!",
+   "rh": "r B3+D4e re D4+A4e re",
+   "lh": "gG#3 A3hd",
+   "doubt": "MG accent > ; MD B3 bécarre."
+  },
+  {
+   "marks": [
+    "p"
+   ],
+   "v": "A4e Bb4e B4e C5e C#5e D5e",
+   "ly": "Ah! _ _ _ _ _",
+   "rh": "C4+E4hd~",
+   "lh": "gG#3 A3hd~",
+   "doubt": "Vocalise chromatique en croches sous une grande liaison (m.17-20)."
+  },
+  {
+   "marks": [],
+   "v": "D#5e E5e F5e F#5e G5e G#5e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "C4+E4hd~",
+   "lh": "A3hd~"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "A5e Ab5e G5e Gb5e F5e E5e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "C4+E4hd~",
+   "lh": "G3+A3hd~",
+   "doubt": "MG : bécarre sur G3 (seconde G3-A3), A3 lié depuis la mesure précédente."
+  },
+  {
+   "marks": [],
+   "v": "Eb5e D5e Db5e C5e B4e Bb4e",
+   "ly": "_ _ _ _ _ _",
+   "rh": "C4+E4hd",
+   "lh": "G3+A3hd",
+   "doubt": "Liaisons vers m.21 : MD C4 lié au C4 suivant, E4→F4 ; MG A3 lié, G3→F3 (non notées ~ car accords partiellement liés)."
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "v": "A4 r r",
+   "ly": "Je",
+   "rh": "C4+F4e re F3+A3+C4e re F3+A3+C4e re",
+   "lh": "F3+A3e re r r",
+   "doubt": "Début de la reprise « Je veux vivre » ; suite p.106."
+  }
+ ]
+}
