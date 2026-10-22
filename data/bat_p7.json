@@ -1,0 +1,123 @@
+{
+ "page": 7,
+ "measures": [
+  {
+   "meter": "6/8",
+   "doubt": "MG 2e temps : mi3 (hampe haute) commence le groupe, do3 pointé en voix basse",
+   "v": "A4e E4e F4e Bb4e F#4e G4e",
+   "ly": "ten- ti‿ed _ al- le _",
+   "rh": "A5e E5e F5e Bb5e F#5e G5e",
+   "lh": "rs A3s C4s A3s C4s A3s E3s G3s C4s G3s C4s G3s // F3d C3d"
+  },
+  {
+   "doubt": "Courbe do5→do5 lue comme liaison de prolongation",
+   "v": "C5e F5e C5e~ C5e Bb4e G4e",
+   "ly": "gri- _ a not- te‿e",
+   "rh": "C6e F6e C6 Bb5e G5e",
+   "lh": "rs A3s C4s A3s C4s A3s rs G3s C4s G3s C4s G3s // F3d E3d"
+  },
+  {
+   "v": "C5e A4e F4e A4ed Bb4s G4e",
+   "ly": "dì _ vo- gliam _ pas-",
+   "rh": "C6e A5e F5e F5+A5ed G5+Bb5s E5+G5e",
+   "lh": "rs A3s C4s A3s C4s A3s F3s C4s F3s C4s C3s C4s // F3d C3d"
+  },
+  {
+   "doubt": "MD : points de staccato sur les accords",
+   "v": "F4e F5e E5e D5e D5e C5e",
+   "ly": "sar, sì, sì, sì, sì, sì,",
+   "rh": "F5e D5+F5e C5+E5e Bb4+D5e Bb4+D5e A4+C5e",
+   "lh": "F3s E3s F3s E3s F3s E3s F3s E3s F3s G3s A3s Bb3s"
+  },
+  {
+   "doubt": "MD : bémol de précaution sur si4. MG : bécarre sur si3 (1er temps) puis bémol (2e temps) ; mi5 staccato MD",
+   "v": "Bb4 re E5 E5e",
+   "ly": "sì, not- te‿e",
+   "rh": "G4+Bb4d Bb5e G5e E5e",
+   "lh": "B3s C4s B3s C4s B3s C4s Bb3s C4s Bb3s C4s Bb3s C4s // rd C3d"
+  },
+  {
+   "doubt": "MD : la4 staccato ; sol4 pointé en voix basse au 2e temps",
+   "v": "F5e C5e A4e C5e Bb4e G4e",
+   "ly": "dì _ vo- gliam _ pas-",
+   "rh": "F5e C5e A4e C5e Bb4e E4+G4e // r re G4d",
+   "lh": "A3s C4s A3s C4s F3s C4s E3s C4s E3s C4s Bb3s C4s // F3d C3d"
+  },
+  {
+   "doubt": "MD : 1re croche fa4 (ici une octave plus bas qu'à la mes. 4)",
+   "v": "F4e F5e E5e D5e D5e C5e",
+   "ly": "sar, sì, sì, sì, sì, sì,",
+   "rh": "F4e D5+F5e C5+E5e Bb4+D5e Bb4+D5e A4+C5e",
+   "lh": "F3s E3s F3s E3s F3s E3s F3s E3s F3s G3s A3s Bb3s"
+  },
+  {
+   "doubt": "MD : bémol de précaution devant l'accord",
+   "v": "Bb4 re E5 E5e",
+   "ly": "sì, not- te‿e",
+   "rh": "G4+Bb4 re Bb5e G5e E5e",
+   "lh": "B3s C4s B3s C4s B3s C4s Bb3s C4s Bb3s C4s Bb3s C4s // rd C3d"
+  },
+  {
+   "v": "F5e C5e A4e C5e Bb4e G4e",
+   "ly": "dì _ vo- gliam _ pas-",
+   "rh": "F5e C5e A4e C5e Bb4e E4+G4e // r re G4d",
+   "lh": "A3s C4s A3s C4s F3s C4s E3s C4s E3s C4s Bb3s C4s // F3d C3d"
+  },
+  {
+   "doubt": "Courbe do5→do5 lue comme liaison de prolongation",
+   "v": "F4e A4e C5e~ C5e G4e C5e",
+   "ly": "sar _ _ _ vo-",
+   "rh": "F4 re G4+Bb4 re",
+   "lh": "rs A3s C4s A3s C4s A3s G3s Bb3s C4s Bb3s C4s Bb3s // F3d E3d"
+  },
+  {
+   "v": "C5e A4e C5e C5e G4e C5e",
+   "ly": "gliam _ _ pas- _ _",
+   "rh": "F4+A4 re E4+G4 re",
+   "lh": "rs A3s C4s A3s F3s A3s rs Bb3s C4s Bb3s C4s Bb3s // F3d C3d"
+  },
+  {
+   "v": "F4e A4e C5e~ C5e G4e C5e",
+   "ly": "sar, _ _ _ vo-",
+   "rh": "F4+A4 re G4+Bb4 re",
+   "lh": "rs A3s C4s A3s C4s A3s G3s Bb3s C4s Bb3s C4s Bb3s // F3d E3d"
+  },
+  {
+   "v": "C5e A4e C5e C5e G4e C5e",
+   "ly": "gliam _ _ pas- _ _",
+   "rh": "F4+A4 re E4+G4 re",
+   "lh": "rs A3s C4s A3s F3s A3s rs Bb3s C4s Bb3s C4s Bb3s // F3d C3d"
+  },
+  {
+   "doubt": "MD : accords staccato. MG : bécarre sur si3, dièse sur sol3",
+   "v": "F4 re r re",
+   "ly": "sar.",
+   "rh": "F4 re A5+C6e A5+C6e A5+C6e",
+   "lh": "F3+A3s B3s C4s B3s C4s B3s C4s G#3s A3s G#3s A3s G#3s"
+  },
+  {
+   "doubt": "Chant : pause (mesure entière)",
+   "v": "rhd",
+   "ly": "",
+   "rh": "F5+A5 re A4+C5e A4+C5e A4+C5e",
+   "lh": "A3s E3s F3s E3s F3s E3s F3s E3s F3s E3s F3s E3s"
+  },
+  {
+   "marks": [
+    "pp"
+   ],
+   "doubt": "Chant : pause. MD accords staccato sous la portée",
+   "v": "rhd",
+   "ly": "",
+   "rh": "F4+A4 re A3+C4e A3+C4e A3+C4e",
+   "lh": "F3s E2s F2s E2s F2s E2s F2s E2s F2s E2s F2s E2s"
+  },
+  {
+   "doubt": "Dernière mesure, double barre finale. Chant : pause",
+   "v": "rhd",
+   "ly": "",
+   "rh": "A3+C4+F4 re r re",
+   "lh": "F2 re r re"
+  }
+ ]
+}
