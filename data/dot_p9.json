@@ -1,0 +1,88 @@
+{
+ "page": 9,
+ "measures": [
+  {
+   "meter": "2/4",
+   "v": "Eb4s Eb4s Eb4s Eb4s Eb4s Db4s Db4s Db4s",
+   "ly": "mor- ta, fac- cia pu- re, fac- cia",
+   "rh": "Eb5s G4s Eb5s G4s Eb5s Db5s Db5s Db5s",
+   "lh": "C4e re F3+Ab3+F4e re",
+   "doubt": "mes. 74 imprimée en tête de page 74 ; LH temps 2 : accord F3+Ab3+F4 (lecture serrée des deux têtes collées A3/F3)"
+  },
+  {
+   "v": "Db4s C4s C4s C4s C4s B3s B3s B3s",
+   "ly": "pu- re, fac- cia pur la gat- ta",
+   "rh": "Db5s C5s C5s C5s C5s B4s B4s B4s",
+   "lh": "G3+Eb4e re G3+D4+F4e re",
+   "doubt": "B bécarre (chant B3, RH B4) ; LH 2e accord : bécarre sur D4"
+  },
+  {
+   "v": "C4s C4s re r",
+   "ly": "mor- ta.",
+   "rh": "C5e rs F5s rs D5s rs A4s",
+   "lh": "C4+Eb4e F4e D4e A3e",
+   "doubt": "D5/D4 et A4/A3 bécarre"
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "rs Bb4s rs F4s rs Gb4s rs E4s",
+   "lh": "Bb3e F3e Gb3e E3e",
+   "doubt": "E4 / E3 bécarre"
+  },
+  {
+   "v": "re F3s F3s F3s F3s F3s F3s",
+   "ly": "Co- spe- ton! per quel- la",
+   "rh": "F4e F4s F4s F4s F4s F4s F4s",
+   "lh": "F3e re Eb4e re",
+   "doubt": "LH : bémol de précaution sur Eb4"
+  },
+  {
+   "v": "Bb3s Bb3s Bb3s Bb3s C4s C4s C4s C4s",
+   "ly": "por- ta, co- spe- ton! per quel- la",
+   "rh": "Bb4s F4s Bb4s F4s C5s F4s C5s F4s",
+   "lh": "D4e re A3e re",
+   "doubt": "LH : A3 bécarre"
+  },
+  {
+   "v": "D4s D4s D4s D4s D4s C4s C4s C4s",
+   "ly": "por- ta nem- men l'a- ria, nem- men",
+   "rh": "D5s F4s D5s F4s D5s C5s C5s C5s",
+   "lh": "Bb3e re Eb3+G3+Eb4e re"
+  },
+  {
+   "v": "C4s Bb3s Bb3s Bb3s Bb3s A3s A3s A3s",
+   "ly": "l'a- ria, nem- men l'a- ria‿en- trar po-",
+   "rh": "C5s Bb4s Bb4s Bb4s Bb4s A4s A4s A4s",
+   "lh": "F3+D4e re F3+C4+Eb4e re",
+   "doubt": "A bécarre (chant A3, RH A4)"
+  },
+  {
+   "v": "Bb3 r",
+   "ly": "trà.",
+   "rh": "Bb4e F4s F5s Bb4s Bb5s C5s C6s",
+   "lh": "Bb3+D4e re r"
+  },
+  {
+   "v": "rh",
+   "ly": "",
+   "rh": "D5s D6s Eb5s Eb6s D5s D6s C5s C6s",
+   "lh": "Bb2+F#3+A3h",
+   "doubt": "LH : accord en blanches accentué (>), bécarre sur A3, dièse sur F3, bémol entre parenthèses sur Bb2 ; liaison vers mes. 84"
+  },
+  {
+   "v": "r Bb3e G3e",
+   "ly": "E Ro-",
+   "rh": "Bb4s Bb5s A4s A5s Bb4s Bb5s G4s G5s",
+   "lh": "Bb2+G3+Bb3e re r",
+   "doubt": "RH : A4 et A5 bécarre"
+  },
+  {
+   "v": "F3e G3e C3e F3e",
+   "ly": "si- na‿in- no- cen-",
+   "rh": "F4s F5s G4s G5s C4s C5s F4s F5s",
+   "lh": "Bb2+C3+A3h",
+   "doubt": "LH : blanches accentuées (>), A3 bécarre, liaison vers la page suivante ; phrase « innocen-te » coupée en fin de page"
+  }
+ ]
+}
